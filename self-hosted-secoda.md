@@ -1,0 +1,2 @@
+# 🥢 Self-Hosted Secoda
+

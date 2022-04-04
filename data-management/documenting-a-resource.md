@@ -1,0 +1,2 @@
+# Documenting a resource
+
