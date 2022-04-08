@@ -1,3 +1,9 @@
+---
+description: >-
+  Start documenting and making your data discoverable for your team by
+  connecting your data resources to Secoda.
+---
+
 # Connect your data
 
 ## Creating a project

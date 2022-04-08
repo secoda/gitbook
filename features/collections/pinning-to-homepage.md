@@ -1,6 +1,10 @@
-# Pinning to Homepage
+---
+description: >-
+  Make the most relevant and important collections to the homepage of your
+  workspace to ensure easy access to the collection.
+---
 
-****
+# Pinning to Homepage
 
 You can pin a collection to the home page by clicking the three buttons in the top right hand side of the collections folder. You can also add documentation to a collection to guide different employees towards the resources they should be seeing (pictured below).
 
