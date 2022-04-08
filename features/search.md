@@ -1,6 +1,11 @@
-# Search
+---
+description: >-
+  Secoda's Search is designed to help you find any data objects (tables,
+  columns, explore, dictionary terms, Mode Reports, etc.) without even knowing
+  exactly what they’re called.
+---
 
-Secoda's Search is designed to help you find any data objects (tables, columns, explore, dictionary terms, Mode Reports, etc.) without even knowing exactly what they’re called.
+# Search
 
 ## Top Search
 
