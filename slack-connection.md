@@ -5,14 +5,30 @@ description: >-
   questions about your data directly from Slack.
 ---
 
-# 🔮 Slack Connection
+# 🔮 Slack Integration
 
-To connect a Secoda to a Slack channel in your workspace:
+To connect Secoda to your Slack channel, follow the instructions here:&#x20;
 
-1. We recommend you create a separate channel for Secoda purposes (i.e. #secoda-notifications), since you'll also receive notifications if there are things like schema changes or documentation edits there. &#x20;
-2. After this channel is created or you've decided which channel you'd like to use, go to **Settings** in the Secoda App.&#x20;
-3. Go to **Slack** from the settings menu.
-4. Click **Add to Slack** and choose the channel that you'd like to receive notifications in.&#x20;
+{% content-ref url="getting-started/connect-to-slack.md" %}
+[connect-to-slack.md](getting-started/connect-to-slack.md)
+{% endcontent-ref %}
 
-![](<.gitbook/assets/Screen Shot 2021-04-19 at 2.34.12 PM.png>)
+### Search from Slack
 
+To search Secoda from Slack, type /secoda into any channel or DM, followed by your search term. Once the results come up, you can open them to the page that you're looking for.&#x20;
+
+![](<.gitbook/assets/Screen Shot 2022-04-08 at 12.43.55 PM.png>)
+
+### Ask Questions from Slack
+
+To submit a question on Secoda directly from Slack, type "/ask" and select **Ask a Question with Secoda.**&#x20;
+
+![](<.gitbook/assets/Screen Shot 2022-04-08 at 1.20.21 PM.png>)
+
+From here, you'll be prompted to ask your question and submit information to follow up. If you're an admin, if you make a [question template](data-requests/templates.md) the default, the template will show up on this Slack question form. You can view your asked questions by going into the Secoda app and going to the Questions tab.&#x20;
+
+When this question is answered, you'll be receive a notification.&#x20;
+
+### Slack Notifications
+
+You can receive updates from Secoda in a Slack channel of your choice. If you're an admin, you'll receive notifications when documentation or schema changes. Anyone who is an owner or assignee on a question, document, or dictionary term will receive a notification when there has been an update or change.&#x20;
