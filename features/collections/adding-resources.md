@@ -6,10 +6,20 @@ description: >-
 
 # Adding Resources
 
-To add resources to a collection, either create a **New Collection** or click on the collection that you'd like to add to.&#x20;
+To add resources to a collection, create a **New Collection** and name the collection with the type of information that belongs in the collection.
 
-From here, you'll be able to add resources from within Secoda, run a live query, or add resources from a number of integrations. You'll also be able to see how many resources are connected to that collection from the **Collections** overview page.&#x20;
+![](<../../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
+
+From here, you'll be able to document the collection, share it with specific users, add resources from within Secoda and publish the collections once it's ready to go. You'll also be able to see how many resources are connected to that collection from the **Collections** overview page.&#x20;
+
+## How to add resources to collections
+
+You can add dashboards, questions, tables, disciotnary terms and docs to a collection. On each resource type, you'll find a "collection" button that allows you to select which resources you want to add into that collection.&#x20;
+
+![Adding a table to a collection](<../../.gitbook/assets/Group 585.png>)
+
+![Adding docs and dictionary terms to a collection](<../../.gitbook/assets/Group 585 (1).png>)
+
+![Adding questions to a collection](<../../.gitbook/assets/Group 586.png>)
 
 You can view the different types of resources that are connected by toggling between the tabs on the top of the resource.&#x20;
-
-![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 7.30.03 AM.png>)
