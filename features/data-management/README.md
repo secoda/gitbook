@@ -4,9 +4,7 @@ description: How to make changes, manipulate, and work with data in Secoda.
 
 # Data Management
 
-{% hint style="info" %}
-**Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!
-{% endhint %}
+Secoda ingests metadata from your data warehouse, BI tool and ETL processes. After the metadata has been extracted, Secoda gives data teams an interface to document and manage their metadata in the same place that the rest of their data knowledge lives. This section will highlight the different ways that data teams can manage, document and share metadata in Secoda.
 
 {% content-ref url="documenting-a-resource.md" %}
 [documenting-a-resource.md](documenting-a-resource.md)
