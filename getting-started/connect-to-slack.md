@@ -14,3 +14,6 @@ To connect a Secoda to a Slack channel in your workspace:
 4. Click **Add to Slack** and choose the channel that you'd like to receive notifications in.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 10.26.58 AM.png>)
+
+To learn more about Secoda's functionality with Slack, including asking questions from Slack and searching Secoda from Slack, check out our [Slack Integration](../slack-connection.md) page.
+
