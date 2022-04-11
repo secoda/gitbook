@@ -14,10 +14,10 @@ description: >-
 [custom-properties.md](custom-properties.md)
 {% endcontent-ref %}
 
-{% content-ref url="embeds.md" %}
-[embeds.md](embeds.md)
+{% content-ref url="../embeds.md" %}
+[embeds.md](../embeds.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
-**Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!
+**Good to know:** Documents, or Docs are best used for broadly providing context on the data in Secoda. You can also embed videos or assets from other resources.&#x20;
 {% endhint %}

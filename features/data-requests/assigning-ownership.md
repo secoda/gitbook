@@ -13,6 +13,6 @@ To assign an owner to an existing question or new question:&#x20;
 * Click **Assignee** and select the person you'd like to assign the question to.&#x20;
   * Note: there can only be one assignee per question.&#x20;
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-07 at 3.20.53 PM.png>)
+![](<../../.gitbook/assets/Group 595.png>)
 
 This person will now receive notifications on this question, including any status changes and follow up questions.&#x20;

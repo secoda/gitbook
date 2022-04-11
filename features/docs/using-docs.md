@@ -21,3 +21,5 @@ Query blocks allow editors to query the data directly from Secoda. You can add a
 ![](https://downloads.intercomcdn.com/i/o/392623010/47a20cf8e1c493f67e822b7b/Screen+Shot+2021-09-21+at+2.32.24+PM.png)
 
 Documents can be shared with any employee and can be indexed by the central search.&#x20;
+
+To learn more about different embed sources, go to [Embeds](../embeds.md).&#x20;

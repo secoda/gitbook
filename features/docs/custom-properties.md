@@ -8,9 +8,9 @@ description: >-
 
 To create a custom property in a document, click **Add a Property**, below the static fields in the document.&#x20;
 
-![](<../../.gitbook/assets/Group 582.png>)
-
 Enter the name for the property and the description/label. This custom property will only apply to the current document that you're editing.&#x20;
+
+![](<../../.gitbook/assets/Group 593.png>)
 
 To delete a custom property, click on the name of the property, then click **Delete**.&#x20;
 

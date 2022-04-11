@@ -8,7 +8,7 @@ description: >-
 
 To add resources to a collection, create a **New Collection** and name the collection with the type of information that belongs in the collection.
 
-![](<../../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
+![](<../../.gitbook/assets/ezgif.com-gif-maker (3) (1).gif>)
 
 From here, you'll be able to document the collection, share it with specific users, add resources from within Secoda and publish the collections once it's ready to go. You'll also be able to see how many resources are connected to that collection from the **Collections** overview page.&#x20;
 

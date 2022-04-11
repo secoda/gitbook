@@ -6,13 +6,56 @@ description: >-
 
 # Add Documentation
 
-To start adding documentation to your data, click Data from the side bar. From here, select the data source that you would like to add documentation to. You can also directly click into the dataset you'd like to document.&#x20;
+To start adding documentation to your data, click Data from the side bar, or search for the dataset you'd like to add documentation to.
 
-![](<../.gitbook/assets/Screen Shot 2022-04-08 at 10.20.29 AM.png>)
+From here, select the data source that you would like to add documentation to. You can also directly click into the dataset you'd like to document.&#x20;
 
 After you've selected the dataset you'd like to document, you'll be directed to the dataset overview page, which shows you the resources current associated with that data set.&#x20;
 
 * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.&#x20;
 * You can click the **Documentation** tab and then begin adding documentation there.&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-04-08 at 10.23.43 AM.png>)
+![](<../.gitbook/assets/ezgif.com-gif-maker (6) (1).gif>)
+
+### Documentation Features
+
+Within your dataset documentation, you can tag other resources in your Secoda workspace. For example, applicable dictionary terms or collections.&#x20;
+
+You can also embed any number of files from different resources, including:&#x20;
+
+<details>
+
+<summary>Compatible Embeds </summary>
+
+* Abstract
+* Airtable&#x20;
+* Bilibili
+* Cawemo
+* ClickUp
+* Codepen
+* DBDigram
+* Descript
+* Figma
+* Framer
+* Github Gist
+* Diagrams.net
+* GSuite
+* Google Data Studio
+* Hex Tech
+* InVision
+* Loom
+* Lucidchart&#x20;
+* Marvel
+* Mindmeister
+* Miro
+* Mode
+* Pitch
+* Prezi
+* Spotify
+* Trello
+* Typeform
+* Vimeo
+* Whimsical&#x20;
+* YouTube
+
+</details>

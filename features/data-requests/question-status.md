@@ -10,10 +10,11 @@ There are 4 different statuses for questions, and each question can only have on
 
 * Answered
 * In review
+* In progress
 * Unanswered&#x20;
 * Cancelled&#x20;
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-07 at 4.15.29 PM (1).png>)
+![](<../../.gitbook/assets/Group 596.png>)
 
 Assignees and users can change the status of questions and the assignee will be notified.&#x20;
 
