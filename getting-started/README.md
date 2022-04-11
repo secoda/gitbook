@@ -5,7 +5,7 @@ This section will go over some of the fundamentals of getting Secoda set up for 
 As a Secoda workspace admin, you're responsible for setting up your data integrations, selecting relevant data, and inviting team members with the correct permissions to do so.&#x20;
 
 {% hint style="info" %}
-Good to know: We understand that some integrations and data structures are more complex than others, so if you're having any issues, reach out directly on Slack or hello@secoda.co
+Good to know: We understand that some integrations and data structures are more complex than others, so if you're having any issues, reach out directly on our [Slack community](https://join.slack.com/t/secodacommunity/shared\_invite/zt-mhnu278g-FktKZmZ51SDQtlu3NRAxqg) or hello@secoda.co
 {% endhint %}
 
 {% content-ref url="connect-your-data.md" %}
