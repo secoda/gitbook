@@ -6,6 +6,14 @@ description: >-
 
 # Publishing Resources
 
-You can draft various resources in Secoda (dictionary terms, collections, documents, questions) and leave them as a draft before publishing. To do this, select **Draft** to the right of the resource description fields. **As a draft, only the editor and workspace admins are able to view the resource.** To make a resource to viewable to guests and viewers, select **Publish** within the same dropdown as **Draft.**&#x20;
+You can draft various resources in Secoda (dictionary terms, collections, documents, questions) and leave them as a draft before publishing. To do this, select **Draft** to the right of the resource description fields.&#x20;
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-10 at 11.43.26 AM.png>)
+**As a draft, only the editor and workspace admins are able to view the resource.** To make a resource viewable to guests and viewers, select **Publish** within the same dropdown as **Draft.**&#x20;
+
+You can change resources to Published or Drafted simply by toggling between the two. Published resources can be changed back into Drafts.
+
+![](<../../.gitbook/assets/Group 592.png>)
+
+{% hint style="info" %}
+This is useful for workspace admins and editors to create resources and have internal reviews before publishing for the entire workspace.
+{% endhint %}
