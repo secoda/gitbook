@@ -54,8 +54,8 @@ Secoda ingests metadata from your data warehouse, BI tool and ETL processes. Aft
 [bulk-editing-and-suggestions.md](bulk-editing-and-suggestions.md)
 {% endcontent-ref %}
 
-{% content-ref url="hiding-columns.md" %}
-[hiding-columns.md](hiding-columns.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="adding-to-collections.md" %}

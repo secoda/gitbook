@@ -13,7 +13,7 @@ On each dependency, you will be able to see how many levels away a particular ta
 1. Select the data asset that you'd like to view the lineage of from the Data button in the navigation bar, or, search for it using the search bar.&#x20;
 2. After selecting the asset you'd like to view, click on the **Lineage** tab. You'll find a visual demonstration of your data lineage here, and can zoom in, out, and select what lineage detail you'd like to view on the right side.&#x20;
 
-![](<../.gitbook/assets/ezgif.com-gif-maker (2).gif>)
+![](<../.gitbook/assets/ezgif.com-gif-maker (2) (1).gif>)
 
 To view the dependencies of a table, click **Downstream** on the top tabs.&#x20;
 
