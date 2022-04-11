@@ -11,5 +11,3 @@ Click a column description to edit it. Of course, you can always edit the descri
 When you update a column description, Secoda will utilize lineage and similar columns to notify you if there are direct inheritance on column(s) that use the same data. You can choose which columns to apply this updated description to, both upstream and downstream of the lineage chain.&#x20;
 
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (7).gif>)
-
-##

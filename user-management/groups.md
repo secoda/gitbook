@@ -21,5 +21,3 @@ Good to know: you can create groups for different user roles across the board. Y
 * To share a resource with a particular group, go to `Share` at the top right of that resource, then click the `Add people` button. You'll see your groups listed in the invite pop-up that appears. You can add and remove people from this same view.
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.57.02 PM.png>)
-
-\
