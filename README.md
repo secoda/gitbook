@@ -31,39 +31,3 @@ Using Secoda, data teams can define dictionary terms, metrics, queries, docs, an
 {% hint style="info" %}
 **Good to know:** Not all integrations are the same and some are tougher to integrate without some help. If you have trouble connecting or setting up your workspace, please reach out to us at hello@secoda.co or in our [Slack community](https://join.slack.com/t/secodacommunity/shared\_invite/zt-mhnu278g-FktKZmZ51SDQtlu3NRAxqg)
 {% endhint %}
-
-### Guides: Jump right in
-
-Follow our handy guides to get started on the basics as quickly as possible:
-
-{% content-ref url="getting-started/connect-your-data.md" %}
-[connect-your-data.md](getting-started/connect-your-data.md)
-{% endcontent-ref %}
-
-{% content-ref url="getting-started/define-service-accounts.md" %}
-[define-service-accounts.md](getting-started/define-service-accounts.md)
-{% endcontent-ref %}
-
-{% content-ref url="getting-started/hide-unwanted-datasets.md" %}
-[hide-unwanted-datasets.md](getting-started/hide-unwanted-datasets.md)
-{% endcontent-ref %}
-
-### Fundamentals: Dive a little deeper
-
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
-
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
-{% endcontent-ref %}
