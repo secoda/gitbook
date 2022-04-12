@@ -6,10 +6,6 @@ description: >-
 
 # Connect your data
 
-## Creating a project
-
-Projects are containers for task lists. Think of them as a library for everything your team needs to get done to complete or ship a project.
-
 ## Connecting to a specific integration
 
 [tableau.md](../integrations/tableau.md "mention")
