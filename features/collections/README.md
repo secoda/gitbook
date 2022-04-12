@@ -14,3 +14,17 @@ We recommend creating collections per team, group, or function. For example, a "
 {% endhint %}
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 12.38.10 PM (1).png>)
+
+Here are our Collections features:&#x20;
+
+{% content-ref url="adding-resources.md" %}
+[adding-resources.md](adding-resources.md)
+{% endcontent-ref %}
+
+{% content-ref url="pinning-to-homepage.md" %}
+[pinning-to-homepage.md](pinning-to-homepage.md)
+{% endcontent-ref %}
+
+{% content-ref url="sharing-collections.md" %}
+[sharing-collections.md](sharing-collections.md)
+{% endcontent-ref %}

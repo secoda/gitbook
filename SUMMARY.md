@@ -38,7 +38,6 @@
     * [Adding Custom Properties](features/data-management/adding-custom-properties.md)
     * [Column Profiling](features/data-management/column-profiling.md)
     * [Rearranging and Hiding Columns](features/data-management/rearranging-columns.md)
-    * [Bulk Editing & Suggestions](features/data-management/bulk-editing-and-suggestions.md)
     * [Adding to Collections](features/data-management/adding-to-collections.md)
     * [Removing stale data](features/data-management/removing-stale-data.md)
   * [Collections](features/collections/README.md)
