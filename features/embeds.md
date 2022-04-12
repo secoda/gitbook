@@ -12,10 +12,10 @@ Here's a walkthrough of how to embed and what sources Secoda allows you to embed
 
 ### Embedding from external sources
 
-<details>
+**Types of embeds in Secoda:**
 
-<summary>Embed Integrations </summary>
-
+* Queries
+* Charts
 * Abstract
 * Airtable&#x20;
 * Bilibili
@@ -47,15 +47,13 @@ Here's a walkthrough of how to embed and what sources Secoda allows you to embed
 * Whimsical&#x20;
 * YouTube
 
-</details>
-
-To embed from external source, simply type / and begin typing the source you'd like to embed from, or, scroll through until you find the source.&#x20;
+To embed from an external source, simply type / and begin typing the source you'd like to embed from, or, scroll through until you find the source.&#x20;
 
 ![](<../.gitbook/assets/ezgif.com-gif-maker (8).gif>)
 
 ### Inserting a generic embed
 
-To insert a generic embed into a document:&#x20;
+You can insert an embed that's not on the list. To insert a generic embed into a document:&#x20;
 
 Type `/` and scroll through the various functionalities until you find **Generic Embed,** or begin typing **Embed** and select **Generic Embed**.&#x20;
 
