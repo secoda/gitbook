@@ -1,2 +1,0 @@
-# Bulk Editing & Suggestions
-

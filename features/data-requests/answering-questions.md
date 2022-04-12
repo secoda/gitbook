@@ -2,9 +2,9 @@
 
 Employees who come to Secoda can search for their answers using our data discovery tool. What we've noticed is that there is a lot of information that isn't discoverable using metadata or metrics. Sometimes, questions to the data team are much more nuanced and require a person on the data team to answer.
 
-Today, data teams will answer these questions in an ad hoc fashion through Slack or Jira. Because there is little process around documenting these ad hoc questions, the answers get lost and data teams have to repetitively answer the same questions over and over again.
+It's not unusual for data teams to answer these questions in an ad hoc fashion through Slack or Jira. Because there is little process around documenting these ad hoc questions, the answers get lost and data teams have to repetitively answer the same questions over and over again.
 
-Fortunately, Secoda's question feature is able to solve this problem for data teams. Instead of answering questions on Slack or Jira, teams can create a repository of answered questions directly in their data discovery tool so employees are able to ask questions directly to the data team whenever they are unable to get to an answer themselves.
+Secoda's question feature is able to solve this problem for data teams. Instead of answering questions on Slack or Jira, teams can create a repository of answered questions directly in their data discovery tool so employees are able to ask questions directly to the data team whenever they are unable to get to an answer themselves.
 
 Employees can submit a new question to the data team by filling out the "Questions" form, found in the questions tab:
 
