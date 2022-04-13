@@ -16,6 +16,7 @@
   * [Mode](integrations/mode.md)
   * [Redash](integrations/redash.md)
   * [Big Query](integrations/big-query.md)
+  * [Google Data Studio](integrations/google-data-studio.md)
   * [Tableau](integrations/tableau.md)
   * [Redshift](integrations/redshift.md)
   * [Postgres](integrations/postgres.md)

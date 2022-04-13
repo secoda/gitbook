@@ -25,6 +25,7 @@ This page walks through the current integrations that Secoda supports and what's
 * PowerBI&#x20;
 * Metabase
 * Airflow
+* Google Data Studio
 
 ### ETL Tools
 
