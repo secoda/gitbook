@@ -2,11 +2,11 @@
 
 ## How do I make the most of the free tier?
 
-We recocmend following the Getting Started section in Secoda. If you follow these steps, you'll be able to see the full range of Secoda's data cataloguing features. You can also play around with docs, questions, collections and dictionary terms to see if it meets your needs.&#x20;
+We recommend following the Getting Started section in Secoda. If you follow these steps, you'll be able to see the full range of Secoda's data cataloguing features. You can also play around with docs, questions, collections and dictionary terms to see if it meets your needs.&#x20;
 
-The most important thing is to get your data connected to Secoda. If you experience any difficulty connecting, please contact us via Intercom or send an email to hello@secoda.co
+The first, crucial step is to get your data connected to Secoda. If you experience any difficulty connecting to your data source or don't see your source as an available integration, please contact us via Intercom, our Slack community, or send an email to hello@secoda.co
 
-After your data is connected to Secoda, you'll be able to add owners, descriptions, definitions, collections, tags etc. to your data.&#x20;
+After your data is connected to Secoda, you'll be able to add users, owners, descriptions, definitions, collections, tags etc. to your data.&#x20;
 
 ## How can I see how people are using data in my organization?
 
@@ -22,7 +22,7 @@ Popularity is based on the number of times a piece of data has been queried, the
 
 Search results are based on a number of factors.&#x20;
 
-The biggest factor is if the text of the resource (in the column, table or dashboard) matches the text input into the search. The results are then ordered by popularity. This is why you may see less popular results first, if the first result matches the keyword better.
+The most important factor for search results is the text of the resource (in the column, table or dashboard) matches the text input into the search. The results are then ordered by relevance and frequency of use.&#x20;
 
 ## How often does Secoda update?
 
@@ -30,9 +30,11 @@ You can choose when to run an extraction for each integrations. Admins can run m
 
 ## Why can't I edit in Secoda?
 
-Depending on your role, you may not be able to make changes to documentation in Secoda.&#x20;
+Editing certain resources in Secoda are only possible if you're an Editor or Admin. Depending on your role, you may not be able to make changes to documentation in Secoda.&#x20;
 
-You should contact someone within your organization to ask for more permissions. Depending on your role and how your organization wants to use Secoda, an Admin on your Secoda instance can change your role.
+You should contact the admin(s) within your organization to ask for more permissions.
+
+To learn more about user roles in Secoda, check out our[ User Management ](user-management/)section.&#x20;
 
 ## What happens if someone edits the documentation in Secoda?
 
