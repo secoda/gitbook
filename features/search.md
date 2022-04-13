@@ -1,8 +1,8 @@
 ---
 description: >-
-  Secoda's Search helps you find any data resource including tables, columns,
-  collections, dictionary terms, and documents. You can search in plain
-  language.
+  You can search for any data resource using Secoda's Search, including tables,
+  columns, collections, dictionary terms, and documents. Plain-language searches
+  are supported.
 ---
 
 # Search
@@ -15,7 +15,7 @@ Use the search bar at the top of the page is always available to find or quickly
 
 The space bar operates as a "and" in the search function. For example, if you search for `sales revenue` you'll get results with both "sales" _and_ "revenue", whereas if you search for `sales_revenue` you'll get results that are looking for "sales\_revenue" as one word.
 
-All search results are sorted by relevance and recency, so you’ll see what’s being used the most frequently first.
+You will see the most popular searches first because we sort all results by relevance and recency.
 
 ## Nav Search
 
