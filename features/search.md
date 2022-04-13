@@ -9,13 +9,9 @@ description: >-
 
 ## Central Search
 
-Use the search bar at the top of the page is always available to find or quickly navigate to any data asset. You can search for terms in plain language, or by the table name and data source if you already know what you're looking for.&#x20;
+You can search for terms in plain language, or by the table name and data source if you already know what you're looking for.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-07 at 7.50.48 PM.png>)
-
-The space bar operates as a "and" in the search function. For example, if you search for `sales revenue` you'll get results with both "sales" _and_ "revenue", whereas if you search for `sales_revenue` you'll get results that are looking for "sales\_revenue" as one word.
-
-You will see the most popular searches first because we sort all results by relevance and recency.
 
 ## Nav Search
 
