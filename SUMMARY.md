@@ -80,3 +80,5 @@
   * [Collections](secoda-api/collections.md)
   * [DBT Integration](secoda-api/dbt-integration.md)
 * [⁉ FAQ](faq.md)
+* [Security & Compliance](https://secoda.notion.site/Legal-6838a9bea4944033bd47db08ba725d4e)
+* [System Status](https://status.secoda.co)
