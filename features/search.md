@@ -1,23 +1,21 @@
 ---
 description: >-
-  Secoda's Search is designed to help you find any data objects (tables,
-  columns, explore, dictionary terms, Mode Reports, etc.) without even knowing
-  exactly what they’re called.
+  Secoda's Search helps you find any data resource including tables, columns,
+  collections, dictionary terms, and documents. You can search in plain
+  language.
 ---
 
 # Search
 
 ## Top Search
 
-The search bar at the top of the page is always available to find or quickly navigate to any data asset.
+Use the search bar at the top of the page is always available to find or quickly navigate to any data asset. You can search for terms in plain language, or by the table name and data source if you already know what you're looking for.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-07 at 7.50.48 PM.png>)
 
-Space works as a delimiter in the search, so if you search for `order items` you'll get results with both "order" _and_ "items", whereas if you search for `order_items` you'll get results that are looking for "order\_items" as one word.
+The space bar operates as a "and" in the search function. For example, if you search for `sales revenue` you'll get results with both "sales" _and_ "revenue", whereas if you search for `sales_revenue` you'll get results that are looking for "sales\_revenue" as one word.
 
-Note that when you search for multiple words, the order of the search terms matters!
-
-All search results are sorted by relevance and popularity, so you’ll see what’s being used the most on the top.&#x20;
+All search results are sorted by relevance and recency, so you’ll see what’s being used the most frequently first.
 
 ## Side Nav Search
 
