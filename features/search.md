@@ -7,7 +7,7 @@ description: >-
 
 # Search
 
-## Top Search
+## Central Search
 
 Use the search bar at the top of the page is always available to find or quickly navigate to any data asset. You can search for terms in plain language, or by the table name and data source if you already know what you're looking for.&#x20;
 
@@ -17,7 +17,7 @@ The space bar operates as a "and" in the search function. For example, if you se
 
 All search results are sorted by relevance and recency, so you’ll see what’s being used the most frequently first.
 
-## Side Nav Search
+## Nav Search
 
 Click on different tabs below the search bar to see results from a specific data source. For example, if you're looking for a Mode dashboard, click on **Data -> Mode ->Personal -> Payments** as shown below. You can use the side nav to filter by a table, source, schema or folder that you want to view in the data folder.&#x20;
 
