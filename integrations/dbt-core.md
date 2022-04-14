@@ -4,8 +4,6 @@ description: Connecting dbt core to Secoda
 
 # dbt Core
 
-
-
 ### **Getting Started** <a href="#h_0703b4d233" id="h_0703b4d233"></a>
 
 There are two options to connect dbt core with Secoda:
