@@ -13,6 +13,7 @@
   * [Looker](integrations/looker.md)
   * [Metabase](integrations/metabase.md)
   * [dbt](integrations/dbt.md)
+  * [dbt Core](integrations/dbt-core.md)
   * [Mode](integrations/mode.md)
   * [Redash](integrations/redash.md)
   * [Big Query](integrations/big-query.md)
