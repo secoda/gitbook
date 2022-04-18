@@ -11,7 +11,10 @@ This page walks through the current integrations that Secoda supports and what's
 * Snowflake
 * BigQuery
 * Redshift
-* PostgreSQL&#x20;
+* Postgres
+* MySQL
+* Microsoft SQL Server
+* Oracle
 
 ### BI and Data Visualization Tools
 
