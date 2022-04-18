@@ -22,7 +22,12 @@ To provide [least privilege](https://en.wikipedia.org/wiki/Principle\_of\_least\
 4. When assigning permissions, make sure to grant the following roles:
 
 ```
-BigQuery Metadata ViewerBigQuery Resource ViewerJob ViewerLogs ViewerPrivate Logs ViewerBigQuery Data Viewer (Optional*)
+BigQuery Metadata Viewer
+BigQuery Resource Viewer
+Job Viewer
+Logs Viewer
+Private Logs Viewer
+BigQuery Data Viewer
 ```
 
 \*BigQuery Data Viewer is not required for the catalog feature, but is required for the query and chart blocks feature. We recommend adding this role for the best experience on Secoda.
@@ -39,4 +44,4 @@ BigQuery Metadata ViewerBigQuery Resource ViewerJob ViewerLogs ViewerPrivate Log
 
 After these steps are completed, Secoda will extract the metadata associated with Big Query once every 24 hours.
 
-\
+\\
