@@ -12,24 +12,23 @@ This page walks through the current integrations that Secoda supports and what's
 * BigQuery
 * Redshift
 * PostgreSQL&#x20;
-* Hive
 
 ### BI and Data Visualization Tools
 
 * Tableau&#x20;
 * Looker
 * Mode&#x20;
-* Sisence&#x20;
 * Sigma&#x20;
 * Redash
-* PowerBI&#x20;
+* Power BI&#x20;
 * Metabase
-* Airflow
 * Google Data Studio
 
 ### ETL Tools
 
-* dbt &#x20;
+* dbt Cloud
+* dbt Core
+* Airflow
 
 ### SSO
 
