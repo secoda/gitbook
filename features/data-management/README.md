@@ -18,10 +18,6 @@ Secoda ingests metadata from your data warehouse, BI tool and ETL processes. Aft
 [editing-descriptions.md](editing-descriptions.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="publishing-resources.md" %}
 [publishing-resources.md](publishing-resources.md)
 {% endcontent-ref %}
@@ -48,14 +44,6 @@ Secoda ingests metadata from your data warehouse, BI tool and ETL processes. Aft
 
 {% content-ref url="rearranging-columns.md" %}
 [rearranging-columns.md](rearranging-columns.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="adding-to-collections.md" %}
