@@ -14,7 +14,7 @@ From here, you'll be able to document the collection, share it with specific use
 
 ## How to add resources to collections
 
-You can add dashboards, questions, tables, disciotnary terms and docs to a collection. On each resource type, you'll find a "collection" button that allows you to select which resources you want to add into that collection.&#x20;
+You can add dashboards, questions, tables, dictionary terms and docs to a collection. On each resource type, you'll find a "collection" button that allows you to select which resources you want to add into that collection.&#x20;
 
 ![Adding a table to a collection](<../../.gitbook/assets/Group 585.png>)
 
