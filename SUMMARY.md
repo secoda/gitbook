@@ -10,7 +10,7 @@
   * [Invite Teammates](getting-started/invite-teammates.md)
 * [🔌 Integrations](integrations/README.md)
   * [Snowflake](integrations/snowflake.md)
-  * [Big Query](integrations/big-query.md)
+  * [BigQuery](integrations/big-query.md)
   * [Postgres](integrations/postgres.md)
   * [Redshift](integrations/redshift.md)
   * [Microsoft SQL Server](integrations/microsoft-sql-server.md)
