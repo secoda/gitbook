@@ -1,6 +1,6 @@
 # Power BI
 
-The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI workspace. To connect Power BI to Secoda follow these three steps:
+The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI workspace. To connect Power BI to Secoda follow the steps below:
 
 1. Go to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and select the Power BI option
 2.  Click "Connect". You'll be brought to the consent page that asks for the following permissions on your Power BI workspace&#x20;
