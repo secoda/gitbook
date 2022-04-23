@@ -15,7 +15,17 @@ The username and password you’ve already created for your cluster is your admi
 To create a new user, you’ll need to log into the Postgres database directly and run the following SQL commands:
 
 ```
--- Create a user named "secoda" that Secoda will use when connecting to your Postgres database. CREATE USER secoda PASSWORD '<enter password here>'; -- Complete this query for any schemas you would like Secoda to extract from GRANT SELECT ON ALL TABLES IN SCHEMA <schema_name> TO secoda;
+-- Create a user named "secoda" that Secoda will use when connecting to your Postgres database. 
+CREATE USER secoda PASSWORD '<enter password here>'; 
+
+-- Complete this query for any databases you would like Secoda to extract from
+GRANT CONNECT ON DATABASE <database_name> TO secoda;
+
+-- Complete this query for any schemas you would like Secoda to extract from 
+GRANT USAGE ON SCHEMA <schema_name> TO secoda;
+GRANT SELECT ON ALL TABLES IN SCHEMA <schema_name> TO secoda;
+ALTER DEFAULT PRIVILEGES IN SCHEMA <schema_name>
+GRANT SELECT ON TABLES TO secoda;
 ```
 
 When connecting to Postgres in Secoda, use the username/password you’ve created here instead of your admin account.
