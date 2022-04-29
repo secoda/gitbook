@@ -25,6 +25,7 @@
   * [dbt Core](integrations/dbt-core.md)
   * [Airflow](integrations/airflow.md)
   * [Hightouch](integrations/hightouch.md)
+  * [Polytomic](integrations/polytomic.md)
   * [Git](integrations/git-integration.md)
   * [Connecting via SSH Tunnel](integrations/connecting-via-ssh-tunnel.md)
 * [🍒 Features](features/README.md)
