@@ -26,6 +26,7 @@
   * [Airflow](integrations/airflow.md)
   * [Hightouch](integrations/hightouch.md)
   * [Polytomic](integrations/polytomic.md)
+  * [Great Expectations](integrations/great-expectations.md)
   * [Git](integrations/git-integration.md)
   * [Connecting via SSH Tunnel](integrations/connecting-via-ssh-tunnel.md)
 * [Features](features/README.md)
