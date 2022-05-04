@@ -1,4 +1,4 @@
-# 🔌 Integrations
+# Integrations
 
 This page walks through the current integrations that Secoda supports and what's on the roadmap.
 
@@ -8,30 +8,30 @@ This page walks through the current integrations that Secoda supports and what's
 
 ### Data Warehouses
 
-* Snowflake
-* BigQuery
-* Redshift
-* Postgres
-* MySQL
-* Microsoft SQL Server
+* [Snowflake](snowflake.md)
+* [BigQuery](big-query.md)
+* [Redshift](redshift.md)
+* [Postgres](postgres.md)
+* [MySQL](microsoft-sql-server.md)
+* [Microsoft SQL Server](microsoft-sql-server.md)
 * Oracle
 
 ### BI and Data Visualization Tools
 
-* Tableau&#x20;
-* Looker
-* Mode&#x20;
+* [Tableau](tableau.md)&#x20;
+* [Looker](looker.md)
+* [Mode](mode.md)&#x20;
 * Sigma&#x20;
-* Redash
-* Power BI&#x20;
-* Metabase
-* Google Data Studio
+* [Redash](redash.md)
+* [Power BI ](power-bi.md)
+* [Metabase](metabase.md)
+* [Google Data Studio](google-data-studio.md)
 
 ### ETL Tools
 
-* dbt Cloud
-* dbt Core
-* Airflow
+* [dbt Cloud](dbt.md)
+* [dbt Core](dbt-core.md)
+* [Airflow](airflow.md)
 
 ### SSO
 
