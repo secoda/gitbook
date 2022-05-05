@@ -1,4 +1,4 @@
-# 📃 Policies
+# Policies
 
 [terms-of-use.md](terms-of-use.md "mention")
 

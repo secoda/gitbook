@@ -4,7 +4,7 @@ description: >-
   their own environment
 ---
 
-# 🥢 Self-Hosted Secoda
+# Self-Hosted Secoda
 
 **Provision Machines**
 

@@ -5,7 +5,7 @@ description: >-
   questions about your data directly from Slack.
 ---
 
-# 🔮 Slack Integration
+# Slack Integration
 
 To connect Secoda to your Slack channel, follow the instructions here:&#x20;
 
