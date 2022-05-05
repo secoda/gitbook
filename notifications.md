@@ -4,7 +4,7 @@ description: >-
   activity in your Secoda workspace.
 ---
 
-# 🔔 Notifications
+# Notifications
 
 Viewers, editors, and admins can change their notification settings by going to **Settings -> Notifications.**&#x20;
 

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [What is Secoda?](README.md)
-* [Getting Started](getting-started/README.md)
+* [✨ Getting Started](getting-started/README.md)
   * [Connect your data](getting-started/connect-your-data.md)
   * [Define Service Accounts](getting-started/define-service-accounts.md)
   * [Hide Unwanted Datasets](getting-started/hide-unwanted-datasets.md)
@@ -25,6 +25,7 @@
   * [dbt Core](integrations/dbt-core.md)
   * [Airflow](integrations/airflow.md)
   * [Hightouch](integrations/hightouch.md)
+  * [Linear](integrations/linear.md)
   * [Polytomic](integrations/polytomic.md)
   * [Great Expectations](integrations/great-expectations.md)
   * [Git](integrations/git-integration.md)

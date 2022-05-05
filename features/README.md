@@ -1,4 +1,4 @@
-# 🍒 Features
+# Features
 
 Get to know Secoda's features in depth with the following pages.&#x20;
 

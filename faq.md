@@ -1,4 +1,4 @@
-# ⁉ FAQ
+# FAQ
 
 ## What can I do on the free tier?
 

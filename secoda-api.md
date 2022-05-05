@@ -1,4 +1,4 @@
-# 🖨 Secoda API
+# Secoda API
 
 Welcome to the Secoda API Docs. Secoda API allows you to interact with your Secoda workspace through a HTTP API. Secoda's API allows you to interact with your Secoda Workspace programatically. You can use the API to:
 
