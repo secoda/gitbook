@@ -47,7 +47,7 @@
     * [Rearranging and Hiding Columns](features/data-management/rearranging-columns.md)
     * [Adding to Collections](features/data-management/adding-to-collections.md)
     * [Removing stale data](features/data-management/removing-stale-data.md)
-  * [Collections](features/collections/README.md)
+  * [Managing Collections](features/collections/README.md)
     * [Adding Resources](features/collections/adding-resources.md)
     * [Pinning to Homepage](features/collections/pinning-to-homepage.md)
     * [Sharing Collections](features/collections/sharing-collections.md)
