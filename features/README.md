@@ -1,6 +1,8 @@
-# Features
+---
+description: Get to know Secoda's features in depth with the following pages.
+---
 
-Get to know Secoda's features in depth with the following pages.&#x20;
+# Features
 
 {% content-ref url="search.md" %}
 [search.md](search.md)

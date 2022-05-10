@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Postgres integration that Secoda
+  supports
+---
+
 # Postgres
 
 ### **Getting Started** <a href="#h_080d959898" id="h_080d959898"></a>

@@ -1,3 +1,7 @@
+---
+description: Key questions about the Secoda product
+---
+
 # FAQ
 
 ## What can I do on the free tier?

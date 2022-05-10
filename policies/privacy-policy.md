@@ -1,3 +1,7 @@
+---
+description: Secoda's privacy policy
+---
+
 # Privacy Policy
 
 We at Secoda (“Company,” “we,” “us,” “our”) know you care about how your personal information is used and shared, and we take your privacy seriously. Please read the following to learn more about our Privacy Policy.

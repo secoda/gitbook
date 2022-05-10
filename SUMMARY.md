@@ -1,7 +1,7 @@
 # Table of contents
 
 * [What is Secoda?](README.md)
-* [✨ Getting Started](getting-started/README.md)
+* [Getting Started](getting-started/README.md)
   * [Connect your data](getting-started/connect-your-data.md)
   * [Define Service Accounts](getting-started/define-service-accounts.md)
   * [Hide Unwanted Datasets](getting-started/hide-unwanted-datasets.md)
@@ -36,6 +36,7 @@
   * [Data Management](features/data-management/README.md)
     * [Documenting a resource](features/data-management/documenting-a-resource.md)
     * [Editing Descriptions](features/data-management/editing-descriptions.md)
+    * [Bulk Editing Resources](features/data-management/bulk-editing-resources.md)
     * [Publishing Resources](features/data-management/publishing-resources.md)
     * [Sharing Resources](features/data-management/sharing-resources.md)
     * [Auto PII Tagging](features/data-management/auto-pii-tagging.md)

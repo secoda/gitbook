@@ -1,6 +1,12 @@
+---
+description: >-
+  Currently, there are 4 different roles available in Secoda: Viewer, Editor,
+  Admin and Guest.
+---
+
 # Roles
 
-Currently, there are 4 different roles available in Secoda: **Viewer**, **Editor,** **Admin and Guest**. The different roles have the following permissions:
+The different roles have the following permissions:
 
 | Permission                                                                                                                     | Guest | Viewer | Editor | Admin |
 | ------------------------------------------------------------------------------------------------------------------------------ | ----- | ------ | ------ | ----- |

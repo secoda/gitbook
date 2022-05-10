@@ -1,3 +1,7 @@
+---
+description: How to manage users with the Secoda API
+---
+
 # User Management
 
 #### Invite a New User

@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Tableau integration that Secoda
+  supports
+---
+
 # Tableau
 
 #### **Getting Started** <a href="#h_d354fd27f9" id="h_d354fd27f9"></a>
@@ -37,8 +43,6 @@ After creating a Tableau access token, the next step is to connect to Secoda:
 3. Enter your Tableau credentials you created above
 4. Click 'Connect'
 
-
-
 | **Tableau Server version**      | **REST API version** | **Schema version** |
 | ------------------------------- | -------------------- | ------------------ |
 | 8.3, 9.0                        | 2.0                  | 2.0                |
@@ -64,4 +68,4 @@ After creating a Tableau access token, the next step is to connect to Secoda:
 | 2020.3                          | 3.9                  | 3.9                |
 | 2020.4                          | 3.10                 | 3.10               |
 
-\
+\\

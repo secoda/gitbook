@@ -1,3 +1,7 @@
+---
+description: How to manage collections with the Secoda API
+---
+
 # Collections
 
 ### List All Collections

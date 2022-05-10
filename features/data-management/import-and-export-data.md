@@ -1,3 +1,9 @@
+---
+description: >-
+  To export data descriptions out of Secoda, you can go to Settings → Data →
+  Export data. Below is the screenshot for the settings:
+---
+
 # Import & Export Data
 
 To export data descriptions out of Secoda, you can go to **Settings → Data → Export** data. Below is the screenshot for the settings:
@@ -29,7 +35,7 @@ If you'd like to just import table descriptions and properties, the "Field Name"
 
 #### 2. Upload descriptions to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
 
-Log into [Secoda](https://app.secoda.co) and go into the **Settings > Data.** Create a backup of your current descriptions, if you'd like, by clicking "Export". **** Click the "**Import**" button and select the `.csv` file you exported in step 1, and wait for the success message.
+Log into [Secoda](https://app.secoda.co) and go into the **Settings > Data.** Create a backup of your current descriptions, if you'd like, by clicking "Export". \*\*\*\* Click the "**Import**" button and select the `.csv` file you exported in step 1, and wait for the success message.
 
 ![](https://downloads.intercomcdn.com/i/o/476467923/871c34f704da3d8948de7707/image.png)
 

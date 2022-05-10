@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Airflow integration that Secoda
+  supports
+---
+
 # Airflow
 
 ### **Getting Started** <a href="#h_d780d3703b" id="h_d780d3703b"></a>
@@ -10,8 +16,7 @@ There are three steps to get started using Airflow with Secoda:
 
 #### **Enable the Airflow REST API** <a href="#h_5679925c3a" id="h_5679925c3a"></a>
 
-Secoda uses the Airflow stable REST API, which is only available on Airflow v2.0+. For Secoda to retrieve metadata from Airflow, you need to enable your Airflow's REST API. To do this, edit your `airflow.cfg` file and change the line below to `airflow.api.auth.backend.basic_auth`\
-
+Secoda uses the Airflow stable REST API, which is only available on Airflow v2.0+. For Secoda to retrieve metadata from Airflow, you need to enable your Airflow's REST API. To do this, edit your `airflow.cfg` file and change the line below to `airflow.api.auth.backend.basic_auth`\\
 
 ```
 [api] auth_backend = airflow.api.auth.backend.deny_all

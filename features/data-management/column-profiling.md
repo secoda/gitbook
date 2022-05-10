@@ -1,6 +1,10 @@
-# Column Profiling
+---
+description: >-
+  Secoda provides high level insight into the columns of your datasets with
+  Column Profiling.
+---
 
-Secoda provides high level insight into the columns of your datasets with Column Profiling.&#x20;
+# Column Profiling
 
 You're able to view the distribution of your data, the column count, and how many unique columns you have. And, if you hover over the distribution visualization, you can see the distribution percentage and what the column name is.&#x20;
 

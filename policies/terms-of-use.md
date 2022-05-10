@@ -1,6 +1,10 @@
+---
+description: Secoda's terms of use policy
+---
+
 # Terms of Use
 
-## **How These Terms Work**
+## How These Terms Work
 
 Thank you for visiting Secoda the data platform which helps teams find data faster
 

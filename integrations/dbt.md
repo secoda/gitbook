@@ -1,3 +1,7 @@
+---
+description: This page walks through the Secoda and dbt integration that Secoda supports
+---
+
 # dbt
 
 ### **Getting Started** <a href="#h_0703b4d233" id="h_0703b4d233"></a>

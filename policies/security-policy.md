@@ -1,3 +1,7 @@
+---
+description: Secoda is committed to security and focused on keeping you and your data safe.
+---
+
 # Security Policy
 
 Secoda is committed to security and focused on keeping you and your data safe. Secoda adheres to industry-leading standards while connecting and loading data from all of your data sources.

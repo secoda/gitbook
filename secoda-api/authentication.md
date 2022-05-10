@@ -1,3 +1,9 @@
+---
+description: >-
+  Navigate to your workspace settings on Secoda. Click on the “API” to get a
+  list of your API Keys.
+---
+
 # Authentication
 
 **Step 1: Create an API Key**

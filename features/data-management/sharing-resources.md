@@ -1,6 +1,12 @@
+---
+description: >-
+  Secoda is built to be super collaborative, so there's a number of ways to
+  share the content you create with other people.
+---
+
 # Sharing Resources
 
-Secoda is built to be super collaborative, so there's a number of ways to share the content you create with other people. Our permission levels ensure that they access this content exactly the way you want them to.
+Our permission levels ensure that they access this content exactly the way you want them to.
 
 ### Ways to share <a href="#h_926aeb5ac5" id="h_926aeb5ac5"></a>
 

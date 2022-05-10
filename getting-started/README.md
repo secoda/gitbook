@@ -1,6 +1,10 @@
-# ✨ Getting Started
+---
+description: >-
+  This section will go over some of the fundamentals of getting Secoda set up
+  for your team.
+---
 
-This section will go over some of the fundamentals of getting Secoda set up for your team.&#x20;
+# Getting Started
 
 As a Secoda workspace admin, you're responsible for setting up your data integrations, selecting relevant data, and inviting team members with the correct permissions to do so.&#x20;
 

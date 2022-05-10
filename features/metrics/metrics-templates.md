@@ -1,6 +1,12 @@
+---
+description: >-
+  Creating a standard structure for dictionary terms across your team is helpful
+  so that you can ensure each term has the same detail as the next.
+---
+
 # Dictionary Templates
 
-Creating a standard structure for dictionary terms across your team is helpful so that you can ensure each term has the same detail as the next. As an admin or editor, you can create Dictionary Term Templates. Every term created with this template will have the same structure as you've set up.&#x20;
+Every term created with this template will have the same structure as you've set up.&#x20;
 
 To create a Dictionary template, go to the **Templates** button beside **New Dictionary Term.**&#x20;
 

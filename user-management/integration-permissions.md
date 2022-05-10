@@ -1,6 +1,11 @@
-# Integration Permissions
+---
+description: >-
+  Not everyone who is using Secoda from your team should be able to query your
+  data. We make it easy for you to control who can see what, and who can run a
+  query from your data sources.
+---
 
-Not everyone who is using Secoda from your team should be able to query your data. We make it easy for you to control who can see what, and who can run a query from your data sources.
+# Integration Permissions
 
 To start, go to Integrations from the left navigation bar.&#x20;
 

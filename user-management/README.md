@@ -1,6 +1,11 @@
-# 🦸♂ User Management
+---
+description: >-
+  This section will walk you through how to add and remove members from your
+  workspace, how you can organize them through groups, and what every role
+  within Secoda means.
+---
 
-This section will walk you through how to add and remove members from your workspace, how you can organize them through groups, and what every role within Secoda means.&#x20;
+# User Management
 
 {% content-ref url="roles.md" %}
 [roles.md](roles.md)

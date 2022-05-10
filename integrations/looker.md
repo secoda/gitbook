@@ -1,3 +1,7 @@
+---
+description: This page walks through the Secoda and Looker integration that Secoda supports
+---
+
 # Looker
 
 **Getting Started**

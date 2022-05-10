@@ -1,3 +1,7 @@
+---
+description: Everything you need to know about Secoda's policies
+---
+
 # Policies
 
 [terms-of-use.md](terms-of-use.md "mention")
