@@ -6,9 +6,9 @@ description: How to manage dbt with the Secoda API
 
 ### Extract From Manifest File
 
-| Endpoint | [https://api.secoda.co/integration/dbt/manifest/](https://api.secoda.co/integration/dbt/manifest/) |
-| -------- | -------------------------------------------------------------------------------------------------- |
-| Method   | POST                                                                                               |
+| Endpoint | `https://api.secoda.co/integration/dbt/manifest/`  |
+| -------- | -------------------------------------------------- |
+| Method   | POST                                               |
 
 *   Sample Response
 
