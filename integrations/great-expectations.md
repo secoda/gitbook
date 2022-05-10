@@ -6,7 +6,7 @@ description: This page walks through the Secoda and GE integration that Secoda s
 
 Secoda currently supports retrieving expectation and validation metadata from Google Cloud Storage.
 
-## Getting Started with Great Expectations and Google Cloud Storage <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
+## Getting Started with Great Expectations <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
 There are two steps to get started using Great Expectations with Secoda through Google Cloud Storage:
 

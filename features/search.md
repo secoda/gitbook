@@ -7,7 +7,7 @@ description: >-
 
 # Search
 
-## Central Search
+## Secoda Search
 
 You can search for terms in plain language, or by the table name and data source if you already know what you're looking for.&#x20;
 

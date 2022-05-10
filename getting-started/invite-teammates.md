@@ -7,6 +7,8 @@ description: >-
 
 # Invite Teammates
 
+## How to invite teammates to Secoda
+
 One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. As a workplace admin, you're able to do this. Viewers and editors are not able to invite people. You can have multiple admins per workspace.&#x20;
 
 To start inviting teammates, go to the Settings page by clicking the ⚙ button in the bottom right corner. From here, click **Members.**&#x20;

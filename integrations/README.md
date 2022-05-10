@@ -6,7 +6,7 @@ description: >-
 
 # Integrations
 
-
+## All the integrations that connect to Secoda
 
 {% hint style="info" %}
 **Good to know:** Secoda ships product updates weekly! If you don't see your data tool or source here, message us on Slack or email us at hello@secoda.co and we'll add it to the roadmap.&#x20;

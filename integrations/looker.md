@@ -4,7 +4,7 @@ description: This page walks through the Secoda and Looker integration that Seco
 
 # Looker
 
-**Getting Started**
+## **Getting Started with Looker** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Looker with Secoda:
 

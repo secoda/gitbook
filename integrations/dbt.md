@@ -4,7 +4,7 @@ description: This page walks through the Secoda and dbt integration that Secoda 
 
 # dbt
 
-### **Getting Started** <a href="#h_0703b4d233" id="h_0703b4d233"></a>
+## **Getting Started with dbt** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using dbt with Secoda:
 

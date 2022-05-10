@@ -6,6 +6,8 @@ description: >-
 
 # Add Documentation
 
+## How to document data in Secoda
+
 To start adding documentation to your data, click Data from the side bar, or search for the dataset you'd like to add documentation to.
 
 From here, select the data source that you would like to add documentation to. You can also directly click into the dataset you'd like to document.&#x20;

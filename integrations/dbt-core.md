@@ -6,7 +6,7 @@ description: >-
 
 # dbt Core
 
-### **Getting Started** <a href="#h_0703b4d233" id="h_0703b4d233"></a>
+## **Getting Started with dbt Core** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are two options to connect dbt core with Secoda:
 

@@ -4,7 +4,7 @@ description: This page walks through the Secoda and Mode integration that Secoda
 
 # Mode
 
-**Getting Started**
+## **Getting Started with Mode** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Mode with Secoda:
 

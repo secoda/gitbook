@@ -6,7 +6,7 @@ description: >-
 
 # Postgres
 
-### **Getting Started** <a href="#h_080d959898" id="h_080d959898"></a>
+## **Getting Started with Postgres** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Postgres with Postgres:
 

@@ -6,7 +6,7 @@ description: >-
 
 # Microsoft SQL Server
 
-### **Getting Started** <a href="#h_b2b16b2139" id="h_b2b16b2139"></a>
+## **Getting Started with Microsoft SQL Server** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Microsoft SQL Server with Secoda:
 
