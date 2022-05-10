@@ -6,6 +6,8 @@ description: >-
 
 # Publishing Resources
 
+## **Getting Started with Publishing in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 You can draft various resources in Secoda (dictionary terms, collections, documents, questions) and leave them as a draft before publishing. To do this, select **Draft** to the right of the resource description fields.&#x20;
 
 **As a draft, only the editor and workspace admins are able to view the resource.** To make a resource viewable to guests and viewers, select **Publish** within the same dropdown as **Draft.**&#x20;

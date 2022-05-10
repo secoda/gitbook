@@ -7,6 +7,8 @@ description: >-
 
 # Integration Permissions
 
+## **Everything about to managing** Permissions **for Integrations** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 To start, go to Integrations from the left navigation bar.&#x20;
 
 From here, click on the Integration you'd like to edit the permissions for.&#x20;

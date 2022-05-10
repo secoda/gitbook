@@ -7,6 +7,8 @@ description: >-
 
 # Rearranging and Hiding Columns
 
+## **How to rearrange and hide columns in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 To do this, go to the dataset that you'd like to rearrange. You can either search for it using the search bar, or in your left-side navigation bar.&#x20;
 
 After you've selected the source you'd like to edit, click Rearrange.&#x20;

@@ -6,6 +6,8 @@ description: >-
 
 # Sharing Resources
 
+## **How to share data using Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 Our permission levels ensure that they access this content exactly the way you want them to.
 
 ### Ways to share <a href="#h_926aeb5ac5" id="h_926aeb5ac5"></a>

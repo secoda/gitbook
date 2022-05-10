@@ -6,6 +6,8 @@ description: >-
 
 # Column Profiling
 
+## **How to run column profiling in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 You're able to view the distribution of your data, the column count, and how many unique columns you have. And, if you hover over the distribution visualization, you can see the distribution percentage and what the column name is.&#x20;
 
 Wondering how up to date the column profile is? Secoda shows this on top of the table in the right hand corner.&#x20;

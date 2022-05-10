@@ -7,7 +7,9 @@ description: >-
 
 # Custom Invitation Links
 
-In Secoda, you can create custom invitation links determined by role and group. This ensures that people who join do so with the correct permissions and access. It also makes inviting large groups of people easier.&#x20;
+## In Secoda, you can create custom invitation links
+
+Determined by role and group. This ensures that people who join do so with the correct permissions and access. It also makes inviting large groups of people easier.&#x20;
 
 To do this, go to **Settings**, and then click **Members**. From here, go to **Invitation Links.**&#x20;
 

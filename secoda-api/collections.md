@@ -4,11 +4,11 @@ description: How to manage collections with the Secoda API
 
 # Collections
 
-### List All Collections
+## List All Collections
 
-| Endpoint | [https://api.secoda.co/tag/](https://api.secoda.co/tag/) |
-| -------- | -------------------------------------------------------- |
-| Method   | GET                                                      |
+| Endpoint | `https://api.secoda.co/tag/` |
+| -------- | ---------------------------- |
+| Method   | GET                          |
 
 *   Sample Response
 

@@ -6,6 +6,8 @@ description: >-
 
 # Adding to Collections
 
+## **How to add data to collections** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 To add resources to a collection, create a **New Collection** and name the collection with the type of information that belongs in the collection.
 
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (3) (1).gif>)

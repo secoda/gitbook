@@ -6,6 +6,8 @@ description: >-
 
 # Notifications
 
+## **How to manage notifications in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 Viewers, editors, and admins can change their notification settings by going to **Settings -> Notifications.**&#x20;
 
 You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive.&#x20;

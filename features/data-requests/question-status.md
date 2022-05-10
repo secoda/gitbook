@@ -6,6 +6,8 @@ description: >-
 
 # Question Status
 
+## **Data questions status with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 There are 4 different statuses for questions, and each question can only have one status. These are:
 
 * Answered

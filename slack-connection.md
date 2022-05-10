@@ -7,6 +7,8 @@ description: >-
 
 # Slack Integration
 
+## **Everything about the Secoda and Slack Integration** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 To connect Secoda to your Slack channel, follow the instructions here:&#x20;
 
 {% content-ref url="getting-started/connect-to-slack.md" %}

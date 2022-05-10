@@ -6,6 +6,8 @@ description: >-
 
 # Data Lineage
 
+## **Everything about Secoda Lineage** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 Secoda automatically extracts queries to generate data lineage. This can help data teams identify the downstream and upstream dependencies of a table easily.&#x20;
 
 On each dependency, you will be able to see how many levels away a particular table is.&#x20;

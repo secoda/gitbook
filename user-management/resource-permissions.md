@@ -6,6 +6,8 @@ description: >-
 
 # Resource Permissions
 
+## **How to manage resource permissions** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 You can change the permissions on every asset in Secoda. The default permissions are for everyone in your workspace that is not a guest or viewer.&#x20;
 
 ![](<../.gitbook/assets/Group 597.png>)

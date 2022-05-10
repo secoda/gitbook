@@ -5,7 +5,9 @@ description: >-
   resources.
 ---
 
-# Collections
+# Managing Collections
+
+## **How to manage collections in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 You can create Collections on Secoda which allows you to group various resources together and document them. Collections are a revamped version of the tags, so the mechanism for adding a resource to a collection is that same as tagging. You can also pin collections to the home page for easier discoverability.&#x20;
 

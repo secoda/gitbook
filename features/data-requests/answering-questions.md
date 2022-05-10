@@ -6,6 +6,8 @@ description: >-
 
 # Answering Questions
 
+## **Answering data questions with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 What we've noticed is that there is a lot of information that isn't discoverable using metadata or metrics. Sometimes, questions to the data team are much more nuanced and require a person on the data team to answer.
 
 It's not unusual for data teams to answer these questions in an ad hoc fashion through Slack or Jira. Because there is little process around documenting these ad hoc questions, the answers get lost and data teams have to repetitively answer the same questions over and over again.
