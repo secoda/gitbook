@@ -2,15 +2,15 @@
 description: How to manage users with the Secoda API
 ---
 
-# Managing invitations
+# User Management
 
 #### Invite a New User
 
-| Endpoint                 | `https://api.secoda.co/user/invite` |
-| ------------------------ | ----------------------------------- |
-| Method                   | POST                                |
-| Accepted Body Parameters | email, role                         |
-|                          |                                     |
+| Endpoint                 | [https://api.secoda.co/user/invite](https://api.secoda.co/user/invite) |
+| ------------------------ | ---------------------------------------------------------------------- |
+| Method                   | POST                                                                   |
+| Accepted Body Parameters | email, role                                                            |
+|                          |                                                                        |
 
 *   Sample Response
 

@@ -6,9 +6,9 @@ description: How to manage collections with the Secoda API
 
 ### List All Collections
 
-| Endpoint | `https://api.secoda.co/tag/` |
-| -------- | ---------------------------- |
-| Method   | GET                          |
+| Endpoint | [https://api.secoda.co/tag/](https://api.secoda.co/tag/) |
+| -------- | -------------------------------------------------------- |
+| Method   | GET                                                      |
 
 *   Sample Response
 
