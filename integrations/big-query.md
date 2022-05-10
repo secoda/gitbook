@@ -1,4 +1,10 @@
-# Big Query
+---
+description: >-
+  This page walks through the Secoda and BigQuery integration that Secoda
+  supports
+---
+
+# BigQuery
 
 ### Getting Started <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 

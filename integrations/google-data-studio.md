@@ -1,3 +1,7 @@
+---
+description: This page walks through the Secoda and GDS integration that Secoda supports
+---
+
 # Google Data Studio
 
 Secoda has two methods of integrating with Google Data Studio: retrieving a session cookie and using Google OAuth

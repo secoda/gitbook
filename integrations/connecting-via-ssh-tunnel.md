@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Connecting via SSH integration that
+  Secoda supports
+---
+
 # Connecting via SSH Tunnel
 
 Depending on how your environment is setup, the following may differ (but the general idea is the same). Tunnels require you to run `sshd`on a [**Bastion host**](https://aws.amazon.com/quickstart/architecture/linux-bastion/) accessible from the public internet. Our systems will open an SSH connection to your Bastion, then open a port forwarding connection to the private service that you specify. Ensure your **Bastion** host has whitelisted our NAT Gateway address: `35.175.75.15`

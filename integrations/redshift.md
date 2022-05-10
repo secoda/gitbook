@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Redshift integration that Secoda
+  supports
+---
+
 # Redshift
 
 ### **Getting Started** <a href="#h_f363077fb9" id="h_f363077fb9"></a>

@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Polytomic integration that Secoda
+  supports
+---
+
 # Polytomic
 
 ## Getting Started with Polytomic <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>

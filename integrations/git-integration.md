@@ -1,4 +1,8 @@
-# Git Integration
+---
+description: This page walks through the Secoda and Git integration that Secoda supports
+---
+
+# Git
 
 #### Getting Started <a href="#h_7149df32f0" id="h_7149df32f0"></a>
 

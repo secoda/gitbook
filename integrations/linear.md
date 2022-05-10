@@ -1,3 +1,7 @@
+---
+description: This page walks through the Secoda and Linear integration that Secoda supports
+---
+
 # Linear
 
 ### Push questions and replies from Secoda to Linear&#x20;

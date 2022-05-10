@@ -1,5 +1,7 @@
 ---
-description: Connecting dbt core to Secoda
+description: >-
+  This page walks through the Secoda and dbt Core integration that Secoda
+  supports
 ---
 
 # dbt Core
@@ -33,7 +35,7 @@ Create a new AWS IAM user and ensure that **Access Key - Programatic access is c
 
 ![](<../.gitbook/assets/image (3) (1).png>)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 
 

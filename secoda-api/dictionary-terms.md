@@ -1,3 +1,7 @@
+---
+description: How to manage dictionary terms with the Secoda API
+---
+
 # Dictionary Terms
 
 ### List All Dictionary Terms

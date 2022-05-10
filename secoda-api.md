@@ -1,6 +1,12 @@
+---
+description: >-
+  Welcome to the Secoda API Docs. Secoda API allows you to interact with your
+  Secoda workspace through a HTTP API.
+---
+
 # Secoda API
 
-Welcome to the Secoda API Docs. Secoda API allows you to interact with your Secoda workspace through a HTTP API. Secoda's API allows you to interact with your Secoda Workspace programatically. You can use the API to:
+Secoda's API allows you to interact with your Secoda Workspace programatically. You can use the API to:
 
 * Bulk invite users to your workspace and assign them roles
 * Bulk edit the name, descriptions, and tags on your resources

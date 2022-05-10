@@ -1,6 +1,12 @@
+---
+description: >-
+  Secoda is built with functionality that allows you to "publish" content once
+  you feel it is ready for viewers to see.
+---
+
 # Publishing
 
-Secoda is built with functionality that allows you to "publish" content once you feel it is ready for viewers to see. As an editor, you're going to have access to all resources in Secoda. As a viewer or guest, you will only be able to view the resoures that have been published by the editors or admins in your workspace.&#x20;
+As an editor, you're going to have access to all resources in Secoda. As a viewer or guest, you will only be able to view the resources that have been published by the editors or admins in your workspace.&#x20;
 
 This functionality is built into Secoda to ensure that only the tables, docs, terms and questions that are relevant and documented are available for consumption. As an editor, you can mimic what a viewer will see in Secoda by toggling the viewer mode button in the bottom left hand corner.
 

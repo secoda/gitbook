@@ -1,3 +1,7 @@
+---
+description: This page walks through the Secoda and Mode integration that Secoda supports
+---
+
 # Mode
 
 **Getting Started**
@@ -30,4 +34,4 @@ After retrieving your Mode access token and organization , the next step is to c
 3. Enter your Mode access token, password, and organization you retrieved above
 4. Click 'Connect'
 
-\
+\\

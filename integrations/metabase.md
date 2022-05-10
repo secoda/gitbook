@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and MEeabase integration that Secoda
+  supports
+---
+
 # Metabase
 
 **Getting Started**
@@ -40,4 +46,4 @@ After retrieving your Metbase username, password, and host , the next step is to
 3. Enter your Metabase username, password, OR session ID and host you retrieved above
 4. Click 'Connect'
 
-\
+\\

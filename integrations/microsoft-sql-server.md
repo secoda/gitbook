@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Microsoft SQL Server integration that
+  Secoda supports
+---
+
 # Microsoft SQL Server
 
 ### **Getting Started** <a href="#h_b2b16b2139" id="h_b2b16b2139"></a>
@@ -35,4 +41,4 @@ VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re 
 
 Allow Secoda to read into your Microsoft SQL Server database using `35.175.75.15/32` and `34.230.160.245/32`
 
-\
+\\

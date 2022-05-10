@@ -1,3 +1,7 @@
+---
+description: How to manage dbt with the Secoda API
+---
+
 # DBT Integration
 
 ### Extract From Manifest File

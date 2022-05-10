@@ -1,6 +1,11 @@
-# Rearranging and Hiding Columns
+---
+description: >-
+  Not every piece of a dataset will be relevant to your teammates who are using
+  Secoda. You can rearrange columns in the platform to ensure that your team can
+  find exactly what they're looking for.
+---
 
-Not every piece of a dataset will be relevant to your teammates who are using Secoda. You can rearrange columns in the platform to ensure that your team can find exactly what they're looking for.&#x20;
+# Rearranging and Hiding Columns
 
 To do this, go to the dataset that you'd like to rearrange. You can either search for it using the search bar, or in your left-side navigation bar.&#x20;
 

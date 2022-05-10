@@ -1,3 +1,7 @@
+---
+description: How to manage tables with the Secoda API
+---
+
 # Tables
 
 ### List All Tables

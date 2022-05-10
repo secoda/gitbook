@@ -1,6 +1,12 @@
+---
+description: >-
+  While you cannot add custom properties to your data directly from Secoda, you
+  can indeed insert custom properties in your metadata.
+---
+
 # Adding Custom Properties
 
-While you cannot add custom properties to your data directly from Secoda, you can indeed insert custom properties in your metadata. This allows you to add more context and organize the datasets that you've integrated to Secoda.&#x20;
+This allows you to add more context and organize the datasets that you've integrated to Secoda.&#x20;
 
 ### Inserting a custom property to a single table
 

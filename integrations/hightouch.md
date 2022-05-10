@@ -1,3 +1,9 @@
+---
+description: >-
+  This page walks through the Secoda and Hightouch integration that Secoda
+  supports
+---
+
 # Hightouch
 
 ### **Getting Started** <a href="#h_e879633d9f" id="h_e879633d9f"></a>
@@ -43,4 +49,4 @@ After retrieving the cookie, the next step is to connect Secoda:
 2. Search for and select ‘Hightouch’
 3. Enter your Cookie. This information is kept encrypted.
 4. Click 'Connect'
-5. After the extraction is complete your Hightouch Syncs will be in Secoda\
+5. After the extraction is complete your Hightouch Syncs will be in Secoda\\

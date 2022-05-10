@@ -1,10 +1,12 @@
 ---
-description: Assigning owners to resources
+description: >-
+  Assigning owners to resYou can assign an owner or multiple owners to a
+  resource in Secoda.ources
 ---
 
 # Assigning owners
 
-You can assign an owner or multiple owners to a resource in Secoda. From a table page, Editors and Admins can assign Owners for individual tables by clicking the pencil icon in the grey box.
+From a table page, Editors and Admins can assign Owners for individual tables by clicking the pencil icon in the grey box.
 
 Assigning owners has a few benefits. If your data has owners, you can:
 
@@ -15,7 +17,7 @@ Assigning owners can also help you identify abandoned data sets no one currently
 
 ![](<../../.gitbook/assets/Group 588.png>)
 
-## Being an Owner
+### Being an Owner
 
 Owners are responsible keeping documentation on their datasets up to date. If something looks off with a dataset, or a new user is looking to get acquainted with the data, they can ask questions in the questions tab.
 

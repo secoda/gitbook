@@ -1,6 +1,12 @@
+---
+description: >-
+  Data doesn't have meaning without a consistent understanding of what terms
+  mean and how they're calculated.
+---
+
 # Documenting Terms
 
-Data doesn't have meaning without a consistent understanding of what terms mean and how they're calculated. This is why a data dictionary is so important, and why understanding how it's maintained and who created terms is essential to the data workflow.&#x20;
+This is why a data dictionary is so important, and why understanding how it's maintained and who created terms is essential to the data workflow.&#x20;
 
 Documenting dictionary terms on Secoda is easy. First, click on the Dictionary button in the side navigation bar.&#x20;
 
