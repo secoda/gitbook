@@ -6,6 +6,8 @@ description: >-
 
 # Assigning owners
 
+## **How to assign owners to data in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 From a table page, Editors and Admins can assign Owners for individual tables by clicking the pencil icon in the grey box.
 
 Assigning owners has a few benefits. If your data has owners, you can:

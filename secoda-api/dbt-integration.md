@@ -4,7 +4,7 @@ description: How to manage dbt with the Secoda API
 
 # DBT Integration
 
-### Extract From Manifest File
+## Extract From Manifest File
 
 | Endpoint | `https://api.secoda.co/integration/dbt/manifest/`  |
 | -------- | -------------------------------------------------- |

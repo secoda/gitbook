@@ -6,6 +6,8 @@ description: >-
 
 # Self-Hosted Secoda
 
+## **How to manage the Self Hosted Version of Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 **Provision Machines**
 
 [AWS](https://www.notion.so/AWS-1b1dba2dce3a490990faca5134747a24)

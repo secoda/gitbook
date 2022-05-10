@@ -6,7 +6,7 @@ description: >-
 
 # Groups
 
-#### Share with groups <a href="#h_24c1579d53" id="h_24c1579d53"></a>
+## Share with groups <a href="#h_24c1579d53" id="h_24c1579d53"></a>
 
 To make it easier to share with commonly-used groups (i.e. your company's engineering team or community team), you can create your own member groups and assign them permission to access resources.
 

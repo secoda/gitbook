@@ -8,7 +8,7 @@ description: >-
 
 This allows you to add more context and organize the datasets that you've integrated to Secoda.&#x20;
 
-### Inserting a custom property to a single table
+## Inserting a custom property to a single table
 
 To insert a custom property to a single table, select the table you'd like to edit. You can do this by searching for it by name in the search bar, or finding it in the left hand navigation bar via the **Data** button.&#x20;
 

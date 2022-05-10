@@ -6,6 +6,8 @@ description: >-
 
 # Auto PII Tagging
 
+## **How to Auto PII your data in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 By going to the data tab, you can find and auto tag PII data in Secoda easily. To tag your PII data, go to **Settings -> Data**
 
 ![](<../../.gitbook/assets/Group 587 (3) (2).png>)

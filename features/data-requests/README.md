@@ -7,6 +7,8 @@ description: >-
 
 # Questions
 
+## **How to use "questions" in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 Use the Questions feature as a place for team members to make data requests, ask questions about the data, and then, make it possible for others to view the ensuing responses, even after the question has been answered.&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 12.34.50 PM.png>)

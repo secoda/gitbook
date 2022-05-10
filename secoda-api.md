@@ -6,6 +6,8 @@ description: >-
 
 # Secoda API
 
+## **How to use Secoda's API** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 Secoda's API allows you to interact with your Secoda Workspace programatically. You can use the API to:
 
 * Bulk invite users to your workspace and assign them roles

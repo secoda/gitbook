@@ -4,11 +4,11 @@ description: How to manage tables with the Secoda API
 
 # Tables
 
-### List All Tables
+## List All Tables
 
-| Endpoint | [https://api.secoda.co/table/](https://api.secoda.co/table/) |
-| -------- | ------------------------------------------------------------ |
-| Method   | GET                                                          |
+| Endpoint | `https://api.secoda.co/table/` |
+| -------- | ------------------------------ |
+| Method   | GET                            |
 
 *   Sample Response
 

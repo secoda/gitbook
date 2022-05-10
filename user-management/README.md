@@ -7,6 +7,8 @@ description: >-
 
 # User Management
 
+## **How to manage roles in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 {% content-ref url="roles.md" %}
 [roles.md](roles.md)
 {% endcontent-ref %}

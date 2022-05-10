@@ -6,6 +6,8 @@ description: >-
 
 # Import & Export Data
 
+## **How to export data to Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 To export data descriptions out of Secoda, you can go to **Settings → Data → Export** data. Below is the screenshot for the settings:
 
 ![](https://downloads.intercomcdn.com/i/o/479023790/087180613e872cdfea7575be/image.png)

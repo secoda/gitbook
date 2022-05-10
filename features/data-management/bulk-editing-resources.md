@@ -6,6 +6,8 @@ description: >-
 
 # Bulk Editing Resources
 
+## **Getting Started with Bulk Editing in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 Adding data documentation to one resource at a time can be useful for small amounts of unique data. Many users have large amounts of data that need to be documented, and using our "Data Bulk Editor" tool is the best way to do that.&#x20;
 
 To get started, head to the "Data" tab from the navigation bar on the left. Here, you'll see all of your data resources, which you can sort and search (by name) using:

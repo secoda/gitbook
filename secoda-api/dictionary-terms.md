@@ -4,11 +4,11 @@ description: How to manage dictionary terms with the Secoda API
 
 # Dictionary Terms
 
-### List All Dictionary Terms
+## List All Dictionary Terms
 
-| Endpoint | [https://api.secoda.co/dictionary/](https://api.secoda.co/dictionary/) |
-| -------- | ---------------------------------------------------------------------- |
-| Method   | GET                                                                    |
+| Endpoint | `https://api.secoda.co/dictionary/` |
+| -------- | ----------------------------------- |
+| Method   | GET                                 |
 
 *   Sample Response
 

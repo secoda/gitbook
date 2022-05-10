@@ -7,6 +7,8 @@ description: >-
 
 # Assigning Ownership
 
+## **Answering owners to questions with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 To assign an owner to an existing question or new question:&#x20;
 
 * Go to the side bar on the right side of the question&#x20;
