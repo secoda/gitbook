@@ -6,7 +6,7 @@ description: >-
 
 # BigQuery
 
-### Getting Started <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
+## **Getting Started with Bigquery** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Big Query with Secoda:
 

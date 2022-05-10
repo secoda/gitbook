@@ -6,6 +6,8 @@ description: >-
 
 # Publishing
 
+## **Getting Started with Publishing Data** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 As an editor, you're going to have access to all resources in Secoda. As a viewer or guest, you will only be able to view the resources that have been published by the editors or admins in your workspace.&#x20;
 
 This functionality is built into Secoda to ensure that only the tables, docs, terms and questions that are relevant and documented are available for consumption. As an editor, you can mimic what a viewer will see in Secoda by toggling the viewer mode button in the bottom left hand corner.

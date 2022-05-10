@@ -4,7 +4,7 @@ description: This page walks through the Secoda and Linear integration that Seco
 
 # Linear
 
-### Push questions and replies from Secoda to Linear&#x20;
+## Push questions and replies to Linear&#x20;
 
 First head to [Linear's API](https://linear.app/secoda/settings/api/) page and generate a personal access token.
 

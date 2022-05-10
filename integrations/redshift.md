@@ -6,7 +6,7 @@ description: >-
 
 # Redshift
 
-### **Getting Started** <a href="#h_f363077fb9" id="h_f363077fb9"></a>
+## **Getting Started with Redshift** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Redshift with Secoda:
 

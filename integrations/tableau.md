@@ -6,7 +6,7 @@ description: >-
 
 # Tableau
 
-#### **Getting Started** <a href="#h_d354fd27f9" id="h_d354fd27f9"></a>
+## **Getting Started with Tableau** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Tableau with Secoda:
 

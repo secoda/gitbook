@@ -6,7 +6,7 @@ description: >-
 
 # Connect to Slack
 
-To connect a Secoda to a Slack channel in your workspace:
+## To connect a Secoda to a Slack&#x20;
 
 1. We recommend you create a separate channel for Secoda purposes (i.e. #secoda-notifications), since you'll also receive notifications if there are things like schema changes or documentation edits there. &#x20;
 2. After this channel is created or you've decided which channel you'd like to use, go to **Settings** in the Secoda App.&#x20;

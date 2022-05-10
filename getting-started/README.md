@@ -6,6 +6,8 @@ description: >-
 
 # Getting Started
 
+## How to get started with Secoda
+
 As a Secoda workspace admin, you're responsible for setting up your data integrations, selecting relevant data, and inviting team members with the correct permissions to do so.&#x20;
 
 {% hint style="info" %}

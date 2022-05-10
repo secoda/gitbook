@@ -6,6 +6,8 @@ description: >-
 
 # Connecting via SSH Tunnel
 
+## **Getting Started with SSH Tunnels** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
 Depending on how your environment is setup, the following may differ (but the general idea is the same). Tunnels require you to run `sshd`on a [**Bastion host**](https://aws.amazon.com/quickstart/architecture/linux-bastion/) accessible from the public internet. Our systems will open an SSH connection to your Bastion, then open a port forwarding connection to the private service that you specify. Ensure your **Bastion** host has whitelisted our NAT Gateway address: `35.175.75.15`
 
 #### Setup <a href="#h_7ee5f8a430" id="h_7ee5f8a430"></a>

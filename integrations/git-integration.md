@@ -4,7 +4,7 @@ description: This page walks through the Secoda and Git integration that Secoda 
 
 # Git
 
-#### Getting Started <a href="#h_7149df32f0" id="h_7149df32f0"></a>
+## **Getting Started with Git** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to getting started using Git with Secoda
 

@@ -6,7 +6,7 @@ description: >-
 
 # Snowflake
 
-### **Getting Started** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Getting Started with Snowflake** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are four steps to get started using Snowflake with Secoda. Make sure that you are running the commands in each step while logged in as an `ACCOUNTADMIN`, or an account that has `MANAGE GRANTS`. While we are using predefined user (`SECODA_USER`), role (`SECODA`), and warehouse (`SECODA_WAREHOUSE`)
 

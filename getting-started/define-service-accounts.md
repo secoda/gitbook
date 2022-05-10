@@ -6,7 +6,7 @@ description: >-
 
 # Define Service Accounts
 
-### Service Accounts
+## Overview of service accounts
 
 To make your popularity calculations more accurate, you'll want to mark your users as Service Accounts.
 

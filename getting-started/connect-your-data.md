@@ -6,7 +6,7 @@ description: >-
 
 # Connect your data
 
-## Connecting to a specific integration
+## Connecting to an integration
 
 [tableau.md](../integrations/tableau.md "mention")
 

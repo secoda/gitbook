@@ -6,7 +6,7 @@ description: >-
 
 # Hightouch
 
-### **Getting Started** <a href="#h_e879633d9f" id="h_e879633d9f"></a>
+## **Getting Started with Hightouch** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Hightouch with Secoda:
 

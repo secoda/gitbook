@@ -6,6 +6,8 @@ description: >-
 
 # Hide Unwanted Datasets
 
+## How to hide data sets from Secoda
+
 After connecting your data resources to Secoda, you can select which datasets and tables you'd like to be accessible. To do this, start by going to the **Integrations** page on the side bar.&#x20;
 
 From here, select the source that you'd like to hide datasets from.&#x20;

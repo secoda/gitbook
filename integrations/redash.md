@@ -4,7 +4,7 @@ description: This page walks through the Secoda and Redash integration that Seco
 
 # Redash
 
-**Getting Started**
+## **Getting Started with Redash** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Redash with Secoda:
 
