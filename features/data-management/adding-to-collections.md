@@ -1,7 +1,7 @@
 ---
 description: >-
-  In each collection, you can add specific tables, dashboards, metrics and
-  questions to share data knowledge with specific groups at your company.
+  Add specific tables, dashboards, metrics and questions to share data knowledge
+  with specific groups at your company.
 ---
 
 # Adding to Collections

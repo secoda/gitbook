@@ -16,7 +16,7 @@ Once you export your data descriptions, you can view and edit your descriptions 
 
 ![](https://downloads.intercomcdn.com/i/o/479024560/e11a327cdeaf2b0a6b454c94/image.png)
 
-Once you are ready to upload your new descriptions, you can use the [import](https://help.secoda.co/en/articles/5076799-import-descriptions-properties) descriptions button to upload your new CSV into Secoda.
+Once you are ready to upload your new descriptions, you can use the import descriptions button to upload your new CSV into Secoda.
 
 If you have set up a documentation tool at your organization you can migrate your descriptions to Secoda following these steps.
 
