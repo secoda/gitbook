@@ -8,7 +8,7 @@ description: Secoda's terms of use policy
 
 Thank you for visiting Secoda the data platform which helps teams find data faster
 
-In these Terms, **we** or **us** means Secoda Technologies Ltd. We provide Secoda, a data discovery tool that helps users find, understand and use data to make decisions, which we provide through our website at [secoda.co](http://secoda.co) (the **Site**). These Terms set out the terms and conditions on which we make our Site available, and on which we make Secoda available to registered users. By using the Site or Secoda you agree to these Terms.
+In these Terms, **we** or **us** means Secoda Technologies Ltd. We provide Secoda, a data discovery tool that helps users find, understand and use data to make decisions, which we provide through our website at [secoda.co](https://www.secoda.co) (the **Site**). These Terms set out the terms and conditions on which we make our Site available, and on which we make Secoda available to registered users. By using the Site or Secoda you agree to these Terms.
 
 ## **Summary**
 
@@ -30,7 +30,7 @@ Other relevant pages you might want to look at are:
 
 **Security**. You should keep your account (and any third-party account you use to authenticate, or receive credentials for, your access to Secoda) secure, and not allow anyone else to use your account. If any activity takes place on your account, or any content is uploaded through your account, then you are responsible for it. You must let us know immediately if you discover or suspect that someone else has accessed your account.
 
-**Subscriptions and renewal**. We offer access to Secoda on the basis of fixed-term subscriptions, priced on the basis of team size, data resources and any additional [features such as additional integrations. Further information is available on our pricing page. \*\*\*\*Your subscription will have a fixed term and will renew automatically at the end o](http://secoda.co/pricing)f each fixed term for a further fixed term. If you do not wish to renew your subscription with us, you must notify us prior to the renewal date.
+**Subscriptions and renewal**. We offer access to Secoda on the basis of fixed-term subscriptions, priced on the basis of team size, data resources and any additional features such as additional integrations. Further information is available on our pricing page. [\*\*\*\*Your subscription will have a fixed term and will renew automatically at the end of each fixed term for a further fixed term](https://www.secoda.co/pricing). If you do not wish to renew your subscription with us, you must notify us prior to the renewal date.
 
 **Payment**. You must pay the applicable subscription fee (if any) in advance, subject to any credits which we may have applied to your account. You can make payment by following the instructions on the Site. We do not collect or process your credit or debit card details when you make payments through the Site, but these will be received by our payment processing service providers.
 
