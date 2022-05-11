@@ -1,8 +1,10 @@
 ---
-description: Secoda's privacy policy
+description: The privacy policy that Secoda uses
 ---
 
 # Privacy Policy
+
+## Secoda's Privacy Policy&#x20;
 
 We at Secoda (“Company,” “we,” “us,” “our”) know you care about how your personal information is used and shared, and we take your privacy seriously. Please read the following to learn more about our Privacy Policy.
 

@@ -4,6 +4,8 @@ description: Secoda is committed to security and focused on keeping you and your
 
 # Security Policy
 
+## Secoda's Security Policy
+
 Secoda is committed to security and focused on keeping you and your data safe. Secoda adheres to industry-leading standards while connecting and loading data from all of your data sources.
 
 Contact [hello@secoda.co](mailto:hello@secoda.co) f you have any questions or comments.

@@ -6,6 +6,8 @@ description: >-
 
 # Docs
 
+## Navigating Documents in Secoda
+
 {% content-ref url="using-docs.md" %}
 [using-docs.md](using-docs.md)
 {% endcontent-ref %}

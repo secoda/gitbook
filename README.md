@@ -1,5 +1,5 @@
 ---
-description: This guide will help you get started with Secoda.
+description: Get started with Secoda and understand how it works.
 ---
 
 # What is Secoda?
@@ -22,7 +22,7 @@ If queries are available, the tables, databases and dashboards will display a da
 
 Using Secoda, data teams can define dictionary terms, metrics, queries, docs, answers to common questions and workflow so they can organize and describe their data across all their data tools from one central location.
 
-## Getting Started
+### Getting Started
 
 **Got a few minutes?** Check out a video overview of our product:
 
