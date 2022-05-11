@@ -4,7 +4,7 @@ description: Get started with Secoda and understand how it works.
 
 # What is Secoda?
 
-![](.gitbook/assets/ezgif.com-gif-maker.gif)
+![](<.gitbook/assets/ezgif.com-gif-maker (19) (1) (1).gif>)
 
 Secoda is the place where all your data knowledge lives. With Secoda, everyone on your team can make sense of all your company data in one intuitive, collaborative, and searchable platform.
 
