@@ -28,7 +28,7 @@ Your **host** is the first part of the url in Tableau Online before the `#` and 
 
 _**`https://prod-useast-b.online.tableau.com`**_`/#/site/secoda/home`
 
-Use the [table](https://help.secoda.co/en/articles/5021907-tableau#h\_c7aac4ece7) below to determine your **API version.**
+Use the table below to determine your **API version.**
 
 The site name can be found in the url on Tableau Online which immediately follows `/#/site`. For example:
 
@@ -67,5 +67,3 @@ After creating a Tableau access token, the next step is to connect to Secoda:
 | 2020.2                          | 3.8                  | 3.8                |
 | 2020.3                          | 3.9                  | 3.9                |
 | 2020.4                          | 3.10                 | 3.10               |
-
-\\
