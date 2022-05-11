@@ -1,10 +1,12 @@
 ---
 description: >-
-  Within your documents, questions, and collections you can insert generic
-  embeds and embed from other sources.
+  Insert and embed resources from most online and collaboration tools within
+  Secoda. You can also insert a generic embed.
 ---
 
 # Embeds
+
+## Embedding and Generic Embeds&#x20;
 
 We know that your knowledge repository lives on many different tools. Sometimes these bits of knowledge are necessary to provide appropriate context within documentation, dictionary terms, questions, and collections.&#x20;
 
