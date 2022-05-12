@@ -28,6 +28,7 @@
   * [Linear](integrations/linear.md)
   * [Polytomic](integrations/polytomic.md)
   * [Great Expectations](integrations/great-expectations.md)
+  * [AWS Glue](integrations/aws-glue.md)
   * [Git](integrations/git-integration.md)
   * [Connecting via SSH Tunnel](integrations/connecting-via-ssh-tunnel.md)
 * [Features](features/README.md)
