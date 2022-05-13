@@ -1,11 +1,12 @@
 ---
 description: >-
-  dding custom properties to Dictionary terms allows you to describe the term
-  outside of the definition itself. For example, if you'd like the term to have
-  a tag for the team it's most applicable to, yo
+  Adding custom properties to Dictionary terms allows you to describe the term
+  outside of the definition itself.
 ---
 
 # Custom Properties
+
+## How to Add Custom Properties
 
 Custom properties are only applicable to the single definition that you're editing.&#x20;
 

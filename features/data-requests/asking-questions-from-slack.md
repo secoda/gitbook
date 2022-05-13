@@ -4,6 +4,8 @@ description: How to ask questions about your data directly from Slack.
 
 # Asking Questions from Slack
 
+## Use Slack to Search and Ask on Secoda
+
 First, you’ll need to connect Secoda to your Slack workspace following these instructions.&#x20;
 
 After you’ve done so, anyone in your Slack workspace can ask a question using a Slack command: `/ask,` followed by their question.&#x20;

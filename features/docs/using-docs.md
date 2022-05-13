@@ -6,6 +6,8 @@ description: >-
 
 # Using Docs
 
+## How to Use Docs in Secoda
+
 Docs are like a Notion document with live queries and charts. You can reference your data catalogue and data dictionary while creating robust data analysis in Secoda.&#x20;
 
 Analysis documents are useful once you've connected your database to Secoda and given Secoda permission to query the data in the database. After you've done this, you can open the analysis document to view a blank page that looks like the picture below
