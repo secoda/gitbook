@@ -7,6 +7,8 @@ description: >-
 
 # Templates
 
+## How to Create Templates in Secoda
+
 To create a Questions template in Secoda, click the **Templates** button which is beside the **New Question Button**.&#x20;
 
 You can create a new template or edit current ones from this view.&#x20;

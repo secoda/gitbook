@@ -6,6 +6,8 @@ description: >-
 
 # Adding Live Charts to Documentation
 
+## Inserting Live Charts in Secoda
+
 After executing a query, you can choose to display it to viewers as a chart instead of a query. Below are the steps to share a query as a chart.&#x20;
 
 ![](<../../.gitbook/assets/Group 599.png>)

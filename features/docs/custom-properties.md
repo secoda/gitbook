@@ -4,7 +4,9 @@ description: >-
   can also create custom properties to fit your team's needs.
 ---
 
-# Custom Properties
+# Adding Properties to a Doc
+
+## How to Add Properties to a Doc
 
 To create a custom property in a document, click **Add a Property**, below the static fields in the document.&#x20;
 

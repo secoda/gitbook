@@ -6,6 +6,8 @@ description: >-
 
 # Dictionary Templates
 
+## How to Create a Template Dictionary Term
+
 Every term created with this template will have the same structure as you've set up.&#x20;
 
 To create a Dictionary template, go to the **Templates** button beside **New Dictionary Term.**&#x20;

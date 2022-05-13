@@ -1,10 +1,12 @@
 ---
 description: >-
-  By pressing the /query command, editors can embed live queries into table
-  documentation, dictionary terms, docs, questions and collections.
+  Editors can embed live queries into table documentation, dictionary terms,
+  docs, questions and collections.
 ---
 
 # Running Queries in Secoda
+
+## How to Run a Query in Secoda
 
 By pressing the /query command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections.&#x20;
 
