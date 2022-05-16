@@ -8,7 +8,7 @@ description: Secoda's terms of use policy
 
 Thank you for visiting Secoda the data platform which helps teams find data faster
 
-In these Terms, **we** or **us** means Secoda Technologies Ltd. We provide Secoda, a data discovery tool that helps users find, understand and use data to make decisions, which we provide through our website at [secoda.co](https://www.secoda.co) (the **Site**). These Terms set out the terms and conditions on which we make our Site available, and on which we make Secoda available to registered users. By using the Site or Secoda you agree to these Terms.
+In these Terms, **we** or **us** means Secoda Technologies Ltd. We provide Secoda, a data discovery tool that helps users find, understand and use data to make decisions, which we provide through our website at [secoda.co](https://www.secoda.co/) (the **Site**). These Terms set out the terms and conditions on which we make our Site available, and on which we make Secoda available to registered users. By using the Site or Secoda you agree to these Terms.
 
 ## **Summary**
 
