@@ -42,13 +42,11 @@ After retrieving your Looker Client ID, Client Secret, and host , the next step 
 
 To get lineage between Looker and your data warehouse, Secoda will need access your GitHub repo where Looker records changes and manages file versions. Secoda will then automatically detect LookML projects connected to your Looker instance.
 
-Navigate to the Git tab on the Looker Integration Page and you will see your LookML projects. For each project you want to connect, click **Generate SSH Key Pair.**
+Navigate to the Git tab on the Looker Integration Page and you will see your LookML projects. For each project you want to connect, click the toggle beside the project name**.**
 
-![](https://downloads.intercomcdn.com/i/o/489709026/5585e7ae847484c71b4a1a87/Screen+Shot+2022-03-31+at+4.22.05+PM.png)
+Once the key is generate, you can select your LookML project and click **Copy public key** and head to your LookML repo in GitHub.
 
-Once the key is generate, you can select your LookML project and click **Copy SSH Public Key** and head to your LookML repo in GitHub.
-
-![](https://downloads.intercomcdn.com/i/o/489712358/77a4d1225dc8cab5eea88093/image.png)
+![](<../.gitbook/assets/image (7).png>)
 
 Once in your GitHub repo, click on **Settings > Deploy keys** on the sidebar.
 
