@@ -31,6 +31,7 @@
   * [AWS Glue](integrations/aws-glue.md)
   * [Git](integrations/git-integration.md)
   * [Connecting via SSH Tunnel](integrations/connecting-via-ssh-tunnel.md)
+  * [Connecting via VPC Peering](integrations/connecting-via-vpc-peering.md)
 * [Features](features/README.md)
   * [Search](features/search.md)
   * [Publishing](features/publishing.md)
