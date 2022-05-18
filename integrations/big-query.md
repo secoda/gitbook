@@ -34,6 +34,7 @@ Job Viewer
 Logs Viewer
 Private Logs Viewer
 BigQuery Data Viewer
+BigQuery Job Creator
 ```
 
 \*BigQuery Data Viewer is not required for the catalog feature, but is required for the query and chart blocks feature. We recommend adding this role for the best experience on Secoda.
