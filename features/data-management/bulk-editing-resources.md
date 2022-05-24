@@ -4,7 +4,7 @@ description: >-
   columns, tables, badges, tags, etc.
 ---
 
-# Bulk Editing Resources
+# Bulk Editing Metadata
 
 ## **Getting Started with Bulk Editing in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 

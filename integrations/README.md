@@ -38,7 +38,7 @@ description: >-
 * [dbt Cloud](dbt.md)
 * [dbt Core](dbt-core.md)
 * [Airflow](airflow.md)
-* [AWS Glue](aws-glue.md)
+* [AWS Glue](aws-glue-integration.md)
 
 ### SSO
 
