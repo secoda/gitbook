@@ -1,10 +1,10 @@
 ---
 description: >-
-  This page walks through the Secoda and Snowflake integration that Secoda
-  supports
+  This page walks through the Secoda and Snowflake data cataloging integration
+  that Secoda supports
 ---
 
-# Snowflake
+# Snowflake Integration
 
 ## **Getting Started with Snowflake** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 

@@ -4,7 +4,7 @@ description: >-
   discovery tool.
 ---
 
-# Answering Questions
+# Answering Questions in Secoda
 
 ## **Answering data questions with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -26,3 +26,7 @@ After a question is submitted, teammates can all comment on the question and edi
 ![](https://downloads.intercomcdn.com/i/o/392685626/ee938ee44c5a4ad6bcb49cb3/Screen+Shot+2021-09-21+at+4.49.52+PM.png)
 
 Instead of losing track of the question, Secoda allows data teams to find all their questions and answers from one central search!
+
+#### **What now?**
+
+<mark style="background-color:yellow;">Not yet a Secoda user? sign up at</mark> [<mark style="background-color:yellow;">app.secoda.co</mark>](https://app.secoda.co) <mark style="background-color:yellow;">to get started!</mark>

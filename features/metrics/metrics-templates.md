@@ -4,7 +4,7 @@ description: >-
   so that you can ensure each term has the same detail as the next.
 ---
 
-# Dictionary Templates
+# Data Dictionary Templates
 
 ## How to Create a Template Dictionary Term
 
@@ -19,3 +19,7 @@ Click New Template. The text box that shows up allows you to templates the title
 To create a new term using the template, click the three dots beside the template name, and then **Apply**. You can also use keyboard shortcut Command + A to do this.&#x20;
 
 To delete a dictionary term template, click on the three dots beside the template name and click **Delete**.&#x20;
+
+#### **What now?**
+
+1. Not yet a Secoda user? sign up at [app.secoda.co](https://app.secoda.co) to get started!
