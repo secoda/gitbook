@@ -1,10 +1,10 @@
 ---
 description: >-
-  This page walks through the Secoda and MEeabase integration that Secoda
+  This page walks through the Secoda and Metabase integration that Secoda
   supports
 ---
 
-# Metabase
+# Metabase Integration
 
 ## **Getting Started with Metabase** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
