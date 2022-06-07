@@ -4,7 +4,7 @@ description: >-
   supports
 ---
 
-# BigQuery
+# BigQuery Integration
 
 ## **Getting Started with Bigquery** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -34,7 +34,7 @@ Job Viewer
 Logs Viewer
 Private Logs Viewer
 BigQuery Data Viewer
-BigQuery Job Creator
+BigQuery Job User
 ```
 
 \*BigQuery Data Viewer is not required for the catalog feature, but is required for the query and chart blocks feature. We recommend adding this role for the best experience on Secoda.
