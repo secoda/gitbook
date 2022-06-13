@@ -4,7 +4,7 @@ description: >-
   Secoda supports
 ---
 
-# Microsoft SQL Server
+# Microsoft SQL Server Integration
 
 ## **Getting Started with Microsoft SQL Server** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -40,5 +40,3 @@ After creating a Microsoft SQL Server user, the next step is to connect Secoda:
 VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the Secoda IPs to read from your data warehouse.
 
 Allow Secoda to read into your Microsoft SQL Server database using `35.175.75.15/32` and `34.230.160.245/32`
-
-\\
