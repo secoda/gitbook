@@ -16,3 +16,7 @@ To do this, go to **Settings**, and then click **Members**. From here, go to **I
 This is where you can manage invites to your Secoda workspace. You can also manage the roles for each group. Delete invitation links by clicking the three dots on the right.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.59.16 PM.png>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

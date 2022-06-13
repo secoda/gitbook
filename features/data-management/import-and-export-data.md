@@ -4,7 +4,7 @@ description: >-
   Export data. Below is the screenshot for the settings:
 ---
 
-# Import & Export Data
+# Import & Export Metadata
 
 ## **How to export data to Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -44,3 +44,7 @@ Log into [Secoda](https://app.secoda.co) and go into the **Settings > Data.** Cr
 #### 3. Verify descriptions <a href="#h_47949f1af3" id="h_47949f1af3"></a>
 
 Go to a data resource and confirm that the descriptions have been correctly imported. If you have any questions or issues please contact [hello@secoda.co](mailto:hello@secoda.co).
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

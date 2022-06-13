@@ -4,7 +4,7 @@ description: >-
   charts in a notebook interface to easily document data analysis.
 ---
 
-# Using Docs
+# Using data documents
 
 ## How to Use Docs in Secoda
 
@@ -25,3 +25,7 @@ Query blocks allow editors to query the data directly from Secoda. You can add a
 Documents can be shared with any employee and can be indexed by the central search.&#x20;
 
 To learn more about different embed sources, go to [Embeds](../embeds.md).&#x20;
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

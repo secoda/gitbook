@@ -34,3 +34,7 @@ You can also make bulk edits by selecting the resources you'd like to edit by pr
 To see it in action, check out this Loom video.
 
 {% embed url="https://www.loom.com/share/50c4ce8d31ee4e96867207f3cd49678e" %}
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

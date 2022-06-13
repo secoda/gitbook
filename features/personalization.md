@@ -4,7 +4,7 @@ description: >-
   your team.
 ---
 
-# Personalization
+# Personalize your data portal
 
 ## **How to personalize Secoda for your company** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -28,3 +28,7 @@ This is where you can change your logo and workspace name.&#x20;
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.03.20 PM.png>)
 
 You can also pin collections to the homepage to point viewers in the right direction when they first join your workspace. To learn more about pinning, follow this link:[pinning-to-homepage.md](collections/pinning-to-homepage.md "mention")
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

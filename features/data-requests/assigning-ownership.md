@@ -5,7 +5,7 @@ description: >-
   status changes.
 ---
 
-# Assigning Ownership
+# Assigning Owners to Data
 
 ## **Answering owners to questions with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -18,3 +18,7 @@ To assign an owner to an existing question or new question:&#x20;
 ![](<../../.gitbook/assets/Group 595.png>)
 
 This person will now receive notifications on this question, including any status changes and follow up questions.&#x20;
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

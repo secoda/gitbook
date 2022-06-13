@@ -4,7 +4,7 @@ description: >-
   of questions and sort questions by their status.
 ---
 
-# Question Status
+# Changing the question status
 
 ## **Data questions status with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -23,3 +23,7 @@ Assignees and users can change the status of questions and the assignee will be 
 You can also sort all of your questions by status. Simply go to the Questions page, and type in the status of questions that you're looking for.&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-07 at 4.16.08 PM.png>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

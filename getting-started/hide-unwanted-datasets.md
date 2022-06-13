@@ -4,7 +4,7 @@ description: >-
   through how to hide these from viewers and editors on your team.
 ---
 
-# Hide Unwanted Datasets
+# Hide Datasets from Users
 
 ## How to hide data sets from Secoda
 
@@ -17,3 +17,7 @@ After selecting the source, click **Schema**.&#x20;
 On the **Schema** page, you'll find all of the datasets that Secoda has pulled from your integration. Select the ones that you would like to be accessible on Secoda. The unchecked datasets will not be accessible.&#x20;
 
 ![](<../.gitbook/assets/ezgif.com-gif-maker (7) (1).gif>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}
