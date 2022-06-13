@@ -45,5 +45,3 @@ After retrieving your Metbase username, password, and host , the next step is to
 2. Search for and select ‘Metabase’
 3. Enter your Metabase username, password, OR session ID and host you retrieved above
 4. Click 'Connect'
-
-\\

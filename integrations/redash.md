@@ -2,7 +2,7 @@
 description: This page walks through the Secoda and Redash integration that Secoda supports
 ---
 
-# Redash
+# Redash Integration
 
 ## **Getting Started with Redash** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -32,5 +32,3 @@ After retrieving your Redash access token and host , the next step is to connect
 2. Search for and select ‘Redash’
 3. Enter your Redash access token and host you retrieved above
 4. Click 'Connect'
-
-\\

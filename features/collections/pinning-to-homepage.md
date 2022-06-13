@@ -18,3 +18,7 @@ Here are a few ideas of what you can do with collections:
 * Create a “Home” collection for the entire company to see key metrics
 * Create an “Investor” collection for data shared with investors
 * Create an “onboarding” collection to help new employees learn about the key data across the company
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+{% endhint %}

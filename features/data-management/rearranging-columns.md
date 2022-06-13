@@ -16,3 +16,7 @@ After you've selected the source you'd like to edit, click Rearrange.&#x20;
 On this screen, you can select or de-select the columns you'd like to see on Secoda. You can also re-arrange the order of them by drag-and-dropping using the 6 dots on the right side of the screen.&#x20;
 
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (2).gif>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+{% endhint %}

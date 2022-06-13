@@ -2,7 +2,7 @@
 description: This page walks through the Secoda and Mode integration that Secoda supports
 ---
 
-# Mode
+# Mode Integration
 
 ## **Getting Started with Mode** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -33,5 +33,3 @@ After retrieving your Mode access token and organization , the next step is to c
 2. Search for and select ‘Mode’
 3. Enter your Mode access token, password, and organization you retrieved above
 4. Click 'Connect'
-
-\\
