@@ -62,5 +62,5 @@ If you have full access to a resource, you can disable sharing with anyone at an
 * For guests, click `Share` and then select `Remove` from the dropdown next to their names. You can also go to `Settings & Members`, scroll down to find the guests you want, click on the dropdown to the right of their names and click the `Remove` button.
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
 {% endhint %}

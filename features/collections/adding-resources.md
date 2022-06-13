@@ -23,3 +23,7 @@ You can add dashboards, questions, tables, disciotnary terms and docs to a colle
 ![Adding questions to a collection](<../../.gitbook/assets/Group 586.png>)
 
 You can view the different types of resources that are connected by toggling between the tabs on the top of the resource.&#x20;
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+{% endhint %}

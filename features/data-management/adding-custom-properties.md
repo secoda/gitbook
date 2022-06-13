@@ -27,5 +27,5 @@ If you'd like to insert a custom property to multiple tables, you'll need to exp
 From there, you can add the custom property that you'd like, and then port this back into Secoda. Once this is ported back, you'll see a property and field with the new column that you've added.&#x20;
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
 {% endhint %}
