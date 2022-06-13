@@ -4,7 +4,7 @@ description: >-
   you feel it is ready for viewers to see.
 ---
 
-# Publishing
+# Publishing data portal
 
 ## **Getting Started with Publishing Data** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -21,3 +21,7 @@ Once toggled, you'll be able to see the viewer experiance in Secoda. As a viewer
 Each resource type has the ability to be marked as published or to remain in draft mode. This toggle is configurable by admins and editors and can be found by clicking on the dictionary, questions, data or docs pages in Secoda.
 
 ![](<../.gitbook/assets/Group 587 (1).png>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

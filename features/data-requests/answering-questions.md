@@ -29,4 +29,6 @@ Instead of losing track of the question, Secoda allows data teams to find all th
 
 #### **What now?**
 
-<mark style="background-color:yellow;">Not yet a Secoda user? sign up at</mark> [<mark style="background-color:yellow;">app.secoda.co</mark>](https://app.secoda.co) <mark style="background-color:yellow;">to get started!</mark>
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

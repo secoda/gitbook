@@ -4,7 +4,7 @@ description: >-
   resource in Secoda.ources
 ---
 
-# Assigning owners
+# Assigning owners to data
 
 ## **How to assign owners to data in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -26,3 +26,7 @@ Owners are responsible keeping documentation on their datasets up to date. If so
 Owners will receive notifications through email and the Secoda app when tables, columns or documentation-related changes. If you have the Secoda Slack App installed, you will receive notifications through Slack.
 
 Table Owners can add helpful comments or Frequently Asked Questions about a dataset so they’ll show at the top of the documentation tab.
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

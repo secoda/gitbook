@@ -8,6 +8,10 @@ description: Get started with Secoda and understand how it works.
 
 Secoda is the place where all of your company data knowledge lives. With Secoda, everyone on your team can make sense of all your company data in one intuitive, collaborative, and searchable platform.
 
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}
+
 ## How does Secoda Integrate into your data?
 
 Secoda integrates with your databases, data warehouses and BI tools to fetch metadata, query history and activity from data sources to make it easier to share and document data knowledge with stakeholders.

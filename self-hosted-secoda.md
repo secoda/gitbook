@@ -4,7 +4,7 @@ description: >-
   their own environment
 ---
 
-# Self-Hosted Secoda
+# Self-Hosted Secoda Guide
 
 ## **How to manage the Self Hosted Version of Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -43,3 +43,7 @@ description: >-
 [Setup Automatic Updates](https://www.notion.so/Setup-Automatic-Updates-08ac86a71c6446ebbc846f74f32072d2)
 
 [Setup Backups](https://www.notion.so/Setup-Backups-494f8434cf6344d4ba5ae1fcabf7eb7e)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

@@ -4,7 +4,7 @@ description: >-
   ask and answer questions about your data directly from Slack.
 ---
 
-# Connect to Slack
+# Connect Secoda to Slack
 
 ## To connect a Secoda to a Slack&#x20;
 
@@ -17,3 +17,6 @@ description: >-
 
 To learn more about Secoda's functionality with Slack, including asking questions from Slack and searching Secoda from Slack, check out our [Slack Integration](../slack-connection.md) page.
 
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

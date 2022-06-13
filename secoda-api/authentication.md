@@ -39,3 +39,9 @@ To make an authenticated request to your Secoda workspace. Please include an `Au
         "Authorization": "Bearer d736dd50-5d06-4d4f-bc3d-38a67cd46569" # replace the key with your own API Key
     })
     ```
+
+
+
+    {% hint style="info" %}
+    Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+    {% endhint %}

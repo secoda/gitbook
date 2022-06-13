@@ -4,7 +4,7 @@ description: >-
   activity in your Secoda workspace.
 ---
 
-# Notifications
+# Change notifications
 
 ## **How to manage notifications in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -18,5 +18,6 @@ Secoda will also send a report on a weekly basis with your workspace analytics a
 
 ![](<.gitbook/assets/Screen Shot 2022-04-10 at 11.48.23 AM.png>)
 
-
-
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

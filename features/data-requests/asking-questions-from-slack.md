@@ -2,7 +2,7 @@
 description: How to ask questions about your data directly from Slack.
 ---
 
-# Asking Questions from Slack
+# Asking Data Questions from Slack
 
 ## Use Slack to Search and Ask on Secoda
 
@@ -25,3 +25,7 @@ When this question is answered, you'll be receive a notification.&#x20;
 ![](<../../.gitbook/assets/Screen Shot 2022-04-09 at 2.10.05 PM (1).png>)
 
 To respond to incoming and new questions, head to the Secoda app, click on questions, and you’ll see all of the questions that have been asked and answered.
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

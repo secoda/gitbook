@@ -4,7 +4,7 @@ description: >-
   with specific groups at your company.
 ---
 
-# Adding to Collections
+# Adding data to Collections
 
 ## **How to add data to collections** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -25,3 +25,7 @@ You can add dashboards, questions, tables, dictionary terms and docs to a collec
 ![Adding questions to a collection](<../../.gitbook/assets/Group 586.png>)
 
 You can view the different types of resources that are connected by toggling between the tabs on the top of the resource.&#x20;
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

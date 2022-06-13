@@ -4,7 +4,7 @@ description: >-
   share the content you create with other people.
 ---
 
-# Sharing Resources
+# Sharing Data Resources
 
 ## **How to share data using Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -60,3 +60,7 @@ If you have full access to a resource, you can disable sharing with anyone at an
 
 * Click on `Share` at the top right of the resource, and switch off access for your workspace, individuals, groups, or the public.
 * For guests, click `Share` and then select `Remove` from the dropdown next to their names. You can also go to `Settings & Members`, scroll down to find the guests you want, click on the dropdown to the right of their names and click the `Remove` button.
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

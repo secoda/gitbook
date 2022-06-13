@@ -18,3 +18,7 @@ From here, click on the Integration you'd like to edit the permissions for.&#x20
 You'll see a number of tabs underneath the integration name. Click on Permissions.&#x20;
 
 On this page, you'll be able to see all of the users you've added to the integration. You can select all of the users you'd like to have query permissions, and de-select those you would not.&#x20;
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

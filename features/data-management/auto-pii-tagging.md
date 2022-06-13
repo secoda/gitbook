@@ -4,7 +4,7 @@ description: >-
   in Secoda.
 ---
 
-# Auto PII Tagging
+# Auto PII Tagging on Data
 
 ## **How to Auto PII your data in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -15,3 +15,7 @@ By going to the data tab, you can find and auto tag PII data in Secoda easily. T
 Once you're in the data tab, you can see all the tables and columns that Secoda has identified that may contain PII data. You can select or deselect any of these columns or tables before applying the PII tag. &#x20;
 
 ![](<../../.gitbook/assets/Group 587 (2).png>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

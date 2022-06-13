@@ -5,7 +5,7 @@ description: >-
   group them.
 ---
 
-# Invite Teammates
+# Invite Teammates to Secoda
 
 ## How to invite teammates to Secoda
 
@@ -52,3 +52,7 @@ You can create a new link by clicking **Create link**. After you've created a li
 For more on Custom Invitation Links, check out [Custom Invitation Links. ](../user-management/custom-invitation-links.md)
 
 ![](<../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

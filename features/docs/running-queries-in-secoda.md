@@ -25,3 +25,7 @@ By pressing the /query command, editors can embed live queries into table docume
 These queries are useful for showing viewers how to use queries or if editors want to share / document queries for viewers. As a viewer, I am only able to execute the query if I have [permissions](../../user-management/integration-permissions.md).&#x20;
 
 As a viewer, If I don't have integration permission, I will only be able to view the result of the query and download a CSV with the results that have been shared with me.&#x20;
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}

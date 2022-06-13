@@ -21,3 +21,7 @@ Good to know: you can create groups for different user roles across the board. Y
 * To share a resource with a particular group, go to `Share` at the top right of that resource, then click the `Add people` button. You'll see your groups listed in the invite pop-up that appears. You can add and remove people from this same view.
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.57.02 PM.png>)
+
+{% hint style="info" %}
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+{% endhint %}
