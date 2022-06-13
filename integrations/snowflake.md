@@ -85,5 +85,3 @@ After creating a Snowflake warehouse, the next step is to connect Secoda.
 #### **Whitelisting IPs** <a href="#h_e7eac6e3f5" id="h_e7eac6e3f5"></a>
 
 If you create a network policy with Snowflake, add the following IP address to the “Allowed IP Addresses” list: `35.175.75.15/32`
-
-\\

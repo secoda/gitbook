@@ -50,5 +50,3 @@ BigQuery Job User
 * Click "Connect"
 
 After these steps are completed, Secoda will extract the metadata associated with Big Query once every 24 hours.
-
-\\
