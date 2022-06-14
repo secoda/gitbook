@@ -54,5 +54,5 @@ For more on Custom Invitation Links, check out [Custom Invitation Links. ](../us
 ![](<../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}
