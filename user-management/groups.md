@@ -22,6 +22,12 @@ Good to know: you can create groups for different user roles across the board. Y
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.57.02 PM.png>)
 
+
+
+You can also see which group each member of your team belongs to and see what resources that team owns. You can use your groups to assign resources to multiple people and navigate to see what different groups are able to use in Secoda.&#x20;
+
+![](<../.gitbook/assets/Screen Recording 2022-06-14 at 10.25.51 AM.gif>)
+
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
 {% endhint %}
