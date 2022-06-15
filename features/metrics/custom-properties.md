@@ -17,5 +17,5 @@ To delete a custom property, click on the custom property name, and then click *
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (4) (1).gif>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}

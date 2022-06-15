@@ -27,5 +27,5 @@ When this question is answered, you'll be receive a notification.&#x20;
 To respond to incoming and new questions, head to the Secoda app, click on questions, and you’ll see all of the questions that have been asked and answered.
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}

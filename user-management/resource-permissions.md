@@ -27,5 +27,5 @@ You can also manage additional roles and permissions on a resource level to dict
 The above can be done for a single user or for a group of users. From this view, you can view who currently has access, and add/remove users accordingly.&#x20;
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}
