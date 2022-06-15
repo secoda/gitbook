@@ -48,5 +48,5 @@ To respond to incoming and new questions, head to the Secoda app, click on quest
 You can receive updates from Secoda in a Slack channel of your choice. If you're an admin, you'll receive notifications when documentation or schema changes. Anyone who is an owner or assignee on a question, document, or dictionary term will receive a notification when there has been an update or change related to that resource or any related resources.&#x20;
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}

@@ -18,5 +18,5 @@ This is where you can manage invites to your Secoda workspace. You can also mana
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.59.16 PM.png>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/auth/realms/master/protocol/openid-connect/registrations?clie\[%E2%80%A6]openid%20email\&redirect\_uri=https://app.secoda.co\&kc\_locale=en) 👈
+Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}
