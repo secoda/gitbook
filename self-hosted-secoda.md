@@ -45,5 +45,5 @@ description: >-
 [Setup Backups](https://www.notion.so/Setup-Backups-494f8434cf6344d4ba5ae1fcabf7eb7e)
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

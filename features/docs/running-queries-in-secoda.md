@@ -27,5 +27,5 @@ These queries are useful for showing viewers how to use queries or if editors wa
 As a viewer, If I don't have integration permission, I will only be able to view the result of the query and download a CSV with the results that have been shared with me.&#x20;
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

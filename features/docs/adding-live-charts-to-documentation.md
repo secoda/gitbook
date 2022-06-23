@@ -30,5 +30,5 @@ Once you open the right-hand tab, you will be able to select the chart type, axi
 If you only want the chart to display, you can select "prefer chart" and viewers will only see the chart in Secoda instead of the query. Charts can be embedded anywhere in the product including collections, questions, tables, charts, queries and docs.&#x20;
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

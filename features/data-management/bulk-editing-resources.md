@@ -36,5 +36,5 @@ To see it in action, check out this Loom video.
 {% embed url="https://www.loom.com/share/50c4ce8d31ee4e96867207f3cd49678e" %}
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

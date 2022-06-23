@@ -27,5 +27,5 @@ Documents can be shared with any employee and can be indexed by the central sear
 To learn more about different embed sources, go to [Embeds](../embeds.md).&#x20;
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

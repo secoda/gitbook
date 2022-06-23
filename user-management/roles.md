@@ -33,5 +33,5 @@ description: >-
 | <p>Add/remove/modify:</p><p>Billing information</p>                                                                            |       |        |        | ✅     |
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

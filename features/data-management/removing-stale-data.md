@@ -17,5 +17,5 @@ Once you're in the data tab, you can see all the stale data that Secoda has iden
 ![](<../../.gitbook/assets/Screen Shot 2022-04-10 at 10.19.57 PM.png>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

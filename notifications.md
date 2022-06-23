@@ -19,5 +19,5 @@ Secoda will also send a report on a weekly basis with your workspace analytics a
 ![](<.gitbook/assets/Screen Shot 2022-04-10 at 11.48.23 AM.png>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}
