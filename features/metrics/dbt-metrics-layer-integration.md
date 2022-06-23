@@ -13,5 +13,5 @@ This integration allows you to define the metrics in SQL and auto document them 
 {% embed url="https://www.loom.com/share/7b57b7c0d60444d4bce3e3db8a201a28" %}
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

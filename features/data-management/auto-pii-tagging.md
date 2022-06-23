@@ -17,5 +17,5 @@ Once you're in the data tab, you can see all the tables and columns that Secoda 
 ![](<../../.gitbook/assets/Group 587 (2).png>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

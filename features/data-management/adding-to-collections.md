@@ -27,5 +27,5 @@ You can add dashboards, questions, tables, dictionary terms and docs to a collec
 You can view the different types of resources that are connected by toggling between the tabs on the top of the resource.
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

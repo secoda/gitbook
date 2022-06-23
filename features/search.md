@@ -42,5 +42,5 @@ Filter Resources
 * by Group
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

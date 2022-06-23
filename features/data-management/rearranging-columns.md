@@ -18,5 +18,5 @@ On this screen, you can select or de-select the columns you'd like to see on Sec
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (2).gif>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

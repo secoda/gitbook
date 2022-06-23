@@ -15,5 +15,5 @@ When you update a column description, Secoda will utilize lineage and similar co
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (7).gif>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

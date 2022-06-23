@@ -46,5 +46,5 @@ Log into [Secoda](https://app.secoda.co) and go into the **Settings > Data.** Cr
 Go to a data resource and confirm that the descriptions have been correctly imported. If you have any questions or issues please contact [hello@secoda.co](mailto:hello@secoda.co).
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

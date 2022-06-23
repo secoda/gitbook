@@ -23,5 +23,5 @@ Each resource type has the ability to be marked as published or to remain in dra
 ![](<../.gitbook/assets/Group 587 (1).png>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}

@@ -28,5 +28,5 @@ Owners will receive notifications through email and the Secoda app when tables, 
 Table Owners can add helpful comments or Frequently Asked Questions about a dataset so they’ll show at the top of the documentation tab.
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here ](http://app.secoda.co/)👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}
