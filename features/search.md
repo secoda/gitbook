@@ -15,7 +15,7 @@ You can search for terms in plain language, or by the table name and data source
 
 ## Nav Search
 
-Click on different tabs below the search bar to see results from a specific data source. For example, if you're looking for a Mode dashboard, click on **Data -> Mode ->Personal -> Payments** as shown below. You can use the side nav to filter by a table, source, schema or folder that you want to view in the data folder.&#x20;
+Click on different tabs below the search bar to see results from a specific data source. For example, if you're looking for a Mode dashboard, you can use the side nav to filter by a table, source, schema or folder that you want to view in the data folder.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-07 at 7.53.10 PM.png>)
 
