@@ -4,7 +4,7 @@ description: >-
   supports
 ---
 
-# Redshift
+# Redshift Integration
 
 ## **Getting Started with Redshift** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -23,7 +23,15 @@ To create a [new user](http://docs.aws.amazon.com/redshift/latest/dg/r\_Users.ht
 Redshift doesn't allow for non-super users to access the system tables, which is where we pull the metadata from. Below is a workaround so you aren't giving Secoda superuser access. Secoda only uses the system tables for our metadata extraction, the extraction query can be viewed [here](https://www.notion.so/Redshift-4a22df9ed18b4a6cb35eefd418f65727).
 
 ```
--- Create a user named "secoda" that Secoda will use when connecting to your Redshift cluster.CREATE USER secoda PASSWORD '<enter password here>';-- Allows the non super user "secoda" to query metadata-- Explaination of query here -> https://stackoverflow.com/questions/48567440/granting-permissions-on-redshift-system-tables-to-non-superusersALTER USER secoda SYSLOG ACCESS UNRESTRICTED;-- Complete this query for any schemas you would like Secoda to extractGRANT SELECT ON ALL TABLES IN SCHEMA <schema_name> TO secoda_test
+-- Create a user named "secoda" that Secoda will use when connecting to your Redshift cluster.
+CREATE USER secoda PASSWORD '<enter password here>';
+
+-- Allows the non super user "secoda" to query metadata
+-- Explaination of query here -> https://stackoverflow.com/questions/48567440/granting-permissions-on-redshift-system-tables-to-non-superusers
+ALTER USER secoda SYSLOG ACCESS UNRESTRICTED;
+
+-- Complete this query for any schemas you would like Secoda to extract
+GRANT SELECT ON ALL TABLES IN SCHEMA <schema_name> TO secoda
 ```
 
 When connecting to Redshift in Secoda, use the username/password you’ve created here instead of your admin account.
