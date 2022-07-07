@@ -28,6 +28,7 @@
   * [Linear Integration](integrations/linear-integration.md)
   * [Polytomic Integration](integrations/polytomic.md)
   * [Fivetran Integration](integrations/fivetran-integration.md)
+  * [Amplitude Integration](integrations/amplitude-integration.md)
   * [Great Expectations Integration](integrations/great-expectations-integration.md)
   * [AWS Glue Integration](integrations/aws-glue-integration.md)
   * [Git Integration for data docs](integrations/git-integration.md)
