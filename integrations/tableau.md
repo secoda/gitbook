@@ -4,19 +4,27 @@ description: >-
   supports
 ---
 
-# Tableau
+# Tableau Integration
 
 ## **Getting Started with Tableau** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Tableau with Secoda:
 
-1. Create an Access Token
-2. Retrieve your host name, API version, and site name
-3. Connect Tableau to Secoda
+1. Enable Metadata API
+2. Create an Access Token
+3. Retrieve your host name, API version, and site name
+4. Connect Tableau to Secoda
+
+#### Enable Metadata API (Tableau Server ONLY) <a href="#h_741406548f" id="h_741406548f"></a>
+
+If you're on Tableau Online, you can skip this step. If you're on Tableau Server reach out to your administrator to enable the metadata API. Instructions for enabling the API can be found in this [Tableau documentation](https://help.tableau.com/current/api/metadata\_api/en-us/docs/meta\_api\_start.html) under the section **Enable the Tableau Metadata API for Tableau Server.**
+
+1. Open a command prompt as an admin on the initial node (where TSM is installed) in the cluster.
+2. Run the command: `tsm maintenance metadata-services enable`
 
 #### **Create an Access Token** <a href="#h_741406548f" id="h_741406548f"></a>
 
-To create a Tableau access token for Secoda visit [Tableau Online](https://sso.online.tableau.com/public/login) and log into your account. Use the following steps to generate an access token:
+To create a Tableau access token for Secoda log into your account. Use the following steps to generate an access token:
 
 1. Click on your avatar in the top right and select 'My Account Settings' from the dropdown menu.
 2. Scroll to the section 'Personal Access Tokens'
@@ -67,3 +75,9 @@ After creating a Tableau access token, the next step is to connect to Secoda:
 | 2020.2                          | 3.8                  | 3.8                |
 | 2020.3                          | 3.9                  | 3.9                |
 | 2020.4                          | 3.10                 | 3.10               |
+| 2021.1                          | 3.11                 | 3.11               |
+| 2021.2                          | 3.12                 | 3.12               |
+| 2021.3                          | 3.13                 | 3.13               |
+| 2021.4                          | 3.14                 | 3.14               |
+| 2022.1                          | 3.15                 | 3.15               |
+| 2022.2                          | 3.16                 | 3.16               |
