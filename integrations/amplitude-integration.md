@@ -6,6 +6,8 @@ description: This page explains how to integrate Amplitude with Secoda
 
 ## Getting Started with Amplitude <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
+
+
 There are two steps to get started using Amplitude with Secoda:
 
 1. Find your API Key and an API Secret (`Secret Key`) on Amplitude
