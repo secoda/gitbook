@@ -17,6 +17,5 @@ Check ☑️ the **Service Accounts** in the users column in the integrations ta
 Activities from Service Accounts will be weighted at much less when calculating popularity, so that your popularity score is driven by human users, not recurring jobs.
 
 {% hint style="info" %}
-Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
 {% endhint %}
-

@@ -19,5 +19,5 @@ On the **Schema** page, you'll find all of the datasets that Secoda has pulled f
 ![](<../.gitbook/assets/ezgif.com-gif-maker (7) (1).gif>)
 
 {% hint style="info" %}
-Not using Secoda to manage your data knowledge yet? Sign up for free [here](http://app.secoda.co/) 👈
+Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
 {% endhint %}
