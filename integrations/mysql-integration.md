@@ -16,16 +16,13 @@ To create a new user, you’ll need to log into the MySQL database directly and 
 
 ```
 -- Create a user named "secoda" that Secoda will use when connecting to your MySQL database. 
-CREATE USER secoda PASSWORD '<enter password here>'; 
+CREATE USER 'secoda'@'localhost' IDENTIFIED BY '<enter password here>'; 
 
 -- Complete this query for any databases you would like Secoda to extract from
-GRANT CONNECT ON DATABASE <database_name> TO secoda;
+GRANT SELECT ON <database_name>.* TO 'secoda'@'localhost';
 
--- Complete this query for any schemas you would like Secoda to extract from 
-GRANT USAGE ON SCHEMA <schema_name> TO secoda;
-GRANT SELECT ON ALL TABLES IN SCHEMA <schema_name> TO secoda;
-ALTER DEFAULT PRIVILEGES IN SCHEMA <schema_name>
-GRANT SELECT ON TABLES TO secoda;
+-- Complete this query for any schemas you would like Secoda to extract from
+GRANT SELECT ON <schema_name>.* TO 'secoda'@'localhost';
 ```
 
 When connecting to MySQL in Secoda, use the username/password you’ve created here instead of your admin account.
@@ -35,7 +32,7 @@ When connecting to MySQL in Secoda, use the username/password you’ve created h
 After creating a MySQL user, the next step is to connect Secoda:
 
 1. In the Secoda App, select ‘Add Integration’ on the Integrations tab
-2. Search for and select ‘MySQL’
+2. Search for and select "MySQL"
 3. Enter your MySQL credentials
 4. Click 'Connect'
 
