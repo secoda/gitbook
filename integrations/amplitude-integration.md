@@ -18,7 +18,7 @@ There are two steps to get started using Amplitude with Secoda:
 1. Login to Amplitude and head to the Settings/Project/`Project Name` section.
 2. Copy your API Key and API Secret (`Secret Key`).
 
-### Connect to Fivetran
+### Connect to Amplitude
 
 1. In Secoda, head to the **Integrations** page and click **New Integration**
 2. Select **Amplitude**
