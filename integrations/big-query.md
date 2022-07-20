@@ -25,7 +25,9 @@ To provide [least privilege](https://en.wikipedia.org/wiki/Principle\_of\_least\
 1. From the Navigation panel on the left, go to **IAM & admin** > **Service accounts**
 2. Click **Create Service Account** along the top
 3. Enter a name (for example: “secoda”) and click **Create**
-4. When assigning permissions, make sure to grant the following roles:
+4. When assigning permissions, make sure to grant the following permissions:
+
+a) If you're creating the service account via the GCP console add the following roles:
 
 ```
 BigQuery Metadata Viewer
@@ -37,7 +39,17 @@ BigQuery Data Viewer
 BigQuery Job User
 ```
 
-\*BigQuery Data Viewer is not required for the catalog feature, but is required for the query and chart blocks feature. We recommend adding this role for the best experience on Secoda.
+b) If you're programatically creating the service account add the following roles:
+
+```
+roles/bigquery.metadataViewer
+roles/bigquery.resourceViewer
+roles/cloudjobdiscovery.jobsViewer
+roles/logging.viewer        
+roles/logging.privateLogViewer        
+roles/bigquery.dataViewer        
+roles/bigquery.jobUser
+```
 
 5\. [Create a JSON key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys). The downloaded file will be used to create your warehouse in the next section.
 
