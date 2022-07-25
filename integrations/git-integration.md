@@ -2,7 +2,7 @@
 description: This page walks through the Secoda and Git integration that Secoda supports
 ---
 
-# Git
+# Git Integration for data docs
 
 ## **Getting Started with Git** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -40,16 +40,13 @@ Your git username password are the same as your Git hosting credentials. However
 
 #### Connect Git to Secoda <a href="#h_448e650cba" id="h_448e650cba"></a>
 
-1. Open your Secoda settings.
-2. Navigate to the “Git” tab on the left
-3. Input your repo https web address from the first step into “Repository Origin”
+1. Open your Secoda integrations page
+2. Click on "New Integration" on the top left
+3. Select git from the list of integrations
 4. Input your Git credentials from step 2 for “Git Username” and “Git Password”
+5. Click on "Test Connection" to save the integration.
+6. Once integration is created, click on “Run Extraction” from history tab to run your first extraction
 
-![](https://secoda.intercom-attachments-1.com/i/o/436142140/96b913c1a99f3b05ec862a89/Screen\_Shot\_2021-12-17\_at\_12.00.27\_PM.png)
+![](<../.gitbook/assets/Screen Shot 2022-07-25 at 3.38.24 PM.png>)
 
-1. Click on add repo to save the integration.
-2. Once integration is created, click on “Push to Git” to run your first extraction
-
-![](https://secoda.intercom-attachments-1.com/i/o/436142146/7f210e6d4e2fdf779fee7109/Screen\_Shot\_2021-12-17\_at\_11.33.07\_AM.png)
-
-Once the git extraction finishes running, you will receive an email indicating the extraction has been completed.
+Once the git extraction finishes running, you will receive a notification on Secoda if you have enabled the setting to receive extraction success notifications.
