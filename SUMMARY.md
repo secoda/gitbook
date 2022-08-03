@@ -13,6 +13,7 @@
   * [BigQuery Integration](integrations/big-query.md)
   * [Postgres Integration](integrations/postgres.md)
   * [Redshift Integration](integrations/redshift.md)
+  * [Databricks Integration](integrations/databricks-integration.md)
   * [MySQL Integration](integrations/mysql-integration.md)
   * [Microsoft SQL Server Integration](integrations/microsoft-sql-server.md)
   * [Looker Integration](integrations/looker.md)
