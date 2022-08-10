@@ -20,6 +20,12 @@ By pressing the /query command, editors can embed live queries into table docume
 3. Write your query and press the execute button on the right have side
 4. Sort query and share it with the viewer you want to see the query
 
+### Scheduling queries
+
+Using the "schedule" tab, you can set a schedule for your queries to run in Secoda. This can ensure that viewers who are looking at your query results are seeing up to date results that they can trust.&#x20;
+
+![](<../../.gitbook/assets/Screen Shot 2022-08-10 at 10.48.05 AM.png>)
+
 ### Sharing queries with viewers
 
 These queries are useful for showing viewers how to use queries or if editors want to share / document queries for viewers. As a viewer, I am only able to execute the query if I have [permissions](../../user-management/integration-permissions.md).&#x20;
