@@ -2,7 +2,7 @@
 description: How to make changes, manipulate, and work with data in Secoda.
 ---
 
-# Data Management
+# Data Management with Secoda
 
 ## **Getting Started with Data Management in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -44,8 +44,8 @@ Secoda ingests metadata from your data warehouse, BI tool and ETL processes. Aft
 [column-profiling.md](column-profiling.md)
 {% endcontent-ref %}
 
-{% content-ref url="rearranging-columns.md" %}
-[rearranging-columns.md](rearranging-columns.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="adding-to-collections.md" %}

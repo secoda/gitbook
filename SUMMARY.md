@@ -50,7 +50,6 @@
     * [Adding Custom Column Properties](features/data-management/adding-custom-properties.md)
     * [Activity Log](features/data-management/activity-log.md)
     * [Column Profiling for Data Quality](features/data-management/column-profiling.md)
-    * [Rearranging and Hiding Columns](features/data-management/rearranging-columns.md)
     * [Removing stale data from Secoda](features/data-management/removing-stale-data.md)
     * [Adding data to Collections](features/data-management/adding-to-collections.md)
     * [Import & Export Metadata](features/data-management/import-and-export-data.md)
