@@ -6,9 +6,15 @@ description: How to manage dictionary terms with the Secoda API
 
 ## List All Dictionary Terms
 
-| Endpoint | https://api.secoda.co/dictionary/ |
-| -------- | --------------------------------- |
-| Method   | GET                               |
+| Endpoint | https://api.secoda.co/dictionary/terms/ |
+| -------- | --------------------------------------- |
+| Method   | GET                                     |
+
+{% hint style="info" %}
+The **Endpoint** field for self-hosted instances is `<host`\_`url>/api/v1/dictionary/terms/`\
+``\
+``For example, https://secoda.company.com/api/v1/dictionary/terms/
+{% endhint %}
 
 *   Sample Response
 
