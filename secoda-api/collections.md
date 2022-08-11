@@ -6,9 +6,15 @@ description: How to manage collections with the Secoda API
 
 ## List All Collections
 
-| Endpoint | https://api.secoda.co/tag/ |
-| -------- | -------------------------- |
-| Method   | GET                        |
+| Endpoint | https://api.secoda.co/collection/collections/ |
+| -------- | --------------------------------------------- |
+| Method   | GET                                           |
+
+{% hint style="info" %}
+The **Endpoint** field for self-hosted instances is `<host`\_`url>/api/v1/collection/collections/`\
+``\
+``For example, https://secoda.company.com/api/v1/collection/collections/
+{% endhint %}
 
 *   Sample Response
 

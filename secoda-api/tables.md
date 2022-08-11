@@ -6,9 +6,15 @@ description: How to manage tables with the Secoda API
 
 ## List All Tables
 
-| Endpoint | https://api.secoda.co/table/ |
-| -------- | ---------------------------- |
-| Method   | GET                          |
+| Endpoint | https://api.secoda.co/table/tables/ |
+| -------- | ----------------------------------- |
+| Method   | GET                                 |
+
+{% hint style="info" %}
+The **Endpoint** field for self-hosted instances is `<host`\_`url>/api/v1/dictionary/table/tables/`\
+``\
+``For example, https://secoda.company.com/api/v1/table/tables/
+{% endhint %}
 
 *   Sample Response
 

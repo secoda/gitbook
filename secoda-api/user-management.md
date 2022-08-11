@@ -6,11 +6,16 @@ description: How to manage users with the Secoda API
 
 ## Invite a New User
 
-| Endpoint                 | `https://api.secoda.co/user/invite` |
-| ------------------------ | ----------------------------------- |
-| Method                   | POST                                |
-| Accepted Body Parameters | email, role                         |
-|                          |                                     |
+| Endpoint                 | `https://api.secoda.co/user/invite/` |
+| ------------------------ | ------------------------------------ |
+| Method                   | POST                                 |
+| Accepted Body Parameters | email, role                          |
+
+{% hint style="info" %}
+The **Endpoint** field for self-hosted instances is `<host`\_`url>/api/v1/dictionary/invite/`\
+``\
+``For example, https://secoda.company.com/api/v1/user/invite/
+{% endhint %}
 
 *   Sample Response
 
