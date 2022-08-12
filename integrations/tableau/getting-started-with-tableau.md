@@ -26,4 +26,4 @@ The lineage from Tableau is brought into Secoda to feature all of the related re
 
 A fully interactive preview of Tableau dashboards and sheets are included in the resource page&#x20;
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (3).png>)
