@@ -2,7 +2,7 @@
 description: This page walks through the Secoda and GDS integration that Secoda supports
 ---
 
-# Google Data Studio
+# Google Data Studio Integration
 
 Secoda has two methods of integrating with Google Data Studio: retrieving a session cookie and using Google OAuth
 
@@ -51,7 +51,7 @@ _Secoda uses a series of REST APIs that Google Data Studio uses for its platform
 
 &#x20; 2\.  Click on the **Network** tab and put `https://datastudio.google.com` in the **filter** field
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 &#x20; 3\.  Refresh the page and you should see some requests populate
 

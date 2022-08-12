@@ -6,9 +6,9 @@ description: >-
 
 # Tableau Integration
 
-## **Getting Started with Tableau** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Connect Tableau** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are three steps to get started using Tableau with Secoda:
+There are three steps to connect Tableau with Secoda:
 
 1. Enable Metadata API
 2. Create an Access Token
