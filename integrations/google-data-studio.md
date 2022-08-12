@@ -47,11 +47,11 @@ _Secoda uses a series of REST APIs that Google Data Studio uses for its platform
 
 1. Login to [Google Data Studio](https://datastudio.google.com) and open the developer tools by _right-clicking_ and selecting **Inspect**
 
-![Login to Google Data Studio and open the developer tools by right-clicking and selecting Inspect](<../.gitbook/assets/image (6) (1).png>)
+![Login to Google Data Studio and open the developer tools by right-clicking and selecting Inspect](<../.gitbook/assets/image (6) (1) (1).png>)
 
 &#x20; 2\.  Click on the **Network** tab and put `https://datastudio.google.com` in the **filter** field
 
-![](<../.gitbook/assets/image (4) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 &#x20; 3\.  Refresh the page and you should see some requests populate
 
@@ -61,7 +61,7 @@ _Secoda uses a series of REST APIs that Google Data Studio uses for its platform
 
 &#x20; 5\.  In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 ### Connect to Google Data Studio
 
