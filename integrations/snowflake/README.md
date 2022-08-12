@@ -1,14 +1,12 @@
 ---
-description: >-
-  This page walks through the Secoda and Snowflake data cataloging integration
-  that Secoda supports
+description: This page walks through the Secoda and Snowflake data cataloging integration
 ---
 
 # Snowflake Integration
 
-## **Getting Started with Snowflake** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Connect Snowflake** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are four steps to getting started using Snowflake with Secoda. Make sure that you are running the commands in each step while logged in as an `ACCOUNTADMIN`, or an account that has `MANAGE GRANTS`. While we are using predefined user (`SECODA_USER`), role (`SECODA`), and warehouse (`SECODA_WAREHOUSE`)
+There are four steps to connect Snowflake with Secoda. Make sure that you are running the commands in each step while logged in as an `ACCOUNTADMIN`, or an account that has `MANAGE GRANTS`. While we are using predefined user (`SECODA_USER`), role (`SECODA`), and warehouse (`SECODA_WAREHOUSE`)
 
 1. Create Role for Secoda
 2. Create User for Secoda
@@ -85,3 +83,7 @@ After creating a Snowflake warehouse, the next step is to connect Secoda.
 #### **Whitelisting IPs** <a href="#h_e7eac6e3f5" id="h_e7eac6e3f5"></a>
 
 If you create a network policy with Snowflake, add the following IP address to the “Allowed IP Addresses” list: `35.175.75.15/32`
+
+{% content-ref url="getting-started-with-snowflake.md" %}
+[getting-started-with-snowflake.md](getting-started-with-snowflake.md)
+{% endcontent-ref %}

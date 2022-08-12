@@ -14,18 +14,21 @@ description: >-
 
 ### Data Warehouses
 
-* [Snowflake](snowflake.md)
-* [BigQuery](big-query.md)
-* [Redshift](redshift.md)
-* [Postgres](postgres.md)
+* [Snowflake](snowflake/)
+* [BigQuery](big-query/)
+* [Redshift](redshift/)
+
+### Relational Databases
+
+* [Postgres](postgres/)
 * [MySQL](microsoft-sql-server.md)
 * [Microsoft SQL Server](microsoft-sql-server.md)
 * Oracle
 
 ### BI and Data Visualization Tools
 
-* [Tableau](tableau.md)&#x20;
-* [Looker](looker.md)
+* [Tableau](tableau/)&#x20;
+* [Looker](looker/)
 * [Mode](mode.md)&#x20;
 * Sigma&#x20;
 * [Redash](redash.md)

@@ -28,7 +28,7 @@ Enter in the following credentials:
 
 All of this information can be found under the JDBC/ODBC tab for the Advanced settings of your cluster&#x20;
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 After entering in the information into Secoda, click "Test Connection". After the connection is successful your can Submit and run the initial extraction.
 

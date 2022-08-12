@@ -1,14 +1,12 @@
 ---
-description: >-
-  This page walks through the Secoda and Redshift integration that Secoda
-  supports
+description: This page walks through the Secoda and Redshift integration
 ---
 
 # Redshift Integration
 
-## **Getting Started with Redshift** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Connect Redshift** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are three steps to get started using Redshift with Secoda:
+There are three steps to connect Redshift with Secoda:
 
 1. Create a database user
 2. Connect Redshift to Secoda
@@ -92,41 +90,6 @@ You can find more information on that [here](http://docs.aws.amazon.com/redshift
 2. Select the “Cluster” button and then “Modify”
 3. Make sure the “Publicly Accessible” option is set to “Yes”
 
-#### Redshift Metadata Extraction Query <a href="#h_8ec7d234fc" id="h_8ec7d234fc"></a>
-
-```
-SELECT   *
-FROM     (
-                    SELECT     {cluster_source} AS cluster,
-                               c.table_schema   AS SCHEMA,
-                               c.table_name     AS NAME,
-                               pgtd.description AS description,
-                               c.column_name    AS col_name,
-                               c.data_type      AS col_type,
-                               pgcd.description AS col_description,
-                               ordinal_position AS col_sort_order
-                    FROM       information_schema.columns c
-                    INNER JOIN pg_catalog.pg_statio_all_tables AS st
-                    ON         c.table_schema=st.schemaname
-                    AND        c.table_name=st.relname
-                    LEFT JOIN  pg_catalog.pg_description pgcd
-                    ON         pgcd.objoid=st.relid
-                    AND        pgcd.objsubid=c.ordinal_position
-                    LEFT JOIN  pg_catalog.pg_description pgtd
-                    ON         pgtd.objoid=st.relid
-                    AND        pgtd.objsubid=0
-                    UNION
-                    SELECT {cluster_source} AS cluster,
-                           view_schema      AS SCHEMA,
-                           view_name        AS NAME,
-                           NULL             AS description,
-                           column_name      AS col_name,
-                           data_type        AS col_type,
-                           NULL             AS col_description,
-                           ordinal_position AS col_sort_order
-                    FROM   pg_get_late_binding_view_cols() cols(view_schema name, view_name NAME, column_name NAME, data_type varchar, ordinal_position int) ) {where_clause_suffix}
-ORDER BY cluster,
-         SCHEMA,
-         NAME,
-         col_sort_order ;
-```
+{% content-ref url="getting-started-with-redshift.md" %}
+[getting-started-with-redshift.md](getting-started-with-redshift.md)
+{% endcontent-ref %}

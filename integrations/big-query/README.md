@@ -1,14 +1,12 @@
 ---
-description: >-
-  This page walks through the Secoda and BigQuery integration that Secoda
-  supports
+description: This page walks through the Secoda and BigQuery integration
 ---
 
 # BigQuery Integration
 
-## **Getting Started with Bigquery** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Connect Bigquery** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are three steps to get started using Big Query with Secoda:
+There are three steps to connect Big Query with Secoda:
 
 1. Enable the Big Query API
 2. Create a service account for Secoda
@@ -61,4 +59,6 @@ roles/bigquery.jobUser
 * Enter in the project name and paste the JSON key file contents that was downloaded
 * Click "Connect"
 
-After these steps are completed, Secoda will extract the metadata associated with Big Query once every 24 hours.
+{% content-ref url="getting-started-with-bigquery.md" %}
+[getting-started-with-bigquery.md](getting-started-with-bigquery.md)
+{% endcontent-ref %}

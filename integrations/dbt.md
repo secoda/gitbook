@@ -2,9 +2,13 @@
 description: This page walks through the Secoda and dbt integration that Secoda supports
 ---
 
-# dbt
+# dbt Cloud Integration
 
 ## **Getting Started with dbt** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
+{% hint style="info" %}
+dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
+{% endhint %}
 
 There are three steps to get started using dbt with Secoda:
 

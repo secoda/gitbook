@@ -2,11 +2,11 @@
 description: This page walks through the Secoda and Looker integration that Secoda supports
 ---
 
-# Looker
+# Looker Integration
 
-## **Getting Started with Looker** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Connect Looker** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are three steps to get started using Looker with Secoda:
+There are three steps to connect Looker with Secoda:
 
 1. Retrieve your Looker Client ID and Client Secret
 2. Retrieve your Looker host
@@ -46,7 +46,7 @@ Navigate to the Git tab on the Looker Integration Page and you will see your Loo
 
 Once the key is generate, you can select your LookML project and click **Copy public key** and head to your LookML repo in GitHub.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (2).png>)
 
 Once in your GitHub repo, click on **Settings > Deploy keys** on the sidebar.
 

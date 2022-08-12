@@ -4,14 +4,19 @@ description: >-
   supports
 ---
 
-# dbt Core
+# dbt Core Integration
 
 ## **Getting Started with dbt Core** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are two options to connect dbt core with Secoda:
+{% hint style="info" %}
+dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
+{% endhint %}
+
+There are three options to connect dbt core with Secoda:
 
 1. Upload a manifest.json
 2. Connect an AWS S3 bucket
+3. Secoda API
 
 #### **Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
@@ -77,3 +82,13 @@ Connect your S3 bucket to Secoda
 5. Click "Submit"
 
 After clicking submit an extraction will run to sync the metadata from the manifest.json files in the S3 bucket that you've connected.
+
+
+
+**Secoda API**
+
+The API provides an endpoint to upload your manifest.json file. This is convenient if you run dbt with Airflow because you can upload the manifest.json at the end of a dbt run. Follow these instructions to upload your manifest.json via the API:
+
+1. Create a blank dbt core integration by going to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and selecting the "dbt Core" integration and then click "Test Connection". And run the initial extraction. This extraction will fail, but that's intended.
+2. Return to https://app.secoda.co/integrations and click on the dbt Core integration that was just created. Save the ID which is contained in the URL.
+3. Follow the example in our [API docs](https://docs.secoda.co/secoda-api/dbt-integration) to upload a manifest.json file using the integration ID you created.
