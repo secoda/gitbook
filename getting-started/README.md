@@ -30,10 +30,18 @@ Good to know: We understand that some integrations and data structures are more 
 [add-documentation.md](add-documentation.md)
 {% endcontent-ref %}
 
-{% content-ref url="connect-to-slack.md" %}
-[connect-to-slack.md](connect-to-slack.md)
+{% content-ref url="publishing.md" %}
+[publishing.md](publishing.md)
+{% endcontent-ref %}
+
+{% content-ref url="preview-workspace.md" %}
+[preview-workspace.md](preview-workspace.md)
 {% endcontent-ref %}
 
 {% content-ref url="invite-teammates.md" %}
 [invite-teammates.md](invite-teammates.md)
+{% endcontent-ref %}
+
+{% content-ref url="connect-to-slack.md" %}
+[connect-to-slack.md](connect-to-slack.md)
 {% endcontent-ref %}
