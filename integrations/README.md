@@ -14,7 +14,7 @@ description: >-
 
 ### Data Warehouses
 
-* [Snowflake](snowflake/)
+* [Snowflake](getting-started-with-snowflake/snowflake.md)
 * [BigQuery](big-query/)
 * [Redshift](redshift/)
 

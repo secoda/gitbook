@@ -28,7 +28,7 @@ description: >-
 
 [metabase.md](../integrations/metabase.md "mention")
 
-[snowflake](../integrations/snowflake/ "mention")
+[snowflake.md](../integrations/getting-started-with-snowflake/snowflake.md "mention")
 
 [hightouch.md](../integrations/hightouch.md "mention")
 
