@@ -15,7 +15,7 @@ description: >-
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-08 at 10.26.58 AM.png>)
 
-To learn more about Secoda's functionality with Slack, including asking questions from Slack and searching Secoda from Slack, check out our [Slack Integration](../slack-connection.md) page.
+To learn more about Secoda's functionality with Slack, including asking questions from Slack and searching Secoda from Slack, check out our [Slack Integration](../features/slack-connection.md) page.
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
