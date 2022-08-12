@@ -2,7 +2,7 @@
 description: This page walks through the Secoda and Snowflake data cataloging integration
 ---
 
-# Snowflake Integration
+# How to connect to Snowflake?
 
 ## **Connect Snowflake** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -84,6 +84,6 @@ After creating a Snowflake warehouse, the next step is to connect Secoda.
 
 If you create a network policy with Snowflake, add the following IP address to the “Allowed IP Addresses” list: `35.175.75.15/32`
 
-{% content-ref url="getting-started-with-snowflake.md" %}
-[getting-started-with-snowflake.md](getting-started-with-snowflake.md)
+{% content-ref url="./" %}
+[.](./)
 {% endcontent-ref %}

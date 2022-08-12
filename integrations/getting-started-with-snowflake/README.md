@@ -22,7 +22,7 @@ The columns associated with the tables will be imported into Secoda. The column 
 
 Table and column lineage is automatically imported into Secoda. The last day of queries are parsed with our lineage parser to build a map of the relationships between columns and tables.
 
-![](<../../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6).png>)
 
 **Queries**
 

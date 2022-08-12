@@ -18,7 +18,7 @@ Create a new IAM user by clicking "Add users"
 
 Select "**Access key - Programmatic access"** under the "Select AWS access type" section and click "Next"
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 In the permissions section, select "Attach existing policies directly" and then click "Create policy".
 
@@ -56,6 +56,6 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
 
 Refresh the policy list and search for your newly created policy. Select that policy and then create the user.&#x20;
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 Copy the Access Key ID and Secret Access Key that is generated for the user. Return to https://app.secoda.co/integrations and select the AWS Glue integration. Input your region, access key ID and secret access key and click "Test Connection". After the connection is established click "Run initial extraction" to begin the process of syncing your Glue Data Catalog.&#x20;

@@ -10,7 +10,7 @@ description: >-
 
 To view the metadata associated with one of your Redshift tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Redshift table. That link will bring you to the following page.
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (2).png>)
 
 **Tables**
 
