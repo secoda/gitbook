@@ -1,14 +1,18 @@
 ---
-description: >-
-  This page walks through the metadata that the Secoda integration with Redshift
-  extract
+description: An overview of the Secoda integration with Redshift
 ---
 
-# Getting Started with Redshift
+# Redshift Integration
 
+{% content-ref url="redshift.md" %}
+[redshift.md](redshift.md)
+{% endcontent-ref %}
 
+{% content-ref url="redshift-metadata.md" %}
+[redshift-metadata.md](redshift-metadata.md)
+{% endcontent-ref %}
 
-To view the metadata associated with one of your Redshift tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Redshift table. That link will bring you to the following page.
+After connecting Redshift to Secoda, to view the metadata associated with one of your Redshift tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Redshift table. That link will bring you to the following page.
 
 ![](<../../.gitbook/assets/image (5) (2).png>)
 

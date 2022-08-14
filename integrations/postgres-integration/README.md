@@ -1,12 +1,18 @@
 ---
-description: >-
-  This page walks through the metadata that the Secoda integration with Postgres
-  extracts
+description: An overview of the Secoda integration with Postgres
 ---
 
-# Getting Started with Postgres
+# Postgres Integration
 
-To view the metadata associated with one of your Postgres tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Postgres table. That link will bring you to the following page.
+{% content-ref url="postgres.md" %}
+[postgres.md](postgres.md)
+{% endcontent-ref %}
+
+{% content-ref url="postgres-metadata.md" %}
+[postgres-metadata.md](postgres-metadata.md)
+{% endcontent-ref %}
+
+After connecting Postgres to Secoda, to view the metadata associated with one of your Postgres tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Postgres table. That link will bring you to the following page.
 
 ![](<../../.gitbook/assets/image (2) (2).png>)
 

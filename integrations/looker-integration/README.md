@@ -1,14 +1,18 @@
 ---
-description: >-
-  This page walks through the metadata that the Secoda integration with Looker
-  extracts
+description: This page is an overview of the Secoda integration for Looker
 ---
 
-# Getting Started with Looker
+# Looker Integration
 
-To view the metadata associated with one of your Looker dashboards, visit the [catalog](https://app.secoda.co/catalog) page and switch to the **Dashboard** tab, then click on the title of your Looker dashboard. That link will bring you to the following page.
+{% content-ref url="looker.md" %}
+[looker.md](looker.md)
+{% endcontent-ref %}
 
+{% content-ref url="looker-metadata.md" %}
+[looker-metadata.md](looker-metadata.md)
+{% endcontent-ref %}
 
+After connecting Looker to Secoda, to view the metadata associated with one of your Looker dashboards, visit the [catalog](https://app.secoda.co/catalog) page and switch to the **Dashboard** tab, then click on the title of your Looker dashboard. That link will bring you to the following page.
 
 **Dashboards and Looks**
 

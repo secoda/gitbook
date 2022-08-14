@@ -1,12 +1,8 @@
 ---
-description: >-
-  This page walks through the Secoda and Tableau integration that Secoda
-  supports
+description: This page walks through how to connect Secoda and Tableau
 ---
 
-# Tableau Integration
-
-## **Connect Tableau** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+# Connect Tableau
 
 There are three steps to connect Tableau with Secoda:
 

@@ -8,13 +8,13 @@ description: >-
 
 ## Connecting to an integration
 
-[tableau](../integrations/tableau/ "mention")
+[tableau.md](../integrations/tableau-integration/tableau.md "mention")
 
-[big-query](../integrations/big-query/ "mention")
+[big-query.md](../integrations/bigquery-integration/big-query.md "mention")
 
 [redash.md](../integrations/redash.md "mention")
 
-[redshift](../integrations/redshift/ "mention")
+[redshift.md](../integrations/redshift-integration/redshift.md "mention")
 
 [mode.md](../integrations/mode.md "mention")
 
@@ -24,17 +24,17 @@ description: >-
 
 [airflow.md](../integrations/airflow.md "mention")
 
-[postgres](../integrations/postgres/ "mention")
+[postgres.md](../integrations/postgres-integration/postgres.md "mention")
 
 [metabase.md](../integrations/metabase.md "mention")
 
-[snowflake.md](../integrations/getting-started-with-snowflake/snowflake.md "mention")
+[snowflake.md](../integrations/snowflake-integration/snowflake.md "mention")
 
 [hightouch.md](../integrations/hightouch.md "mention")
 
 [dbt.md](../integrations/dbt.md "mention")
 
-[looker](../integrations/looker/ "mention")
+[looker.md](../integrations/looker-integration/looker.md "mention")
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
