@@ -1,12 +1,18 @@
 ---
-description: >-
-  This page walks through the metadata that the Secoda integration with
-  Snowflake extracts
+description: An overview for the Snowflake integration with Secoda
 ---
 
-# Getting Started with Snowflake
+# Snowflake Integration
 
-To view the metadata associated with one of your Snowflake tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Snowflake table. That link will bring you to the following page.
+{% content-ref url="snowflake.md" %}
+[snowflake.md](snowflake.md)
+{% endcontent-ref %}
+
+{% content-ref url="snowflake-metadata.md" %}
+[snowflake-metadata.md](snowflake-metadata.md)
+{% endcontent-ref %}
+
+After connecting Snowflake, to view the metadata associated with one of your Snowflake tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Snowflake table. That link will bring you to the following page.
 
 ![](<../../.gitbook/assets/image (10) (1).png>)
 

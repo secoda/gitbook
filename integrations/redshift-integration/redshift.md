@@ -1,10 +1,8 @@
 ---
-description: This page walks through the Secoda and Redshift integration
+description: This page walks through how to connect Secoda and Redshift
 ---
 
-# Redshift Integration
-
-## **Connect Redshift** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+# Connect Redshift
 
 There are three steps to connect Redshift with Secoda:
 
@@ -90,6 +88,6 @@ You can find more information on that [here](http://docs.aws.amazon.com/redshift
 2. Select the “Cluster” button and then “Modify”
 3. Make sure the “Publicly Accessible” option is set to “Yes”
 
-{% content-ref url="getting-started-with-redshift.md" %}
-[getting-started-with-redshift.md](getting-started-with-redshift.md)
+{% content-ref url="./" %}
+[.](./)
 {% endcontent-ref %}

@@ -1,12 +1,18 @@
 ---
-description: >-
-  This page walks through the metadata that the Secoda integration with BigQuery
-  extracts
+description: An overview for the BigQuery integration with Secoda
 ---
 
-# Getting Started with BigQuery
+# BigQuery Integration
 
-To view the metadata associated with one of your BigQuery tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your BigQuery table. That link will bring you to the following page.
+{% content-ref url="big-query.md" %}
+[big-query.md](big-query.md)
+{% endcontent-ref %}
+
+{% content-ref url="bigquery-metadata.md" %}
+[bigquery-metadata.md](bigquery-metadata.md)
+{% endcontent-ref %}
+
+After connecting BigQuery to Secoda, to view the metadata associated with one of your BigQuery tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your BigQuery table. That link will bring you to the following page.
 
 ![](<../../.gitbook/assets/image (4) (2).png>)
 

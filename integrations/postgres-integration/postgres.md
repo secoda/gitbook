@@ -1,10 +1,8 @@
 ---
-description: This page walks through the Secoda and Postgres integration
+description: This page walks through how to connect the Postgres integration
 ---
 
-# Postgres Integration
-
-## **Connect Postgres** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+# Connect Postgres
 
 There are three steps to connect Postgres with Postgres:
 
@@ -50,6 +48,6 @@ VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re 
 Allow Secoda to read into your Postgres database using\
 `35.175.75.15/32`
 
-{% content-ref url="getting-started-with-postgres.md" %}
-[getting-started-with-postgres.md](getting-started-with-postgres.md)
+{% content-ref url="./" %}
+[.](./)
 {% endcontent-ref %}

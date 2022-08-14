@@ -1,12 +1,18 @@
 ---
-description: >-
-  This page walks through the metadata that the Secoda integration with Tableau
-  extracts
+description: This page is an overview for the Tableau integration with Secoda
 ---
 
-# Getting Started with Tableau
+# Tableau Integration
 
-To view the metadata associated with one of your Tableau workbooks or dashboards, visit the [catalog](https://app.secoda.co/catalog) page and switch to the **Dashboard** tab, then click on the title of your Tableau workbook. That link will bring you to the following page.
+{% content-ref url="tableau.md" %}
+[tableau.md](tableau.md)
+{% endcontent-ref %}
+
+{% content-ref url="tableau-metadata.md" %}
+[tableau-metadata.md](tableau-metadata.md)
+{% endcontent-ref %}
+
+After connecting Tableau to Secoda, to view the metadata associated with one of your Tableau workbooks or dashboards, visit the [catalog](https://app.secoda.co/catalog) page and switch to the **Dashboard** tab, then click on the title of your Tableau workbook. That link will bring you to the following page.
 
 ![](<../../.gitbook/assets/image (7).png>)
 

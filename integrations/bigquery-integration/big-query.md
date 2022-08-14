@@ -1,10 +1,8 @@
 ---
-description: This page walks through the Secoda and BigQuery integration
+description: This page walks through how to connect the SBigQuery integration
 ---
 
-# BigQuery Integration
-
-## **Connect Bigquery** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+# Connect BigQuery
 
 There are three steps to connect Big Query with Secoda:
 
@@ -59,6 +57,6 @@ roles/bigquery.jobUser
 * Enter in the project name and paste the JSON key file contents that was downloaded
 * Click "Connect"
 
-{% content-ref url="getting-started-with-bigquery.md" %}
-[getting-started-with-bigquery.md](getting-started-with-bigquery.md)
+{% content-ref url="./" %}
+[.](./)
 {% endcontent-ref %}

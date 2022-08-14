@@ -1,10 +1,8 @@
 ---
-description: This page walks through the Secoda and Looker integration that Secoda supports
+description: This page walks through how to connect Secoda and Looker
 ---
 
-# Looker Integration
-
-## **Connect Looker** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+# Connect Looker
 
 There are three steps to connect Looker with Secoda:
 
