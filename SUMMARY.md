@@ -59,6 +59,7 @@
 * [Features](features/README.md)
   * [Search your data portal](features/search.md)
   * [Publishing data portal](features/publishing.md)
+  * [Data Inbox](features/data-inbox.md)
   * [Data Management with Secoda](features/data-management/README.md)
     * [Documenting your data](features/data-management/documenting-a-resource.md)
     * [Editing Metadata Descriptions](features/data-management/editing-descriptions.md)
