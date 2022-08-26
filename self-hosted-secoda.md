@@ -1,26 +1,24 @@
 ---
 description: >-
-  Self hosted docs for Secoda are available to customers who host Secoda in
+  Self-Hosted / on-premise docs for Secoda are available to customers who host Secoda in
   their own environment
 ---
 
-# Self-Hosted Secoda Guide
+# Self-Hosted (On-Premise) Secoda Guide
 
-## **How to manage the Self Hosted Version of Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **How to manage the Self-Hosted Version of Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-**Provision Machines**
+#### **Installation Optinos**
 
-[AWS](https://www.notion.so/AWS-1b1dba2dce3a490990faca5134747a24)
+[Terraform Module (recommended)](https://github.com/secoda/terraform-aws-secoda)
 
-[GCP](https://www.notion.so/GCP-ef49d7cf08d84cd2b8362b19d41bc6f3)
+[Kubernetes Helm Chart](https://github.com/secoda/secoda-helm)
 
-#### **Install Secoda**
-
-[Terraform](https://www.notion.so/Terraform-48169ebc285e466d9aa3383deca9b1f7)
-
-[Docker Compose](https://www.notion.so/Docker-Compose-ef693d34144c4c4ba1a76aa48e60995a)
+[Kubernetes Classic](https://github.com/secoda/on-premise)
 
 [Aptible](https://www.notion.so/Aptible-fff96ee0cb1c45d3a788e7c0602bc845)
+
+[docker-compose](https://www.notion.so/Docker-Compose-ef693d34144c4c4ba1a76aa48e60995a)
 
 #### **SSO**
 
@@ -36,7 +34,11 @@ description: >-
 
 [(Terraform) Configure OneLogin SSO SAML](https://www.notion.so/Terraform-Configure-OneLogin-SSO-SAML-2fa9964b26f14ce8bb911dffe82a0bfd)
 
-**Optional Configurations**
+**`docker-compose` Additional Information**
+
+[AWS](https://www.notion.so/AWS-1b1dba2dce3a490990faca5134747a24)
+
+[GCP](https://www.notion.so/GCP-ef49d7cf08d84cd2b8362b19d41bc6f3)
 
 [Configure SSL](https://www.notion.so/Configure-SSL-fa6d81cb533a4e5f8237481af4557d21)
 
