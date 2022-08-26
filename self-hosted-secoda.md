@@ -8,7 +8,7 @@ description: >-
 
 ## **How to manage the Self-Hosted Version of Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-#### **Installation Optinos**
+#### **Installation Options**
 
 [Terraform Module (recommended)](https://github.com/secoda/terraform-aws-secoda)
 
@@ -34,7 +34,7 @@ description: >-
 
 [(Terraform) Configure OneLogin SSO SAML](https://www.notion.so/Terraform-Configure-OneLogin-SSO-SAML-2fa9964b26f14ce8bb911dffe82a0bfd)
 
-**`docker-compose` Additional Information**
+**Docker Compose Additional Information**
 
 [AWS](https://www.notion.so/AWS-1b1dba2dce3a490990faca5134747a24)
 
