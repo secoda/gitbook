@@ -22,7 +22,7 @@ To create a new user, you’ll need to log into the Oracle database directly and
 -- Create a secoda user
 CREATE USER secoda IDENTIFIED BY '<password>';
 
--- Provide SELECT access to secoda users
+-- Run this query for any schemas you'd like to import into Secoda
 BEGIN
    FOR table IN (SELECT owner, table_name FROM all_tables WHERE owner='<schema>') LOOP
       EXECUTE IMMEDIATE 'grant select on '||table.owner||'.'||table.table_name||' to secoda';
