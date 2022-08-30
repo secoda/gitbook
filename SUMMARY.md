@@ -32,6 +32,7 @@
   * [Databricks Integration](integrations/databricks-integration.md)
   * [MySQL Integration](integrations/mysql-integration.md)
   * [Microsoft SQL Server Integration](integrations/microsoft-sql-server.md)
+  * [Oracle Integration](integrations/oracle-integration.md)
   * [Looker Integration](integrations/looker-integration/README.md)
     * [Connect Looker](integrations/looker-integration/looker.md)
     * [Looker Metadata](integrations/looker-integration/looker-metadata.md)
