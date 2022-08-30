@@ -6,6 +6,6 @@ Collections are a way your data team to group resources together and organize yo
 * Data Source (e.g. Tableau, Snowflake)
 * Function (e.g. Onboarding)
 
-![](../.gitbook/assets/home.png)
+![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.38.10 PM.png>)
 
 Any pinned Collections that have been shared with you can be viewed on the home page.

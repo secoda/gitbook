@@ -22,4 +22,4 @@ You can use the filters on the right hand side to filter by a specific resource 
 
 From the homepage you can view any pinned collections, data sources, and notifications. You can also initiate a search using the search bar, or ask a question in the top right corner of the screen.
 
-![](../.gitbook/assets/home.png)
+![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.38.10 PM.png>)

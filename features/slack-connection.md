@@ -19,7 +19,7 @@ To connect Secoda to your Slack channel, follow the instructions here:&#x20;
 
 To search Secoda from Slack, type /secoda into any channel or DM, followed by your search term. Once the results come up, you can open them to the page that you're looking for.&#x20;
 
-![](<../.gitbook/assets/ezgif.com-gif-maker (4).gif>)
+![](<../.gitbook/assets/askslack (1).gif>)
 
 ### Ask Questions from Slack
 

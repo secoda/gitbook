@@ -21,7 +21,11 @@ The username and password you’ve already created for your cluster is your admi
 To create a new user, you’ll need to log into the Microsoft SQL Server database directly and run the following SQL commands:
 
 ```
--- Create a user named "secoda" that Secoda will use when connecting to your Microsoft SQL Server database. CREATE USER secoda PASSWORD '<enter password here>'; -- Complete this query for any databases you would like Secoda to extract from GRANT SELECT ON DATABASE <yourdbname> TO secoda;
+-- Create a user named "secoda" that Secoda will use when connecting to your Microsoft SQL Server database. 
+CREATE USER secoda PASSWORD '<enter password here>'; 
+
+-- Complete this query for any databases you would like Secoda to extract from 
+GRANT SELECT ON DATABASE <yourdbname> TO secoda;
 ```
 
 When connecting to Microsoft SQL Server in Secoda, use the username/password you’ve created here instead of your admin account.
