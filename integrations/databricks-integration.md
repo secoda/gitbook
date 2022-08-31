@@ -21,14 +21,11 @@ Go to [https://app.secoda.co/integrations/new](https://app.secoda.co/integration
 Enter in the following credentials:
 
 * **Host:** This is the URL of your Databricks workspace, i.e, [dbc-dc31b5a2-597d.cloud.databricks.com](https://dbc-dc31b5a2-597d.cloud.databricks.com/)
-* **Port:** This is typically 443 unless you've specified a different value in your Databricks configuration
-* **Database** (Optional): **** The database for your data you'd like to import
-* **Cluster:** The HTTP Path for your Cluster
-* **Token:** The access token you generated in the first step
+*   **Databricks Workspace Id:** The numerical id of your workspace, located in the url of your Databricks instance, after the "/?o=". `https://<instance_id>.cloud.databricks.com/?o=<workspace_id>`.\
 
-All of this information can be found under the JDBC/ODBC tab for the Advanced settings of your cluster&#x20;
 
-![](<../.gitbook/assets/image (11) (1).png>)
+    <figure><img src="../.gitbook/assets/Screen Shot 2022-08-31 at 11.32.53 AM (1).png" alt=""><figcaption></figcaption></figure>
+* **Access Token:** The access token you generated in the first step
 
 After entering in the information into Secoda, click "Test Connection". After the connection is successful your can Submit and run the initial extraction.
 
