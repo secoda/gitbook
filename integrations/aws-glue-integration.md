@@ -31,24 +31,34 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Effect": "Allow",
-            "Action": [
-                "glue:GetDatabases",
-                "glue:GetTables"
-            ],
-            "Resource": [
-                "arn:aws:glue:<aws_region>:<aws_account_id>:catalog",
-                "arn:aws:glue:<aws_region>:<aws_account_id>:database/*",
-                "arn:aws:glue:<aws_region>:<aws_account_id>:table/*"
-            ]
-        },
-        {
+            "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
                 "glue:GetDataflowGraph",
-                "glue:GetJobs"
+                "glue:GetJobs",
+                "glue:GetTable",
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:ListBucketMultipartUploads",
+                "s3:AbortMultipartUpload",
+                "s3:PutObject",
+                "s3:ListMultipartUploadParts",
+                "lambda:InvokeFunction",
+                "athena:GetWorkGroup",
+                "athena:StartQueryExecution",
+                "athena:StopQueryExecution",
+                "athena:GetQueryExecution",
+                "athena:GetQueryResults",
             ],
-            "Resource": "*"
+            "Resource": [
+                "arn:aws:athena:*:<athena_id>:workgroup/primary",
+                "arn:aws:s3:::<athena_output_bucket>",
+                "arn:aws:s3:::<athena_output_bucket>/*",
+                "arn:aws:glue:<region>:<glue_id>:*"
+                "arn:aws:s3:::<glue_bucket>",
+                "arn:aws:s3:::<glue_bucket>/*",
+            ]
         }
     ]
 }
