@@ -10,7 +10,6 @@ Secoda pulls the following metadata from Redshift:
   * Name
   * Description
   * Owners
-  * Last Updated Timestamp
   * Schema
   * Database
   * Frequent users
