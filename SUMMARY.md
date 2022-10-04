@@ -67,7 +67,7 @@
     * [Bulk Editing Metadata](features/data-management/bulk-editing-resources.md)
     * [Publishing Metadata Resources](features/data-management/publishing-resources.md)
     * [Sharing Data Resources](features/data-management/sharing-resources.md)
-    * [Auto PII Tagging on Data](features/data-management/auto-pii-tagging.md)
+    * [PII Tagging](features/data-management/auto-pii-tagging.md)
     * [Assigning owners to data](features/data-management/assigning-owners.md)
     * [Adding Custom Column Properties](features/data-management/adding-custom-properties.md)
     * [Activity Log](features/data-management/activity-log.md)
