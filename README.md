@@ -4,9 +4,7 @@ description: Get started with Secoda and understand how it works.
 
 # What is Secoda?
 
-![](<.gitbook/assets/ezgif.com-gif-maker (19) (1) (1).gif>)
-
-Secoda is the place where all of your company data knowledge lives. With Secoda, everyone on your team can make sense of all your company data in one intuitive, collaborative, and searchable platform.
+{% embed url="https://app.arcade.software/share/BSM8Arv14VJlJM5bsGyb" %}
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
