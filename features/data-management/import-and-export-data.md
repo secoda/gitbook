@@ -28,12 +28,12 @@ If you have set up a documentation tool at your organization you can migrate you
 
 The import functionality only supports tables and columns currently. The CSV must have the following structure:
 
-| **Table Name** | **Field Name** | **Description** | **Custom Property** |
-| -------------- | -------------- | --------------- | ------------------- |
-| name\_1        | column\_1      | description\_1  | custom\_1           |
-| name\_2        | column\_2      | description\_2  | custom\_2           |
+| **Table Name** | **Field Name** | **Description** | **Custom Property #1** | **Custom Property #2** |
+| -------------- | -------------- | --------------- | ---------------------- | ---------------------- |
+| name\_1        | column\_1      | description\_1  | custom\_1\_1           | custom\_2\_1           |
+| name\_2        | column\_2      | description\_2  | custom\_1\_2           | custom\_2\_2           |
 
-If you'd like to just import table descriptions and properties, the "Field Name" column is not required.
+Where the **Custom Property** can be any number of properties you'd like to add. If you'd like to just import table descriptions and properties, the "Field Name" column is not required.
 
 #### 2. Upload descriptions to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
 
