@@ -6,7 +6,14 @@ description: >-
 
 # Power BI Integration
 
-## **Getting Started with PowerBi** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Getting Started with Power BI** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
+{% hint style="info" %}
+The user that connects Power BI to Secoda must be both:
+
+* An administrator for Azure Active Directory
+* An administrator for Power BI
+{% endhint %}
 
 The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI workspace. To connect Power BI to Secoda follow the steps below:
 
