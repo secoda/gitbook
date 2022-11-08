@@ -12,11 +12,12 @@ description: >-
 dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
 {% endhint %}
 
-There are three options to connect dbt core with Secoda:
+There are four options to connect dbt core with Secoda:
 
 1. Upload a manifest.json
 2. Connect an AWS S3 bucket
-3. Secoda API
+3. Connect a GCP GCS bucket&#x20;
+4. Secoda API
 
 #### **Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
@@ -83,7 +84,16 @@ Connect your S3 bucket to Secoda
 
 After clicking submit an extraction will run to sync the metadata from the manifest.json files in the S3 bucket that you've connected.
 
+**Connect a GCS GCP bucket**
 
+1. Login to GCP cloud console.
+2. Turn on interoperability on the bucket. Generate HMAC keys for a service account with full access to the bucket. Both located here:
+
+<figure><img src="../.gitbook/assets/Screen Shot 2022-10-21 at 2.22.34 PM.png" alt=""><figcaption></figcaption></figure>
+
+3\. Fill in the integration page in Secoda based on the screenshot:
+
+<figure><img src="../.gitbook/assets/Screen Shot 2022-10-28 at 11.14.56 AM.png" alt=""><figcaption></figcaption></figure>
 
 **Secoda API**
 
