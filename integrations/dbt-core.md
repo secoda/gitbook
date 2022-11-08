@@ -33,7 +33,7 @@ After clicking submit an extraction will run to sync the metadata from the uploa
 
 
 
-**Connect an AWS S3 bucket**
+#### **Connect an AWS S3 bucket**
 
 If you upload your manifest.json files to an AWS S3 bucket, you can connect that bucket to Secoda which will run a daily extraction to sync the latest manifest.json files. Only files from the bucket that contain `manifest.json` in the name will be synced to Secoda. You can connect the bucket following these steps:
 
@@ -84,7 +84,7 @@ Connect your S3 bucket to Secoda
 
 After clicking submit an extraction will run to sync the metadata from the manifest.json files in the S3 bucket that you've connected.
 
-**Connect a GCS GCP bucket**
+#### **Connect a GCS GCP bucket**
 
 1. Login to GCP cloud console.
 2. Turn on interoperability on the bucket. Generate HMAC keys for a service account with full access to the bucket. Both located here:
