@@ -2,11 +2,11 @@
 description: This page walks through the Secoda and GE integration that Secoda supports
 ---
 
-# Great Expectations
+# Great Expectations Integration
 
-Secoda currently supports retrieving expectation and validation metadata from Google Cloud Storage.
+Secoda currently supports retrieving expectation and validation metadata from Google Cloud Storage and AWS S3.
 
-## Getting Started with Great Expectations <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
+## Getting Started with Great Expectations and Google Cloud Storage <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
 There are two steps to get started using Great Expectations with Secoda through Google Cloud Storage:
 
@@ -32,5 +32,7 @@ Storage Object Viewer
 
 1. Log into your Secoda profile at [https://app.secoda.co](https://app.secoda.co)
 2. From the Navigation panel on the left go **Integrations** > **Add new integration**
-3. Select **Great Expectations** and fill in the fields based off the Great Expectations Data Context YAML file.
+3. Select **Great Expectations** and fill in the fields based off of the Great Expectations configuration YAML file.
+4. Make sure to upload the Great Expectations configuration YAML file.
+5. You will be asked to map each datasource outlined in your configuration file to an existing integration in Secoda.
 
