@@ -101,4 +101,34 @@ The API provides an endpoint to upload your manifest.json file. This is convenie
 
 1. Create a blank dbt core integration by going to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and selecting the "dbt Core" integration and then click "Test Connection". And run the initial extraction. This extraction will fail, but that's intended.
 2. Return to https://app.secoda.co/integrations and click on the dbt Core integration that was just created. Save the ID which is contained in the URL.
-3. Follow the example in our [API docs](https://docs.secoda.co/secoda-api/dbt-integration) to upload a manifest.json file using the integration ID you created.
+3.  Use the endpoint below to upload your manifest.json file. This will trigger an extraction to run on the integration you created in step #1.
+
+
+
+    | Endpoint | `https://api.secoda.co/integration/dbt/manifest/`  |
+    | -------- | -------------------------------------------------- |
+    | Method   | POST                                               |
+
+    *   Sample Response
+
+        ```json
+        {
+           "message":"Successfully ran extraction for dbt"
+        }
+        ```
+    *   Python Example
+
+        ```python
+        import requests
+
+        headers = {
+            "Authorization": "Bearer <Your Key>"
+        }
+        response = requests.post(
+        	"<https://api.secoda.co/integration/dbt/manifest/>",
+        	files={"manifest_file": open("manifest.json", "rb")},
+        	data={"integration_id": "km1dhjql3xgxy9p8"},
+        	headers=headers
+        )
+        print(response.json())
+        ```
