@@ -112,7 +112,6 @@
 * [Secoda API](secoda-api.md)
   * [Authentication](secoda-api/authentication.md)
   * [API Reference](https://api.secoda.co/api/schema/redoc/)
-  * [DBT Integration](secoda-api/dbt-integration.md)
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
   * [Terms of Use](policies/terms-of-use.md)
