@@ -28,9 +28,6 @@ a) If you're creating the service account via the GCP console add the following 
 ```
 BigQuery Metadata Viewer
 BigQuery Resource Viewer
-Job Viewer
-Logs Viewer
-Private Logs Viewer
 BigQuery Data Viewer
 BigQuery Job User
 ```
@@ -40,9 +37,6 @@ b) If you're programatically creating the service account add the following role
 ```
 roles/bigquery.metadataViewer
 roles/bigquery.resourceViewer
-roles/cloudjobdiscovery.jobsViewer
-roles/logging.viewer        
-roles/logging.privateLogViewer        
 roles/bigquery.dataViewer        
 roles/bigquery.jobUser
 ```
