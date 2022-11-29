@@ -32,7 +32,7 @@ Your **host** is the first part of the url in Tableau Online before the `#` and 
 
 _**`https://prod-useast-b.online.tableau.com`**_`/#/site/secoda/home`
 
-Use the table below to determine your **API version.**
+Use the table from this page to determine your API version. [https://help.tableau.com/current/api/rest\_api/en-us/REST/rest\_api\_concepts\_versions.htm](https://help.tableau.com/current/api/rest\_api/en-us/REST/rest\_api\_concepts\_versions.htm)
 
 The site name can be found in the url on Tableau Online which immediately follows `/#/site`. For example:
 
@@ -47,33 +47,3 @@ After creating a Tableau access token, the next step is to connect to Secoda:
 3. Enter your Tableau credentials you created above
 4. Click 'Connect'
 
-| **Tableau Server version**      | **REST API version** | **Schema version** |
-| ------------------------------- | -------------------- | ------------------ |
-| 8.3, 9.0                        | 2.0                  | 2.0                |
-| 9.0.1 and later versions of 9.0 | 2.0                  | 2.0.1              |
-| 9.1                             | 2.0                  | 2.0.1              |
-| 9.2                             | 2.1                  | 2.1                |
-| 9.3                             | 2.2                  | 2.2                |
-| 10.0                            | 2.3                  | 2.3                |
-| 10.1                            | 2.4                  | 2.4                |
-| 10.2                            | 2.5                  | 2.5                |
-| 10.3                            | 2.6                  | 2.6                |
-| 10.4                            | 2.7                  | 2.7                |
-| 10.5                            | 2.8                  | 2.8                |
-| 2018.1                          | 3.0                  | 3.0                |
-| 2018.2                          | 3.1                  | 3.1                |
-| 2018.3                          | 3.2                  | 3.2                |
-| 2019.1                          | 3.3                  | 3.3                |
-| 2019.2                          | 3.4                  | 3.4                |
-| 2019.3                          | 3.5                  | 3.5                |
-| 2019.4                          | 3.6                  | 3.6                |
-| 2020.1                          | 3.7                  | 3.7                |
-| 2020.2                          | 3.8                  | 3.8                |
-| 2020.3                          | 3.9                  | 3.9                |
-| 2020.4                          | 3.10                 | 3.10               |
-| 2021.1                          | 3.11                 | 3.11               |
-| 2021.2                          | 3.12                 | 3.12               |
-| 2021.3                          | 3.13                 | 3.13               |
-| 2021.4                          | 3.14                 | 3.14               |
-| 2022.1                          | 3.15                 | 3.15               |
-| 2022.2                          | 3.16                 | 3.16               |
