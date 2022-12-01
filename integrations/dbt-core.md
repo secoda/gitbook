@@ -89,11 +89,11 @@ After clicking submit an extraction will run to sync the metadata from the manif
 1. Login to GCP cloud console.
 2. Turn on interoperability on the bucket. Generate HMAC keys for a service account with full access to the bucket. Both located here:
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-10-21 at 2.22.34 PM.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/Screen Shot 2022-10-21 at 2.22.34 PM.png>)
 
 3\. Fill in the integration page in Secoda based on the screenshot:
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-10-28 at 11.14.56 AM.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/Screen Shot 2022-10-28 at 11.14.56 AM.png>)
 
 **Secoda API**
 
