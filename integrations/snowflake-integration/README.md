@@ -14,7 +14,7 @@ description: An overview for the Snowflake integration with Secoda
 
 After connecting Snowflake, to view the metadata associated with one of your Snowflake tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Snowflake table. That link will bring you to the following page.
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 **Tables**
 

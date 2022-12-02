@@ -25,7 +25,7 @@ Click on different tabs below the search bar to see results from a specific data
 
 After you've typed a query into the top search, hit `Enter`/`Return` on your keyboard to see a full search results page and browse more high level information at once.
 
-![](<../.gitbook/assets/Screen Shot 2022-04-07 at 8.21.26 PM.png>)
+![](../.gitbook/assets/search.png)
 
 You can use the filters on the right hand side to filter by a specific resource or the filter at the top of the search to filter by the following categories:&#x20;
 
