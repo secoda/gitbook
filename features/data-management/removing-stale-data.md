@@ -10,7 +10,7 @@ description: >-
 
 By going to the data tab, you can find and remove stale in Secoda easily. To remove stale data, go to **Settings -> Data**
 
-![](<../../.gitbook/assets/Group 587 (3) (1).png>)
+![](<../../.gitbook/assets/Group 587 (3) (1) (1) (1).png>)
 
 Once you're in the data tab, you can see all the stale data that Secoda has identified. You can select or deselect any of these columns or tables before removing them from Secoda.
 

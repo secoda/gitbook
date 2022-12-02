@@ -12,8 +12,8 @@ Secoda ingests metadata from your data warehouse, BI tool and ETL processes. Aft
 [documenting-a-resource.md](documenting-a-resource.md)
 {% endcontent-ref %}
 
-{% content-ref url="auto-pii-tagging.md" %}
-[auto-pii-tagging.md](auto-pii-tagging.md)
+{% content-ref url="using-and-creating-tags/auto-pii-tagging.md" %}
+[auto-pii-tagging.md](using-and-creating-tags/auto-pii-tagging.md)
 {% endcontent-ref %}
 
 {% content-ref url="editing-descriptions.md" %}

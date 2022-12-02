@@ -14,7 +14,7 @@ After executing a query, you can choose to display it to viewers as a chart inst
 
 The first step to creating a chart is to [execute the query](running-queries-in-secoda.md). Once the query has run, flip to the "chart tab", which will initially show up blank. Click on the button on the right hand side to open up the chart options.
 
-![](<../../.gitbook/assets/Group 600.png>)
+![](<../../.gitbook/assets/Group 600 (1).png>)
 
 Once you open the right-hand tab, you will be able to select the chart type, axis, scale, order and sorting preference. Secoda allows editors to create:
 

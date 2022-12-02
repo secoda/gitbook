@@ -4,13 +4,13 @@ description: >-
   search dictionary terms using the terms themselves, owners, and definitions.
 ---
 
-# Data Dictionary
+# Creating a Data Dictionary
 
 ## Using Secoda's Data Dictionary
 
 Secoda's data dictionary is one place for all of your data terms. Terms in your data dictionary will be visible via Secoda's search, and you can search directly in the dictionary. You can also tag terms across your workspace&#x20;
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 12.36.32 PM.png>)
+![](../../.gitbook/assets/dictionary.png)
 
 {% hint style="info" %}
 **Good to know:** The Data Dictionary is different from the Documents feature in that it has set fields (i.e. terms, definition, owner) and is one place for all of your data terms. \
