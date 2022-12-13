@@ -16,7 +16,7 @@ There are four options to connect dbt core with Secoda:
 
 1. Upload a manifest.json
 2. Connect an AWS S3 bucket
-3. Connect a GCP GCS bucket&#x20;
+3. Connect a GCP GCS bucket
 4. Secoda API
 
 #### **Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
@@ -31,8 +31,6 @@ This is a one time sync with your manifest.json file. You can upload the file fo
 
 After clicking submit an extraction will run to sync the metadata from the uploaded manifest.json.
 
-
-
 #### **Connect an AWS S3 bucket**
 
 If you upload your manifest.json files to an AWS S3 bucket, you can connect that bucket to Secoda which will run a daily extraction to sync the latest manifest.json files. Only files from the bucket that contain `manifest.json` in the name will be synced to Secoda. You can connect the bucket following these steps:
@@ -42,8 +40,6 @@ Create a new AWS IAM user and ensure that **Access Key - Programatic access is c
 ![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (2) (1).png>)
-
-
 
 Attach the following policy to the user. Make sure to change `<your-bucket-name>`.
 
@@ -72,7 +68,7 @@ Attach the following policy to the user. Make sure to change `<your-bucket-name>
 
 Connect your S3 bucket to Secoda
 
-1. &#x20;Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new)
+1. Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new)
 2. Click "dbt Core"
 3. Add the credentials that you've saved from AWS
    * Region
@@ -87,11 +83,39 @@ After clicking submit an extraction will run to sync the metadata from the manif
 #### **Connect a GCS GCP bucket**
 
 1. Login to GCP cloud console.
-2. Turn on interoperability on the bucket. Generate HMAC keys for a service account with full access to the bucket. Both located here:
+2. Create a service account.
+3. Grant access to the service account from the Bucket page as “Storage Object Viewer”.
+4. Turn on interoperability on the bucket. Generate HMAC keys for a service account with read access to the bucket. Both located here:
 
 ![](<../.gitbook/assets/Screen Shot 2022-10-21 at 2.22.34 PM.png>)
 
-3\. Fill in the integration page in Secoda based on the screenshot:
+5\. Setup CORS. GCP requires this be done over CLI. Like the following:
+
+```
+gsutil cors set cors.json gs://bucket-name
+```
+
+**cors.json**
+
+```
+[
+  {
+    "origin": ["*"],
+    "method": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    "responseHeader": ["Content-Type"],
+    "maxAgeSeconds": 3600
+  }
+]
+```
+
+6\. Save the HMAC keys to be used in the connection form.
+
+1. **Access Key Id**
+2. **Secret**
+3. **Region** bucket region for GCP
+4. **S3 Endpoint** must be added and set to `https://storage.googleapis.com`
+
+7\. Fill in the integration page in Secoda based on the screenshot:
 
 ![](<../.gitbook/assets/Screen Shot 2022-10-28 at 11.14.56 AM.png>)
 
@@ -103,7 +127,7 @@ The API provides an endpoint to upload your manifest.json file. This is convenie
 2. Return to https://app.secoda.co/integrations and click on the dbt Core integration that was just created. Save the ID which is contained in the URL.
 3. Use the endpoint below to upload your manifest.json file. This will trigger an extraction to run on the integration you created in step #1.
 
-* Endpoint - `https://api.secoda.co/integration/dbt/manifest/`&#x20;
+* Endpoint - `https://api.secoda.co/integration/dbt/manifest/`
 * Method - `POST`
 *   Sample Response
 
