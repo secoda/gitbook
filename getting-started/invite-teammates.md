@@ -49,7 +49,7 @@ You'll be able to see every link that you've already created, what role that inv
 
 You can create a new link by clicking **Create link**. After you've created a link, you can edit the role and group it's applicable to by clicking the role name (default is Viewer) and adding a group.&#x20;
 
-For more on Custom Invitation Links, check out [Custom Invitation Links. ](../user-management/custom-invitation-links.md)
+For more on Custom Invitation Links, check out [Custom Invitation Links. ](../user-management/custom-invitation-links/)
 
 ![](<../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
 

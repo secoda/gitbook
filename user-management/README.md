@@ -17,8 +17,8 @@ description: >-
 [groups.md](groups.md)
 {% endcontent-ref %}
 
-{% content-ref url="custom-invitation-links.md" %}
-[custom-invitation-links.md](custom-invitation-links.md)
+{% content-ref url="custom-invitation-links/" %}
+[custom-invitation-links](custom-invitation-links/)
 {% endcontent-ref %}
 
 {% content-ref url="resource-permissions.md" %}
