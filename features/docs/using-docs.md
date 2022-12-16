@@ -24,7 +24,7 @@ Query blocks allow editors to query the data directly from Secoda. You can add a
 
 Documents can be shared with any employee and can be indexed by the central search.&#x20;
 
-To learn more about different embed sources, go to [Embeds](../embeds.md).&#x20;
+To learn more about different embed sources, go to [Embeds](../metrics/embeds.md).&#x20;
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

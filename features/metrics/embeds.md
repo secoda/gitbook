@@ -51,7 +51,7 @@ Here's a walkthrough of how to embed and what sources Secoda allows you to embed
 
 To embed from an external source, simply type / and begin typing the source you'd like to embed from, or, scroll through until you find the source.&#x20;
 
-![](<../.gitbook/assets/ezgif.com-gif-maker (8).gif>)
+![](<../../.gitbook/assets/ezgif.com-gif-maker (8).gif>)
 
 ### Inserting a generic embed
 
@@ -59,7 +59,7 @@ You can insert an embed that's not on the list. To insert a generic embed into a
 
 Type `/` and scroll through the various functionalities until you find **Generic Embed,** or begin typing **Embed** and select **Generic Embed**.&#x20;
 
-![](<../.gitbook/assets/Group 583.png>)
+![](<../../.gitbook/assets/Group 583.png>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

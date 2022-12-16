@@ -4,7 +4,7 @@ description: >-
   datasets, and tables in one place.
 ---
 
-# Docs
+# Create data docs with Secoda
 
 ## Navigating Documents in Secoda
 
@@ -16,8 +16,8 @@ description: >-
 [custom-properties.md](custom-properties.md)
 {% endcontent-ref %}
 
-{% content-ref url="../embeds.md" %}
-[embeds.md](../embeds.md)
+{% content-ref url="../metrics/embeds.md" %}
+[embeds.md](../metrics/embeds.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
