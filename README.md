@@ -4,8 +4,6 @@ description: Get started with Secoda and understand how it works.
 
 # What is Secoda?
 
-{% embed url="https://app.arcade.software/share/BSM8Arv14VJlJM5bsGyb" %}
-
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}
