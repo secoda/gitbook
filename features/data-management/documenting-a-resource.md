@@ -2,7 +2,16 @@
 description: How to add documentation to a resource and how to use the documentation editor
 ---
 
-# Documenting a resource
+# Documenting your data
+
+Data documentation is the process of creating and maintaining documentation for data assets within an organization. This can include information such as descriptions, definitions, metadata, and data lineage information.
+
+There are several benefits to data documentation:
+
+1. Improved transparency: Data documentation helps to make data more transparent and understandable, making it easier for others to use and trust the data.
+2. Enhanced data governance: Data documentation can help establish clear roles and responsibilities for data management and ensure that data is being used appropriately.
+3. Improved collaboration: Data documentation can facilitate collaboration by making it easier for team members to understand and use data assets.
+4. Enhanced data security: Data documentation can help organizations identify and protect sensitive data and ensure that it is only accessed by authorized personnel.
 
 ## **Getting Started with Documentation in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 

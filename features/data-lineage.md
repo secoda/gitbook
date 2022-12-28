@@ -6,6 +6,16 @@ description: >-
 
 # Data Lineage in Secoda
 
+In the context of Secoda, data lineage refers to the process of tracking and documenting the relationships between different data assets within an organization. This can include information about where data comes from, how it has been transformed or modified over time, and how it is being used.
+
+Data lineage is an important part of data governance and can help organizations understand the origin and history of their data, identify potential sources of errors or inconsistencies, and ensure that data is being used appropriately.
+
+In Secoda, data lineage is typically tracked and documented through the creation of data lineage diagrams or graphs that show the relationships between different data assets. These diagrams can include information about the data sources, transformations applied to the data, and the resulting data outputs.
+
+Secoda also provides tools and features for automatically generating data lineage documentation, such as descriptions, definitions, and metadata, to help others understand and use the data more effectively.
+
+Overall, data lineage is an important aspect of data management and can help organizations improve transparency, trustworthiness, and understanding of their data.
+
 ## **Everything about Secoda Lineage** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 Secoda automatically extracts queries to generate data lineage. This can help data teams identify the downstream and upstream dependencies of a table easily.&#x20;

@@ -78,7 +78,7 @@
     * [Activity Log](features/data-management/activity-log.md)
     * [Column Profiling for Data Quality](features/data-management/column-profiling.md)
     * [Removing stale data from Secoda](features/data-management/removing-stale-data.md)
-    * [Adding data to Collections](features/data-management/adding-to-collections.md)
+    * [Adding Data to Collections](features/data-management/adding-to-collections.md)
     * [Import & Export Metadata](features/data-management/import-and-export-data.md)
   * [Managing Collections](features/collections/README.md)
     * [Adding Resources](features/collections/adding-resources.md)
