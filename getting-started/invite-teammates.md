@@ -7,6 +7,15 @@ description: >-
 
 # Invite Teammates to Secoda
 
+There are several benefits to inviting teammates to Secoda:
+
+1. Improved collaboration: By inviting teammates to Secoda, you can facilitate collaboration and ensure that everyone has access to the data and data documentation they need to do their job. This can help reduce confusion and improve the efficiency of your team.
+2. Centralized data management: Inviting teammates to Secoda allows you to centralize data management and ensure that all team members have access to the most up-to-date data and documentation. This can help reduce the risk of errors or misunderstandings due to outdated or incomplete information.
+3. Enhanced security: Inviting teammates to Secoda allows you to control access to your data and ensure that only authorized team members have access to sensitive information. This can help protect your data and enhance security within your organization.
+4. Improved data governance: By inviting teammates to Secoda, you can establish clear roles and responsibilities for data management and ensure that all team members follow established data governance policies and procedures.
+
+Overall, inviting teammates to Secoda can help improve collaboration, centralize data management, enhance security, and improve data governance within your organization.
+
 ## How to invite teammates to Secoda
 
 One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. As a workplace admin, you're able to do this. Viewers and editors are not able to invite people. You can have multiple admins per workspace.&#x20;
