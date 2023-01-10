@@ -54,6 +54,7 @@
   * [Amplitude Integration](integrations/amplitude-integration.md)
   * [Great Expectations Integration](integrations/great-expectations-integration.md)
   * [AWS Glue Integration](integrations/aws-glue-integration.md)
+  * [AWS QuickSight Integration](integrations/aws-glue-integration-1.md)
   * [Git Integration](integrations/git-integration.md)
   * [Connecting via SSH Tunnel](integrations/connecting-via-ssh-tunnel.md)
   * [Connecting via VPC Peering](integrations/connecting-via-vpc-peering.md)

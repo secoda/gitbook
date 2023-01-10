@@ -28,8 +28,6 @@ ALTER USER secoda SYSLOG ACCESS UNRESTRICTED;
 
 -- Complete this query for any schemas you would like Secoda to extract
 GRANT SELECT ON ALL TABLES IN SCHEMA <schema_name> TO secoda
-
-GRANT SELECT ON svv_table_info TO secoda;
 ```
 
 When connecting to Redshift in Secoda, use the username/password you’ve created here instead of your admin account.
