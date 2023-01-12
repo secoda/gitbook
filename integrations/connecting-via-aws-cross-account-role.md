@@ -26,7 +26,7 @@ Neither the Account ID nor the External ID are secrets, so don't worry about kee
 
     <figure><img src="../.gitbook/assets/cross-account-2-create-role.png" alt=""><figcaption></figcaption></figure>
 4. Proceed to attach permissions to the role, choose a name, then create the role.
-   * The exact permission policies you attach depend on which Secoda features you intend to use. Consult the documentation for those services for further guidance.
+   * The exact permission policies you attach depend on which Secoda features you intend to use. Consult the documentation for those services for further guidance. Regardless, make sure to add the permissions `sts:AssumeRole` to your policy.
 5. Copy the **Role ARN** from AWS IAM and paste it into the **Role ARN** field in Seoda. Click **Create** to complete the process.
 
 For more information, read [AWS's tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial\_cross-account-with-roles.html) on delegating access cross-account using IAM Roles.
