@@ -4,7 +4,7 @@ description: >-
   pulled from AWS Glue.
 ---
 
-# AWS Glue Integration
+# Glue Integration
 
 ## Integrating Secoda with AWS Glue&#x20;
 
@@ -31,6 +31,7 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "glue:GetDataflowGraph",
                 "glue:GetJobs",
                 "glue:GetTable",
+                "glue:SearchTables",
                 "s3:GetBucketLocation",
                 "s3:GetObject",
                 "s3:ListBucket",
