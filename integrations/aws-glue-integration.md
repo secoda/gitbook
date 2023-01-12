@@ -32,6 +32,7 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "glue:GetJobs",
                 "glue:GetTable",
                 "glue:SearchTables",
+                "glue:GetPartitions",
                 "s3:GetBucketLocation",
                 "s3:GetObject",
                 "s3:ListBucket",
