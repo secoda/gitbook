@@ -34,6 +34,18 @@ This button will show you all the changes that have been made since your last ti
 
 ![](<../.gitbook/assets/Screen Shot 2022-08-10 at 10.29.52 AM.png>)
 
+### Unpublishing a resource
+
+To unpublish a resource you can go to the resource page and click on the status menu and select "Draft". When a resource is in draft it is not included in your published workspace and is only visible to editors and admins.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+You can also perform this action in the catalog or aggregate pages for a resource by changing the status to "Draft".
+
+&#x20;
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 This workflow can give you and the rest of your editors a way to collaborate on data documentation without worrying about overwriting each-others changes or having changes that aren't approved by an admin go out to the rest of the organization.&#x20;
 {% endhint %}
