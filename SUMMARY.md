@@ -106,6 +106,7 @@
     * [Assigning Owners to Data](features/data-requests/assigning-ownership.md)
     * [Changing the question status](features/data-requests/question-status.md)
   * [Slack Integration with Secoda](features/slack-connection.md)
+  * [Bookmarks](features/bookmarks.md)
   * [Change notifications](features/notifications.md)
 * [User Management](user-management/README.md)
   * [Roles](user-management/roles.md)
