@@ -4,7 +4,7 @@
 
 The data dictionary in Secoda is one place for all of your data terms. Terms in the data dictionary are accessible through Secoda’s search, and can be referenced in other resources in your workspace.
 
-![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.36.32 PM.png>)
+![](../.gitbook/assets/dictionary.png)
 
 ### Documents
 

@@ -107,6 +107,7 @@
     * [Changing the question status](features/data-requests/question-status.md)
   * [Slack Integration with Secoda](features/slack-connection.md)
   * [Bookmarks](features/bookmarks.md)
+  * [Collections](features/collections-1.md)
   * [Change notifications](features/notifications.md)
 * [User Management](user-management/README.md)
   * [Roles](user-management/roles.md)

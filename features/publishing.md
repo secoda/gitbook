@@ -12,7 +12,7 @@ As an editor, you're going to have access to all resources in Secoda. As a viewe
 
 This functionality is built into Secoda to ensure that only the tables, docs, terms and questions that are relevant and documented are available for consumption. As an editor, you can mimic what a viewer will see in Secoda by using the "preview" button in the top right hand corner.
 
-![](<../.gitbook/assets/Group 822 (1).png>)
+![](<../.gitbook/assets/Group 822.png>)
 
 Once clicked, you'll be able to see the viewer experience in Secoda. As a viewer, you only get access to the published collections, docs, dictionary terms and questions that have been shared with you.&#x20;
 
@@ -38,11 +38,9 @@ This button will show you all the changes that have been made since your last ti
 
 To unpublish a resource you can go to the resource page and click on the status menu and select "Draft". When a resource is in draft it is not included in your published workspace and is only visible to editors and admins.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 You can also perform this action in the catalog or aggregate pages for a resource by changing the status to "Draft".
-
-&#x20;
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
