@@ -59,6 +59,7 @@
   * [Connecting via SSH Tunnel](integrations/connecting-via-ssh-tunnel.md)
   * [Connecting via VPC Peering](integrations/connecting-via-vpc-peering.md)
   * [Connecting via AWS Cross Account Role](integrations/connecting-via-aws-cross-account-role.md)
+  * [Custom Integration](integrations/custom-integration.md)
 * [Features](features/README.md)
   * [Personalize your data portal](features/personalization.md)
   * [Search your data portal](features/search.md)
