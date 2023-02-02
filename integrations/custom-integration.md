@@ -17,7 +17,7 @@ headers = dict(
 integration_type = "bigquery"
 
 response = requests.post(
-    "https://eapi.secoda.co/integration/integrations/",
+    "https://api.secoda.co/integration/integrations/",
     json=dict(type=integration_type, name="My Custom Integration", credentials={}),
     headers=headers
 ).json()
