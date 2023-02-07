@@ -74,7 +74,7 @@ WHERE c.TABLE_SCHEMA not in ({','.join(SnowflakeConnectionConstants.DEFAULT_IGNO
 
 ### Upload the CSV
 
-Upload the file to Secoda by making a request to the `https://eapi.secoda.co/integration/integrations/<integration-id>/import_metadata/`
+Upload the file to Secoda by making a request to the `https://api.secoda.co/integration/integrations/<integration-id>/import_metadata/`
 
 ```python
 import requests
@@ -85,7 +85,7 @@ headers = dict(
 )
 
 requests.post(
-    f"https://eapi.secoda.co/integration/integrations/{integration_id}/import_metadata/",
+    f"https://api.secoda.co/integration/integrations/{integration_id}/import_metadata/",
     files=dict(file=open("dump.csv", "rb")),
     headers=headers
 )

@@ -12,7 +12,7 @@ There are three steps to get started using Databricks with Secoda:
 
 In your Databricks console go to the **User Settings** and generate a new access token. Save the value to be used to connect Databricks to Secoda in the second step.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 ### Connect Databricks to Secoda
 

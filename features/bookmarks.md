@@ -10,4 +10,4 @@ To bookmark a resource you can click the bookmark icon in the top right of any r
 
 To access your bookmarks you can go to your profile clicking your avatar icon in the top right corner of the application.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
