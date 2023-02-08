@@ -10,7 +10,7 @@ description: >-
 
 To export data descriptions out of Secoda, you can go to the [import settings](https://app.secoda.co/settings/import) in **Settings → Import & Export** data. Below is the screenshot for the settings. When exporting you can choose the type of resource you'd like to export. After clicking the export button, an **Artifact** will be prepared with your resources. Once it's prepared click the "Download Artifact" button.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 

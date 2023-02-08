@@ -51,13 +51,13 @@ _Secoda uses a series of REST APIs that Google Data Studio uses for its platform
 
 &#x20; 2\.  Click on the **Network** tab and put `https://datastudio.google.com` in the **filter** field
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 &#x20; 3\.  Refresh the page and you should see some requests populate
 
 &#x20; 4\.  Click on the `getShareableList` network request and then navigate to the **Headers** tab
 
-![](<../.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 &#x20; 5\.  In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 

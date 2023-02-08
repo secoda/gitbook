@@ -24,7 +24,7 @@ On a resource page, you can add a resource to a collection by opening up the rig
 
 You can nest a collection when first creating a collection or after a collection has been created. To nest a collection when it's being created, set the "Parent" collection in the creation modal.&#x20;
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 To add a nested collection after the collection has been created, navigate to a collection and click "Add resource" and then search for the collection you'd like to be nested inside the current selected collection.
 
