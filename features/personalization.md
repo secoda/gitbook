@@ -10,7 +10,7 @@ description: >-
 
 There are various personalization options for Secoda users. These personalization options are displayed to viewers when they first come into Secoda. As an admin, you're able to "lock" some of these personalizations. If you don't lock these, then editors and viewers can personalize their workspace as they'd like.&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.38.10 PM (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.38.10 PM (1) (1) (1).png>)
 
 To start personalizing your workspace:&#x20;
 
