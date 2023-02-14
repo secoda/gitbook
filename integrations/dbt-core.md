@@ -39,9 +39,9 @@ If you upload your manifest.json files to an AWS S3 bucket, you can connect that
 
 Create a new AWS IAM user and ensure that **Access Key - Programatic access is checked.** Once you create the user save the Access Key ID and Secret Access Key that are generated for the user.
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (2).png>)
 
-![](<../.gitbook/assets/image (1) (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 Attach the following policy to the user. Make sure to change `<your-bucket-name>`.
 

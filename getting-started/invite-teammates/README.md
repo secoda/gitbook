@@ -24,7 +24,7 @@ To start inviting teammates, go to the Settings page by clicking the ⚙ button 
 
 On this screen, you'll be able to see the plan level that you and your team are on, and the number of seats this plan includes. You'll also see a generic invite link to send to teammates (who will be added as Viewers by default), as well as current team members in the workspace and their roles.&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-04-11 at 11.50.54 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-04-11 at 11.50.54 AM.png>)
 
 ### Assigning Team Roles
 
@@ -32,7 +32,7 @@ In this same screen, you can view current members in your Secoda space, their em
 
 You can edit teammate roles by clicking on the role button that is beside their name and info. You can remove them simply by clicking remove.&#x20;
 
-For more on what permissions certain roles have, check out [**Roles.** ](../user-management/roles.md)****
+For more on what permissions certain roles have, check out [**Roles.** ](../../user-management/roles.md)****
 
 ### User Groups
 
@@ -46,9 +46,9 @@ To create a new user group, click **Groups** underneath the default Invite link.
 
 To add new members to a group, click **Add members**. You can only add members to groups after you've added them as a teammate. You can also add users to a group upon sending them an invitation. You can add an emoji to represent this group by clicking on the letter beside the group name.&#x20;
 
-For more on user groups in Secoda, check out [Groups.](../user-management/groups.md)
+For more on user groups in Secoda, check out [Groups.](../../user-management/groups.md)
 
-![](<../.gitbook/assets/Group 590.png>)
+![](<../../.gitbook/assets/Group 590.png>)
 
 ### Custom Invitation Links
 
@@ -58,9 +58,9 @@ You'll be able to see every link that you've already created, what role that inv
 
 You can create a new link by clicking **Create link**. After you've created a link, you can edit the role and group it's applicable to by clicking the role name (default is Viewer) and adding a group.&#x20;
 
-For more on Custom Invitation Links, check out [Custom Invitation Links. ](../user-management/custom-invitation-links/)
+For more on Custom Invitation Links, check out [Custom Invitation Links. ](../../user-management/custom-invitation-links/)
 
-![](<../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
+![](<../../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈

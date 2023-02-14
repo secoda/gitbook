@@ -45,7 +45,7 @@ If you haven't already, create a new Salesforce Connected App:
 
 4. If you want to relax IP restrictions, Go to Setup > Platform Tools > Apps > Connected Apps > Manage Connected Apps and click Edit next to your App. Next, select `Relax IP restrictions` for IP Relaxation.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ### Retrieve your host
 

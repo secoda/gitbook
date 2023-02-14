@@ -42,8 +42,8 @@ Good to know: We understand that some integrations and data structures are more 
 [preview-workspace.md](preview-workspace.md)
 {% endcontent-ref %}
 
-{% content-ref url="invite-teammates.md" %}
-[invite-teammates.md](invite-teammates.md)
+{% content-ref url="invite-teammates/" %}
+[invite-teammates](invite-teammates/)
 {% endcontent-ref %}
 
 {% content-ref url="connect-to-slack.md" %}

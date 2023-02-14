@@ -8,13 +8,13 @@ Search from Slack
 
 To search Secoda from Slack, type "/secoda" into any channel or DM, followed by your search term. Once the results come up, you can open them to access the page that you're looking for.&#x20;
 
-![](<../.gitbook/assets/askslack (1) (1).gif>)
+![](<../.gitbook/assets/askslack (2).gif>)
 
 ### Ask Questions from Slack
 
 To ask a question, use the Slack command "/ask" in any conversation, followed by your question.&#x20;
 
-![](<../.gitbook/assets/Screen Shot 2022-04-09 at 2.08.29 PM (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/Screen Shot 2022-04-09 at 2.08.29 PM (1) (1) (1) (2).png>)
 
 From here, you'll be prompted to ask your question and submit follow-up information.
 
