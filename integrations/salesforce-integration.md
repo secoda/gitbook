@@ -35,14 +35,14 @@ If you haven't already, create a new Salesforce Connected App:
    * For `Oauth Scopes`, select `Full access (full)`
    * For Callback URL, you can use `http://localhost`
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (17).png>)
 
 4. If you're using Salesforce OAuth flow (tab **OAuth**):
    * For Callback URL, enter `https://app.secoda.co/api/v1/oauth/from_oauth/` (or `https://<your-app>.secoda.co/api/v1/oauth/from_oauth/`)
    * For `Oauth Scopes`, select `Full access (full)` and `Perform requests at any time (refresh_token, offline_access)`
    * Tick `Enable OAuth Settings` and `Enable Authorization and Credentials Flow`
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (13).png>)
 
 5. In the next step, Go to API (Enable OAuth Settings) > Manage Consumer Details to **retrieve your Consumer Key and Consumer Secret**.&#x20;
    1. Add Secoda's IP to Trusted IP Range for OAuth Web Server Flow. If not, see step 6.2 below to relax IP restriction.
@@ -53,7 +53,7 @@ If you haven't already, create a new Salesforce Connected App:
    1. If you're using Salesforce OAuth flow (**OAuth** tab), set Refresh Token Policy to `Refresh Token is valid until revoked`&#x20;
    2. If you want to relax IP restrictions. Select `Relax IP restrictions` for IP Relaxation.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (15).png>)
 
 ### Retrieve your host
 
