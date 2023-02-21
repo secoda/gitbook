@@ -10,7 +10,7 @@ description: >-
 
 To start the process of connecting your AWS account to Secoda, navigate to the [New Integrations](https://app.secoda.co/integrations/new) page and select an AWS integration. Select the "Role" Option.&#x20;
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
