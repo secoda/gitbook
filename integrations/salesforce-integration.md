@@ -31,26 +31,26 @@ If you haven't already, create a new Salesforce Connected App:
 
 2. Follow the instruction below to complete the form to create new Connected App (or modify your existing one)
 3. If you're using Username & Password flow (tab **Password**):
-   * Tick `Enable OAuth Settings`&#x20;
-   * For `Oauth Scopes`, select `Full access (full)`
+   * Tick `Enable OAuth Settings`
+   * For `Oauth Scopes`, we need at least `Manage user data via APIs (api)`
    * For Callback URL, you can use `http://localhost`
 
-![](<../.gitbook/assets/image (17).png>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 4. If you're using Salesforce OAuth flow (tab **OAuth**):
    * For Callback URL, enter `https://app.secoda.co/api/v1/oauth/from_oauth/` (or `https://<your-app>.secoda.co/api/v1/oauth/from_oauth/`)
-   * For `Oauth Scopes`, select `Full access (full)` and `Perform requests at any time (refresh_token, offline_access)`
+   * For `Oauth Scopes`, we need at least `Manage user data via APIs (api)`and  `Perform requests at any time (refresh_token, offline_access)`
    * Tick `Enable OAuth Settings` and `Enable Authorization and Credentials Flow`
 
-![](<../.gitbook/assets/image (13).png>)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-5. In the next step, Go to API (Enable OAuth Settings) > Manage Consumer Details to **retrieve your Consumer Key and Consumer Secret**.&#x20;
+5. In the next step, Go to API (Enable OAuth Settings) > Manage Consumer Details to **retrieve your Consumer Key and Consumer Secret**.
    1. Add Secoda's IP to Trusted IP Range for OAuth Web Server Flow. If not, see step 6.2 below to relax IP restriction.
 
 ![](<../.gitbook/assets/image (16) (1).png>)
 
-6. Go to Setup > Platform Tools > Apps > Connected Apps > Manage Connected Apps and click Edit next to your App.&#x20;
-   1. If you're using Salesforce OAuth flow (**OAuth** tab), set Refresh Token Policy to `Refresh Token is valid until revoked`&#x20;
+6. Go to Setup > Platform Tools > Apps > Connected Apps > Manage Connected Apps and click Edit next to your App.
+   1. If you're using Salesforce OAuth flow (**OAuth** tab), set Refresh Token Policy to `Refresh Token is valid until revoked`
    2. If you want to relax IP restrictions. Select `Relax IP restrictions` for IP Relaxation.
 
 ![](<../.gitbook/assets/image (15).png>)

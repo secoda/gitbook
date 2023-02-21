@@ -15,7 +15,7 @@ You can create Collections on Secoda which allows you to group various resources
 We recommend creating collections per team, group, or function. For example, a "Marketing" collection, or a "Finance" collection.
 {% endhint %}
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 12.38.10 PM (1) (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 12.38.10 PM (1) (1) (1) (1).png>)
 
 Here are our Collections features:&#x20;
 
