@@ -23,7 +23,7 @@ Enter in the following credentials:
 * **Host:** This is the URL of your Databricks workspace, i.e, [dbc-dc31b5a2-597d.cloud.databricks.com](https://dbc-dc31b5a2-597d.cloud.databricks.com/)
 * **Databricks Workspace Id:** The numerical id of your workspace, located in the url of your Databricks instance, after the "/?o=". `https://<instance_id>.cloud.databricks.com/?o=<workspace_id>`.\\
 
-![](<../.gitbook/assets/Screen Shot 2022-08-31 at 11.32.53 AM.png>)
+![](<../.gitbook/assets/Screen Shot 2022-08-31 at 11.32.53 AM (1).png>)
 
 * **Access Token:** The access token you generated in the first step
 

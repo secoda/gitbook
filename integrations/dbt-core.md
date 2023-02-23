@@ -41,7 +41,7 @@ Create a new AWS IAM user and ensure that **Access Key - Programatic access is c
 
 ![](<../.gitbook/assets/image (3) (1) (1) (2).png>)
 
-![](<../.gitbook/assets/image (1) (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 Attach the following policy to the user. Make sure to change `<your-bucket-name>`.
 

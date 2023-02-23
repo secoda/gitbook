@@ -52,6 +52,7 @@
   * [Linear Integration](integrations/linear-integration.md)
   * [Polytomic Integration](integrations/polytomic.md)
   * [Salesforce Integration](integrations/salesforce-integration.md)
+  * [Retool Integration](integrations/retool-integration.md)
   * [Fivetran Integration](integrations/fivetran-integration.md)
   * [Amplitude Integration](integrations/amplitude-integration.md)
   * [Great Expectations Integration](integrations/great-expectations-integration.md)
