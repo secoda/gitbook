@@ -53,7 +53,7 @@ If you haven't already, create a new Salesforce Connected App:
    1. If you're using Salesforce OAuth flow (**OAuth** tab), set Refresh Token Policy to `Refresh Token is valid until revoked`
    2. If you want to relax IP restrictions. Select `Relax IP restrictions` for IP Relaxation.
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (12).png>)
 
 ### Retrieve your host
 
