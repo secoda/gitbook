@@ -16,6 +16,7 @@
   * [Collections in Secoda](secoda-for-business-users/collections-in-secoda.md)
   * [Dictionary & Documents](secoda-for-business-users/dictionary-and-documents.md)
   * [Ask Questions in Secoda](secoda-for-business-users/ask-questions-in-secoda.md)
+  * [Requesting Changes in Secoda](secoda-for-business-users/requesting-changes-in-secoda.md)
   * [Slack Integration](secoda-for-business-users/slack-integration.md)
 * [Integrations](integrations/README.md)
   * [Snowflake Integration](integrations/snowflake-integration/README.md)
