@@ -2,7 +2,7 @@
 description: This page walks through the Secoda and Snowflake data cataloging integration
 ---
 
-# How to connect to Snowflake?
+# Connect Snowflake
 
 ## **Connect Snowflake** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -42,8 +42,8 @@ GRANT USAGE ON DATABASE <database name> TO ROLE SECODA;
 GRANT USAGE,MONITOR ON ALL SCHEMAS IN DATABASE <database name> TO ROLE SECODA;
 
 // References for INFORMATION_SCHEMA to existing tables
-GRANT REFERENCES ON ALL TABLES IN DATABASE <database name> TO ROLE SECODA;
-GRANT REFERENCES ON ALL VIEWS IN DATABASE <database name> TO ROLE SECODA;
+GRANT SELECT ON ALL TABLES IN DATABASE <database name> TO ROLE SECODA;
+GRANT SELECT ON ALL VIEWS IN DATABASE <database name> TO ROLE SECODA;
 
 // ====== Future Tables & Schemas
 
