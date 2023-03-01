@@ -4,8 +4,8 @@
 
 There are two steps to get started using Retool with Secoda through session cookies:
 
-1. Retrieve a Google Data Studio session cookie
-2. Connect Google Data Studio to Secoda
+1. Retrieve a Retool session cookie
+2. Connect Retool to Secoda
 
 ### Retrieve Session Cookie
 
@@ -17,7 +17,7 @@ _Secoda uses a series of REST APIs that Retool uses for its platform, which requ
 
 2. Click on the **Network** tab and enter `url:<yourworkspace>.retool.com` in the filter head
 
-![](<../.gitbook/assets/image.png>)
+![](../.gitbook/assets/image.png)
 
 3. Refresh the page and you should see some requests populate
 4. Click on `user` network request, navigate to **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
