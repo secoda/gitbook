@@ -124,6 +124,7 @@
   * [Groups](user-management/groups.md)
 * [Self-Hosted Secoda Guide](self-hosted-secoda.md)
 * [Secoda API](secoda-api.md)
+  * [Get Started](secoda-api/get-started.md)
   * [Authentication](secoda-api/authentication.md)
   * [API Reference](https://api.secoda.co/api/schema/redoc/)
 * [FAQ](faq.md)
