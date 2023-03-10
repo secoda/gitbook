@@ -43,6 +43,7 @@
     * [Tableau Metadata](integrations/tableau-integration/tableau-metadata.md)
   * [Metabase Integration](integrations/metabase.md)
   * [Mode Integration](integrations/mode.md)
+  * [Sigma Integration](integrations/sigma-integration.md)
   * [Redash Integration](integrations/redash.md)
   * [Google Data Studio Integration](integrations/google-data-studio.md)
   * [Power BI Integration](integrations/power-bi.md)

@@ -17,7 +17,7 @@ _Secoda uses a series of REST APIs that Retool uses for its platform, which requ
 
 2. Click on the **Network** tab and enter `url:<yourworkspace>.retool.com` in the filter head
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (6).png>)
 
 3. Refresh the page and you should see some requests populate
 4. Click on `user` network request, navigate to **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
