@@ -14,7 +14,7 @@ description: An overview of the Secoda integration with Postgres
 
 After connecting Postgres to Secoda, to view the metadata associated with one of your Postgres tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Postgres table. That link will bring you to the following page.
 
-![](<../../.gitbook/assets/image (2) (2).png>)
+![](<../../.gitbook/assets/image (2) (2) (1).png>)
 
 **Tables**
 

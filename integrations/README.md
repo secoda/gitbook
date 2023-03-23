@@ -30,7 +30,7 @@ description: >-
 * [Tableau](tableau-integration/tableau.md)&#x20;
 * [Looker](looker-integration/looker.md)
 * [Mode](mode.md)&#x20;
-* Sigma&#x20;
+* [Sigma ](sigma-integration.md)
 * [Redash](redash.md)
 * [Power BI ](power-bi.md)
 * [Metabase](metabase.md)

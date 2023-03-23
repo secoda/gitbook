@@ -23,3 +23,7 @@ The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI worksp
     ![](<../.gitbook/assets/image (2) (1) (3).png>) ![](<../.gitbook/assets/Screen Shot 2022-04-21 at 12.17.05 PM (1).png>)
 3. After you've connected Power BI to Secoda go to [https://app.secoda.co/integrations](https://app.secoda.co/integrations)
 4. Select your Power BI integration and go to **History > Run extraction > Metadata extraction** which will start an extraction for your Power BI integration. ![](<../.gitbook/assets/image (4) (1).png>)
+
+To extract Power BI datasets, the "Enhance admin APIs responses with detailed metadata" option in the admin panel must be toggled on.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
