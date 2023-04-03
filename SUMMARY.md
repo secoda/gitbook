@@ -76,6 +76,7 @@
     * [Documenting your data](features/data-management/documenting-a-resource.md)
     * [Editing Metadata Descriptions](features/data-management/editing-descriptions.md)
     * [Bulk Editing Metadata](features/data-management/bulk-editing-resources.md)
+    * [Propagating Metadata](features/data-management/propagating-metadata.md)
     * [Publishing Metadata Resources](features/data-management/publishing-resources.md)
     * [Sharing Data Resources](features/data-management/sharing-resources.md)
     * [Using & Creating Tags](features/data-management/using-and-creating-tags/README.md)
