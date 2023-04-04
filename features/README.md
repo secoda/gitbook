@@ -34,8 +34,8 @@ description: Get to know Secoda's features in depth with the following pages.
 [data-requests](data-requests/)
 {% endcontent-ref %}
 
-{% content-ref url="data-lineage/" %}
-[data-lineage](data-lineage/)
+{% content-ref url="data-lineage.md" %}
+[data-lineage.md](data-lineage.md)
 {% endcontent-ref %}
 
 {% content-ref url="personalization.md" %}
