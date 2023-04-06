@@ -22,7 +22,7 @@ To create a new user, you’ll need to log into the Microsoft SQL Server databas
 
 ```
 -- Create a user named "secoda" that Secoda will use when connecting to your Microsoft SQL Server database. 
-CREATE USER secoda PASSWORD '<enter password here>'; 
+CREATE USER secoda PASSWORD  = '<enter password here>'; 
 
 -- Complete this query for any databases you would like Secoda to extract from 
 GRANT SELECT ON DATABASE <yourdbname> TO secoda;
