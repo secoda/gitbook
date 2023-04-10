@@ -19,6 +19,7 @@
   * [Requesting Changes in Secoda](secoda-for-business-users/requesting-changes-in-secoda.md)
   * [Slack Integration](secoda-for-business-users/slack-integration.md)
 * [Integrations](integrations/README.md)
+  * [Troubleshooting Guide](integrations/troubleshooting-guide.md)
   * [Snowflake Integration](integrations/snowflake-integration/README.md)
     * [Connect Snowflake](integrations/snowflake-integration/snowflake.md)
     * [Snowflake Metadata](integrations/snowflake-integration/snowflake-metadata.md)
