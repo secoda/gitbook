@@ -32,7 +32,7 @@ In this same screen, you can view current members in your Secoda space, their em
 
 You can edit teammate roles by clicking on the role button that is beside their name and info. You can remove them simply by clicking remove.&#x20;
 
-For more on what permissions certain roles have, check out [**Roles.** ](../../user-management/roles.md)****
+For more on what permissions certain roles have, check out [**Roles.** ](../../user-management/roles.md)
 
 ### User Groups
 

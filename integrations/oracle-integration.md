@@ -36,7 +36,7 @@ VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re 
 
 Allow Secoda to read into your Oracle database from `35.175.75.15/32` and `34.230.160.245/32`
 
-****
+
 
 #### **Connect Oracle to Secoda** <a href="#h_dc83b40ac9" id="h_dc83b40ac9"></a>
 
