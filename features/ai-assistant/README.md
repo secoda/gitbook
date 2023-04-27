@@ -27,6 +27,7 @@ We are very excited about the Secoda AI Assistant, and are regularly making impr
 * Quicker and more reliable performance
 * Better understanding of prompts
 * Role and access based answers
+* Slack integration
 * And more!&#x20;
 
 {% hint style="info" %}

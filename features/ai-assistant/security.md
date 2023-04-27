@@ -12,7 +12,7 @@ Ensuring our customers feel safe and comfortable using this tool is a **top prio
 
 The only data sent to OpenAI is the metadata in your workspace. Metadata is defined as properties and documentation describing your resources, including Owners, Tags, Descriptions, Definitions, Popularity, Resource Names, and more. **The data within the resource does not leave the workspace.**&#x20;
 
-For example, if you are a owner of tables in your workspace, you can ask the AI Assistant own many tables you own, and to list these tables. Ownership is a metadata property in Secoda.
+For example, if you are an owner of tables in your workspace, you can ask the AI Assistant how many tables you own, and to list these tables. Ownership is a metadata property in Secoda.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-26 at 2.53.16 PM.png" alt=""><figcaption><p>A screenshot of asking the AI Assistant how many tables do I own.</p></figcaption></figure>
 
@@ -30,7 +30,7 @@ Absolutely not. All metadata is specific to your workspace and is not shared or 
 
 ### Is OpenAI saving this data?
 
-According to OpenAI, any data sent over through the API is not saved or used to train their Large Language Model.
+According to OpenAI, any data sent over through the API is not saved or used to train their Large Language Model. You can read more about this [here](https://openai.com/policies/api-data-usage-policies).&#x20;
 
 ### Do my interactions with the AI Assistant get saved?
 
@@ -49,3 +49,5 @@ For example, if you make an OpenAI API request from Germany, the API may route y
 However, the specific location of the data center used may depend on various factors, such as the availability of resources, network conditions, and demand. Additionally, OpenAI may use different cloud providers and data center locations to serve different parts of the world or for different services.
 
 It's worth noting that OpenAI offers a GDPR-compliant Data Processing Addendum (DPA) that outlines the company's obligations and responsibilities as a data processor under GDPR.
+
+You can learn more about OpenAI's Privacy Policies [here](https://openai.com/policies/privacy-policy).
