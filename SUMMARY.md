@@ -74,7 +74,7 @@
   * [Personalize your data portal](features/personalization.md)
   * [Search your data portal](features/search.md)
   * [Publishing data portal](features/publishing.md)
-  * [Data Inbox](features/data-inbox.md)
+  * [Inbox & Announcements](features/data-inbox.md)
   * [Data Lineage in Secoda](features/data-lineage.md)
     * [Manual Lineage](features/data-lineage/manual-lineage.md)
   * [Linking Resources](features/linking-resources.md)
