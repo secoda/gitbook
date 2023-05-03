@@ -122,7 +122,7 @@
   * [Slack Integration with Secoda](features/slack-connection.md)
   * [Bookmarks](features/bookmarks.md)
   * [Collections](features/collections-1.md)
-  * [Change notifications](features/notifications.md)
+  * [Notifications](features/notifications.md)
 * [User Management](user-management/README.md)
   * [Roles](user-management/roles.md)
   * [Custom Invitation Links](user-management/custom-invitation-links/README.md)
