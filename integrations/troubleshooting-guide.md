@@ -34,4 +34,12 @@ This error indicates that the access\_token has expired and needs to be refreshe
 
 ![](https://lh3.googleusercontent.com/HsWowBEhrqyIi5-8xzM1TCZr33Tfxh\_qzQx-zzUasG-fig9GSncjcPhNvT3IjmstSNUs3MpNG1LRc2R9pE9annltj22DfeWaRL8ULmD\_U5DW0yYJxwx3d6QYkcgSuPEQ0-dN4NpD31jI7kNWvL\_zKh0)
 
-Note: It must be a PowerBI Admin in order to successfully go through the OAuth flow.\
+Note: It must be a PowerBI Admin in order to successfully go through the OAuth flow.
+
+## Microsoft SQL
+
+If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](connecting-via-ssh-tunnel.md). &#x20;
+
+Once a tunnel has been created, make sure to choose the SSH Tunnel in the drop down list when inputting your credentials for the integration.
+
+![](<../.gitbook/assets/Screenshot 2023-05-04 at 3.37.09 PM.png>)
