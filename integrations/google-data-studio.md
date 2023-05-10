@@ -21,7 +21,7 @@ There are two steps to get started using Google Data Studio with Secoda through 
 
 1. Sign in to your Google Admin console and navigate to [domain wide delegation](https://admin.google.com/ac/owl/domainwidedelegation).
 2. In `API clients`, click **Add new**.
-3. Enter the Client ID:  `884425733446-7lao52vmjg9k7hovpgba2qd5b7qeo8l2.apps.googleusercontent.com`
+3. Enter the Client ID: `884425733446-7lao52vmjg9k7hovpgba2qd5b7qeo8l2.apps.googleusercontent.com`
 4. Enter the following OAuth scopes:
    * `https://www.googleapis.com/auth/datastudio`
    * `https://www.googleapis.com/auth/userinfo.profile`
@@ -49,23 +49,23 @@ _Secoda uses a series of REST APIs that Google Data Studio uses for its platform
 
 ![Login to Google Data Studio and open the developer tools by right-clicking and selecting Inspect](<../.gitbook/assets/image (6) (1) (1).png>)
 
-&#x20; 2\.  Click on the **Network** tab and put `https://datastudio.google.com` in the **filter** field
+2\. Click on the **Network** tab and put `https://datastudio.google.com` in the **filter** field
 
 ![](<../.gitbook/assets/image (4) (1) (1).png>)
 
-&#x20; 3\.  Refresh the page and you should see some requests populate
+3\. Refresh the page and you should see some requests populate
 
-&#x20; 4\.  Click on the `getShareableList` network request and then navigate to the **Headers** tab
+4\. Click on the `getShareableList` network request and then navigate to the **Headers** tab
 
-![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
-&#x20; 5\.  In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
+5\. In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 
 ![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 ### Connect to Google Data Studio
 
-&#x20;_After retrieving the session cookie, you can connect Google Data Studio to Secoda by following these steps:_
+_After retrieving the session cookie, you can connect Google Data Studio to Secoda by following these steps:_
 
 1. In Secoda, head to the **Integrations** page and click **New integration**
 2. Select **Google Data Studio**

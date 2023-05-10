@@ -16,7 +16,7 @@ To create a Sigma access token for Secoda visit Sigma and log into your account.
 2. Click the option **APIs and Embed Secrets**
 3. Click **Create New** in the top right
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Fill out the form with the Name and Owner. Make sure that the owner is an Administrator.
 5. Copy the Client ID and Secret and save it. This will be used to connect to Secoda.
