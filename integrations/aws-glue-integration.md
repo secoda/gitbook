@@ -20,8 +20,7 @@ In the permissions section, select "Attach existing policies directly" and then 
 
 Select the "JSON" option and paste in the following policy. Make sure to replace \<aws\_region> and \<aws\_account\_id> with the proper values. Then create the policy and return to the previous page for the IAM user creation.
 
-```
-{
+<pre><code>{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -32,7 +31,6 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "glue:GetJobs",
                 "glue:GetTable",
                 "glue:SearchTables",
-                "glue:GetPartitions",
                 "s3:GetBucketLocation",
                 "s3:GetObject",
                 "s3:ListBucket",
@@ -46,20 +44,26 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "athena:StopQueryExecution",
                 "athena:GetQueryExecution",
                 "athena:GetQueryResults",
+                "athena:ListWorkGroups",
+                "athena:ListDataCatalogs",
+                "s3:ListMultipartUploadParts",
+                <a data-footnote-ref href="#user-content-fn-1">"sts:AssumeRole"</a>
             ],
             "Resource": [
-                "arn:aws:athena:*:<athena_id>:workgroup/primary",
-                "arn:aws:s3:::<athena_output_bucket>",
-                "arn:aws:s3:::<athena_output_bucket>/*",
-                "arn:aws:glue:<region>:<glue_id>:*"
-                "arn:aws:s3:::<glue_bucket>",
-                "arn:aws:s3:::<glue_bucket>/*",
+                "arn:aws:athena:*:&#x3C;athena_id>:workgroup/primary",
+                "arn:aws:s3:::&#x3C;athena_output_bucket>",
+                "arn:aws:s3:::&#x3C;athena_output_bucket>/*",
+                "arn:aws:glue:&#x3C;region>:&#x3C;glue_id>:*"
+                "arn:aws:s3:::&#x3C;glue_bucket>",
+                "arn:aws:s3:::&#x3C;glue_bucket>/*",
             ]
         }
     ]
 }
-```
+</code></pre>
 
 Refresh the policy list and search for your newly created policy. Select that policy and then create the user.&#x20;
 
 Copy the Access Key ID and Secret Access Key that is generated for the user. Return to https://app.secoda.co/integrations and select the AWS Glue integration. Input your region, access key ID and secret access key and click "Test Connection". After the connection is established click "Run initial extraction" to begin the process of syncing your Glue Data Catalog.&#x20;
+
+[^1]: 
