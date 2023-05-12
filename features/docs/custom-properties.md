@@ -16,7 +16,11 @@ Enter the name for the property and the description/label. This custom property 
 
 To delete a custom property, click on the name of the property, then click **Delete**.&#x20;
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 11.19.00 AM.png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/Screen Shot 2022-04-08 at 11.19.00 AM.png" alt="">
+
+</div>
 
 Custom properties can be used to identify alternative names for terms or collections. These properties will get picked up in the search.&#x20;
 

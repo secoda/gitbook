@@ -130,6 +130,7 @@
   * [Resource Permissions](user-management/resource-permissions.md)
   * [Integration Permissions](user-management/integration-permissions.md)
   * [Groups](user-management/groups.md)
+  * [Teams](user-management/teams.md)
 * [Self-Hosted Secoda Guide](self-hosted-secoda.md)
 * [Secoda API](secoda-api.md)
   * [Get Started](secoda-api/get-started.md)

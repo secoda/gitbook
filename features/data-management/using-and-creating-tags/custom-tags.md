@@ -17,9 +17,9 @@ Tags are a static way to label Resources with useful context that other users in
 3. Click the `Create Tag` button to create a new tag
 4. Enter Name, Tag Description, and choose a logo and colour to represent the tag
 
+<div align="center">
+
 <figure><img src="../../../.gitbook/assets/Screen Shot 2022-12-02 at 12.49.15 PM.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
+</div>
 
