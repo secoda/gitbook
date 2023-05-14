@@ -18,7 +18,7 @@ After connecting BigQuery to Secoda, to view the metadata associated with one of
 
 **Tables**
 
-The tables associated with the schemas that have been selected in your BigQuery integration will be imported. If a [comment ](https://docs.snowflake.com/en/sql-reference/sql/comment.html)is present on the table, that comment will be brought in as a description.
+The tables associated with the schemas that have been selected in your BigQuery integration will be imported. If a [comment](https://cloud.google.com/bigquery/docs/samples/bigquery-update-table-description#bigquery\_update\_table\_description-go)[ ](https://docs.snowflake.com/en/sql-reference/sql/comment.html)is present on the table, that comment will be brought in as a description.
 
 **Columns**
 
