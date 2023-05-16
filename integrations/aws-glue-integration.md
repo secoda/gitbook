@@ -46,6 +46,7 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "athena:GetQueryResults",
                 "athena:ListWorkGroups",
                 "athena:ListDataCatalogs",
+                "athena:ListQueryExecutions",
                 "s3:ListMultipartUploadParts",
                 <a data-footnote-ref href="#user-content-fn-1">"sts:AssumeRole"</a>
             ],
