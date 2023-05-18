@@ -46,7 +46,7 @@ To create a new user group, click **Groups** underneath the default Invite link.
 
 To add new members to a group, click **Add members**. You can only add members to groups after you've added them as a teammate. You can also add users to a group upon sending them an invitation. You can add an emoji to represent this group by clicking on the letter beside the group name.&#x20;
 
-For more on user groups in Secoda, check out [Groups.](../../user-management/groups.md)
+For more on user groups in Secoda, check out [Groups.](broken-reference)
 
 ![](<../../.gitbook/assets/Group 590.png>)
 
