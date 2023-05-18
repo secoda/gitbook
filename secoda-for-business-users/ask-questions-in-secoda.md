@@ -6,7 +6,7 @@ Often these questions are asked and answered in an ad hoc fashion through apps l
 
 With Secoda, you can find past questions, as well as pose a new questions to the data team. Since Secoda is connected to your organization’s data, questions and answers can include links to relevant tables, queries, or even other questions.
 
-![](../.gitbook/assets/ask.png)
+<figure><img src="../.gitbook/assets/Kapture 2023-05-15 at 16.19.21.gif" alt=""><figcaption></figcaption></figure>
 
 Once a question is submitted, teammates can comment on the question and editors can verify the correct answer (or provide a different answer). Once an answer has been chosen by the admin (indicated by a green checkmark), others can find it through a search if they have a similar question.
 

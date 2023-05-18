@@ -1,7 +1,5 @@
 ---
-description: >-
-  Assigning owners to resYou can assign an owner or multiple owners to a
-  resource in Secoda.ources
+description: Assigning owners to resources
 ---
 
 # Assigning owners to data
@@ -23,7 +21,7 @@ Assigning owners can also help you identify abandoned data sets no one currently
 
 Owners are responsible keeping documentation on their datasets up to date. If something looks off with a dataset, or a new user is looking to get acquainted with the data, they can ask questions in the questions tab.
 
-Owners will receive notifications through email and the Secoda app when tables, columns or documentation-related changes. If you have the Secoda Slack App installed, you will receive notifications through Slack.
+Owners will receive notifications through email and the Secoda app when tables, columns or documentation-related changes. If you have the Secoda Slack integration installed, you will receive notifications through Slack.
 
 Table Owners can add helpful comments or Frequently Asked Questions about a dataset so they’ll show at the top of the documentation tab.
 

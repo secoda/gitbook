@@ -13,6 +13,8 @@ description: >-
 [roles.md](roles.md)
 {% endcontent-ref %}
 
+{% embed url="https://docs.secoda.co/user-management/teams" %}
+
 {% content-ref url="groups.md" %}
 [groups.md](groups.md)
 {% endcontent-ref %}

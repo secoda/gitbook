@@ -4,20 +4,20 @@ description: >-
   to your data that your team will be able to refer to.
 ---
 
-# Add Documentation
+# Add Documentation to data
 
 ## How to document data in Secoda
 
-To start adding documentation to your data, click Data from the side bar, or search for the dataset you'd like to add documentation to.
+To start adding documentation to your data, click into the Catalog from the side bar, or search for the dataset you'd like to add documentation to.
 
 From here, select the data source that you would like to add documentation to. You can also directly click into the dataset you'd like to document.&#x20;
 
-After you've selected the dataset you'd like to document, you'll be directed to the dataset overview page, which shows you the resources current associated with that data set.&#x20;
+After you've selected the dataset you'd like to document, you'll be directed to the dataset overview page, which shows you the resources currently associated with that data set.&#x20;
 
 * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.&#x20;
 * You can click the **Documentation** tab and then begin adding documentation there.&#x20;
 
-![](<../.gitbook/assets/ezgif.com-gif-maker (6) (1).gif>)
+<figure><img src="../.gitbook/assets/Kapture 2023-05-15 at 14.31.09.gif" alt=""><figcaption></figcaption></figure>
 
 ### Documentation Features
 

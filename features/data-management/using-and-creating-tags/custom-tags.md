@@ -23,3 +23,17 @@ Tags are a static way to label Resources with useful context that other users in
 
 </div>
 
+## Use cases
+
+Tags are mainly used for categorization purposes, opposed to Collections which are like folders. Many customers use tags to differentiate between types of data. Some examples:
+
+* "Production" vs. "Test"
+* Certificates
+  * "Verified" - the term/resource is accepted and approved by the business and ready to be used
+  * "Draft" - is pending, may have some issues
+  * "Deprecated" - should not be used, is outdated or stale
+* Security classifications
+  * Confidential
+  * Restricted
+  * Public
+

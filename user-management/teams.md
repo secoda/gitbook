@@ -8,6 +8,8 @@ description: >-
 
 The Teams feature allows users to organize all of their team-specific resources into one space. When a user in Secoda is placed into a Team, they will see all the resources tied to that Team. "General" is the Default Team that all members will be added to.
 
+You can think of Teams as being the organization of resources and content, whereas Groups are the organization of members.
+
 In the example below, the user has access to the "General" Team and the "Finance" Team, as well as the Catalog resources, Collections, Dictionary terms, Documents and Questions that those Teams have access to.
 
 <figure><img src="../.gitbook/assets/Kapture 2023-05-10 at 17.10.37.gif" alt=""><figcaption></figcaption></figure>

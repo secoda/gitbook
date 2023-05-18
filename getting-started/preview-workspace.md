@@ -6,9 +6,9 @@ description: >-
 
 # Preview workspace
 
-Once you've published some of your resources, you can preview your workspace by pressing the preview button at the top right hand side of the admin dashboard
+Once you've published some of your resources, you can preview your workspace by pressing the preview button at the top right hand side of the admin dashboard.
 
-![](<../.gitbook/assets/Group 74.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-15 at 2.34.18 PM.png" alt=""><figcaption></figcaption></figure>
 
 This preview will take you to the viewer mode of Secoda. As you publish more resources, you can invite viewers to Secoda to see the changes that have been made to the data portal. You can also customize your data portal in Secoda to match your team's branding.
 

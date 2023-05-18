@@ -13,7 +13,13 @@ There are several benefits to connecting data to Secoda:
 3. Improved data discovery: By connecting your data to Secoda, you can make it easier for others to discover and access your data assets. This can help improve collaboration and ensure that team members have the information they need to make informed decisions.
 4. Enhanced data governance: Connecting your data to Secoda allows you to establish clear roles and responsibilities for data management and ensure that all team members follow established data governance policies and procedures.
 
-## Connecting to an integration
+## How to add integrations
+
+Adding integrations is simple. Navigate over to the Integrations tab on the side panel and click New Integration. Note that only Workspace Admins have access to this tab. See the docs below for specific instructions for the different types of integrations.
+
+<figure><img src="../.gitbook/assets/Kapture 2023-05-15 at 14.15.07.gif" alt=""><figcaption></figcaption></figure>
+
+## Current integrations
 
 [tableau.md](../integrations/tableau-integration/tableau.md "mention")
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   While you cannot add custom properties to your data directly from Secoda, you
-  can indeed insert custom properties in your metadata.
+  can insert custom properties in your metadata.
 ---
 
 # Adding Custom Column Properties

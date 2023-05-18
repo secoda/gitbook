@@ -12,7 +12,7 @@ If a Viewer runs into information that needs correction, or needs to be updated,
 
 1. Click the `Request Change` button found in the sidesheet of a Resource.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2023-02-28 at 5.01.26 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-15 at 4.21.52 PM.png" alt=""><figcaption></figcaption></figure>
 
 2. Choose the desired Field to update, and type in the updated Text to the Edit box. When you're finished, click `Submit`&#x20;
 

@@ -6,8 +6,8 @@ description: Get to know Secoda's features in depth with the following pages.
 
 ## **Getting Started with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-{% content-ref url="search.md" %}
-[search.md](search.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="publishing.md" %}

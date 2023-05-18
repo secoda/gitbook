@@ -46,6 +46,6 @@ Good to know: We understand that some integrations and data structures are more 
 [invite-teammates](invite-teammates/)
 {% endcontent-ref %}
 
-{% content-ref url="connect-to-slack.md" %}
-[connect-to-slack.md](connect-to-slack.md)
+{% content-ref url="slack-connection.md" %}
+[slack-connection.md](slack-connection.md)
 {% endcontent-ref %}

@@ -11,22 +11,30 @@ description: >-
 To make it easier to share with commonly-used groups (i.e. your company's engineering team or community team), you can create your own member groups and assign them permission to access resources.
 
 {% hint style="info" %}
-Good to know: you can create groups for different user roles across the board. You can also give them names (i.e. Investors, marketing team) to keep roles and permissions organized.&#x20;
+Good to know: you can create groups for different user roles across the board. You can also give them names (i.e. Investors, Marketing team) to keep roles and permissions organized.&#x20;
 {% endhint %}
 
-**Here are quick instructions for group sharing:**
+## **How to create groups**
 
-* Go to `Settings & Members` and you'll see a list of all your members and guests. Click the `Groups` heading at the top of that list.
-* Click `Create a group`, give it a name, and add the members you want.
-* To share a resource with a particular group, go to `Share` at the top right of that resource, then click the `Add people` button. You'll see your groups listed in the invite pop-up that appears. You can add and remove people from this same view.
+1. Go into Settings, then Groups, and you'll see a list of all your Members.&#x20;
+2. Click "Add new group", give it a name, and add the members you want.
+3.
 
-![](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.57.02 PM.png>)
+    <div align="left">
 
+    <figure><img src="../.gitbook/assets/Screenshot 2023-05-16 at 5.25.19 PM.png" alt=""><figcaption></figcaption></figure>
 
+    </div>
+4. Once a Group is created, you can invite that Group of members to a Team in the Team's tab. Being apart of a team helps users organize their content; read more [here](https://docs.secoda.co/user-management/teams).
+5. To share a resource with a particular Group, go to `Share link and permissions` at the top right of that resource, then click the `Add people or groups` button. You'll see your groups listed in the invite pop-up that appears. You can add and remove people from this same view.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-16 at 5.29.02 PM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 You can also see which group each member of your team belongs to and see what resources that team owns. You can use your groups to assign resources to multiple people and navigate to see what different groups are able to use in Secoda.&#x20;
-
-![](<../.gitbook/assets/Screen Recording 2022-06-14 at 10.25.51 AM.gif>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

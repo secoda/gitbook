@@ -12,9 +12,9 @@ As an editor, you're going to have access to all resources in Secoda. As a viewe
 
 This functionality is built into Secoda to ensure that only the tables, docs, terms and questions that are relevant and documented are available for consumption. As an editor, you can mimic what a viewer will see in Secoda by using the "preview" button in the top right hand corner.
 
-![](<../.gitbook/assets/Group 822.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-15 at 2.34.18 PM.png" alt=""><figcaption></figcaption></figure>
 
-Once clicked, you'll be able to see the viewer experience in Secoda. As a viewer, you only get access to the published collections, docs, dictionary terms and questions that have been shared with you.&#x20;
+Once clicked, you'll be able to see the viewer experience in Secoda. As a viewer, you only get access to the published collections, documents, dictionary terms and questions that have been shared with you.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-09 at 1.13.44 PM.png>)
 
