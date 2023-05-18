@@ -15,10 +15,6 @@ description: >-
 
 {% embed url="https://docs.secoda.co/user-management/teams" %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="custom-invitation-links/" %}
 [custom-invitation-links](custom-invitation-links/)
 {% endcontent-ref %}
