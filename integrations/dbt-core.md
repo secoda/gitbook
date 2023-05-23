@@ -121,7 +121,7 @@ gsutil cors set cors.json gs://bucket-name
 
 ![](<../.gitbook/assets/Screen Shot 2022-10-28 at 11.14.56 AM.png>)
 
-**Secoda API**
+#### **Secoda API**
 
 The API provides an endpoint to upload your manifest.json file. This is convenient if you run dbt with Airflow because you can upload the manifest.json at the end of a dbt run. Follow these instructions to upload your manifest.json via the API:
 
