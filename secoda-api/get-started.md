@@ -1,6 +1,6 @@
 # Get Started
 
-The Secoda API is based around REST principals. You will need a [Bearer](../authentication.md) token to use the API.&#x20;
+The Secoda API is based around REST principals. You will need a [Bearer](authentication.md) token to use the API.&#x20;
 
 See below for the Base URL for your workspace.
 

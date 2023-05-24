@@ -28,7 +28,7 @@ Make a request to the Secoda Health Check API endpoint `/healthcheck`. A success
 
 ### Request Examples
 
-See below for example requests to the Secoda API.  You must replace `{{base_URL}}` with the [base URL](get-started/) for your workspace, and the Bearer with the API key generated using the instructions above. &#x20;
+See below for example requests to the Secoda API.  You must replace `{{base_URL}}` with the [base URL](get-started.md) for your workspace, and the Bearer with the API key generated using the instructions above. &#x20;
 
 *   **Curl Example**
 
