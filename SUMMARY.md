@@ -11,6 +11,7 @@
   * [Invite Teammates to Secoda](getting-started/invite-teammates/README.md)
     * [Joining & Navigating between Multiple Workspaces](getting-started/invite-teammates/joining-and-navigating-between-multiple-workspaces.md)
   * [Slack Integration with Secoda](getting-started/slack-connection.md)
+  * [Onboarding new users](getting-started/onboarding-new-users.md)
 * [Secoda for Business Users](secoda-for-business-users/README.md)
   * [Search and Home Page](secoda-for-business-users/search-and-home-page.md)
   * [Collections in Secoda](secoda-for-business-users/collections-in-secoda.md)
