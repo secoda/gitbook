@@ -26,7 +26,7 @@ However, because the data itself is not being sent to OpenAI, if you ask to dire
 
 ### Is data shared between workspaces?&#x20;
 
-Absolutely not. All metadata is specific to your workspace and is not shared or accessible by anyone who isn't granted access to your workspace. **You cannot ask the AI Assistance about metadata that is not in your workspace.**
+Absolutely not. All metadata is specific to your workspace and is not shared or accessible by anyone who isn't granted access to your workspace. **You cannot ask the AI Assistant about metadata that is not in your workspace.**
 
 ### Is OpenAI saving this data?
 
