@@ -56,6 +56,10 @@ Secoda documentation can be returned programmematically through our API to your 
 
 Our support team can disable the editing of descriptions for specific data sources inside Secoda if you need to.
 
+## What is Secoda's back up policy?
+
+Secoda backs up all metadata every 5 minutes. This data is retained for 24 months unless you explicitly ask for your data to be deleted.
+
 ## When will you support \_\_\_\_ integration?
 
 There's a good chance we're already working on it! In order to support as many popular tools as possible, we are working on it diligently. If you need something that we do not support yet, let us know on Slack or in Intercom.

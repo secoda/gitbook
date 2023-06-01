@@ -8,24 +8,20 @@ description: How to make changes, manipulate, and work with data in Secoda.
 
 Secoda ingests metadata from your data warehouse, BI tool and ETL processes. After the metadata has been extracted, Secoda gives data teams an interface to document and manage their metadata in the same place that the rest of their data knowledge lives. This section will highlight the different ways that data teams can manage, document and share metadata in Secoda.
 
-{% content-ref url="documenting-a-resource.md" %}
-[documenting-a-resource.md](documenting-a-resource.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="using-and-creating-tags/auto-pii-tagging.md" %}
 [auto-pii-tagging.md](using-and-creating-tags/auto-pii-tagging.md)
 {% endcontent-ref %}
 
-{% content-ref url="editing-descriptions.md" %}
-[editing-descriptions.md](editing-descriptions.md)
-{% endcontent-ref %}
-
 {% content-ref url="publishing-resources.md" %}
 [publishing-resources.md](publishing-resources.md)
 {% endcontent-ref %}
 
-{% content-ref url="sharing-resources.md" %}
-[sharing-resources.md](sharing-resources.md)
+{% content-ref url="../../user-management/roles/sharing-resources.md" %}
+[sharing-resources.md](../../user-management/roles/sharing-resources.md)
 {% endcontent-ref %}
 
 {% content-ref url="assigning-owners.md" %}
@@ -44,8 +40,8 @@ Secoda ingests metadata from your data warehouse, BI tool and ETL processes. Aft
 [column-profiling.md](column-profiling.md)
 {% endcontent-ref %}
 
-{% content-ref url="adding-to-collections.md" %}
-[adding-to-collections.md](adding-to-collections.md)
+{% content-ref url="../collections/adding-to-collections.md" %}
+[adding-to-collections.md](../collections/adding-to-collections.md)
 {% endcontent-ref %}
 
 {% content-ref url="removing-stale-data.md" %}

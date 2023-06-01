@@ -5,7 +5,7 @@ description: >-
   resources.
 ---
 
-# Managing Collections
+# Collections
 
 ## **How to manage collections in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -23,8 +23,8 @@ Here are our Collections features:&#x20;
 [adding-resources.md](adding-resources.md)
 {% endcontent-ref %}
 
-{% content-ref url="pinning-to-homepage.md" %}
-[pinning-to-homepage.md](pinning-to-homepage.md)
+{% content-ref url="../search-and-home-page/pinning-to-homepage.md" %}
+[pinning-to-homepage.md](../search-and-home-page/pinning-to-homepage.md)
 {% endcontent-ref %}
 
 {% content-ref url="sharing-collections.md" %}

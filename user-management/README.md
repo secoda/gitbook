@@ -1,28 +1,21 @@
 ---
-description: >-
-  This section will walk you through how to add and remove members from your
-  workspace, how you can organize them through groups, and what every role
-  within Secoda means.
+description: This section will walk you through Roles, Groups & Teams within Secoda
 ---
 
 # User Management
 
-## **How to manage roles in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **How to manage users in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-{% content-ref url="roles.md" %}
-[roles.md](roles.md)
-{% endcontent-ref %}
+{% embed url="https://docs.secoda.co/user-management/roles" %}
 
 {% embed url="https://docs.secoda.co/user-management/teams" %}
 
-{% content-ref url="custom-invitation-links/" %}
-[custom-invitation-links](custom-invitation-links/)
+{% embed url="https://app.gitbook.com/o/kiZzeKVKgX9VBlEBWR7C/s/qxbfBjqa19PllrcxgKxO/~/changes/284/user-management/groups" %}
+
+{% content-ref url="roles/resource-permissions.md" %}
+[resource-permissions.md](roles/resource-permissions.md)
 {% endcontent-ref %}
 
-{% content-ref url="resource-permissions.md" %}
-[resource-permissions.md](resource-permissions.md)
-{% endcontent-ref %}
-
-{% content-ref url="integration-permissions.md" %}
-[integration-permissions.md](integration-permissions.md)
+{% content-ref url="roles/integration-permissions.md" %}
+[integration-permissions.md](roles/integration-permissions.md)
 {% endcontent-ref %}

@@ -1,14 +1,12 @@
 ---
-description: >-
-  Introducing Teams! A user friendly way to view and access your team's data
-  within Secoda.
+description: Teams is user friendly way to view and access your team's data within Secoda.
 ---
 
 # Teams
 
 The Teams feature allows users to organize all of their team-specific resources into one space. When a user in Secoda is placed into a Team, they will see all the resources tied to that Team. "General" is the Default Team that all members will be added to.
 
-You can think of Teams as being the organization of resources and content, whereas Groups are the organization of members.
+You can think of Teams as being the organization of **resources and content**, whereas Groups are the organization of **members**.
 
 In the example below, the user has access to the "General" Team and the "Finance" Team, as well as the Catalog resources, Collections, Dictionary terms, Documents and Questions that those Teams have access to.
 
@@ -69,4 +67,8 @@ Admins can pick and choose which Integrations they'd like certain Teams to have 
 Viewers, Editors and Admins within Secoda all have different capabilities when it comes to Teams. These are outlined in the graph below. Note: contact a Workspace Admin if you need assistance with Teams in your workspace.
 
 <table><thead><tr><th>Capability</th><th data-type="checkbox">Viewer Access</th><th data-type="checkbox">Editor Access</th><th data-type="checkbox">Admin Access</th></tr></thead><tbody><tr><td>Join Public Team</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Leave Public or Private Team</td><td>true</td><td>true</td><td>true</td></tr><tr><td>View Resources in a Team</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Add Resources to a Team</td><td>false</td><td>true</td><td>true</td></tr><tr><td>Invite members to a Private Team</td><td>false</td><td>false</td><td>true</td></tr><tr><td>Edit Team Settings</td><td>false</td><td>false</td><td>true</td></tr><tr><td>Join Private Team (without an invite)</td><td>false</td><td>false</td><td>true</td></tr><tr><td>Create a Team</td><td>false</td><td>false</td><td>true</td></tr><tr><td>Associate a Team with an Integration</td><td>false</td><td>false</td><td>true</td></tr></tbody></table>
+
+## Video tutorial
+
+{% embed url="https://www.loom.com/share/e001c52a453b4b7382dd4a5bc34cc12d" %}
 
