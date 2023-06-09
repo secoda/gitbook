@@ -1,34 +1,6 @@
----
-description: How to build a custom integration in Secoda
----
+# Create your CSV
 
-# Custom Integration
-
-### Create an Integration on Secoda
-
-You only have to do this step once. Create an Integration on Secoda either using the API or the interface on `https://app.secoda.co/integrations`
-
-```python
-import requests
-
-headers = dict(
-    Authorization="Bearer <your-api-token>"
-)
-integration_type = "bigquery"
-
-response = requests.post(
-    "https://api.secoda.co/integration/integrations/",
-    json=dict(type=integration_type, name="My Custom Integration", credentials={}),
-    headers=headers
-).json()
-print("Integration ID", response.get("id"))
-```
-
-Please only do this step once to get the integration ID. You can change the integration type to “snowflake”, “oracle”, “postgres”, etc.
-
-### Generate a CSV of Your Data
-
-Generate a CSV of your data that contains a list of all of your columns in the database in the following format
+Generate a CSV of your data that contains a list of all of your columns in the database in the following format.
 
 | col\_name | col\_description | col\_type | sort\_order | database | schema | name  | description            | is\_view | last\_updated\_time |
 | --------- | ---------------- | --------- | ----------- | -------- | ------ | ----- | ---------------------- | -------- | ------------------- |
@@ -46,7 +18,7 @@ Generate a CSV of your data that contains a list of all of your columns in the d
 * **is\_view**: boolean value on wether or not the table is a view
 * **last\_updated\_time**: timestamp of when the table was last updated
 
-For example with snowflake, this CSV can be generated with a SQL statement like this
+For example with Snowflake, this CSV can be generated with a SQL statement like this.&#x20;
 
 ```sql
 SELECT DISTINCT
@@ -72,23 +44,8 @@ WHERE c.TABLE_SCHEMA not in ({','.join(SnowflakeConnectionConstants.DEFAULT_IGNO
         AND lower(c.COLUMN_NAME) not like 'dw_%' \
 ```
 
-### Upload the CSV
+Feel free to reach out to us for more guidance on how to generate CSVs.&#x20;
 
-Upload the file to Secoda by making a request to the `https://api.secoda.co/integration/integrations/<integration-id>/import_metadata/`
+If you'd like to add custom properties to your resources, you can add extra columns with the heading of the custom property you'd like to add.&#x20;
 
-```python
-import requests
-
-integration_id = "integration id from step 1"
-headers = dict(
-    Authorization="Bearer <your-api-token>"
-)
-
-requests.post(
-    f"https://api.secoda.co/integration/integrations/{integration_id}/import_metadata/",
-    files=dict(file=open("dump.csv", "rb")),
-    headers=headers
-)
-```
-
-Now if you open Secoda and navigate to the integration page, you should see an extraction running for your custom integration
+Now it's time to upload the CSV!&#x20;
