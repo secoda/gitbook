@@ -12,7 +12,7 @@ After executing a query, you can choose to display it to viewers as a chart inst
 
 ![](<../../../.gitbook/assets/Group 599.png>)
 
-The first step to creating a chart is to [execute the query](running-queries-in-secoda.md). Once the query has run, flip to the "chart tab", which will initially show up blank. Click on the button on the right hand side to open up the chart options.
+The first step to creating a chart is to [execute the query](./). Once the query has run, flip to the "chart tab", which will initially show up blank. Click on the button on the right hand side to open up the chart options.
 
 ![](<../../../.gitbook/assets/Group 600.png>)
 

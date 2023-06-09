@@ -4,32 +4,26 @@ description: Get to know Secoda's features in depth with the following pages.
 
 # Features
 
-## **Getting Started with Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+Now that you've integrated your data sources, and have begun to document your resources using our metadata editing abilities, it's time to take your Secoda experience to the next level! Check out the pages below to learn how to leverage our **AI Assistant,**
 
-{% content-ref url="data-management/" %}
-[data-management](data-management/)
+{% content-ref url="ai-assistant/" %}
+[ai-assistant](ai-assistant/)
 {% endcontent-ref %}
 
-{% content-ref url="collections/" %}
-[collections](collections/)
+&#x20;how to run and analyze **Queries,**&#x20;
+
+{% content-ref url="queries/" %}
+[queries](queries/)
 {% endcontent-ref %}
 
-{% content-ref url="dictionary-and-documents/metrics/" %}
-[metrics](dictionary-and-documents/metrics/)
+how to upkeep your **Data Quality** and **Data Governance,**
+
+{% content-ref url="data-quality/" %}
+[data-quality](data-quality/)
 {% endcontent-ref %}
 
-{% content-ref url="dictionary-and-documents/docs/" %}
-[docs](dictionary-and-documents/docs/)
+{% content-ref url="data-governance/" %}
+[data-governance](data-governance/)
 {% endcontent-ref %}
 
-{% content-ref url="data-requests/" %}
-[data-requests](data-requests/)
-{% endcontent-ref %}
-
-{% content-ref url="data-lineage.md" %}
-[data-lineage.md](data-lineage.md)
-{% endcontent-ref %}
-
-{% content-ref url="../getting-started/secoda-as-an-admin/personalization.md" %}
-[personalization.md](../getting-started/secoda-as-an-admin/personalization.md)
-{% endcontent-ref %}
+&#x20;and so much more!

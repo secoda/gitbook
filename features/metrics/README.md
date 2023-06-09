@@ -4,7 +4,7 @@ description: >-
   search dictionary terms using the terms themselves, owners, and definitions.
 ---
 
-# Creating a Data Dictionary
+# Data Dictionary
 
 A data dictionary is a document or database that provides definitions and metadata for data assets within an organization. Creating a data dictionary can provide several benefits:
 
@@ -18,7 +18,21 @@ A data dictionary is a document or database that provides definitions and metada
 
 Secoda's data dictionary is one place for all of your data terms. Terms in your data dictionary will be visible via Secoda's search, and you can search directly in the dictionary. You can also tag terms across your workspace&#x20;
 
-![](<../../../.gitbook/assets/Screen Shot 2022-04-08 at 12.36.32 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-04-08 at 12.36.32 PM.png>)
+
+Learn more about Secoda's data dictionary by exploring the following pages:
+
+{% content-ref url="documenting-metrics.md" %}
+[documenting-metrics.md](documenting-metrics.md)
+{% endcontent-ref %}
+
+{% content-ref url="metrics-templates.md" %}
+[metrics-templates.md](metrics-templates.md)
+{% endcontent-ref %}
+
+{% content-ref url="dbt-metrics-layer-integration.md" %}
+[dbt-metrics-layer-integration.md](dbt-metrics-layer-integration.md)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 **Good to know:** The Data Dictionary is different from the Documents feature in that it has set fields (i.e. terms, definition, owner) and is one place for all of your data terms. \

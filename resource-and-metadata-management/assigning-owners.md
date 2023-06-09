@@ -2,11 +2,11 @@
 description: Assigning owners to resources
 ---
 
-# Assigning owners to data
+# Assigning Owners
 
-## **How to assign owners to data in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+**How to assign owners to data in Secoda**
 
-From a table page, Editors and Admins can assign Owners for individual tables by clicking the pencil icon in the grey box.
+After navigating to a Secoda resource, Editors and Admins can assign Owners by clicking the Owners field and selecting the relevant members from the workspace. The owners field is accessible through Catalog views, or in the side panel.&#x20;
 
 Assigning owners has a few benefits. If your data has owners, you can:
 
@@ -15,7 +15,9 @@ Assigning owners has a few benefits. If your data has owners, you can:
 
 Assigning owners can also help you identify abandoned data sets no one currently owns, that may need to be maintained or removed.
 
-![](<../../.gitbook/assets/Group 588.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-09 at 12.08.28 PM.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-09 at 12.09.58 PM.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
 
 ### Being an Owner
 

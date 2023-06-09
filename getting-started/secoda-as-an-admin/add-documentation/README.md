@@ -21,11 +21,13 @@ There are many ways to add additional context your data in Secoda. Here are some
 
 ### Automating documentation
 
-Learn about the many ways to automate metadata management through bulk editing, propagation, assigning ownership and adding custom column properties [here](../../../features/data-management/)!
+Learn about the many ways to automate metadata management through bulk editing, propagation, assigning ownership and adding custom column properties [here](../../../resource-and-metadata-management/adding-custom-properties.md)!
 
 **The Secoda AI Assistant** is also a great tool for automating descriptions and documents:
 
-{% embed url="https://docs.secoda.co/features/ai-assistant" %}
+{% content-ref url="../../../features/ai-assistant/" %}
+[ai-assistant](../../../features/ai-assistant/)
+{% endcontent-ref %}
 
 ### Manually add enrichment
 
@@ -36,6 +38,6 @@ Learn about the many ways to automate metadata management through bulk editing, 
 
 <figure><img src="../../../.gitbook/assets/Kapture 2023-05-15 at 14.31.09.gif" alt=""><figcaption></figcaption></figure>
 
-* Add [tags](https://docs.secoda.co/features/data-management/using-and-creating-tags) such as PII, verified and custom tags to annotate the category and status of the data asset
-* [Link resources](https://docs.secoda.co/features/linking-resources) to create relationships between them
-* Add ownership details so that users know who to ask follow up questions about a dataset
+* Add [tags](../../../resource-and-metadata-management/custom-tags.md) such as PII, verified and custom tags to annotate the category and status of the data asset
+* [Link resources](../../../resource-and-metadata-management/relating-resources.md) to create relationships between them
+* [Add ownership](../../../resource-and-metadata-management/assigning-owners.md) details so that users know who to ask follow up questions about a dataset

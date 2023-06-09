@@ -15,10 +15,10 @@ The data enablement features offered by Secoda, such as Secoda AI, the Search fu
 **Here are some helpful links to new Viewers within Secoda:**
 
 * [ ] [Secoda Intro Guide](https://www.notion.so/secoda/Secoda-Intro-Guide-277512fb0c224b8a920fa0b099a26810)
-* [ ] Explore [Search and Home Page](../../features/search-and-home-page/)
+* [ ] Explore [Search](../../features/search-and-home-page.md)
 * [ ] Test out the AI Assistant - check out these [prompts for suggestions](../../features/ai-assistant/prompts.md)
-* [ ] Learn about [Collections](../../features/collections/)
-* [ ] Check out ways to use the [Dictionary & Documents](../../features/dictionary-and-documents/)
-* [ ] Ask your data team questions using the [Questions feature](../../features/data-requests/ask-questions-in-secoda.md)
+* [ ] Learn about [Collections](../../features/collections-1.md)
+* [ ] Check out ways to use the [Dictionary](../../features/metrics/) and [Documents](../../features/documents.md)
+* [ ] Ask your data team questions using the [Questions feature](../../features/ask-questions-in-secoda/)
 * [ ] [Request changes to resources](requesting-changes-in-secoda.md) within Secoda
 * [ ] Test out the [Slack integration](../../slack-connection/) to search Secoda directly within Slack

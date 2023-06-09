@@ -2,7 +2,7 @@
 description: How to use Search within Secoda and explore your Home page
 ---
 
-# Search and Home Page
+# Search
 
 ### Search
 
@@ -27,10 +27,5 @@ You’re able to sort by Relevance, Popularity, Last modified and Date created.
 
 If you know what kind of resource you are searching for, you can filter down to that type in the All filter dropdown. There you will see every type of resource from Apps to Questions.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-02 at 5.00.40 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-02 at 5.00.40 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Home Page
-
-From the homepage you can view any pinned collections, data resources, and notifications. Admins can customize the homepage to add certain resources that they'd like to highlight (see screenshot below of content options). You can also initiate a search using the search bar from the home page.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-15 at 4.06.45 PM.png" alt=""><figcaption></figcaption></figure>

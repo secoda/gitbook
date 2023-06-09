@@ -10,7 +10,9 @@ Before rolling out the tool to a larger group, we recommend populating the Quest
 
 Read up on Secoda's Questions feature here:
 
-{% embed url="https://docs.secoda.co/features/data-requests/answering-questions" %}
+{% content-ref url="../../features/ask-questions-in-secoda/" %}
+[ask-questions-in-secoda](../../features/ask-questions-in-secoda/)
+{% endcontent-ref %}
 
 Some example questions that we have seen from customers:
 

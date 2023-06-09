@@ -18,7 +18,7 @@ Dictionary terms are searchable via the search bar at the top of Secoda.
 
 Once in the Dictionary feature, you'll be able to see all of the current terms your team has created, sorted by last added. You'll also see the overview of the definition, the owner of the term, and when it was last updated. As an admin or an editor, you'll be able to see if the term is in Draft mode, or Published.&#x20;
 
-![](<../../../.gitbook/assets/ezgif.com-gif-maker (3) (2).gif>)
+![](<../../.gitbook/assets/ezgif.com-gif-maker (3) (2).gif>)
 
 To create a new dictionary term, simply click New Dictionary term in the top right.&#x20;
 
@@ -28,8 +28,8 @@ From here, you'll be able to edit the definition, the SQL query to calculate (if
 
 You can add tags via Collections that already exist in your Secoda workspace, or create a new collection when you create a new dictionary term. This makes it easy for your team to search depending on what their job function is or what they're looking for.&#x20;
 
-Terms that are added to a [collection](../../collections/) will show up in the collection in the Terms tab. &#x20;
+Terms that are added to a [collection](broken-reference) will show up in the collection in the Terms tab. &#x20;
 
 {% hint style="info" %}
-We recommend creating [collections](../../collections/) for each job function or group of users that you have in your workspace.&#x20;
+We recommend creating [collections](broken-reference) for each job function or group of users that you have in your workspace.&#x20;
 {% endhint %}

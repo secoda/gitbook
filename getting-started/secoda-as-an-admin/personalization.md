@@ -31,7 +31,11 @@ As an Admin, you're able to "lock" some of these personalizations. If you don't 
 
 ## Editing the Homepage&#x20;
 
-You can also pin resources to the homepage to point users in the right direction when they first join your workspace. To learn more about the home page, see [pinning-to-homepage.md](../../features/search-and-home-page/pinning-to-homepage.md "mention")
+You can also pin resources to the homepage to point users in the right direction when they first join your workspace. To learn more about the home page, see the Custom Homepage link below!
+
+{% content-ref url="../../features/custom-homepage.md" %}
+[custom-homepage.md](../../features/custom-homepage.md)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

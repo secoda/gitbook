@@ -4,9 +4,17 @@ description: This guide demonstrates how to use collections in Secoda.
 
 # Collections
 
+Using Collections is a great way to organize your workspace. You can think of a Collection as a folder that hosts a group of resources (tables, columns, dashboards, dictionary terms, documents, questions) pertaining to one particular subject.
+
+These folders can be organized however makes sense to your organization, but Collections are often organized by:
+
+* Team (e.g. Sales, Finance)
+* Data Source (e.g. Tableau, Snowflake)
+* Function (e.g. Onboarding)
+
 ### Creating Collections
 
-To create a collection, navigate to the [collections page](https://app.secoda.co/collection) and click on "New Collection". After naming the collection and creating it you can navigate to the collection to add resources and update the metadata on a collection.
+To create a collection, navigate to the collections page and click on "New Collection". After naming the collection and creating it you can navigate to the collection to add resources and update the metadata on a collection.
 
 ### Adding Resources to a collection
 
@@ -24,8 +32,15 @@ On a resource page, you can add a resource to a collection by opening up the rig
 
 You can nest a collection when first creating a collection or after a collection has been created. To nest a collection when it's being created, set the "Parent" collection in the creation modal.
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 To add a nested collection after the collection has been created, navigate to a collection and click "Add resource" and then search for the collection you'd like to be nested inside the current selected collection.
 
-![](<../../.gitbook/assets/image (5) (1) (2).png>)
+![](<../.gitbook/assets/image (5) (1) (2).png>)
+
+**Here are a few use case ideas for collections:**
+
+* Create a collection for specific departments
+* Create a “Home” collection for the entire company to see key metrics
+* Create an “Investor” collection for data shared with investors
+* Create an “Onboarding” collection to help new employees learn about the key data across the company

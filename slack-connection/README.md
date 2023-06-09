@@ -44,7 +44,7 @@ You can also ask questions using the Slack command: `/ask` followed by a questio
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-09 at 2.08.29 PM (1) (1) (1) (1) (1) (1) (1).png>)
 
-From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../features/data-requests/templates.md)s.
+From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../features/ask-questions-in-secoda/templates.md)s.
 
 ![](<../.gitbook/assets/Screen Shot 2022-04-09 at 2.09.20 PM.png>)
 

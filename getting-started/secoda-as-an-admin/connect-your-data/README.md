@@ -29,7 +29,11 @@ Adding integrations is simple. Navigate over to the Integrations tab on the side
 
 ## Current integrations
 
-See all of our integrations here: [https://docs.secoda.co/integrations](https://docs.secoda.co/integrations)
+See all of our integrations below.
+
+{% content-ref url="../../../integrations/" %}
+[integrations](../../../integrations/)
+{% endcontent-ref %}
 
 
 
