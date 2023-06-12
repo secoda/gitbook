@@ -21,4 +21,4 @@ The data enablement features offered by Secoda, such as Secoda AI, the Search fu
 * [ ] Check out ways to use the [Dictionary](../../features/metrics/) and [Documents](../../features/documents.md)
 * [ ] Ask your data team questions using the [Questions feature](../../features/ask-questions-in-secoda/)
 * [ ] [Request changes to resources](requesting-changes-in-secoda.md) within Secoda
-* [ ] Test out the [Slack integration](../../slack-connection/) to search Secoda directly within Slack
+* [ ] Test out the [Slack integration](../../integrations/slack-connection/) to search Secoda directly within Slack
