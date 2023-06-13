@@ -47,21 +47,21 @@ _Secoda uses a series of REST APIs that Google Data Studio uses for its platform
 
 1. Login to [Google Data Studio](https://datastudio.google.com) and open the developer tools by _right-clicking_ and selecting **Inspect**
 
-![Login to Google Data Studio and open the developer tools by right-clicking and selecting Inspect](<https://secoda-public-media-assets.s3.amazonaws.com/image (6) (1) (1).png>)
+![Login to Google Data Studio and open the developer tools by right-clicking and selecting Inspect](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(6)%20(1)%20(1).png>)
 
 2\. Click on the **Network** tab and put `https://datastudio.google.com` in the **filter** field
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image (4) (1) (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(4)%20(1)%20(1).png>)
 
 3\. Refresh the page and you should see some requests populate
 
 4\. Click on the `getShareableList` network request and then navigate to the **Headers** tab
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image (2) (1) (1) (1) (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(1)%20(1)%20(1)%20(1).png>)
 
 5\. In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image (5) (1) (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(1)%20(1).png>)
 
 ### Connect to Google Data Studio
 

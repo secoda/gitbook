@@ -18,7 +18,7 @@ A data dictionary is a document or database that provides definitions and metada
 
 Secoda's data dictionary is one place for all of your data terms. Terms in your data dictionary will be visible via Secoda's search, and you can search directly in the dictionary. You can also tag terms across your workspace&#x20;
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-04-08 at 12.36.32 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-08%20at%2012.36.32%20PM.png>)
 
 Learn more about Secoda's data dictionary by exploring the following pages:
 

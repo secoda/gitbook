@@ -48,4 +48,4 @@ If you are having errors connecting your Microsoft SQL, it might be because your
 
 Once a tunnel has been created, make sure to choose the SSH Tunnel in the drop down list when inputting your credentials for the integration.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-04 at 3.37.09 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-04%20at%203.37.09%20PM.png>)

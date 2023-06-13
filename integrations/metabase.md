@@ -27,13 +27,13 @@ The easiest way to connect Metabase to Secoda is to use the username and passwor
 1. Go to you admin console in Metabase then **People > Groups.** Click **Create a group** and call the group "Service Accounts".
 2. Click into the **People** tab \*\*\*\* and click **Invite someone** and name the new user **Secoda Service Account** the email can be anything you'd like, and add them to the **Service Accounts** group. If you would like the user to have access to all metadata without any further configuration, add the user to the **Administrators** group as well. Step 4 provides instructions on how to give finer grain access controls.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image (10).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(10).png>)
 
 3\. Copy the password that is generated for the Metabase user, this will be used to connect to Secoda later.
 
 4\. If you'd prefer finer grain control over what the Secoda Service Account has access to, go to the **Permissions** tab and select **Collections.** For each collection you'd like the Secoda service account to have access to, select the collection and for the **Service Accounts** group toggle **Curate.** After making the changes click "Save Changes" in the top right.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image (5) (3).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(3).png>)
 
 **Option C: Retrieve your Session ID (SSO)**
 

@@ -14,11 +14,11 @@ Secoda's AI Assistant is powered by [OpenAI's APIs](https://openai.com/product),
 
 By default, the AI Assistant is off. To toggle it on, you must go into your [Workspace Settings](https://app.secoda.co/settings/workspace), and scroll down to find the AI section.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-04-26 at 2.23.16 PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
 
 Once the AI Search is enabled, you'll see the AI Assistant in the left hand menu.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-04-26 at 2.23.38 PM.png" alt=""><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.38%20PM.png" alt=""><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
 
 ## Future Improvements
 

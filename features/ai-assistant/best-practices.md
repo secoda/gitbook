@@ -15,5 +15,5 @@ When interacting with the Secoda AI Assistant, here are some ways to make the mo
 
 Don't just take our word for it! Ask the tool itself :wink:
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-04-26 at 3.21.49 PM.png" alt=""><figcaption><p>Secoda AI's response to the best way to use it.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%203.21.49%20PM.png" alt=""><figcaption><p>Secoda AI's response to the best way to use it.</p></figcaption></figure>
 

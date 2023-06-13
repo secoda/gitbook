@@ -25,7 +25,7 @@ If queries are available, the tables, databases and dashboards will display a da
 
 Adding integrations is simple. Navigate over to the Integrations tab on the side panel and click New Integration. Note that only Workspace Admins have access to this tab. See the docs below for specific instructions for the different types of integrations.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture 2023-05-15 at 14.15.07.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.15.07.gif" alt=""><figcaption></figcaption></figure>
 
 ## Current integrations
 

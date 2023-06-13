@@ -12,7 +12,7 @@ To make your popularity calculations more accurate, you'll want to mark your use
 
 Check ☑️ the **Service Accounts** in the users column in the integrations tab if you'd like Secoda to recognize it is not a person that interacts with your data in a meaningful way.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-04-10 at 10.47.05 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-10%20at%2010.47.05%20PM.png>)
 
 Activities from Service Accounts will be weighted at much less when calculating popularity, so that your popularity score is driven by human users, not recurring jobs.
 

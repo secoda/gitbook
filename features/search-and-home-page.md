@@ -27,5 +27,5 @@ You’re able to sort by Relevance, Popularity, Last modified and Date created.
 
 If you know what kind of resource you are searching for, you can filter down to that type in the All filter dropdown. There you will see every type of resource from Apps to Questions.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-02 at 5.00.40 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-02%20at%205.00.40%20PM.png" alt=""><figcaption></figcaption></figure>
 
