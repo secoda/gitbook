@@ -14,7 +14,7 @@ Nearly every resource in Secoda has a parent and child. This hierarchy is shown 
 
 When using the API to create a Resource, the hierarchy should be respected so that each resource can be made with the appropriate parent. For example, the cluster should be made first, followed by the schema, then database, then table, then column.
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="A visual representation of the hierarchy of resources in Secoda" class="gitbook-drawing">
+<img src="https://secoda-public-media-assets.s3.amazonaws.com/file.excalidraw.svg" alt="A visual representation of the hierarchy of resources in Secoda" class="gitbook-drawing">
 
 ## JSON Fields for API Requests
 

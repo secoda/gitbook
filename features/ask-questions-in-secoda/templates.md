@@ -13,7 +13,7 @@ To create a Questions template in Secoda, click the **Templates** button which i
 
 You can create a new template or edit current ones from this view.&#x20;
 
-![](<../../.gitbook/assets/Group 594.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Group 594.png>)
 
 ### Setting a Template as default
 
@@ -21,7 +21,7 @@ You can also set a template as the default format for editors and viewers to ask
 
 In this menu, you can also delete templates.&#x20;
 
-![](<../../.gitbook/assets/Group 598.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Group 598.png>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

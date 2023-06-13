@@ -14,15 +14,15 @@ The only data sent to OpenAI is the metadata in your workspace. Metadata is defi
 
 For example, if you are an owner of tables in your workspace, you can ask the AI Assistant how many tables you own, and to list these tables. Ownership is a metadata property in Secoda.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-26 at 2.53.16 PM.png" alt=""><figcaption><p>A screenshot of asking the AI Assistant how many tables do I own.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-04-26 at 2.53.16 PM.png" alt=""><figcaption><p>A screenshot of asking the AI Assistant how many tables do I own.</p></figcaption></figure>
 
 Using other metadata properties, such as Descriptions, the AI Assistant can answer what the content of the tables is.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-26 at 2.56.13 PM.png" alt=""><figcaption><p>A screenshot of asking the AI Assistant how many tables do I own.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-04-26 at 2.56.13 PM.png" alt=""><figcaption><p>A screenshot of asking the AI Assistant how many tables do I own.</p></figcaption></figure>
 
 However, because the data itself is not being sent to OpenAI, if you ask to directly see the data, the response renders a query for the data instead.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-26 at 3.00.42 PM.png" alt=""><figcaption><p>A screenshot of asking the AI Assistant to see the first few lines of a table.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-04-26 at 3.00.42 PM.png" alt=""><figcaption><p>A screenshot of asking the AI Assistant to see the first few lines of a table.</p></figcaption></figure>
 
 ### Is data shared between workspaces?&#x20;
 

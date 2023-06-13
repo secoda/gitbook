@@ -8,6 +8,6 @@ Secoda is a powerful knowledge management platform that allows users to organize
 4. Navigating Linked Resources: Once you have linked resources together using the Related Resources function, you can easily navigate between them.&#x20;
 5. Building Knowledge Networks: The Related Resources function in Secoda is a powerful tool for building knowledge networks. By linking resources together and creating relationships between them, you can create a web of interconnected knowledge that allows you to explore different topics and ideas in a more holistic way.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2023-02-28 at 3.05.24 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2023-02-28 at 3.05.24 PM.png" alt=""><figcaption></figcaption></figure>
 
 Overall, the Related Resources function in Secoda is a powerful feature that allows you to link resources together and create relationships between them. By using this feature, you can build knowledge networks and explore different topics and ideas in a more comprehensive way.

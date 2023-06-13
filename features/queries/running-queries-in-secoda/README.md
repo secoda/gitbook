@@ -10,7 +10,7 @@ description: >-
 
 By pressing the /query command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections.&#x20;
 
-![](../../../.gitbook/assets/image-1.png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image-1.png)
 
 ### Steps to running queries
 
@@ -24,7 +24,7 @@ By pressing the /query command, editors can embed live queries into table docume
 
 Using the "schedule" tab, you can set a schedule for your queries to run in Secoda. This can ensure that viewers who are looking at your query results are seeing up to date results that they can trust.&#x20;
 
-![](<../../../.gitbook/assets/Screen Shot 2022-08-10 at 10.48.05 AM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-08-10 at 10.48.05 AM.png>)
 
 ### Sharing queries with viewers
 

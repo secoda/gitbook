@@ -27,6 +27,6 @@ Now if you open Secoda and navigate to the integration page, you should see an e
 
 Navigate to the Import tab from the Integration page. Click on Import to upload your CSV.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-09 at 3.18.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-06-09 at 3.18.16 PM.png" alt=""><figcaption></figcaption></figure>
 
 Success! Your first extraction has been completed. Now it's time to maintain your resources. Learn some tips and tricks on the next page!

@@ -12,7 +12,7 @@ There are three steps to get started using Databricks with Secoda:
 
 In your Databricks console go to the **User Settings** and generate a new access token. Save the value to be used to connect Databricks to Secoda in the second step.
 
-![](<../.gitbook/assets/image (12) (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image (12) (1).png>)
 
 ### Connect Databricks to Secoda
 
@@ -23,7 +23,7 @@ Enter in the following credentials:
 * **Host:** This is the URL of your Databricks workspace, i.e, [dbc-dc31b5a2-597d.cloud.databricks.com](https://dbc-dc31b5a2-597d.cloud.databricks.com/)
 * **Databricks Workspace Id:** The numerical id of your workspace, located in the url of your Databricks instance, after the "/?o=". `https://<instance_id>.cloud.databricks.com/?o=<workspace_id>`.\\
 
-![](<../.gitbook/assets/Screen Shot 2022-08-31 at 11.32.53 AM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-08-31 at 11.32.53 AM.png>)
 
 * **Access Token:** The access token you generated in the first step
 

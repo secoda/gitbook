@@ -21,7 +21,7 @@ This feature will save your team time by allowing the AI Assistant to give answe
 4. If marked :white\_check\_mark:**Answered**, the question and the response will then be pushed into Secoda's Question section for all users to see and reference
 5. If marked :x:**Incorrect**, the question will be pushed to Secoda without a response and the Admins of the workspace will be notified to provide an answer
 
-<figure><img src="../../.gitbook/assets/Slack AI_2 (2).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Slack AI_2 (2).gif" alt=""><figcaption></figcaption></figure>
 
 **Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda](../../features/ask-questions-in-secoda/ "mention") section.&#x20;
 
@@ -33,5 +33,5 @@ The AI Assistant will reply in the channel, but this response will be _Only visi
 
 **Note:** As you can see below, it may take around 10 seconds to load a response:relaxed:
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-06-12 at 17.29.32 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture 2023-06-12 at 17.29.32 (1).gif" alt=""><figcaption></figcaption></figure>
 
