@@ -26,7 +26,7 @@ Overall, connecting Slack to Secoda can help your team stay updated, collaborate
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-06-13 at 2.28.52 PM.png" alt=""><figcaption></figcaption></figure>
 
-7. To set up the **Slack : AI connection**, go into Channels and choose a channel that you'd like to use for the AI data requests functionality.
+7. To set up the **Slack : AI connection**, go into Channels and choose a channel that you'd like to use for the AI Data Requests functionality. This channel can be the same as the Notifications channel, or a new / different channel.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-06-13 at 12.01.31 PM.png" alt=""><figcaption></figcaption></figure>
 
