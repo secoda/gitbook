@@ -1,0 +1,1 @@
+All assets should be uploaded to the media s3 bucket.
