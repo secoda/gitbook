@@ -21,11 +21,11 @@ You're able to view the distribution of your data, the column count, and how man
 
 Wondering how up to date the column profile is? Secoda shows this on top of the table in the right hand corner.&#x20;
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Group 824 (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Group%20824%20(1).png>)
 
-![Results of the column profiler](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-08-10 at 10.38.38 AM.png>)
+![Results of the column profiler](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.38.38%20AM.png>)
 
-![Double click on the results of the column profiler for more information](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-08-10 at 10.38.45 AM.png>)
+![Double click on the results of the column profiler for more information](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.38.45%20AM.png>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

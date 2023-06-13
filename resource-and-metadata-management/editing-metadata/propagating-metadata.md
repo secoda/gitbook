@@ -10,7 +10,7 @@ Secoda enables you to copy all or some of the metadata from one resource to a re
 
 To Propagate Metadata, select the Propagate Metadata button on the resource with your desired metadata properties.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-04-03 at 4.18.10 PM (1).png" alt=""><figcaption><p>Screenshot of the button to press in Secoda for the propagating metadata popup.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-03%20at%204.18.10%20PM%20(1).png" alt=""><figcaption><p>Screenshot of the button to press in Secoda for the propagating metadata popup.</p></figcaption></figure>
 
 Once clicked, a popup will be shown which will allow you to chose which metadata properties you'd like to propagate, and which related resources you'd like the metadata properties to be propagated to. The related resources can be searched for by Exact Name, Similar Name, or Downstream Lineage. You have the option to choose one or multiple properties, and one or multiple resources, respectively.
 

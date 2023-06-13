@@ -51,7 +51,7 @@ Here's a walkthrough of how to embed and what sources Secoda allows you to embed
 
 To embed from an external source, simply type / and begin typing the source you'd like to embed from, or, scroll through until you find the source.&#x20;
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/ezgif.com-gif-maker (8).gif>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/ezgif.com-gif-maker%20(8).gif>)
 
 ### Inserting a generic embed
 
@@ -59,7 +59,7 @@ You can insert an embed that's not on the list. To insert a generic embed into a
 
 Type `/` and scroll through the various functionalities until you find **Generic Embed,** or begin typing **Embed** and select **Generic Embed**.&#x20;
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Group 583.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Group%20583.png>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

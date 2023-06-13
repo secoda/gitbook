@@ -10,13 +10,13 @@ description: >-
 
 To export data descriptions out of Secoda, you can go to the [import settings](https://app.secoda.co/settings/import) in **Settings → Import & Export** data. Below is the screenshot for the settings. When exporting you can choose the type of resource you'd like to export. After clicking the export button, an **Artifact** will be prepared with your resources. Once it's prepared click the "Download Artifact" button.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image (13) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(13)%20(2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image (16) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(16)%20(2).png" alt=""><figcaption></figcaption></figure>
 
 Once you export your data , you can view and edit your descriptions in CSV format or Google Sheets and upload the changes to Secoda. Below is an overview of the results from exporting your data:
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 Once you are ready to upload your new metadata, you can use the import button to upload your new CSV into Secoda.
 
@@ -52,7 +52,7 @@ You can either export your data from Secoda to a csv, or start from scratch. The
 
 Log into [Secoda](https://app.secoda.co) and go into the [import settings](https://app.secoda.co/settings/import) through **Settings > Import & Export.** Click the "Select File" button under the Import section and select your csv file and click "Upload". The import will start and show logs until it's completed.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image (12) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(12)%20(2).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. Verify metadata <a href="#h_47949f1af3" id="h_47949f1af3"></a>
 

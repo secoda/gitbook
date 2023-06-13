@@ -27,7 +27,7 @@ Overall, connecting Slack to Secoda can help your team stay updated, collaborate
 
 If you'd like to receive notifications as direct messages as well as in a channel, you can add the Secoda App to your Slack workspace.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-18 at 12.24.58 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-18%20at%2012.24.58%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Secoda AI : Slack
 
@@ -39,25 +39,25 @@ To search Secoda from Slack, type `/secoda` into any channel or DM, followed by 
 
 **Note**: Everyone in your Slack workspace can search Secoda, regardless of whether they have a Secoda account or not.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/askslack (1) (1) (1).gif>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/askslack%20(1)%20(1)%20(1).gif>)
 
 ## Ask Questions from Slack
 
 You can ask Questions using the Slack command: `/ask` followed by a question.&#x20;
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-04-09 at 2.08.29 PM (1) (1) (1) (1) (1) (1) (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.08.29%20PM%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1).png>)
 
 From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../../features/ask-questions-in-secoda/templates.md)s.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-04-09 at 2.09.20 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.20%20PM.png>)
 
 You can view your asked questions by going into the Secoda app and going to the Questions tab or going to the Slack channel that has been set up to receive notifications from Secoda.&#x20;
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-04-09 at 2.09.34 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.34%20PM.png>)
 
 When this question is answered, you'll receive a notification.&#x20;
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-04-09 at 2.10.05 PM (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.10.05%20PM%20(1).png>)
 
 To respond to incoming and new questions, head to the Secoda app, click on Questions, and you’ll see all of the questions that have been asked and answered.
 
@@ -67,9 +67,9 @@ You can receive updates from Secoda in a Slack channel of your choice. If you're
 
 You can edit your Slack Notification preferences in the Notifications tab in the Slack Integration Settings, as well as in Account Settings.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-06-12 at 4.55.37 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-12%20at%204.55.37%20PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-15 at 3.29.38 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-15%20at%203.29.38%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Send Announcements to Slack
 
@@ -80,7 +80,7 @@ You can also use Announcements with Slack if you'd like to send adhoc announceme
 3. Type up your announcement
 4.  In the Recipients field, search for a Slack channel that you'd like to share it to and select!
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture 2023-05-16 at 16.28.49.gif" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-16%20at%2016.28.49.gif" alt=""><figcaption></figcaption></figure>
 
 
 

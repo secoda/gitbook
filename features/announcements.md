@@ -10,7 +10,7 @@ One main use case for this feature is sharing with your organization when new da
 An example of how to send an Announcement.
 {% endembed %}
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-06-09 at 11.18.55 AM.png" alt="" width="363"><figcaption><p>What an announcement looks like in the inbox.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%2011.18.55%20AM.png" alt="" width="363"><figcaption><p>What an announcement looks like in the inbox.</p></figcaption></figure>
 
 Announcements are sent to User's inbox. You can learn more about the Secoda Inbox by clicking the page below!
 

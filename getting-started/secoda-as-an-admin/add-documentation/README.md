@@ -36,7 +36,7 @@ Learn about the many ways to automate metadata management through bulk editing, 
   * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.&#x20;
   * You can click the **Documents** tab and then begin adding additional documentation there. Read more about [Documents](https://docs.secoda.co/secoda-for-business-users/dictionary-and-documents#documents).
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture 2023-05-15 at 14.31.09.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""><figcaption></figcaption></figure>
 
 * Add [tags](../../../resource-and-metadata-management/custom-tags.md) such as PII, verified and custom tags to annotate the category and status of the data asset
 * [Link resources](../../../resource-and-metadata-management/relating-resources.md) to create relationships between them

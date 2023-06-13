@@ -12,11 +12,11 @@ If a Viewer runs into information that needs correction, or needs to be updated,
 
 1. Click the `Request Change` button found in the sidesheet of a Resource.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-15 at 4.21.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-15%20at%204.21.52%20PM.png" alt=""><figcaption></figcaption></figure>
 
 2. Choose the desired Field to update, and type in the updated Text to the Edit box. When you're finished, click `Submit`&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2023-02-28 at 5.05.49 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-02-28%20at%205.05.49%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## What Happens After a Change is Requested?
 
