@@ -47,6 +47,6 @@ Your git username password are the same as your Git hosting credentials. However
 5. Click on "Test Connection" to save the integration.
 6. Once integration is created, click on “Run Extraction” from history tab to run your first extraction
 
-![](<../.gitbook/assets/Screen Shot 2022-07-25 at 3.38.24 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-07-25 at 3.38.24 PM.png>)
 
 Once the git extraction finishes running, you will receive a notification on Secoda if you have enabled the setting to receive extraction success notifications.

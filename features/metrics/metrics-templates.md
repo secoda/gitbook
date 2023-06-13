@@ -14,7 +14,7 @@ To create a Dictionary template, go to the **Templates** button beside **New Dic
 
 Click New Template. The text box that shows up allows you to templates the title of terms, and the definition section of the terms. Once you've added your template, click Save.
 
-![](<../../../.gitbook/assets/ezgif.com-gif-maker (5).gif>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/ezgif.com-gif-maker (5).gif>)
 
 To create a new term using the template, click the three dots beside the template name, and then **Apply**. You can also use keyboard shortcut Command + A to do this.&#x20;
 

@@ -15,9 +15,9 @@ Assigning owners has a few benefits. If your data has owners, you can:
 
 Assigning owners can also help you identify abandoned data sets no one currently owns, that may need to be maintained or removed.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-06-09 at 12.08.28 PM.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-06-09 at 12.08.28 PM.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-06-09 at 12.09.58 PM.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-06-09 at 12.09.58 PM.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
 
 ### Being an Owner
 

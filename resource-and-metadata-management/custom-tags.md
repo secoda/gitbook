@@ -19,7 +19,7 @@ Tags are a static way to label Resources with useful context that other users in
 
 <div align="center">
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2022-12-02 at 12.49.15 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-12-02 at 12.49.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

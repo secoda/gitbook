@@ -19,17 +19,17 @@ PII (Personally Identifiable Information) tags are used to identify data assets 
 
 By going to the data tab, you can find and auto tag PII data in Secoda easily. To tag your PII data, go to **Settings -> Data**
 
-![](<../../../.gitbook/assets/Group 587 (3) (1) (1) (1) (1) (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Group 587 (3) (1) (1) (1) (1) (1).png>)
 
 Once you're in the Data tab, you can see all the tables and columns that Secoda has identified that may contain PII data. You can select or deselect any of these columns or tables before applying the PII tag. &#x20;
 
-![](<../../../.gitbook/assets/Group 587 (2).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Group 587 (2).png>)
 
 ## Governance metadata
 
 After tagging your data with the PII tag, these will populate in the **Governance** metadata column in your Catalog.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-22 at 3.56.25 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-22 at 3.56.25 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Removing PII tags
 

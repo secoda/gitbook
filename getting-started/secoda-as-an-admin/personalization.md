@@ -24,10 +24,10 @@ As an Admin, you're able to "lock" some of these personalizations. If you don't 
 
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-05-30 at 3.06.50 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-30 at 3.06.50 PM.png" alt=""><figcaption></figcaption></figure>
 * To change your workspace logo and workspace name, go to **Settings** within the Settings menu.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-30 at 3.08.27 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-30 at 3.08.27 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Editing the Homepage&#x20;
 

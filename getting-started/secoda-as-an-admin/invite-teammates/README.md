@@ -24,7 +24,7 @@ To start inviting teammates, go to the Settings page by clicking the ⚙ button 
 
 On this screen, you'll be able to see the plan level that you and your team are on, and the number of seats this plan includes. You'll also see a generic invite link to send to teammates (who will be added as Viewers by default), as well as current team members in the workspace and their roles.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-15 at 3.09.56 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot 2023-05-15 at 3.09.56 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Assigning Roles
 
@@ -48,7 +48,7 @@ You'll be able to see every link that you've already created, what role that inv
 
 You can create a new link by clicking **Create link**. After you've created a link, you can edit the role and group it's applicable to by clicking the role name (default is Viewer) and adding a group.&#x20;
 
-![](<../../../.gitbook/assets/ezgif.com-gif-maker (3).gif>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/ezgif.com-gif-maker (3).gif>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈

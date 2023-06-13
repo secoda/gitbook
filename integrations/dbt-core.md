@@ -39,9 +39,9 @@ If you upload your manifest.json files to an AWS S3 bucket, you can connect that
 
 Create a new AWS IAM user and ensure that **Access Key - Programatic access is checked.** Once you create the user save the Access Key ID and Secret Access Key that are generated for the user.
 
-![](<../.gitbook/assets/image (3) (1) (1) (2).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image (3) (1) (1) (2).png>)
 
-![](<../.gitbook/assets/image (1) (2) (1).png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/image (1) (2) (1).png>)
 
 Attach the following policy to the user. Make sure to change `<your-bucket-name>`.
 
@@ -89,7 +89,7 @@ After clicking submit an extraction will run to sync the metadata from the manif
 3. Grant access to the service account from the Bucket page as “Storage Object Viewer”.
 4. Turn on interoperability on the bucket. Generate HMAC keys for a service account with read access to the bucket. Both located here:
 
-![](<../.gitbook/assets/Screen Shot 2022-10-21 at 2.22.34 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-10-21 at 2.22.34 PM.png>)
 
 5\. Setup CORS. GCP requires this be done over CLI. Like the following:
 
@@ -119,7 +119,7 @@ gsutil cors set cors.json gs://bucket-name
 
 7\. Fill in the integration page in Secoda based on the screenshot:
 
-![](<../.gitbook/assets/Screen Shot 2022-10-28 at 11.14.56 AM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-10-28 at 11.14.56 AM.png>)
 
 #### **Secoda API**
 

@@ -12,4 +12,4 @@ By clicking on queries in Secoda, you can add documentation to them and share th
 
 Below is an example of how you can easily document queries in Secoda:
 
-![](../../../.gitbook/assets/query.gif)
+![](https://secoda-public-media-assets.s3.amazonaws.com/query.gif)

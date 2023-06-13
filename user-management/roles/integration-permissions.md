@@ -13,7 +13,7 @@ To start, go to Integrations from the left navigation bar.&#x20;
 
 From here, click on the Integration you'd like to edit the permissions for.&#x20;
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-11 at 10.15.38 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen Shot 2022-04-11 at 10.15.38 PM.png>)
 
 You'll see a number of tabs underneath the integration name. Click on Permissions.&#x20;
 
