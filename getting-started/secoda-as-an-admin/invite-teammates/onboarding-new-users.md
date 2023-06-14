@@ -30,6 +30,7 @@ There are many different ways that our users go about onboarding their teammates
   * Documentation guidelines and expectations (i.e. What information _must_ be included in definitions; How do you use certain Tags)
 * [ ] Schedule a group training session - the Secoda team is happy to join these!
   * [ ] If the Secoda team is joining, collaborate beforehand to assign tasks
+  * [ ] Ahead of the session, share appropriate documentation as pre-reads so that users can come with questions[secoda-as-a-viewer](../../secoda-as-a-viewer/ "mention") [secoda-as-an-editor.md](../../secoda-as-an-editor.md "mention")
 * [ ] Invite the users to your workspace
 * [ ] Assign the users to their respective Groups and Teams
   * [ ] If the group/team doesn't exist yet, create new ones
