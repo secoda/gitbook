@@ -43,4 +43,12 @@ There are many different ways that our users go about onboarding their teammates
   * Make sure to share this feedback with our team as we are always looking for ways to improve the product!
 * [ ] See [User engagement and adoption ](../user-engagement-and-adoption.md)for some ways to get your users excited about the tool
 
+## Workshop ideas
+
+Once you've onboarded your initial rollout group, you might find it helpful to host workshop sessions to get the documentation flowing. Here are some ideas you might consider:
+
+* **Teams workshops:** Organize recurring Teams workshops to discuss how the group would like to organize their resources. Talk through and designate owners, and consider implementing different [custom metadata tags](../../../resource-and-metadata-management/custom-tags.md) for your resources.
+* **Dictionary workshop:** Brainstorm a list of terms that the group uses/hears in their day to day workflows. What concepts or terms are you often explaining to others? Those could be potential terms in the Dictionary!
+* **Documentation days:** Set aside a recurring workshop for documentation clean up days to ensure that your users are staying on top of the resources that they own.
+
 ###

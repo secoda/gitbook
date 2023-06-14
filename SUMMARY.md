@@ -16,6 +16,7 @@
     * [User engagement and adoption](getting-started/secoda-as-an-admin/user-engagement-and-adoption.md)
   * [Secoda as an Editor](getting-started/secoda-as-an-editor.md)
   * [Secoda as a Viewer](getting-started/secoda-as-a-viewer/README.md)
+    * [Introduction Guide](readme/secoda-as-a-viewer/introduction-guide.md)
     * [Requesting Changes in Secoda](getting-started/secoda-as-a-viewer/requesting-changes-in-secoda.md)
 * [Integrations](integrations/README.md)
   * [Troubleshooting Guide](integrations/troubleshooting-guide.md)
