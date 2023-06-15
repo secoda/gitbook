@@ -6,9 +6,21 @@ description: The highlights of the releases for Secoda’s product can be found 
 
 **The highlights of the releases for Secoda’s product can be found here.**
 
+
+
+### June 13, 2023 (Release 7.2.3)
+
+* Added Slack V2 with automated AI responses
+* Analytics date range for views, searches
+* Top users dont include service accounts
+* Fixed MS SQL incomplete lineage
+* Fixed Resource custom property does not save
+* Added Document loading indicator
+* Added Indent list with tab in editor
+* Added Sigma lineage via SQL parsing
+
 ### June 8, 2023 (Release 7.2.2)
 
-* Added Slack proactive response in data request channel
 * Added AI search command in Slack with `secoda-ai`
 * Added Slack to onboarding checklist
 * Added AI assistant for viewers
