@@ -88,6 +88,7 @@
     * [Security](features/ai-assistant/security.md)
     * [Best Practices](features/ai-assistant/best-practices.md)
     * [Prompts](features/ai-assistant/prompts.md)
+  * [Analytics Dashboard](features/analytics-dashboard.md)
   * [Announcements](features/announcements.md)
   * [Bookmarks](features/bookmarks.md)
   * [Collections](features/collections-1.md)
