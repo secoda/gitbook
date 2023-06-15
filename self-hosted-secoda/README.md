@@ -10,17 +10,19 @@ description: >-
 
 ### **Installation Options**
 
-[Terraform Module (recommended)](https://github.com/secoda/terraform-aws-secoda)
+[Terraform Module](https://github.com/secoda/terraform-aws-secoda) (recommended)
 
-[Kubernetes Helm Chart](https://github.com/secoda/helm/tree/main/helm)
+[Docker-Compose](https://github.com/secoda/docker-compose)
 
-[Broken link](broken-reference "mention")
+[Kubernetes Helm Chart](https://github.com/secoda/helm)\*\
+\
+\*Kubernetes is not recommended for smaller or less-experienced teams.
 
-### **SSO**
+### **SAML**
 
-[Broken link](broken-reference "mention")
+[okta-saml.md](saml/okta-saml.md "mention")
 
-[Broken link](broken-reference "mention")
+[microsoft-azure-ad-saml.md](saml/microsoft-azure-ad-saml.md "mention")
 
 
 
