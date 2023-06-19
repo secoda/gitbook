@@ -11,7 +11,7 @@ Set up your own custom SAML app
 5. Click **Continue**.
 6. Download the **IDP metadata** and send the file to the Secoda SAML team.
 7. Click **Continue**.
-8. In the **Service Provider Details** window, enter the following URL for these 2 fields `https://<app|eu|apac|>.secoda.co/api/v1/auth/saml/company+com/acs/`:
+8. In the **Service Provider Details** window, enter the appropriate URL for these 2 fields, based on the domain you use Secoda and your email domain: `https://secoda.placeholder.com/api/v1/auth/saml/placeholder+com/acs/`:
    * **ACS URL**
    * **Entity ID**
 9.  In the attributes, the following mappings **must be set**:
