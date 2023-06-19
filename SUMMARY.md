@@ -131,6 +131,7 @@
   * [SAML](self-hosted-secoda/saml/README.md)
     * [Okta SAML](self-hosted-secoda/saml/okta-saml.md)
     * [Microsoft Azure AD SAML](self-hosted-secoda/saml/microsoft-azure-ad-saml.md)
+    * [Google SAML](self-hosted-secoda/saml/google-saml.md)
   * [Additional Resources](self-hosted-secoda/additional-resources/README.md)
     * [Configure TLS (Docker-Compose)](self-hosted-secoda/additional-resources/configure-tls-docker-compose.md)
     * [Setup Automatic Updates](self-hosted-secoda/additional-resources/setup-automatic-updates.md)
