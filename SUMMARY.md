@@ -146,6 +146,6 @@
   * [Terms of Use](policies/terms-of-use.md)
   * [Privacy Policy](policies/privacy-policy.md)
   * [Security Policy](policies/security-policy.md)
-* [Security & Compliance](https://secoda.notion.site/Legal-6838a9bea4944033bd47db08ba725d4e)
+  * [Policy Packet](policies/policy-packet.md)
 * [System Status](https://status.secoda.co)
 * [Secoda Change log](secoda-change-log.md)
