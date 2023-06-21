@@ -32,6 +32,12 @@ BigQuery Data Viewer
 BigQuery Job User
 ```
 
+If you want to enable metadata push feature, add the following role:
+
+```
+BigQuery Data Editor
+```
+
 b) If you're programatically creating the service account add the following roles:
 
 ```
@@ -39,6 +45,12 @@ roles/bigquery.metadataViewer
 roles/bigquery.resourceViewer
 roles/bigquery.dataViewer        
 roles/bigquery.jobUser
+```
+
+If you want to enable metadata push feature, add the following role:
+
+```
+roles/bigquery.tables.update
 ```
 
 5\. [Create a JSON key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys). The downloaded file will be used to create your warehouse in the next section.

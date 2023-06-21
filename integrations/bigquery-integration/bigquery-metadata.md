@@ -1,5 +1,5 @@
 ---
-description: List of all the metadata that Secoda pulls from Snowflake
+description: List of all the metadata that Secoda pulls from/pushes to BigQuery
 ---
 
 # BigQuery Metadata
@@ -37,3 +37,15 @@ Secoda pulls the following metadata from BigQuery:
   * Table -> Dashboard relationships
   * ETL Job -> Table relationships
 * Preview of first 50 rows (Optional)
+
+
+
+If enabled, Secoda pushes the following metadata to BigQuery:
+
+Tables
+
+* Description
+
+Columns
+
+* Description
