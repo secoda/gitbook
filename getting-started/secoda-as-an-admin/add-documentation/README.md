@@ -15,13 +15,13 @@ description: >-
 
 ## How to add context to your data
 
-Secoda pulls the descriptions of tables, dashboards and columns that are available in the central source that you've connected. For example, if you integrate your YAML documentation from dbt, Secoda will automatically populate your column and table descriptions to match the YAML documentation.&#x20;
+Secoda pulls the descriptions of tables, dashboards and columns that are available in the central source that you've connected. For example, if you integrate your YAML documentation from dbt, Secoda will automatically populate your column and table descriptions to match the YAML documentation.
 
 There are many ways to add additional context your data in Secoda. Here are some options to get you started:
 
 ### Automating documentation
 
-Learn about the many ways to automate metadata management through bulk editing, propagation, assigning ownership and adding custom column properties [here](../../../resource-and-metadata-management/adding-custom-properties.md)!
+Learn about the many ways to automate metadata management through [bulk editing](../../../resource-and-metadata-management/editing-metadata/bulk-editing-resources.md), [metadata propagation](../../../resource-and-metadata-management/editing-metadata/propagating-metadata.md), [assigning ownership](../../../resource-and-metadata-management/assigning-owners.md) and adding [custom column properties](../../../resource-and-metadata-management/adding-custom-properties.md)!
 
 **The Secoda AI Assistant** is also a great tool for automating descriptions and documents:
 
@@ -32,8 +32,8 @@ Learn about the many ways to automate metadata management through bulk editing, 
 ### Manually add enrichment
 
 * Search for the dataset or click into the Catalog to find the data that you'd like to document
-  * After you've selected the dataset you'd like to document, you'll be directed to the dataset overview page, which shows you the resources currently associated with that data set.&#x20;
-  * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.&#x20;
+  * After you've selected the dataset you'd like to document, you'll be directed to the dataset overview page, which shows you the resources currently associated with that data set.
+  * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.
   * You can click the **Documents** tab and then begin adding additional documentation there. Read more about [Documents](https://docs.secoda.co/secoda-for-business-users/dictionary-and-documents#documents).
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""><figcaption></figcaption></figure>
