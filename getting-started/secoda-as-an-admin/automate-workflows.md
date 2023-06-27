@@ -30,6 +30,7 @@ By leveraging Secoda, data teams can automate manual and repetitive tasks which 
 
 * Questions feature creates a repository of all answered questions
 * The AI Assistant can pull from that repository to answer similar questions
+* Ask the AI directly in Slack, which will push these questions back into Secoda so that they're searchable ([slack-ai-assistant.md](../../integrations/slack-connection/slack-ai-assistant.md "mention"))
 * End result:
   * Improved data literacy
   * Reduced time spent on repetitive replies to users
@@ -43,9 +44,17 @@ By leveraging Secoda, data teams can automate manual and repetitive tasks which 
   * Improved data security and governance
   * Reduced time spent on manual tasks
 
-## Leveraging Secoda API to automate change management
+## Leveraging AI Assistant to automate documentation
 
-* Receiving notifications and alerts in Slack on changes in your data integrations that affect relevant dashboards
+* Ask the AI Assistant to document your resources and it will gather all of the metadata in your integrations to create descriptions
+* Ask the AI Assistant to write you queries to generate metrics
+* End result:
+  * Reduced time spent on manual documentation
+  * Enriched resources and improved data literacy for your team
+
+## Leveraging Slack integration to automate change management
+
+* Receiving notifications and alerts in Slack on changes in your data integrations that affect relevant dashboards ([#slack-notifications](../../integrations/slack-connection/#slack-notifications "mention"))
 * Can set these alerts to a specific Slack channel or notify owners about these failures automatically
 * End result:
   * Improved data quality
