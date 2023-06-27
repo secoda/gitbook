@@ -4,7 +4,7 @@ description: >-
   workspace by default.
 ---
 
-# Verified Tag
+# Verified Identifier
 
 Verifying data through verified tags in Secoda can provide several benefits to organizations:
 
@@ -14,3 +14,9 @@ Verifying data through verified tags in Secoda can provide several benefits to o
 4. Enhanced trust and credibility: By verifying data through verified tags, organizations can demonstrate to others that their data is of high quality and can be trusted. This can help enhance the credibility and trustworthiness of the data and the organization as a whole.
 
 Overall, verifying data through verified tags in Secoda can help organizations improve data quality, enhance data governance, improve data discovery, and enhance trust and credibility.
+
+{% hint style="info" %}
+You can use the Verified tag on Catalog resources, Documents and Dictionary terms.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-27 at 5.17.10 PM.png" alt=""><figcaption></figcaption></figure>
