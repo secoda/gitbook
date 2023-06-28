@@ -50,9 +50,14 @@ After creating a Tableau access token, the next step is to connect to Secoda:
 ## Troubleshooting
 
 #### Tableau previews are not working
-Error: `iframe is denied by “X-Frame-Options“ directive set to “SAMEORIGIN“`.
-You must disable clickjack defense if you are hosting tableau on-premise. Please refer to this article for more details: https://help.tableau.com/current/server/en-us/clickjack_protection.htm. The relevant commands are:
+
+Error: `iframe is denied by “X-Frame-Options“ directive set to “SAMEORIGIN“`. You must disable clickjack defense if you are hosting tableau on-premise. Please refer to this article for more details: https://help.tableau.com/current/server/en-us/clickjack\_protection.htm. The relevant commands are:
+
 ```
 tsm configuration set -k wgserver.clickjack_defense.enabled -v false
 tsm pending-changes apply
 ```
+
+#### Authorization failure
+
+Please re-generate an access token in Tableau and add it to your Tableau integration in Secoda.

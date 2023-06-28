@@ -15,4 +15,4 @@ description: >-
 * [ ] Check out ways to use the [Dictionary](../../features/metrics/) and [Documents](../../features/documents.md)
 * [ ] Ask your data team questions using the [Questions feature](../../features/ask-questions-in-secoda/)
 * [ ] [Request changes to resources](requesting-changes-in-secoda.md) within Secoda
-* [ ] Test out the [Slack integration](../../integrations/slack-connection/) to search Secoda directly within Slack
+* [ ] Test out the [Slack integration](../../integrations/productivity-tools/slack-connection/) to search Secoda directly within Slack

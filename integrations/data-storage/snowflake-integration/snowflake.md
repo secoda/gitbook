@@ -84,6 +84,20 @@ After creating a Snowflake warehouse, the next step is to connect Secoda.
 
 If you create a network policy with Snowflake, add the following IP address to the “Allowed IP Addresses” list: `35.175.75.15/32`
 
+### Troubleshooting
+
+#### Account usage not authorized
+
+In order to resolve this error, please run the following command:
+
+`GRANT imported privileges on database SNOWFLAKE to ROLE SECODA;`
+
+#### Could not connect to Snowflake backend after 0 attempt(s)
+
+This error could be the result of an incorrect Account name. For Secoda, the Snowflake Account name is the Account ID of the cluster, which maps to a substring of the Snowflake URL.
+
+For example, if the url is https://oya5096.us-east-1.snowflakecomputing.com, the account name would be `oya5096.us-east-1`. If the url is https://abc1234.west-europe.azure.snowflakecomputing.com then, the account name would be `abc1234.west-europe.azure`. Please ensure the **entire** [Account Locator](https://docs.snowflake.com/en/user-guide/admin-account-identifier#label-account-locator) is included.
+
 {% content-ref url="./" %}
 [.](./)
 {% endcontent-ref %}

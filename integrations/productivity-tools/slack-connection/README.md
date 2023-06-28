@@ -24,11 +24,11 @@ Overall, connecting Slack to Secoda can help your team stay updated, collaborate
 5. Click **Connect** and choose the Slack channel that you'd like to receive [#slack-notifications](./#slack-notifications "mention") in.
 6. Within the Slack app, go into the Slack channel you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.** _Note: you need to be a Slack Admin to do this._
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-13 at 2.28.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-13 at 2.28.52 PM.png" alt=""><figcaption></figcaption></figure>
 
 7. To set up the **Slack : AI connection**, go into Channels and choose a channel that you'd like to use for the AI Data Requests functionality. This channel can be the same as the Notifications channel, or a new / different channel.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-13 at 12.01.31 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-13 at 12.01.31 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Notifications Channel** = Where you'll receive notifications on everything that is checked off in the Notifications tab
@@ -60,7 +60,7 @@ You can ask Questions using the Slack command: `/ask` followed by a question.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.08.29%20PM%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\).png)
 
-From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../../features/ask-questions-in-secoda/templates.md)s.
+From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../../../features/ask-questions-in-secoda/templates.md)s.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.20%20PM.png)
 

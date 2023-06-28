@@ -4,6 +4,10 @@ description: This page walks through the Secoda and GDS integration that Secoda 
 
 # Google Data Studio Integration
 
+{% content-ref url="google-data-studio-metadata.md" %}
+[google-data-studio-metadata.md](google-data-studio-metadata.md)
+{% endcontent-ref %}
+
 Secoda has two methods of integrating with Google Data Studio: retrieving a session cookie and using Google OAuth
 
 **NOTE:** _Using the Google OAuth method does not extract upstream (datasources) and downstream (charts) lineage due to the limitations of the Google Data Studio API_
@@ -47,21 +51,21 @@ _Secoda uses a series of REST APIs that Google Data Studio uses for its platform
 
 1. Login to [Google Data Studio](https://datastudio.google.com) and open the developer tools by _right-clicking_ and selecting **Inspect**
 
-![Login to Google Data Studio and open the developer tools by right-clicking and selecting Inspect](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(6)%20(1)%20(1).png>)
+![Login to Google Data Studio and open the developer tools by right-clicking and selecting Inspect](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(6\)%20\(1\)%20\(1\).png)
 
 2\. Click on the **Network** tab and put `https://datastudio.google.com` in the **filter** field
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(4)%20(1)%20(1).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(4\)%20\(1\)%20\(1\).png)
 
 3\. Refresh the page and you should see some requests populate
 
 4\. Click on the `getShareableList` network request and then navigate to the **Headers** tab
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(1)%20(1)%20(1)%20(1).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(2\)%20\(1\)%20\(1\)%20\(1\)%20\(1\).png)
 
 5\. In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(1)%20(1).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(5\)%20\(1\)%20\(1\).png)
 
 ### Connect to Google Data Studio
 
@@ -71,3 +75,9 @@ _After retrieving the session cookie, you can connect Google Data Studio to Seco
 2. Select **Google Data Studio**
 3. Paste the cookie into the **Cookie** text input field and submit
 4. Head to the **History** tab on the side bar and click **Run extraction**
+
+### Troubleshooting
+
+#### Invalid authentication
+
+GoogleDataStudio uses session cookies for authentication, which often expire. In order to resolve this error, you’ll have to generate a new session cookie and add it to your Secoda workspace. The way to do this is outlined in the Google Data Studio docs, found [here](https://docs.secoda.co/integrations/google-data-studio#h\_21e27f5a15-1).

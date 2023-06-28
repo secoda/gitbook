@@ -6,6 +6,10 @@ description: >-
 
 # Power BI Integration
 
+{% content-ref url="power-bi-metadata.md" %}
+[power-bi-metadata.md](power-bi-metadata.md)
+{% endcontent-ref %}
+
 ## **Getting Started with Power BI** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are two options for setting up the Power BI integration on Secoda:
@@ -27,7 +31,7 @@ The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI worksp
 1. Go to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and select the Power BI option
 2. Click "Connect". You'll be brought to the consent page that asks for the following permissions on your Power BI workspace
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(1)%20(3).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(2\)%20\(1\)%20\(3\).png)
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +40,7 @@ The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI worksp
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(1).png" alt=""><figcaption></figcaption></figure>
 
 4. After you've connected Power BI to Secoda go to [https://app.secoda.co/integrations](https://app.secoda.co/integrations)
-5.  Select your Power BI integration and go to **History > Run extraction > Metadata extraction** which will start an extraction for your Power BI integration.&#x20;
+5.  Select your Power BI integration and go to **History > Run extraction > Metadata extraction** which will start an extraction for your Power BI integration.
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(4)%20(1).png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +54,7 @@ Here are the steps to set up a self managed Power BI Azure AD App
    * Click `+ New registration`
    * Fill in the following details
      * **Name** - Secoda
-     * **Supported account types** - Accounts in this organizational directory only (Default Directory only - Single tenant)&#x20;
+     * **Supported account types** - Accounts in this organizational directory only (Default Directory only - Single tenant)
      * **Redirect URI (optional)** - Leave blank
    * Click Register
    * After submitting the form, the `Application ID` is available from the Overview tab. Copy and save the `Application ID` for later use.
@@ -90,9 +94,9 @@ Here are the steps to set up a self managed Power BI Azure AD App
 5. Connect PowerBI API to Secoda
    * Go to the Secoda **Settings**. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
    * Fill form in the required information:
-     * **Client ID:** Application ID of Azure AD. You'll see this after completing [step 1.6](power-bi.md#1-create-an-azure-ad-app) of the instructions.
-     * **Client Secret:** Client secret of Application in Azure AD. You'll see this after completing [step 1.8](power-bi.md#1-create-an-azure-ad-app) of the instructions.
-     * **Tenant ID:** Identifier of tenant of organization in Azure Active AD. You'll see this after completing [step 2.3](power-bi.md#2-create-an-azure-ad-security-group) of the instructions.
+     * **Client ID:** Application ID of Azure AD. You'll see this after completing [step 1.6](./#1-create-an-azure-ad-app) of the instructions.
+     * **Client Secret:** Client secret of Application in Azure AD. You'll see this after completing [step 1.8](./#1-create-an-azure-ad-app) of the instructions.
+     * **Tenant ID:** Identifier of tenant of organization in Azure Active AD. You'll see this after completing [step 2.3](./#2-create-an-azure-ad-security-group) of the instructions.
    * Click **Connect**
 
 ### Power BI Lineage (Optional)
@@ -100,3 +104,13 @@ Here are the steps to set up a self managed Power BI Azure AD App
 To extract Power BI datasets, the "Enhance admin APIs responses with detailed metadata" option in the admin panel must be toggled on.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(4).png" alt=""><figcaption></figcaption></figure>
+
+### Troubleshooting
+
+#### Expired access token
+
+This error indicates that the access\_token has expired and needs to be refreshed. In order to refresh the token, please click on the Connected button. You will then be taken through the OAuth flow to be able to refresh the token.
+
+![](https://lh3.googleusercontent.com/HsWowBEhrqyIi5-8xzM1TCZr33Tfxh\_qzQx-zzUasG-fig9GSncjcPhNvT3IjmstSNUs3MpNG1LRc2R9pE9annltj22DfeWaRL8ULmD\_U5DW0yYJxwx3d6QYkcgSuPEQ0-dN4NpD31jI7kNWvL\_zKh0)
+
+Note: It must be a PowerBI Admin in order to successfully go through the OAuth flow.

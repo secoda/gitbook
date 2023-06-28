@@ -22,7 +22,7 @@ This feature allows the AI Assistant to give answers to questions within Slack, 
 
 ## How to use
 
-1. Once you've connected your Slack workspace to Secoda by following these steps [#how-to-set-up](./#how-to-set-up "mention"), and you've enabled Secoda AI Assistant [#set-up](../../features/ai-assistant/#set-up "mention"), you are able to utilize the Slack:AI Assistant feature.
+1. Once you've connected your Slack workspace to Secoda by following these steps [#how-to-set-up](./#how-to-set-up "mention"), and you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention"), you are able to utilize the Slack:AI Assistant feature.
 2. Ask your question in the designated Data Requests Slack channel that is connected to your workspace
    * No need to prompt with a `/` command!
    * See [below](slack-ai-assistant.md#asking-questions-for-personal-use) if you'd rather not post these to the public channel
@@ -34,7 +34,7 @@ This feature allows the AI Assistant to give answers to questions within Slack, 
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Slack%20AI_2%20(2).gif" alt=""><figcaption></figcaption></figure>
 
-**Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda](../../features/ask-questions-in-secoda/ "mention") section.
+**Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda](../../../features/ask-questions-in-secoda/ "mention") section.
 
 ## Asking questions for personal use
 
