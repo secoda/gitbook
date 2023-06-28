@@ -61,7 +61,7 @@
     * [Tableau](integrations/data-visualization-tools/tableau-integration/README.md)
       * [Connect Tableau](integrations/data-visualization-tools/tableau-integration/tableau.md)
       * [Metadata Extracted](integrations/data-visualization-tools/tableau-integration/metadata-extracted.md)
-    * [Looker Integration](integrations/data-visualization-tools/looker-integration/README.md)
+    * [Looker](integrations/data-visualization-tools/looker-integration/README.md)
       * [Connect Looker](integrations/data-visualization-tools/looker-integration/looker.md)
       * [Metadata Extracted](integrations/data-visualization-tools/looker-integration/looker-metadata.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
