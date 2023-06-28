@@ -8,8 +8,8 @@
 [linear-integration.md](linear-integration.md)
 {% endcontent-ref %}
 
-{% content-ref url="salesforce-integration.md" %}
-[salesforce-integration.md](salesforce-integration.md)
+{% content-ref url="../databases/salesforce-integration.md" %}
+[salesforce-integration.md](../databases/salesforce-integration.md)
 {% endcontent-ref %}
 
 {% content-ref url="slack-connection/" %}
