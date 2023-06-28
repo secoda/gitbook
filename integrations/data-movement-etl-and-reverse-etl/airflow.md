@@ -4,7 +4,7 @@ description: >-
   supports
 ---
 
-# Airflow
+# Airflow Integration
 
 ## **Getting Started with Airflow** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 

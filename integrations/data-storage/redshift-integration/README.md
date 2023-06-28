@@ -14,7 +14,7 @@ description: An overview of the Secoda integration with Redshift
 
 After connecting Redshift to Secoda, to view the metadata associated with one of your Redshift tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Redshift table. That link will bring you to the following page.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(2).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(5\)%20\(2\).png)
 
 **Tables**
 
@@ -28,7 +28,7 @@ The columns associated with the tables will be imported into Secoda. The column 
 
 Table and column lineage is automatically imported into Secoda. The last day of queries are parsed with our lineage parser to build a map of the relationships between columns and tables.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(11)%20(1).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(11\)%20\(1\).png)
 
 **Queries**
 
