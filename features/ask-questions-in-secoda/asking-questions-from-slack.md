@@ -4,7 +4,7 @@ description: How to ask questions about your data directly from Slack.
 
 # Asking Data Questions from Slack
 
-Check out our page on using the AI within Slack to ask data requests: [slack-ai-assistant.md](../../integrations/slack-connection/slack-ai-assistant.md "mention")
+Check out our page on using the AI within Slack to ask data requests: [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention")
 
 ## Use Slack to Search and Ask on Secoda
 

@@ -44,3 +44,11 @@ After creating a Microsoft SQL Server user, the next step is to connect Secoda:
 VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the Secoda IPs to read from your data warehouse.
 
 Allow Secoda to read into your Microsoft SQL Server database using `35.175.75.15/32` and `34.230.160.245/32`
+
+### Troubleshooting
+
+If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](../../connecting-via-tunnels/connecting-via-ssh-tunnel.md).
+
+Once a tunnel has been created, make sure to choose the SSH Tunnel in the drop down list when inputting your credentials for the integration.
+
+![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-04%20at%203.37.09%20PM.png)

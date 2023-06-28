@@ -8,13 +8,13 @@ description: This page is an overview for the Tableau integration with Secoda
 [tableau.md](tableau.md)
 {% endcontent-ref %}
 
-{% content-ref url="tableau-metadata.md" %}
-[tableau-metadata.md](tableau-metadata.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 After connecting Tableau to Secoda, to view the metadata associated with one of your Tableau workbooks or dashboards, visit the [catalog](https://app.secoda.co/catalog) page and switch to the **Dashboard** tab, then click on the title of your Tableau workbook. That link will bring you to the following page.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(7)%20(1).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(7\)%20\(1\).png)
 
 **Workbooks, Dashboards, and Sheets**
 
@@ -32,4 +32,4 @@ The lineage from Tableau is brought into Secoda to feature all of the related re
 
 A fully interactive preview of Tableau dashboards and sheets are included in the resource page
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(3)%20(3).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(3\)%20\(3\).png)

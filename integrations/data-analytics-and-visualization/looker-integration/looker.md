@@ -4,6 +4,10 @@ description: This page walks through how to connect Secoda and Looker
 
 # Connect Looker
 
+{% content-ref url="looker-metadata.md" %}
+[looker-metadata.md](looker-metadata.md)
+{% endcontent-ref %}
+
 There are three steps to connect Looker with Secoda:
 
 1. Retrieve your Looker Client ID and Client Secret
@@ -40,11 +44,11 @@ After retrieving your Looker Client ID, Client Secret, and host , the next step 
 
 To get lineage between Looker and your data warehouse, Secoda will need access your GitHub repo where Looker records changes and manages file versions. Secoda will then automatically detect LookML projects connected to your Looker instance.
 
-Navigate to the Git tab on the Looker Integration Page and you will see your LookML projects. For each project you want to connect, click the toggle beside the project name**.**
+Navigate to the Git tab on the Looker Integration Page and you will see your LookML projects. For each project you want to connect, click the toggle beside the project name\*\*.\*\*
 
 Once the key is generate, you can select your LookML project and click **Copy public key** and head to your LookML repo in GitHub.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(7)%20(2).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(7\)%20\(2\).png)
 
 Once in your GitHub repo, click on **Settings > Deploy keys** on the sidebar.
 
