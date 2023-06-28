@@ -16,20 +16,20 @@ Secoda currently integrates with many different tools, see below for the types o
 [custom-integration](custom-integration/)
 {% endcontent-ref %}
 
-{% content-ref url="data-analytics-and-visualization/" %}
-[data-analytics-and-visualization](data-analytics-and-visualization/)
+{% content-ref url="data-visualization-tools/" %}
+[data-visualization-tools](data-visualization-tools/)
 {% endcontent-ref %}
 
-{% content-ref url="data-movement-etl-and-reverse-etl/" %}
-[data-movement-etl-and-reverse-etl](data-movement-etl-and-reverse-etl/)
+{% content-ref url="data-pipeline-tools/" %}
+[data-pipeline-tools](data-pipeline-tools/)
 {% endcontent-ref %}
 
-{% content-ref url="data-transformation/" %}
-[data-transformation](data-transformation/)
+{% content-ref url="data-transformation-tools/" %}
+[data-transformation-tools](data-transformation-tools/)
 {% endcontent-ref %}
 
-{% content-ref url="data-quality/" %}
-[data-quality](data-quality/)
+{% content-ref url="data-quality-tools/" %}
+[data-quality-tools](data-quality-tools/)
 {% endcontent-ref %}
 
 {% content-ref url="productivity-tools/" %}
