@@ -2,10 +2,10 @@
 description: This page walks through the Secoda and GDS integration that Secoda supports
 ---
 
-# Google Data Studio Integration
+# Google Data Studio
 
-{% content-ref url="google-data-studio-metadata.md" %}
-[google-data-studio-metadata.md](google-data-studio-metadata.md)
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
 Secoda has two methods of integrating with Google Data Studio: retrieving a session cookie and using Google OAuth
