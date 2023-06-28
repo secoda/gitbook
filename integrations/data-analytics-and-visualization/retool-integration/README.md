@@ -13,16 +13,16 @@ _Secoda uses a series of REST APIs that Retool uses for its platform, which requ
 
 1. Login to your Retool workspace and open developer tools by right-clicking and selecting **Inspect**
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(3).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(3\).png)
 
 2. Click on the **Network** tab and enter `url:<yourworkspace>.retool.com` in the filter head
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(1).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(2\)%20\(1\).png)
 
 3. Refresh the page and you should see some requests populate
 4. Click on `user` network request, navigate to **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/image%20(1)%20(1)%20(1)%20(1).png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(1\)%20\(1\)%20\(1\)%20\(1\).png)
 
 ### Connect to Retool
 

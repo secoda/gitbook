@@ -4,7 +4,7 @@ description: >-
   supports
 ---
 
-# Polytomic
+# Polytomic Integration
 
 ## Getting Started with Polytomic <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
