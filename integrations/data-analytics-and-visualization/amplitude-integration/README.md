@@ -2,10 +2,10 @@
 description: This page explains how to integrate Amplitude with Secoda
 ---
 
-# Amplitude Integration
+# Amplitude
 
-{% content-ref url="amplitude-metadata.md" %}
-[amplitude-metadata.md](amplitude-metadata.md)
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
 ## Getting Started with Amplitude <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
