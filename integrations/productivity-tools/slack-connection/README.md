@@ -40,7 +40,7 @@ Overall, connecting Slack to Secoda can help your team stay updated, collaborate
 
 If you'd like to receive notifications as direct messages as well as in a channel, you can add the Secoda App to your Slack workspace.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-18%20at%2012.24.58%20PM.png" alt=""><figcaption></figcaption></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-18%20at%2012.24.58%20PM.png)</figcaption></figure>
 
 ## Secoda AI : Slack
 
