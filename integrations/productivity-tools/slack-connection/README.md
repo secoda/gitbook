@@ -24,11 +24,11 @@ Overall, connecting Slack to Secoda can help your team stay updated, collaborate
 5. Click **Connect** and choose the Slack channel that you'd like to receive [#slack-notifications](./#slack-notifications "mention") in.
 6. Within the Slack app, go into the Slack channel you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.** _Note: you need to be a Slack Admin to do this._
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-13 at 2.28.52 PM.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-06-13%20at%202.28.52%20PM.png)
 
 7. To set up the **Slack : AI connection**, go into Channels and choose a channel that you'd like to use for the AI Data Requests functionality. This channel can be the same as the Notifications channel, or a new / different channel.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-13 at 12.01.31 PM.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-06-13%20at%2012.01.31%20PM.png)
 
 {% hint style="info" %}
 **Notifications Channel** = Where you'll receive notifications on everything that is checked off in the Notifications tab
