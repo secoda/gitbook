@@ -4,7 +4,11 @@ description: >-
   is pulled from AWS QuickSight.
 ---
 
-# QuickSight Integration
+# QuickSight
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 ## Integrating Secoda with AWS QuickSight&#x20;
 

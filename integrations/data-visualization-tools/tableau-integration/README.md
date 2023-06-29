@@ -2,34 +2,67 @@
 description: This page is an overview for the Tableau integration with Secoda
 ---
 
-# Tableau Integration
+# Tableau
 
-{% content-ref url="tableau.md" %}
-[tableau.md](tableau.md)
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+There are three steps to connect Tableau with Secoda:
 
-After connecting Tableau to Secoda, to view the metadata associated with one of your Tableau workbooks or dashboards, visit the [catalog](https://app.secoda.co/catalog) page and switch to the **Dashboard** tab, then click on the title of your Tableau workbook. That link will bring you to the following page.
+1. Enable Metadata API
+2. Create an Access Token
+3. Retrieve your host name, API version, and site name
+4. Connect Tableau to Secoda
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(7\)%20\(1\).png)
+#### Enable Metadata API (Tableau Server ONLY) <a href="#h_741406548f" id="h_741406548f"></a>
 
-**Workbooks, Dashboards, and Sheets**
+If you're on Tableau Online, you can skip this step. If you're on Tableau Server reach out to your administrator to enable the metadata API. Instructions for enabling the API can be found in this [Tableau documentation](https://help.tableau.com/current/api/metadata\_api/en-us/docs/meta\_api\_start.html) under the section **Enable the Tableau Metadata API for Tableau Server.**
 
-The workbooks, dashboards, and sheets from Tableau and metadata such as description, owners, tags, URL, and last updated time are brought into Secoda automatically. In addition, the related sheets, dashboards, workbooks and datasources are also brought in and will display on the respective assets page.
+1. Open a command prompt as an admin on the initial node (where TSM is installed) in the cluster.
+2. Run the command: `tsm maintenance metadata-services enable`
 
-**Published, Embedded, and Custom SQL data sources**
+#### **Create an Access Token** <a href="#h_741406548f" id="h_741406548f"></a>
 
-The data sources in Tableau are brought in as a "Table" entity. Their metadata such as description, tags, last updated time, and columns are extracted and will be displayed on the data source's page in Secoda.
+To create a Tableau access token for Secoda log into your account. Use the following steps to generate an access token:
 
-**Lineage**
+1. Click on your avatar in the top right and select 'My Account Settings' from the dropdown menu.
+2. Scroll to the section 'Personal Access Tokens'
+3. Enter in a token name and press 'Create new token'. Save the token name and secret, this will be used to connect to Secoda.
 
-The lineage from Tableau is brought into Secoda to feature all of the related resource to workbooks, dashboards, sheets, and datasources.
+#### **Retrieve your host name and API version** <a href="#h_3cbb90f2a5" id="h_3cbb90f2a5"></a>
 
-**Previews**
+Your **host** is the first part of the url in Tableau Online before the `#` and should be in the form of `https://<location>.online.tableau.com`. For example:
 
-A fully interactive preview of Tableau dashboards and sheets are included in the resource page
+_**`https://prod-useast-b.online.tableau.com`**_`/#/site/secoda/home`
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(3\)%20\(3\).png)
+Use the table from this page to determine your API version. [https://help.tableau.com/current/api/rest\_api/en-us/REST/rest\_api\_concepts\_versions.htm](https://help.tableau.com/current/api/rest\_api/en-us/REST/rest\_api\_concepts\_versions.htm)
+
+The site name can be found in the url on Tableau Online which immediately follows `/#/site`. For example:
+
+`https://prod-useast-b.online.tableau.com/#/site/`_**`secoda`**_`/home`
+
+#### **Connect Tableau to Secoda** <a href="#h_ee8fd0e047" id="h_ee8fd0e047"></a>
+
+After creating a Tableau access token, the next step is to connect to Secoda:
+
+1. In the Secoda App, select ‘Add Integration’ on the Integrations tab
+2. Search for and select ‘Tableau’
+3. Enter your Tableau credentials you created above
+4. Click 'Connect'
+
+## Troubleshooting
+
+#### Tableau previews are not working
+
+Error: `iframe is denied by “X-Frame-Options“ directive set to “SAMEORIGIN“`. You must disable clickjack defense if you are hosting tableau on-premise. Please refer to this article for more details: https://help.tableau.com/current/server/en-us/clickjack\_protection.htm. The relevant commands are:
+
+```
+tsm configuration set -k wgserver.clickjack_defense.enabled -v false
+tsm pending-changes apply
+```
+
+#### Authorization failure
+
+Please re-generate an access token in Tableau and add it to your Tableau integration in Secoda.
+
