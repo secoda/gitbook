@@ -12,8 +12,12 @@ Secoda currently integrates with many different tools, see below for the types o
 **Good to know:** Secoda ships product updates weekly! If you don't see your data tool or source here, message us on Slack or email us at hello@secoda.co and we'll add it to the roadmap.
 {% endhint %}
 
-{% content-ref url="custom-integration/" %}
-[custom-integration](custom-integration/)
+{% content-ref url="data-warehouses/" %}
+[data-warehouses](data-warehouses/)
+{% endcontent-ref %}
+
+{% content-ref url="databases/" %}
+[databases](databases/)
 {% endcontent-ref %}
 
 {% content-ref url="data-visualization-tools/" %}

@@ -1,4 +1,4 @@
-# Power BI Metadata
+# Metadata Extracted
 
 ### What does Secoda extract from PowerBI?
 
@@ -34,6 +34,12 @@ Datasets are referred to as Schemas in Secoda.
 * Name
 
 #### Table
+
+* Name
+
+**Measure**
+
+Measures are referred to as Columns in Secoda.&#x20;
 
 * Name
 

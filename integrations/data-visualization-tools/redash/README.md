@@ -2,7 +2,11 @@
 description: This page walks through the Secoda and Redash integration that Secoda supports
 ---
 
-# Redash Integration
+# Redash
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 ## **Getting Started with Redash** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
