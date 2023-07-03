@@ -6,7 +6,78 @@ description: The highlights of the releases for Secoda’s product can be found 
 
 **The highlights of the releases for Secoda’s product can be found here.**
 
+### July 3, 2023 (Release 7.2.12)
 
+* Search modal UI update
+* Added option to modify PII keywords
+* Automatically redirect to teams pages for aggregate pages, i.e, /dictionary
+* Updated workspace analytics API url blocked by AdBlockers
+* Prevent guests from browsing teams
+
+### June 29, 2023 (Release 7.2.12)
+
+* Added push description to BigQuery
+* Added schema level subscriptions on change notifications
+* Added better support for Tableau hierarchy in sidebar
+* Fixed lineage search crashing page
+* Fixed notifications shown from separate workspace
+* Fixed integrations documentation not found error
+* Fixed inability to rename column custom properties
+* Fixed lineage not flowing to propagate metadata workflow
+* Removed dditors access from team settings
+* Fixed missing context in change request and schema change notifications
+* Fixed CSV extraction failing silently
+* Fixed permission denied when navigating using breadcrumbs
+* Added notification if admin joins team
+* Increased documentation debounce
+* Fixed nested document added to default team
+* Fixed Search result content cut-off
+
+### June 25, 2023 (Release 7.2.11)
+
+* Fixed activity logs not showing
+* Fixed Tableau Preview is not showing
+* Fixed question reply content not not save
+* Fixed Questions page is titled "Documents"
+* Fixed setting Verified and PII tags not persisting
+* Fixed blinking of columns in catalog table on scroll
+* Fixed home page search widget showing the results per key stroke
+* Fixed Postgres lineage reversed
+* Fixed editing causing duplicated content
+* Added lineage for Postgres views
+* Fixed AWS Glue docs not displaying
+* Fixed nested document collapsing into parent when selected
+* Updated PATCH request doesn't work without a `/` at the end of the URL
+* Fixed column profiler distributions requiring refresh
+* Fixed catalog integration filters do not filter by team
+* Fixed child collections not searchable
+* Fixed column custom property not appearing until refresh
+
+### June 21, 2023 (Release 7.2.10)
+
+* Fixed blank widgets in home page and inbox
+* Fixed MS SQL tables not staling
+* Updated Stitch lineage to go directly from source to destination
+* Fixed Snowflake Extraction Failure
+* Fixed Retool connection error
+* Fixed duplicate questions
+* Added Read only indicator
+* Fixed Slack data request channel missing on refresh
+* Fixed Multi-select inline search options not filtering
+* Added tooltip for long custom property values
+* Removed deleted users and service accounts are in search
+* Fixed Salesforce Extraction Failure
+* Fixed inability to create question
+* Added ability to created nested columns via API
+* Fixed Databricks extraction failure datetime module
+* Fixed Tableau owners not being extracted
+* Foxed admin and editor collections are displaying inconsistent results
+* Fixed dbt core tests showing as all failed
+* Fixed Tableau Extraction Failure
+* Fixed unchecked Tableau groups being imported
+* Fixed Hightouch integration failure
+* Added unarchiving items on CSV import
+* Fixed deleted tables show in side bar data tree
 
 ### June 13, 2023 (Release 7.2.3)
 
