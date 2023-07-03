@@ -4,8 +4,6 @@ description: The highlights of the releases for Secoda’s product can be found 
 
 # Secoda Change log
 
-**The highlights of the releases for Secoda’s product can be found here.**
-
 ### July 3, 2023 (Release 7.2.12)
 
 * Search modal UI update
