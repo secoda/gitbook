@@ -4,7 +4,7 @@ description: The highlights of the releases for Secoda’s product can be found 
 
 # Secoda Change log
 
-### July 3, 2023 (Release 7.2.12)
+### July 3, 2023 (Release 7.2.13)
 
 * Search modal UI update
 * Added option to modify PII keywords
