@@ -50,6 +50,8 @@ Once the key is generate, you can select your LookML project and click **Copy pu
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(7\)%20\(2\).png)
 
+#### GitHub
+
 Once in your GitHub repo, click on **Settings > Deploy keys** on the sidebar.
 
 ![](https://downloads.intercomcdn.com/i/o/489714467/decf0b4194df7bc1671ed1b2/Screen+Shot+2022-03-31+at+4.31.54+PM.png)
@@ -60,12 +62,22 @@ A new key can be added by clicking on **Add deploy key** button in the top right
 
 Set a title for your new key and then paste the key copied from Secoda into the **Key** text field.
 
-Click **Add key**.
-
-_Note: You **DO NOT** need to provide write access_
+Click **Add key**. You **DO NOT** need to provide write access
 
 ![](https://downloads.intercomcdn.com/i/o/489718165/18dea438e4ac144e091fc2bc/image.png)
 
+#### GitLab
+
+Once in your GitLab repo, click on **Settings > Deploy keys** on the sidebar.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Set a title for your new key and then paste the key copied from Secoda into the **Key** text field.
+
+Click **Add key**. You **DO NOT** need to provide write access
+
+
+
 Once the key has been added, go back into the Secoda App and click on **Run Extraction** in the top right corner to begin start the extraction process.
 
-_Note: You **DO NOT** need to start the extraction process if you would rather wait until the next scheduled extraction._
+Note: You **DO NOT** need to start the extraction process if you would rather wait until the next scheduled extraction.
