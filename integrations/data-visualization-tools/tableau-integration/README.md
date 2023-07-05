@@ -66,3 +66,7 @@ tsm pending-changes apply
 
 Please re-generate an access token in Tableau and add it to your Tableau integration in Secoda.
 
+**PAT Expiration**
+
+If you are running your extraction every 15 days or more, you'll have to increase the expiry of your PAT to prevent authorization failures. See [here](https://help.tableau.com/current/server/en-us/security\_personal\_access\_tokens.htm#change-personal-access-tokens-expiry) for how to do this.&#x20;
+
