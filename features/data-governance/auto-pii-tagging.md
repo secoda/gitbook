@@ -19,15 +19,17 @@ PII (Personally Identifiable Information) tags are used to identify data assets 
 
 By going to the data tab, you can find and auto tag PII data in Secoda easily. To tag your PII data, go to **Settings -> Data**
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20587%20\(3\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\).png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 12.52.39 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once you're in the Data tab, you can see all the tables and columns that Secoda has identified that may contain PII data. You can select or deselect any of these columns or tables before applying the PII tag.
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20587%20\(2\).png)
 
 {% hint style="info" %}
 This process is currently not automated, so Admins will have to manually go into the Settings each time they'd like to run the PII identifier.
 {% endhint %}
+
+Secoda identifies PII columns based on a set of keywords that match column names. Some examples include first name, last name, address etc. If you'd like to customize these key words, you can do so by clicking on the settings button by the PII columns. Note, keywords are case and space sensitive.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screen Recording 2023-07-05 at 12.55.59 PM.gif" alt=""><figcaption></figcaption></figure>
 
 ## Governance Metadata
 
@@ -38,14 +40,6 @@ After tagging your data with the PII tag, these will populate in the **Governanc
 ## Removing PII Tags
 
 {% embed url="https://www.loom.com/share/79ebe1fb5a774e73b74bcf02f5d7a6d6" %}
-
-## How It Works
-
-#### More information on how it works behind the scenes
-
-Secoda identifies PII columns based on a set of keywords that match column names. Some examples include first name, last name, address etc.
-
-
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
