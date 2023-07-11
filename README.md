@@ -18,15 +18,15 @@ The data discovery features offered by Secoda, such as the Search function, data
 
 ## Learn about Secoda as...
 
-### an Admin
+### [an Admin](./#an-admin)
 
 As a Secoda workspace admin, you're responsible for setting up your data integrations and inviting new team members. There are other tasks that we recommend that are outlined in [this section](getting-started/secoda-as-an-admin/).
 
-### an Editor
+### [an Editor](./#an-editor)
 
 As a Secoda Editor, you are able to view and add context to all of the data resources within your workspace. Check out some resources on getting started[ here](getting-started/secoda-as-an-editor.md).
 
-### a Viewer
+### [a Viewer](./#a-viewer)
 
 As a Viewer in Secoda, you get to view and search all of the published data resources. Check out some docs to help you get started [here](getting-started/secoda-as-a-viewer/).
 
