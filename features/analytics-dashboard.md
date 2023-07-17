@@ -12,6 +12,10 @@ Some metrics that are tracked include:
 * Popular resources and searches
 * Top editors and viewers
 
-This feature is located above Settings in the left side panel. Reach out to us if there are other metrics that you'd like to see in this dashboard!
+This feature is located above Settings in the left side panel.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-06-15 at 3.13.36 PM.png" alt=""><figcaption></figcaption></figure>
+You are also able to filter on the metrics in the dashboard. In the gif below, you can see how to filter on "Popular resources" to show the most popular _dashboards_ for example!
+
+<figure><img src="../.gitbook/assets/Kapture 2023-07-17 at 13.41.22.gif" alt=""><figcaption></figcaption></figure>
+
+Reach out to us if there are other metrics that you'd like to see in this dashboard!

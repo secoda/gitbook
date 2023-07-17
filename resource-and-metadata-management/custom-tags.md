@@ -8,7 +8,7 @@ description: >-
 
 ## How to Use Tags
 
-Tags are a static way to label Resources with useful context that other users in your workspace need to know. Tags can be used as a communication channel in your workspace, for example, you could create a `Do Not Delete` tag, to communicate to others in the workspace that assets should not be deleted.&#x20;
+Tags are a static way to label Resources with useful context that other users in your workspace need to know. Tags can be used as a communication channel in your workspace, for example, you could create a `Do Not Delete` tag, to communicate to others in the workspace that assets should not be deleted.
 
 ## Creating New Tags
 
@@ -29,11 +29,11 @@ Tags are mainly used for categorization purposes, opposed to Collections which a
 
 * "Production" vs. "Test"
 * Certificates
-  * "Verified" - the term/resource is accepted and approved by the business and ready to be used
-  * "Draft" - is pending, may have some issues
+  * "Verified" - the resource and its metadata is accepted and approved by the business and ready to be used
+  * "In review" - the owner or stakeholders are reviewing the resource
+  * "Draft" - resource is pending, work in progress, may have some issues
   * "Deprecated" - should not be used, is outdated or stale
 * Security classifications
   * Confidential
   * Restricted
   * Public
-
