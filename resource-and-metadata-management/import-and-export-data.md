@@ -4,7 +4,7 @@ description: >-
   Export data. Below is the screenshot for the settings:
 ---
 
-# Import & Export Metadata
+# Import and Export Metadata
 
 ### E**xport metadata from Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -24,11 +24,11 @@ Once you are ready to upload your new metadata, you can use the import button to
 
 If you have set up a documentation tool at your organization you can migrate your descriptions to Secoda following these steps.
 
-1. Export metadat to a CSV
+1. Prepare your CSV
 2. Update metadata in CSV
 3. Import metadata to Secoda
 
-#### 1. Export descriptions to a CSV <a href="#h_da2aba5589" id="h_da2aba5589"></a>
+#### 1. Prepare your CSV <a href="#h_da2aba5589" id="h_da2aba5589"></a>
 
 You can either export your data from Secoda to a csv, or start from scratch. The only requirements for importing are:
 
