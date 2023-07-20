@@ -1,30 +1,23 @@
-# Redash Metadata
+# Metadata Extracted
 
 ### What does Secoda extract from Redash?
 
-#### Widget
+* Widgets (Widgets are referred to as Charts in Secoda)
+  * Widget Name
+  * Widget URL
+* Dashboards
+  * Dashboard Name
+  * Dashboard Description
+  * Dashboard Last Updated At
+  * Dashboard Owners
+  * Dashboard URL
+* Queries
+* Lineage
+  * Redash Query <-> Redash Widget
+  * Redash Query <-> Redash Dashboard
+  * Redash Query <-> Tables from other sources
+    * Note: These lineage relationships will pass through the Query to the Dashboards and Widgets that that Query connects to.&#x20;
 
-Widgets are referred to as Charts in Secoda.
-
-* Name
-* URL
-
-#### Dashboard
-
-* Name
-* Description
-* Updated At
-* Owners
-* URL
-
-**Query**
-
-#### Lineage
-
+{% hint style="info" %}
 To determine lineage from Redash, we parse the queries that we extract from Redash using the APIs.&#x20;
-
-* Redash Query <-> Redash Widget
-* Redash Query <-> Redash Dashboard
-* Redash Query <-> Tables from other sources
-  * Note: These lineage relationships will pass through the Query to the Dashboards and Widgets that that Query connects to.&#x20;
-
+{% endhint %}
