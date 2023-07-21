@@ -52,7 +52,7 @@ To learn more about user roles in Secoda, check out our[ User Management ](user-
 
 Documentation from your tools automatically syncs with Secoda. We will stop writing documentation back to our tool once all changes have been made to documentation inside Secoda. So that your documentation has a consistent "source of truth", we do this.
 
-Secoda documentation can be returned programmematically through our API to your tool.
+Secoda documentation can be returned programmatically through our API to your tool.
 
 Our support team can disable the editing of descriptions for specific data sources inside Secoda if you need to.
 
@@ -64,9 +64,19 @@ Secoda backs up all metadata every 5 minutes. This data is retained for 24 month
 
 There's a good chance we're already working on it! In order to support as many popular tools as possible, we are working on it diligently. If you need something that we do not support yet, let us know on Slack or in Intercom.
 
-## Can I give feedback on features in Secoda?
+## Can I give feedback about Secoda?
 
-We'd love to hear from you. You can join our Slack community and provide feedback in #feature-requests. We always love building with our customers!
+We'd love to hear from you. You can join our Slack community [thedataleap.slack.com](https://www.thedataleap.slack.com) and provide feedback in #secoda-feature-requests. We always love building with our customers!
+
+As an existing customer, you have access to our feedback tool Canny. About Canny:
+
+* **Submit Feedback**: Share suggestions and report bugs effortlessly.
+* **Track Requests**: Stay informed as we review, prioritize, and implement changes.
+* **Engage with the Community**: Vote and comment on features that other customers have already requested.
+
+We're looking at relevance to not just one workspace but to all of our customers, which is why the vote feature will be important for making decisions on what to prioritize. Access our Canny instance at [feedback.secoda.co](http://feedback.secoda.co/) and use your Secoda email to login. Check out our [Video tutorial](https://www.loom.com/share/86eb9317d7924835957e13c716b99c48?sid=1bf38c4a-e15b-4b1f-ab5e-3016b3c544af).
+
+Note: we're still available on Slack for urgent requests, questions, and general chit chat!
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
