@@ -6,6 +6,7 @@ description: Here are some important Admin tasks to get your workplace up and ru
 
 * [ ] [Connect your data](connect-your-data/)
 * [ ] [Enable SAML for single sign on](../../self-hosted-secoda/saml/)
+* [ ] [Best practices for setup](../../readme/secoda-as-an-admin/best-practices-for-setting-up-your-workspace.md)
 * [ ] [Personalize the workspace](personalization.md)
 * [ ] [Start contextualizing your data](add-documentation/)
 * [ ] [Populate Questions with FAQs](populate-questions-with-faqs.md)
