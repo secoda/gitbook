@@ -5,6 +5,7 @@
     * [Connect your data](getting-started/secoda-as-an-admin/connect-your-data/README.md)
       * [Define Service Accounts](getting-started/secoda-as-an-admin/connect-your-data/define-service-accounts.md)
       * [Choose which schemas to extract](getting-started/secoda-as-an-admin/connect-your-data/hide-unwanted-datasets.md)
+    * [Best practices for setting up your workspace](readme/secoda-as-an-admin/best-practices-for-setting-up-your-workspace.md)
     * [Personalize the workspace](getting-started/secoda-as-an-admin/personalization.md)
     * [Start contextualizing your data](getting-started/secoda-as-an-admin/add-documentation/README.md)
       * [Publishing within Secoda](getting-started/secoda-as-an-admin/add-documentation/publishing.md)
