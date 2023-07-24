@@ -11,6 +11,10 @@ NOTE: Preview of Mode resources is available in Secoda if permissions are grante
   * Report Description
   * Report Owners
   * Report URL
+* Dataset (Dataset are referred to as Tables in Secoda):
+  * Dataset name
+  * Dataset Description
+  * Dataset Owner
 * Charts
   * Chart Name
   * Chart Description
@@ -19,7 +23,8 @@ NOTE: Preview of Mode resources is available in Secoda if permissions are grante
 * Lineage
   * Mode Chart <-> Mode Report
   * Mode Query <-> Mode Chart
-  * Mode Query <-> Mode Dashboard
+  * Mode Query <-> Mode Dataset
+  * Mode Dataset <-> Mode Chart
   * Mode Chart <-> Tables from other sources
 
 {% hint style="info" %}
