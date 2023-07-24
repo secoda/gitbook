@@ -1,4 +1,4 @@
-# Data Analytics and Visualization
+# Data Visualization Tools
 
 A data visualization tool is software or a platform that enables users to create visual representations of data to convey insights, trends, patterns, and relationships effectively. These tools allow users to transform raw data into visually appealing charts, graphs, maps, and interactive dashboards, making complex information more understandable and accessible. These tools are often categorized as BI or Analytics tools.&#x20;
 
@@ -18,6 +18,10 @@ Secoda currently integrates with the following Data Visualization tools:
 
 {% content-ref url="metabase/" %}
 [metabase](metabase/)
+{% endcontent-ref %}
+
+{% content-ref url="mixpanel/" %}
+[mixpanel](mixpanel/)
 {% endcontent-ref %}
 
 {% content-ref url="mode/" %}
