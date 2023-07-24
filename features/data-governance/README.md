@@ -26,7 +26,9 @@ It's important to start this initiative by identifying the data that most impact
 * Which reports and dashboards are relevant and up to date?
 * What are questions that pop up all of the time?
 
-Start here since they are more likely to have a larger impact on more users.
+Start here since they are more likely to have a larger impact on more users.&#x20;
+
+Another way to identify critical data elements once you've integrated your data into Secoda is by using our [**Lineage feature**](../data-lineage.md). Members can look at the overall lineage and see which are some key nodes that touch a lot of parts of a pipeline. Read more about this idea here: [https://www.synq.io/blog/business-critical-data](https://www.synq.io/blog/business-critical-data).
 
 #### Enrich, enrich, enrich
 
