@@ -26,6 +26,7 @@
   * Event Category&#x20;
   * Event Properties
 * Lineage
-  * Mixpanel Dashboard <-> Mixpanel 'Charts'
-  * Mixpanel Impact <-> Mixpanel Events
+  * Mixpanel 'Chart' <-> Mixpanel Board
+  * Mixpanel Event <-> Mixpanel Impact
+  * Mixpanel Event <-> Mixpanel Flow
 
