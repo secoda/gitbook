@@ -46,6 +46,8 @@
       * [Metadata Extracted](integrations/data-visualization-tools/google-data-studio/metadata-extracted.md)
     * [Metabase](integrations/data-visualization-tools/metabase/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/metabase/metadata-extracted.md)
+    * [Mixpanel](integrations/data-visualization-tools/mixpanel/README.md)
+      * [Metadata Extracted](integrations/data-visualization-tools/mixpanel/metadata-extracted.md)
     * [Mode](integrations/data-visualization-tools/mode/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/mode/metadata-extracted.md)
     * [Power BI](integrations/data-visualization-tools/power-bi/README.md)
