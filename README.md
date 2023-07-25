@@ -14,21 +14,27 @@ Secoda stands for **Se**archable **Co**mpany **Da**ta. Your Secoda workspace is 
 
 Secoda is a data enablement tool that automates the process of tracking and documenting data lineage, enhances data documentation, and improves data discovery. By connecting your data sources to Secoda and setting up data lineage and documentation, you can improve transparency and understandability of your data and make it easier for others to use and trust.&#x20;
 
-The data discovery features offered by Secoda, such as the Search function, data dictionaries, and data lineage visualization, can help you and your team find and access the data you need more easily. Inviting your team to join Secoda allows you to collaborate and share data assets more efficiently, improving collaboration and data management within your organization. Overall, using Secoda can help streamline data management, enhance data governance, and improve productivity within your organization.Learn about Secoda as...
+The data discovery features offered by Secoda, such as the Search function, data dictionaries, and data lineage visualization, can help you and your team find and access the data you need more easily. Inviting your team to join Secoda allows you to collaborate and share data assets more efficiently, improving collaboration and data management within your organization. Overall, using Secoda can help streamline data management, enhance data governance, and improve productivity within your organization.
 
 ## Learn about Secoda as...
 
 ### [an Admin](./#an-admin)
 
-As a Secoda workspace admin, you're responsible for setting up your data integrations and inviting new team members. There are other tasks that we recommend that are outlined in [this section](getting-started/secoda-as-an-admin/).
+As a Secoda workspace admin, you're responsible for setting up your data integrations and inviting new team members. There are other tasks that we recommend that are outlined **in** [**this section**](getting-started/secoda-as-an-admin/).
 
 ### [an Editor](./#an-editor)
 
-As a Secoda Editor, you are able to view and add context to all of the data resources within your workspace. Check out some resources on getting started[ here](getting-started/secoda-as-an-editor.md).
+As a Secoda Editor, you are able to view and add context to all of the data resources within your workspace. Check out some resources on getting started[ **here**](getting-started/secoda-as-an-editor.md).
 
 ### [a Viewer](./#a-viewer)
 
-As a Viewer in Secoda, you get to view and search all of the published data resources. Check out some docs to help you get started [here](getting-started/secoda-as-a-viewer/).
+As a Viewer in Secoda, you get to view and search all of the published data resources. Check out some docs to help you get started [**here**](getting-started/secoda-as-a-viewer/).
+
+## Customer use cases
+
+Want to learn about the product in action? Read up on some case studies about how our power customers have integrated the product into their workflows [**here**](https://www.secoda.co/customers).&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2023-07-25 at 1.59.06 PM.png" alt=""><figcaption></figcaption></figure>
 
 **Got a few minutes?** Check out a video overview of our product:
 
