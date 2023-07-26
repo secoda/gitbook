@@ -46,7 +46,7 @@ Editing certain resources in Secoda is only possible if you're an Editor or Admi
 
 You should contact the admin(s) within your organization to ask for more permissions.
 
-To learn more about user roles in Secoda, check out our[ User Management ](user-management/)section.&#x20;
+To learn more about user roles in Secoda, check out our[ **User Management** ](user-management/)section.&#x20;
 
 ## What happens if someone edits the documentation in Secoda?
 
@@ -66,7 +66,7 @@ There's a good chance we're already working on it! In order to support as many p
 
 ## Can I give feedback about Secoda?
 
-We'd love to hear from you. You can join our Slack community [thedataleap.slack.com](https://www.thedataleap.slack.com) and provide feedback in #secoda-feature-requests. We always love building with our customers!
+We'd love to hear from you. You can join our Slack community [**thedataleap.slack.com**](https://www.thedataleap.slack.com) and provide feedback in #secoda-feature-requests. We always love building with our customers!
 
 As an existing customer, you have access to our feedback tool Canny. About Canny:
 
@@ -76,7 +76,7 @@ As an existing customer, you have access to our feedback tool Canny. About Canny
 
 We're looking at relevance to not just one workspace but to all of our customers, which is why the vote feature will be important for making decisions on what to prioritize.&#x20;
 
-Access our Canny instance at [feedback.secoda.co](http://feedback.secoda.co/) and if prompted, use your Secoda email to login (try logging into Secoda if this does not work). Check out our [Video tutorial](https://www.loom.com/share/86eb9317d7924835957e13c716b99c48?sid=1bf38c4a-e15b-4b1f-ab5e-3016b3c544af).
+Access our Canny instance at [**feedback.secoda.co**](http://feedback.secoda.co/) and if prompted, use your Secoda email to login (try logging into Secoda if this does not work). Check out our [**Video tutorial**](https://www.loom.com/share/86eb9317d7924835957e13c716b99c48?sid=1bf38c4a-e15b-4b1f-ab5e-3016b3c544af).
 
 Note: we're still available on Slack for urgent requests, questions, and general chit chat!
 
