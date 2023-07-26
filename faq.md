@@ -74,7 +74,9 @@ As an existing customer, you have access to our feedback tool Canny. About Canny
 * **Track Requests**: Stay informed as we review, prioritize, and implement changes.
 * **Engage with the Community**: Vote and comment on features that other customers have already requested.
 
-We're looking at relevance to not just one workspace but to all of our customers, which is why the vote feature will be important for making decisions on what to prioritize. Access our Canny instance at [feedback.secoda.co](http://feedback.secoda.co/) and use your Secoda email to login. Check out our [Video tutorial](https://www.loom.com/share/86eb9317d7924835957e13c716b99c48?sid=1bf38c4a-e15b-4b1f-ab5e-3016b3c544af).
+We're looking at relevance to not just one workspace but to all of our customers, which is why the vote feature will be important for making decisions on what to prioritize.&#x20;
+
+Access our Canny instance at [feedback.secoda.co](http://feedback.secoda.co/) and if prompted, use your Secoda email to login (try logging into Secoda if this does not work). Check out our [Video tutorial](https://www.loom.com/share/86eb9317d7924835957e13c716b99c48?sid=1bf38c4a-e15b-4b1f-ab5e-3016b3c544af).
 
 Note: we're still available on Slack for urgent requests, questions, and general chit chat!
 
