@@ -1,7 +1,3 @@
----
-description: Using Secoda on-premise.
----
-
 # Installation Options
 
 [Terraform Module](https://github.com/secoda/terraform-aws-secoda)

@@ -1,12 +1,8 @@
 ---
-description: >-
-  Self-Hosted / on-premise docs for Secoda are available to customers who host
-  Secoda in their own environment
+description: Self-hosted or on-premise
 ---
 
-# Self-Hosted Secoda Guide
-
-## **How to manage the Self-Hosted Version of Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+# Self-Hosted Guide
 
 ### **Installation Options**
 
@@ -20,9 +16,9 @@ description: >-
 
 ### **SAML**
 
-[okta-saml.md](saml/okta-saml.md "mention")
+[okta-saml.md](../saml/okta-saml.md "mention")
 
-[microsoft-azure-ad-saml.md](saml/microsoft-azure-ad-saml.md "mention")
+[microsoft-azure-ad-saml.md](../saml/microsoft-azure-ad-saml.md "mention")
 
 
 
