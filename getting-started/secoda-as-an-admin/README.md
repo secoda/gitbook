@@ -5,7 +5,7 @@ description: Here are some important Admin tasks to get your workplace up and ru
 # Secoda as an Admin
 
 * [ ] [Connect your data](connect-your-data/)
-* [ ] [Enable SAML for single sign on](../../saml/)
+* [ ] [Enable SAML for single sign on](../../saml/) for on-premise customers - For Cloud customers, choose the "Continue with SAML" option upon log in at app.secoda.co
 * [ ] [Best practices for setup](../../readme/secoda-as-an-admin/best-practices-for-setting-up-your-workspace.md)
 * [ ] [Personalize the workspace](personalization.md)
 * [ ] [Start contextualizing your data](add-documentation/)
