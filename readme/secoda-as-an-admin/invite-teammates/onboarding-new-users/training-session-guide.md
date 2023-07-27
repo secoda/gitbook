@@ -64,7 +64,7 @@ Share your screen showing your Secoda workspace.
 
 * Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [#how-to-use](../../../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md#how-to-use "mention")&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Slack AI_2 (1).gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.loom.com/share/ebc7267824734f0c92ed1c74d0a42ac3?sid=0fa8cb84-fd7c-4b1e-b93b-e8311c2f84f5" %}
 
 #### Next steps
 
