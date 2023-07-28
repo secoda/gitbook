@@ -19,9 +19,8 @@ The data enablement features offered by Secoda, such as Secoda AI, the Search fu
 
 **Two customer case studies:**
 
-[7Shifts Case Study Case Study](https://www.secoda.co/customers/7shifts)
-
-[PartnerStack Case Study Case Study](https://www.secoda.co/customers/partnerstack)
+1. [**7Shifts Case Study Case Study**](https://www.secoda.co/customers/7shifts)
+2. [**PartnerStack Case Study Case Study**](https://www.secoda.co/customers/partnerstack)
 
 ## Resources for Getting Started
 
@@ -31,17 +30,21 @@ We’ve added some resources that show you how you can use the different feature
 
 #### Teams
 
-When you're added to Secoda, your workspace Admins should add you to your relevant Team, and you will be able to see all of the resources (Catalog, Dictionary, Documents and Questions) tied to that Team. You can check out all of your workspace's Teams and join Public ones by following [these steps](../../user-management/teams.md#joining-teams).
+When you're added to Secoda, your workspace Admins should add you to your relevant Team, and you will be able to see all of the resources (Catalog, Dictionary, Documents and Questions) tied to that Team. You can check out all of your workspace's Teams and join Public ones by following [**these steps**](../../user-management/teams.md#joining-teams).
+
+This diagram shows the structure of Teams:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 9.02.56 PM.png" alt=""><figcaption><p>Structure of Teams</p></figcaption></figure>
 
 #### **Asking questions**
 
-With Secoda, you can find past questions, as well as pose new questions to the data team. Since Secoda is connected to your organization’s data, questions and answers can include links to relevant tables, queries, or even other questions that can provide more context. Read more about that [here](../../features/ask-questions-in-secoda/).
+With Secoda, you can find past questions, as well as pose new questions to the data team. Since Secoda is connected to your organization’s data, questions and answers can include links to relevant tables, queries, or even other questions that can provide more context. Read more about that [**here**](../../features/ask-questions-in-secoda/).
 
 #### Notifications
 
 Users can change their notification settings by going to **Settings -> Notifications.**
 
-You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive. Read more about notifications [here](https://docs.secoda.co/features/notifications).
+You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive. Read more about notifications [**here**](https://docs.secoda.co/features/notifications).
 
 ### 2. Searching within Secoda
 
@@ -49,13 +52,13 @@ Search is super important to Secoda users and we are constantly improving the fu
 
 #### Secoda AI Assistant
 
-The [Secoda AI](../../features/ai-assistant/) greatly improves user experience when searching for resources. Once your workspace Admins have enabled it, you can find the AI Assistant on the lefthand panel under Search. You can also Ask AI right from the main Search and [within Slack](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md). This feature will be helpful for business users who might not know where to begin when looking at data.
+The [**Secoda AI**](../../features/ai-assistant/) greatly improves user experience when searching for resources. Once your workspace Admins have enabled it, you can find the AI Assistant on the lefthand panel under Search. You can also Ask AI right from the main Search and [**within Slack**](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md). This feature will be helpful for business users who might not know where to begin when looking at data.
 
 Check out some examples of prompts to ask the AI below!
 
 {% embed url="https://www.loom.com/share/d9a8166f218a4fc5ae26c32e5f89d817?sid=cc5f600d-1667-4d79-882f-b3c0494fbf03" %}
 
-Check out our other [Search tips and tricks](../../features/search-and-home-page.md#search-tips-and-tricks) for filtering down your search results.
+Check out our other [**Search tips and tricks**](../../features/search-and-home-page.md#search-tips-and-tricks) for filtering down your search results.
 
 ### 3. **Creating a single source of truth**
 
@@ -83,8 +86,8 @@ Using Collections is a great way to organize your Team's resources. You can thin
 
 These folders can be organized however makes sense to your organization, but some use cases we see are by project or the big nouns in your company.
 
-See our doc on the [steps to setting up Collections within Secoda](https://docs.secoda.co/features/collections-1).
+See our doc on the [**steps to setting up Collections within Secoda**](https://docs.secoda.co/features/collections-1).
 
 ### 4. Customize your workspace
 
-Each user has their own individual Home page! Learn how you can [customize it here](../../features/custom-homepage.md#personal-homepage) to add personal notes and flag specific resources you often visit.
+Each user has their own individual Home page! Learn how you can [**customize it here**](../../features/custom-homepage.md#personal-homepage) to add personal notes and flag specific resources you often visit.
