@@ -2,14 +2,18 @@
 description: This page explains how to integrate Fivetran with Secoda
 ---
 
-# Fivetran Integration
+# Fivetran
 
 ## Getting Started with Fivetran <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
-There are two steps to get started using Fivetran with Secoda:
+&#x20;There are two steps to get started using Fivetran with Secoda:
 
 1. Generate an API Key and an API Secret on Fivetran
 2. Connect Fivetran to Secoda with your API Key and API Secret
+
+{% hint style="info" %}
+Secoda pulls the following metadata from the Fivetran API: jobs, run times, owners, destinations, and other general metadata around jobs.
+{% endhint %}
 
 ### Generate an API Key
 
