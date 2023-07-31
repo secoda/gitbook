@@ -28,9 +28,8 @@ There are many different ways that our users go about onboarding their teammates
 * [ ] Before onboarding new editors, outline policies so that users know their responsibilities while working in the tool. Tip: These can be documented within Secoda in an "Onboarding" Collection so that they can always reference them. Some examples:
   * What does Ownership mean (i.e. Owners must stay up to date on documenting data; Owners must notify other users of any changes)
   * Documentation guidelines and expectations (i.e. What information _must_ be included in definitions; How do you use certain Tags)
-* [ ] Schedule a group training session - the Secoda team is happy to help out with these!
-  * [ ] Check out our Training Session Guide
-  * [ ] Collaborate with Secoda Customer Success team beforehand to assign tasks
+* [ ] Schedule a group training session - the Secoda team is happy to assist with these!
+  * [ ] Check out our [training-session-guide.md](training-session-guide.md "mention") for tips on what to cover in a demo to your team
   * [ ] Ahead of the session, share appropriate documentation as pre-reads so that users can come with questions[secoda-as-a-viewer](../../../../getting-started/secoda-as-a-viewer/ "mention") [secoda-as-an-editor.md](../../../../getting-started/secoda-as-an-editor.md "mention")
 * [ ] Invite the users to your workspace
 * [ ] Assign the users to their respective Groups and Teams
