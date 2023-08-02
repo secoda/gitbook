@@ -4,6 +4,72 @@ description: The highlights of the releases for Secoda’s product can be found 
 
 # Secoda Change log
 
+### August 2, 2023 (Release 7.4.7)
+
+* Added the Mixpanel Integration
+* Added the Command Palette
+* Added analytics for Questions on the Workspace Analytics
+* Fixed schema notifications spamming
+* Fixed not being able to search for table full name
+* Fixed source -> Looker lineage
+* Added setting for Slack AI behaviour
+* Added support for pulling tags from Sigma
+* Updated Snowflake to query Enterprise lineage table
+
+### July 25, 2023 (Release 7.4.1)
+
+* Fixed Document edits not persisting
+* Added documentation snapshot history
+* Improved AI accuracy on prompts related to columns
+* Fixed preview restriction for integrations
+* Fixed profile activity link duplication
+* Added syncing Snowflake descriptions back to source
+* Added Mode datasets support
+* Fixed Empty questions description text being off-center
+* Added support for tabs in code blocks
+
+### July 13, 2023 (Release 7.3.9)
+
+* Fixed query blocks export timing out for large exports
+* Fixed search is not updating when query is less than 3 characters
+* Fixed Created time in sidebar not showing AM/PM
+* Added Snowflake Enterprise column lineage parsing
+* Fixed email notification subject line missing name of document
+* Fixed Power BI measures having type string
+* Fixed Databricks integration failing due to Initialization Issue
+* Fixed unchecked service accounts getting counted in external popularity
+* Fixed event properties missing on resource page
+* Fixed unchecked schema still being extracted into catalog
+* Fixed column filters not working on custom property
+* Added additional search weight for resources with verified tag
+
+### July 6, 2023 (Release 7.3.6)
+
+* Fixed sorting of title field not working
+* Fixed creating a question from a table questions page
+* Fixed publish all button timing out
+* Increased speed of AI content typing effect
+* Fixed Dictionary page selector overflow
+* Clicking on schema now has equals filter applied
+* Fixed BigQuery timestamp formats rendered incorrectly
+* Fixed breadcrumbs empty on nested document
+* Fixed learn about teams button not working
+* Fixed tooltip not working in lineage fullscreen
+* Fixed dbt dictionary term query source does not update
+* Fixed removed users and service accounts are in search
+* Fixed Slack integration throwing exceptions on `/secoda`
+* Filter empty documentation change notifications
+* Fixed copy paste for collections on catalog not persisting
+* Fixed Tableau Preview is not showing
+* Default to external last updated time in resource page
+* Fixed markdown code block overflow on property tooltip
+* Fixed lineage search results missing metadata
+* Removed dropdown for child-less collections
+* Fixed schema tables not loading on schema page
+* Fixed linking questions to collections not persisting
+* Fixed Access denied error when click back from Questions
+* Fixed Slack threads not getting AI responses
+
 ### July 3, 2023 (Release 7.2.13)
 
 * Search modal UI update
