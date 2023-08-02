@@ -127,6 +127,7 @@
   * [Notifications](features/notifications.md)
   * [Lineage](features/data-lineage.md)
     * [Manual Lineage](features/data-lineage/manual-lineage.md)
+  * [Popularity](features/popularity.md)
   * [Queries](features/queries/README.md)
     * [Running Queries in Secoda](features/queries/running-queries-in-secoda/README.md)
       * [Adding Live Charts to Documentation](features/queries/running-queries-in-secoda/adding-live-charts-to-documentation.md)
