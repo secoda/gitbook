@@ -44,7 +44,7 @@
   * [Data Visualization Tools](integrations/data-visualization-tools/README.md)
     * [Amplitude](integrations/data-visualization-tools/amplitude-integration/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/amplitude-integration/metadata-extracted.md)
-    * [Google Data Studio](integrations/data-visualization-tools/google-data-studio/README.md)
+    * [Looker Studio](integrations/data-visualization-tools/google-data-studio/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/google-data-studio/metadata-extracted.md)
     * [Metabase](integrations/data-visualization-tools/metabase/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/metabase/metadata-extracted.md)
