@@ -7,6 +7,7 @@ Documents allow the data team to store **context** on collections, datasets, and
 Below are some examples of Documents use cases we see often:
 
 * Writing process guides
+* Documenting important queries
 * Defining KPIs
 * Posting video tutorials
 
