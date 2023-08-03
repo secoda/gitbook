@@ -22,6 +22,15 @@ Secoda pulls the following metadata from the Fivetran API: jobs, run times, owne
 
 > Note: If you already have an API key and secret issued generating a new key will disable and replace the existing key.
 
+### Fivetran API Key Permissions
+
+When generating an API Key in Fivetran, Secoda will need **view** access on:
+
+* Destinations
+* Transformations in Destinations
+* Connectors
+* Users
+
 ### Connect to Fivetran
 
 1. In Secoda, head to the **Integrations** page and click **New Integration**
