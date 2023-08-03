@@ -45,7 +45,7 @@ Note the website URL. You will take the section of URL resembling 'https://your-
 
 The project name and key will also be found on this page. Click the Projects tab to see a list of your projects, and find the one that you would like to integrate with Secoda. The project name will be the full name, while the project key is the 2 or 3 letter string inside of the brackets beside your project name&#x20;
 
-![]("../../.gitbook/assets/Screenshot 2023-08-03 at 2.16.25 PM.png")</figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.01.17%20PM.png)
 
 In this example, the project name is Marketing, and the project key is MAR. Enter these values into Secoda's Jira integration setup.
 
