@@ -22,8 +22,7 @@ Navigate to [this url](https://id.atlassian.com/login) and login to or sign up f
 
 Once created or found, you should see the project with its respective boards and issues:
 
-![](.gitbook/assets/Screenshot 2023-08-03 at 2.04.04 PM.png)</figcaption></figure>
-
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.04.04%20PM.png)
 
 ### Prepare Your Jira Credentials <a href="#h_1255353919" id="h_1255353919"></a>
 
@@ -45,7 +44,7 @@ Note the website URL. You will take the section of URL resembling 'https://your-
 
 The project name and key will also be found on this page. Click the Projects tab to see a list of your projects, and find the one that you would like to integrate with Secoda. The project name will be the full name, while the project key is the 2 or 3 letter string inside of the brackets beside your project name&#x20;
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.01.17%20PM.png)
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.16.25%20PM.png)
 
 In this example, the project name is Marketing, and the project key is MAR. Enter these values into Secoda's Jira integration setup.
 
@@ -55,7 +54,7 @@ Next, you must obtain an API token for Jira. Login to [this page](https://id.atl
 
 Note: multiple API tokens can link to the same Jira project
 
-![]("../../.gitbook/assets/Screenshot 2023-08-03 at 2.22.12 PM.png")</figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.22.12%20PM.png)
 
 #### Account Email
 
@@ -71,6 +70,6 @@ To find your account email, you can click on the icon in the top right corner of
 6. Click on "Test Connection" to save the integration.
 7. Once integration is created, click on “Run Extraction” from history tab to run your first extraction
 
-![]("../../.gitbook/assets/Screenshot 2023-08-03 at 2.39.31 PM.png")</figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.39.31%20PM.png)
 
 Once the Jira extraction finishes running, you will be able to view all issues from your Jira project in the desired team's Question page.&#x20;
