@@ -22,7 +22,7 @@ Navigate to [this url](https://id.atlassian.com/login) and login to or sign up f
 
 Once created or found, you should see the project with its respective boards and issues:
 
-![]("../../.gitbook/assets/Screenshot 2023-08-03 at 2.04.04 PM.png")</figcaption></figure>
+![](../../.gitbook/assets/Screenshot 2023-08-03 at 2.04.04 PM.png)</figcaption></figure>
 
 ### Prepare Your Jira Credentials <a href="#h_1255353919" id="h_1255353919"></a>
 
