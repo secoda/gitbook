@@ -36,13 +36,13 @@ There are five items you will need in order to integrate your Jira project into 
 
 #### Project URL
 
-To find your project's URL, name, and key, remain on your project's main page.&#x20;
+To find your project's URL, name, and key, remain on your project's main page.
 
-Note the website URL. You will take the section of URL resembling 'https://your-domain.atlassian.net/' and enter it into the Project URL section of Secoda's Jira integration setup. In the example screenshot above, this URL would be [https://secoda-elai.atlassian.net/](https://secoda-elai.atlassian.net/).&#x20;
+Note the website URL. You will take the section of URL resembling 'https://your-domain.atlassian.net/' and enter it into the Project URL section of Secoda's Jira integration setup. In the example screenshot above, this URL would be [https://secoda-elai.atlassian.net/](https://secoda-elai.atlassian.net/).
 
 #### Project Name and Key
 
-The project name and key will also be found on this page. Click the Projects tab to see a list of your projects, and find the one that you would like to integrate with Secoda. The project name will be the full name, while the project key is the 2 or 3 letter string inside of the brackets beside your project name&#x20;
+The project name and key will also be found on this page. Click the Projects tab to see a list of your projects, and find the one that you would like to integrate with Secoda. The project name will be the full name, while the project key is the 2 or 3 letter string inside of the brackets beside your project name
 
 ![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.16.25%20PM.png)
 
@@ -65,11 +65,11 @@ To find your account email, you can click on the icon in the top right corner of
 1. Open your Secoda integrations page
 2. Click on "New Integration" on the top left
 3. Select Jira from the list of integrations
-4. Input your Jira credentials from [#h\_1255353919](jira.md#h\_1255353919 "mention"). This includes the project URL, name, key, API token, and your Jira email
+4. Input your Jira credentials from **Prepare Your Jira Credentials** above. This includes the project URL, name, key, API token, and your Jira email
 5. Select the Teams that you wish to receive the Jira issues (appearing as Questions in Secoda)
 6. Click on "Test Connection" to save the integration.
 7. Once integration is created, click on “Run Extraction” from history tab to run your first extraction
 
 ![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-03%20at%202.39.31%20PM.png)
 
-Once the Jira extraction finishes running, you will be able to view all issues from your Jira project in the desired team's Question page.&#x20;
+Once the Jira extraction finishes running, you will be able to view all issues from your Jira project in the desired team's Question page.
