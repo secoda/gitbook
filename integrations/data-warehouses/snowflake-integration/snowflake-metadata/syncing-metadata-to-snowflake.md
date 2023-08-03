@@ -2,6 +2,8 @@
 
 The ability to sync metadata from Secoda back to the source has been extended to Snowflake for table and column descriptions. Secoda can now be the single source of truth for Snowflake table and column descriptions with bi-directional metadata syncing.
 
+Please ensure ensure the `SECODA` role has `INSERT` table privileges, as well as `MODIFY` schema and database. You can check what privileges the role has by running `SHOW GRANTS TO ROLE SECODA`.
+
 #### How to run a sync
 
 At this time, this is a manual process to push the metadata from Secoda back to Snowflake. Follow these steps to run the sync:
