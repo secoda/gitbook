@@ -79,6 +79,7 @@
     * [Great Expectations](integrations/data-quality-tools/great-expectations-integration.md)
   * [Productivity Tools](integrations/productivity-tools/README.md)
     * [Git](integrations/productivity-tools/git-integration.md)
+    * [Jira](integrations/productivity-tools/jira.md)
     * [Linear](integrations/productivity-tools/linear-integration.md)
     * [Slack](integrations/productivity-tools/slack-connection/README.md)
       * [Slack : AI Assistant](integrations/productivity-tools/slack-connection/slack-ai-assistant.md)
