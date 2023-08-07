@@ -4,7 +4,7 @@ description: >-
   pulled from AWS Glue.
 ---
 
-# Glue Integration
+# Glue
 
 ## Integrating Secoda with AWS Glue&#x20;
 
@@ -55,9 +55,9 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "arn:aws:athena:*:<athena_id>:workgroup/primary",
                 "arn:aws:s3:::<athena_output_bucket>",
                 "arn:aws:s3:::<athena_output_bucket>/*",
-                "arn:aws:glue:<region>:<glue_id>:*"
+                "arn:aws:glue:<region>:<glue_id>:*",
                 "arn:aws:s3:::<glue_bucket>",
-                "arn:aws:s3:::<glue_bucket>/*",
+                "arn:aws:s3:::<glue_bucket>/*"
             ]
         }
     ]
