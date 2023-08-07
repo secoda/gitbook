@@ -32,7 +32,7 @@ Share your screen showing your Secoda workspace.
 * Click into Teams and explain how you've designed them; point out which Team the group you're presenting to will be added to
 *   Demo how to join and leave a Team and how it appears in the left sidebar once you join
 
-    <figure><img src="../../../../.gitbook/assets/Kapture 2023-07-27 at 12.45.41.gif" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Kapture 2023-07-27 at 12.45.41.gif" alt=""><figcaption></figcaption></figure>
 * Click into a Team to explain the different sections within a Team
   * The Team Homepage functions similarly to the Main homepage, but it is configured by the Admins and is specific to that Team - pin resources that the whole Team will benefit from having easy access to
   * The Catalog hosts all of your data sources - show the different integrations
@@ -50,25 +50,29 @@ Share your screen showing your Secoda workspace.
   * Navigate to the Lineage tab to show that feature, if applicable
 *   Click into Search and show off all of the search filters that will help users narrow down their search, more details here [#search](training-session-guide.md#search "mention")
 
-    <figure><img src="../../../../.gitbook/assets/Kapture 2023-07-27 at 13.02.13.gif" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Kapture 2023-07-27 at 13.02.13.gif" alt=""><figcaption></figcaption></figure>
 
 #### AI Assistant
 
 * If users don't know exactly what they want to search for, show them that they can use the AI Assistant to search in plain language
-* Show a few examples of asking the AI some questions about your data: examples [prompts.md](../../../../features/ai-assistant/prompts.md "mention")
+* Show a few examples of asking the AI some questions about your data: examples [prompts.md](../../../features/ai-assistant/prompts.md "mention")
   * If your team is interested in documenting PII, you could ask it to find you all of the tables with potential PII data&#x20;
 
 {% embed url="https://www.loom.com/share/6a802f20155d4a83bc2fa758f613d33a?sid=17bd2f81-83c4-49d5-b9e6-262d7f1a65d1" %}
 
 #### Slack Integration
 
-* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [#how-to-use](../../../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md#how-to-use "mention")&#x20;
+* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [#how-to-use](../../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md#how-to-use "mention")&#x20;
 
 {% embed url="https://www.loom.com/share/ebc7267824734f0c92ed1c74d0a42ac3?sid=0fa8cb84-fd7c-4b1e-b93b-e8311c2f84f5" %}
 
-#### Next steps
+#### Additional Features Demo
+
+You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows. For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using the Propagate metadata feature.
+
+### Next steps
 
 * Ask users to review the resources that they/their team owns - update descriptions and other metadata if necessary
 * Ask users to test out the AI Assistant and provide feedback
 * Add users to the product and assign them to their Teams
-* Share any relevant documentation with users, including[secoda-as-a-viewer](../../../../getting-started/secoda-as-a-viewer/ "mention")
+* Share any relevant documentation with users, including[secoda-as-a-viewer](../../../getting-started/secoda-as-a-viewer/ "mention")
