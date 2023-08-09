@@ -12,7 +12,7 @@ First, you’ll need to connect Secoda to your Slack workspace following these i
 
 After you’ve done so, anyone in your Slack workspace can ask a question using a Slack command: `/ask,` followed by their question.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.08.29%20PM%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\).png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 From here, you'll be prompted to ask your question and submit information to follow up. If you're an admin, if you make a [question template](templates.md) the default, the template will show up on this Slack question form.
 
@@ -22,7 +22,7 @@ You can view your asked questions by going into the Secoda app and going to the 
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.34%20PM.png)
 
-When this question is answered, you'll be receive a notification.
+When this question is answered, you will receive a notification.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.10.05%20PM%20\(1\).png)
 
