@@ -60,9 +60,7 @@ Note: multiple API tokens can link to the same Jira project
 
 To find your account email, you can click on the icon in the top right corner of any Jira page, and enter it into the Account Email section of Secoda's Jira integration setup.
 
-{% hint style="info" %}
-For users to appear as assignees on Secoda, they must change email visibility to "Anyone" by going through Manage Account -> Profile and Visibility -> Contact
-{% endhint %}
+**Note:** For users to appear as assignees on Secoda, they must change email visibility to "Anyone" by going through Manage Account -> Profile and Visibility -> Contact
 
 
 ### Connect Jira to Secoda <a href="#h_448e650cba" id="h_448e650cba"></a>
