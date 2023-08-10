@@ -18,21 +18,23 @@ Overall, inviting teammates to Secoda can help improve collaboration, centralize
 
 ## How to invite teammates to Secoda
 
-One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. As a workplace admin, you're able to do this. Viewers and editors are not able to invite people. You can have multiple admins per workspace.&#x20;
+One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. As a workplace admin, you're able to do this. Viewers and editors are not able to invite people. You can have multiple admins per workspace.
 
-To start inviting teammates, go to the Settings page by clicking the ⚙ button in the bottom left corner. From here, click **Members.**&#x20;
+To start inviting teammates, go to the Settings page by clicking the ⚙ button in the bottom left corner. From here, click **Members.**
 
-On this screen, you'll be able to see the plan level that you and your team are on, and the number of seats this plan includes. You'll also see a generic invite link to send to teammates (who will be added as Viewers by default), as well as current team members in the workspace and their roles.&#x20;
+On this screen, you'll be able to see the plan level that you and your team are on, and the number of seats this plan includes. You'll also see a quick invite link to send to teammates (who will be added as Viewers by default), as well as current team members in the workspace and their roles.
+
+If you're adding multiple teammates at once, we recommend **using the "Invite members" button** so that you can add them in bulk.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-15%20at%203.09.56%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Assigning Roles
 
-In this same screen, you can view current members in your Secoda space, their emails, and the role that they have within Secoda.&#x20;
+In this same screen, you can view current members in your Secoda space, their emails, and the role that they have within Secoda.
 
-You can edit teammate roles by clicking on the role button that is beside their name and info. You can remove them simply by clicking remove.&#x20;
+You can edit teammate roles by clicking on the role button that is beside their name and info. You can remove them simply by clicking remove.
 
-For more on what permissions certain roles have, check out [**Roles.** ](../../../user-management/roles/)
+For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
 
 ## Groups & Teams
 
@@ -42,13 +44,13 @@ Creating Groups and Teams will be important for user management. Read more about
 
 ## Custom Invitation Links
 
-From this screen, you're able to manage your invitations and invitation links. To do so, click on the **Invitation Links** tab, beside Members and Groups.&#x20;
+From this screen, you're able to manage your invitations and invitation links. To do so, click on the **Invitation Links** tab, beside Members and Groups.
 
-You'll be able to see every link that you've already created, what role that invitation link is for, and if applicable, which groups you've sent that link to.&#x20;
+You'll be able to see every link that you've already created, what role that invitation link is for, and if applicable, which groups you've sent that link to.
 
-You can create a new link by clicking **Create link**. After you've created a link, you can edit the role and group it's applicable to by clicking the role name (default is Viewer) and adding a group.&#x20;
+You can create a new link by clicking **Create link**. After you've created a link, you can edit the role and group it's applicable to by clicking the role name (default is Viewer) and adding a group.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/ezgif.com-gif-maker%20(3).gif>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/ezgif.com-gif-maker%20\(3\).gif)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
