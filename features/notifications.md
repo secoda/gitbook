@@ -8,23 +8,25 @@ description: >-
 
 ## **How to manage notifications in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-Viewers, editors, and admins can change their notification settings by going to **Settings -> Notifications.**&#x20;
+Viewers, editors, and admins can change their notification settings by going to **Settings -> Notifications.**
 
-You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive.&#x20;
+You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(1)%20(1).png" alt=""><figcaption></figcaption></figure>
 
-#### Subscriptions
+{% hint style="info" %}
+One of the more important notification types that you might consider configuring are **notifications for schema changes**. These will alert you when new columns are added to the schema, and therefore are ready to be documented within Secoda. Set these up in Settings by going to Notifications > Extractions > Table schema changed.
+{% endhint %}
 
-Each resource has a list of subscribers which can be found on the bottom right side of a resource. As an admin you subscribe team members to get notifications for updates on a resource. An update can include changes to any of the metadata such as the description, documentation, ownership, collections, and tags. A viewer can subscribe themselves to a resource but cannot modify the subscription list of any other users.
+## Slack Notifications
+
+Read up on how to configure your notifications to be sent to Slack here [#slack-notifications](notifications.md#slack-notifications "mention").
+
+## Subscriptions
+
+Each resource has a list of subscribers which can be found on the bottom right side of a resource. As an admin, you can subscribe team members to get notifications for updates on a resource. An update can include changes to any of the metadata such as the description, documentation, ownership, collections, and tags. A viewer can subscribe themselves to a resource but cannot modify the subscription list of any other users.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(2).png" alt=""><figcaption></figcaption></figure>
-
-#### Secoda Digest
-
-Secoda will also send a report on a weekly basis with your workspace analytics and the key actions in the workspace from the past week.
-
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-10%20at%2011.48.23%20AM.png>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
