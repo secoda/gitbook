@@ -37,3 +37,9 @@ Tags are mainly used for categorization purposes, opposed to Collections which a
   * Confidential
   * Restricted
   * Public
+
+## Deleting Tags
+
+You can delete a Custom Tag by clicking **Delete** on the same Settings page. Since this action can't be undone within the UI, you will receive a warning before you confirm that you'd like to delete the tag.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-14 at 4.45.44 PM.png" alt=""><figcaption></figcaption></figure>

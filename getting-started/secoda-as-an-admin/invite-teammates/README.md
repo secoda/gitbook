@@ -18,23 +18,29 @@ Overall, inviting teammates to Secoda can help improve collaboration, centralize
 
 ## How to invite teammates to Secoda
 
-One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. As a workplace admin, you're able to do this. Viewers and editors are not able to invite people. You can have multiple admins per workspace.
+One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. Only workplace admins are able to invite new users.
 
 To start inviting teammates, go to the Settings page by clicking the ⚙ button in the bottom left corner. From here, click **Members.**
 
-On this screen, you'll be able to see the plan level that you and your team are on, and the number of seats this plan includes. You'll also see a quick invite link to send to teammates (who will be added as Viewers by default), as well as current team members in the workspace and their roles.
+On this screen, you'll be able to see the plan level that you and your team are on, and the number of seats this plan includes. You'll also see a **Viewer invite link** to send to teammates (who will be added as Viewers by default).
 
 If you're adding multiple teammates at once, we recommend **using the "Invite members" button** so that you can add them in bulk.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-15%20at%203.09.56%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-14 at 4.35.50 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Assigning Roles
 
 In this same screen, you can view current members in your Secoda space, their emails, and the role that they have within Secoda.
 
-You can edit teammate roles by clicking on the role button that is beside their name and info. You can remove them simply by clicking remove.
+You can edit teammate roles by clicking on the role button that is beside their name and info.&#x20;
 
 For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
+
+## Deactivating Members
+
+To Deactivate a member from your workspace, click **Deactivate** beside their name. The user's name will still appear on resources that they had previously owned, but will have a strike through their name. This can be helpful context to know who had the historical knowledge of a dataset.
+
+![](<../../../.gitbook/assets/Screenshot 2023-08-14 at 3.11.04 PM.png>)
 
 ## Groups & Teams
 
