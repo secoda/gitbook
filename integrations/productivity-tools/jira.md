@@ -6,6 +6,18 @@ description: >-
 
 # Jira
 
+### **Overview** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+
+You might consider integrating your Secoda workspace with Jira if your team receives data requests through Jira. Secoda syncs the following metadata through this integration:
+
+* The user's question/request from the Jira ticket
+* Comments on the ticket
+* Priority
+* User that it's assigned to
+* Tags
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 4.53.03 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### **Getting Started with Jira** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to getting started using Jira with Secoda
