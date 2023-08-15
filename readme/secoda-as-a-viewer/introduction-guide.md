@@ -66,7 +66,7 @@ Every user across the organization should feel confident searching for and utili
 
 #### Catalog
 
-The Catalog is the home to all metadata for any Tables, Columns, Dashboards, Charts, Jobs and Events in Secoda. All catalog resources are accessible via Secoda’s Search, and can be referenced in other resources in your workspace.
+The [**Catalog**](introduction-guide.md#catalog) is the home to all metadata for any Tables, Columns, Dashboards, Charts, Jobs and Events in Secoda. All catalog resources are accessible via Secoda’s Search, and can be referenced in other resources in your workspace.
 
 #### **Dictionary**
 

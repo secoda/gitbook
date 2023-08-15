@@ -23,7 +23,11 @@ If queries are available, the tables, databases and dashboards will display a da
 
 ## How to add integrations
 
-Adding integrations is simple. Navigate over to the Integrations tab on the side panel and click New Integration. Note that only Workspace Admins have access to this tab. See the docs below for specific instructions for the different types of integrations.
+Adding integrations is simple.&#x20;
+
+1. Navigate over to the Integrations tab on the side panel and click New Integration. Note that only Workspace Admins have access to this tab
+2. See the documentation on the right panel (or her [integrations](../../../integrations/ "mention")) for specific instructions on setting up.
+3. Under "Associated Teams", click which Teams you'd like to have access to all of the metadata in that integration.&#x20;
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.15.07.gif" alt=""><figcaption></figcaption></figure>
 
@@ -34,12 +38,6 @@ See all of our integrations below.
 {% content-ref url="../../../integrations/" %}
 [integrations](../../../integrations/)
 {% endcontent-ref %}
-
-
-
-
-
-
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈

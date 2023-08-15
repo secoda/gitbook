@@ -110,6 +110,7 @@
   * [Analytics Dashboard](features/analytics-dashboard.md)
   * [Announcements](features/announcements.md)
   * [Bookmarks](features/bookmarks.md)
+  * [Catalog](features/catalog.md)
   * [Collections](features/collections-1.md)
   * [Custom Homepage](features/custom-homepage.md)
   * [Dictionary](features/metrics/README.md)
