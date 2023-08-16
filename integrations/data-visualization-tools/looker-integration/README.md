@@ -78,6 +78,6 @@ Click **Add key**. You **DO NOT** need to provide write access
 
 
 
-Once the key has been added, go back into the Secoda App and click on **Run Extraction** in the top right corner to begin start the extraction process.
+Once the key has been added to GitHub or GitLab go back to your Looker integration in the Secoda App and go to the **Sync History** tab and click on **Run Sync** in the top right corner to begin start the sync process.
 
-Note: You **DO NOT** need to start the extraction process if you would rather wait until the next scheduled extraction.
+Note: You **DO NOT** need to start the sync process if you would rather wait until the next scheduled sync.
