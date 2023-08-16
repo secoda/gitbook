@@ -28,13 +28,17 @@ Search results are based on a number of factors.&#x20;
 
 This is the most important factor that determines search results: matching the text of the resource (in the column, the table, or the dashboard) with the text entered into the search.
 
-## Does Secoda read the data from my database?
+## Does Secoda read the data from my data source?
 
-For integration extractions, no! We're only looking at the metadata. The way we do this is by querying the information schema on a table. This provides us with metadata such as the names of columns, tables, schemas, etc.
+Nope! We're only looking at the metadata. The way we do this is by querying the information schema on a table. This provides us with metadata such as the names of columns, tables, schemas, etc.
 
-The only time data is read from the database is when the Preview feature in Secoda is used. Preview is an optional feature that can be disabled for the workspace.&#x20;
+If permissions are provided, the data from the datasource can be read in the following circumstances:
 
-If enabled, user's who have access can preview data on tables, and dashboards. For the table Preview, we pull in a data frame via a `SELECT * FROM table LIMIT 50;` statement on the database. For the dashboard Preview, we show an iFrame directly from the data source.&#x20;
+* When the Preview tab in Secoda is used. Preview is an optional feature that can be disabled for the workspace. For tables, the Preview tab will show 50 rows of data (excluding columns that are tagged as PII). For dashboards, we show an iFrame directly from the data source.&#x20;
+* When using [Query](features/queries/) blocks. If permissions are provided, Admins and Editors can write and execute queries directly on the source through Secoda.
+* When [Column Profiling](features/data-quality/column-profiling.md). In this instance, Secoda will analyze the Minimums, Maximums, Range, etc of the columns, which requires analysis of the data.&#x20;
+
+Even if the data is read, it is never saved or logged by Secoda.
 
 ## How often does Secoda update?
 
