@@ -4,7 +4,7 @@ description: >-
   supports
 ---
 
-# Polytomic Integration
+# Polytomic
 
 ## Getting Started with Polytomic <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
@@ -23,4 +23,4 @@ There are two steps to get started using Polytomic with Secoda:
 1. In Secoda, head to the **Integrations** page and click **New integration**
 2. Select **Polytomic**
 3. Paste the API Key
-4. Head to the **History** tab on the side bar and click **Run extraction**
+4. Head to the **Sync** **History** tab on the side bar and click **Run sync**

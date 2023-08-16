@@ -25,5 +25,5 @@ There are two steps to get started using Amplitude with Secoda:
 1. In Secoda, head to the **Integrations** page and click **New Integration**
 2. Select **Amplitude**
 3. Paste the API Key and API Secret (`Secret Key`)
-4. Head to the **History** tab on the side bar and click **Run extraction**
+4. Head to the **Sync** **History** tab on the side bar and click **Run sync**
 
