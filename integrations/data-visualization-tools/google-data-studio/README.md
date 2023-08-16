@@ -76,7 +76,7 @@ _After retrieving the session cookie, you can connect Looker Studio to Secoda by
 1. In Secoda, head to the **Integrations** page and click **New integration**
 2. Select **Looker Studio**
 3. Paste the cookie into the **Cookie** text input field and submit
-4. Head to the **History** tab on the side bar and click **Run extraction**
+4. Head to the **Sync History** tab on the side bar and click **Run sync**
 
 ### Troubleshooting
 

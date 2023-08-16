@@ -36,4 +36,4 @@ When generating an API Key in Fivetran, Secoda will need **view** access on:
 1. In Secoda, head to the **Integrations** page and click **New Integration**
 2. Select **Fivetran**
 3. Paste the API Key
-4. Head to the **History** tab on the side bar and click **Run extraction**
+4. Head to the **Sync History** tab on the side bar and click **Run sync**
