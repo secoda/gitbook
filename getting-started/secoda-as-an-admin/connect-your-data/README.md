@@ -26,9 +26,10 @@ If queries are available, the tables, databases and dashboards will display a da
 Adding integrations is simple.&#x20;
 
 1. Navigate over to the Integrations tab on the side panel and click New Integration. Note: only Workspace Admins have access to this tab.
-2. See the documentation on the right panel (or here [integrations](../../../integrations/ "mention")) for specific instructions on setting up.
-3. Under "Associated Teams", click which Teams you'd like to have access to all of the metadata in that integration.
-4. See the Metadata seamlessly flow into your [catalog.md](../../../features/catalog.md "mention").
+2. Choose which type of integration you'd like to connect from our long list of products that we support
+3. See the documentation on the right panel (or here [integrations](../../../integrations/ "mention")) for specific instructions on setting up.
+4. Under "Associated Teams", click which Teams you'd like to have access to all of the metadata in that integration.
+5. See the Metadata seamlessly flow into your [catalog.md](../../../features/catalog.md "mention").
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.15.07.gif" alt=""><figcaption></figcaption></figure>
 
