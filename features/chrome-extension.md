@@ -24,7 +24,7 @@ Once installed and configured, the Chrome extension will appear as a Secoda icon
 ## How to Install and Authenticate
 
 1. The first step is to ensure that you have a Secoda account, and that your workspace has connected at least one of the [#supported-tools](chrome-extension.md#supported-tools "mention") below.
-2. Download the extension in the web store using[ **this li**<mark style="color:blue;">**nk**</mark>](https://chrome.google.com/webstore/detail/secoda/akcolkhleaionhppniljgglpeeohkljk)<mark style="color:blue;">.</mark>
+2. Download the extension in the web store using[ <mark style="color:blue;">**this link**</mark>](https://chrome.google.com/webstore/detail/secoda/akcolkhleaionhppniljgglpeeohkljk)<mark style="color:blue;">.</mark>
 3. Click **Add to Chrome.**
 4. Go to any of the supported tools sites, and click the Secoda icon on the bottom right of the screen.
 5. Enter your email associated with your Secoda account.
