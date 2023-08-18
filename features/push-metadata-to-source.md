@@ -8,10 +8,9 @@ For all of our integrations, Secoda pulls metadata from those sources into the U
 
 Secoda supports this feature for the following integrations:
 
-* **BigQuery**
-* **Looker**
-* **Snowflake**
-* **Redshift**
+* [**BigQuery**](https://docs.secoda.co/integrations/data-warehouses/bigquery-integration/bigquery-metadata#metadata-pushed)
+* [**Snowflake**](https://docs.secoda.co/integrations/data-warehouses/snowflake-integration/snowflake-metadata#metadata-pushed)
+* [**Redshift**](https://docs.secoda.co/integrations/data-warehouses/redshift-integration/redshift-metadata#metadata-pushed)
 
 Click into the pages linked above to see which metadata is synced.
 
