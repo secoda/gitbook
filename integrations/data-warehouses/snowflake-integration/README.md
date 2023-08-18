@@ -8,8 +8,8 @@ description: An overview for the Snowflake integration with Secoda
 [snowflake.md](snowflake.md)
 {% endcontent-ref %}
 
-{% content-ref url="snowflake-metadata/" %}
-[snowflake-metadata](snowflake-metadata/)
+{% content-ref url="snowflake-metadata.md" %}
+[snowflake-metadata.md](snowflake-metadata.md)
 {% endcontent-ref %}
 
 After connecting Snowflake, to view the metadata associated with one of your Snowflake tables, visit the [catalog](https://app.secoda.co/catalog) page and click on the title of your Snowflake table. That link will bring you to the following page.

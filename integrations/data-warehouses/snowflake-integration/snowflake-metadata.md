@@ -6,18 +6,16 @@ description: List of all the metadata that Secoda pulls from/pushes to Snowflake
 
 ## Metadata pulled
 
-Secoda pulls the following metadata from Redshift:
+Secoda pulls the following metadata from Snowflake:
 
 * Tables
   * Name
   * Description
+  * Owners
+  * Last Updated Timestamp
   * Schema
   * Database
-* Views
-  * Name
-  * Description
-  * Schema
-  * Database
+  * Frequent Users
 * Columns
   * Name
   * Description
@@ -29,7 +27,7 @@ Secoda pulls the following metadata from Redshift:
   * Max
   * Median
   * STD Deviation
-  * Value Distribution
+  * Value distribution
   * Statistic Value Count
   * Percent Filled&#x20;
   * Unique
@@ -37,18 +35,20 @@ Secoda pulls the following metadata from Redshift:
 * Common Queries
 * Lineage
   * Column -> Column relationships
-  * View -> View relationships
   * Table -> Table relationships
-  * Table -> View relationships
-  * View -> Table relationships
-  * View Column -> Table/View Column reationships
   * Table -> Dashboard relationships
   * ETL Job -> Table relationships
 * Preview of first 50 rows (Optional)
 
 ## Metadata pushed
 
-If enabled, Secoda pushes the following metadata to Redshift:
+If enabled, Secoda pushes the following metadata to Snowflake:
 
 * Tables - Description
 * Columns - Description
+
+It only looks at the tables that have been published and all of their columns. If a table isn't published in Secoda and you run a sync, it will not push back to the source.
+
+{% hint style="warning" %}
+Please ensure ensure the `SECODA` role has `INSERT` table privileges, as well as `MODIFY` schema and database. You can check what privileges the role has by running `SHOW GRANTS TO ROLE SECODA`.
+{% endhint %}
