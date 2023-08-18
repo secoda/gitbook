@@ -21,12 +21,12 @@ There are many ways to add additional context your data in Secoda. Here are some
 
 ### Automating documentation
 
-Learn about the many ways to automate metadata management through [bulk editing](../../resource-and-metadata-management/editing-metadata/bulk-editing-resources.md), [metadata propagation](../../resource-and-metadata-management/editing-metadata/propagating-metadata.md), [assigning ownership](../../resource-and-metadata-management/assigning-owners.md) and adding [custom column properties](../../resource-and-metadata-management/adding-custom-properties.md)!
+Learn about the many ways to automate metadata management through [bulk editing](../../../resource-and-metadata-management/editing-metadata/bulk-editing-resources.md), [metadata propagation](../../../resource-and-metadata-management/editing-metadata/propagating-metadata.md), [assigning ownership](../../../resource-and-metadata-management/assigning-owners.md) and adding [custom column properties](../../../resource-and-metadata-management/adding-custom-properties.md)!
 
 **The Secoda AI Assistant** is also a great tool for automating descriptions and documents:
 
-{% content-ref url="../../features/ai-assistant/" %}
-[ai-assistant](../../features/ai-assistant/)
+{% content-ref url="../../../features/ai-assistant/" %}
+[ai-assistant](../../../features/ai-assistant/)
 {% endcontent-ref %}
 
 ### Manually add enrichment
@@ -38,6 +38,6 @@ Learn about the many ways to automate metadata management through [bulk editing]
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""><figcaption></figcaption></figure>
 
-* Add [tags](../../resource-and-metadata-management/custom-tags.md) such as PII, verified and custom tags to annotate the category and status of the data asset
-* [Link resources](../../resource-and-metadata-management/relating-resources.md) to create relationships between them
-* [Add ownership](../../resource-and-metadata-management/assigning-owners.md) details so that users know who to ask follow up questions about a dataset
+* Add [tags](../../../resource-and-metadata-management/custom-tags.md) such as PII, verified and custom tags to annotate the category and status of the data asset
+* [Link resources](../../../resource-and-metadata-management/relating-resources.md) to create relationships between them
+* [Add ownership](../../../resource-and-metadata-management/assigning-owners.md) details so that users know who to ask follow up questions about a dataset
