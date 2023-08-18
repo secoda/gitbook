@@ -30,7 +30,7 @@
       * [Metadata Extracted](integrations/data-warehouses/redshift-integration/redshift-metadata.md)
     * [Snowflake](integrations/data-warehouses/snowflake-integration/README.md)
       * [Connect Snowflake](integrations/data-warehouses/snowflake-integration/snowflake.md)
-      * [Metadata Extracted](integrations/data-warehouses/snowflake-integration/snowflake-metadata.md)
+      * [Metadata Extracted](integrations/data-warehouses/snowflake-integration/snowflake-metadata/README.md)
   * [Databases](integrations/databases/README.md)
     * [MySQL](integrations/databases/mysql-integration.md)
     * [Microsoft SQL Server](integrations/databases/microsoft-sql-server.md)
