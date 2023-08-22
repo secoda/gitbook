@@ -2,8 +2,8 @@
 
 Secoda currently integrates with the following database tools:
 
-{% content-ref url="salesforce-integration.md" %}
-[salesforce-integration.md](salesforce-integration.md)
+{% content-ref url="salesforce-integration/" %}
+[salesforce-integration](salesforce-integration/)
 {% endcontent-ref %}
 
 {% content-ref url="microsoft-sql-server.md" %}
