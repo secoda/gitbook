@@ -6,8 +6,8 @@ Secoda currently integrates with the following data warehouse tools:
 [redshift-integration](redshift-integration/)
 {% endcontent-ref %}
 
-{% content-ref url="databricks-integration.md" %}
-[databricks-integration.md](databricks-integration.md)
+{% content-ref url="databricks-integration/" %}
+[databricks-integration](databricks-integration/)
 {% endcontent-ref %}
 
 {% content-ref url="snowflake-integration/" %}

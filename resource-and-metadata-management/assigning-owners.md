@@ -23,17 +23,7 @@ After navigating to a Secoda resource, Editors and Admins can assign Owners by c
 
 ## Automating ownership
 
-We currently support bringing in ownership metadata for the following integrations:
-
-* Snowflake&#x20;
-* BigQuery
-* Looker Studio
-* PowerBI
-* Redash
-* Metabase
-* Sigma
-* Mode
-* Fivetran
+Please see the [integrations](../integrations/ "mention")docs to see which integrations bring in ownership metadata.
 
 Try out the [propagating-metadata.md](editing-metadata/propagating-metadata.md "mention") & [bulk-editing-resources.md](editing-metadata/bulk-editing-resources.md "mention") features to bulk add owners to your resources.
 

@@ -1,8 +1,8 @@
 ---
-description: List of all the metadata that Secoda pulls from Snowflake
+description: List of all the metadata that Secoda pulls from Postgres
 ---
 
-# Postgres Metadata
+# Metadata Extracted
 
 Secoda pulls the following metadata from Postgres:
 
