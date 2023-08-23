@@ -125,7 +125,7 @@
     * [Verified Identifier](features/data-governance/verified-tag.md)
   * [Data Quality](features/data-quality/README.md)
     * [Column Profiling](features/data-quality/column-profiling.md)
-    * [Stale Data](features/data-quality/removing-stale-data.md)
+    * [Stale Data Identifier](features/data-quality/removing-stale-data.md)
   * [Documents](features/documents.md)
   * [Embeddings](features/embeds.md)
   * [Inbox](features/data-inbox.md)
