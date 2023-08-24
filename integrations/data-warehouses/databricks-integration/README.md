@@ -1,4 +1,8 @@
-# Databricks Integration
+# Databricks
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 ## **Getting Started with Databricks** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
