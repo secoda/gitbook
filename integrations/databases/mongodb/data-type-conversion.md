@@ -1,20 +1,14 @@
-# Data Type Conversion
+# Metadata Extracted
 
-**Cluster name:**
+Secoda pulls the following metadata from MongoDB:
 
-* cluster name entered during the set up for the MongoDB integration will be mapped to Secoda's `database` entity
-
-
-
-**Databases:**
-
-* Databases in MongoDB will be mapped to Secoda's `schema` entity
-
-**Collection:**
-
-* Collections in MongoDB will be mapped to Secoda's `table` entity
-
-**Fields:**
-
-* Fields in a document in MongoDB will be mapped to Secoda's `column` entity
+* Clusters (Clusters are referred to as Databases in Secoda)
+  * Name
+* Databases (Databases are referred to as Schemas in Secoda)
+  * Name
+* Collections (Collections are referred to as Tables in Secoda)
+  * Name
+* Fields (Fields are referred to as Columns in Secoda)
+  * Name
+  * Type
 

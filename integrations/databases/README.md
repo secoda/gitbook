@@ -6,16 +6,16 @@ Secoda currently integrates with the following database tools:
 [salesforce-integration](salesforce-integration/)
 {% endcontent-ref %}
 
-{% content-ref url="microsoft-sql-server.md" %}
-[microsoft-sql-server.md](microsoft-sql-server.md)
+{% content-ref url="microsoft-sql-server/" %}
+[microsoft-sql-server](microsoft-sql-server/)
 {% endcontent-ref %}
 
-{% content-ref url="mysql-integration.md" %}
-[mysql-integration.md](mysql-integration.md)
+{% content-ref url="mysql-integration/" %}
+[mysql-integration](mysql-integration/)
 {% endcontent-ref %}
 
-{% content-ref url="oracle-integration.md" %}
-[oracle-integration.md](oracle-integration.md)
+{% content-ref url="oracle-integration/" %}
+[oracle-integration](oracle-integration/)
 {% endcontent-ref %}
 
 {% content-ref url="postgres-integration/" %}

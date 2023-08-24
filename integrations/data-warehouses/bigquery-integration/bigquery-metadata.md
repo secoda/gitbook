@@ -8,7 +8,7 @@ description: List of all the metadata that Secoda pulls from/pushes to BigQuery
 
 Secoda pulls the following metadata from BigQuery:
 
-* Tables
+* Tables/Views
   * Name
   * Description
   * Owners
@@ -16,7 +16,7 @@ Secoda pulls the following metadata from BigQuery:
   * Schema
   * Database
   * Frequent users
-* Columns
+* Fields (Fields are referred to as Columns in Secoda)
   * Name
   * Description
   * Type

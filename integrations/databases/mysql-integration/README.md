@@ -1,4 +1,8 @@
-# MySQL Integration
+# MySQL
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 ## **Getting Started with MySQL** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
