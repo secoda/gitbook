@@ -6,6 +6,10 @@ description: >-
 
 # Microsoft SQL Server
 
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
+
 ## **Getting Started with Microsoft SQL Server** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 There are three steps to get started using Microsoft SQL Server with Secoda:
@@ -47,7 +51,7 @@ Allow Secoda to read into your Microsoft SQL Server database using `35.175.75.15
 
 ### Troubleshooting
 
-If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](../connecting-via-tunnels/connecting-via-ssh-tunnel.md).
+If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](../../connecting-via-tunnels/connecting-via-ssh-tunnel.md).
 
 Once a tunnel has been created, make sure to choose the SSH Tunnel in the drop down list when inputting your credentials for the integration.
 

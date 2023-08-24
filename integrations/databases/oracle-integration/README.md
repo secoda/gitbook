@@ -2,7 +2,11 @@
 description: This page walks through the Secoda and Oracle integration that Secoda supports
 ---
 
-# Oracle Integration
+# Oracle
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 ## **Getting Started with Oracle** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 

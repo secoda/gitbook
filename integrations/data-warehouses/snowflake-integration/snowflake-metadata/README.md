@@ -13,7 +13,7 @@ Secoda pulls the following metadata from Snowflake:
   * Description
   * Owners
   * Last Updated Timestamp
-  * External Usage
+  * External Usage (Popularity)
   * Schema
   * Database
   * Frequent Users

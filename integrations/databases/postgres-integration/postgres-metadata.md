@@ -6,12 +6,13 @@ description: List of all the metadata that Secoda pulls from Postgres
 
 Secoda pulls the following metadata from Postgres:
 
-* Tables
+* Tables and Views
   * Name
   * Description
   * Last Updated Timestamp
   * Schema
   * Database
+* View Definition (Table Creation Query)
 * Columns
   * Name
   * Description
@@ -28,8 +29,11 @@ Secoda pulls the following metadata from Postgres:
   * Percent Filled&#x20;
   * Unique
 * Lineage
-  * Column -> Column relationships
-  * Table -> Table relationships
-  * Table -> Dashboard relationships
-  * ETL Job -> Table relationships
+  * Postgres Table <-> Postgres Table
+  * Postgres View <-> Postgres Table
+  * Postgres View <-> Postgres Column
+  * Postgres Column <-> Postgres Column
+  * Postgres Table/View <-> Tables from other sources
+  * Postgres Table/View <-> Dashboards from other sources
+  * Postgres Table/View <-> Jobs from other sources
 * Preview of first 50 rows (Optional)

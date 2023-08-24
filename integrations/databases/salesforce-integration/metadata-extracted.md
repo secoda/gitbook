@@ -12,13 +12,18 @@ Secoda pulls the following metadata from Salesforce:
   * Fields
     * Title
     * Description
-  * \[Supports Previews and Queries]
 * Dashboard
   * Title
   * Description
   * Last updated timestamp
   * URL
-* Reports
+* Reports (Reports are referred to as Charts in Secoda)
   * Title
   * Description
   * URL
+* Lineage
+  * Salesforce Table <-> Salesforce Table
+  * Salesforce Table <-> Salesforce Report
+  * Salesforce Report <-> Salesforce Dashboard
+  * Salesforce Tables/Reports <-> Jobs from other sources
+* Preview of S Objects (Optional)
