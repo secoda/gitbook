@@ -13,6 +13,16 @@ Secoda pulls the following metadata from Snowflake:
   * Description
   * Owners
   * Last Updated Timestamp
+  * External Usage
+  * Schema
+  * Database
+  * Frequent Users
+* Views (Views are referred to as Tables in Secoda)
+  * Name
+  * Description
+  * Owners
+  * Last Updated Timestamp
+  * External Usage
   * Schema
   * Database
   * Frequent Users
@@ -34,18 +44,22 @@ Secoda pulls the following metadata from Snowflake:
 * Creation Query
 * Common Queries
 * Lineage
-  * Column -> Column relationships
-  * Table -> Table relationships
-  * Table -> Dashboard relationships
-  * ETL Job -> Table relationships
+  * Snowflake Column <-> Snowflake Column
+  * Snowflake Table <-> Snowflake Table
+  * Snowflake Table <-> Dashboards from other sources
+  * Snowflake Table <-> Jobs from other sources
+  * Snowflake Column <-> Snowflake View
+  * Snowflake Table <-> Snowflake View
 * Preview of first 50 rows (Optional)
 
 ## Metadata pushed
 
 If enabled, Secoda pushes the following metadata to Snowflake:
 
-* Tables - Description
-* Columns - Description
+* Tables
+  * Description
+* Columns
+  * Description
 
 It only looks at the tables that have been published and all of their columns. If a table isn't published in Secoda and you run a sync, it will not push back to the source.
 

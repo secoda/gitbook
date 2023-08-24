@@ -31,23 +31,22 @@ Secoda pulls the following metadata from BigQuery:
   * Statistic Value Count
   * Percent Filled&#x20;
   * Unique
-* Creation Query
-* Common Queries
+* Stored Procedures (Stored Procedures are referred to as Creation Queries in Secoda)
+* Queries (Popularity)
 * Lineage
-  * Column -> Column relationships
-  * Table -> Table relationships
-  * Table -> Dashboard relationships
-  * ETL Job -> Table relationships
+  * BQ Column <-> BQ Column
+  * BQ Table <-> BQ Table
+  * BQ Column <-> BQ View
+  * BQ Table <-> Tables from other sources
+  * BQ Table <-> Dashboards from other sources
+  * BQ Table, Views <-> Runs from other sources
 * Preview of first 50 rows (Optional)
 
 ## Metadata pushed
 
 If enabled, Secoda pushes the following metadata to BigQuery:
 
-Tables
-
-* Description
-
-Columns
-
-* Description
+* Tables
+  * Description
+* Columns
+  * Description

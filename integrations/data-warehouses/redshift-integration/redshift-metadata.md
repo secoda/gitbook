@@ -13,11 +13,15 @@ Secoda pulls the following metadata from Redshift:
   * Description
   * Schema
   * Database
-* Views
+  * External Usage (Popularity)
+  * External Updated At
+* Views (Views are referred to as Tables in Secoda)
   * Name
   * Description
   * Schema
   * Database
+  * External Usage (Popularity)
+  * External Updated At
 * Columns
   * Name
   * Description
@@ -36,19 +40,20 @@ Secoda pulls the following metadata from Redshift:
 * Creation Query
 * Common Queries
 * Lineage
-  * Column -> Column relationships
-  * View -> View relationships
-  * Table -> Table relationships
-  * Table -> View relationships
-  * View -> Table relationships
-  * View Column -> Table/View Column reationships
-  * Table -> Dashboard relationships
-  * ETL Job -> Table relationships
+  * Redshift Column <-> Redshift Column
+  * Redshift View <-> Redshift View
+  * Redshift Table <-> Redshift Table
+  * Redshift Table <-> Redshift View
+  * Redshift Table <-> Dashboards from other sources
+  * Redshift Table <-> Tables from other sources
+  * Redshift Table, Views <-> Jobs from other sources
 * Preview of first 50 rows (Optional)
 
 ## Metadata pushed
 
 If enabled, Secoda pushes the following metadata to Redshift:
 
-* Tables - Description
-* Columns - Description
+* Tables
+  * Description
+* Columns
+  * Description
