@@ -18,4 +18,8 @@ You are also able to filter on the metrics in the dashboard. In the gif below, y
 
 <figure><img src="../.gitbook/assets/Kapture 2023-07-17 at 13.41.22.gif" alt=""><figcaption></figcaption></figure>
 
+Another important metric you can filter for here is **undocumented popular resources**. This would be an important metric to know about so that you can make sure to build out the documentation since your users are often visiting these resources.&#x20;
+
+<figure><img src="../.gitbook/assets/Kapture 2023-08-28 at 15.22.37.gif" alt=""><figcaption></figcaption></figure>
+
 Reach out to us if there are other metrics that you'd like to see in this dashboard!
