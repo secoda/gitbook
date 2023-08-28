@@ -7,7 +7,6 @@ Secoda pulls the following metadata from Glue:
 * Tables/Views
   * Name
   * Description
-  * Owners
   * Last Updated Timestamp
   * Usage (Popularity)
   * Schema
