@@ -6,7 +6,6 @@
   * Report Name
   * Report Description
   * Report Last Updated Time
-  * Report Owners
   * Report URL
 * Charts
   * Chart Name

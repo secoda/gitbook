@@ -11,7 +11,6 @@ Secoda pulls the following metadata from BigQuery:
 * Tables/Views
   * Name
   * Description
-  * Owners
   * Last Updated Timestamp
   * Schema
   * Database

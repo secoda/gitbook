@@ -8,9 +8,11 @@ NOTE: Preview of Tableau resources is available in Secoda if permissions are gra
   * Name
   * Description
   * Columns
+  * Owners
 * Embedded Datasource (Embedded Datasources are referred to as Tables in Secoda)
   * Name
   * Columns
+  * Owners
 * Workbooks (Workbooks are referred to as Dashboards in Secoda)
   * Name
   * Description
