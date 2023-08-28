@@ -2,7 +2,7 @@
 
 ## Metadata Pulled
 
-Secoda pulls the following metadata from MySQL:
+Secoda pulls the following metadata from Microsoft SQL Server:
 
 * Tables and Views
   * Name
@@ -25,7 +25,9 @@ Secoda pulls the following metadata from MySQL:
   * Statistic Value Count
   * Percent Filled&#x20;
   * Unique
-* Stored Procedures (Queries)
+* MS SQL Stored Procedures
+  * Creates lineage between the tables that are in the stored procedure&#x20;
+  * Adds the stored procedure under the Queries tab of the associated tables
 * Lineage
   * MS SQL Table <-> MS SQL Table
   * MS SQL Column <-> MS SQL Column

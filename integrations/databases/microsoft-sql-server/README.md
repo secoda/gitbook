@@ -18,7 +18,7 @@ There are three steps to get started using Microsoft SQL Server with Secoda:
 2. Connect Microsoft SQL Server to Secoda
 3. Whitelist Secoda IP Address
 
-#### **Create a Database User** <a href="#h_4dd83bd377" id="h_4dd83bd377"></a>
+### **Create a Database User** <a href="#h_4dd83bd377" id="h_4dd83bd377"></a>
 
 The username and password you’ve already created for your cluster is your admin password, which you should keep for your own usage. For Secoda, and any other 3rd-parties, it is best to create distinct users.
 
@@ -34,7 +34,7 @@ GRANT SELECT ON DATABASE <yourdbname> TO secoda;
 
 When connecting to Microsoft SQL Server in Secoda, use the username/password you’ve created here instead of your admin account.
 
-#### **Connect Microsoft SQL Server to Secoda** <a href="#h_dc83b40ac9" id="h_dc83b40ac9"></a>
+### **Connect Microsoft SQL Server to Secoda** <a href="#h_dc83b40ac9" id="h_dc83b40ac9"></a>
 
 After creating a Microsoft SQL Server user, the next step is to connect Secoda:
 
@@ -49,7 +49,7 @@ VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re 
 
 Allow Secoda to read into your Microsoft SQL Server database using `35.175.75.15/32` and `34.230.160.245/32`
 
-### Troubleshooting
+## Troubleshooting
 
 If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](../../connecting-via-tunnels/connecting-via-ssh-tunnel.md).
 
