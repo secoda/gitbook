@@ -8,9 +8,15 @@ Within Secoda, you can find past questions, as well as pose a new questions to t
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2016.19.21.gif" alt=""><figcaption></figcaption></figure>
 
-Once a question is submitted in the UI, teammates can comment on the question and editors can verify the correct answer (or provide a different answer). Once an answer has been chosen by the admin (indicated by a green checkmark), others can find it through a search if they have a similar question.
+Once a question is submitted in the UI, teammates can comment on the question and editors can verify the correct answer (or provide a different answer). Once an answer has been chosen by the admin (indicated by a green checkmark), it will be indexed in the central search for any future employee who asks a similar question.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/question.png)
+Each Question has the sidebar metadata (see below) so that the person asking the question can indicate the Priority, add it to any Collections or Teams etc. Admins and Editors can also delete incorrect answers or comments.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 2.01.46 PM.png" alt=""><figcaption></figcaption></figure>
+
+If you'd like to see all of the unanswered Questions, you can sort by Status.&#x20;
+
+<figure><img src="../../.gitbook/assets/Kapture 2023-08-28 at 14.08.44.gif" alt=""><figcaption></figcaption></figure>
 
 Learn more about our Questions feature by exploring the pages below!
 
@@ -18,8 +24,8 @@ Learn more about our Questions feature by exploring the pages below!
 [asking-questions-from-slack.md](asking-questions-from-slack.md)
 {% endcontent-ref %}
 
-{% content-ref url="answering-questions/" %}
-[answering-questions](answering-questions/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="templates.md" %}
