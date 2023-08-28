@@ -95,3 +95,4 @@ The Chrome extension supports resources in the following tools:
 * [PowerBI](../integrations/data-visualization-tools/power-bi/): Dashboards, Reports
 * [Snowflake](../integrations/data-warehouses/snowflake-integration/) (via Snowsight): Schemas, Tables, Views
 * [BigQuery](../integrations/data-warehouses/bigquery-integration/): Schemas, Tables, Views
+* [Sigma](../integrations/data-visualization-tools/sigma-integration/): Workbooks, Elements, Pages
