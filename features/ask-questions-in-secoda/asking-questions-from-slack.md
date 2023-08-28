@@ -4,29 +4,31 @@ description: How to ask questions about your data directly from Slack.
 
 # Asking Data Questions from Slack
 
-Check out our page on using the AI within Slack to ask data requests: [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention")
+You are able to ask questions from Slack a few different ways. First, you’ll need to make sure Secoda is connected to your Slack workspace. Ask your workspace Admin for assistance here, or if you're the Admin you can set this up: [#how-to-set-up](../../integrations/productivity-tools/slack-connection/#how-to-set-up "mention").
 
-## Use Slack to Search and Ask on Secoda
+## Use Slack to get AI Responses
 
-First, you’ll need to connect Secoda to your Slack workspace following these instructions.
+If you'd like to quickly get an AI generated response, you can ask the Secoda AI Assistant directly from your team's designated Data Requests Slack channel. These can then be published to your Secoda instance with one click. Read more about that here [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention")
 
-After you’ve done so, anyone in your Slack workspace can ask a question using a Slack command: `/ask,` followed by their question.
+## Use Questions template in Slack
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+If you'd like to submit a Question using the [Questions template ](templates.md)that your workspace Admin has created, you can follow these steps.&#x20;
 
-From here, you'll be prompted to ask your question and submit information to follow up. If you're an admin, if you make a [question template](templates.md) the default, the template will show up on this Slack question form.
+Use the Slack command: `/ask,` followed by your question. See how it gives you the option to ask the Secoda AI Assistant here as well.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.20%20PM.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 1.58.19 PM.png" alt=""><figcaption></figcaption></figure>
+
+From here, you'll be prompted to ask your question and submit the following information.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 1.47.03 PM.png" alt=""><figcaption></figcaption></figure>
+
+The Question will then appear in the Questions UI within Secoda. Once it's answered, you will receive a notification in Slack.
+
+![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.10.05%20PM%20\(1\).png)
 
 You can view your asked questions by going into the Secoda app and going to the Questions tab or going to the Slack channel that has been set up to receive notifications from Secoda.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.34%20PM.png)
-
-When this question is answered, you will receive a notification.
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.10.05%20PM%20\(1\).png)
-
-To respond to incoming and new questions, head to the Secoda app, click on questions, and you’ll see all of the questions that have been asked and answered.
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

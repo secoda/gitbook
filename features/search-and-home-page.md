@@ -1,5 +1,5 @@
 ---
-description: How to use Search within Secoda and explore your Home page
+description: Best practices for how to use Search within Secoda
 ---
 
 # Search
@@ -7,6 +7,16 @@ description: How to use Search within Secoda and explore your Home page
 Search is super important to Secoda users and we are constantly improving the functionality to provide the best experience.
 
 You can search for any data resource using Secoda's search, including tables, columns, collections, dictionary terms, documents, and questions. You can search for terms in plain language, or by the table name and data source if you already know what you're looking for.
+
+## How to Search
+
+When you first click into Search at the top of any page in Secoda, it'll show your workspace's Popular resources as well as your personal Recent searches.
+
+<figure><img src="../.gitbook/assets/Kapture 2023-08-28 at 14.42.42.gif" alt=""><figcaption></figcaption></figure>
+
+You can also search directly from the Home page or from the Search sidebar.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 2.44.25 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Search Tips & Tricks
 
@@ -23,7 +33,7 @@ The [Secoda AI](https://www.secoda.co/blog/transforming-data-discovery-using-sec
 You’re able to sort by Relevance, Popularity, Last modified and Date created.
 
 * Relevance is measured by your personal usage (tables, dashboards, docs that you’ve worked on and are relevant to you)
-* Popularity is measured by how often a resource is clicked into in your workspace as well as how often it’s queried outside of the workspace
+* Popularity is measured by how often a resource is clicked into in your workspace as well as how often it’s queried outside of the workspace (Read more about this [popularity.md](popularity.md "mention"))
 * Last modified will show you the most recently _updated_ resources
 * Date created will show you the most recently _created_ resources
 

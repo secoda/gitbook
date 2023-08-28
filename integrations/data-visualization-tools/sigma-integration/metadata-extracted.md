@@ -2,19 +2,26 @@
 
 ### What does Secoda extract from Sigma?
 
-* Elements (Elements are referred to as Charts in Secoda)
-  * Element Name
-  * Element URL
 * Workbooks (Workbooks are referred to as Dashboards in Secoda)
   * Workbook Name
   * Workbook Updated At
   * Workbook Owners
   * Workbook URL
+* Pages (Pages are referred to as Dashboards in Secoda)
+  * Page Name
+  * Page URL
+* Elements (Elements are referred to as Charts in Secoda)
+  * Element Name
+  * Element URL
+* Badges (Badges are referred to as Tags in Secoda)
+  * Name
 * Queries
 * Lineage
   * Sigma Element <-> Sigma Workbook
   * Sigma Query <-> Sigma Element
   * Sigma Query <-> Sigma Workbook
+  * Sigma Page -> Sigma Workbook
+  * Sigma Element -> Sigma Page
   * Sigma Query <-> Tables from other sources
     * Note: These lineage relationships will pass through the Query to the Workbooks and Elements that that Query connects to.&#x20;
 
