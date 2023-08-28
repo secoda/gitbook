@@ -18,7 +18,7 @@ We are currently pulling this data from the following BI tools and data warehous
 * [Snowflake](../integrations/data-warehouses/snowflake-integration/)
 * [Redshift](../integrations/data-warehouses/redshift-integration/)
 * [BigQuery](../integrations/data-warehouses/bigquery-integration/)
-* [Glue](../integrations/data-pipeline-tools/aws-glue-integration.md)
+* [Glue](../integrations/data-pipeline-tools/aws-glue-integration/)
 
 By default, all columns in a table, all tables in a database, all dashboards in a BI tool will be ordered by the popularity in Secoda so you can always see what's being used most frequently.&#x20;
 

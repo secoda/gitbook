@@ -6,6 +6,10 @@ description: >-
 
 # Polytomic
 
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
+
 ## Getting Started with Polytomic <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
 There are two steps to get started using Polytomic with Secoda:
