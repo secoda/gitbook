@@ -4,6 +4,10 @@ description: This page explains how to integrate Fivetran with Secoda
 
 # Fivetran
 
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
+
 ## Getting Started with Fivetran <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
 
 &#x20;There are two steps to get started using Fivetran with Secoda:

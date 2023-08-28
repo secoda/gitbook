@@ -4,7 +4,11 @@ description: >-
   supports
 ---
 
-# Airflow Integration
+# Airflow
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 ## **Getting Started with Airflow** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
