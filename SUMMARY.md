@@ -79,6 +79,7 @@
   * [Data Quality Tools](integrations/data-quality-tools/README.md)
     * [Great Expectations](integrations/data-quality-tools/great-expectations-integration.md)
   * [Productivity Tools](integrations/productivity-tools/README.md)
+    * [Confluence](integrations/productivity-tools/confluence.md)
     * [Git](integrations/productivity-tools/git-integration.md)
     * [Jira](integrations/productivity-tools/jira.md)
     * [Linear](integrations/productivity-tools/linear-integration.md)
