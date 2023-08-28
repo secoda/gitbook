@@ -1,3 +1,7 @@
+---
+description: Learn about our Questions feature here
+---
+
 # Questions
 
 There is a lot of information that isn't discoverable using metadata or metrics. Sometimes, questions to the data team are much more nuanced and require a person on the data team to answer.
@@ -22,10 +26,6 @@ Learn more about our Questions feature by exploring the pages below!
 
 {% content-ref url="asking-questions-from-slack.md" %}
 [asking-questions-from-slack.md](asking-questions-from-slack.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="templates.md" %}
