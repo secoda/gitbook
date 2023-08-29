@@ -1,7 +1,7 @@
 # Productivity Tools
 
-{% content-ref url="confluence.md" %}
-[confluence.md](confluence.md)
+{% content-ref url="confluence/" %}
+[confluence](confluence/)
 {% endcontent-ref %}
 
 {% content-ref url="git-integration.md" %}
