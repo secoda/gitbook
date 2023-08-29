@@ -70,7 +70,7 @@ Click **Add key**. You **DO NOT** need to provide write access
 
 Once in your GitLab repo, click on **Settings > Deploy keys** on the sidebar.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Set a title for your new key and then paste the key copied from Secoda into the **Key** text field.
 
