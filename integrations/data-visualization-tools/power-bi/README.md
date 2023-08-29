@@ -37,14 +37,14 @@ The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI worksp
 
 3. Ensure that the following permissions have been set in your Secoda (Power BI) Enterprise Application in Azure
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(1).png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(1\).png)
 
 4. After you've connected Power BI to Secoda go to [https://app.secoda.co/integrations](https://app.secoda.co/integrations)
 5.  Select your Power BI integration and go to **History > Run extraction > Metadata extraction** which will start an extraction for your Power BI integration.
 
-    ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(4)%20(1).png)
+    ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(4\)%20\(1\).png)
 
-### Self Managed
+### Self Managed (Azure Admin)
 
 Here are the steps to set up a self managed Power BI Azure AD App
 
@@ -91,21 +91,74 @@ Here are the steps to set up a self managed Power BI Azure AD App
      * Permission - select "Contributor"
      * Click **Add** button to add
      * Click **Close** button to confirm
-5. Connect PowerBI API to Secoda
-   * Go to the Secoda **Settings**. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
-   * Fill form in the required information:
-     * **Client ID:** Application ID of Azure AD. You'll see this after completing [step 1.6](./#1-create-an-azure-ad-app) of the instructions.
-     * **Client Secret:** Client secret of Application in Azure AD. You'll see this after completing [step 1.8](./#1-create-an-azure-ad-app) of the instructions.
-     * **Tenant ID:** Identifier of tenant of organization in Azure Active AD. You'll see this after completing [step 2.3](./#2-create-an-azure-ad-security-group) of the instructions.
-   * Click **Connect**
+5.  Connect PowerBI API to Secoda
 
-### Power BI Lineage (Optional)
+    * Go to the Secoda **Settings**. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
+    * Fill form in the required information:
+      * **Client ID:** Application ID of Azure AD. You'll see this after completing [step 1.6](./#1-create-an-azure-ad-app) of the instructions.
+      * **Client Secret:** Client secret of Application in Azure AD. You'll see this after completing [step 1.8](./#1-create-an-azure-ad-app) of the instructions.
+      * **Tenant ID:** Identifier of tenant of organization in Azure Active AD. You'll see this after completing [step 2.3](./#2-create-an-azure-ad-security-group) of the instructions.
+    * Click **Connect**
+
+
+
+### Self Managed (Azure Non-Admin)
+
+**Note:**  \
+This will pull in all data **except** for datasets created on Power BI desktop, including:&#x20;
+
+* Workspaces
+* Reports
+* Push Datasets
+* Dashboards
+* Dataflows
+
+#### Create an Azure AD Application
+
+1. Sign into Microsoft Azure
+2. Search for 'App registrations'
+3. Click 'New registration'
+4. Fill in required fields and register an application for Secoda
+5. Copy and save the Application (client) id &#x20;
+6. Copy and save the Directory (tenant) id
+7. Click 'New client secret'
+8. Add a secret for Secoda
+9. Copy the secret value somewhere safe
+
+#### Create security group
+
+1. Search for 'Azure Active Directory'
+2. Find 'Groups' in the sidebar and create a new group
+3. Create new group for the Secoda application
+4. Click into the newly created group - you may need to refresh the page for it to show up
+5. Find 'Members' in the sidebar and add members
+6. Find the previously created Secoda application and add members
+
+#### Enable API and admin API access for app registration in Power BI
+
+1. Click on 'API Permissions' in your App Registration
+2. Enable each of the API permissions below
+3. Request access if needed from an Azure Admin
+4. Once approved by an Admin, the Power BI account is ready to connect
+
+Note: These are safe to allow for non-admins and are necessary for a functional integration
+
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(1\).png)
+
+**Connect PowerBI API to Secoda**
+
+* Go to the Secoda **Settings**. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
+* Click on the 'Managed' tab
+* Fill in the **App (Client) ID, Directory (Tenant) ID,** your Microsoft **Username** and **Password**
+* Click **Connect**
+
+## Power BI Lineage (Optional)
 
 To extract Power BI datasets, the "Enhance admin APIs responses with detailed metadata" option in the admin panel must be toggled on.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(4).png" alt=""><figcaption></figcaption></figure>
 
-### Troubleshooting
+## Troubleshooting
 
 #### Expired access token
 

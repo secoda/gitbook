@@ -17,7 +17,7 @@ When a Confluence page is brought into Secoda, it'll transfer over and appear ve
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Example Confluence page in Confluence</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Example Confluence page after extraction by Secoda</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Example Confluence page after extraction by Secoda</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** Some basic Confluence body elements (such as header links, some emojis, etc.) do not directly transfer into Secoda, and may appear different in Secoda Documents. \
