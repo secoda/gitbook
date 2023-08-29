@@ -91,16 +91,20 @@ Here are the steps to set up a self managed Power BI Azure AD App
      * Permission - select "Contributor"
      * Click **Add** button to add
      * Click **Close** button to confirm
-5.  Connect PowerBI API to Secoda
-
-    * Go to the Secoda **Settings**. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
-    * Fill form in the required information:
-      * **Client ID:** Application ID of Azure AD. You'll see this after completing [step 1.6](./#1-create-an-azure-ad-app) of the instructions.
-      * **Client Secret:** Client secret of Application in Azure AD. You'll see this after completing [step 1.8](./#1-create-an-azure-ad-app) of the instructions.
-      * **Tenant ID:** Identifier of tenant of organization in Azure Active AD. You'll see this after completing [step 2.3](./#2-create-an-azure-ad-security-group) of the instructions.
-    * Click **Connect**
-
-
+5. Connect PowerBI API to Secoda **without** OAuth
+   * Go to the Secoda **Settings**. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
+   * Fill form in the required information:
+     * **Client ID:** Application ID of Azure AD. You'll see this after completing [step 1.6](./#1-create-an-azure-ad-app) of the instructions.
+     * **Tenant ID:** Identifier of tenant of organization in Azure Active AD. You'll see this after completing [step 2.3](./#2-create-an-azure-ad-security-group) of the instructions.
+     * **Username:** Your Microsoft Azure email account.
+     * **Password:** Your Microsoft Azure password.
+   * Click **Connect**
+6. Connect PowerBI API to Secoda with OAuth
+   * Click on the 'OAuth' tab at the top of the integration form
+   * Select associated teams for your PowerBI integration
+   * Click **Connect with OAuth** and follow the instructions on the following page
+7. Run Metadata Extraction
+   * Click **Run Initial Extraction**&#x20;
 
 ### Self Managed (Azure Non-Admin)
 
@@ -149,8 +153,13 @@ Note: These are safe to allow for non-admins and are necessary for a functional 
 
 * Go to the Secoda **Settings**. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
 * Click on the 'Managed' tab
-* Fill in the **App (Client) ID, Directory (Tenant) ID,** your Microsoft **Username** and **Password**
+* Fill form in the required information:
+  * **Client ID:** Application ID of Azure AD.
+  * **Tenant ID:** Identifier of tenant of organization in Azure Active AD.
+  * **Username:** Your Microsoft Azure email account.
+  * **Password:** Your Microsoft Azure password.
 * Click **Connect**
+* Click **Run Initial Extraction** to begin your PowerBI metadata extraction
 
 ## Power BI Lineage (Optional)
 
