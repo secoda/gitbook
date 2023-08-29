@@ -15,7 +15,7 @@ description: >-
 There are two options for setting up the Power BI integration on Secoda:
 
 1. OAuth with Secoda's managed Power BI Azure Enterprise Application (**Secoda Managed**)
-2. Create and manage a Power BI Azure Enterprise Application (**Self Managed**)
+2. Create and manage a Power BI Azure Enterprise Application (**Self Managed**) This can either use a) Admin APIs or b) Non-Admin APIs
 
 {% hint style="info" %}
 For either option, the user that connects Power BI to Secoda must be both:
