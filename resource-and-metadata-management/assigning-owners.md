@@ -25,7 +25,7 @@ After navigating to a Secoda resource, Editors and Admins can assign Owners by c
 
 Please see the [integrations](../integrations/ "mention")docs to see which integrations bring in ownership metadata.
 
-Try out the [propagating-metadata.md](editing-metadata/propagating-metadata.md "mention") & [bulk-editing-resources.md](editing-metadata/bulk-editing-resources.md "mention") features to bulk add owners to your resources.
+Try out the [propagating-metadata.md](add-documentation/propagating-metadata.md "mention") & [bulk-editing-resources.md](add-documentation/bulk-editing-resources.md "mention") features to bulk add owners to your resources.
 
 ## Being an owner
 

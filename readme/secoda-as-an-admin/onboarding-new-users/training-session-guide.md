@@ -68,7 +68,7 @@ Share your screen showing your Secoda workspace.
 
 #### Additional Features Demo
 
-You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows. For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using the Propagate metadata feature.
+You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows. For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../../best-practices/best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using the Propagate metadata feature.
 
 ### Next steps
 

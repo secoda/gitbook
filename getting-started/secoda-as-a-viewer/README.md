@@ -10,6 +10,7 @@ description: >-
 
 * [ ] [Secoda Intro Guide](../../readme/secoda-as-a-viewer/introduction-guide.md)
 * [ ] Explore [Search](../../features/search-and-home-page.md)
+* [ ] Read up on [best practices within Secoda](../../features/ai-assistant/best-practices.md)
 * [ ] Test out the AI Assistant - check out these [prompts for suggestions](../../features/ai-assistant/prompts.md)
 * [ ] Learn about [Collections](../../features/collections-1.md)
 * [ ] Check out ways to use the [Dictionary](../../features/metrics/) and [Documents](../../features/documents.md)

@@ -16,7 +16,7 @@ When rolling out a tool like Secoda, it is important to define roles within your
 * Who will be the data champions who will own the data resources? How do we define ownership?&#x20;
 * Which users and stakeholders will we onboard? Which Teams do we need to create, and which resources will they need access to?
 
-Once you have a grasp on the makeup of your Teams and users, [**roles**](../../user-management/roles/) can be assigned using our RBAC approach and [**Teams**](../../user-management/teams.md) can be created.&#x20;
+Once you have a grasp on the makeup of your Teams and users, [**roles**](../../user-management/roles/) can be assigned using our RBAC approach and [**Teams**](../../user-management/teams.md) can be created. Enforce ownership of critical data so that it is kept up to date.
 
 #### Identify critical data elements
 
@@ -28,7 +28,7 @@ It's important to start this initiative by identifying the data that most impact
 
 Start here since they are more likely to have a larger impact on more users.&#x20;
 
-Another way to identify critical data elements once you've integrated your data into Secoda is by using our [**Lineage feature**](../data-lineage.md). Members can look at the overall lineage and see which are some key nodes that touch a lot of parts of a pipeline. Read more about this idea here: [https://www.synq.io/blog/business-critical-data](https://www.synq.io/blog/business-critical-data).
+Another way to identify critical data elements once you've integrated your data into Secoda is by using our [**Lineage feature**](../../features/data-lineage.md). Members can look at the overall lineage and see which are some key nodes that touch a lot of parts of a pipeline. Read more about this idea here: [https://www.synq.io/blog/business-critical-data](https://www.synq.io/blog/business-critical-data).
 
 #### Enrich, enrich, enrich
 
@@ -44,9 +44,9 @@ Your users should feel confident using and **accessing** the right data, but we 
 This is why enrichment is so important to Secoda, and if done well, should answer all of the questions above. Add descriptions, ownership, and tagging to make your important resources easier to locate when searching within Secoda.
 
 {% hint style="info" %}
-Consider using our [**Verified identifier**](verified-tag.md) on resources that have checked the box on each of those questions, indicating that it is ready for use by your Members. Using this system will provide your users confidence and **reliability** in using the data.
+Consider using our [**Verified identifier**](../../resource-and-metadata-management/tags/verified-tag.md) on resources that have checked the box on each of those questions, indicating that it is ready for use by your Members. Using this system will provide your users confidence and **reliability** in using the data.
 
-To enable **security measures**, use our [**PII Identifier feature**](auto-pii-tagging.md) to tag sensitive resources to alert Members in your workspace.
+To enable **security measures**, use our [**PII Identifier feature**](../../resource-and-metadata-management/tags/auto-pii-tagging.md) to tag sensitive resources to alert Members in your workspace.
 {% endhint %}
 
 ####

@@ -20,8 +20,8 @@ In Secoda, metadata is the additional information you can provide to add context
 
 To edit metadata of more than one resource at a time, check out our **Editing Metadata** section below!
 
-{% content-ref url="editing-metadata/" %}
-[editing-metadata](editing-metadata/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 If you're looking to add some custom properties or tags, the pages linked with walk you through that process!
@@ -30,8 +30,8 @@ If you're looking to add some custom properties or tags, the pages linked with w
 [adding-custom-properties.md](adding-custom-properties.md)
 {% endcontent-ref %}
 
-{% content-ref url="custom-tags.md" %}
-[custom-tags.md](custom-tags.md)
+{% content-ref url="tags/custom-tags.md" %}
+[custom-tags.md](tags/custom-tags.md)
 {% endcontent-ref %}
 
 Learn how to assign owners to your resources, or relate resources to one another below!

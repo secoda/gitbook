@@ -2,7 +2,7 @@
 description: Learn about some best practices that we've seen work well!
 ---
 
-# Best practices for setting up your workspace
+# Setting up your workspace
 
 After your integrations are setup and you have all of your data in the product, you might consider how you want the layout of your workspace to look. In this doc, we’ll outline some best practices that we’ve seen work well for our customers.
 
@@ -43,22 +43,7 @@ The Homepage is the first thing your users will see when jumping into Secoda. En
 
 ## Automate documentation
 
-We have many features that assist in the automation of your documentation and enrichment within Secoda.
-
-* [**Propagate metadata**](../../resource-and-metadata-management/editing-metadata/propagating-metadata.md)
-  * You might find that a lot of your data resources are related, and it can become redundant having to manually update resources that should have the same tags and owners, for example.
-  * Our propagate metadata feature allows you to bulk edit these related resources!
-* [**AI Assistant**](../../features/ai-assistant/)
-  * Our AI Assistant can be utilized in many ways, and we find it extremely powerful when it comes to documentation.
-  * The Assistant reads the metadata in your workspace and can generate descriptions of your resources. Simply ask it to document any resource and see what it comes up with!
-* [**PII Identifier**](../../features/data-governance/auto-pii-tagging.md)
-  * The PII Identifier automatically flags potential PII data assets across your workspace by searching for keywords.
-  * You can even customize the list of keywords depending on how your organization defines personal information.
-* [**Slack integration**](../../integrations/productivity-tools/slack-connection/)
-  * With the Slack integration, you have the ability to ask the AI Assistant questions in Slack, get a response, and then automatically push those answers into your workspace.
-  * This means less redundancy with answering questions and additional documentation in the product.
-* [**APIs**](../../secoda-api.md)
-  * Use Secoda’s APIs to bulk edit the name, descriptions, and tags on your resources.
+We have many features that assist in the automation of your documentation and enrichment within Secoda. Check those out here: [automate-workflows.md](automate-workflows.md "mention")
 
 ## Integrate with Slack
 

@@ -2,7 +2,7 @@
 description: Seamlessly integrate Secoda with your Slack workspace
 ---
 
-# Slack Integration
+# Slack
 
 Connecting your workspace to Slack allows you to receive notifications from Secoda regarding changes in your workspace and ask questions about your data directly from Slack.
 
@@ -40,7 +40,7 @@ Overall, connecting Slack to Secoda can help your team stay updated, collaborate
 
 If you'd like to receive notifications as direct messages as well as in a channel, you can add the Secoda App to your Slack workspace.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-18%20at%2012.24.58%20PM.png)</figcaption></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-18%20at%2012.24.58%20PM.png)
 
 ## Secoda AI : Slack
 
@@ -76,7 +76,7 @@ To respond to incoming and new questions, head to the Secoda app, click on Quest
 
 ## Slack Notifications
 
-You can receive updates from Secoda in a Slack channel of your choice. If you're an admin, you'll receive notifications about documentation or schema changes. Anyone who is an owner or assignee on a question, document, or dictionary term will receive a notification when there has been an update or change related to that resource or any related resources.
+You can receive updates from Secoda in a Slack channel of your choice (set by the workspace admin). If you're an owner or subscriber of a resource, you'll receive notifications about documentation or schema changes to that resource. Anyone who is an owner or assignee on a question, document, or dictionary term will receive a notification when there has been an update or change related to that resource or any related resources.
 
 You can edit your Slack Notification preferences in the **Notifications** tab in the Slack Integration Settings, as well as in Account Settings.
 

@@ -4,7 +4,7 @@ description: >-
   and metadata to your data to enrich it for your users.
 ---
 
-# Start contextualizing your data
+# Editing Metadata
 
 ## Benefits to adding enrichment
 
@@ -21,23 +21,17 @@ There are many ways to add additional context your data in Secoda. Here are some
 
 ### Automating documentation
 
-Learn about the many ways to automate metadata management through [bulk editing](../../../resource-and-metadata-management/editing-metadata/bulk-editing-resources.md), [metadata propagation](../../../resource-and-metadata-management/editing-metadata/propagating-metadata.md), [assigning ownership](../../../resource-and-metadata-management/assigning-owners.md) and adding [custom column properties](../../../resource-and-metadata-management/adding-custom-properties.md)!
-
-**The Secoda AI Assistant** is also a great tool for automating descriptions and documents:
-
-{% content-ref url="../../../features/ai-assistant/" %}
-[ai-assistant](../../../features/ai-assistant/)
-{% endcontent-ref %}
+Learn about the many ways to automate metadata management [automate-workflows.md](../../readme/best-practices/automate-workflows.md "mention")&#x20;
 
 ### Manually add enrichment
 
 * Search for the dataset or click into the Catalog to find the data that you'd like to document
   * After you've selected the dataset you'd like to document, you'll be directed to the dataset overview page, which shows you the resources currently associated with that data set.
   * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.
-  * You can click the **Documents** tab and then begin adding additional documentation there. Read more about [Documents](https://docs.secoda.co/secoda-for-business-users/dictionary-and-documents#documents).
+  * You can click the **Documents** tab and then begin adding additional documentation there. Read more about [Documents](../../features/documents.md)[.](../../features/documents.md)
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""><figcaption></figcaption></figure>
 
-* Add [tags](../../../resource-and-metadata-management/custom-tags.md) such as PII, verified and custom tags to annotate the category and status of the data asset
-* [Link resources](../../../resource-and-metadata-management/relating-resources.md) to create relationships between them
-* [Add ownership](../../../resource-and-metadata-management/assigning-owners.md) details so that users know who to ask follow up questions about a dataset
+* Add [tags](../tags/) such as PII, verified and custom tags to annotate the category and status of the data asset
+* [Link resources](../relating-resources.md) to create relationships between them
+* [Add ownership](../assigning-owners.md) details so that users know who to ask follow up questions about a dataset

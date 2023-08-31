@@ -36,7 +36,7 @@ If permissions are provided, the data from the datasource can be read in the fol
 
 * When the Preview tab in Secoda is used. Preview is an optional feature that can be disabled for the workspace. For tables, the Preview tab will show 50 rows of data (excluding columns that are tagged as PII). For dashboards, we show an iFrame directly from the data source.&#x20;
 * When using [Query](features/queries/) blocks. If permissions are provided, Admins and Editors can write and execute queries directly on the source through Secoda.
-* When [Column Profiling](features/data-quality/column-profiling.md). In this instance, Secoda will analyze the Minimums, Maximums, Range, etc of the columns, which requires analysis of the data.&#x20;
+* When [Column Profiling](features/column-profiling.md). In this instance, Secoda will analyze the Minimums, Maximums, Range, etc of the columns, which requires analysis of the data.&#x20;
 
 Even if the data is read, it is never saved or logged by Secoda.
 

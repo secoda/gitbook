@@ -12,13 +12,24 @@ Secoda's AI Assistant is powered by [OpenAI's APIs](https://openai.com/product),
 
 ## Set Up
 
-By default, the AI Assistant is off. To toggle it on, you must go into your [Workspace Settings](https://app.secoda.co/settings/workspace), and scroll down to find the AI section.&#x20;
+By default, the AI Assistant is off. To toggle it on, you must go into your [Workspace Settings](https://app.secoda.co/settings/workspace), and scroll down to find the AI section.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
 
-Once the AI Search is enabled, you'll see the AI Assistant in the left hand menu.&#x20;
+Once the AI Search is enabled, you'll see the AI Assistant in the left hand menu.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.38%20PM.png" alt=""><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
+
+## How to use the AI Assistant
+
+You can use the AI Assistant within the Secoda app, as well as in your other workflows:
+
+* [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention") within Slack
+* [#chat-with-secoda-ai](../chrome-extension.md#chat-with-secoda-ai "mention") using the Chrome extension in other supported data tools
+
+Check out our best practices for using the AI Assistant here [best-practices.md](best-practices.md "mention").
+
+Use the AI to generate descriptions for your data directly in the Catalog. Read more [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
 
 ## Future Improvements
 
@@ -27,8 +38,7 @@ We are very excited about the Secoda AI Assistant, and are regularly making impr
 * Quicker and more reliable performance
 * Better understanding of prompts
 * Role and access based answers
-* Slack integration
-* And more!&#x20;
+* And more!
 
 {% hint style="info" %}
 Secoda AI Assistant is only available for Version 7.0.0 and up. If you are running Secoda On Premise or using a managed Instance, this functionality may not be available for you yet. Stay tuned!
