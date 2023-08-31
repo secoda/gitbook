@@ -15,7 +15,7 @@ You can change how often you receive these notifications, where you'll receive t
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(1)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-One of the more important notification types that you might consider configuring are **notifications for schema changes**. These will alert you when new columns are added to the schema, and therefore are ready to be documented within Secoda. Set these up in Settings by going to Notifications > Extractions > Table schema changed.
+One of the more important notification types that you might consider configuring are **notifications for schema changes**. These will alert data owners & subscribers when new columns are added to the schema, and therefore are ready to be documented within Secoda. Set these up in Settings by going to Notifications > Extractions > Table schema changed.
 {% endhint %}
 
 ### In-App Notifications
@@ -28,7 +28,7 @@ Email notifications are sent to the email that are associated with your Secoda a
 
 ### Slack Notifications
 
-Read up on how to configure your notifications to be sent to Slack here [#slack-notifications](notifications.md#slack-notifications "mention").
+Read up on how to configure your notifications to be sent to Slack here [#slack-notifications](../integrations/productivity-tools/slack-connection/#slack-notifications "mention").
 
 ## Subscribe to resource changes
 
