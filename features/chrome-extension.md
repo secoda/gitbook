@@ -96,3 +96,4 @@ The Chrome extension supports resources in the following tools:
 * [Snowflake](../integrations/data-warehouses/snowflake-integration/) (via Snowsight): Schemas, Tables, Views
 * [BigQuery](../integrations/data-warehouses/bigquery-integration/): Schemas, Tables, Views
 * [Sigma](../integrations/data-visualization-tools/sigma-integration/): Workbooks, Elements, Pages
+* [Mode](../integrations/data-visualization-tools/mode/): Reports, Charts
