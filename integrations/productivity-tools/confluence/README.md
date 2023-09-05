@@ -27,18 +27,18 @@ Once logged in, follow these steps to create a token:
 1. Click on the profile icon in the top right
 2. Click on ‘Manage Account’
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-28 at 2.52.59 PM.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-28%20at%202.52.59%20PM.png)
 
 3. Ensure you are on the ‘Profile and visibility’ tab
 4. Scroll to the bottom to retrieve the email address being used
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-28 at 2.55.02 PM.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-28%20at%202.55.02%20PM.png)
 
 5. Select the ‘Security’ tab at the top of the page
 6. Select the ‘[Create and manage API tokens](https://id.atlassian.com/manage-profile/security/api-tokens)’ link under the API token subtitle
 7. Select the ‘Create API token’ button and give it a label
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-28 at 2.58.58 PM.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-28%20at%202.58.58%20PM.png)
 
 8. Copy and save the API token, as it can’t be accessed again
 
@@ -48,7 +48,7 @@ The domain name is the name given to the Confluence workspace containing spaces.
 
 The domain name can also be retrieved from the [Atlassian Start](https://start.atlassian.com/) page, under the Confluence image.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-28 at 3.00.17 PM.png" alt=""><figcaption><p>An example of a domain name is highlighted below the Confluence icon</p></figcaption></figure>
+![An example of a domain name is highlighted below the Confluence icon](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-28%20at%203.00.17%20PM.png)
 
 ### Connect Confluence to Secoda
 
@@ -60,7 +60,7 @@ After retrieving the API token and domain name, the next step is to connect to S
 4. Once successfully connected, a prompt labeled `Schema` will appear which corresponds to Confluence spaces. Select the spaces you want to integrate into Secoda
 5. Run the initial extraction
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-28 at 3.04.45 PM.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-08-28%20at%203.04.45%20PM.png)
 
 ## After Connecting to Secoda
 
