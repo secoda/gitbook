@@ -12,6 +12,7 @@ description: >-
 2. Under Workspace settings, select `Tags`
 3. Click the `Create tag` button to create a new tag
 4. Enter Name, Tag Description, and choose a logo and color to represent the tag
+   1. The number you see under the Tag is the Hex code for the colour of the tag which can be customized
 
 <figure><img src="../../.gitbook/assets/Kapture 2023-08-23 at 11.11.19 (1).gif" alt=""><figcaption></figcaption></figure>
 
