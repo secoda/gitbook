@@ -4,6 +4,92 @@ description: The highlights of the releases for Secoda’s product can be found 
 
 # Secoda Change log
 
+### September 5, 2023 (Release 7.5.5)
+
+* Released Confluence Integration
+* Released AI in Description Editor
+* Updated integration icons
+* Fixed job lineage is not loading
+* Fixed Sigma failing due to NoneType error
+* Fixed Quicksight failing due to API change
+* Fixed Tableau dashboards getting staled
+* Removed Ask AI from Search where AI Assistant is off
+* Fixed database filter not matching database in search
+* Fixed unable to scroll on documents when creating a template
+* Fixed Chrome extension popular resources link broken
+* Fixed error message in invite modal using index
+* Fixed question analytics issues
+* Fixed Home page inbox widget title and content copy being inaccurate
+* Fixed Assigned To is blank in Slack notification
+* Removed default deactivated user
+* Fixed Incorrect grammar on Chrome Extension resource can't be found message
+
+{% embed url="https://www.loom.com/share/7b0433bec52e4d2d9f07e1b582554a67?sid=ee21bc80-eb8a-4c8b-8340-9ac98081002d" %}
+
+### August 25, 2023 (Release 7.5.2)
+
+* Added MongoDB Integration
+* Added Sigma as Chrome extension supported tool
+* Added support for debouncing email notifications
+* Updated email notification content
+* Added preventing sync from being triggered if already running
+* Added preventing push back to system tables in Snowflake
+* Fixed related tab on the resource page not working
+* Fixed export column metadata not loading
+* Fixed Redshift tables showing as Untitled
+* Fixed viewers unable to download query table
+* Fixed missing columns from search
+* Fixed BigQuery URL not matching on Chrome extension
+* Fixed column sorting within Postgres tables not matching on Secoda
+* Fixed data profiling not working on Snowflake
+* Fixed Tableau side bar not showing
+
+### August 19, 2023 (Release 7.5.0)
+
+* Released Chrome Extension
+* Released new Questions UI
+* Added support for Sigma Pages syncing
+* Added support for Postgres -> Sigma lineage
+* Added support for MS SQL Stored Procedures
+* Added search bar suggestions
+* Fixed recursion Integration failure
+* Fixed Tableau not valid UUID failure
+* Fixed Databricks test connection broken
+* Fixed invited users not added to default team
+* Fixed question template is not recording responses
+* Fixed being unable to edit document after inactivity
+* Fixed collections showing out of order in sidebar
+* Fixed database filter is not working in Search
+* Added support for showing service accounts in owner selector for Sigma resources
+* Added disable automatic staling option on an integration
+* Fixed the apply request access error when already added to team
+* Fixed Snowflake lineage edge cases for Clover
+* Fixed including Databricks in list of dbt prerequisite integrations
+* Fixed access request notification issues
+* Fixed duplicate questions created from Slack
+* Fixed full name not matching on search
+* Fixed external updated at on catalog showing Invalid date
+* Fixed clicking on Tableau column schema in catalog redirects to undefined URL
+* Added support for cased titles for csv integraton
+* Fixed Snowflake failing when pushing metadata to source
+* Fixed Looker charts sync error
+* Fixed Salesforce links to incorrect external URL
+* Fixed Sigma syncs failing due to URL error
+
+### August 14, 2023 (Release 7.4.9)
+
+* Released Jira integration
+* Added support for Redshift to push metadata back to the source
+* Show custom properties in quick/peek view
+* Table bulk actions UI update
+* Added Request access button on Access Denied page
+* Added service account notification setting
+* Added support for expanding AI input box vertically
+* Added setting for width of documents
+* Added disablement of users instead of removal
+* Added a warning modal before deleting tags
+* Fixed notifications not sending for question replies
+
 ### August 2, 2023 (Release 7.4.7)
 
 * Added the Mixpanel Integration
