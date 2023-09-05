@@ -4,7 +4,7 @@ The AI Assistant can now be embedded into your Catalog for one-click bulk edits 
 
 ## How does it work
 
-The AI Assistant comes up with descriptions for your resources based on the metadata that already exists in your workspace. You are able to accept the description, ask for more iterations, as well as directly edit and override them. It also matches the tone that is used in other descriptions across your workspace.
+The AI Assistant comes up with descriptions for your resources based on the metadata that already exists in your workspace. You are able to accept the description, ask for more iterations, as well as directly edit and override them. It also matches the tone, length of writing and other characteristics of descriptions that already exist across your workspace.
 
 ## How to add AI-generated descriptions
 
