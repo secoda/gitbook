@@ -40,5 +40,9 @@ With Secoda, users shouldn't have to change current behaviors to engage with the
 
 ### [confluence](../../integrations/productivity-tools/confluence/ "mention") Integration
 
-* Connect the Confluence integration so that users don't have to change their current behavior of documenting there
-* Documentation from Confluence becomes easily searchable within Secoda, as well as Slack once you connect the Slack integration
+* Connect the Confluence integration to bring in content from Confluence spaces and pages&#x20;
+* Why integrate Confluence?
+  * Users don't have to change their current behavior of documenting there
+  * Documentation from Confluence becomes easily searchable within Secoda, as well as from Slack after you connect the Slack integration
+  * Ask the AI assistant questions about what exists in Confluence to speed up documentation and discovery
+  * Link documents to related resources like tables in the Catalog, or metrics in the Dictionary
