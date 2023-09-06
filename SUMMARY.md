@@ -19,7 +19,7 @@
   * [Best Practices](readme/best-practices/README.md)
     * [Setting up your workspace](readme/best-practices/best-practices-for-setting-up-your-workspace.md)
     * [Integrating Secoda into existing workflows](readme/best-practices/integrating-secoda-into-existing-workflows.md)
-    * [Automate documentation](readme/best-practices/automate-workflows.md)
+    * [Documentation best practices](readme/best-practices/automate-workflows.md)
     * [Dictionary best practices](readme/best-practices/dictionary-best-practices.md)
     * [Data Governance](readme/best-practices/data-governance.md)
     * [Data Quality](readme/best-practices/data-quality.md)
