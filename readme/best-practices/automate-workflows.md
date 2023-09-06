@@ -4,9 +4,9 @@ description: >-
   data team.
 ---
 
-# Automate documentation
+# Documentation best practices
 
-By leveraging Secoda, data teams can automate manual and repetitive tasks which would improve these processes in terms of efficiency. This page provides some common customer use cases for leveraging Secoda's features to save time.
+By leveraging Secoda, data teams can automate manual and repetitive tasks which would improve these processes in terms of efficiency. This page provides some common solutions for leveraging Secoda's features to save time.
 
 ## Automate enrichment within Secoda
 
@@ -59,6 +59,12 @@ ROT data (Redundant, Obsolete, Trivial) is data that is no longer relevant or of
 [removing-stale-data.md](../../features/removing-stale-data.md "mention")
 
 * Identifies and hides any stale data across your workspace
+
+## Identify what needs to be documented
+
+If you'd like to identify which resources have not been documented yet, you can do so by following these steps to [#search-within-the-catalog](../../features/search-and-home-page.md#search-within-the-catalog "mention").
+
+If you'd like to be notified of changes that may result in a need for updated documentation, you can subscribe to schema change notifications for those particular resources. Set those up here[#h\_3a4bfd6458](../../features/notifications.md#h\_3a4bfd6458 "mention").
 
 
 
