@@ -23,3 +23,5 @@ When a Confluence page is brought into Secoda, it'll transfer over and appear ve
 **Note:** Some basic Confluence body elements (such as header links, some emojis, etc.) do not directly transfer into Secoda, and may appear different in Secoda Documents. \
 Confluence plug-ins are not supported, so in-body plugins will have inconsistent transformation to Secoda Documents.
 {% endhint %}
+
+Read more about why you might integrate with Confluence [**here**](../../../readme/best-practices/integrating-secoda-into-existing-workflows.md#integration-1).
