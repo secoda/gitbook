@@ -22,7 +22,7 @@ Once you are ready to upload your new metadata, you can use the import button to
 
 ### **Importing metadata into Secoda**
 
-If you have set up a documentation tool at your organization you can migrate your descriptions to Secoda following these steps.
+If you have set up a documentation tool (Excel, G-Sheet etc.) at your organization you can migrate your descriptions to Secoda following these steps.
 
 1. Prepare your CSV
 2. Update metadata in CSV
@@ -33,13 +33,13 @@ If you have set up a documentation tool at your organization you can migrate you
 You can either export your data from Secoda to a csv, or start from scratch. The only requirements for importing are:
 
 1. The file format must be csv
-2. The file must have the following **required** columns:
-   * **id -** Leave blank if it's a new resource, i.e dictionary term
+2. The file must have the following **required** columns (the required column headers are below in bold, and must be lowercase):
+   * **id -** Leave this blank if it's a new resource (i.e dictionary term)
    * **title -** The name of the resource
-   * **entity\_type** - Can be table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event
+   * **entity\_type** - Can be any of the following - table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event
 3. The file can have the following **optional** columns:
-   * **description**
-   * **definition** - This is markdown documentation for the resource
+   * **description** - This is one-liner description of the resource
+   * **definition** - This is for longer readmes to add additional context, that has markdown capabilities
    * **pii** - This is the PII tag and can be TRUE, FALSE, or blank
    * **verified -** This is the Verified tag and can be TRUE, FALSE, or blank
    * **published -** This is the status and can be TRUE, FALSE, or blank
