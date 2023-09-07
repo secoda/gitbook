@@ -32,6 +32,7 @@ We've put together some ideas around best practices when building out a Dictiona
   * Define company jargon and acronyms that can often get confusing for new hires
 * Team-specific dictionaries
   * Define terms by Team, based on which team _owns_ those metrics and therefore owns the documentation of them
+* Consider[#nesting-terms](../../features/metrics/#nesting-terms "mention") so that they are easier to navigate for your users
 
 #### Enrich dictionary metrics
 
