@@ -1,15 +1,21 @@
-# Documenting Queries
+# Extracted Queries
 
-By clicking on queries in Secoda, you can add documentation to them and share them with others. In addition, you can also add the following documentation to queries:&#x20;
+Extracted queries are pulled in directly from the integration. Secoda extracts the Query History as well as the Creation Query for the resource.
 
-* Add queries to collections
-* Add tags to queries
-* Add owners to queries
-* Change the query name and description
-* Bookmark queries
-* Add queries to groups
-* Verify queries
+## Query History
 
-Below is an example of how you can easily document queries in Secoda:
+By clicking on Queries tab from a resource in Secoda, you can see the query history for that resource. Query history is extracted for:
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/query.gif)
+* [snowflake-integration](../../integrations/data-warehouses/snowflake-integration/ "mention")
+* [redshift-integration](../../integrations/data-warehouses/redshift-integration/ "mention")
+* [aws-glue-integration](../../integrations/data-pipeline-tools/aws-glue-integration/ "mention")
+
+The query can easily be copied, and run in Secoda through the [Query editor in a document](running-queries-in-secoda/), or just viewed through the tab shown below.
+
+<figure><img src="../../.gitbook/assets/Kapture 2023-09-12 at 15.23.55.gif" alt=""><figcaption></figcaption></figure>
+
+## Creation queries
+
+You can find the query that is used to create the resource in the top right hand corner by clicking the `</>` icon. You can also copy that code for ease of use.
+
+<figure><img src="../../.gitbook/assets/Kapture 2023-09-12 at 15.33.11.gif" alt=""><figcaption></figcaption></figure>

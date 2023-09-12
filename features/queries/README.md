@@ -6,7 +6,7 @@ description: See how Secoda can run, document, and use queries.
 
 Queries exist in two forms in Secoda:
 
-The first is queries that we ingest from an integration. These queries are used to calculate lineage, and can have metadata added to them within Secoda like any other resource. See below for more information!
+The first is queries that we extract from an integration. These queries are used to calculate lineage and popularity. See below for more information!
 
 {% content-ref url="documenting-queries.md" %}
 [documenting-queries.md](documenting-queries.md)
