@@ -178,6 +178,5 @@
   * [Privacy Policy](policies/privacy-policy.md)
   * [Security Policy](policies/security-policy.md)
   * [Accessibility Statement](policies/accessibility-statement.md)
-  * [Policy Packet](policies/policy-packet.md)
 * [System Status](https://status.secoda.co)
 * [Secoda Change log](secoda-change-log.md)
