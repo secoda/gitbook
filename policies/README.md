@@ -12,8 +12,6 @@ description: Everything you need to know about Secoda's policies
 
 [security-policy.md](security-policy.md "mention")
 
-[Broken link](broken-reference "mention")
-
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
 {% endhint %}
