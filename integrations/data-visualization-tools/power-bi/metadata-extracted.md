@@ -4,7 +4,7 @@
 
 * Groups (Groups are referred to as Dashboard Groups in Secoda)
   * Group Name
-* Reports (Reports are referred to as Dashboards in Secoda)
+* Reports (Reports are referred to as Charts in Secoda)
   * Report Name
   * Report Description
   * Report Owners
