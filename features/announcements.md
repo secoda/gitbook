@@ -2,9 +2,13 @@
 
 Using Announcements, data teams can send messages to their users within Secoda.
 
-Users have the ability to send general Announcements directly from the Inbox tab, but also from any specific resource. For example, if your announcement pertains to a table, you can click into that table and find the megaphone :mega: button in the side panel to create an Announcement.
+Users have the ability to send _general_ Announcements directly from any screen in Secoda, by clicking the megaphone :mega: button to the right of Search.
 
-One main use case for this feature is sharing with your organization when new dashboards or tables have been introduced.&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-12 at 2.32.39 PM.png" alt=""><figcaption></figcaption></figure>
+
+Users can also share an announcement _from any resource_. For example, if your announcement pertains to a table, you can click into that table and find the megaphone button in the side panel to create an Announcement.
+
+One main use case for this feature is sharing with your organization when new dashboards or tables have been introduced.
 
 {% embed url="https://www.loom.com/share/4c22f11c14d849ba8ea7d061a2b9d3a3" %}
 An example of how to send an Announcement.
@@ -17,4 +21,3 @@ Announcements are sent to User's inbox. You can learn more about the Secoda Inbo
 {% content-ref url="data-inbox.md" %}
 [data-inbox.md](data-inbox.md)
 {% endcontent-ref %}
-
