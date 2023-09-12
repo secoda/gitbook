@@ -9,6 +9,7 @@ By clicking on Queries tab from a resource in Secoda, you can see the query hist
 * [snowflake-integration](../../integrations/data-warehouses/snowflake-integration/ "mention")
 * [redshift-integration](../../integrations/data-warehouses/redshift-integration/ "mention")
 * [aws-glue-integration](../../integrations/data-pipeline-tools/aws-glue-integration/ "mention")
+* [bigquery-integration](../../integrations/data-warehouses/bigquery-integration/ "mention")
 
 The query can easily be copied, and run in Secoda through the [Query editor in a document](running-queries-in-secoda/), or just viewed through the tab shown below.
 
