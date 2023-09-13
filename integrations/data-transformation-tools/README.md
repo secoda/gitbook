@@ -4,12 +4,12 @@ A data transformation tool is software used to extract data from various sources
 
 Secoda currently integrates with the following Data Transformation tools:
 
-{% content-ref url="dbt.md" %}
-[dbt.md](dbt.md)
+{% content-ref url="dbt/" %}
+[dbt](dbt/)
 {% endcontent-ref %}
 
-{% content-ref url="dbt-core.md" %}
-[dbt-core.md](dbt-core.md)
+{% content-ref url="dbt-core/" %}
+[dbt-core](dbt-core/)
 {% endcontent-ref %}
 
 ## dbt Metadata in Lineage
