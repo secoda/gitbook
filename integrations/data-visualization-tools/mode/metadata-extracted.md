@@ -15,6 +15,9 @@ NOTE: Preview of Mode resources is available in Secoda if permissions are grante
   * Dataset name
   * Dataset Description
   * Dataset Owner
+* Columns
+  * Column Name
+  * Column Type
 * Charts
   * Chart Name
   * Chart Description
