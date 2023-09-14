@@ -13,7 +13,7 @@ By leveraging Secoda, data teams can automate manual and repetitive tasks which 
 [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention")
 
 * Our AI Assistant can be utilized in many ways, and we find it extremely powerful when it comes to documentation.
-* The Assistant reads the metadata in your workspace and can generate descriptions of your resources directly from the Catalog, with just one click.
+* The Assistant reads the metadata in your workspace and can generate descriptions of your resources with just one click. This can be done on the Catalog resources, Dictionary metric and Collections.
 
 [propagating-metadata.md](../../resource-and-metadata-management/add-documentation/propagating-metadata.md "mention")
 
