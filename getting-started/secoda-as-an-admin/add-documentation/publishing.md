@@ -26,7 +26,7 @@ Once you're ready to publish your changes, you can navigate to the "Publish" but
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20823.png)
 
-This button will show you all the changes that have been made since your last time publishing your workspace. You can accept or deny any of these changes before setting them live to viewers.
+This button will show you all the changes that have been made on that resource since the workspace was last published. You can select all changes or pick and choose changes before publishing them live to viewers.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.29.52%20AM.png)
 
