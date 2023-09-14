@@ -20,7 +20,7 @@ Data doesn't have meaning without a consistent understanding of what terms mean 
 
 Secoda's dictionary is the place to define all of your organizational metrics and terms. Metrics in your data dictionary will be visible via Secoda's search, and you can search directly in the dictionary.&#x20;
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-08%20at%2012.36.32%20PM.png)
+Check out our [dictionary-best-practices.md](../../readme/best-practices/dictionary-best-practices.md "mention") for strategies regarding building out your Dictionary.
 
 {% hint style="info" %}
 Each Team has it's own Dictionary section, but you can also use the General Team to host terms that you don't want to assign to a Team. You can add Terms to multiple Team's Dictionaries as well.

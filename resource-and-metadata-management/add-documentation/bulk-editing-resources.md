@@ -6,7 +6,7 @@ description: >-
 
 # Bulk Editing Metadata
 
-## How to **Bulk Edit** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## How to **Bulk Edit in the Catalog** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 Adding documentation manually to one resource at a time can be useful for small amounts of unique data. Many users have large amounts of data that need to be documented, and using our Bulk Editor tool is the best way to do that.&#x20;
 
@@ -31,9 +31,13 @@ To apply this change to other resources in view, click on the edited resource, h
 
 You can also make bulk edits by selecting the resources you'd like to edit by pressing `ctrl + c`, and then `ctrl + v` (AKA copy and paste).&#x20;
 
-To see it in action, check out this Loom video.
+To see it in action, check out this Loom video:
 
 {% embed url="https://www.loom.com/share/50c4ce8d31ee4e96867207f3cd49678e" %}
+
+## Bulk editing other resource types
+
+You are also able to do this same shortcut for bulk editing in the Dictionary, Collections and Documents! Simply make the edit to one cell, and drag to other resources that you'd like to apply the change to. Don't forget that you can add filters so that you're only making changes to a select group of resources.
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
