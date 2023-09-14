@@ -20,8 +20,8 @@ In Secoda, metadata is the additional information you can provide to add context
 
 To edit metadata of more than one resource at a time, check out our **Editing Metadata** section below!
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="add-documentation/" %}
+[add-documentation](add-documentation/)
 {% endcontent-ref %}
 
 If you're looking to add some custom properties or tags, the pages linked with walk you through that process!
