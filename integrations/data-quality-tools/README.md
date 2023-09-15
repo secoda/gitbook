@@ -1,11 +1,11 @@
-# Data Quality
+# Data Quality Tools
 
 A data quality or data governance tool is software or a platform designed to assess, monitor, and improve the quality of data within an organization. It helps identify data issues, inconsistencies, errors, and anomalies that may impact data integrity, accuracy, completeness, consistency, and reliability. Data quality tools provide various functionalities and features to ensure that data meets predefined quality standards.
 
 Secoda currently integrates with the following Data Quality tools:
 
-{% content-ref url="great-expectations-integration.md" %}
-[great-expectations-integration.md](great-expectations-integration.md)
+{% content-ref url="great-expectations-integration/" %}
+[great-expectations-integration](great-expectations-integration/)
 {% endcontent-ref %}
 
 {% hint style="info" %}

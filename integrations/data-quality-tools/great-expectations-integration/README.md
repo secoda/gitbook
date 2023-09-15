@@ -2,7 +2,11 @@
 description: This page walks through the Secoda and GE integration that Secoda supports
 ---
 
-# Great Expectations Integration
+# Great Expectations
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 Secoda currently supports retrieving expectation and validation metadata from Google Cloud Storage and AWS S3.
 
