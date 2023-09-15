@@ -20,8 +20,8 @@
 [slack-connection](slack-connection/)
 {% endcontent-ref %}
 
-{% content-ref url="jira.md" %}
-[jira.md](jira.md)
+{% content-ref url="jira/" %}
+[jira](jira/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
