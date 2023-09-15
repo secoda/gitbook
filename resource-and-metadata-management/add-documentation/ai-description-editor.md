@@ -1,12 +1,16 @@
 # AI Description Editor
 
-The AI Assistant can now be embedded into your Catalog for one-click bulk edits to column and table descriptions. This speeds up the process of working with the AI Assistant since it can document directly in the Catalog.
+The AI Assistant can now be embedded into your Catalog, Dictionary and Collections for one-click bulk edits to the Description field. This speeds up the process of working with the AI Assistant.
 
 ## How does it work
 
 The AI Assistant comes up with descriptions for your resources based on the metadata that already exists in your workspace. You are able to accept the description, ask for more iterations, as well as directly edit and override them. It also matches the tone, length of writing and other characteristics of descriptions that already exist across your workspace.
 
 ## How to add AI-generated descriptions
+
+### In the Catalog
+
+The AI can generate descriptions at both the column and table level. Follow these steps:
 
 1. Click into your **Catalog** and click into a table that you'd like to add descriptions to
 2. For editing one resource description:
@@ -23,3 +27,10 @@ The AI Assistant comes up with descriptions for your resources based on the meta
 
        <figure><img src="../../.gitbook/assets/Kapture 2023-08-31 at 13.55.35 (1).gif" alt=""><figcaption></figcaption></figure>
 4. If you'd like to add more content to the description, you can simply click into the description to edit them
+
+### In the Dictionary and Collections
+
+This feature can also be used to add descriptions to your Dictionary metrics and Collections. Simply click into those sections and follow the same steps outlined above!
+
+<figure><img src="../../.gitbook/assets/Kapture 2023-09-15 at 13.12.01.gif" alt=""><figcaption></figcaption></figure>
+
