@@ -55,7 +55,7 @@ Here are the steps to set up Power BI Integration using Azure AD App:
 
 <div align="left" data-full-width="false">
 
-![](<https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image (9).png>)
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20\(9\).png)
 
 </div>
 
@@ -88,7 +88,7 @@ Here are the steps to set up Power BI Integration using Azure AD App:
 * Open [Power BI](https://app.powerbi.com/) and sign in
 * Search to the workspace you want to enable access for, and from the _More menu_, select _Workspace access_
 
-![](<https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image (10).png>)
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20\(10\).png)
 
 * Fill form in the required information:
   * Search for `Secoda` as member and select **Secoda** entry
