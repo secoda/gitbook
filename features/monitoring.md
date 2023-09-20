@@ -12,13 +12,15 @@ Monitoring is an essential player in maintaining data quality. Within Secoda, yo
 
 Choose from the following monitor types:
 
-* **Nullness** - The percentage of null values
-* **Cardinality** - The relationship between rows of one table and rows in another
-* **Uniqueness** - Data duplication
-* **Row Count** - The count of rows
-* **Maximum** - The maximum value
-* **Mean** - The average value
-* **Minimum** - The minimum value
+* **Nullness** - The percentage of null elements in a given a column
+* **Cardinality** - The number of distinct elements of a given column
+* **Uniqueness** - The percentage of unique elements in a given a column
+* **Row Count** - The number of rows in a table or view over time
+* **Maximum** - The highest value of a numeric column
+* **Mean** - The arithmetic mean of a numeric column
+* **Minimum** - The lowest value of a numeric column
+
+The monitor will alert if any of these values are higher or lower than expected.
 
 ## How to create monitors
 
