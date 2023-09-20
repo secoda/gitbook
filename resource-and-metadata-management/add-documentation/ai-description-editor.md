@@ -8,6 +8,8 @@ The AI Assistant comes up with descriptions for your resources based on the meta
 
 ## How to add AI-generated descriptions
 
+First, you need to make sure the AI Assistant is enabled in your workspace. To set this up, an Admin will have to follow [these steps](../../features/ai-assistant/#set-up).
+
 ### In the Catalog
 
 The AI can generate descriptions at both the column and table level. Follow these steps:
