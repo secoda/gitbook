@@ -12,10 +12,11 @@ Monitoring is an essential player in maintaining data quality. Within Secoda, yo
 
 Choose from the following monitor types:
 
-* **Nullness** - The percentage of null elements in a given a column
-* **Cardinality** - The number of distinct elements of a given column
-* **Uniqueness** - The percentage of unique elements in a given a column
-* **Row Count** - The number of rows in a table or view over time
+* **Nullness** - The percentage of values in a column that are null
+* **Cardinality** - The number of distinct values of a given column
+* **Uniqueness** - The percentage of values in a column that are unique
+* **Freshness** - The time elapsed since last update
+* **Row Count** - The number of rows over time
 * **Maximum** - The highest value of a numeric column
 * **Mean** - The arithmetic mean of a numeric column
 * **Minimum** - The lowest value of a numeric column
@@ -32,7 +33,7 @@ The monitor will alert if any of these values are higher or lower than expected.
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.26.00 AM.png" alt="" width="375"><figcaption><p>Select resource</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.26.00 AM.png" alt="" width="188"><figcaption><p>Select resource</p></figcaption></figure>
 
     </div>
 4.  Select which monitor type(s) (can be more than one) and click "Add Monitors".&#x20;
@@ -41,29 +42,47 @@ The monitor will alert if any of these values are higher or lower than expected.
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.55.04 AM.png" alt="" width="375"><figcaption><p>Monitor types</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.55.04 AM.png" alt="" width="188"><figcaption><p>Monitor types</p></figcaption></figure>
 
     </div>
-5. Once created, you can find all of the Monitors under the "Monitors" tab in the Catalog
+5. Once created, you can find it under the "Monitors" tab in the Catalog
 6. Click into the monitor to further edit and see the history of the monitor's runs
    * Edit Configuration details like Schedule, Threshold and Sensitivity&#x20;
+     * Schedule - Choose between Daily, Every 12, 6 or 3 hours, or Hourly
+     * Threshold - Automatic or Manual
+     * Sensitivity - More or less sensitive threshold
 
-<div align="center">
+<div align="left">
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.33.40 AM (1).png" alt="" width="305"><figcaption><p>Configuration details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.33.40 AM (1).png" alt="" width="153"><figcaption><p>Configuration details</p></figcaption></figure>
 
 </div>
 
-*   See status, last and next run details, and a chart visualization of the monitor's performance
+## How to manage monitors
 
-    <div align="left">
+View Status, Last and Next Run details, and a Chart Visualization of the monitor's historical performance
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.58.03 AM.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
 
-    </div>
-*   Scroll down to see run history, and click into any incident reports&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.58.03 AM.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/Kapture 2023-09-20 at 11.58.46.gif" alt=""><figcaption></figcaption></figure>
+</div>
+
+The lighter green surrounding the main line represent the threshold limits - once the threshold is passed, it'll show a red dot indicating an incident
+
+<figure><img src="../.gitbook/assets/Kapture 2023-09-21 at 12.13.04.gif" alt=""><figcaption></figcaption></figure>
+
+Scroll down to see Run history, and filter for triggered Incident Reports. Here you can see any Downstream Resources that may be impacted by the incident.
+
+<figure><img src="../.gitbook/assets/Kapture 2023-09-21 at 12.21.17.gif" alt=""><figcaption></figcaption></figure>
+
+You can either Acknowledge or Resolve the incident by click these buttons below. The incident will be automatically resolved if the numbers go back into a good state (within the threshold).
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-21 at 12.29.23 PM.png" alt="" width="282"><figcaption></figcaption></figure>
+
+</div>
 
 ## Monitoring notifications
 
