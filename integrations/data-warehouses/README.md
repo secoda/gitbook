@@ -18,6 +18,10 @@ Secoda currently integrates with the following data warehouse tools:
 [bigquery-integration](bigquery-integration/)
 {% endcontent-ref %}
 
+{% content-ref url="apache-hive/" %}
+[apache-hive](apache-hive/)
+{% endcontent-ref %}
+
 Secoda also integrates into databases, Bi tools and more integrations, which can be found here:
 
 {% content-ref url="../databases/" %}

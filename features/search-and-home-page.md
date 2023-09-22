@@ -16,7 +16,20 @@ When you first click into Search at the top of any page in Secoda, it'll show yo
 
 You can also search directly from the Home page, within the Catalog, or from the Search sidebar.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 2.44.25 PM.png" alt=""><figcaption><p>Search from the sidebar</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-27 at 10.51.23 AM.png" alt=""><figcaption></figcaption></figure>
+
+## Search views
+
+You are able to save search filters so that you can easily go back to common searches. These can be either personal to you, or at the Team level.
+
+1. Click into Search and click the filters icon next to Relevance
+2. Click + Create new view
+3. Title the filter view, add which filters you'd like, and set the Team visibility
+   * Note: If you leave the "Team visibility" section blank, these will only be saved to your personal space
+
+Check out the video below for a step by step walkthrough!
+
+{% embed url="https://www.loom.com/share/9dec6cfc5dae489884567c54596c7665?sid=55903669-0d5e-438d-ac3b-9b00a9eca52d" %}
 
 ## Search within the Catalog
 
