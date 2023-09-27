@@ -2,10 +2,10 @@
 
 ## Steps:
 
-1. We will assume your company domain is [company.com](http://company.com) and the domain where Secoda is hosted is [app.secoda.co](http://app.secoda.co) ([secoda.company.com](http://secoda.company.com), if on-premise).
+1. We will assume you sign in to Secoda with john@<MYCOMPANY.COM> and the domain where Secoda is hosted is <APP.SECODA.CO>. This may be <MYCOMPANY.SECODA.CO> or different for on-premise.
 2. In the Okta console: click the button “Create App Integration” (SAML2.0)
 3. Name the app `Secoda`
-4. Set the SSO URL **and** Audience to your personalized endpoint: `https://app.secoda.co/api/v1/auth/saml/company+com/acs/`
+4. Set the SSO URL **and** Audience to your personalized endpoint: `https://app.secoda.co/api/v1/auth/saml/mycompany+com/acs/` for the first example or `https://mycompany.secoda.co/api/v1/auth/saml/mycompany+com/acs/` for the latter example.
 5. Add the following attribute statements. While Okta says Optional, this step is Required.
    *   Image
 

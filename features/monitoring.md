@@ -58,6 +58,12 @@ The monitor will alert if any of these values are higher or lower than expected.
 
 </div>
 
+{% hint style="info" %}
+Note: You can only add a monitor type which each of the columns support.
+
+For example, if you have 3 numeric columns selected, you can add a "MIN" or "MAX" monitor, but you cannot do it if even one string column is selected in the modal.
+{% endhint %}
+
 ## How to manage monitors
 
 View Status, Last and Next Run details, and a Chart Visualization of the monitor's historical performance

@@ -35,7 +35,9 @@ You can either export your data from Secoda to a csv, or start from scratch. The
 1. The file format must be csv
 2. Download the csv template and follow the instructions below
 
-{% file src="../.gitbook/assets/import_template.csv" %}
+{% file src="../.gitbook/assets/import_template (1).csv" %}
+CSV template with filled in example in row 1
+{% endfile %}
 
 * The file must have the following **required** columns:&#x20;
   * **id -** Leave this blank if it's a new resource (i.e dictionary term)
@@ -44,13 +46,13 @@ You can either export your data from Secoda to a csv, or start from scratch. The
 * The file can have the following **optional** columns:
   * **description** - This is one-liner description of the resource
   * **definition** - This is for longer readmes to add additional context, that has markdown capabilities
-  * **pii** - This is the PII tag and can be TRUE, FALSE, or blank
-  * **verified -** This is the Verified tag and can be TRUE, FALSE, or blank
-  * **published -** This is the status and can be TRUE, FALSE, or blank
-  * **collections -** List of associated collection names, i.e \["Marketing", "Engineering"]
-  * **owners** - List of associated owner emails, i.e, \["andrew@secoda.co", "etai@secoda.co"]
-  * **tags -** List of associated tag names, i.e, \["production"]
-  * **property -** Where "property" can be any custom property you'd like to add on a resource
+  * **pii** - This is the PII tag and can be TRUE, FALSE, or left blank
+  * **verified -** This is the Verified tag and can be TRUE, FALSE, or left blank
+  * **published -** This is the status and can be TRUE, FALSE, or left blank
+  * **collections -** List of associated collection names, i.e \['Marketing', 'Engineering']
+  * **owners** - List of associated owner emails, i.e, \['andrew@secoda.co', 'etai@secoda.co']
+  * **tags -** List of associated tag names, i.e, \['production']
+  * **property -** Where "property" can be any custom property you'd like to add on a resource, keep in same \['\_\_\_\_'] format
 
 #### 2. Upload metadata to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
 

@@ -153,7 +153,7 @@
   * [Queries](features/queries/README.md)
     * [Extracted Queries](features/queries/documenting-queries.md)
     * [Running Queries](features/queries/running-queries-in-secoda/README.md)
-      * [Adding Live Charts to Documentation](features/queries/running-queries-in-secoda/adding-live-charts-to-documentation.md)
+      * [Live Charts](features/queries/running-queries-in-secoda/adding-live-charts-to-documentation.md)
   * [Questions](features/ask-questions-in-secoda/README.md)
     * [Asking Data Questions from Slack](features/ask-questions-in-secoda/asking-questions-from-slack.md)
     * [Templates for Questions](features/ask-questions-in-secoda/templates.md)

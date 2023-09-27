@@ -10,11 +10,11 @@ You can search for any data resource using Secoda's search, including tables, co
 
 ## How to Search
 
-When you first click into Search at the top of any page in Secoda, it'll show your workspace's Popular resources as well as your personal Recent searches.
+When you first click into Search, it'll show your workspace's Popular resources as well as your personal Recent searches.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-08-28 at 14.42.42.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2023-09-27 at 14.12.10 (1).gif" alt=""><figcaption></figcaption></figure>
 
-You can also search directly from the Home page, within the Catalog, or from the Search sidebar.
+You can also search directly from the Home page, within the Catalog, or by typing / from any screen.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-09-27 at 10.51.23 AM.png" alt=""><figcaption></figcaption></figure>
 
