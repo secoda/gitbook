@@ -16,6 +16,12 @@ Secoda hopes to identify your stale data resources to improve the overall data q
 
 Secoda automatically hides any stale data from users in the workspace. We define stale data as any resources that no longer show up in the most recent extractions from your integration.&#x20;
 
+To see the list of Stale data in your workspace, use the keyboard shortcut **command+k** and scroll down to "Archive".
+
+You can choose to disable automatic staling in the Settings > Preferences:
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
 {% endhint %}
