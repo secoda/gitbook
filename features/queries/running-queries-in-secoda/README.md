@@ -4,21 +4,23 @@ description: >-
   docs, questions and collections.
 ---
 
-# Running Queries in Secoda
+# Running Queries
 
-## How to Run a Query in Secoda
+By using the /query command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections. This allows users to preview the data directly in Secoda.
 
-By pressing the /query command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections.
+<figure><img src="../../../.gitbook/assets/Kapture 2023-09-27 at 14.24.35.gif" alt=""><figcaption></figcaption></figure>
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/image-1.png)
+## Turn off Query capabilities
 
-### Steps to running queries
+If you'd like to turn off the ability to preview this data within Secoda, you can do so in the Integration settings. You can do this at the role level so that only specific workspace members have access to this feature. Go to the Integration > Permissions > Check off which roles/groups > Submit.
+
+## Steps to running queries
 
 1. Add a query block using the /query command
 2. Select a "source" from the top left of the query block
    1. Ensure that the source has been given the correct permissions
-3. Write your query and press the execute button on the right have side
-4. Sort query and share it with the viewer you want to see the query
+3. Write your query and press the :arrow\_forward: button on the right hand side
+4. Sort the query by clicking on the column names, and share it with other users
 
 ### Scheduling queries
 
