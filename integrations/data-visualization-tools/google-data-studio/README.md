@@ -53,21 +53,21 @@ _Secoda uses a series of REST APIs that Looker Studio uses for its platform, whi
 
 1. Login to [Looker Studio](https://datastudio.google.com) and open the developer tools by _right-clicking_ and selecting **Inspect**
 
-<figure><img src="../../../.gitbook/assets/Group 1.png" alt=""><figcaption><p><em>Login to Looker Studio and open the developer tools by right-clicking and selecting inspect</em></p></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%201.png)
 
 2\. Click on the **Network** tab and put `https://lookerstudio.google.com` in the **filter** field
 
-<figure><img src="../../../.gitbook/assets/Group 2.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%202.png)
 
 3\. Refresh the page and you should see some requests populate
 
 4\. Click on the `getShareableList` network request and then navigate to the **Headers** tab
 
-<figure><img src="../../../.gitbook/assets/Group 3.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%203.png)
 
 5\. In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 
-<figure><img src="../../../.gitbook/assets/Group 4.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%204.png)
 
 ### Connect to Looker Studio
 
