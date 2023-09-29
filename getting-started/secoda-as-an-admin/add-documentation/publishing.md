@@ -43,9 +43,3 @@ This workflow can give you and the rest of your editors a way to collaborate on 
 If you'd like to publish all of your resources within Secoda, go to **Settings > Publish.**
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-31%20at%204.47.06%20PM.png" alt=""><figcaption></figcaption></figure>
-
-## Preview mode
-
-As an editor, you can mimic what a Viewer will see in Secoda by using the "Preview" button in the top right hand corner.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-15%20at%202.34.18%20PM.png" alt=""><figcaption></figcaption></figure>

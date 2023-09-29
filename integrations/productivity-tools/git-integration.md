@@ -6,7 +6,7 @@ description: This page walks through the Secoda and Git integration that Secoda 
 
 The Secoda integration with Git allows user's to push the resources and metadata in the Secoda workspace into a Git repository, in the form of JSON files.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-09-15 at 3.42.57 PM.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Screenshot%202023-09-15%20at%203.42.57%20PM.png)
 
 ## **Getting Started with Git** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
