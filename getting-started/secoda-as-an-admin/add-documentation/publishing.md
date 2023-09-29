@@ -22,11 +22,15 @@ Any change made to a published or draft resource will automatically get "Staged 
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.19.54%20AM.png)
 
-Once you're ready to publish your changes, you can navigate to the "Publish" button at the top of the workspace to publish all changes
+## How to Publish or Discard Changes
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20823.png)
+Once you're ready to publish your changes, you can navigate to the Publish button at the top left of the workspace.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-29 at 12.33.37 PM.png" alt=""><figcaption></figcaption></figure>
 
 This button will show you all the changes that have been made on that resource since the workspace was last published. You can select all changes or pick and choose changes before publishing them live to viewers.
+
+Here, you also have the option to **discard** all or some changes that have been made.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.29.52%20AM.png)
 
