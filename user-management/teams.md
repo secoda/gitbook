@@ -14,11 +14,11 @@ In the example below, the user has access to the "General" Team and the "Finance
 
 ## Creating Teams
 
-Only Workspace Admins are able to create Teams within Secoda.&#x20;
+Only Workspace Admins are able to create Teams within Secoda.
 
 **Steps to create a Team**
 
-1. Click on Teams from the left side bar&#x20;
+1. Click on Teams from the left side bar
 2. Click "+New Team"
 3. Choose a Team Name & Icon and set the Team Permissions
 
@@ -30,7 +30,7 @@ Example use case: You might want to create a Private Team if the Team works with
 
 ## Joining Teams
 
-Joining Teams is simple - navigate over to Teams and see all the Public Teams that you are able to join and/or leave. Watch as the Team is automatically added to your side bar once you join. If you need to join a Private Team, an Admin will need to add you.&#x20;
+Joining Teams is simple - navigate over to Teams and see all the Public Teams that you are able to join and/or leave. Watch as the Team is automatically added to your side bar once you join. If you need to join a Private Team, an Admin will need to add you.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-11%20at%2011.24.38.gif" alt=""><figcaption></figcaption></figure>
 
@@ -38,15 +38,19 @@ Joining Teams is simple - navigate over to Teams and see all the Public Teams th
 
 ### Customizing Your Team's Sidebar
 
-In the Team Settings, Admins can configure which Resources they would like specific Teams to be able to access.&#x20;
+In the Team Settings, Admins can configure which Resources they would like specific Teams to be able to access.
 
 In the example below, the Admin wants to make sure that the Sales team can only see the Collections relevant to the Sales team. This makes for a seamless user experience in which the users won't have to go looking for their Team content.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-10%20at%2018.00.33.gif" alt=""><figcaption></figcaption></figure>
 
-### Adding Members
+### Editing Member Settings
 
 Admins can invite Members or Groups to Public and Private Teams in the Team Settings, as well as remove them.
+
+They can also edit user permissions at the Team level here. You can turn any workspace editor into a viewer for a specific Team, for example, and then all of the resources associated with the Team will inherit these permissions. This is a great way to ensure that only the right people are making changes to the metadata.
+
+**Note:** All workspace Admins can view/edit any resource across the workspace, so you can't turn an Admin into a Viewer for a particular Team, for example
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-10%20at%206.07.29%20PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -71,4 +75,3 @@ Viewers, Editors and Admins within Secoda all have different capabilities when i
 ## Video tutorial
 
 {% embed url="https://www.loom.com/share/e001c52a453b4b7382dd4a5bc34cc12d" %}
-
