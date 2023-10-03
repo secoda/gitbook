@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Airflow integration that Secoda
-  supports
+description: An overview of the Airflow integration with Secoda
 ---
 
 # Airflow

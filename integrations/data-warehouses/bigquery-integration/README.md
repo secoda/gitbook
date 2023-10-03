@@ -1,5 +1,5 @@
 ---
-description: An overview for the BigQuery integration with Secoda
+description: An overview of the BigQuery integration with Secoda
 ---
 
 # BigQuery

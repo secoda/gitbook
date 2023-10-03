@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Hightouch integration that Secoda
-  supports
+description: An overview of the Hightouch integration with Secoda
 ---
 
 # Hightouch

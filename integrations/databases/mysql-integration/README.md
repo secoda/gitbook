@@ -1,3 +1,7 @@
+---
+description: An overview of the MySQL integration with Secoda
+---
+
 # MySQL
 
 {% content-ref url="metadata-extracted.md" %}

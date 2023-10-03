@@ -1,7 +1,5 @@
 ---
-description: >-
-  Seamlessly manage data requests by integrating your Jira issues with Secoda's
-  Questions feature
+description: An overview of the Jira integration with Secoda
 ---
 
 # Jira

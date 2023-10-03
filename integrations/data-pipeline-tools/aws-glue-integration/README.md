@@ -1,7 +1,5 @@
 ---
-description: >-
-  How to Integrate Secoda with AWS Glue, and what information and metadata is
-  pulled from AWS Glue.
+description: An overview of the AWS Glue integration with Secoda
 ---
 
 # Glue

@@ -1,5 +1,5 @@
 ---
-description: An overview for the Hive integration with Secoda
+description: An overview of the Azure Synapse integration with Secoda
 ---
 
 # Azure Synapse

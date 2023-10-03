@@ -1,5 +1,5 @@
 ---
-description: An overview of the Secoda integration with Redshift
+description: An overview of the Redshift integration with Secoda
 ---
 
 # Redshift

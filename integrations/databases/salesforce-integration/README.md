@@ -1,4 +1,8 @@
-# Salesforce Integration
+---
+description: An overview of the Salesforce integration with Secoda
+---
+
+# Salesforce
 
 ### Getting Started with Salesforce
 

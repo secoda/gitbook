@@ -1,5 +1,5 @@
 ---
-description: This page walks through the Secoda and Redash integration that Secoda supports
+description: An overview of the Redash integration with Secoda
 ---
 
 # Redash

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Confluence integration that Secoda
-  supports
+description: An overview of the Confluence integration with Secoda
 ---
 
 # Confluence
@@ -68,4 +66,4 @@ Any spaces that are created or deleted will not be updated under the spaces tab 
 
 :warning:Warning that any changes made to the Confluence documents in Secoda will be overwritten the next time a Confluence sync is run. Any changes that are desired to be made to these documents should be done in confluence, then run a sync in Secoda.
 
-\
+\\

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Power BI integration that Secoda
-  supports
+description: An overview of the PowerBI integration with Secoda
 ---
 
 # Power BI
@@ -16,7 +14,7 @@ There are two options for setting up the Power BI integration on Secoda:
 
 1. OAuth with Secoda's managed Power BI Azure Enterprise Application (**OAuth**)
 2. Create and manage a Power BI Azure Enterprise Application (**Azure AD App**). This can either use:
-   * Admin APIs&#x20;
+   * Admin APIs
    * Non-Admin APIs
 
 ### OAuth
@@ -53,11 +51,7 @@ Here are the steps to set up Power BI Integration using Azure AD App:
 
 * Go to **API permissions** tab, click Add a permission and add the following permissions:
 
-<div align="left" data-full-width="false">
-
 ![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20\(9\).png)
-
-</div>
 
 **Step 2.2**: (Only applicable if you're using admin API)
 
@@ -92,7 +86,7 @@ Here are the steps to set up Power BI Integration using Azure AD App:
 
 * Fill form in the required information:
   * Search for `Secoda` as member and select **Secoda** entry
-  * Permission - select "Viewer" or "Contributor"&#x20;
+  * Permission - select "Viewer" or "Contributor"
   * Click **Add** button to add
   * Click **Close** button to confirm
 
@@ -101,13 +95,11 @@ Here are the steps to set up Power BI Integration using Azure AD App:
 * Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
 * Fill form in the required information referred in Step 1 above:
   * **Client ID:** Application ID of Azure AD.
-  * **Tenant ID:** Identifier of tenant of organization in Azure Active AD.&#x20;
+  * **Tenant ID:** Identifier of tenant of organization in Azure Active AD.
   * **Client Secret:** Client secret of the Azure AD App
 * Click **Connect**
 
-
-
-**Note:** &#x20;
+**Note:**
 
 * Non-admin API does not support extracting tables, columns and measures from PowerBI datasets (except for push datasets)
 * You must be a PowerBI Admin in order to successfully go through the OAuth flow.

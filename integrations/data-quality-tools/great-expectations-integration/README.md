@@ -1,5 +1,5 @@
 ---
-description: This page walks through the Secoda and GE integration that Secoda supports
+description: An overview of the Great Expectations integration with Secoda
 ---
 
 # Great Expectations
