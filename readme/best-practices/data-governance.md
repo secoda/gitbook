@@ -16,7 +16,7 @@ When rolling out a tool like Secoda, it is important to define roles within your
 * Who will be the data champions who will own the data resources? How do we define ownership?&#x20;
 * Which users and stakeholders will we onboard? Which Teams do we need to create, and which resources will they need access to?
 
-Once you have a grasp on the makeup of your Teams and users, [**roles**](../../user-management/roles/) can be assigned using our RBAC approach and [**Teams**](../../user-management/teams.md) can be created. Enforce ownership of critical data so that it is kept up to date.
+Once you have a grasp on the makeup of your Teams and users, [**roles**](../../user-management/roles/) can be assigned using our RBAC approach and [**Teams**](../../user-management/teams.md) can be created. Set permissions at the Team level so that only the right users have access to editing the metadata in that Team. Enforce ownership of critical data so that it is kept up to date.
 
 #### Identify critical data elements
 
