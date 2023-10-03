@@ -35,6 +35,8 @@
       * [Metadata Extracted](integrations/data-warehouses/snowflake-integration/snowflake-metadata/README.md)
     * [Apache Hive](integrations/data-warehouses/apache-hive/README.md)
       * [Metadata Extracted](integrations/data-warehouses/apache-hive/metadata-extracted.md)
+    * [Azure Synapse](integrations/data-warehouses/azure-synapse/README.md)
+      * [Metadata Extracted](integrations/data-warehouses/azure-synapse/metadata-extracted.md)
   * [Databases](integrations/databases/README.md)
     * [MySQL](integrations/databases/mysql-integration/README.md)
       * [Metadata Extracted](integrations/databases/mysql-integration/metadata-extracted.md)
