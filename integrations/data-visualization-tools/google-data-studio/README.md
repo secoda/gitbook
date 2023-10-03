@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Looker Studio integration that Secoda
-  supports
+description: An overview of the Looker Studio integration with Secoda
 ---
 
 # Looker Studio

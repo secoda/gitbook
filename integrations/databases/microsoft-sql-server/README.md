@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Microsoft SQL Server integration that
-  Secoda supports
+description: An overview of the Microsoft SQL Server integration with Secoda
 ---
 
 # Microsoft SQL Server

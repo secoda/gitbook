@@ -1,5 +1,5 @@
 ---
-description: This page walks through the Secoda and Oracle integration that Secoda supports
+description: An overview of the Oracle integration with Secoda
 ---
 
 # Oracle

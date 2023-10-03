@@ -1,3 +1,7 @@
+---
+description: An overview of the MongoDB integration with Secoda
+---
+
 # MongoDB
 
 ### Getting started with MongoDB

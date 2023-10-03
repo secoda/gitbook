@@ -1,7 +1,5 @@
 ---
-description: >-
-  How to Integrate Secoda with AWS QuickSight, and what information and metadata
-  is pulled from AWS QuickSight.
+description: An overview of the AWS QuickSight integration with Secoda
 ---
 
 # QuickSight

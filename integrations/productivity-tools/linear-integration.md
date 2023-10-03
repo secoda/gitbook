@@ -1,8 +1,8 @@
 ---
-description: This page walks through the Secoda and Linear integration that Secoda supports
+description: An overview of the Linear integration with Secoda
 ---
 
-# Linear Integration
+# Linear
 
 ## Push questions and replies to Linear
 

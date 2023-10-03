@@ -1,5 +1,5 @@
 ---
-description: This page is an overview of the Secoda integration for Looker
+description: An overview of the Looker integration with Secoda
 ---
 
 # Looker

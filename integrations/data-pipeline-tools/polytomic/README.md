@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Polytomic integration that Secoda
-  supports
+description: An overview of the Polytomic integration with Secoda
 ---
 
 # Polytomic

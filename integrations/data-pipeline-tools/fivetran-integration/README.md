@@ -1,5 +1,5 @@
 ---
-description: This page explains how to integrate Fivetran with Secoda
+description: An overview of the Fivetran integration with Secoda
 ---
 
 # Fivetran

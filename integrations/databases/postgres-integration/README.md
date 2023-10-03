@@ -1,5 +1,5 @@
 ---
-description: An overview of the Secoda integration with Postgres
+description: An overview of the Postgres integration with Secoda
 ---
 
 # Postgres

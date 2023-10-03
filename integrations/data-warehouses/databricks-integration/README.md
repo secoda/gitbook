@@ -1,3 +1,7 @@
+---
+description: An overview of the Databricks integration with Secoda
+---
+
 # Databricks
 
 {% content-ref url="metadata-extracted.md" %}
