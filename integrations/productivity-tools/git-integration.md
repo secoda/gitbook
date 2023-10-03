@@ -1,5 +1,5 @@
 ---
-description: This page walks through the Secoda and Git integration that Secoda supports
+description: An overview of the Git integration with Secoda
 ---
 
 # Git

@@ -1,5 +1,5 @@
 ---
-description: This page is an overview for the Tableau integration with Secoda
+description: An overview of the Tableau integration with Secoda
 ---
 
 # Tableau

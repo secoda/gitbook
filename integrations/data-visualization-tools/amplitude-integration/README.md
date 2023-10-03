@@ -1,5 +1,5 @@
 ---
-description: This page explains how to integrate Amplitude with Secoda
+description: An overview of the Amplitude integration with Secoda
 ---
 
 # Amplitude

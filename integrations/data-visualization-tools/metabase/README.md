@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Metabase integration that Secoda
-  supports
+description: An overview of the Metabase integration with Secoda
 ---
 
 # Metabase

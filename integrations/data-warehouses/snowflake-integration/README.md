@@ -1,5 +1,5 @@
 ---
-description: An overview for the Snowflake integration with Secoda
+description: An overview of the Snowflake integration with Secoda
 ---
 
 # Snowflake

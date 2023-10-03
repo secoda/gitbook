@@ -1,7 +1,13 @@
+---
+description: An overview of the Retool integration with Secoda
+---
+
 # Retool
 
-{% content-ref url="./" %}
-[.](./)
+
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
 ## Getting Started with Session Cookies <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>

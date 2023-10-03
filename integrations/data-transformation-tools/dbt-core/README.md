@@ -1,10 +1,8 @@
 ---
-description: >-
-  This page walks through the Secoda and dbt Core integration that Secoda
-  supports
+description: An overview of the dbt Core integration with Secoda
 ---
 
-# dbt Core Integration
+# dbt Core
 
 ## **Getting Started with dbt Core** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Mixpanel integration that Secoda
-  supports
+description: An overview of the Mixpanel integration with Secoda
 ---
 
 # Mixpanel

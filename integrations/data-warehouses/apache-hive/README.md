@@ -1,5 +1,5 @@
 ---
-description: An overview for the Hive integration with Secoda
+description: An overview of the Hive integration with Secoda
 ---
 
 # Apache Hive
