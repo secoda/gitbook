@@ -21,7 +21,7 @@ nano ~/.ssh/authorized_keys
 Add the **public key** we provided you from the [https://app.secoda.co/tunnels/new](https://app.secoda.co/tunnels/new) interface, _do not use the following_, it is just an example. On your **Bastion** host:
 
 ```
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMRSB7sRm7HwEUC/TbvBtKKWLYgt1P8K+Xs5CyPqHVKqGbHThhx9HCqxqoVagGBIcdlImfJIBy0PuRKj9/H994o5Vxc5irQ/fpw1jx71sdSGA4Bgn38/qQaRyU7YS0PUZ7JC4otjKHP2k7vgC3/pYcR/A2g0fg/31lORjWqLjMsxrwQGbI6Mw56fwfqMXrAm/BZaK6nHUHRTZkdNgozENZQTYyptjv/vkpGgZoTAOeeY+UK0A30nOVB4Gv+3f0P/50K+CHQJO1t8SXJIJNs2h6qWPwiHLN9+2soWCu7ojH/a9keOSj+i/SDpu8calZl0qxaoFQwYbcXyH1X7Xr5MY2GTJyuzc4UatvNVJrSsAv/Wm+9jQLWNuGtdtoUUi6uTCukMxD10uvgNvGqoPfAWdUFVKbvRywWaPXd0FuaqeEt/I/sYEy2lP53Pf4DtAouCphmwHDVMaK4GEJwHwRAdJ34dR8oB4KDrz1mxjeopD/HN97hUa/O6fMy3oGY/XIZPVwivyGP3P7mIbmryIjGT15xVFr08cSY2h90P+/tWWAkkCVxcdn5vX3X7sqUFBDiPYQRPj5rpKgOgxoNTEzWWV8hkyXqSsO9mQmlkCMV0XndOwY64IoxBm8k+GKVI29ZzMrmpNLZi2L3SYA0oSgssORMghuyk8kfW9ZnUB5ptm+MQ== [carter@secoda.co](<mailto:carter@secoda.co>)
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMRSB7sRm7HwEUC/TbvBtKKWLYgt1P8K+Xs5CyPqHVKqGbHThhx9HCqxqoVagGBIcdlImfJIBy0PuRKj9/H994o5Vxc5irQ/fpw1jx71sdSGA4Bgn38/qQaRyU7YS0PUZ7JC4otjKHP2k7vgC3/pYcR/A2g0fg/31lORjWqLjMsxrwQGbI6Mw56fwfqMXrAm/BZaK6nHUHRTZkdNgozENZQTYyptjv/vkpGgZoTAOeeY+UK0A30nOVB4Gv+3f0P/50K+CHQJO1t8SXJIJNs2h6qWPwiHLN9+2soWCu7ojH/a9keOSj+i/SDpu8calZl0qxaoFQwYbcXyH1X7Xr5MY2GTJyuzc4UatvNVJrSsAv/Wm+9jQLWNuGtdtoUUi6uTCukMxD10uvgNvGqoPfAWdUFVKbvRywWaPXd0FuaqeEt/I/sYEy2lP53Pf4DtAouCphmwHDVMaK4GEJwHwRAdJ34dR8oB4KDrz1mxjeopD/HN97hUa/O6fMy3oGY/XIZPVwivyGP3P7mIbmryIjGT15xVFr08cSY2h90P+/tWWAkkCVxcdn5vX3X7sqUFBDiPYQRPj5rpKgOgxoNTEzWWV8hkyXqSsO9mQmlkCMV0XndOwY64IoxBm8k+GKVI29ZzMrmpNLZi2L3SYA0oSgssORMghuyk8kfW9ZnUB5ptm+MQ== [ssh@secoda.co](<mailto:ssh@secoda.co>)
 ```
 
 #### Troubleshooting <a href="#h_4e44bc0849" id="h_4e44bc0849"></a>
@@ -40,5 +40,3 @@ If you're having trouble establishing a connection with a standard tunnel, check
     ```
     ssh -L localhost:1111:<POSTGRES_URL_OR_IP>:5432 -i <PRIVATE_KEY_NAME>.pem <BASTION_USER>@<BASTION_IP> psql -h localhost -P 1111 -U secodapostgres
     ```
-
-If all else fails, reach out to our team via Slack or Intercom.

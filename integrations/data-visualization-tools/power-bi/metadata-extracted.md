@@ -26,6 +26,12 @@
   * Dashboard Description
   * Dashboard Owners
   * Dashboard URL
+* DAX
+
+{% hint style="info" %}
+You must fully enable metadata scanning in order for DAX expressions to be returned. For more information, see [Enable tenant settings for metadata scanning](https://learn.microsoft.com/en-us/power-bi/admin/service-admin-metadata-scanning-setup#enable-tenant-settings-for-metadata-scanning).
+{% endhint %}
+
 * Pages (Pages are referred to as Charts in Secoda)
   * Page Name
 * Lineage
