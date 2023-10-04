@@ -10,7 +10,11 @@ You can search for any data resource using Secoda's search, including tables, co
 
 ## How to Search
 
-When you first click into Search, it'll show your workspace's Popular resources as well as your personal Recent searches.
+When you first click into Search, it'll show your workspace's Popular resources as well as your personal Recent searches.&#x20;
+
+{% hint style="info" %}
+Popular resources in Secoda are calculated by summing the number of views in Secoda over the last 90 days, with the number of views/queries extracted from the source 24 hours from the extraction. Learn more about [Popularity](popularity.md).
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/Kapture 2023-09-27 at 14.12.10 (1).gif" alt=""><figcaption></figcaption></figure>
 
