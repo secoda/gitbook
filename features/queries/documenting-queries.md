@@ -4,19 +4,21 @@ Extracted queries are pulled in directly from the integration. Secoda extracts t
 
 ## Query History
 
-By clicking on Queries tab from a resource in Secoda, you can see the query history for that resource. Query history is extracted for:
+By clicking on the Queries tab from a resource in Secoda, you can see the query history for that resource. Query history is extracted for:
 
 * [snowflake-integration](../../integrations/data-warehouses/snowflake-integration/ "mention")
 * [redshift-integration](../../integrations/data-warehouses/redshift-integration/ "mention")
 * [aws-glue-integration](../../integrations/data-pipeline-tools/aws-glue-integration/ "mention")
 * [bigquery-integration](../../integrations/data-warehouses/bigquery-integration/ "mention")
 
-The query can easily be copied, and run in Secoda through the [Query editor in a document](running-queries-in-secoda/), or just viewed through the tab shown below.
+At time of extraction, Secoda pulls the last 24 hours of queries run on the resource, directly from the integration. Any queries that haven't been previously seen will be added to the list of queries associated with that resource in Secoda. This list of queries can be found through the Queries tab of the resource page, as seen below.&#x20;
 
 <figure><img src="../../.gitbook/assets/Kapture 2023-09-12 at 15.23.55.gif" alt=""><figcaption></figcaption></figure>
 
+Queries can easily be copied, and run directly in Secoda through the [Query editor in a document](running-queries-in-secoda/).
+
 ## Creation queries
 
-You can find the query that is used to create the resource in the top right hand corner by clicking the `</>` icon. You can also copy that code for ease of use.
+For resources that are created from a query (ex. Views) , You can find the Creation Query in the top right hand corner by clicking the `</>` icon. You can also copy that code for ease of use.
 
 <figure><img src="../../.gitbook/assets/Kapture 2023-09-12 at 15.33.11.gif" alt=""><figcaption></figcaption></figure>
