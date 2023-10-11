@@ -16,11 +16,11 @@ On the **Schema/Group** page, you'll find all of the schema or groups that Secod
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 10.58.01 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/831d399c-160c-4e03-a770-af2649719c5e.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 10.58.45 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8296720f-7dca-447f-829f-758cd463f0f4.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

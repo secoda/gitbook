@@ -34,7 +34,7 @@ When you're added to Secoda, your workspace Admins should add you to your releva
 
 This diagram shows the structure of Teams:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 9.02.56 PM.png" alt=""><figcaption><p>Structure of Teams</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/efcfd4f0-1f00-41e0-b04f-e406d4c26a8a.png" alt=""><figcaption><p>Structure of Teams</p></figcaption></figure>
 
 #### **Asking questions**
 

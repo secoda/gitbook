@@ -14,7 +14,7 @@ description: >-
 4. Enter Name, Tag Description, and choose a logo and color to represent the tag
    1. The number you see under the Tag is the Hex code for the colour of the tag which can be customized
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-08-23 at 11.11.19 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a19d12a4-0cf3-42f8-904e-6ad161e13902.gif" alt=""><figcaption></figcaption></figure>
 
 ## Use cases
 

@@ -24,4 +24,4 @@ Admins are able to re-order the metadata columns, in whatever order they'd like.
 
 This change will persist at the workspace level for all of your users. In the gif below, you'll see that once the change is made, and the screen is refreshed, the change persists.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-09-20 at 09.25.16.gif" alt=""><figcaption><p>Re-order metadata columns</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7a374f16-11b9-4360-b7a8-6dbe98b7eac2.gif" alt=""><figcaption><p>Re-order metadata columns</p></figcaption></figure>

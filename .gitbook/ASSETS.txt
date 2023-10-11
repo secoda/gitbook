@@ -1,1 +1,1 @@
-All assets should be uploaded to the media s3 bucket.
+Assets can be moved to media bucket with `rename.py`.

@@ -32,7 +32,7 @@ Share your screen showing your Secoda workspace.
 * Click into Teams and explain how you've designed them; point out which Team the group you're presenting to will be added to
 *   Demo how to join and leave a Team and how it appears in the left sidebar once you join
 
-    <figure><img src="../../../.gitbook/assets/Kapture 2023-07-27 at 12.45.41.gif" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3f55a9a4-9d15-4f37-839a-cc46b9d97729.gif" alt=""><figcaption></figcaption></figure>
 * Click into a Team to explain the different sections within a Team
   * The Team Homepage functions similarly to the Main homepage, but it is configured by the Admins and is specific to that Team - pin resources that the whole Team will benefit from having easy access to
   * The Catalog hosts all of your data sources - show the different integrations
@@ -50,7 +50,7 @@ Share your screen showing your Secoda workspace.
   * Navigate to the Lineage tab to show that feature, if applicable
 *   Click into Search and show off all of the search filters that will help users narrow down their search, more details here [#search](training-session-guide.md#search "mention")
 
-    <figure><img src="../../../.gitbook/assets/Kapture 2023-07-27 at 13.02.13.gif" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f89bc6c1-9ddf-4518-ab4d-f652e45d65f7.gif" alt=""><figcaption></figcaption></figure>
 
 #### AI Assistant
 

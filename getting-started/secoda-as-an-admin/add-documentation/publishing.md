@@ -26,7 +26,7 @@ Any change made to a published or draft resource will automatically get "Staged 
 
 Once you're ready to publish your changes, you can navigate to the Publish button at the top left of the workspace.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-29 at 12.33.37 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7b2b2614-803c-422a-8fd7-5fd25d633872.png" alt=""><figcaption></figcaption></figure>
 
 This button will show you all the changes that have been made on that resource since the workspace was last published. You can select all changes or pick and choose changes before publishing them live to viewers.
 

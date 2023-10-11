@@ -16,4 +16,4 @@ Set up your own custom SAML app
    * **Entity ID**
 9.  In the attributes, the following mappings **must be set**:
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-06-19 at 10.06.35 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1beaba43-f923-45b8-88a1-044e9e723b9f.png" alt=""><figcaption></figcaption></figure>

@@ -51,21 +51,21 @@ _Secoda uses a series of REST APIs that Looker Studio uses for its platform, whi
 
 1. Login to [Looker Studio](https://datastudio.google.com) and open the developer tools by _right-clicking_ and selecting **Inspect**
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%201.png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/9a379db4-ccf5-4309-9d24-6dbbf1ca7dae.png)
 
 2\. Click on the **Network** tab and put `https://lookerstudio.google.com` in the **filter** field
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%202.png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/c3195b0d-b78b-4c2f-8c7d-c63548557c7b.png)
 
 3\. Refresh the page and you should see some requests populate
 
 4\. Click on the `getShareableList` network request and then navigate to the **Headers** tab
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%203.png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/19983e70-a4fc-46a1-8297-3103f28527d8.png)
 
 5\. In the **Headers** tab, scroll down to the **Request Headers** section and copy the `cookie` header.
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/Group%204.png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/7ca63f18-deaa-4d6c-bddb-4fbf91185810.png)
 
 ### Connect to Looker Studio
 

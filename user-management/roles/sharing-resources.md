@@ -18,7 +18,7 @@ Creating Teams and adding your users to those Teams is the ideal way to share da
 
 You can also manually override the Teams permissions that are set by clicking **Share link and permissions** in the top right of your resource, and clicking **Override permissions**.
 
-&#x20; ![](<../../.gitbook/assets/Screenshot 2023-08-14 at 4.16.28 PM.png>)![](<../../.gitbook/assets/Screenshot 2023-08-14 at 4.18.42 PM.png>)
+&#x20; ![](<https://secoda-public-media-assets.s3.amazonaws.com/f8587efa-6e9d-44b3-b67f-6e412d9f7562.png>)
 
 Clicking **Copy link** copies the resource's unique URL to your clipboard so that you can share it with whoever you want. Still, only people with access to the resource can see it.
 
@@ -28,7 +28,7 @@ If you come across a resource within Secoda Search that you'd like to access, yo
 
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 3.02.15 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4a00b5b8-5b2c-4f9c-a32b-83e45af538d2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
