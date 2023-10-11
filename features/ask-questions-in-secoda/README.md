@@ -16,11 +16,11 @@ Once a question is submitted in the UI, teammates can comment on the question an
 
 Each Question has the sidebar metadata (see below) so that the person asking the question can indicate the Priority, add it to any Collections or Teams etc. Admins and Editors can also delete incorrect answers or comments.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 2.01.46 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/137a1da8-e877-4e24-9522-61d6141d898d.png" alt=""><figcaption></figcaption></figure>
 
 If you'd like to see all of the unanswered Questions, you can sort by Status.&#x20;
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-08-28 at 14.08.44.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/94300002-25af-496d-8c77-ee7654af429e.gif" alt=""><figcaption></figcaption></figure>
 
 Learn more about our Questions feature by exploring the pages below!
 

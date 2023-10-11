@@ -34,7 +34,7 @@ As a Viewer in Secoda, you get to view and search all of the published data reso
 
 Want to learn about the product in action? Read up on some case studies about how our power customers have integrated the product into their workflows [**here**](https://www.secoda.co/customers).&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2023-07-25 at 1.59.06 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d43aae8b-af06-445b-97e7-f7325e109601.png" alt=""><figcaption></figcaption></figure>
 
 **Got a few minutes?** Check out a video overview of our product:
 

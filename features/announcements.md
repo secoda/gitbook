@@ -4,7 +4,7 @@ Using Announcements, data teams can send messages to their users within Secoda.
 
 Users have the ability to send _general_ Announcements directly from any screen in Secoda, by clicking the megaphone :mega: button to the right of Search.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-12 at 2.32.39 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7b9e2fb2-e4b1-4db6-accc-a40001de9a6e.png" alt=""><figcaption></figcaption></figure>
 
 Users can also share an announcement _from any resource_. For example, if your announcement pertains to a table, you can click into that table and find the megaphone button in the side panel to create an Announcement.
 

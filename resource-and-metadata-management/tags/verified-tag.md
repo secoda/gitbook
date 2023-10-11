@@ -19,4 +19,4 @@ Overall, verifying data through verified tags in Secoda can help organizations i
 You can use the Verified tag on Catalog resources, Documents and Dictionary terms.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-27 at 5.17.10 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/84f933cc-fb18-4293-b58a-9bfabd26c3c3.png" alt=""><figcaption></figcaption></figure>

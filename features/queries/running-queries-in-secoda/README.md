@@ -8,7 +8,7 @@ description: >-
 
 By using the /query command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections. This allows users to preview the data directly in Secoda.
 
-<figure><img src="../../../.gitbook/assets/Kapture 2023-09-27 at 14.24.35.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/99a26f5b-3334-4818-99f3-eafbb653727a.gif" alt=""><figcaption></figcaption></figure>
 
 ## Turn off Query capabilities
 

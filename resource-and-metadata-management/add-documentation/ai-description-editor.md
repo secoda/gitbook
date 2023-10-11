@@ -20,19 +20,19 @@ The AI can generate descriptions at both the column and table level. Follow thes
    2. You can choose to :x:**Reject** the generated description,  :arrows\_clockwise:**Try again** or :ballot\_box\_with\_check:**Keep** it
    3.  See the description filled out automatically!
 
-       <figure><img src="../../.gitbook/assets/Kapture 2023-08-31 at 13.46.44.gif" alt=""><figcaption></figcaption></figure>
+       <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f01f268a-acd1-439a-ac09-809a2b8fe52f.gif" alt=""><figcaption></figcaption></figure>
 3. For editing descriptions in bulk:&#x20;
    1. Select as many resources by clicking the small box next to the Column Title
    2. Click **Apply AI Description > Generate**
    3. A small box in the right hand corner titled Bulk AI Metadata Generation will appear and begin generating the descriptions
    4.  Once complete, the descriptions will automatically appear in your Catalog!
 
-       <figure><img src="../../.gitbook/assets/Kapture 2023-08-31 at 13.55.35 (1).gif" alt=""><figcaption></figcaption></figure>
+       <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0e5d792e-459a-4bda-b106-1e91dc94a592.gif" alt=""><figcaption></figcaption></figure>
 4. If you'd like to add more content to the description, you can simply click into the description to edit them
 
 ### In the Dictionary and Collections
 
 This feature can also be used to add descriptions to your Dictionary metrics and Collections. Simply click into those sections and follow the same steps outlined above!
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-09-15 at 13.12.01.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/089c02af-7a22-4f2b-8ed6-5f523d71aa8e.gif" alt=""><figcaption></figcaption></figure>
 

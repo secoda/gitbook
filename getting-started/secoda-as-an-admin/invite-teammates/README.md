@@ -26,7 +26,7 @@ On this screen, you'll be able to see the plan level that you and your team are 
 
 If you're adding multiple teammates at once, we recommend **using the "Invite members" button** so that you can add them in bulk.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-14 at 4.35.50 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9d4df134-baef-46c9-960e-bf9261a29b66.png" alt=""><figcaption></figcaption></figure>
 
 ## Assigning Roles
 
@@ -40,7 +40,7 @@ For more on what permissions certain roles have, check out [**Roles.**](../../..
 
 To Deactivate a member from your workspace, click **Deactivate** beside their name. The user's name will still appear on resources that they had previously owned, but will have a strike through their name. This can be helpful context to know who had the historical knowledge of a dataset.
 
-![](<../../../.gitbook/assets/Screenshot 2023-08-14 at 3.11.04 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/06102896-2f76-4c6c-b45b-454c39ffb8f1.png>)
 
 ## Groups & Teams
 
