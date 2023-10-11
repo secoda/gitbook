@@ -1,14 +1,14 @@
 ---
-description: >-
-  The Secoda Agent implements a Reverse SSH Tunnel to securely connect local
-  data sources without opening ports, while encrypting data in-transit.
+description: This page walks through connecting your data sources via the Secoda Agent
 ---
 
 # Connecting via Secoda Agent (Reverse SSH Tunnel)
 
 ## **Getting Started**
 
-**Setup**
+**The Secoda Agent**  implements a Reverse SSH Tunnel to securely connect local data sources without opening ports, while encrypting data in-transit.
+
+### **Setup**
 
 On your own EC2/VM, we run the Secoda Agent as a docker image. You can use docker-compose, like so:
 
@@ -28,7 +28,7 @@ services:
 
 Secoda Agent is an enterprise preview feature. Your enterprise contact at Secoda will provide you with the values for the environment variables.
 
-**Running**
+### **Running**
 
 Once you have inputted the values, you can run the Secoda Agent with:
 
