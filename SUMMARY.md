@@ -110,7 +110,7 @@
     * [Upload your CSV](integrations/custom-integration/upload-your-csv.md)
     * [Maintain your Resources](integrations/custom-integration/maintain-your-resources.md)
   * [Connecting via Tunnels](integrations/connecting-via-tunnels/README.md)
-    * [Connecting via Secoda Agent (Enterprise)](integrations/connecting-via-tunnels/connecting-via-secoda-agent-enterprise.md)
+    * [Connecting via Secoda Agent (Reverse SSH Tunnel)](integrations/connecting-via-tunnels/connecting-via-secoda-agent-reverse-ssh-tunnel.md)
     * [Connecting via SSH Tunnel](integrations/connecting-via-tunnels/connecting-via-ssh-tunnel.md)
     * [Connecting via VPC Peering](integrations/connecting-via-tunnels/connecting-via-vpc-peering.md)
     * [Connecting via AWS Cross Account Role](integrations/connecting-via-tunnels/connecting-via-aws-cross-account-role.md)

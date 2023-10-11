@@ -1,6 +1,10 @@
-# Connecting via Secoda Agent (Enterprise)
+---
+description: >-
+  The Secoda Agent implements a Reverse SSH Tunnel to securely connect local
+  data sources without opening ports, while encrypting data in-transit.
+---
 
-The Secoda Agent implements a Reverse SSH Tunnel to securely connect local data sources without opening ports, while encrypting data in-transit.
+# Connecting via Secoda Agent (Reverse SSH Tunnel)
 
 ## **Getting Started**
 
