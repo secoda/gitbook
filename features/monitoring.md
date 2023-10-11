@@ -28,12 +28,12 @@ The monitor will alert if any of these values are higher or lower than expected.
 1. Navigate to the table or column that you'd like to add a monitor for
 2.  Click into the "Monitors" tab > "New Monitor"&#x20;
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.21.50 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/40ae73c2-f895-4d69-a17a-4fc1736ca827.png" alt=""><figcaption></figcaption></figure>
 3.  Select one or multiple resources that you'd like to add the Monitor for.
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.26.00 AM.png" alt="" width="188"><figcaption><p>Select resource</p></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/eef8e012-ac15-4c7c-94bf-c1c0f156ac6f.png" alt="" width="188"><figcaption><p>Select resource</p></figcaption></figure>
 
     </div>
 4.  Select which monitor type(s) (can be more than one) and click "Add Monitors".&#x20;
@@ -42,7 +42,7 @@ The monitor will alert if any of these values are higher or lower than expected.
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.55.04 AM.png" alt="" width="188"><figcaption><p>Monitor types</p></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ae1144cb-8b55-4e25-8af8-634777628335.png" alt="" width="188"><figcaption><p>Monitor types</p></figcaption></figure>
 
     </div>
 5. Once created, you can find it under the "Monitors" tab in the Catalog
@@ -54,7 +54,7 @@ The monitor will alert if any of these values are higher or lower than expected.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.33.40 AM (1).png" alt="" width="153"><figcaption><p>Configuration details</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f4f4df5c-d851-428e-a672-9f0da1cd7df7.png" alt="" width="153"><figcaption><p>Configuration details</p></figcaption></figure>
 
 </div>
 
@@ -70,23 +70,23 @@ View Status, Last and Next Run details, and a Chart Visualization of the monitor
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 11.58.03 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e499d48e-1cbe-49ba-bb49-1b19226ed312.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 The lighter green surrounding the main line represent the threshold limits - once the threshold is passed, it'll show a red dot indicating an incident
 
-<figure><img src="../.gitbook/assets/Kapture 2023-09-21 at 12.13.04.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/88d0fea1-144d-4b61-94c0-903bc22d6275.gif" alt=""><figcaption></figcaption></figure>
 
 Scroll down to see Run history, and filter for triggered Incident Reports. Here you can see any Downstream Resources that may be impacted by the incident.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-09-21 at 12.21.17.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3270f4bf-bc58-41aa-a5c8-06b5e4a401e4.gif" alt=""><figcaption></figcaption></figure>
 
 You can either Acknowledge or Resolve the incident by click these buttons below. The incident will be automatically resolved if the numbers go back into a good state (within the threshold).
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-21 at 12.29.23 PM.png" alt="" width="282"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c64a75ec-8256-4980-8e90-5e322f7fd72b.png" alt="" width="282"><figcaption></figcaption></figure>
 
 </div>
 
@@ -96,6 +96,6 @@ Ensure that you receive notifications about your monitors by going into your Not
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-20 at 3.17.05 PM.png" alt=""><figcaption><p>Monitor notifications</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications</p></figcaption></figure>
 
 </div>

@@ -36,13 +36,13 @@ To create a new dictionary term, simply click **New Dictionary Term** in the top
 
 From here, you'll have the option to add a definition, list Collections the term is a part of, assign ownership, and add applicable tags.
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-06-27 at 16.01.16.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6a2d34cd-adff-4ec8-9922-d9167ad1a390.gif" alt=""><figcaption></figcaption></figure>
 
 ## Enriching Dictionary Terms
 
 There is a lot more enrichment that can be done with Dictionary terms in order to make them more searchable and link them elsewhere within the product. Add Related resources, a Verification status, as well as Teams that are associated with the term.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-27 at 3.57.03 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b9412fcc-974f-4c6b-b577-074cbede8cc0.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -66,4 +66,4 @@ If you're team is working with a whole long list of terms, you might want to con
 
 For example, let's say you have a bunch of terms that all fall under the category "Customer". You can create a term called Customer, define it, and then nest the other existing terms underneath it.
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-09-07 at 17.25.15.gif" alt=""><figcaption><p>Nesting Dictionary Terms</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4a8a8e08-10d2-430e-9e79-748ecff8e746.gif" alt=""><figcaption><p>Nesting Dictionary Terms</p></figcaption></figure>

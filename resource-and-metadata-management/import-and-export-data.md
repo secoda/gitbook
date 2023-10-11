@@ -35,7 +35,7 @@ You can either export your data from Secoda to a csv, or start from scratch. The
 1. The file format must be csv
 2. Download the csv template and follow the instructions below
 
-{% file src="../.gitbook/assets/import_template (1).csv" %}
+{% file src="https://secoda-public-media-assets.s3.amazonaws.com/36b84e5e-13ea-41ae-84fd-878b308d66e4.csv" %}
 CSV template with filled in example in row 1
 {% endfile %}
 

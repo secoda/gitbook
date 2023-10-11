@@ -16,11 +16,11 @@ If you'd like to submit a Question using the [Questions template ](templates.md)
 
 Use the Slack command: `/ask,` followed by your question. See how it gives you the option to ask the Secoda AI Assistant here as well.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 1.58.19 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f70f7fa1-56a2-42b7-a2d1-b98b417f1b43.png" alt=""><figcaption></figcaption></figure>
 
 From here, you'll be prompted to ask your question and submit the following information.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 1.47.03 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/341a33cc-6db2-4988-a7b1-62a71fdc3d88.png" alt=""><figcaption></figcaption></figure>
 
 The Question will then appear in the Questions UI within Secoda. Once it's answered, you will receive a notification in Slack.
 

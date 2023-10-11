@@ -20,7 +20,7 @@ There are three steps to get started using dbt with Secoda:
 
 You can determine your account ID by going to the Account Settings page of dbt Cloud console. In the URL, for example in the URL below, the account ID is `12345 https://cloud.getdbt.com/settings/accounts/12345/pages/projects`
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20\(2\).png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/befe8acc-e0ba-4e42-a1b7-217c3e3a62ee.png)
 
 #### **Retrieve a Service Token** <a href="#h_a2cb9baed8" id="h_a2cb9baed8"></a>
 
@@ -28,7 +28,7 @@ Secoda uses the dbt Cloud REST API, which is only available paying dbt Cloud cus
 
 The minimum permissions are **Member** of the selected projects for the Service Account. Once the projects have been selected Save the token and copy the generated token.
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20\(4\).png)
+![](https://secoda-public-media-assets.s3.amazonaws.com/80e5fed3-f230-49e6-9ad4-3d078ddec0ca.png)
 
 #### **Connect dbt to Secoda** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
