@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page walks through the Secoda and Connecting via SSH integration that
-  Secoda supports
+description: This page walks through connecting your data sources via a direct SSH tunnel
 ---
 
 # Connecting via SSH Tunnel
