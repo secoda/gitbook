@@ -10,7 +10,7 @@ description: This page walks through connecting your data sources via the Secoda
 
 ### **Setup**
 
-On your own EC2/VM, we run the Secoda Agent as a docker image. You can use docker-compose, like so:
+On your own EC2/VM, you will run the Secoda Agent as a docker image. You can use docker-compose, like so:
 
 ```yml
 version: "3"
