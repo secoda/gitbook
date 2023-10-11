@@ -68,13 +68,10 @@ We endeavour to protect the privacy of your account and other Personal Informati
 
 You may access, and, in some cases, edit or delete the following information you’ve provided to us:
 
-* name and password
+* name
 * email address
-* phone number
 
-user profile information
-
-The information you can view, update, and delete may change as the Services change. If you have any questions about viewing or updating information we have on file about you, please contact us at [hello@secoda.co](mailto:hello@secoda.co)
+The information you can view, update, and delete may change as the Services change. If you have any questions about viewing or updating information we have on file about you, please contact us at support@secoda.co
 
 **What choices do I have?**
 
