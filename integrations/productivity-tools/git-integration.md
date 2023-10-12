@@ -12,11 +12,13 @@ The Secoda integration with Git allows user's to push the resources and metadata
 
 There are three steps to getting started using Git with Secoda
 
-1. Create an empty Git repository for Secoda to push data to.
+1. Create an empty Git repository for Secoda to push data to (NOTE: You may have to push an initial empty commit or an empty README file for the Git integration to run successfully)&#x20;
 2. Prepare your Git credentials
 3. Connect Git to Secoda
 
+{% hint style="info" %}
 The following guide contains screenshots and links from Github but Secoda’s Git integration works with every other Git host as well.
+{% endhint %}
 
 #### Create an Empty Git Repository <a href="#h_0f245132d2" id="h_0f245132d2"></a>
 
