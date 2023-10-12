@@ -46,8 +46,8 @@ Your git username password are the same as your Git hosting credentials. However
 
 1. Open your Secoda integrations page
 2. Click on "New Integration" on the top left
-3. Select git from the list of integrations
-4. Input your Git credentials from step 2 for “Git Username” and “Git Password”
+3. Select Git from the list of integrations
+4. Input your Git credentials - The Git Username is the username used to sign on to the Git platform, the Git password is either the generated Access Token (if the Git platform you use requires 2FA for signing on), or the password for your Git account.
 5. Click on "Test Connection" to save the integration.
 6. Once integration is created, click on “Run Extraction” from history tab to run your first extraction
 
