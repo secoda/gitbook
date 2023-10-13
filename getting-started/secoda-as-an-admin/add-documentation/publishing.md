@@ -10,11 +10,11 @@ description: >-
 
 Admins have access to view all resources in Secoda, while Editors have access to view the resources in the Teams that they are apart of. Viewers and Guests, on the other hand, can only view the **published** resources in the Teams that they are apart of. This functionality is built into Secoda to ensure that only the resources that are relevant and documented are available for consumption.
 
-## Published and Draft Tags
+## Published, Draft & Staged Statuses
 
 Each resource type has the ability to be marked as Published or to remain in Draft mode. This toggle is configurable by admins and editors.
 
-Viewers can only see resources that are Published, so for example, a published table with no published columns would show a Viewer only the metadata on the table.
+Viewers can only see resources that have been Published, so for example, a published table with no published columns would show a Viewer only the metadata on the table.&#x20;
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20587%20\(1\).png)
 
@@ -28,7 +28,7 @@ Once you're ready to publish your changes, you can navigate to the Publish butto
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7b2b2614-803c-422a-8fd7-5fd25d633872.png" alt=""><figcaption></figcaption></figure>
 
-This button will show you all the changes that have been made on that resource since the workspace was last published. You can select all changes or pick and choose changes before publishing them live to viewers.
+This button will show you all the changes that have been made on that resource since the workspace was last published (AKA what viewers are not able to see _yet_). You can select all changes or pick and choose changes before publishing them live to viewers.
 
 Here, you also have the option to **discard** all or some changes that have been made.
 
