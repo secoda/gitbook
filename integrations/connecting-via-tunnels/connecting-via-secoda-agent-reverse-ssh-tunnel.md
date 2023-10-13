@@ -16,7 +16,7 @@ On your own EC2/VM, you will run the Secoda Agent as a docker image. You can use
 version: "3"
 services:
   agent:
-    retart: always
+    restart: always
     image: "secoda/agent:latest"
     environment:
       - SSH_USER=
