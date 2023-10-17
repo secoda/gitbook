@@ -177,6 +177,7 @@
   * [Okta SAML](saml/okta-saml.md)
   * [Microsoft Azure AD SAML](saml/microsoft-azure-ad-saml.md)
   * [Google SAML](saml/google-saml.md)
+  * [SCIM](saml/scim.md)
 * [Secoda API](secoda-api.md)
   * [Get Started](secoda-api/get-started.md)
     * [Structure of Resources](secoda-api/get-started/structure-of-resources.md)
