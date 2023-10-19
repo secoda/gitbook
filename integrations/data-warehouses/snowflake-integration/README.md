@@ -28,34 +28,38 @@ This role will be attached to Secoda’s user and it gives just enough permissio
 3. Change role to ACCOUNTADMIN
 4. Create a new `SECODA` role and provide access to the `SNOWFLAKE` system tables using the following commands:
 
+{% hint style="info" %}
+Grant access to any existing and future databases, schemas and tables **for all the databases** you'd like Secoda to import metadata from:
+{% endhint %}
+
 ```
 CREATE ROLE SECODA;
 GRANT imported privileges on database SNOWFLAKE to ROLE SECODA;
 GRANT USAGE ON WAREHOUSE "<warehouse>" TO ROLE SECODA;
-```
 
-1. Grant access to any existing and future databases, schemas and tables **for all the databases** you'd like Secoda to import metadata from:
-
-```
 // ====== Existing Tables & Schemas
+begin;
 
+set database_name = <database name>;
 // Usage on database object
-GRANT USAGE ON DATABASE <database name> TO ROLE SECODA;
+GRANT USAGE ON DATABASE identifier($database_name) TO ROLE SECODA;
 
 // Usage on existing schemas
-GRANT USAGE,MONITOR ON ALL SCHEMAS IN DATABASE <database name> TO ROLE SECODA;
+GRANT USAGE,MONITOR ON ALL SCHEMAS IN DATABASE identifier($database_name)  TO ROLE SECODA;
 
 // References for INFORMATION_SCHEMA to existing tables
-GRANT SELECT ON ALL TABLES IN DATABASE <database name> TO ROLE SECODA;
-GRANT SELECT ON ALL VIEWS IN DATABASE <database name> TO ROLE SECODA;
+GRANT SELECT ON ALL TABLES IN DATABASE identifier($database_name)  TO ROLE SECODA;
+GRANT SELECT ON ALL VIEWS IN DATABASE identifier($database_name)  TO ROLE SECODA;
 
 // ====== Future Tables & Schemas
 
 // Read access to all schemas created in the future (but not current ones)
-GRANT USAGE,MONITOR ON FUTURE SCHEMAS IN DATABASE <database name> TO ROLE SECODA;
+GRANT USAGE,MONITOR ON FUTURE SCHEMAS IN DATABASE identifier($database_name)  TO ROLE SECODA;
 
 // Reference for INFORMATION_SCHEMA to all tables created in the future (but not current ones)
-GRANT SELECT ON FUTURE TABLES IN DATABASE <database name> TO ROLE SECODA;
+GRANT SELECT ON FUTURE TABLES IN DATABASE identifier($database_name)  TO ROLE SECODA;
+
+commit;
 ```
 
 Create User for Secoda
