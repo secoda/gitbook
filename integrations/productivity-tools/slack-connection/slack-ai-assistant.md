@@ -25,7 +25,7 @@ This feature allows the AI Assistant to give answers to questions within Slack, 
 1. Once you've connected your Slack workspace to Secoda by following these steps [#how-to-set-up](./#how-to-set-up "mention"), and you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention"), you are able to utilize the Slack:AI Assistant feature.
 2. Ask your question in the designated Data Requests Slack channel that is connected to your workspace
    * No need to prompt with a `/` command!
-   * See [below](slack-ai-assistant.md#asking-questions-for-personal-use) if you'd rather not post these to the public channel
+   * See [below](slack-ai-assistant.md#asking-questions-for-personal-use) if you'd rather not post these to the channel
 3. If Secoda AI has the answer, it will return that answer directly in the Slack thread
    * Your teammates are also able to hop in this thread and provide their insights
 4. The answer will show two options, :white\_check\_mark:**Answered** or :x:**Incorrect**, to which any user can decide if the response was accurate

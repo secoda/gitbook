@@ -14,9 +14,11 @@ Secoda hopes to identify your stale data resources to improve the overall data q
 
 ## How it works <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-Secoda automatically hides any stale data from users in the workspace. We define stale data as any resources that no longer show up in the most recent extractions from your integration.&#x20;
+Secoda automatically hides any stale data from users in the workspace. We define stale data as any resources that no longer show up in the most recent extractions from your integration.
 
 To see the list of Stale data in your workspace, use the keyboard shortcut **command+k** and scroll down to "Archive".
+
+<figure><img src="../.gitbook/assets/Kapture 2023-10-23 at 14.48.58.gif" alt=""><figcaption><p>Stale and Archived Data</p></figcaption></figure>
 
 You can choose to disable automatic staling in the Settings > Preferences:
 

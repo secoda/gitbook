@@ -10,7 +10,7 @@ Secoda is committed to security and focused on keeping you and your data safe. S
 
 Contact [hello@secoda.co](mailto:hello@secoda.co) f you have any questions or comments.
 
-
+***
 
 ### Web portal connectivity
 
@@ -18,13 +18,13 @@ Contact [hello@secoda.co](mailto:hello@secoda.co) f you have any questions or co
 * Any attempt to connect over an unencrypted channel (HTTP) is redirected to an encrypted channel (HTTPS).
 * To take advantage of HTTPS, your browser must support encryption protection (all versions of Google Chrome, Firefox, and Safari).
 
-
+***
 
 ### Permissions
 
 * **Databases and API cloud applications** - Secoda only requires READ permissions. For data sources that by default grant permissions beyond read-only, Secoda will never make use of those permissions.
 
-
+***
 
 ### Retention of customer data
 
@@ -33,13 +33,13 @@ All customer data, besides what is listed below, is removed from Secoda's system
 * **Customer access credentials** - Secoda retains customer database credentials and SaaS OAuth tokens in order to securely and continuously extract data and troubleshoot customer issues. These credentials are stored securely using industry standard encryption.
 * **Customer metadata** - Secoda retains metadata such as table and column names for each integration so that this information can be shown to your organization in Secoda' user interface.
 
-
+***
 
 ### Physical and environmental safeguards
 
 Since Secoda relies on AWS, physical and environmental security is handled entirely by Amazon. Amazon provides an extensive list of compliance and regulatory assurances, including SOC 1/2-3, PCI-DSS and ISO27001.
 
-
+***
 
 ### Your organization permissions
 
@@ -49,7 +49,7 @@ Since Secoda relies on AWS, physical and environmental security is handled entir
 * Organization administrators can request that Secoda revoke an organization member's access at any point; these requests will be honored within 24 hours or less.
 * Organizations administrators can request that Secoda delete all organizations metadata at any point; these requests will be honoured without 24 hours or less.
 
-
+***
 
 ### Company policies
 
@@ -58,19 +58,19 @@ Since Secoda relies on AWS, physical and environmental security is handled entir
 * Current and future development follows industry-standard secure coding guidelines, such as those recommended by OWASP.
 * Networks are strictly segregated according to security level. Modern, restrictive firewalls protect all connections between networks.
 
-
+***
 
 ### Compliance and privacy
 
 * Secoda currently has SOC 2 compliance and can provide documentation upon request.
 
-
+***
 
 ### In the event of a data breach
 
 To date, Secoda has not experienced a breach in security of any kind. In the event of such an occurrence, Secoda protocol is such that customers would be made aware as soon as the compromise is confirmed.
 
-
+***
 
 ### Responsible disclosure policy
 
@@ -83,7 +83,7 @@ If you believe you’ve found a security vulnerability, please send it to us by 
 
 Please make a good faith effort to avoid privacy violations as well as destruction, interruption or segregation of services and/or data. We will respond to your report within 5 business days of receipt and will attempt to keep you regularly informed of our progress toward resolving the vulnerability. If you have followed the above instructions, we will not take any legal action against you regarding the report.
 
-
+***
 
 ### Diagnostic data access
 

@@ -17,7 +17,14 @@ Overall, connecting Slack to Secoda can help your team stay updated, collaborate
 
 ## How to Set Up
 
+
+
 1. We recommend that you create a separate channel for Secoda purposes (i.e. #secoda-notifications), since you'll also receive notifications if there are things like schema changes or documentation edits there.
+
+{% hint style="info" %}
+If you'd like to use a **Private** Slack channel for these, you must type **`/invite @Secoda`** in the channel and then go to Secoda and follow the below steps
+{% endhint %}
+
 2. After this channel is created or you've decided which existing channel you'd like to use, go to **Integrations** in the Secoda App.
 3. Click **New integration** and select **Slack**.
 4. Choose which **Associated teams** you'd like to add; we recommend General so that everyone across your data org has access to the Slack integration.
