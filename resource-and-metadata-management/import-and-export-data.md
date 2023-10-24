@@ -33,13 +33,11 @@ If you have set up a documentation tool (Excel, G-Sheet etc.) at your organizati
 You can either export your data from Secoda to a csv, or start from scratch. The only requirements for importing are:
 
 1. The file format must be csv
-2. Download the csv template and follow the instructions below
+2. Download the csv template and follow the instructions below:
 
-{% file src="https://secoda-public-media-assets.s3.amazonaws.com/36b84e5e-13ea-41ae-84fd-878b308d66e4.csv" %}
-CSV template with filled in example in row 1
-{% endfile %}
+{% file src="../.gitbook/assets/import_template (4).csv" %}
 
-* The file must have the following **required** columns:&#x20;
+* The file must have the following **required** columns:
   * **id -** Leave this blank if it's a new resource (i.e dictionary term)
   * **title -** The name of the resource
   * **entity\_type** - Can be any of the following - table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event
