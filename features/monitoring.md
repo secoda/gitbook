@@ -26,7 +26,7 @@ The monitor will alert if any of these values are higher or lower than expected.
 ## How to create monitors
 
 1. Navigate to the table or column that you'd like to add a monitor for
-2.  Click into the "Monitors" tab > "New Monitor"&#x20;
+2.  Click into the "Monitors" tab > "New Monitor"
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/40ae73c2-f895-4d69-a17a-4fc1736ca827.png" alt=""><figcaption></figcaption></figure>
 3.  Select one or multiple resources that you'd like to add the Monitor for.
@@ -36,9 +36,7 @@ The monitor will alert if any of these values are higher or lower than expected.
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/eef8e012-ac15-4c7c-94bf-c1c0f156ac6f.png" alt="" width="188"><figcaption><p>Select resource</p></figcaption></figure>
 
     </div>
-4.  Select which monitor type(s) (can be more than one) and click "Add Monitors".&#x20;
-
-
+4.  Select which monitor type(s) (can be more than one) and click "Add Monitors".
 
     <div align="left">
 
@@ -47,7 +45,7 @@ The monitor will alert if any of these values are higher or lower than expected.
     </div>
 5. Once created, you can find it under the "Monitors" tab in the Catalog
 6. Click into the monitor to further edit and see the history of the monitor's runs
-   * Edit Configuration details like Schedule, Threshold and Sensitivity&#x20;
+   * Edit Configuration details like Schedule, Threshold and Sensitivity
      * Schedule - Choose between Daily, Every 12, 6 or 3 hours, or Hourly
      * Threshold - Automatic or Manual
      * Sensitivity - More or less sensitive threshold
@@ -99,3 +97,7 @@ Ensure that you receive notifications about your monitors by going into your Not
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications</p></figcaption></figure>
 
 </div>
+
+## Video resource
+
+{% embed url="https://www.loom.com/share/03c92029f9cd4de4ae11653a2cea6c0c?sid=202df101-4494-44f7-8594-b0606f3cf5d9" %}

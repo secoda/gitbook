@@ -97,3 +97,7 @@ The Chrome extension supports resources in the following tools:
 * [BigQuery](../integrations/data-warehouses/bigquery-integration/): Schemas, Tables, Views
 * [Sigma](../integrations/data-visualization-tools/sigma-integration/): Workbooks, Elements, Pages
 * [Mode](../integrations/data-visualization-tools/mode/): Reports, Charts
+
+## Video resource
+
+{% embed url="https://www.loom.com/share/6e22054c0b864badbd97d3581f765dcc?sid=a247fb0b-e4a6-4b86-a0f0-dfeecf6ad711" %}
