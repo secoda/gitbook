@@ -14,7 +14,7 @@ Secoda supports this feature for the following integrations:
 
 Click into the pages linked above to see which metadata is synced.
 
-#### How to run a sync
+## How to run a sync
 
 At this time, this is a manual process to push the metadata from Secoda back into the source. Follow these steps to run the sync:
 
@@ -22,6 +22,14 @@ At this time, this is a manual process to push the metadata from Secoda back int
 2. Go to **Sync History** and click into the **Push** tab
 3. Click **Run sync**
 
-#### Overriding content
+## Overriding content
 
 This feature will override any content that is currently set within the source with the new values that are coming from Secoda. If they are the same values, nothing will change.
+
+## Troubleshooting
+
+These pushes should update the source quite quickly, usually within minutes. If you're not seeing changes in the source, you might want to check your Integration settings.
+
+1. Click into the Integration
+2. Go into Preferences and make sure that "Descriptions" is toggled OFF
+   1. If this is toggled on, the source will be considered the source of truth meaning Secoda edits will not be pushed into the source
