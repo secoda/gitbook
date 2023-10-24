@@ -75,6 +75,8 @@
       * [Metadata Extracted](integrations/data-visualization-tools/tableau-integration/metadata-extracted.md)
     * [Looker](integrations/data-visualization-tools/looker-integration/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/looker-integration/looker-metadata.md)
+    * [ThoughtSpot](integrations/data-visualization-tools/thoughtspot/README.md)
+      * [Metadata Extracted](integrations/data-visualization-tools/thoughtspot/metadata-extracted.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
     * [Airflow](integrations/data-pipeline-tools/airflow/README.md)
       * [Metadata Extracted](integrations/data-pipeline-tools/airflow/metadata-extracted.md)
