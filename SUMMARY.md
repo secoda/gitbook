@@ -111,6 +111,8 @@
     * [Create your CSV](integrations/custom-integration/create-your-csv.md)
     * [Upload your CSV](integrations/custom-integration/upload-your-csv.md)
     * [Maintain your Resources](integrations/custom-integration/maintain-your-resources.md)
+    * [JSONL Files Upload](integrations/custom-integration/jsonl-files-upload/README.md)
+      * [Generate JSONL Metadata Files](integrations/custom-integration/jsonl-files-upload/generate-jsonl-metadata-files.md)
   * [Connecting via Tunnels](integrations/connecting-via-tunnels/README.md)
     * [Connecting via Secoda Agent (Reverse SSH Tunnel)](integrations/connecting-via-tunnels/connecting-via-secoda-agent-reverse-ssh-tunnel.md)
     * [Connecting via SSH Tunnel](integrations/connecting-via-tunnels/connecting-via-ssh-tunnel.md)
