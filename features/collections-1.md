@@ -33,17 +33,25 @@ In the Customer Support OKR Collection you add the following resources:
 
 ## How to create Collections
 
-To create a Collection, navigate to the Collections page and click on "New Collection". After naming the Collection and creating it you can navigate to the collection to add resources and update the metadata on a collection.
+To create a Collection, navigate to the Collections page and click on "New Collection". After naming the Collection and creating it you can navigate to the Collection to add resources and update the metadata on a collection.
+
+## How to add resources to Collections
 
 There are a few ways that you can add a resource to a Collection:
 
-#### Collection Page
+#### Within the Collection
 
 On the Collection page, you can add a resource to the Collection by clicking the "Add resource" button. After clicking the button, search for the resource you'd like to add and select the resource. The resource will be added to the Collection in the respective tab for the resource type.
 
-#### Resource Page
+#### From the Resource Page
 
 On a resource page, you can add a resource to a Collection by opening up the right properties side bar, and clicking on the Collections selector.&#x20;
+
+#### Within the Catalog
+
+From the Catalog, you can make bulk edits to your resource metadata ([Making bulk edits](../resource-and-metadata-management/add-documentation/bulk-editing-resources.md)). This includes adding many resources to Collections in just a few clicks. In the example below, the user filters for a specific schema in order to add all the columns from the schema into the same Collection, and then makes the bulk edits.
+
+<figure><img src="../.gitbook/assets/Kapture 2023-10-26 at 11.42.09.gif" alt=""><figcaption></figcaption></figure>
 
 ## Nesting collections
 
