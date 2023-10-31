@@ -18,7 +18,7 @@ Data doesn't have meaning without a consistent understanding of what terms mean 
 
 ## Using Secoda's Dictionary
 
-Secoda's dictionary is the place to define all of your organizational metrics and terms. Metrics in your data dictionary will be visible via Secoda's search, and you can search directly in the dictionary.&#x20;
+Secoda's dictionary is the place to define all of your organizational metrics and terms. Metrics in your data dictionary will be visible via Secoda's search, and you can search directly in the dictionary.
 
 Check out our [dictionary-best-practices.md](../../readme/best-practices/dictionary-best-practices.md "mention") for strategies regarding building out your Dictionary.
 
@@ -30,7 +30,7 @@ Each Team has it's own Dictionary section, but you can also use the General Team
 
 You can find the Dictionary in the side navigation bar underneath Collections, if it is enabled for the Team you are working in.
 
-Once in the Dictionary, you'll be able to see all of the current terms your team has created, sorted by last added.&#x20;
+Once in the Dictionary, you'll be able to see all of the current terms your team has created, sorted by last added.
 
 To create a new dictionary term, simply click **New Dictionary Term** in the top left.
 
@@ -38,17 +38,23 @@ From here, you'll have the option to add a definition, list Collections the term
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6a2d34cd-adff-4ec8-9922-d9167ad1a390.gif" alt=""><figcaption></figcaption></figure>
 
+## Dictionary Term Queries
+
+After creating the term or metric, you'll see the SQL Query editor where you can write the query needed to calculate the metric. If you'd prefer to not have the SQL query block on each dictionary term, you can remove it in your workspace appearance settings.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-31 at 7.35.19 AM.png" alt=""><figcaption><p>Default SQL Query Block</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-30 at 4.13.53 PM.png" alt=""><figcaption><p>Settings to remove this</p></figcaption></figure>
+
 ## Enriching Dictionary Terms
 
 There is a lot more enrichment that can be done with Dictionary terms in order to make them more searchable and link them elsewhere within the product. Add Related resources, a Verification status, as well as Teams that are associated with the term.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b9412fcc-974f-4c6b-b577-074cbede8cc0.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Dictionary Term Templates
 
-Secoda allows you to create templates for your dictionary terms. Creating a standard structure for dictionary terms across your team is helpful so that you can ensure each term has the same detail and structure as the next.&#x20;
+Secoda allows you to create templates for your dictionary terms. Creating a standard structure for dictionary terms across your team is helpful so that you can ensure each term has the same detail and structure as the next.
 
 To create a Dictionary template, go to the **Templates** button beside **New Dictionary Term.**
 
