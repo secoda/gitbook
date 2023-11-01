@@ -25,5 +25,5 @@ Secoda currently integrates with the following Data Movement tools:
 {% endcontent-ref %}
 
 {% hint style="info" %}
-Don't see an integration for a tool you use? Message us on Slack or email us at hello@secoda.co and we'll add it to the roadmap.&#x20;
+Don't see an integration for a tool you use? Message us on Slack or email us at support@secoda.co and we'll add it to the roadmap.&#x20;
 {% endhint %}

@@ -7,7 +7,7 @@ description: Here are some important Admin tasks to get your workplace up and ru
 * [ ] [Enable SAML for single sign on](../../saml/)
 * [ ] [Connect your data](connect-your-data/)
 * [ ] [Best practices](../../features/ai-assistant/best-practices.md)&#x20;
-* [ ] [Personalize the workspace](personalization.md)
+* [ ] [Customize the workspace](personalization.md)
 * [ ] [Start editing your metadata](../../resource-and-metadata-management/add-documentation/)
 * [ ] [Populate Questions with FAQs](populate-questions-with-faqs.md)
 * [ ] [Invite your teammates](invite-teammates/)

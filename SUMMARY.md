@@ -5,7 +5,7 @@
     * [Connect your data](getting-started/secoda-as-an-admin/connect-your-data/README.md)
       * [Define Service Accounts](getting-started/secoda-as-an-admin/connect-your-data/define-service-accounts.md)
       * [Choose which schemas to extract](getting-started/secoda-as-an-admin/connect-your-data/hide-unwanted-datasets.md)
-    * [Personalize the workspace](getting-started/secoda-as-an-admin/personalization.md)
+    * [Customize the workspace](getting-started/secoda-as-an-admin/personalization.md)
     * [Populate Questions with FAQs](getting-started/secoda-as-an-admin/populate-questions-with-faqs.md)
     * [Invite your teammates](getting-started/secoda-as-an-admin/invite-teammates/README.md)
       * [Joining & Navigating between Multiple Workspaces](getting-started/secoda-as-an-admin/invite-teammates/joining-and-navigating-between-multiple-workspaces.md)

@@ -9,7 +9,7 @@ description: >-
 Secoda currently integrates with many different tools, see below for the types of tools we integrate with and instructions around how to set up the integration in your Secoda workspace.&#x20;
 
 {% hint style="info" %}
-**Good to know:** Secoda ships product updates weekly! If you don't see your data tool or source here, message us on Slack or email us at hello@secoda.co and we'll add it to the roadmap.
+**Good to know:** Secoda ships product updates weekly! If you don't see your data tool or source here, message us on Slack or email us at support@secoda.co and we'll add it to the roadmap.
 {% endhint %}
 
 {% content-ref url="data-warehouses/" %}
