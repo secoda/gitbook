@@ -21,5 +21,5 @@ Once the integration is connected, dbt metadata should flow seamlessly into your
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2d4bf2f4-6b31-4072-a2b4-a49c8698e85b.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Don't see an integration for a tool you use? Message us on Slack or email us at hello@secoda.co and we'll add it to the roadmap.&#x20;
+Don't see an integration for a tool you use? Message us on Slack or email us at support@secoda.co and we'll add it to the roadmap.
 {% endhint %}

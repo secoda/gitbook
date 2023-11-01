@@ -8,7 +8,7 @@ description: Key questions about the Secoda product
 
 Secoda recommends following the Getting Started step-by-step guide. You can also play around with docs, questions, collections and dictionary terms to see if it meets your needs.
 
-The first, crucial step is to get your data connected to Secoda. If you experience any difficulty connecting to your data source or don't see your source as an available integration, please contact us via Intercom, our Slack community, or send an email to hello@secoda.co
+The first, crucial step is to get your data connected to Secoda. If you experience any difficulty connecting to your data source or don't see your source as an available integration, please contact us via Intercom, our Slack community, or send an email to support@secoda.co
 
 After your data is connected to Secoda, you'll be able to add users, owners, descriptions, definitions, collections, tags etc. to your data.&#x20;
 

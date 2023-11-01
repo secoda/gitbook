@@ -123,6 +123,6 @@ Site or Secoda, then you and we will attempt to resolve that dispute through dis
 
 ## **Contact Us**
 
-If you have any questions, comments or requests regarding the Terms or any concerns about any material featured on our Site, please contact us at [hello@secoda.co](mailto:hello@secoda.co) or use the “contact us” form or button on our Site.
+If you have any questions, comments or requests regarding the Terms or any concerns about any material featured on our Site, please contact us at support@secoda.co or use the “contact us” form or button on our Site.
 
 Last updated 23.12.2021

@@ -1,10 +1,14 @@
+---
+description: The full history of a resource in one click
+---
+
 # Activity Log
 
-You can now see the history of activity of each resource by clicking on the clock icon on the top right-hand corner of the resource.&#x20;
+The Activity Log shows the history of activity on each resource. This includes when it was created, when it's metadata has been edited, when users have requested access to it etc. This can show you what different users have worked on in Secoda and helps to track down changes over time.
 
-This can show you what different users have worked on in Secoda and helps to track down changes over time.
+Simply click on the clock icon on the top right-hand corner of the resource.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/activity.gif)
+<figure><img src="../.gitbook/assets/Kapture 2023-11-01 at 12.15.40.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
