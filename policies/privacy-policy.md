@@ -77,10 +77,10 @@ The information you can view, update, and delete may change as the Services chan
 
 You can always opt not to disclose information to us, but keep in mind some information may be needed to register with us or to take advantage of some of our features.
 
-You may be able to add, update, or delete information as explained above. When you update information, however, we may maintain a copy of the unrevised information in our records. You may request deletion of your account or information by sending a request to [customer-hello@secoda.co](mailto:customer-hello@secoda.co). Some information may remain in our records after your deletion of such information from your account. We may use any aggregated data derived from or incorporating your Personal Information after you update or delete it, but not in a manner that would identify you personally.
+You may be able to add, update, or delete information as explained above. When you update information, however, we may maintain a copy of the unrevised information in our records. You may request deletion of your account or information by sending a request to support@secoda.co. Some information may remain in our records after your deletion of such information from your account. We may use any aggregated data derived from or incorporating your Personal Information after you update or delete it, but not in a manner that would identify you personally.
 
 Secoda does not sell or rent any of your personal information to third parties including that of minors under the age of sixteen (16). While Secoda does not consider the use of advertising cookies on our site as a sale, you have the right to opt out of it.
 
 **What if I have questions about this policy?**
 
-If you have any questions or concerns regarding our privacy policies, please send us a detailed message to [hello@secoda.co](mailto:hello@secoda.co), and we will try to resolve your concerns.
+If you have any questions or concerns regarding our privacy policies, please send us a detailed message to support@secoda.co, and we will try to resolve your concerns.

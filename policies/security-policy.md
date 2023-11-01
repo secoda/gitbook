@@ -8,7 +8,7 @@ description: Secoda is committed to security and focused on keeping you and your
 
 Secoda is committed to security and focused on keeping you and your data safe. Secoda adheres to industry-leading standards while connecting and loading data from all of your data sources.
 
-Contact [hello@secoda.co](mailto:hello@secoda.co) f you have any questions or comments.
+Contact support@secoda.co if you have any questions or comments.
 
 ***
 
@@ -76,7 +76,7 @@ To date, Secoda has not experienced a breach in security of any kind. In the eve
 
 At Secoda, we are committed to keeping our systems, data and product(s) secure. Despite the measures we take, security vulnerabilities will always be possible.
 
-If you believe you’ve found a security vulnerability, please send it to us by emailing [hello@secoda.co](mailto:hello@secoda.co). Please include the following details with your report:
+If you believe you’ve found a security vulnerability, please send it to us by emailing support@secoda.co. Please include the following details with your report:
 
 * Description of the location and potential impact of the vulnerability
 * A detailed description of the steps required to reproduce the vulnerability (POC scripts, screenshots, and compressed screen captures are all helpful to us)
