@@ -179,6 +179,7 @@
     * [Setup Backups](self-hosted-secoda/additional-resources/setup-backups.md)
 * [SAML](saml/README.md)
   * [Okta SAML](saml/okta-saml.md)
+  * [OneLogin SAML](saml/okta-saml-1.md)
   * [Microsoft Azure AD SAML](saml/microsoft-azure-ad-saml.md)
   * [Google SAML](saml/google-saml.md)
   * [SCIM](saml/scim.md)
