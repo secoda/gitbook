@@ -80,6 +80,8 @@
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
     * [Airflow](integrations/data-pipeline-tools/airflow/README.md)
       * [Metadata Extracted](integrations/data-pipeline-tools/airflow/metadata-extracted.md)
+    * [Dagster](integrations/data-pipeline-tools/dagster/README.md)
+      * [Metadata Extracted](integrations/data-pipeline-tools/dagster/metadata-extracted.md)
     * [Fivetran](integrations/data-pipeline-tools/fivetran-integration/README.md)
       * [Metadata Extracted](integrations/data-pipeline-tools/fivetran-integration/metadata-extracted.md)
     * [Glue](integrations/data-pipeline-tools/aws-glue-integration/README.md)
