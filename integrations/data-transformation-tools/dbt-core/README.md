@@ -152,3 +152,7 @@ The API provides an endpoint to upload your manifest.json file. This is convenie
     )
     print(response.json())
     ```
+
+If you'd like to upload a `run_results.json` file in addition to the `manifest.json` file (to capture the results of the dbt tests), you can do so by sending a POST request to the following endpoint, with the file, in the same way as indicated above.&#x20;
+
+* `https://api.secoda.co/integration/dbt/run_results/`
