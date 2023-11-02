@@ -3,7 +3,7 @@
 Now that your data is in Secoda, you can edit your metadata and add documentation in a few different ways.
 
 {% hint style="info" %}
-Secoda creates a unique ID for each resource using the Integration name, Database name, and Resource title.&#x20;
+Secoda creates a unique ID called a databuilder ID for each resource using the Integration name, Database name, and Resource title.&#x20;
 
 E.g. a column named <mark style="background-color:blue;">orders</mark>, in the <mark style="background-color:blue;">sales</mark> database of a <mark style="background-color:blue;">Snowflake</mark> integration would have an ID of <mark style="background-color:blue;">snowflake.sales.orders</mark>.
 
