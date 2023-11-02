@@ -8,6 +8,10 @@ Secoda currently integrates with the following Data Movement tools:
 [airflow](airflow/)
 {% endcontent-ref %}
 
+{% content-ref url="dagster/" %}
+[dagster](dagster/)
+{% endcontent-ref %}
+
 {% content-ref url="fivetran-integration/" %}
 [fivetran-integration](fivetran-integration/)
 {% endcontent-ref %}
