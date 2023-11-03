@@ -1,8 +1,8 @@
 # Metadata Extracted
 
-### What does Secoda extract from Data Studio?
+### What does Secoda extract from Google Data Studio?
 
-* Reports (Reports are referred to as Dashboards in Secoda)
+* Reports
   * Report Name
   * Report Description
   * Report Last Updated Time
