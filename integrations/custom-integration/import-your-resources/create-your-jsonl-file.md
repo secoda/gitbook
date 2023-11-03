@@ -8,8 +8,8 @@ Create a newline-delimited JSON (JSONL) file that contains a JSON object for eac
 
 Secoda expects metadata files to follow a newline-delimited JSON (JSONL) format. Two types of files can be uploaded into Secoda into this way:&#x20;
 
-1. `resources.jsonl`: Contains metadata for various entities, such as tables, columns, dashboards, and charts.
-2. `lineages.jsonl`: Contains lineage information that describes relationships between entities.
+1. `resources.jsonl`: Contains [metadata](../../../resource-and-metadata-management/#what-is-metadata) for various [resources](../../../resource-and-metadata-management/#what-is-a-resource), such as tables, columns, dashboards, and charts.
+2. `lineages.jsonl`: Contains [lineage](../../../features/data-lineage.md) information that describes relationships between entities.
 
 Example for `resources.jsonl`:
 
