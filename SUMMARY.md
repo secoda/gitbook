@@ -50,6 +50,8 @@
       * [Metadata Extracted](integrations/databases/postgres-integration/postgres-metadata.md)
     * [MongoDB](integrations/databases/mongodb/README.md)
       * [Metadata Extracted](integrations/databases/mongodb/data-type-conversion.md)
+    * [Azure Cosmos DB](integrations/databases/azure-cosmos-db/README.md)
+      * [Metadata Extracted](integrations/databases/azure-cosmos-db/metadata-extracted.md)
   * [Data Visualization Tools](integrations/data-visualization-tools/README.md)
     * [Amplitude](integrations/data-visualization-tools/amplitude-integration/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/amplitude-integration/metadata-extracted.md)
