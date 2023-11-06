@@ -23,6 +23,7 @@
     * [Dictionary best practices](readme/best-practices/dictionary-best-practices.md)
     * [Data Governance](readme/best-practices/data-governance.md)
     * [Data Quality](readme/best-practices/data-quality.md)
+    * [Slack integration best practices](readme/best-practices/slack-integration-best-practices.md)
 * [Integrations](integrations/README.md)
   * [Data Warehouses](integrations/data-warehouses/README.md)
     * [BigQuery](integrations/data-warehouses/bigquery-integration/README.md)
