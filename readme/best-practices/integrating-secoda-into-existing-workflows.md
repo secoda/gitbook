@@ -12,10 +12,7 @@ With Secoda, users shouldn't have to change current behaviors to engage with the
 
 ### [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention")
 
-* Connect the AI Assistant to your data requests Slack channel so that users don't have to leave their Slack workflow to find answers
-  * Users can ask questions directly in Slack about data within your workspace and if AI has a response, it will automatically populate in the thread
-  * Other users/admins can hop in the thread to approve or deny the answer
-  * The AI will push these questions back into Secoda so that they're searchable&#x20;
+* Connect the AI Assistant to your data requests Slack channel so that users don't have to leave their Slack workflow to find answers. Check out [best practices ](slack-integration-best-practices.md)here.
 * End result:
   * Improved data literacy
   * Reduced time spent on repetitive replies to users
@@ -24,7 +21,7 @@ With Secoda, users shouldn't have to change current behaviors to engage with the
 ### [chrome-extension.md](../../features/chrome-extension.md "mention")
 
 * Download the Chrome extension to enable your users to access Secoda metadata directly in the other tools they're currently working in, like BigQuery and Tableau
-* If the extension is enabled, a user can see important information like ownership and descriptions coming from Secoda without having to move across multiple tabs
+* If the extension is enabled, a user can see and edit important information like ownership and descriptions coming from Secoda without having to move across multiple tabs
 
 ### Enable [#slack-notifications](../../features/notifications.md#slack-notifications "mention")
 
