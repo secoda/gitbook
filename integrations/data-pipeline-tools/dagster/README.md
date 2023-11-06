@@ -22,7 +22,7 @@ To retrieve the host domain, navigate to the page where you normally interact wi
 
 For example, if the page is on the 'Deployment' tab and the link is "https://example.dagster.cloud/ex/locations", then the host domain is "https://example.dagster.cloud/ex" in this case.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20(1).png)
 
 #### Create a user token
 
@@ -35,7 +35,7 @@ If you are using Dagster Cloud, navigate to your Dagster Cloud domain found prev
 3. Click on the **Tokens** tab at the top of the page
 4. Click on the **Create user token** button on the right hand side
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image.png)
 
 5. Click **Reveal token** on the newly created token
 6. Click the text to copy the value
