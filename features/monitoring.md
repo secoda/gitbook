@@ -23,6 +23,10 @@ Choose from the following monitor types:
 
 The monitor will alert if any of these values are higher or lower than expected.
 
+{% hint style="info" %}
+Note: Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.&#x20;
+{% endhint %}
+
 ## How to create monitors
 
 1. Navigate to the table or column that you'd like to add a monitor for
