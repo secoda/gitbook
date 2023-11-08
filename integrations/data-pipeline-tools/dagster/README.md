@@ -1,5 +1,5 @@
 ---
-description: An overview of the Airflow integration with Secoda
+description: An overview of the Dagster integration with Secoda
 ---
 
 # Dagster
@@ -10,7 +10,7 @@ description: An overview of the Airflow integration with Secoda
 
 ## Getting Started with Dagster
 
-There are three steps to connect Confluence with Secoda:
+There are three steps to connect Dagster with Secoda:
 
 1. Retrieve the host domain
 2. Create a user token (Dagster Cloud only)
@@ -22,7 +22,7 @@ To retrieve the host domain, navigate to the page where you normally interact wi
 
 For example, if the page is on the 'Deployment' tab and the link is "https://example.dagster.cloud/ex/locations", then the host domain is "https://example.dagster.cloud/ex" in this case.
 
-![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20(1).png)
+![](https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image%20\(1\).png)
 
 #### Create a user token
 
