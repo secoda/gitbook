@@ -2,6 +2,8 @@
 
 ### What does Secoda extract from Sigma?
 
+NOTE: Preview of Sigma resources is available in Secoda if permissions are granted.&#x20;
+
 * Workbooks (Workbooks are referred to as Dashboards in Secoda)
   * Workbook Name
   * Workbook Updated At
