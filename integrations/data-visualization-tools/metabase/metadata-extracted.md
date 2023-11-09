@@ -2,6 +2,8 @@
 
 ### What does Secoda extract from Metabase?
 
+NOTE: Preview of Metabase resources is available in Secoda if permissions are granted.&#x20;
+
 * Collections (Collections are referred to as Dashboard Groups in Secoda)
   * Collection Name
 * Dashboard

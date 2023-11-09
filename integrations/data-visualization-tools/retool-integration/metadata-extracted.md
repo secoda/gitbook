@@ -2,6 +2,8 @@
 
 ### What does Secoda extract from Retool?
 
+NOTE: Preview of Retool resources is available in Secoda if permissions are granted.&#x20;
+
 * Folders (Folders are referred to as Dashboard Groups in Secoda)
   * Folder Name
   * Folder Updated At

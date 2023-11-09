@@ -2,6 +2,8 @@
 
 ### what does Secoda extract from Mixpanel?
 
+NOTE: Preview of Mixpanel resources is available in Secoda if permissions are granted.&#x20;
+
 * Projects (Projects defined as dashboard groups in Secoda):
   * Project Name
 * Boards (Boards are defined as dashboards in Secoda):
