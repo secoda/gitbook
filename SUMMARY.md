@@ -199,5 +199,7 @@
   * [Privacy Policy](policies/privacy-policy.md)
   * [Security Policy](policies/security-policy.md)
   * [Accessibility Statement](policies/accessibility-statement.md)
+  * [Data Processing Agreement](policies/data-processing-agreement.md)
+  * [Subprocessors](policies/subprocessors.md)
 * [System Status](https://status.secoda.co)
 * [Secoda Change log](secoda-change-log.md)
