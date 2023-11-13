@@ -40,5 +40,5 @@ You must fully enable metadata scanning in order for DAX expressions to be retur
   * PowerBI Tile <-> PowerBI Report
 
 {% hint style="info" %}
-To determine lineage from PowerBI, we use the relationships and dependencies provided from the PowerBI APIs.
+To determine lineage from PowerBI, we use the relationships and dependencies provided from the PowerBI Admin APIs. If using Non Admin APIs we will not be able to show lineage to other resources within Secoda.
 {% endhint %}

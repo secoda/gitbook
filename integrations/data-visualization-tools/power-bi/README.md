@@ -17,6 +17,10 @@ There are two options for setting up the Power BI integration on Secoda:
    * Admin APIs
    * Non-Admin APIs
 
+{% hint style="info" %}
+To see Lineage to PowerBI resources in Secoda from external tables, you must authenticate PowerBI using the Admin APIs.
+{% endhint %}
+
 ### OAuth
 
 The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI workspace. To connect Power BI to Secoda follow the steps below:
