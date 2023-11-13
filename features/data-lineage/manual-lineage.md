@@ -15,7 +15,7 @@ You can read all about automated Lineage in Secoda [here](../data-lineage.md). M
 * Primary Keys and/or Foreign Keys are not defined on database tables
 * Product APIs are not able to provide lineage details
 * Parsed queries are not able to determine lineage
-* To create lineage to Resources that are native to Secoda, such as [Dictionary Terms](../metrics.md), [Documents](broken-reference/), [Questions](../ask-questions-in-secoda/asking-questions-from-slack.md), and [Collections](../collections-1.md)
+* To create lineage to Resources that are native to Secoda, such as [Dictionary Terms](../metrics/), [Documents](broken-reference/), [Questions](../ask-questions-in-secoda/asking-questions-from-slack.md), and [Collections](../collections-1.md)
 
 ## How to use Manual Lineage
 

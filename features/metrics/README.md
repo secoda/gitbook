@@ -1,7 +1,5 @@
 ---
-description: >-
-  The dictionary feature is one spot for all of your data terms. You can search
-  dictionary terms using the terms themselves, owners, and definitions.
+description: The dictionary is one spot for all of your organization's terms
 ---
 
 # Dictionary
@@ -14,21 +12,21 @@ A dictionary is a document that provides definitions and metadata for data asset
 4. Enhanced data security: A data dictionary can help organizations identify and protect sensitive data, ensuring that it is only accessed by authorized personnel.
 5. Improved data quality: A data dictionary can help organizations identify and address data quality issues, improving the overall quality of their data.
 
-Data doesn't have meaning without a consistent understanding of what terms mean and how they're calculated. This is why creating a dictionary is so important, and why understanding how it's maintained and who created terms is essential to the data workflow.
+Data doesn't have meaning without a consistent understanding of how terms are defined. This is why creating a dictionary is so important, and why understanding how it's maintained and who created terms is essential to the data workflow.
 
 ## Using Secoda's Dictionary
 
-Secoda's dictionary is the place to define all of your organizational metrics and terms. Metrics in your data dictionary will be visible via Secoda's search, and you can search directly in the dictionary.
+Secoda's dictionary is the place to define all of your organizational terms. Dictionary terms are searchable and can be found in the Dictionary folders.
 
 Check out our [dictionary-best-practices.md](../../readme/best-practices/dictionary-best-practices.md "mention") for strategies regarding building out your Dictionary.
 
 {% hint style="info" %}
-Each Team has it's own Dictionary section, but you can also use the General Team to host terms that you don't want to assign to a Team. You can add Terms to multiple Team's Dictionaries as well.
+Each Team is able to have it's own Dictionary section, but you can also use the General Team to host terms that you don't want to assign to a Team. You can add Terms to multiple Team's Dictionaries as well.
 {% endhint %}
 
 ## Creating Dictionary Terms
 
-You can find the Dictionary in the side navigation bar underneath Collections, if it is enabled for the Team you are working in.
+You can find the Dictionary in the side navigation bar beneath Metrics, if it is enabled for the Team you are working in.
 
 Once in the Dictionary, you'll be able to see all of the current terms your team has created, sorted by last added.
 
@@ -37,14 +35,6 @@ To create a new dictionary term, simply click **New Dictionary Term** in the top
 From here, you'll have the option to add a definition, list Collections the term is a part of, assign ownership, and add applicable tags.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6a2d34cd-adff-4ec8-9922-d9167ad1a390.gif" alt=""><figcaption></figcaption></figure>
-
-## Dictionary Term Queries
-
-After creating the term or metric, you'll see the SQL Query editor where you can write the query needed to calculate the metric. If you'd prefer to not have the SQL query block on each dictionary term, you can remove it in your workspace appearance settings.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-31 at 7.35.19 AM.png" alt=""><figcaption><p>Default SQL Query Block</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-30 at 4.13.53 PM.png" alt=""><figcaption><p>Settings to remove this</p></figcaption></figure>
 
 ## Enriching Dictionary Terms
 
