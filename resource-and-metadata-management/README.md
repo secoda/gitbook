@@ -14,6 +14,12 @@ Secoda ingests metadata and resources from your data warehouse, BI tool and ETL 
 
 In Secoda, a resource is any entity that metadata can be added to. This includes, but is not limited to, tables, dashboards, charts, columns, queries, documents, dictionary terms, and more.&#x20;
 
+Most resources can be opened into their own page. The page will include tabs for Lineage, and Documentation, and a side panel with several pieces of information about the resource. For a breakdown of the information on the side panel, check out the page below.&#x20;
+
+{% content-ref url="resource-sidebar.md" %}
+[resource-sidebar.md](resource-sidebar.md)
+{% endcontent-ref %}
+
 ## What is metadata?
 
 In Secoda, metadata is the additional information you can provide to add context to your resources. This includes descriptions, definitions, owners, custom properties, and more. Metadata is the lifeblood of Secoda, the more you put in, the more you'll get out of the tool!&#x20;
