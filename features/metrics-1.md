@@ -10,6 +10,10 @@ Metrics in Secoda are a way to centralize, visualize and define your organizatio
 
 Metrics are different than Dictionary terms in a way that they are a calculation, whereas terms are static. For example, a term could be "customer" and a metric could be "weekly average customers".
 
+{% hint style="info" %}
+Viewers in the workspace are only able to see the chart visualization, not the actual query that creates it. Admins and Editors, however, can see and edit both.
+{% endhint %}
+
 ## Benefits of Metrics
 
 * Enable consistent metric definitions across the organization.
