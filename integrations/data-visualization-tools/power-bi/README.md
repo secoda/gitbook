@@ -18,7 +18,7 @@ There are two options for setting up the Power BI integration on Secoda:
    * Non-Admin APIs
 
 {% hint style="info" %}
-To see Lineage to PowerBI resources in Secoda from external tables, you must authenticate PowerBI using the Admin APIs.
+To see Lineage to PowerBI resources in Secoda from external tables, you must authenticate PowerBI using the Admin APIs and set permissions to Contributor.
 {% endhint %}
 
 ### OAuth
@@ -90,7 +90,7 @@ Here are the steps to set up Power BI Integration using Azure AD App:
 
 * Fill form in the required information:
   * Search for `Secoda` as member and select **Secoda** entry
-  * Permission - select "Viewer" or "Contributor"
+  * Permission - select `Viewer` or `Contributor` (To see lineage between PowerBI and other sources, the permission must be set to Contributor. If set to Viewer, only lineage within PowerBI will be available)
   * Click **Add** button to add
   * Click **Close** button to confirm
 
