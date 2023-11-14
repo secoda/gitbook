@@ -124,6 +124,7 @@
     * [Connecting via VPC Peering](integrations/connecting-via-tunnels/connecting-via-vpc-peering.md)
     * [Connecting via AWS Cross Account Role](integrations/connecting-via-tunnels/connecting-via-aws-cross-account-role.md)
 * [Resource and Metadata Management](resource-and-metadata-management/README.md)
+  * [Resource Sidebar](resource-and-metadata-management/resource-sidebar.md)
   * [Assigning Owners](resource-and-metadata-management/assigning-owners.md)
   * [Custom Properties](resource-and-metadata-management/adding-custom-properties.md)
   * [Tags](resource-and-metadata-management/tags/README.md)
