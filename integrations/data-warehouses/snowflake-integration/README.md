@@ -84,13 +84,17 @@ After creating a Snowflake warehouse, the next step is to connect Secoda.
 
 1. In the Secoda App, select `Add Integration` on the Integrations page.
 2. Search for and select “Snowflake”.
-3. Add your credentials as follows: User - The user name (as created above). Password - The password for the user. Account - The account id of your cluster, not the URL (e.g. URL: `my-business.snowflakecomputing.com`, account-id: `my-business`. **Note:** If you are using Snowflake on AWS, the account id includes the region, for example, your URL might look like this: `my-business.us-east-1.snowflakecomputing.com/` and your account-id would be: `my-business.us-east-1`) Warehouse - The warehouse name.
+3. Add your credentials as follows: User - The user name (as created above). Password - The password for the user. Account - The account id of your cluster, not the URL (e.g. if the URL is: `my-business.snowflakecomputing.com`, the account-id would be: `my-business`. \
+   **Note:** If you are using Snowflake on AWS, the account id includes the region, for example, your URL might look like this: `my-business.us-east-1.snowflakecomputing.com/` and your account-id would be: `my-business.us-east-1`) Warehouse - The warehouse name.
 
 ### **Security** <a href="#h_58079a5dc2" id="h_58079a5dc2"></a>
 
 #### **Whitelisting IPs** <a href="#h_e7eac6e3f5" id="h_e7eac6e3f5"></a>
 
-If you create a network policy with Snowflake, add the following IP address to the “Allowed IP Addresses” list: `35.175.75.15/32`
+If you create a network policy with Snowflake, add the following IP addresses to the “Allowed IP Addresses” list:&#x20;
+
+* `35.175.75.15/32`&#x20;
+* `3.122.13.89/32`
 
 ### Troubleshooting
 
