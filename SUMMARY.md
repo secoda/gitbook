@@ -81,6 +81,8 @@
     * [ThoughtSpot](integrations/data-visualization-tools/thoughtspot/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/thoughtspot/metadata-extracted.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
+    * [Stitch](integrations/data-pipeline-tools/stitch/README.md)
+      * [Metadata Extracted](integrations/data-pipeline-tools/stitch/metadata-extracted.md)
     * [Airflow](integrations/data-pipeline-tools/airflow/README.md)
       * [Metadata Extracted](integrations/data-pipeline-tools/airflow/metadata-extracted.md)
     * [Dagster](integrations/data-pipeline-tools/dagster/README.md)
