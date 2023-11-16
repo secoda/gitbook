@@ -4,7 +4,7 @@ description: >-
   leave Slack
 ---
 
-# Slack : AI Assistant
+# AI Slackbot
 
 This feature allows the AI Assistant to give answers to questions within Slack, and then post these questions/answers in the Questions section in your workspace!
 
@@ -22,7 +22,7 @@ This feature allows the AI Assistant to give answers to questions within Slack, 
 
 ## How to use
 
-1. Once you've connected your Slack workspace to Secoda by following these steps [#how-to-set-up](./#how-to-set-up "mention"), and you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention"), you are able to utilize the Slack:AI Assistant feature.
+1. Once you've connected your Slack workspace to Secoda by following these steps [#steps-for-setting-up-slack](./#steps-for-setting-up-slack "mention"), and you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention"), you are able to utilize the Slack:AI Assistant feature.
 2. Ask your question in the designated Data Requests Slack channel that is connected to your workspace
    * No need to prompt with a `/` command!
    * See [below](slack-ai-assistant.md#asking-questions-for-personal-use) if you'd rather not post these to the channel

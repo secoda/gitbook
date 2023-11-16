@@ -94,13 +94,19 @@ You can either Acknowledge or Resolve the incident by click these buttons below.
 
 ## Monitoring notifications
 
-Ensure that you receive notifications about your monitors by going into your Notification settings. Check off where you'd like to be notified, whether that's in Slack, by email, and/or in the app.
+Ensure that you receive notifications about your monitors by going into your Notification settings. Check off where you'd like to be notified, whether that's in Slack DMs, by email, and/or in the app.
 
 <div align="left">
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications</p></figcaption></figure>
 
 </div>
+
+### Slack channel for Monitoring notifications
+
+In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
+
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Video resource
 

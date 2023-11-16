@@ -15,49 +15,77 @@ Connecting your workspace to Slack allows you to receive notifications from Seco
 
 Overall, connecting Slack to Secoda can help your team stay updated, collaborate more effectively, and work more efficiently.
 
-## How to Set Up
+## How it works
 
+There are many ways to use the Slack integration. The following three scenarios can be managed in one Slack channel, or can be split into multiple different channels:
 
+* [**Receiving workspace-level notifications in a chosen Channel**](./#slack-workspace-notifications): These can be helpful for the workspace Admins to all be notified of workspace-level changes. Admins/Editors can also [send Announcements](./#send-announcements-to-slack) to this Slack channel.
+* [**Receiving Monitoring incident alerts**](../../../features/monitoring.md#slack-channel-for-monitoring-notifications): Get alerted about new incidents and when they've resolved to monitor data quality.
+* [**Managing data-related questions**](./#secoda-ai-slack): Check out our doc on the [slack-less-than-greater-than-questions-workflow.md](../../../readme/best-practices/slack-less-than-greater-than-questions-workflow.md "mention") for best practices when implementing a workflow for managing user questions.
 
-1. We recommend that you create a separate channel for Secoda purposes (i.e. #secoda-notifications), since you'll also receive notifications if there are things like schema changes or documentation edits there.
+You can also use the Slack integration for personal direct message notifications, and searching Secoda privately.
 
-{% hint style="info" %}
-If you'd like to use a **Private** Slack channel for these, you must type **`/invite @Secoda`** in the channel and then go to Secoda and follow the below steps
-{% endhint %}
+* [**Receive personally relevant notifications via DM**](./#receiving-dms-from-slack): After configuring your preferences in Settings and adding the Slack app, you can get personal notifications via DM.
+* [**Searching**](./#searching-from-slack) **and** [**asking questions privately**](./#ask-questions-from-slack): Use the Slack command `/secoda` anywhere in Slack to search Secoda in a private way.
 
+## Steps for setting up Slack
+
+1. Create a new Slack channel, multiple channels depending on your use cases (ideas [above](./#how-it-works)), or decide which existing channel(s) you'd like to use&#x20;
+   1. If you'd like to use a **Private** Slack channel for these, you must type **`/invite @Secoda`** in the channel and then go to Secoda and follow the below steps
 2. After this channel is created or you've decided which existing channel you'd like to use, go to **Integrations** in the Secoda App.
-3. Click **New integration** and select **Slack**.
-4. Choose which **Associated teams** you'd like to add; we recommend General so that everyone across your data org has access to the Slack integration.
-5. Click **Connect** and choose the Slack channel that you'd like to receive [#slack-notifications](./#slack-notifications "mention") in.
-6. Within the Slack app, go into the Slack channel you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.** _Note: you need to be a Slack Admin to do this._
+3. Click **New integration** and search for **Slack**.
+4. Choose which **Teams** you'd like to include.
+   1. We recommend choosing all so that everyone across your organization has access to the Slack integration.
+5. Click **Connect.**
+   1. Note: This connection will need to be approved by your Slack admin manager.
+6. Choose the Slack channel(s) that you'd like to receive different notifications in.&#x20;
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/e2370145-6019-474a-9515-248b45ec9420.png)
-
-7. To set up the **Slack : AI connection**, go into Channels and choose a channel that you'd like to use for the AI Data Requests functionality. This channel can be the same as the Notifications channel, or a new / different channel.
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/41c8c4b8-cd98-4abf-a671-b4bb3afda932.png)
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Notifications Channel** = Where you'll receive notifications on everything that is checked off in the Notifications tab
+**Notifications Channel** = Where users receive notifications on everything that is checked off in the Notifications tab of the Slack integration settings
+
+**Monitoring Incidents Channel** = Where users receive notifications on new monitoring incidents, and when they resolve
 
 **Data Requests Channel** = Where users can ask data questions and receive Secoda AI-generated responses
 {% endhint %}
+
+7. Within the Slack app, go into the Slack channel(s) you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.**
+   1. Note: A Slack Admin needs to do this step.
+
+![](https://secoda-public-media-assets.s3.amazonaws.com/e2370145-6019-474a-9515-248b45ec9420.png)
+
+## Workspace Notifications
+
+Admins can set the workspace-level updates from Secoda to go to a Slack channel of their choice.&#x20;
+
+Admins can edit the Slack Notification preferences in the **Notifications** tab in the Slack Integration Settings.
+
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-12%20at%204.55.37%20PM.png" alt=""><figcaption></figcaption></figure>
+
+## Secoda AI : Slack
+
+The AI Assistant can generate answers to your questions directly in Slack, then push these questions/answers into the Questions section of your workspace! Read more about it here [slack-ai-assistant.md](slack-ai-assistant.md "mention").
 
 ## Receiving DMs from Slack
 
 If you'd like to receive notifications as direct messages as well as in a channel, you can add the Secoda App to your Slack workspace.
 
+If you're an owner or subscriber of a resource, you'll receive notifications about documentation or schema changes to that resource. Anyone who is an owner or assignee on a question, document, or dictionary term will receive a notification when there has been an update or change related to that resource or any related resources.
+
+1. Hover over "... More" in Slack and click Automations ![](<../../../.gitbook/assets/Screenshot 2023-11-16 at 11.09.21 AM.png>)
+2. Click into Apps and Search for Secoda
+3. Add Secoda, and see your personal Notifications appear via DM
+
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-18%20at%2012.24.58%20PM.png)
-
-## Secoda AI : Slack
-
-The AI Assistant can now generate answers to your questions directly in Slack, then push these questions/answers into the Questions section of your workspace! Read more about it here [slack-ai-assistant.md](slack-ai-assistant.md "mention").
 
 ## Searching from Slack
 
 To search Secoda from Slack, type `/secoda` into any channel or DM, followed by your search term. Once the results come up, you can open them to the page that you're looking for.
 
-**Note**: Everyone in your Slack workspace can search Secoda, regardless of whether they have a Secoda account or not.
+{% hint style="info" %}
+Note: Everyone in your Slack workspace can search Secoda, regardless of whether they have a Secoda account or not.
+{% endhint %}
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/askslack%20\(1\)%20\(1\)%20\(1\).gif)
 
@@ -80,14 +108,6 @@ When this question is answered, you'll receive a notification.
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.10.05%20PM%20\(1\).png)
 
 To respond to incoming and new questions, head to the Secoda app, click on Questions, and you’ll see all of the questions that have been asked and answered.
-
-## Slack Notifications
-
-You can receive updates from Secoda in a Slack channel of your choice (set by the workspace admin). If you're an owner or subscriber of a resource, you'll receive notifications about documentation or schema changes to that resource. Anyone who is an owner or assignee on a question, document, or dictionary term will receive a notification when there has been an update or change related to that resource or any related resources.
-
-You can edit your Slack Notification preferences in the **Notifications** tab in the Slack Integration Settings, as well as in Account Settings.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-12%20at%204.55.37%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Send Announcements to Slack
 
