@@ -16,7 +16,9 @@ These previews are in fullscreen and can be found under the "Preview" tab of the
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-11-13 at 9.54.05 AM.png" alt=""><figcaption><p>Looker Dashboard Preview</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-13 at 9.37.59 AM.png" alt=""><figcaption><p>Tableau Dashboard Preview</p></figcaption></figure>
+{% embed url="https://www.loom.com/share/c9562374408b4827a95d50c1f63020d1?sid=100a9a27-10e9-4924-9b7d-a957efa4ce3f" %}
+Previews Video Resource
+{% endembed %}
 
 ## Table previews
 
