@@ -8,7 +8,7 @@ description: >-
 
 ## **Manage notifications in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-Viewers, editors, and admins can change their notification settings by going to **Settings -> Notifications.**
+Viewers, editors, and admins can change their personal notification settings by going to **Settings -> Notifications.**
 
 You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive.
 
@@ -24,7 +24,7 @@ In-app notifications will go to your Inbox. Read more about that feature here [d
 
 ### Email Notifications
 
-Email notifications are sent to the email that are associated with your Secoda account.
+Email notifications are sent to the email that is associated with your Secoda account.
 
 ### Slack Notifications
 

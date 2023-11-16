@@ -12,7 +12,7 @@ With Secoda, users shouldn't have to change current behaviors to engage with the
 
 ### [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention")
 
-* Connect the AI Assistant to your data requests Slack channel so that users don't have to leave their Slack workflow to find answers. Check out [best practices ](slack-integration-best-practices.md)here.
+* Connect the AI Assistant to your data requests Slack channel so that users don't have to leave their Slack workflow to find answers. Check out [best practices ](slack-less-than-greater-than-questions-workflow.md)here.
 * End result:
   * Improved data literacy
   * Reduced time spent on repetitive replies to users
