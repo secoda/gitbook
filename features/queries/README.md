@@ -8,8 +8,8 @@ Queries exist in two forms in Secoda:
 
 The first is queries that we extract from an integration. These queries are used to calculate lineage and popularity. See below for more information!
 
-{% content-ref url="documenting-queries.md" %}
-[documenting-queries.md](documenting-queries.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 The second is queries that can be written and run from within Secoda. Secoda can be a great tool for running analyses and documenting these analyses for future use. Use the link below to learn more.

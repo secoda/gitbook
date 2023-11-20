@@ -48,6 +48,6 @@ In the Metrics overview page, you'll also see two columns for **Run status** and
 
 ## Nesting Metrics
 
-Similar to how you can [nest Dictionary terms](metrics/#nesting-terms), you can also nest Metrics under each other to create a folder structure.
+Similar to how you can [nest Dictionary terms](broken-reference), you can also nest Metrics under each other to create a folder structure.
 
 To do so, create the Metrics including the parent Metrics, check off the box of the Metrics you'd like to be nested, and click "Set parent".

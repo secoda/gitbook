@@ -10,8 +10,8 @@ Check out our documentation around best practices when working with Secoda:
 [integrating-secoda-into-existing-workflows.md](integrating-secoda-into-existing-workflows.md)
 {% endcontent-ref %}
 
-{% content-ref url="automate-workflows.md" %}
-[automate-workflows.md](automate-workflows.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="dictionary-best-practices.md" %}
