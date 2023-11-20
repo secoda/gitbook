@@ -5,7 +5,7 @@ description: >-
   group them.
 ---
 
-# Invite your Teammates
+# Invite your teammates
 
 ## Benefits to inviting teammates to Secoda
 
@@ -32,7 +32,7 @@ If you're adding multiple teammates at once, we recommend **using the "Invite me
 
 In this same screen, you can view current members in your Secoda space, their emails, and the role that they have within Secoda.
 
-You can edit teammate roles by clicking on the role button that is beside their name and info.&#x20;
+You can edit teammate roles by clicking on the role button that is beside their name and info.
 
 For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
 
@@ -40,23 +40,13 @@ For more on what permissions certain roles have, check out [**Roles.**](../../..
 
 To Deactivate a member from your workspace, click **Deactivate** beside their name. The user's name will still appear on resources that they had previously owned, but will have a strike through their name. This can be helpful context to know who had the historical knowledge of a dataset.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/06102896-2f76-4c6c-b45b-454c39ffb8f1.png>)
+![](https://secoda-public-media-assets.s3.amazonaws.com/06102896-2f76-4c6c-b45b-454c39ffb8f1.png)
 
 ## Groups & Teams
 
 Creating Groups and Teams will be important for user management. Read more about user management here:
 
 {% embed url="https://docs.secoda.co/user-management" %}
-
-## Custom Invitation Links
-
-From this screen, you're able to manage your invitations and invitation links. To do so, click on the **Invitation Links** tab, beside Members and Groups.
-
-You'll be able to see every link that you've already created, what role that invitation link is for, and if applicable, which groups you've sent that link to.
-
-You can create a new link by clicking **Create link**. After you've created a link, you can edit the role and group it's applicable to by clicking the role name (default is Viewer) and adding a group.
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/ezgif.com-gif-maker%20\(3\).gif)
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
