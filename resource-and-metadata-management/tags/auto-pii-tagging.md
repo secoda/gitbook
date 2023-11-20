@@ -27,7 +27,7 @@ Once you're in the Data tab, you can see all the tables and columns that Secoda 
 This process is currently not automated, so Admins will have to manually go into the Settings each time they'd like to run the PII identifier.
 {% endhint %}
 
-Secoda identifies PII columns based on a set of keywords that match column names. Some examples include first name, last name, address etc. If you'd like to customize these key words, you can do so by clicking on the settings button by the PII columns. Note, keywords are case and space sensitive.&#x20;
+Secoda identifies PII columns based on a set of keywords that match column names. Some examples include first name, last name, address etc. If you'd like to customize these key words, you can do so by clicking on the settings button by the PII columns. Note, keywords are case and space sensitive.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/63d4c81d-b8a0-4aca-b7cb-f27c31299f55.gif" alt=""><figcaption></figcaption></figure>
 
@@ -36,6 +36,20 @@ Secoda identifies PII columns based on a set of keywords that match column names
 After tagging your data with the PII tag, these will populate in the **Governance** metadata column in your Catalog.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-22%20at%203.56.25%20PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Governance tags can only be seen by Admins and Editors. Viewers are not able to see what resources have been marked as PII.
+{% endhint %}
+
+## PII and Previews
+
+Secoda offers the ability to [Preview](../../features/data-previews.md) the first 50 rows of a table. If permissions are granted for Preview, any column of the table that is marked as PII **will not show** as part of the Preview.&#x20;
+
+This behaviour does not extend to [Queries](../../features/queries/). If a query is run on a table, the results are shown exactly as returned from the Source. This means that if the query results are returned with data from columns marked as PII, the user making the query will be able to view the potentially sensitive information.&#x20;
+
+We recommend setting up the permissions for each Integration according to the governance policies for your organizational structure. Preview and Queries can be disabled for the workspace, or available to specific User Groups/Users. More information about how to set up permissions for Queries and Previews can be found in their respective documentation. Information about roles within Secoda can be found [here](../../user-management/roles/).
+
+As always, Secoda does not save your data, only the metadata from your sources. Learn more [here](../../faq.md#does-secoda-read-the-data-from-my-data-source).&#x20;
 
 ## Removing PII Tags
 
