@@ -1,10 +1,16 @@
 ---
-description: >-
-  To export data descriptions out of Secoda, you can go to Settings → Data →
-  Export data. Below is the screenshot for the settings:
+description: Edit the metadata or bring in new dictionary terms through this feature.
 ---
 
 # Import and Export Metadata
+
+
+
+{% hint style="info" %}
+If you are hoping to bring in net new resources from an Integration without connecting the integration in the App, you'll need to use the [Custom Integrations](../integrations/custom-integration/) feature. If you are looking to edit existing resources, dictionary terms, documents, etc, you're in the right place!
+{% endhint %}
+
+{% embed url="https://www.loom.com/share/8290f98c95ba465c803421d0772f8972" %}
 
 ### E**xport metadata from Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -42,7 +48,6 @@ A CSV file with the headings for importing into Secoda.
   * **entity\_type** - Can be any of the following - table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event
 * The file can have the following **optional** columns:
   * **description** - This is one-liner description of the resource
-  * **definition** - This is for longer README's to add additional context, that has markdown capabilities
   * **pii** - This is the [Governance](../readme/best-practices/data-governance.md) tag and can be set to TRUE, FALSE
   * **verified -** This is the [Verified](tags/verified-tag.md) tag and can be set to TRUE, FALSE
   * **published -** This is the published status and can be set to TRUE, FALSE
