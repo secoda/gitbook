@@ -22,7 +22,7 @@ Once you are ready to upload your new metadata, you can use the import button to
 
 ### **Importing metadata into Secoda**
 
-If you have set up a documentation tool (Excel, G-Sheet etc.) at your organization, you can migrate your descriptions to Secoda following these steps.
+If you have set up a documentation tool (Excel, G-Sheet etc.) at your organization, you can migrate your metadata to Secoda following these steps.
 
 1. Prepare your CSV
 2. Update metadata in CSV
@@ -30,12 +30,11 @@ If you have set up a documentation tool (Excel, G-Sheet etc.) at your organizati
 
 #### 1. Prepare your CSV <a href="#h_da2aba5589" id="h_da2aba5589"></a>
 
-You can either export your data from Secoda to a csv, or start from scratch. The only requirements for importing are:
+You can either export your data from Secoda to a CSV, use the template linked below, or create your own CSV using the guidance provided. The file must be in CSV format.
 
-1. The file format must be csv
-2. Download the csv template and follow the instructions below:
-
-{% file src="../.gitbook/assets/import_template (4).csv" %}
+{% file src="../.gitbook/assets/import.csv" %}
+A CSV file with the headings for importing into Secoda.
+{% endfile %}
 
 * The file must have the following **required** columns:
   * **id -** Leave this blank if it's a new resource (i.e dictionary term)
@@ -43,18 +42,18 @@ You can either export your data from Secoda to a csv, or start from scratch. The
   * **entity\_type** - Can be any of the following - table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event
 * The file can have the following **optional** columns:
   * **description** - This is one-liner description of the resource
-  * **definition** - This is for longer readmes to add additional context, that has markdown capabilities
-  * **pii** - This is the PII tag and can be TRUE, FALSE, or left blank
-  * **verified -** This is the Verified tag and can be TRUE, FALSE, or left blank
-  * **published -** This is the status and can be TRUE, FALSE, or left blank
+  * **definition** - This is for longer README's to add additional context, that has markdown capabilities
+  * **pii** - This is the [Governance](../readme/best-practices/data-governance.md) tag and can be set to TRUE, FALSE
+  * **verified -** This is the [Verified](tags/verified-tag.md) tag and can be set to TRUE, FALSE
+  * **published -** This is the published status and can be set to TRUE, FALSE
   * **collections -** List of associated collection names, i.e \['Marketing', 'Engineering']
   * **owners** - List of associated owner emails, i.e, \['andrew@secoda.co', 'etai@secoda.co']
   * **tags -** List of associated tag names, i.e, \['production']
-  * **property -** Where "property" can be any custom property you'd like to add on a resource, keep in same \['\_\_\_\_'] format
+  * **property** - This heading is a placeholder for any custom properties you'd like to add to the resource. Please remove it if you don't plan on any custom properties for your resource. To customize it, replace **property** with the name of your custom property and add the values of that property to the relevant rows. If you'd like to add several custom properties, add a new column for each one, with the name of the custom property as the column heading.&#x20;
 
 #### 2. Upload metadata to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
 
-Log into [Secoda](https://app.secoda.co) and go into the [import settings](https://app.secoda.co/settings/import) through **Settings > Import & Export.** Click the "Select File" button under the Import section and select your csv file and click "Upload". The import will start and show logs until it's completed.
+Log into [Secoda](https://app.secoda.co) and go into the [import settings](https://app.secoda.co/settings/import) through **Settings > Import & Export.** Click the "Select File" button under the Import section and select your CSV file and click "Upload". The import will start and show logs until it's completed.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(12)%20(2).png" alt=""><figcaption></figcaption></figure>
 
