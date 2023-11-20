@@ -49,8 +49,6 @@ This behaviour does not extend to [Queries](../../features/queries/). If a query
 
 We recommend setting up the permissions for each Integration according to the governance policies for your organizational structure. Preview and Queries can be disabled for the workspace, or available to specific User Groups/Users. More information about how to set up permissions for Queries and Previews can be found in their respective documentation. Information about roles within Secoda can be found [here](../../user-management/roles/).
 
-As always, Secoda does not save your data, only the metadata from your sources. Learn more [here](../../faq.md#does-secoda-read-the-data-from-my-data-source).&#x20;
-
 ## Removing PII Tags
 
 {% embed url="https://www.loom.com/share/79ebe1fb5a774e73b74bcf02f5d7a6d6" %}
