@@ -43,7 +43,7 @@ The Homepage is the first thing your users will see when jumping into Secoda. En
 
 ## Automate documentation
 
-We have many features that assist in the automation of your documentation and enrichment within Secoda. Check those out here: [automate-workflows.md](automate-workflows.md "mention")
+We have many features that assist in the automation of your documentation and enrichment within Secoda. Check those out here: [documentation-best-practices.md](documentation-best-practices.md "mention")
 
 ## Integrate with Slack
 

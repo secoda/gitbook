@@ -10,7 +10,7 @@ You can search for any data resource using Secoda's search, including tables, co
 
 ## How to Search
 
-When you first click into Search, it'll show your workspace's Popular resources as well as your personal Recent searches.&#x20;
+When you first click into Search, it'll show your workspace's Popular resources as well as your personal Recent searches.
 
 {% hint style="info" %}
 Popular resources in Secoda are calculated by summing the number of views in Secoda over the last 90 days, with the number of views/queries extracted from the source 24 hours from the extraction. Learn more about [Popularity](popularity.md).
@@ -18,7 +18,7 @@ Popular resources in Secoda are calculated by summing the number of views in Sec
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/904494a7-2d27-46b1-b403-1218e763ec72.gif" alt=""><figcaption></figcaption></figure>
 
-You can also search directly from the Home page, within the Catalog, or by typing / from any screen.
+You can also search directly from the Home page, within the Catalog, or by typing `/` from any screen.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a261d8b4-6b8e-464f-bebb-32ceb6eb9bc2.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,7 +39,7 @@ Check out the video below for a step by step walkthrough!
 
 Searching and filtering within the Catalog can be helpful when identifying resources that have not been documented. To filter for undocumented resources:
 
-1. Click into Catalog&#x20;
+1. Click into Catalog
 2. Click into the metadata that you'd like to filter for, for example Description
 3. Check off "Blank" to show resources with no description filled out
 
@@ -88,6 +88,6 @@ You can get even more granular with filters in the Add filter section. For examp
 
 ### View
 
-The view filter allows you to toggle on/off the different kinds of information related to the results from your search.&#x20;
+The view filter allows you to toggle on/off the different kinds of information related to the results from your search.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/759e542f-10a8-49b1-b048-77ee43965c8a.png" alt=""><figcaption></figcaption></figure>

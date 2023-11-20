@@ -8,19 +8,18 @@ description: >-
 
 ## How Viewers can Request Changes
 
-If a Viewer runs into information that needs correction, or needs to be updated, they can Request Changes on any Resource in Secoda.&#x20;
+If a Viewer runs into information that needs correction, or needs to be updated, they can Request Changes on any Resource in Secoda.
 
-1. Click the `Request Change` button found in the sidesheet of a Resource.
+1.  Click the `Request change` button found in the three dots (...) at the top right of a Resource.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-15%20at%204.21.52%20PM.png" alt=""><figcaption></figcaption></figure>
-
-2. Choose the desired Field to update, and type in the updated Text to the Edit box. When you're finished, click `Submit`&#x20;
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-11-20 at 2.42.45 PM.png" alt=""><figcaption></figcaption></figure>
+2. Choose the desired Field to update, and type in the updated Text to the Edit box. When you're finished, click `Submit`
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-02-28%20at%205.05.49%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## What Happens After a Change is Requested?
 
-The **Owner** of the Resource the change was requested on, will receive a notification in their [Data Inbox](../../features/data-inbox.md) and will be able to either Approve or Deny the change. If the change is Approved, the Requested Change will be applied to the Resource.
+The **Owner** of the Resource the change was requested on, will receive a notification in their [Inbox](../../features/data-inbox.md) and will be able to either Approve or Deny the change. If the change is Approved, the Requested Change will be applied to the Resource.
 
 ## Video Resource
 

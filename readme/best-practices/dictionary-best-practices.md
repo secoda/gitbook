@@ -35,12 +35,12 @@ If you don't have a list yet, and need to start fresh...
   * Define company jargon and acronyms that can often get confusing for new hires
 * Team-specific dictionaries
   * Define terms by Team, based on which team _owns_ those metrics and therefore owns the documentation of them
-* Consider[#nesting-terms](../../features/metrics/#nesting-terms "mention") so that they are easier to navigate for your users
+* Consider [Nesting terms](../../features/dictionary.md#nesting-terms) so that they are easier to navigate for your users
 
 ## Enrich dictionary metrics
 
 * Add enrichment to dictionary metrics by adding them to relevant Collections, adding owners and tags, and link them to related terms
-  * Don't forget that you can make bulk changes to metrics and use some of our other documentation tips listed here [automate-workflows.md](automate-workflows.md "mention")
+  * Don't forget that you can make bulk changes to metrics and use some of our other documentation tips listed here [documentation-best-practices.md](documentation-best-practices.md "mention")
 * This ensures that they're even more searchable within the UI, and so users can see how metrics and resources are related across the workspace
 
 ## Verification

@@ -18,7 +18,7 @@ Data doesn't have meaning without a consistent understanding of how terms are de
 
 Secoda's dictionary is the place to define all of your organizational terms. Dictionary terms are searchable and can be found in the Dictionary folders.
 
-Check out our [dictionary-best-practices.md](../../readme/best-practices/dictionary-best-practices.md "mention") for strategies regarding building out your Dictionary.
+Check out our [dictionary-best-practices.md](../readme/best-practices/dictionary-best-practices.md "mention") for strategies regarding building out your Dictionary.
 
 {% hint style="info" %}
 Each Team is able to have it's own Dictionary section, but you can also use the General Team to host terms that you don't want to assign to a Team. You can add Terms to multiple Team's Dictionaries as well.

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Use cases for using Secoda to automate repetitive tasks, saving time for your
-  data team.
+  Use cases for using Secoda to automate repetitive documentation tasks, saving
+  time for your data team.
 ---
 
 # Documentation best practices
@@ -62,7 +62,7 @@ ROT data (Redundant, Obsolete, Trivial) is data that is no longer relevant or of
 
 ## Identify what needs to be documented
 
-If you'd like to identify which resources have not been documented yet, you can do so by following these steps to [#search-within-the-catalog](../../features/search-and-home-page.md#search-within-the-catalog "mention").
+If you'd like to identify which resources have not been documented yet, you can do so by following these steps to [#search-within-the-catalog](../../features/search.md#search-within-the-catalog "mention").
 
 If you'd like to be notified of changes that may result in a need for updated documentation, you can subscribe to schema change notifications for those particular resources. Set those up here[#h\_3a4bfd6458](../../features/notifications.md#h\_3a4bfd6458 "mention").
 

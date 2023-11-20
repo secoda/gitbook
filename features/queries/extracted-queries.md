@@ -11,7 +11,7 @@ By clicking on the Queries tab from a resource in Secoda, you can see the query 
 * [aws-glue-integration](../../integrations/data-pipeline-tools/aws-glue-integration/ "mention")
 * [bigquery-integration](../../integrations/data-warehouses/bigquery-integration/ "mention")
 
-At time of extraction, Secoda pulls the last 24 hours of queries run on the resource, directly from the integration. Any queries that haven't been previously seen will be added to the list of queries associated with that resource in Secoda. This list of queries can be found through the Queries tab of the resource page, as seen below.&#x20;
+At time of extraction, Secoda pulls the last 24 hours of queries run on the resource, directly from the integration. Any queries that haven't been previously seen will be added to the list of queries associated with that resource in Secoda. This list of queries can be found through the Queries tab of the resource page, as seen below.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1f615616-7da5-4871-afcd-9be6146ebd62.gif" alt=""><figcaption></figcaption></figure>
 
