@@ -1,3 +1,7 @@
+---
+description: List of all the metadata that Secoda pulls from dbt Core
+---
+
 # Metadata Extracted
 
 ## What does Secoda extract from dbt Core?

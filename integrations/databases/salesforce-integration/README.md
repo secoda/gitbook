@@ -4,6 +4,10 @@ description: An overview of the Salesforce integration with Secoda
 
 # Salesforce
 
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
+
 ### Getting Started with Salesforce
 
 There are 4 steps to get started using Salesforce with Secoda:

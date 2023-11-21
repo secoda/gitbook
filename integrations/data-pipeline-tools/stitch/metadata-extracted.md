@@ -1,3 +1,7 @@
+---
+description: List of all the metadata that Secoda pulls from Stitch
+---
+
 # Metadata Extracted
 
 ## What does Secoda extract from Stitch?

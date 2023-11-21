@@ -4,6 +4,10 @@ description: An overview of the dbt Core integration with Secoda
 
 # dbt Core
 
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
+
 ## **Getting Started with dbt Core** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 {% hint style="info" %}

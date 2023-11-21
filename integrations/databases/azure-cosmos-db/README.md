@@ -4,6 +4,10 @@ description: An overview of the Azure Cosmos DB integration with Secoda
 
 # Azure Cosmos DB
 
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
+
 ### Getting Started with Azure Cosmos DB
 
 To integrate Azure Cosmos DB with Secoda, follow these three steps:
@@ -38,7 +42,3 @@ To integrate Azure Cosmos DB with Secoda, follow these three steps:
 * Click "Run Initial Extraction".
 
 ### Datatype Conversion
-
-{% content-ref url="metadata-extracted.md" %}
-[metadata-extracted.md](metadata-extracted.md)
-{% endcontent-ref %}

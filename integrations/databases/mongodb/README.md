@@ -4,6 +4,10 @@ description: An overview of the MongoDB integration with Secoda
 
 # MongoDB
 
+{% content-ref url="data-type-conversion.md" %}
+[data-type-conversion.md](data-type-conversion.md)
+{% endcontent-ref %}
+
 ### Getting started with MongoDB
 
 There are 3 steps to get started using MongoDB with Secoda
@@ -59,11 +63,7 @@ To connect to MongoDB to Secoda, repeat the following steps.
         ![](https://secoda-public-media-assets.s3.amazonaws.com/39361fa5-1bea-4858-a5f2-57fc13ab064d.png)
 4.  Once successfully connected, choose the databases and collections you want to extract to Secoda
 
-    ![](https://secoda-public-media-assets.s3.amazonaws.com/1507be7b-019c-4561-a396-f8ead4e80fda.png)
+    ![](<../../../.gitbook/assets/Screen Shot 2023-11-21 at 4.19.53 PM.png>)
 5. Run the initial extraction
 
 ### Data type conversion
-
-{% content-ref url="data-type-conversion.md" %}
-[data-type-conversion.md](data-type-conversion.md)
-{% endcontent-ref %}

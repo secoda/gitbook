@@ -1,3 +1,7 @@
+---
+description: List of all the metadata that Secoda pulls from Amplitude
+---
+
 # Metadata Extracted
 
 If your data stack includes Amplitude, then you may want to consider integrating Secoda with your Amplitude instance. We've created a space for your event-based data to be represented within the Catalog here:
