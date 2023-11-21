@@ -8,7 +8,9 @@ description: This page will go over the AI Assistant functionality.
 
 Secoda's AI Assistant can be thought of as ChatGPT for your data stack. Using a chat interface, it lets anyone at your company get an answer to a data question, regardless of technical ability.
 
-Secoda's AI Assistant is powered by [OpenAI's APIs](https://openai.com/product), which sit atop the GPT4 Large Language Model. By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assistant can help you with documentation, query building, locating institutional knowledge, and more!
+Secoda's AI Assistant is powered by [OpenAI's APIs](https://openai.com/product), which sit atop the GPT4 Large Language Model. We are updated to the latest version of GPT -- GPT4 Turbo.&#x20;
+
+By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assistant can help you with documentation, query building, locating institutional knowledge, and more!
 
 ## Set Up
 
