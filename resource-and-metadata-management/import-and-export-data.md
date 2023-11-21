@@ -48,6 +48,7 @@ A CSV file with the headings for importing into Secoda.
   * **entity\_type** - Can be any of the following - table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event
 * The file can have the following **optional** columns:
   * **description** - This is one-liner description of the resource
+  * **definition** - Mark down friendly documentation of the resource
   * **pii** - This is the [Governance](../readme/best-practices/data-governance.md) tag and can be set to TRUE, FALSE
   * **verified -** This is the [Verified](tags/verified-tag.md) tag and can be set to TRUE, FALSE
   * **published -** This is the published status and can be set to TRUE, FALSE
