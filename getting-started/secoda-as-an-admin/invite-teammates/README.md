@@ -16,6 +16,8 @@ description: >-
 
 Overall, inviting teammates to Secoda can help improve collaboration, centralize data management, enhance security, and improve data governance within your organization.
 
+
+
 ## How to invite teammates to Secoda
 
 One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. Only workplace admins are able to invite new users.
@@ -26,7 +28,7 @@ On this screen, you'll be able to see the plan level that you and your team are 
 
 If you're adding multiple teammates at once, we recommend **using the "Invite members" button** so that you can add them in bulk.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9d4df134-baef-46c9-960e-bf9261a29b66.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-21 at 4.49.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Assigning Roles
 
@@ -36,11 +38,15 @@ You can edit teammate roles by clicking on the role button that is beside their 
 
 For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
 
+
+
 ## Deactivating Members
 
 To Deactivate a member from your workspace, click **Deactivate** beside their name. The user's name will still appear on resources that they had previously owned, but will have a strike through their name. This can be helpful context to know who had the historical knowledge of a dataset.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/06102896-2f76-4c6c-b45b-454c39ffb8f1.png)
+
+
 
 ## Groups & Teams
 
