@@ -18,6 +18,7 @@ Examples:
 
 * Can you tell me more about how the @Sales Dashboard was created, and which resources it uses?
 * How would I join the @orders and @payments tables in a query?
+* What downstream resources would be affected if I deprecated the @customers table?
 
 ## Start new chats
 
