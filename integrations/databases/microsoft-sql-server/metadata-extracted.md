@@ -1,3 +1,7 @@
+---
+description: List of all the metadata that Secoda pulls from Microsoft SQL Server
+---
+
 # Metadata Extracted
 
 ## Metadata Pulled

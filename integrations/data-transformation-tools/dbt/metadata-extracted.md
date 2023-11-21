@@ -1,3 +1,7 @@
+---
+description: List of all the metadata that Secoda pulls from dbt Cloud
+---
+
 # Metadata Extracted
 
 {% hint style="info" %}

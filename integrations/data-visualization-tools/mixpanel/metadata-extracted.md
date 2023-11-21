@@ -1,3 +1,7 @@
+---
+description: List of all the metadata that Secoda pulls from Mixpanel
+---
+
 # Metadata Extracted
 
 ### what does Secoda extract from Mixpanel?

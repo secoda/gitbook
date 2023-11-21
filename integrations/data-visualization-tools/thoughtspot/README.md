@@ -1,4 +1,12 @@
+---
+description: An overview of the ThoughtSpot integration with Secoda
+---
+
 # ThoughtSpot
+
+{% content-ref url="metadata-extracted.md" %}
+[metadata-extracted.md](metadata-extracted.md)
+{% endcontent-ref %}
 
 There are four steps to connect ThoughtSpot with Secoda:
 
