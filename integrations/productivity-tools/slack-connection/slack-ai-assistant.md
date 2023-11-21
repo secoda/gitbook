@@ -31,6 +31,7 @@ This feature allows the AI Assistant to give answers to questions within Slack, 
 4. The answer will show two options, :white\_check\_mark:**Answered** or :x:**Incorrect**, to which any user can decide if the response was accurate
 5. If marked :white\_check\_mark:**Answered**, the question and the response will then be pushed into Secoda's Question section for all users to see and reference
 6. If marked :x:**Incorrect**, the question will be pushed to Secoda without a response and the Admins of the workspace will be notified to provide an answer
+7. Check out our best practices documentation on how to best implement this in your organization: [slack-less-than-greater-than-questions-workflow.md](../../../readme/best-practices/slack-less-than-greater-than-questions-workflow.md "mention")
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Slack%20AI_2%20(2).gif" alt=""><figcaption></figcaption></figure>
 
