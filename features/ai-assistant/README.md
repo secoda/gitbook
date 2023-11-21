@@ -18,18 +18,33 @@ By default, the AI Assistant is off. To toggle it on, you must go into your [Wor
 
 Once the AI Search is enabled, you'll see the AI Assistant in the left hand menu.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.38%20PM.png" alt=""><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
+<div align="center">
+
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.38%20PM.png" alt="" width="188"><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
+
+</div>
 
 ## How to use the AI Assistant
 
-You can use the AI Assistant within the Secoda app, as well as in your other workflows:
+### Within the UI
 
-* [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention") within Slack
-* [#chat-with-secoda-ai](../chrome-extension.md#chat-with-secoda-ai "mention") using the Chrome extension in other supported data tools
+The AI Assistant tool is a powerful to to help users find information by using plain-language, and getting answers in a chat-like interface. It also can help you document your resources across your workspace.
 
-Check out our best practices for using the AI Assistant here [best-practices.md](best-practices.md "mention").
+**Chatting with AI**&#x20;
 
-Use the AI to generate descriptions for your data directly in the Catalog. Read more [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
+* To start a chat with Secoda's Assistant, simply click into the AI Assistant window and ask away!&#x20;
+* Check out some [prompts.md](prompts.md "mention") to help you get started in understanding the power of this feature, as well as [best-practices](../../readme/best-practices/ "mention") when working with it.
+
+**Letting AI Document for you**
+
+* Use the AI to generate descriptions for your metadata with just one click. Read more here:[ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
+
+### Within your workflows
+
+The AI Assistant can also be used outside of Secoda, in your other tools.
+
+* Connect Secoda and the AI Assistant to your Slack workspace, to improve the data-related questions workflow [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention").
+* [#chat-with-secoda-ai](../chrome-extension.md#chat-with-secoda-ai "mention") by using the Chrome extension in other supported data tools, like Tableau and Snowflake.
 
 ## Future Improvements
 
