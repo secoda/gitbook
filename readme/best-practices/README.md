@@ -25,3 +25,7 @@ Check out our documentation around best practices when working with Secoda:
 {% content-ref url="data-quality.md" %}
 [data-quality.md](data-quality.md)
 {% endcontent-ref %}
+
+{% content-ref url="slack-less-than-greater-than-questions-workflow.md" %}
+[slack-less-than-greater-than-questions-workflow.md](slack-less-than-greater-than-questions-workflow.md)
+{% endcontent-ref %}
