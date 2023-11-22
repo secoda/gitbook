@@ -37,10 +37,6 @@ After tagging your data with the PII tag, these will populate in the **Governanc
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-22%20at%203.56.25%20PM.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Governance tags can only be seen by Admins and Editors. Viewers are not able to see what resources have been marked as PII.
-{% endhint %}
-
 ## PII and Previews
 
 Secoda offers the ability to [Preview](../../features/data-previews.md) the first 50 rows of a table. If permissions are granted for Preview, any column of the table that is marked as PII **will not show** as part of the Preview.&#x20;
