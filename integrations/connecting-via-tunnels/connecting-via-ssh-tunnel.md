@@ -9,7 +9,7 @@ description: This page walks through connecting your data sources via a direct S
 Tunnels require you to run an SSH server process ([SSHD](https://www.ssh.com/academy/ssh/sshd)) on a **Bastion Host** accessible from the public internet. Bastion hosts can be set up in nearly all cloud providers, though instructions for set up may differ slightly.&#x20;
 
 {% hint style="info" %}
-For more information on setting up a Bastion host in your environment, check out the AWS documentation [here](https://aws.amazon.com/solutions/implementations/linux-bastion/), or the Azure documentation [here](https://azure.microsoft.com/en-ca/products/azure-bastion).
+For more information on setting up a Bastion host in your environment, check out the AWS documentation [here](https://aws-ia.github.io/cfn-ps-linux-bastion/#\_overview), or the Azure documentation [here](https://learn.microsoft.com/en-us/azure/bastion/).
 {% endhint %}
 
 The Secoda app will open an SSH connection to your Bastion, then open a port forwarding connection to the private service that you specify. Ensure your Bastion host has whitelisted our NAT Gateway address: `35.175.75.15`
