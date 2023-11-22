@@ -18,7 +18,11 @@ Contact us to upgrade to the Enterprise plan and enable SAML SSO.
 
 #### Configuration
 
-Once SAML is configured, you will have to generate an API Bearer token via the API settings in Secoda. You'll also have to use the SCIM base URL https://app.secoda.co/api/v1/auth/saml. Follow the directions below for your identity provider to setup the SCIM integration.
+To configure SCIM, you'll need to add a Token and URL to your SCIM provider.
+
+The SCIM token is the same as the [API access token](../secoda-api/authentication.md#step-1-create-an-api-key) in Secoda. As an Admin, you can self generate it by navigating to Settings page, and clicking on API under the Workspace heading.  The SCIM URL is `https://app.secoda.co/api/v1/auth/scim`.&#x20;
+
+Follow the directions below for your identity provider to setup the SCIM integration.
 
 {% tabs %}
 {% tab title="Okta" %}
