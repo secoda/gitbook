@@ -4,106 +4,97 @@ description: An overview of the PowerBI integration with Secoda
 
 # Power BI
 
-{% content-ref url="metadata-extracted.md" %}
-[metadata-extracted.md](metadata-extracted.md)
-{% endcontent-ref %}
-
 ## **Getting Started with Power BI** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are two options for setting up the Power BI integration on Secoda:
+There are two options for setting up the Power BI integration on Secoda, OAuth (into Secoda's managed Azure AD App) or by creating and managing your own Azure AD App.
 
-1. OAuth with Secoda's managed Power BI Azure Enterprise Application (**OAuth**)
-2. Create and manage a Power BI Azure Enterprise Application (**Azure AD App**). This can either use:
-   * Admin APIs
-   * Non-Admin APIs
+## Option 1: OAuth
 
-{% hint style="info" %}
-To see Lineage to PowerBI resources in Secoda from external tables, you must authenticate PowerBI using the Admin APIs and set permissions to Contributor.
-{% endhint %}
-
-### OAuth
+**You must be a PowerBI admin to connect through OAuth.**
 
 The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI workspace. To connect Power BI to Secoda follow the steps below:
 
-1. Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
-2. Select **OAuth** tab
-3. Click **Connect with OAuth**. You'll be brought to the login page and asks for permissions on your Power BI workspace
-4. Upon successful completion of OAuth authentication with Power BI, click **Run Initial Sync** button.
+1. In the Integrations section, click on New Integration, and select PowerBI.
+2. Navigate to the OAuth tab, and click Connect with OAuth. You will be prompted to log in to your PowerBI Workspace.&#x20;
+3. Upon successful completion of OAuth authentication with Power BI, click the Run Initial Sync button to begin a sync.
 
-### Azure AD App
+## Option 2: Azure AD App
 
-Here are the steps to set up Power BI Integration using Azure AD App:
+### Step 1 -> Create an Azure AD App
 
-**Step 1**: Create an Azure AD App
+1. Open the [Azure portal](https://portal.azure.com/)
+2. Search for App registrations and start a new Registration
+3. In the New Registration form, fill in the following details:
+   * Name: Secoda
+   * Supported account types: Accounts in this organizational directory only (Default Directory only - Single tenant)
+   * Redirect URI: Leave blank
+4. Click Register to submit the form. You'll now be able to access an Application ID and Tenant ID from the Overview tab. Save these values.
 
-* Open the [Azure portal](https://portal.azure.com/)
-* Search for `App registrations`
-* Click `+ New registration`
-* Fill in the following details
-  * **Name** - Secoda
-  * **Supported account types** - Accounts in this organizational directory only (Default Directory only - Single tenant)
-  * **Redirect URI (optional)** - Leave blank
-* Click Register
-* After submitting the form, the `Application ID` is available from the Overview tab. Copy and save the `Application ID` (Client ID) for later use
-* Copy and save the `Tenant ID` for later use
-* Click the **Certificates & secrets** tab
-* Click the **New client secret** button
-* In the Add a client secret window, enter any description, specify when you want the client secret to expire, and click **Add**.
-* Copy and save the Client secret **value** for later use
+### Step 2 -> Create a Client Secret
 
-**Step 2.1**: (Only applicable if you're using non-admin API)
+1. In the certificates and Secrets tab, click the New Client Secret button.
+2. The description and expiry of the client secret is up to you. Click Add, and save the Client Secret value.&#x20;
 
-* Go to **API permissions** tab, click Add a permission and add the following permissions:
+### Step 3 -> Enable API Access
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/e8e49e99-3df6-44fb-9312-939d74beb52c.png)
+Whether you set up Admin or non-admin access APIs is up to you. Admin access enables the sync of tables, columns, and measures from PowerBI datasets. These resources are used to build lineage between PowerBI and other sources (ex. Snowflake). **You will not be able to see lineage between PowerBI and other sources if are not using Admin APIs.**
 
-**Step 2.2**: (Only applicable if you're using admin API)
+<details>
 
-* Open the [Azure portal](https://portal.azure.com/)
-* Search for `Azure Active Directory` and select **Azure Active Directory** link
-* Click the **Groups** tab
-* Click the **New group** button
-* Fill form in the required information:
-  * **Group type** - Select "Security"
-  * **Group name** - Type "PowerBI API Access"
-  * **Group description** - Enter any description or leave empty
-* Select "No members selected" to open a drawer. Search for `Secoda` and select **Secoda** entry. Click the **Select** button to confirm.
-* Click **Create**
+<summary>Setting up Admin API Access (Recommended)</summary>
 
-**Step 2.3**: (Only applicable if you're using admin API) Enable the Power BI service admin settings
+**In the Azure Portal:**
 
-* Open [Power BI admin portal](https://app.powerbi.com/admin-portal/) and sign in
-* Log into the Power BI admin portal. You need to be a Power BI admin to see the tenant settings page
-* Ensure that **Tenant settings** tab are open
-* Search for the subsection "Allow service principals to use Power BI APIs" in "Developer settings" section and open it. Select "Enabled" and add the security group you created "PowerBI API Access" in Azure AD. Click **Apply**
-* Repeat process for all subsection in "Admin API settings" section. Open the section, Select "Enabled" and add the security group you created "PowerBI API Access" in Azure AD. Click **Apply**. You must complete the step for following sections:
-  * Allow service principals to use read-only admin APIs
-  * Enhance admin APIs responses with detailed metadata
-  * Enhance admin APIs responses with DAX and mashup expressions
+1. Navigate to the Azure Active Directory link.&#x20;
+2. In the Groups tab, create a new group with the following **required** information.&#x20;
+   * Group type: Security
+   * Group name: PowerBI API Access
+3. Search for and select Secoda in the Members list. Click Create to complete the process.
 
-**Step 3:** Add Azure AD app to your workspace
+**In Power BI:**
 
-* Open [Power BI](https://app.powerbi.com/) and sign in
-* Search to the workspace you want to enable access for, and from the _More menu_, select _Workspace access_
+1. Navigate to the tenant settings page. You must be a Power BI admin to see this page.&#x20;
+2. In the Tenant settings tab, navigate to the Developer Settings section, and enable the Allow service principals to use Power BI APIs setting. Make sure to add the PowerBI API Access Group you created in the previous step.&#x20;
+3. Complete step 2 for the following settings in the Admin API Settings section:
+   * Allow service principals to use read-only admin APIs
+   * Enhance admin APIs responses with detailed metadata
+   * Enhance admin APIs responses with DAX and mashup expressions
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/a94c397a-1c99-4732-a8d5-97c8a568eea8.png)
+</details>
 
-* Fill form in the required information:
-  * Search for `Secoda` as member and select **Secoda** entry
-  * Permission - select `Viewer` or `Contributor` (To see lineage between PowerBI and other sources, the permission must be set to Contributor. If set to Viewer, only lineage within PowerBI will be available)
-  * Click **Add** button to add
-  * Click **Close** button to confirm
+<details>
 
-**Step 4:** Connect PowerBI API to Secoda:
+<summary>Setting up Non-Admin API Access</summary>
 
-* Click **Integrations** in the sidebar, then **New integration** and select **Power BI**
-* Fill form in the required information referred in Step 1 above:
-  * **Client ID:** Application ID of Azure AD.
-  * **Tenant ID:** Identifier of tenant of organization in Azure Active AD.
-  * **Client Secret:** Client secret of the Azure AD App
-* Click **Connect**
+1. In the Azure Portal, navigate to the API Permissions tab and click Add a Permission.
+2. The following permissions, under the PowerBI Service, must be added to enable access by Secoda.&#x20;
+   * Dashboard Read All
+   * Dataflow Read All
+   * Dataset Read All
+   * Gateway Read All
+   * Pipeline Read All
+   * Report Read All
+   * Workspace Read All
 
-**Note:**
+</details>
 
-* Non-admin API does not support extracting tables, columns and measures from PowerBI datasets (except for push datasets)
-* You must be a PowerBI Admin in order to successfully go through the OAuth flow.
+### **Step 4 -> Add Azure AD to your PowerBI Workspace**
+
+1. Sign into PowerBI, and navigate to the workspaces you want to enable access to. Use the three dots on the right of the workspace name to select Workspace Access.
+2. Fill in the Workspace Access form with the following required information. Make sure to click Add and close the form to persist the changes.
+   * Member: Secoda
+   * Permission: Contributor
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### Step 5 ->Add the PowerBI Integration To Secoda
+
+1. In the Integrations section, click on New Integration, and select PowerBI.
+2. Navigate to the Managed tab, and fill in the form with the required information from the previous steps.
+   * **Client ID:** Application ID of Azure AD.
+   * **Tenant ID:** Identifier of tenant of organization in Azure Active AD.
+   * **Client Secret:** Client secret of the Azure AD App
+
+{% hint style="info" %}
+If you have any trouble connecting PowerBI, get in touch at [support@secoda.co](mailto:support@secoda.co).
+{% endhint %}
