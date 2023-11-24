@@ -6,6 +6,8 @@ description: Explaining the information in the sidebar.
 
 When looking at a resource, you can see several pieces of information in the side bar, here is a break down of each.&#x20;
 
+<figure><img src="../.gitbook/assets/Screen Shot 2023-11-24 at 3.29.42 PM.png" alt=""><figcaption><p>Image of the resource sidebar</p></figcaption></figure>
+
 ### Properties
 
 Generally, properties refer to fields that can be set within Secoda.&#x20;
