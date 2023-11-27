@@ -54,8 +54,9 @@ Whether you set up Admin or non-admin access APIs is up to you. Admin access ena
 **In Power BI:**
 
 1. Navigate to the tenant settings page. You must be a Power BI admin to see this page.&#x20;
-2. In the Tenant settings tab, navigate to the Developer Settings section, and enable the Allow service principals to use Power BI APIs setting. Make sure to add the PowerBI API Access Group you created in the previous step.&#x20;
-3. Complete step 2 for the following settings in the Admin API Settings section:
+2. In the Tenant settings tab, navigate to the Developer Settings section, and enable the following setting:
+   * Allow service principals to use Power BI APIs (Make sure to add the PowerBI API Access Group you created in the previous step)
+3. Admin API Settings section under the Tenant settings tab, enable the following settings:
    * Allow service principals to use read-only admin APIs
    * Enhance admin APIs responses with detailed metadata
    * Enhance admin APIs responses with DAX and mashup expressions
