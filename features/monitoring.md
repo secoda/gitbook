@@ -4,10 +4,6 @@ description: Create data monitors for visibility into the health of your data st
 
 # Monitoring
 
-{% hint style="warning" %}
-Monitoring is not live for all users at the moment. If you'd like early access to test it out, please fill out this form: [https://tally.so/r/n99eNX](https://tally.so/r/n99eNX).
-{% endhint %}
-
 Monitoring is an essential player in maintaining data quality. Within Secoda, you can configure essential monitors to be alerted about changes to your data. Automatically schedule and create thresholds with the ability to track the history of runs and visualize performance of your monitors.
 
 Choose from the following monitor types:
