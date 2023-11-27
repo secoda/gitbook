@@ -20,6 +20,8 @@ Examples:
 * How would I join the @orders and @payments tables in a query?
 * What downstream resources would be affected if I deprecated the @customers table?
 
+{% embed url="https://www.loom.com/share/b7e9c8a8acf44a569b6e15e69416f02e" %}
+
 ## Start new chats
 
 Start new chats every 3-4 questions to ensure that the AI is able to keep up with the data provided. New chats can be started through the right side panel, like so.

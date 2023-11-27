@@ -20,6 +20,7 @@ Choose from the following monitor types:
 * **Maximum** - The highest value of a numeric column
 * **Mean** - The arithmetic mean of a numeric column
 * **Minimum** - The lowest value of a numeric column
+* [**Custom SQL**](monitoring.md#custom-sql-monitors) - Define a monitor by writing your own SQL query
 
 The monitor will alert if any of these values are higher or lower than expected.
 
@@ -27,9 +28,13 @@ The monitor will alert if any of these values are higher or lower than expected.
 Note: Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.&#x20;
 {% endhint %}
 
+Admins and Editors can find existing Monitors in the Monitors page from the side panel. You can see all the monitors and incidents across the entire platform, and also create new ones from here.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-27 at 5.26.07 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## How to create monitors
 
-1. Navigate to the table or column that you'd like to add a monitor for
+1. Navigate to the table or column that you'd like to add a monitor for (or search it from the main Monitors page)
 2.  Click into the "Monitors" tab > "New Monitor"
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/40ae73c2-f895-4d69-a17a-4fc1736ca827.png" alt=""><figcaption></figcaption></figure>
@@ -65,6 +70,28 @@ Note: You can only add a monitor type which each of the columns support.
 
 For example, if you have 3 numeric columns selected, you can add a "MIN" or "MAX" monitor, but you cannot do it if even one string column is selected in the modal.
 {% endhint %}
+
+### Custom SQL Monitors
+
+A user is be able to create a monitor that runs custom SQL to create an output. The only requirement is that the final output of the custom SQL must be a single value.
+
+Follow the same steps as above, but choose "Custom SQL" as the Monitor type. After creating, click into it so that you can add your desired query in the right side panel.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-27 at 5.22.03 PM.png" alt=""><figcaption><p>Custom SQL monitor</p></figcaption></figure>
+
+</div>
+
+### WHERE clause&#x20;
+
+Standard monitors such as nullness, row count, etc can be modified with custom SQL that’s added as a WHERE clause within the standard SQL.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/where clause.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure>
+
+</div>
 
 ## How to manage monitors
 
