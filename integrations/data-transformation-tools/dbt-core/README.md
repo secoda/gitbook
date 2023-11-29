@@ -16,36 +16,26 @@ dbt is a secondary integration that adds additional metadata on to your data war
 The metadata extracted from dbt core is: Descriptions, Lineage, SQL Query, and Tags (optional).
 {% endhint %}
 
-There are four options to connect dbt core with Secoda:
+There are several options to connect dbt core with Secoda:
 
-1. Upload a manifest.json
-2. Connect an AWS S3 bucket
-3. Connect a GCP GCS bucket
-4. Secoda API
+1. Connect an AWS S3 or GCP GCS bucket (Recommended)
+2. Upload a `manifest.json` and `run_results.json` through the UI
+3. Upload a `manifest.json` and `run_results.json` through the Secoda API
 
-#### **Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+## **Option 1 -> Connect a Bucket (Recommended)** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
-This is a one time sync with your manifest.json file. You can upload the file following these steps:
+This option is recommended to ensure that Secoda always has the latest `manifest.json` and `run_results.json` files from dbt Core. Secoda will only sync these files from the bucket.
 
-1. Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new)
-2. Click "dbt Core"
-3. Select your manifest.json file using the file selector
-4. Click "Test Connection"
-5. Click "Submit"
+### **Connect an AWS S3 bucket**
 
-After clicking submit an extraction will run to sync the metadata from the uploaded manifest.json.
+You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.&#x20;
 
-#### **Connect an AWS S3 bucket**
+<details>
 
-If you upload your manifest.json files to an AWS S3 bucket, you can connect that bucket to Secoda which will run a daily extraction to sync the latest manifest.json files. Only files from the bucket that contain `manifest.json` in the name will be synced to Secoda. You can connect the bucket following these steps:
+<summary>AWS IAM User</summary>
 
-Create a new AWS IAM user and ensure that **Access Key - Programatic access is checked.** Once you create the user save the Access Key ID and Secret Access Key that are generated for the user.
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(3\)%20\(1\)%20\(1\)%20\(2\).png)
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(1\)%20\(2\)%20\(1\).png)
-
-Attach the following policy to the user. Make sure to change `<your-bucket-name>`.
+1. Create a new AWS IAM user and ensure that **Access Key - Programatic access is checked.** Once you create the user save the Access Key ID and Secret Access Key that are generated for the user.
+2. Attach the following policy to the user. Make sure to change `<your-bucket-name>`.
 
 ```
 {
@@ -70,21 +60,48 @@ Attach the following policy to the user. Make sure to change `<your-bucket-name>
 }
 ```
 
-Connect your S3 bucket to Secoda
+3. Connect your S3 bucket to Secoda
+   * Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
+   * Choose the Access Key tab and add the credentials from AWS (Region, Bucket Name, Access Key ID, Secret Access Key)
+   * Test the Connection - if successful, you'll be prompted to run your initial sync
 
-1. Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new)
-2. Click "dbt Core"
-3. Add the credentials that you've saved from AWS
-   * Region
-   * Bucket Name
-   * Access Key ID
-   * Secret Access Key
-4. Click "Test Connection"
-5. Click "Submit"
+</details>
 
-After clicking submit an extraction will run to sync the metadata from the manifest.json files in the S3 bucket that you've connected.
+<details>
 
-#### **Connect a GCS GCP bucket**
+<summary>AWS Roles</summary>
+
+1. Create a new AWS IAM role. In the Select type of trusted entity page, click Another AWS account and add the following account ID: 482836992928.&#x20;
+2. Click on Require External ID, and copy the randomly generated value from Secoda, in the dbt Core connection page.&#x20;
+3. Attach the following policy to the role. Make sure to change `<your-bucket-name>`.
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<your-bucket-name>",
+                "arn:aws:s3:::<your-bucket-name/*"
+            ]
+        }
+    ]
+}
+```
+
+4. Connect your S3 bucket to Secoda
+   * Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
+   * Choose the Role tab and add the credentials from AWS (Role ARN, Region, Bucket Name)
+   * Test the Connection - if successful you'll be prompted to run your initial sync
+
+</details>
+
+### **Connect a GCS GCP bucket**
 
 1. Login to GCP cloud console.
 2. Create a service account.
@@ -93,7 +110,7 @@ After clicking submit an extraction will run to sync the metadata from the manif
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-10-21%20at%202.22.34%20PM.png)
 
-5\. Setup CORS. GCP requires this be done over CLI. Like the following:
+5. Setup CORS. GCP requires this be done over CLI. Like the following:
 
 ```
 gsutil cors set cors.json gs://bucket-name
@@ -112,51 +129,61 @@ gsutil cors set cors.json gs://bucket-name
 ]
 ```
 
-6\. Save the HMAC keys to be used in the connection form.
+6. Save the HMAC keys to be used in the connection form.
+   * **Acess Key Id**
+   * **Secret**
+   * **Region** bucket region for GCP
+   * **S3 Endpoint** must be added and set to `https://storage.googleapis.com`
+7. Connect your S3 bucket to Secoda
+   * Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
+   * Choose the Access Key tab and add the HMAC keys saved above to the relevant fields.&#x20;
+   * Test the Connection - if successful you'll be prompted to run your initial sync
 
-1. **Access Key Id**
-2. **Secret**
-3. **Region** bucket region for GCP
-4. **S3 Endpoint** must be added and set to `https://storage.googleapis.com`
+### **Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
-7\. Fill in the integration page in Secoda based on the screenshot:
+This is a one time sync with your manifest.json file. You can upload the file following these steps:
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-10-28%20at%2011.14.56%20AM.png)
+1. Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
+2. Choose the File Upload tab and select your manifest.json and run\_results.json files using the file select
+3. Test the Connection - if successful you'll be prompted to run your initial sync
 
-#### **Secoda API**
+### **Secoda API**
 
-The API provides an endpoint to upload your manifest.json file. This is convenient if you run dbt with Airflow because you can upload the manifest.json at the end of a dbt run. Follow these instructions to upload your manifest.json via the API:
+The API provides an endpoint to upload your manifest.json and run\_results.json file. This is convenient if you run dbt with Airflow because you can upload the manifest.json at the end of a dbt run. Follow these instructions to upload your manifest.json via the API:
 
 1. Create a blank dbt core integration by going to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and selecting the "dbt Core" integration and then click "Test Connection". And run the initial extraction. This extraction will fail, but that's intended.
 2. Return to https://app.secoda.co/integrations and click on the dbt Core integration that was just created. Save the ID which is contained in the URL.
-3. Use the endpoint below to upload your manifest.json file. This will trigger an extraction to run on the integration you created in step #1.
+3. Use the endpoints below to upload your files. This will trigger an extraction to run on the integration you created in step #1.
 
-* Endpoint - `https://api.secoda.co/integration/dbt/manifest/`
-* Method - `POST`
-*   Sample Response
+Endpoints  ->&#x20;
 
-    ```json
-    {
-       "message":"Successfully ran extraction for dbt"
-    }
-    ```
-*   Python Example
+Manifest.json: `https://api.secoda.co/integration/dbt/manifest/`
 
-    ```python
-    import requests
+Run\_results.json: `https://api.secoda.co/integration/dbt/run_results/`
 
-    headers = {
-        "Authorization": "Bearer <Your Key>"
-    }
-    response = requests.post(
-    	"<https://api.secoda.co/integration/dbt/manifest/>",
-    	files={"manifest_file": open("manifest.json", "rb")},
-    	data={"integration_id": "km1dhjql3xgxy9p8"},
-    	headers=headers
-    )
-    print(response.json())
-    ```
+Method -> `POST`
 
-If you'd like to upload a `run_results.json` file in addition to the `manifest.json` file (to capture the results of the dbt tests), you can do so by sending a POST request to the following endpoint, with the file, in the same way as indicated above.&#x20;
+Sample Request for Manifest file (Python) ->&#x20;
 
-* `https://api.secoda.co/integration/dbt/run_results/`
+```python
+import requests
+
+headers = {
+    "Authorization": "Bearer <Your Key>"
+}
+response = requests.post(
+	"<https://api.secoda.co/integration/dbt/manifest/>",
+	files={"manifest_file": open("manifest.json", "rb")},
+	data={"integration_id": "Your Integration ID"},
+	headers=headers
+)
+print(response.json())
+```
+
+Sample Response ->&#x20;
+
+```json
+{
+   "message":"Successfully ran extraction for dbt"
+}
+```
