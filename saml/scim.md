@@ -45,4 +45,17 @@ Follow the directions below for your identity provider to setup the SCIM integra
 * Click on the _Provisioning_ tab and Enable Provisioning
 * Save your App
 {% endtab %}
+
+{% tab title="Azure AD" %}
+
+
+1. In Azure portal, go to Azure Active Directory -> Enterprise Applications.
+2. Select an existing application or create a new one by searching for the specific application in the gallery.
+3. In the application management screen, choose Provisioning in the left panel.
+4. Under Provisioning Mode, select Automatic.
+5. In Admin Credentials, enter the Tenant URL (e.g., `https://app.secoda.co/api/v1/auth/scim`) and a Secret Token generated from your API settings in Secoda.
+6. Expand Mappings and configure user attributes. Set mappings like `userPrincipalName` to `userName`, `mail` to `emails[type eq "work"].value`, etc.
+7. Ensure Create, Update, and Delete actions are selected under Target Object actions.
+8. Save the configuration
+{% endtab %}
 {% endtabs %}
