@@ -140,7 +140,7 @@ gsutil cors set cors.json gs://bucket-name
    * Choose the Access Key tab and add the HMAC keys saved above to the relevant fields.&#x20;
    * Test the Connection - if successful you'll be prompted to run your initial sync
 
-### **Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+## **Option 2 -> Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
 This is a one time sync with your manifest.json file. You can upload the file following these steps:
 
@@ -148,7 +148,7 @@ This is a one time sync with your manifest.json file. You can upload the file fo
 2. Choose the File Upload tab and select your manifest.json and run\_results.json files using the file select
 3. Test the Connection - if successful you'll be prompted to run your initial sync
 
-### **Secoda API**
+## **Option 3 -> Secoda API**
 
 The API provides an endpoint to upload your manifest.json and run\_results.json file. This is convenient if you run dbt with Airflow because you can upload the manifest.json at the end of a dbt run. Follow these instructions to upload your manifest.json via the API:
 
