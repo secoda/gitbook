@@ -26,7 +26,6 @@ Open up the data asset you would like to add lineage to in Secoda, you can do th
 * Select the Lineage tab on the data asset, and click the `Add Node` button <mark style="color:red;">**(A)**</mark> to manually add a new node to the Lineage diagram. A new Lineage Node modal will open up.
 * From the new Lineage Node, use the search bar <mark style="color:red;">**(B)**</mark> to search for the Resource you want to add to the Lineage diagram.
 * Connect the new Lineage Node to any desired Lineage Node on the diagram <mark style="color:red;">**(C)**</mark>, and click `Save` to save your changes.
-*
 
 ```
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-04%20at%203.20.43%20PM.png" alt=""><figcaption></figcaption></figure>
@@ -40,6 +39,10 @@ If you've made an accidental connection or want to make updates, you can delete 
 
 * Select the `...` menu icon on the lineage node that has a connection which you would like to delete
 * Select the `Remove` option from the menu
+
+{% hint style="info" %}
+Note: You can only delete manually created lineage, not automatic lineage brought in from the source.
+{% endhint %}
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-05%20at%204.22.52%20PM.png" alt=""><figcaption></figcaption></figure>
 

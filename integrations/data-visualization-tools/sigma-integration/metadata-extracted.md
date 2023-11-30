@@ -1,7 +1,3 @@
----
-description: List of all the metadata that Secoda pulls from Sigma
----
-
 # Metadata Extracted
 
 ### What does Secoda extract from Sigma?
