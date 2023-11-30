@@ -19,17 +19,26 @@ Overall, lineage is an important aspect of data management and can help organiza
 1. Choose which resource you'd like to view the lineage for. Find it either from the Catalog in the navigation bar, or through Search.&#x20;
 2. Once on the resource page, click on the **Lineage** tab.&#x20;
 3. From here, you can see lineage visualized in a graph view. Click through the arrows on each node to see how the relationships are connected.
-4.  From any node, click the three dots and **Analyze Impact** to see a list-view of all upstream and downstream dependencies of that resource. This view makes impact analysis quick and easy with just one click.&#x20;
+4. Use the Search bar to find and zoom in on a specific node, including columns. This can be helpful for larger, more complex lineage graphs.&#x20;
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.06.01 PM.png" alt=""><figcaption></figcaption></figure>
-5.  There is also a Search bar within Lineage that allows you to find and zoom in on a specific node, including columns. This can be helpful for larger, more complex lineage graphs.&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.06.54 PM.png" alt=""><figcaption><p>Search Lineage</p></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.06.54 PM.png" alt=""><figcaption></figcaption></figure>
-6.  On certain resources, you can expand to see the Column Level lineage. You can search within the Columns view to drill down to find the relevant columns.
+5. From any node, click the three dots and **Analyze Impact** to see a list-view of all upstream and downstream dependencies of that resource. This view makes impact analysis quick and easy with just one click.
 
-    1. If you click into any of the columns, it opens up it's own Impact Analysis showing what is upstream and downstream of that column.
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.06.01 PM.png" alt=""><figcaption><p>Lineage view</p></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.13.08 PM.png" alt=""><figcaption></figcaption></figure>
+* In this view, you can filter for the type of resource and the integration you're looking for, as well as search directly.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.25.59 PM.png" alt=""><figcaption><p>Impact Analysis filters</p></figcaption></figure>
+
+6. On certain resources, you can expand to see the Column Level lineage. You can search within the Columns view to drill down to find the relevant columns.
+   * If you click into any of the columns, it opens up it's own Impact Analysis showing what is upstream and downstream of that column.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.13.08 PM.png" alt=""><figcaption><p>Column Lineage</p></figcaption></figure>
+
+7.  Use the Fullscreen button to get a closer view of your lineage.
+
+    <figure><img src="../.gitbook/assets/Kapture 2023-11-30 at 12.38.59.gif" alt=""><figcaption><p>Fullscreen</p></figcaption></figure>
 
 ## How is Lineage Created?
 
