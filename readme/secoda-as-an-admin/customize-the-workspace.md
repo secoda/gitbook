@@ -21,6 +21,10 @@ As an Admin, you're able to "lock" some of these personalizations. If you don't 
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-30%20at%203.08.27%20PM.png" alt=""><figcaption></figcaption></figure>
 
+### Allowed Domains
+
+If using multiple domains for your organization, you can add these domains to the "Allowed domains" section. This will allow members with email IDs ending in those domains to sign up to the workspace directly.&#x20;
+
 ### Edit the Homepage
 
 You can change your personal homepage background, and Admins can edit the Team homepages as well. Simply click into **Home** and click Edit in the top right.
