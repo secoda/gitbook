@@ -32,7 +32,8 @@ Overall, lineage is an important aspect of data management and can help organiza
 <figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.25.59 PM.png" alt=""><figcaption><p>Impact Analysis filters</p></figcaption></figure>
 
 6. On certain resources, you can expand to see the Column Level lineage. You can search within the Columns view to drill down to find the relevant columns.
-   * If you click into any of the columns, it opens up it's own Impact Analysis showing what is upstream and downstream of that column.
+   * If you click into any of the columns, it opens up it's own Impact Analysis showing what is upstream and downstream of that column.&#x20;
+   * In the [Data Visualization](../integrations/data-visualization-tools/) tool category, only [Looker](../integrations/data-visualization-tools/looker-integration/) and [Tableau](../integrations/data-visualization-tools/tableau-integration/) are currently supported for column level lineage. This means that you can use the One Click Impact Analysis to see from column in a database, all the way to the impacted Dashboard or Chart in these tools.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.13.08 PM.png" alt=""><figcaption><p>Column Lineage</p></figcaption></figure>
 
