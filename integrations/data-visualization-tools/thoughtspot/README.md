@@ -4,10 +4,6 @@ description: An overview of the Thoughtspot integration with Secoda
 
 # ThoughtSpot
 
-{% embed url="https://docs.secoda.co/integrations/data-visualization-tools/thoughtspot/metadata-extracted" %}
-
-There are four steps to connect ThoughtSpot with Secoda:
-
 {% content-ref url="metadata-extracted.md" %}
 [metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
