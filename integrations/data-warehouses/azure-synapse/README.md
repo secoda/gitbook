@@ -33,4 +33,4 @@ GRANT ROLE SECODA TO USER SECODA_USER;
   * **Host**: Azure Synapse server host.
   * **Port**: (Specify the default port for Synapse or note that it might vary based on your specific setup.)
 
-4. **Security: Whitelisting IPs** Whitelisting IP addresses in Azure typically involves managing Network Security Group rules or using Azure Firewall. Ensure that you add the IP address `35.175.75.15/32` to the list of allowed IPs. To do this, go to the Azure Portal, navigate to the appropriate resource (e.g., Azure Synapse), and manage its network settings to add the aforementioned IP address to the allow list.
+4. **Security: Whitelisting IPs** Whitelisting IP addresses in Azure typically involves managing Network Security Group rules or using Azure Firewall. Ensure that you add the[ Secoda IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda) to the list of allowed IPs. To do this, go to the Azure Portal, navigate to the appropriate resource (e.g., Azure Synapse), and manage its network settings to add the IP address to the allow list.

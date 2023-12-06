@@ -51,7 +51,7 @@ After creating a Redshift warehouse, the next step is to connect Secoda:
 
 ### **Security** <a href="#h_317efbf748" id="h_317efbf748"></a>
 
-VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the Secoda IPs to read from your data warehouse.
+VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the [Secoda IPs](../../../faq.md#what-are-the-ip-addresses-for-secoda) to read from your data warehouse.
 
 ### **Best Practice** <a href="#h_61b5b414fd" id="h_61b5b414fd"></a>
 
@@ -69,26 +69,14 @@ Or if your cluster has a field called `VPC Security Groups`, proceed to [EC2 VPC
 2. Click on the Cluster Security Groups
 3. Open the Cluster Security Group
 4. Click on “Add Connection Type”
-5.  Choose Connection Type CIDR/IP and authorize Secoda to read into your Redshift Port using
-
-    `35.175.75.15/32`
-
-    `34.230.160.245/32`
-
-    `54.175.53.193/32`
+5. Choose Connection Type CIDR/IP and authorize the [Secoda IPs](../../../faq.md#what-are-the-ip-addresses-for-secoda) to read into your Redshift Port
 
 #### **EC2-VPC** <a href="#h_74f90aa17e" id="h_74f90aa17e"></a>
 
 1. Navigate to your `Redshift Dashboard > Clusters > Select Your Cluster`
 2. Click on the VPC Security Groups
 3. Select the “Inbound” tab and then “Edit”
-4.  Allow Secoda to read into your Redshift Port using
-
-    `35.175.75.15/32`
-
-    `34.230.160.245/32`
-
-    `54.175.53.193/32`
+4. Allow Secoda to read into your Redshift Port using the [Secoda IP addresses](../../../faq.md#what-are-the-ip-addresses-for-secoda).
 
 You can find more information on that [here](http://docs.aws.amazon.com/redshift/latest/mgmt/managing-clusters-vpc.html).
 

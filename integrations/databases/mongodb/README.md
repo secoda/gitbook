@@ -40,7 +40,7 @@ Once you have created the new database user, you need to add Secoda's IP address
 2.  On the side, navigate to `Security -> Network Access` and click on `ADD IP ADDRESS` on the top right
 
     ![](https://secoda-public-media-assets.s3.amazonaws.com/5efdc668-7d49-48fb-9286-e2c96e75cc30.png)
-3. Add `35.175.75.15/32` and `34.230.160.245/32`
+3. Add the [Secoda IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda).
 
 ### Connect MongoDB to Secoda
 

@@ -65,5 +65,3 @@ After retrieving the API token and domain name, the next step is to connect to S
 Any spaces that are created or deleted will not be updated under the spaces tab on the integration page. Any new public spaces created will be automatically imported during the next sync, and any deleted space contents will be removed. If you do not want any new spaces brought in, then the confluence integration must be deleted and re-connected for the space options to be updated.
 
 :warning:Warning that any changes made to the Confluence documents in Secoda will be overwritten the next time a Confluence sync is run. Any changes that are desired to be made to these documents should be done in confluence, then run a sync in Secoda.
-
-\\

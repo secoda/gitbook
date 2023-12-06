@@ -51,6 +51,5 @@ After creating a Postgres user, the next step is to connect Secoda:
 
 VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the Secoda IPs to read from your data warehouse.
 
-Allow Secoda to read into your Postgres database using\
-`35.175.75.15/32`
+Allow Secoda to read into your Postgres database using the [Secoda IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda).
 

@@ -39,4 +39,4 @@ After entering in the information into Secoda, click "Test Connection". After th
 
 ### Whitelist Secoda IP Address
 
-If your Databricks instance is behind a firewall, you'll have to whitelist Secoda's IP address to allow for metadata extractions. The IP addresses you need to whitelist are `35.175.75.15` and `3.122.13.89`
+If your Databricks instance is behind a firewall, you'll have to whitelist [Secoda's IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda) to allow for metadata extractions.&#x20;
