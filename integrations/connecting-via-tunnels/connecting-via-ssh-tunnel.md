@@ -12,7 +12,7 @@ Tunnels require you to run an SSH server process ([SSHD](https://www.ssh.com/aca
 For more information on setting up a Bastion host in your environment, check out the AWS documentation [here](https://aws-ia.github.io/cfn-ps-linux-bastion/#\_overview), or the Azure documentation [here](https://learn.microsoft.com/en-us/azure/bastion/).
 {% endhint %}
 
-The Secoda app will open an SSH connection to your Bastion, then open a port forwarding connection to the private service that you specify. Ensure your Bastion host has whitelisted our NAT Gateway address: `35.175.75.15`
+The Secoda app will open an SSH connection to your Bastion, then open a port forwarding connection to the private service that you specify. Ensure your Bastion host has whitelisted the [Secoda IP address](../../faq.md#what-are-the-ip-addresses-for-secoda).
 
 #### Setup <a href="#h_7ee5f8a430" id="h_7ee5f8a430"></a>
 
@@ -32,7 +32,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMRSB7sRm7HwEUC/TbvBtKKWLYgt1P8K+Xs5CyPqHV
 
 If you're having trouble establishing a connection with a standard tunnel, check the following:
 
-* Check that the Secoda IP `35.175.75.15` is whitelisted on your Bastion host.
+* Check that the [Secoda IP](../../faq.md#what-are-the-ip-addresses-for-secoda) is whitelisted on your Bastion host.
 * Check that the public key _**we provide you**_ on tunnel creation is in the `~/.ssh/authorized_keys` file.
 * Check permissions on the SSH files.
   * `~/.ssh` directory should be `0700`

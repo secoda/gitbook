@@ -18,6 +18,12 @@ The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI worksp
 2. Navigate to the OAuth tab, and click Connect with OAuth. You will be prompted to log in to your PowerBI Workspace.&#x20;
 3. Upon successful completion of OAuth authentication with Power BI, click the Run Initial Sync button to begin a sync.
 
+To see Lineage to your PowerBI resources from external sources, make sure you enable the following settings in the Tenant tab of the Admin API Settings section in PowerBI:
+
+* Allow service principals to use read-only admin APIs
+* Enhance admin APIs responses with detailed metadata
+* Enhance admin APIs responses with DAX and mashup expressions
+
 ## Option 2: Azure AD App
 
 ### Step 1 -> Create an Azure AD App

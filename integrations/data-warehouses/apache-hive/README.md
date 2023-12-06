@@ -45,7 +45,7 @@ To integrate Secoda with your Hive setup:
 
 **4. Security: Whitelisting IPs**
 
-The process of whitelisting IPs would be external to Hive. It typically occurs at the level of Hive Server2 or in the underlying infrastructure, such as firewalls or security groups if you're using a cloud platform. Ensure that you add the IP address `35.175.75.15/32` to the list of allowed IPs.
+The process of whitelisting IPs would be external to Hive. It typically occurs at the level of Hive Server2 or in the underlying infrastructure, such as firewalls or security groups if you're using a cloud platform. Ensure that you add the [Secoda IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda) to the list of allowed IPs.
 
 \
 

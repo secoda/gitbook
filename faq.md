@@ -14,19 +14,25 @@ After your data is connected to Secoda, you'll be able to add users, owners, des
 
 ## Can I see how people are using our data in my organization?
 
-As an editor in Secoda, we provide you with an analytics dashboard to see how people are using Secoda in your company. Beyond that, you can also look at queries, joins, lineage and popularity of datasets in Secoda.&#x20;
+As an editor in Secoda, we provide you with an [analytics](features/analytics-dashboard.md) dashboard to see how people are using Secoda in your company. Beyond that, you can also look at queries, joins, lineage and popularity of datasets in Secoda.&#x20;
 
-You can also use our API to visualize any information from Secoda in a BI tool.
+You can also use our [API](secoda-api.md) to visualize any information from Secoda in a BI tool.
 
 ## How is the popularity calculated?
 
-The popularity of a piece of data depends on the number of times it has been queried, the number of users over the last 180 days. The popularity of a resource is further enhanced by the number of times it has been used, documented, or viewed on Secoda. Dashboards take into account the number of views, frequency of queries and when a resource was accessed.
+In Secoda, the **Popularity** of a resource is a piece of metadata pulled directly from the source. It can be seen in the catalog or resource page. It is defined as the number of queries (for a database/data warehouse) or the number of views (for a data visualization tool) over the previous 24 hours from the last sync with that source.
+
+In contrast, **Popular Resources** in the workspace are determined by calculating the number of views of the resource in Secoda over the last 180 days. It can be seen in the Analytics, or in the Search.
+
+When ranking search results by Popularity, Secoda uses a combination of external and internal metrics.
 
 ## How is search ordered in Secoda?
 
-Search results are based on a number of factors.&#x20;
+Search results are based on a number of factors. The primary factor is the matching of text in the resource title or description to what has been inputted into the search bar.&#x20;
 
-This is the most important factor that determines search results: matching the text of the resource (in the column, the table, or the dashboard) with the text entered into the search.
+Popularity of the resource (from external and internal metrics) are also used to order the search results.
+
+The search order can be fine tuned by adding filters to your search.&#x20;
 
 ## Does Secoda read the data from my data source?
 
@@ -41,9 +47,9 @@ If permissions are provided, the data from the datasource can be read in the fol
 
 Even if the data is read, it is never saved or logged by Secoda.
 
-## How often does Secoda update?
+## How often does Secoda sync with my integration?
 
-You can choose when to run an extraction for each integrations. Admins can run manual syncs as well and can set the schedule on a daily, weekly or monthly basis.&#x20;
+You can choose when to run an extraction for each integrations. Schedules for syncs can be set to run on a daily, weekly, or monthly basis. One off manual syncs are available as well, and can only be run by Admins.
 
 ## Can I edit in Secoda?
 
@@ -53,13 +59,13 @@ You should contact the admin(s) within your organization to ask for more permiss
 
 To learn more about user roles in Secoda, check out our[ **User Management** ](user-management/)section.&#x20;
 
-## What happens if someone edits the documentation in Secoda?
+## What happens if someone edits the description in Secoda?
 
-Documentation from your tools automatically syncs with Secoda. We will stop writing documentation back to our tool once all changes have been made to documentation inside Secoda. So that your documentation has a consistent "source of truth", we do this.
+For many integrations, Secoda will extract the description from the source on the first sync. If that description is re-written in Secoda, Secoda will remain the source of truth. This means that subsequent syncs with the source will **not** override the description in Secoda.&#x20;
 
-Secoda documentation can be returned programmatically through our API to your tool.
+If you'd like to override the description in Secoda in the following syncs, you can set the preferences for the integration in the Integration settings.
 
-Our support team can disable the editing of descriptions for specific data sources inside Secoda if you need to.
+<figure><img src=".gitbook/assets/Screenshot 2023-12-06 at 3.43.43 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## What is Secoda's back up policy?
 
@@ -89,6 +95,14 @@ Access our Canny instance at [**feedback.secoda.co**](http://feedback.secoda.co/
 * Log into Secoda in another tab, then try again
 
 Note: we're still available on Slack for urgent requests, questions, and general chit chat!
+
+## What are the IP addresses for Secoda?
+
+* `3.122.13.89` in the EU/UK region (eu.secoda.co). &#x20;
+* `35.175.75.15` in North America (app.secoda.co).&#x20;
+* `13.251.200.242` in the Asia-Pacific region (apac.secoda.co). &#x20;
+
+Please ensure the relevant address is whitelisted in any tool you'd like to integrate with Secoda.
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

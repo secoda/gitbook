@@ -26,9 +26,7 @@ To integrate Azure Cosmos DB with Secoda, follow these three steps:
 #### 2. Whitelist Secoda IP Address
 
 * In Azure Cosmos DB, go to 'Networking'.
-* Either set public network access to `all networks` or under the `select network` add the Secoda IP addresses to the firewall whitelist:
-  * 35.175.75.15/32
-  * 34.230.160.245/32
+* Either set public network access to `all networks` or under the `select network` add the [Secoda IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda) to the firewall whitelist.
 
 #### 3. Connect Azure Cosmos DB to Secoda
 
