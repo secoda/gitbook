@@ -59,7 +59,11 @@ You can nest a collection when first creating a collection or after a collection
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(10\)%20\(1\).png)
 
-To add a nested collection after the collection has been created, navigate to a collection and click "Add resource" and then search for the collection you'd like to be nested inside the current selected collection.
+To add a nested collection after the collection(s) has been created, click into the list of collections and check off which you'd like to nest. Then click 'Set parent' and choose the collection that you'd like to be the parent.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-12-06 at 8.19.59 AM.png" alt=""><figcaption></figcaption></figure>
+
+Another way to do this is to navigate to a collection, click "Add resource" and then search for the collection you'd like to be nested inside the current selected collection.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(5\)%20\(1\)%20\(2\).png)
 
