@@ -2,6 +2,7 @@
 
 * [Getting Started with Secoda](README.md)
   * [Secoda as an Admin](getting-started/secoda-as-an-admin/README.md)
+    * [Sign in options](readme/secoda-as-an-admin/sign-in-options.md)
     * [Connect your data](getting-started/secoda-as-an-admin/connect-your-data/README.md)
       * [Define Service Accounts](getting-started/secoda-as-an-admin/connect-your-data/define-service-accounts.md)
       * [Choose which schemas to extract](getting-started/secoda-as-an-admin/connect-your-data/hide-unwanted-datasets.md)
