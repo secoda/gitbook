@@ -8,61 +8,62 @@ Monitoring is an essential player in maintaining data quality. Within Secoda, yo
 
 Choose from the following monitor types:
 
-* **Nullness** - The percentage of values in a column that are null
-* **Cardinality** - The number of distinct values of a given column
-* **Uniqueness** - The percentage of values in a column that are unique
-* **Freshness** - The time elapsed since last update
 * **Row Count** - The number of rows over time
+* **Freshness** - The time elapsed since last update
+* **Cardinality** - The number of distinct values of a given column
 * **Maximum** - The highest value of a numeric column
-* **Mean** - The arithmetic mean of a numeric column
 * **Minimum** - The lowest value of a numeric column
+* **Mean** - The arithmetic mean of a numeric column
+* **Null Percentage** - The percentage of values in a column that are null
+* **Unique Percentage** - The percentage of values in a column that are unique
 * [**Custom SQL**](monitoring.md#custom-sql-monitors) - Define a monitor by writing your own SQL query
 
 The monitor will alert if any of these values are higher or lower than expected.
 
 {% hint style="info" %}
-Note: Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.&#x20;
+**Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.&#x20;
 {% endhint %}
 
 Admins and Editors can find existing Monitors in the Monitors page from the side panel. You can see all the monitors and incidents across the entire platform, and also create new ones from here.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-11-27 at 5.26.07 PM.png" alt=""><figcaption></figcaption></figure>
 
-## How to create monitors
+## Creating Monitors
 
-1. Navigate to the table or column that you'd like to add a monitor for (or search it from the main Monitors page)
-2.  Click into the "Monitors" tab > "New Monitor"
+There are 2 ways to create monitors in Secoda. You can either use the **Monitors** section in the sidebar navigation or through the **Monitors tab** on the resource page.&#x20;
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/40ae73c2-f895-4d69-a17a-4fc1736ca827.png" alt=""><figcaption></figcaption></figure>
-3.  Select one or multiple resources that you'd like to add the Monitor for.
+1.  Select the "**Monitors**" section from the sidebar navigation and click "**Add monitor"** (also found within the monitors tab under the resource)**:**&#x20;
 
-    <div align="left">
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/eef8e012-ac15-4c7c-94bf-c1c0f156ac6f.png" alt="" width="188"><figcaption><p>Select resource</p></figcaption></figure>
 
-    </div>
-4.  Select which monitor type(s) (can be more than one) and click "Add Monitors".
+    <figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 3.39.08 PM.png" alt=""><figcaption><p>Add monitor option on the main monitors page</p></figcaption></figure>
 
-    <div align="left">
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ae1144cb-8b55-4e25-8af8-634777628335.png" alt="" width="188"><figcaption><p>Monitor types</p></figcaption></figure>
+2.  Select the monitor type you want to create and choose the integration you want to create the monitor for (if adding a new monitor from the resource itself, the integration will be pre-selected):
 
-    </div>
-5. Once created, you can find it under the "Monitors" tab in the Catalog
-6. Click into the monitor to further edit and see the history of the monitor's runs
-   * Edit Configuration details like Schedule, Threshold and Sensitivity
-     * Schedule - Choose between Daily, Every 12, 6 or 3 hours, or Hourly
-     * Threshold - Automatic or Manual
-     * Sensitivity - More or less sensitive threshold
 
-<div align="left">
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f4f4df5c-d851-428e-a672-9f0da1cd7df7.png" alt="" width="153"><figcaption><p>Configuration details</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 3.43.42 PM (1).png" alt=""><figcaption></figcaption></figure>
+
+
+3.  Select one or multiple resources that you'd like to add the monitor to:\
+
+
+    <figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 4.08.55 PM.png" alt=""><figcaption><p>configuration window for monitors<br><br></p></figcaption></figure>
+4. Adjust the **Threshold** and **Schedule** to your preferred configuration
+   * **Schedule:** Choose between Daily, Every 12, 6 or 3 hours, or Hourly
+   * **Threshold:** Automatic or Manual\
+
+5. Once configured, click add monitor and it show now show up within the list of monitors. You can view and edit the configurations from the sidebar on the monitor page
+
+<div align="center">
+
+<figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 5.02.38 PM.png" alt="" width="317"><figcaption><p>Configuration details</p></figcaption></figure>
 
 </div>
 
 {% hint style="info" %}
-Note: You can only add a monitor type which each of the columns support.
+**Note:** You can only add a monitor type which each of the columns support.
 
 For example, if you have 3 numeric columns selected, you can add a "MIN" or "MAX" monitor, but you cannot do it if even one string column is selected in the modal.
 {% endhint %}
@@ -73,7 +74,7 @@ A user is be able to create a monitor that runs custom SQL to create an output. 
 
 Follow the same steps as above, but choose "Custom SQL" as the Monitor type. After creating, click into it so that you can add your desired query in the right side panel.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-11-27 at 5.22.03 PM.png" alt=""><figcaption><p>Custom SQL monitor</p></figcaption></figure>
 
@@ -83,19 +84,19 @@ Follow the same steps as above, but choose "Custom SQL" as the Monitor type. Aft
 
 Standard monitors such as nullness, row count, etc can be modified with custom SQL that’s added as a WHERE clause within the standard SQL.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/where clause.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure>
 
 </div>
 
-## How to manage monitors
+## Managing Monitors
 
 View Status, Last and Next Run details, and a Chart Visualization of the monitor's historical performance
 
 <div align="left">
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e499d48e-1cbe-49ba-bb49-1b19226ed312.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 5.33.20 PM.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -105,19 +106,24 @@ The lighter green surrounding the main line represent the threshold limits - onc
 
 Scroll down to see Run history, and filter for triggered Incident Reports. Here you can see any Downstream Resources that may be impacted by the incident.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3270f4bf-bc58-41aa-a5c8-06b5e4a401e4.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2023-12-08 at 13.58.03.gif" alt=""><figcaption></figcaption></figure>
 
 You can either Acknowledge or Resolve the incident by click these buttons below. The incident will be automatically resolved if the numbers go back into a good state (within the threshold).
 
-<div align="left">
+
+
+<div align="center">
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c64a75ec-8256-4980-8e90-5e322f7fd72b.png" alt="" width="282"><figcaption></figcaption></figure>
 
 </div>
 
-## Monitoring notifications
 
-Ensure that you receive notifications about your monitors by going into your Notification settings. Check off where you'd like to be notified, whether that's in Slack DMs, by email, and/or in the app.
+
+## Monitoring Notifications
+
+Ensure that you receive notifications about your monitors by going into your Notification settings. Check off where you'd like to be notified, whether that's in Slack DMs, by email, and/or in the app.\
+
 
 <div align="left">
 
@@ -125,7 +131,7 @@ Ensure that you receive notifications about your monitors by going into your Not
 
 </div>
 
-### Slack channel for Monitoring notifications
+#### Slack Channel for Monitoring notifications
 
 In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
 
