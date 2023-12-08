@@ -30,6 +30,8 @@ If you're adding multiple teammates at once, we recommend **using the "Invite me
 
 <figure><img src="../../../.gitbook/assets/Screen Shot 2023-11-21 at 4.49.07 PM.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://www.loom.com/share/fa7b7a5939b64d57bc648189405fb6d8?sid=9241af9d-25f1-4d81-a7c0-1b4d4743f707" %}
+
 ## Assigning Roles
 
 In this same screen, you can view current members in your Secoda space, their emails, and the role that they have within Secoda.
