@@ -15,21 +15,27 @@ There are several benefits to column profiling for data quality:
 3. Improved data governance: Column profiling can help organizations identify and address data quality issues, improving data governance and reducing the risk of errors or misunderstandings.
 4. Enhanced data trustworthiness: By identifying and correcting data quality issues, organizations can improve the trustworthiness of their data, making it more useful and reliable for decision-making and analysis.
 
+## How it works
+
+Column profiling runs a `SELECT` query directly on the database/data warehouse, processing the data to quickly determine the distribution of your data including any null values, Minimum, Maximum, the column count, and number of unique columns.&#x20;
+
+The processed data will **not** be saved. As soon as the calculations are complete, we save the metadata results, but the data itself that the calculation is done on is not persisted anywhere in our database.
+
+The overall goal is to gain a feel for the quality of the dataset, and from here you can determine if you'd like to set monitors on certain tables/columns to further track data quality issues. Read more about our Monitoring capabilities here: [monitoring.md](monitoring.md "mention")
+
 ## **How to run column profiling** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-You're able to view the distribution of your data, the column count, and how many unique columns you have. And, if you hover over the distribution visualization, you can see the distribution percentage and what the column name is.
-
-Wondering how up to date the column profile is? Secoda shows this on top of the table in the right hand corner.
+1. Click Run profiler from any table (double check that we support column profiling for the integration in the [child metadata extracted docs](../integrations/))
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20824%20\(1\).png)
 
+2. See the distribution visualization and hover over for frequency info
+
 ![Results of the column profiler](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.38.38%20AM.png)
 
-![Double click on the results of the column profiler for more information](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.38.45%20AM.png)
+3. Double click into the visualization too see additional details like min, max, mode, unique values etc.
 
-## How it works
-
-Column profiling runs a `SELECT` query directly on the database/data warehouse, processing the data to determine the Minimum, Maximum, Range, etc of the columns. The processed data will **not** be saved. As soon as the calculations are complete, we save the metadata results, but the data itself that the calculation is done on is not persisted anywhere in our database.
+<figure><img src="../.gitbook/assets/Kapture 2023-12-08 at 13.42.18.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
