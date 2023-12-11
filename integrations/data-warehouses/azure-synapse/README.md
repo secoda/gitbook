@@ -10,17 +10,19 @@ description: An overview of the Azure Synapse integration with Secoda
 
 ## Getting Started with Azure Synapse
 
-1. **Create Role for Secoda** To ensure controlled access within Azure Synapse, start by creating a dedicated role for Secoda:
+1. **Create a Login** To ensure controlled access within Azure Synapse, start by creating a login for Secoda. This has to be done on the `master` database on your dedicated SQL pool. Then assign the `dbmanager` on `master` database to the `SECODA` user.&#x20;
 
 ```sql
-CREATE ROLE SECODA;
+CREATE LOGIN SECODA WITH PASSWORD 'YourSecurePassword';
+CREATE USER SECODA FROM LOGIN SECODA;
+EXEC sp_addrolemember 'dbmanager', 'SECODA';
 ```
 
-2. **Create User for Secoda** In Azure Synapse, the process to create a user might be influenced by the Azure Active Directory and specific configurations in the Azure portal. Once the user is created, you can then grant the Secoda role to this user within Synapse:
+2. **Create User for Secoda** Switch to the primary database in your dedicated SQL pool and create a Secoda user there as well. Then assign the `db_owner` role to it.
 
 ```sql
-CREATE LOGIN SECODA_USER WITH PASSWORD = 'YourSecurePassword';
-GRANT ROLE SECODA TO USER SECODA_USER;
+CREATE USER SECODA FROM LOGIN SECODA;
+EXEC sp_addrolemember 'db_owner', 'SECODA';
 ```
 
 3. **Connect Azure Synapse to Secoda** To integrate Secoda with your Azure Synapse setup:
