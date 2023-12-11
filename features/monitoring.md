@@ -6,6 +6,10 @@ description: Create data monitors for visibility into the health of your data st
 
 Monitoring is an essential player in maintaining data quality. Within Secoda, you can configure essential monitors to be alerted about changes to your data. Automatically schedule and create thresholds with the ability to track the history of runs and visualize performance of your monitors.
 
+{% hint style="info" %}
+If you've chosen Automatic thresholds, it can take up to a week for Secoda to finish learning what the right thresholds should be for your monitors.
+{% endhint %}
+
 Choose from the following monitor types:
 
 * **Row Count** - The number of rows over time
