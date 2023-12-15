@@ -54,6 +54,8 @@
       * [Metadata Extracted](integrations/databases/mongodb/data-type-conversion.md)
     * [Azure Cosmos DB](integrations/databases/azure-cosmos-db/README.md)
       * [Metadata Extracted](integrations/databases/azure-cosmos-db/metadata-extracted.md)
+    * [SingleStore](integrations/databases/singlestore/README.md)
+      * [Metadata extracted](integrations/databases/singlestore/metadata-extracted.md)
   * [Data Visualization Tools](integrations/data-visualization-tools/README.md)
     * [Amplitude](integrations/data-visualization-tools/amplitude-integration/README.md)
       * [Metadata Extracted](integrations/data-visualization-tools/amplitude-integration/metadata-extracted.md)

@@ -26,6 +26,10 @@ Secoda currently integrates with the following database tools:
 [mongodb](mongodb/)
 {% endcontent-ref %}
 
+{% content-ref url="singlestore/" %}
+[singlestore](singlestore/)
+{% endcontent-ref %}
+
 {% hint style="info" %}
 Don't see an integration for a tool you use? Message us on Slack or email us at support@secoda.co and we'll add it to the roadmap.&#x20;
 {% endhint %}
