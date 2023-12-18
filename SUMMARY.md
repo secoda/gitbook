@@ -169,7 +169,7 @@
   * [Monitoring](features/monitoring.md)
   * [Notifications](features/notifications.md)
   * [Popularity](features/popularity.md)
-  * [Publishing Workflow](getting-started/secoda-as-an-admin/add-documentation/publishing.md)
+  * [Publish and Draft Statuses](getting-started/secoda-as-an-admin/add-documentation/publishing.md)
   * [Push Metadata to Source](features/push-metadata-to-source.md)
   * [Queries](features/queries/README.md)
     * [Extracted Queries](features/queries/extracted-queries.md)

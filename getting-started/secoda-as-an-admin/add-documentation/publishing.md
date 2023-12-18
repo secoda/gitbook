@@ -1,45 +1,50 @@
 ---
 description: >-
-  Secoda is built with functionality that allows you to "publish" your workplace
-  once you feel it is ready for viewers to see.
+  Secoda is built with functionality that allows you to label resources as
+  "Draft" if they're not ready for viewers to see.
 ---
 
-# Publishing Workflow
+# Publish and Draft Statuses
 
-## **Getting Started with Publishing** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **About Publishing** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-Admins have access to view all resources in Secoda, while Editors have access to view the resources in the Teams that they are apart of. Viewers and Guests, on the other hand, can only view the **published** resources in the Teams that they are apart of. This functionality is built into Secoda to ensure that only the resources that are relevant and documented are available for consumption.
+Under the "Status" metadata, each resource will be marked either **Published** or **Draft**.&#x20;
 
-## Published, Draft & Staged Statuses
+As an Admin, you have the ability to have everything that's created or brought into Secoda be auto-Published or auto-Draft, by default. If you choose to auto-publish, all editors, viewers and guests will be able to view all new resources (in the Teams that they have joined).&#x20;
 
-Each resource type has the ability to be marked as Published or to remain in Draft mode. This toggle is configurable by admins and editors.
+However, editors and admins have the ability to push resources into the Draft stage which will hide these from viewers and guests in the workspace. This functionality is built into Secoda to ensure that only the resources that are relevant and documented are available for consumption.
 
-Viewers can only see resources that have been Published, so for example, a published table with no published columns would show a Viewer only the metadata on the table.&#x20;
+## Publishing settings
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20587%20\(1\).png)
+### Toggle on auto-publish
 
-Any change made to a published or draft resource will automatically get "Staged for Publishing" tag.
+This setting is configurable by Admins under "Publishing" in the Settings. If you'd prefer all new resources be labeled "Draft" until you're ready to publish to all users, you can toggle auto-publish off.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.19.54%20AM.png)
+### Publish all
 
-## How to Publish or Discard Changes
+You can also publish all resources in your workspace with one click by using the **Publish all resources** button.
 
-Once you're ready to publish your changes, you can navigate to the Publish button at the top left of the workspace.
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-18 at 9.40.50 AM (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7b2b2614-803c-422a-8fd7-5fd25d633872.png" alt=""><figcaption></figcaption></figure>
+## Steps to edit Publishing Status
 
-This button will show you all the changes that have been made on that resource since the workspace was last published (AKA what viewers are not able to see _yet_). You can select all changes or pick and choose changes before publishing them live to viewers.
+1. Toggle on auto-publish
+2. Create new resources (Documents, Dictionary terms, Metrics etc) or bring in resources through connecting an integration
+3. Note that all resources are labeled "Published"
+4. If you'd like something to be hidden from viewers, simply double click on the metadata, uncheck it and see how it labels it "Draft"
+   1. You might want to put a resource into Draft if it is not ready for consumption, for example if the description and metadata are still in the process of being built out
 
-Here, you also have the option to **discard** all or some changes that have been made.
+<figure><img src="../../../.gitbook/assets/Kapture 2023-12-06 at 16.12.08.gif" alt=""><figcaption><p>Publish > Draft</p></figcaption></figure>
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.29.52%20AM.png)
+4. If you'd like to [bulk edit](../../../resource-and-metadata-management/add-documentation/bulk-editing-resources.md) the status to Draft, you can use the drag and drop feature like so:
 
-{% hint style="info" %}
-This workflow can give you and the rest of your editors a way to collaborate on data documentation without worrying about overwriting each-others changes or having changes that aren't approved by an admin go out to the rest of the organization.
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/Kapture 2023-12-06 at 16.13.54.gif" alt=""><figcaption><p>Bulk Draft</p></figcaption></figure>
 
-## Publish all
+5. Once you're ready to publish the resource, double click the metadata and check off Published OR see the steps below to publish your entire workspace with one click
 
-If you'd like to publish all of your resources within Secoda, go to **Settings > Publish.**
+## Audit log
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-31%20at%204.47.06%20PM.png" alt=""><figcaption></figcaption></figure>
+Admins can access the workspace audit log through Secoda Settings. This log tracks the recent 50 changes from the users in your workspace, whereas the [activity-log.md](../../../features/activity-log.md "mention") shows only changes to the specific resource you're looking at.
+
+<figure><img src="../../../.gitbook/assets/Kapture 2023-12-13 at 13.01.13.gif" alt=""><figcaption></figcaption></figure>
+
