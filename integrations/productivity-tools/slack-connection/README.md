@@ -67,13 +67,23 @@ Admins can edit the Slack Notification preferences in the **Notifications** tab 
 
 The AI Assistant can generate answers to your questions directly in Slack, then push these questions/answers into the Questions section of your workspace! Read more about it here [slack-ai-assistant.md](slack-ai-assistant.md "mention").
 
+## Push Slack thread into Secoda Questions
+
+If a Slack conversation happens in another channel that is not listed in the Settings, you can still push this information into Secoda. Simply click the three dots, Push to Secoda, set a title of the question/conversation, and Submit.
+
+This will be helpful for when questions are asked in Slack and a user chimes in with an answer. You won't have to copy this context into Secoda, but instead Push it into Questions with a few clicks.
+
+<figure><img src="../../../.gitbook/assets/Kapture 2023-12-18 at 10.28.21.gif" alt=""><figcaption></figcaption></figure>
+
 ## Receiving DMs from Slack
 
 If you'd like to receive notifications as direct messages as well as in a channel, you can add the Secoda App to your Slack workspace.
 
 If you're an owner or subscriber of a resource, you'll receive notifications about documentation or schema changes to that resource. Anyone who is an owner or assignee on a question, document, or dictionary term will receive a notification when there has been an update or change related to that resource or any related resources.
 
-1. Hover over "... More" in Slack and click Automations ![](<../../../.gitbook/assets/Screenshot 2023-11-16 at 11.09.21 AM.png>)
+1.  Hover over "... More" in Slack and click Automations&#x20;
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-16 at 11.09.21 AM.png" alt="" width="375"><figcaption></figcaption></figure>
 2. Click into Apps and Search for Secoda
 3. Add Secoda, and see your personal Notifications appear via DM
 
