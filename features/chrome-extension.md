@@ -97,6 +97,7 @@ The Chrome extension supports resources in the following tools:
 * [BigQuery](../integrations/data-warehouses/bigquery-integration/): Schemas, Tables, Views
 * [Sigma](../integrations/data-visualization-tools/sigma-integration/): Workbooks, Elements, Pages
 * [Mode](../integrations/data-visualization-tools/mode/): Reports, Charts
+* [dbt Cloud](../integrations/data-transformation-tools/dbt/#chrome-extension-with-dbt-cloud): Jobs, Models
 
 ## Video resource
 

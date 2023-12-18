@@ -1,7 +1,7 @@
 ---
 description: >-
-  Secoda is built with functionality that allows you to label resources as
-  "Draft" if they're not ready for viewers to see.
+  Secoda is built with functionality that allows you to "publish" your workplace
+  once you feel it is ready for viewers to see.
 ---
 
 # Publish and Draft Statuses
