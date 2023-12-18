@@ -7,12 +7,10 @@ description: List of all the metadata that Secoda pulls from dbt Core
 ## What does Secoda extract from dbt Core?
 
 * Models:&#x20;
-  * Name&#x20;
   * Description&#x20;
-  * Owner&#x20;
+  *
   * URL&#x20;
   * Compiled SQL&#x20;
-  * Updated Time
 * Columns:&#x20;
   * Description&#x20;
   * Tags&#x20;
