@@ -42,3 +42,12 @@ After enabling the dbt REST API, the next step is to connect Secoda:
 2. Search for and select the **dbt Cloud** integration
 3. Enter your dbt account ID and Service Token. This information is kept encrypted.
 4. Click **Connect**
+
+## Chrome extension with dbt Cloud
+
+The Chrome extensions pulls in the dbt metadata in the following scenarios:
+
+* From the Develop tab, when opening a particular Model in the Editor
+* When looking at Jobs or Runs (if it's been extracted)
+* From the Explore tab, when looking at Models
+* From the Explore tab, when clicking on Models within Lineage graphs
