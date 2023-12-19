@@ -12,6 +12,7 @@ Secoda pulls the following metadata from Salesforce:
   * Fields
     * Title
     * Description
+    * Formula
 * Dashboard
   * Title
   * Description
@@ -26,4 +27,5 @@ Secoda pulls the following metadata from Salesforce:
   * Salesforce Table <-> Salesforce Report
   * Salesforce Report <-> Salesforce Dashboard
   * Salesforce Tables/Reports <-> Jobs from other sources
+  * Salesforce Column <-> Salesforce Column
 * Preview of S Objects (Optional)
