@@ -4,7 +4,7 @@ description: List of all the metadata that Secoda pulls from Mixpanel
 
 # Metadata Extracted
 
-### what does Secoda extract from Mixpanel?
+### What does Secoda extract from Mixpanel?
 
 NOTE: Preview of Mixpanel resources is available in Secoda if permissions are granted.&#x20;
 

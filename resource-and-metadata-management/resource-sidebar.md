@@ -42,9 +42,9 @@ Generally, metadata refers to fields that are extracted from the integration, an
 
 **Frequent Users:** A combination of the top users of the resource, both synced from the Integration as well as from Secoda. The users from the integration are from the last 24 hours relative to the time of sync, while the users from Secoda are from the last 90 days.&#x20;
 
-**Row Count:** Unique to Snowflake tables, this field indicates the number of rows in that table.&#x20;
+**Row Count:** If available, this field indicates the number of rows in that table.&#x20;
 
-**Table Size:** Unique to Snowflake tables, this field indicates the digital size of the table in megabytes.&#x20;
+**Table Size:** If available, this field indicates the digital size of the table.
 
 **Popularity:** Synced from the integration only, the [Popularity](../features/popularity.md) field refers the number of Queries run on the resource (if it's a table) or the number of Views received by the resource (if it's a dashboard) in the last 24 hours, relative to the time of the last sync. For instance, if a Snowflake sync happened 3 days ago, Popularity will show the number of queries run on that table in the period from 4 days ago to 3 days ago (24 hours before the time of the sync).&#x20;
 
