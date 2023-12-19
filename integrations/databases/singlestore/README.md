@@ -48,4 +48,4 @@ After creating a SingleStore user, the next step is to connect Secoda:
 
 VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the Secoda IPs to read from your data warehouse.
 
-Allow Secoda to read into your Postgres database using the Secoda IP address.
+Allow Secoda to read into your SingleStore database using the [Secoda IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda).
