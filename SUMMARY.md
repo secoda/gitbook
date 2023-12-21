@@ -25,6 +25,7 @@
     * [Data Governance](readme/best-practices/data-governance.md)
     * [Data Quality](readme/best-practices/data-quality.md)
     * [Slack <> Questions workflow](readme/best-practices/slack-less-than-greater-than-questions-workflow.md)
+    * [Verifying resources](readme/best-practices/verifying-resources.md)
 * [Integrations](integrations/README.md)
   * [Data Warehouses](integrations/data-warehouses/README.md)
     * [BigQuery](integrations/data-warehouses/bigquery-integration/README.md)
