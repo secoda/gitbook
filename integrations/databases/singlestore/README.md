@@ -8,6 +8,10 @@ To integrate SingleStore with Secoda, follow these three steps:
 2. Whitelist Secoda IP Addresses
 3. Connect SingleStore to Secoda
 
+{% hint style="info" %}
+Please ensure the workspace in Singlestore is not suspended. Secoda is unable to connect to a suspended workspace. To prevent your Singlestore workspace from suspending due to inactivity, disable the auto-suspend setting in Singlestore.
+{% endhint %}
+
 **Create a Database User**
 
 The username and password you’ve already created for your cluster is your admin password, which you should keep for your own usage. For Secoda, and any other 3rd-parties, it is best to create distinct users.
