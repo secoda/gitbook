@@ -30,6 +30,6 @@ Check out our documentation around best practices when working with Secoda:
 [slack-less-than-greater-than-questions-workflow.md](slack-less-than-greater-than-questions-workflow.md)
 {% endcontent-ref %}
 
-{% content-ref url="verifying-resources.md" %}
-[verifying-resources.md](verifying-resources.md)
+{% content-ref url="verifying-resources-workflow.md" %}
+[verifying-resources-workflow.md](verifying-resources-workflow.md)
 {% endcontent-ref %}

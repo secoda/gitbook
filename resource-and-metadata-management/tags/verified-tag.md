@@ -15,7 +15,7 @@ Verifying data through verified tags in Secoda can provide several benefits to o
 
 Overall, verifying data through verified tags in Secoda can help organizations improve data quality, enhance data governance, improve data discovery, and enhance trust and credibility.
 
-Check out our best practices documentation: [verifying-resources.md](../../readme/best-practices/verifying-resources.md "mention")
+Check out our best practices documentation: [verifying-resources-workflow.md](../../readme/best-practices/verifying-resources-workflow.md "mention")
 
 {% hint style="info" %}
 You can use the Verified tag on Catalog resources, Documents and Dictionary terms.
