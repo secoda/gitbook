@@ -6,29 +6,58 @@ description: This page walks through connecting your data sources via a direct S
 
 ## **Getting Started with SSH Tunnels** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-Tunnels require you to run an SSH server process ([SSHD](https://www.ssh.com/academy/ssh/sshd)) on a **Bastion Host** accessible from the public internet. Bastion hosts can be set up in nearly all cloud providers, though instructions for set up may differ slightly.&#x20;
+Tunnels require you to run an SSH server process ([SSHD](https://www.ssh.com/academy/ssh/sshd)) on a host accessible from the public internet. These hosts are often referred to as jump hosts or Bastion hosts and can be set up in nearly all cloud providers. The sole purpose of these host is to provide access to resources in a private network from an external network like the internet.
+
+### Set Up
+
+There are three main steps to set up a tunnel:&#x20;
 
 {% hint style="info" %}
-For more information on setting up a Bastion host in your environment, check out the AWS documentation [here](https://aws-ia.github.io/cfn-ps-linux-bastion/#\_overview), or the Azure documentation [here](https://learn.microsoft.com/en-us/azure/bastion/).
+Set up can vary depending on the Cloud provider used. We provide some general tips and tricks for AWS and Azure below.&#x20;
 {% endhint %}
 
-The Secoda app will open an SSH connection to your Bastion, then open a port forwarding connection to the private service that you specify. Ensure your Bastion host has whitelisted the [Secoda IP address](../../faq.md#what-are-the-ip-addresses-for-secoda).
+1. Configure a host in your environment that is accessible from the public internet. Make sure the [Secoda IP address](../../faq.md#what-are-the-ip-addresses-for-secoda) is whitelisted.&#x20;
+2. [Create a Tunnel in Secoda](https://app.secoda.co/tunnles/new) and add in the configuration details from the host (`SSH Username`, `SSH Hostname`, `Port`). Once you submit these details, a Public Key will be shown.&#x20;
+3. Add the Public Key to the `authorized_keys` file in your host. &#x20;
 
-#### Setup <a href="#h_7ee5f8a430" id="h_7ee5f8a430"></a>
+#### AWS
 
-Open up the `authorized_keys`(or equivalent) file in your Bastion host. Example below:
+* Create an EC2 instance from the AWS Management Console in a public subnet in the same VPC as the resource that you'd like to integrate with Secoda.
+* Add the SSH key from Secoda.
+* Create a Security Group for this instance, and add an inbound rule for the Secoda IPs.&#x20;
+* Make sure the EC2 instance has access to the resource that you'd like to integrate with Secoda. This might mean adding an inbound rule for the IP of the EC2 instance to the database or source that you're integrating with Secoda.
 
+#### Azure Cloud
+
+* Create a Virtual Network from the Azure console, that has access to the database or datasource that you'd like to integrate with Secoda. Make sure the Azure firewall is enabled for this network.&#x20;
+* Create a Virtual Machine. This machine is acting as the jump server. This VM does not need an public access, but must have access to the database or datastore that is meant to integrate with Secoda.
+* Go to your firewall rules, and add a NAT rule.&#x20;
+  * Protocol should be set to TCP
+  * Source IP address should be set to the [Secoda IP Address](../../faq.md#what-are-the-ip-addresses-for-secoda)
+  * Destination IP address should be the IP address of your Firewall
+  * Recommended Port is 22
+  * Translated IP address should be the IP address of the Virtual Machine
+* From within your instance, you'll need to create a user and set up the SSH key provided by Secoda. The follow commands are recommended to do this:
+
+```xml
+$ sudo useradd -m secoda // Create a new non admin user for Secoda
+$ sudo su - secoda // Finegrain permissions for this user as you see fit
+$ mkdir .ssh // Create an SSH folder if one doesn't already exist
+$ chmod 0700 .ssh // Set restrictive permissions on this folder
+$ cd .shh // Go into this folder
+$ vi authorized_keys // Open a new file called authorized_keys, add a Public Key to this file and save it
+$ chmod 0600 authorized_keys // Set restrictive permissions on this folder
 ```
-nano ~/.ssh/authorized_keys
-```
 
-Add the **public key** provided by Secoda to this file. You can find the public key from the application by navigating to [https://app.secoda.co/tunnels/new](https://app.secoda.co/tunnels/new). Example below:&#x20;
+### Connecting your Integration using a Tunnel
 
-```
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMRSB7sRm7HwEUC/TbvBtKKWLYgt1P8K+Xs5CyPqHVKqGbHThhx9HCqxqoVagGBIcdlImfJIBy0PuRKj9/H994o5Vxc5irQ/fpw1jx71sdSGA4Bgn38/qQaRyU7YS0PUZ7JC4otjKHP2k7vgC3/pYcR/A2g0fg/31lORjWqLjMsxrwQGbI6Mw56fwfqMXrAm/BZaK6nHUHRTZkdNgozENZQTYyptjv/vkpGgZoTAOeeY+UK0A30nOVB4Gv+3f0P/50K+CHQJO1t8SXJIJNs2h6qWPwiHLN9+2soWCu7ojH/a9keOSj+i/SDpu8calZl0qxaoFQwYbcXyH1X7Xr5MY2GTJyuzc4UatvNVJrSsAv/Wm+9jQLWNuGtdtoUUi6uTCukMxD10uvgNvGqoPfAWdUFVKbvRywWaPXd0FuaqeEt/I/sYEy2lP53Pf4DtAouCphmwHDVMaK4GEJwHwRAdJ34dR8oB4KDrz1mxjeopD/HN97hUa/O6fMy3oGY/XIZPVwivyGP3P7mIbmryIjGT15xVFr08cSY2h90P+/tWWAkkCVxcdn5vX3X7sqUFBDiPYQRPj5rpKgOgxoNTEzWWV8hkyXqSsO9mQmlkCMV0XndOwY64IoxBm8k+GKVI29ZzMrmpNLZi2L3SYA0oSgssORMghuyk8kfW9ZnUB5ptm+MQ== [ssh@secoda.co](<mailto:ssh@secoda.co>)
-```
+Once your tunnel has been made, navigate to the source that you're integrating with. On the connect page, add the credentials for the datasource.&#x20;
 
-#### Troubleshooting <a href="#h_4e44bc0849" id="h_4e44bc0849"></a>
+At the bottom of the connect page, you'll see the option to add a tunnel. Click on the arrow to see a drop down menu with your recently created Tunnel. Select this tunnel, and click Test Connection to complete your integration setup!
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-12-22 at 11.51.44 AM.png" alt=""><figcaption></figcaption></figure>
+
+### Troubleshooting <a href="#h_4e44bc0849" id="h_4e44bc0849"></a>
 
 If you're having trouble establishing a connection with a standard tunnel, check the following:
 
