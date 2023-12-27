@@ -4,7 +4,7 @@ description: List of all the metadata that Secoda pulls from/pushes to Snowflake
 
 # Metadata Extracted
 
-## Metadata pulled
+### Metadata pulled
 
 Secoda pulls the following metadata from Snowflake:
 
@@ -50,7 +50,7 @@ Secoda pulls the following metadata from Snowflake:
   * Snowflake Table <-> Snowflake View
 * Preview of first 50 rows (Optional)
 
-## Metadata pushed
+### Metadata pushed
 
 If enabled, Secoda pushes the following metadata to Snowflake:
 

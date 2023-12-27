@@ -4,7 +4,7 @@ description: List of all the metadata that Secoda pulls from Glue
 
 # Metadata Extracted
 
-## What does Secoda extract from Glue?
+### What does Secoda extract from Glue?
 
 Secoda pulls the following metadata from Glue:
 

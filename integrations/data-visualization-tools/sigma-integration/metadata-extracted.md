@@ -1,21 +1,27 @@
+---
+description: List of all the metadata that Secoda pulls from Sigma
+---
+
 # Metadata Extracted
 
 ### What does Secoda extract from Sigma?
 
+{% hint style="info" %}
 NOTE: Preview of Sigma resources is available in Secoda if permissions are granted.&#x20;
+{% endhint %}
 
-* Workbooks (Workbooks are referred to as Dashboards in Secoda)
+* Workbooks
   * Workbook Name
   * Workbook Updated At
   * Workbook Owners
   * Workbook URL
-* Pages (Pages are referred to as Dashboards in Secoda)
+* Pages
   * Page Name
   * Page URL
-* Elements (Elements are referred to as Charts in Secoda)
+* Elements
   * Element Name
   * Element URL
-* Badges (Badges are referred to as Tags in Secoda)
+* Badges
   * Name
 * Queries
 * Lineage

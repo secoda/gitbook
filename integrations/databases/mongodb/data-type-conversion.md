@@ -6,13 +6,13 @@ description: List of all the metadata that Secoda pulls MongoDB
 
 Secoda pulls the following metadata from MongoDB:
 
-* Clusters (Clusters are referred to as Databases in Secoda)
+* Clusters
   * Name
-* Databases (Databases are referred to as Schemas in Secoda)
+* Databases
   * Name
-* Collections (Collections are referred to as Tables in Secoda)
+* Collections
   * Name
-* Fields (Fields are referred to as Columns in Secoda)
+* Fields
   * Name
   * Type
 

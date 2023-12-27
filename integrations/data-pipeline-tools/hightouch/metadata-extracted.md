@@ -4,9 +4,9 @@ description: List of all the metadata that Secoda pulls from Hightouch
 
 # Metadata Extracted
 
-## What does Secoda extract from Hightouch?
+### What does Secoda extract from Hightouch?
 
-* Syncs (Syncs are referred to as Jobs in Secoda)
+* Syncs&#x20;
   * Name
   * Description (A string describing the source and destination of the job)
   * Sync Runs

@@ -1,19 +1,25 @@
+---
+description: List of all the metadata that Secoda pulls from Tableau
+---
+
 # Metadata Extracted
 
 ### What does Secoda extract from Tableau?
 
+{% hint style="info" %}
 NOTE: Preview of Tableau resources is available in Secoda if permissions are granted.&#x20;
+{% endhint %}
 
-* Published Datasources (Published Datasources are referred to as Tables in Secoda)
+* Published Datasources
   * Name
   * Description
   * Columns
   * Owners
-* Embedded Datasource (Embedded Datasources are referred to as Tables in Secoda)
+* Embedded Datasource
   * Name
   * Columns
   * Owners
-* Workbooks (Workbooks are referred to as Dashboards in Secoda)
+* Workbooks&#x20;
   * Name
   * Description
   * Owners
@@ -26,11 +32,11 @@ NOTE: Preview of Tableau resources is available in Secoda if permissions are gra
   * Owners
   * URL
   * Updated At
-* Sheets (Sheets are referred to as Charts in Secoda)&#x20;
+* Sheets
   * Name
   * URL
   * Owners
-* Fields (Fields are referred to as Columns in Secoda)
+* Fields
   * Name
   * Description
   * Type

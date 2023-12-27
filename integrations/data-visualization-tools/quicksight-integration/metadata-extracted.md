@@ -6,14 +6,14 @@ description: List of all the metadata that Secoda pulls from QuickSight
 
 ### What does Secoda extract from QuickSight?
 
-* Analyses (Analyses are referred to as Dashboards in Secoda)
+* Analyses
   * Analysis Name
   * Analysis Last Updated At
   * Analysis URL
-* Sheets (Sheets are referred to as Charts in Secoda)
+* Sheets
   * Sheet Name
   * Sheet URL
-* Datasets (Datasets are referred to as Tables in Secoda)
+* Datasets
   * Dataset Name
 * Columns
   * Column Name

@@ -4,14 +4,14 @@ description: List of all the metadata that Secoda pulls from Great Expectations
 
 # Metadata Extracted
 
-## What does Secoda extract from Great Expectations?
+### What does Secoda extract from Great Expectations?
 
-* Expectation Suite (Expectation Suites are referred to as Test Suites in Secoda)
+* Expectation Suite
   * Name
-* Expectation (Expectations are referred to as Tests in Secoda)
+* Expectation
   * Name
   * Columns
-* Validation (Validations are referred to as Test Runs in Secoda)
+* Validation
   * Name
   * Columns
   * Status

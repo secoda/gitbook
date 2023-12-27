@@ -4,14 +4,13 @@ description: List of all the metadata that Secoda pulls from Polytomic
 
 # Metadata Extracted
 
-## What does Secoda extract from Polytomic?
+### What does Secoda extract from Polytomic?
 
-* Syncs (Syncs are referred to as Jobs in Secoda)
-  * Name
+* SyncsName
   * Description
   * Owners
   * Updated At
-  * Executions (Executions are referred to as Runs in Secoda)
+  * Executions
     * Name (the ID of the execution)
     * Started At (Timestamp)
     * Ended At (Timestamp)

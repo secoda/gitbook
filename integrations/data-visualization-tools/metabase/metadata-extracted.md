@@ -6,9 +6,11 @@ description: List of all the metadata that Secoda pulls from Metabase
 
 ### What does Secoda extract from Metabase?
 
+{% hint style="info" %}
 NOTE: Preview of Metabase resources is available in Secoda if permissions are granted.&#x20;
+{% endhint %}
 
-* Collections (Collections are referred to as Dashboard Groups in Secoda)
+* Collections
   * Collection Name
 * Dashboard
   * Dashboard Name
@@ -16,7 +18,7 @@ NOTE: Preview of Metabase resources is available in Secoda if permissions are gr
   * Dashboard Owners
   * Dashboard Last Updated Timestamp
   * Dashboard URL
-* Cards (Cards are referred to as Charts in Secoda)
+* Cards
   * Card Name
   * Card Description
   * Card URL

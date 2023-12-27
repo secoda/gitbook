@@ -6,20 +6,22 @@ description: List of all the metadata that Secoda pulls from Mode
 
 ### What does Secoda extract from Mode?
 
+{% hint style="info" %}
 NOTE: Preview of Mode resources is available in Secoda if permissions are granted.&#x20;
+{% endhint %}
 
-* Spaces (Spaces are referred to as Dashboard Groups in Secoda)
+* Spaces
   * Space Name
-* Report (Reports are referred to as Dashboards in Secoda)
+* Report&#x20;
   * Report Name
   * Report Description
   * Report Owners
   * Report URL
-* Dataset (Dataset are referred to as Tables in Secoda):
+* Dataset
   * Dataset name
   * Dataset Description
   * Dataset Owner
-* Field (Fields are referred to as Columns in Secoda)
+* Field
   * Field Name
   * Field Type
 * Charts

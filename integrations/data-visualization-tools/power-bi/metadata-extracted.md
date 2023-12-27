@@ -6,24 +6,24 @@ description: List of all the metadata that Secoda pulls from Power BI
 
 ### What does Secoda extract from PowerBI?
 
-* Groups (Groups are referred to as Dashboard Groups in Secoda)
+* Groups
   * Group Name
-* Reports (Reports are referred to as Charts in Secoda)
+* Reports
   * Report Name
   * Report Description
   * Report Owners
   * Report Usage (Number of views in PowerBI)
   * Report URL
-* Tiles (Tiles are referred to as Charts in Secoda)
+* Tiles
   * Tile Name
   * Tile Description
   * Tile Owners
   * Tile URL
-* Datasets (Datasets are referred to as Schemas in Secoda)
+* Datasets
   * Dataset Name
 * Tables
   * Table Name
-* Measures (Measures are referred to as Columns in Secoda)
+* Measures
   * Measure Name
 * Dashboards
   * Dashboard Name

@@ -4,8 +4,6 @@ description: List of all the metadata that Secoda pulls from Oracle
 
 # Metadata Extracted
 
-## Metadata Pulled
-
 Secoda pulls the following metadata from Oracle:
 
 * Tables

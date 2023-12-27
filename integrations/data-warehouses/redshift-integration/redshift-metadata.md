@@ -4,7 +4,7 @@ description: List of all the metadata that Secoda pulls from/pushes to Snowflake
 
 # Metadata Extracted
 
-## Metadata pulled
+### Metadata pulled
 
 Secoda pulls the following metadata from Redshift:
 
@@ -15,7 +15,7 @@ Secoda pulls the following metadata from Redshift:
   * Database
   * External Usage (Popularity)
   * External Updated At
-* Views (Views are referred to as Tables in Secoda)
+* Views&#x20;
   * Name
   * Description
   * Schema
@@ -49,7 +49,7 @@ Secoda pulls the following metadata from Redshift:
   * Redshift Table, Views <-> Jobs from other sources
 * Preview of first 50 rows (Optional)
 
-## Metadata pushed
+### Metadata pushed
 
 If enabled, Secoda pushes the following metadata to Redshift:
 

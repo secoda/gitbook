@@ -6,25 +6,27 @@ description: List of all the metadata that Secoda pulls from Mixpanel
 
 ### What does Secoda extract from Mixpanel?
 
+{% hint style="info" %}
 NOTE: Preview of Mixpanel resources is available in Secoda if permissions are granted.&#x20;
+{% endhint %}
 
-* Projects (Projects defined as dashboard groups in Secoda):
+* Projects:
   * Project Name
-* Boards (Boards are defined as dashboards in Secoda):
+* Boards:
   * Board Name
   * Board Owner
   * Board Last Updated Timestamp
   * Board URL
-* Impacts (Impacts are defined as dashboards in Secoda):
+* Impacts:
   * Impact Name
   * Impact Owner
   * Impact Last Updated Timestamp
   * Impact URL
-* Insights, Funnels, Flows, Retention (All are defined as Chart in Secoda):
-  * 'Chart' Name
-  * 'Chart' Owner
-  * 'Chart' Last Updated Timestamp
-  * 'Chart' URL
+* Insights, Funnels, Flows, Retention
+  * Name
+  * Owner
+  * Last Updated Timestamp
+  * URL
 * Events:
   * Event Name
   * Event Description
