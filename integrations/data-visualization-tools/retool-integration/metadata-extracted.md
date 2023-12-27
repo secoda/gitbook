@@ -6,19 +6,21 @@ description: List of all the metadata that Secoda pulls from Retool
 
 ### What does Secoda extract from Retool?
 
+{% hint style="info" %}
 NOTE: Preview of Retool resources is available in Secoda if permissions are granted.&#x20;
+{% endhint %}
 
-* Folders (Folders are referred to as Dashboard Groups in Secoda)
+* Folders
   * Folder Name
   * Folder Updated At
   * Folder URL
-* Global Widgets (Global Widgets are referred to as Dashboards in Secoda)
+* Global Widgets
   * Global Widget Name
   * Global Widget Description
   * Global Widget Last Updated At
   * Global Widget URL
   * Global Widget Folder
-* Apps (Apps are referred to as Dashboards in Secoda)
+* Apps
   * App Name
   * App Description
   * App Updated At

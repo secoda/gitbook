@@ -6,7 +6,9 @@ description: List of all the metadata that Secoda pulls from Looker
 
 ### What does Secoda extract from Looker?
 
+{% hint style="info" %}
 NOTE: Preview of Looker resources is available in Secoda if permissions are granted.&#x20;
+{% endhint %}
 
 * Dashboard
   * Name
@@ -15,17 +17,17 @@ NOTE: Preview of Looker resources is available in Secoda if permissions are gran
   * Last Updated Timestamp
   * External Usage
   * Folder
-* Look (Looks are referred to as Charts in Secoda)
+* Look
   * Name
   * Description
   * URL
   * Folder
-* Explores (Explores are referred to as Tables in Secoda)
+* Explores
   * Name
   * Description
   * Tags
-* Fields - Dimensions and Measures (Fields are referred to as Columns in Secoda)
-* Views (Views are referred to as Tables in Secoda)
+* Fields - Dimensions and Measures&#x20;
+* Views&#x20;
   * Name
   * Description
   * Tags

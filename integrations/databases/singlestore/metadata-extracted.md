@@ -1,6 +1,8 @@
-# Metadata Extracted
+---
+description: List of all the metadata that Secoda pulls from SingleStore
+---
 
-### Metadata Pulled
+# Metadata Extracted
 
 Secoda pulls the following metadata from SingleStore:
 

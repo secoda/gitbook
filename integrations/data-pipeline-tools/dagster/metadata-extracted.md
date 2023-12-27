@@ -4,7 +4,7 @@ description: List of all the metadata that Secoda pulls from Dagster
 
 # Metadata Extracted
 
-## What does Secoda extract from Dagster?
+### What does Secoda extract from Dagster?
 
 * Assets
   * Name

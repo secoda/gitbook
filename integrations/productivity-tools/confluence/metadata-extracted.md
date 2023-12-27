@@ -4,7 +4,7 @@ description: List of all the metadata that Secoda pulls from Confluence
 
 # Metadata Extracted
 
-## What does Secoda extract from Confluence?
+### What does Secoda extract from Confluence?
 
 * Spaces (Spaces are referred to in the Confluence integration settings, under the "Spaces" tab)
   * Key (similar to the Space Name, except it is a unique identification)

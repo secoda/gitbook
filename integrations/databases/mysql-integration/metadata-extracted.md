@@ -4,8 +4,6 @@ description: List of all the metadata that Secoda pulls from MySQL
 
 # Metadata Extracted
 
-## Metadata Pulled
-
 Secoda pulls the following metadata from MySQL:
 
 * Tables and Views

@@ -18,7 +18,7 @@ Secoda pulls the following metadata from Salesforce:
   * Description
   * Last updated timestamp
   * URL
-* Reports (Reports are referred to as Charts in Secoda)
+* Reports
   * Title
   * Description
   * URL

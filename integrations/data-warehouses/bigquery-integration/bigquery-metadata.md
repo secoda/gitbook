@@ -4,7 +4,7 @@ description: List of all the metadata that Secoda pulls from/pushes to BigQuery
 
 # Metadata Extracted
 
-## Metadata pulled
+### Metadata pulled
 
 Secoda pulls the following metadata from BigQuery:
 
@@ -41,7 +41,7 @@ Secoda pulls the following metadata from BigQuery:
   * BQ Table, Views <-> Runs from other sources
 * Preview of first 50 rows (Optional)
 
-## Metadata pushed
+### Metadata pushed
 
 If enabled, Secoda pushes the following metadata to BigQuery:
 

@@ -4,9 +4,9 @@ description: List of all the metadata that Secoda pulls from Airflow
 
 # Metadata Extracted
 
-## What does Secoda extract from Airflow?
+### What does Secoda extract from Airflow?
 
-* DAGs (DAGs are referred to as Jobs in Secoda)
+* DAGs
   * Name
   * Description
   * Owners

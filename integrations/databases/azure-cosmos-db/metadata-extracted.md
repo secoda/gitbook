@@ -6,9 +6,9 @@ description: List of all the metadata that Secoda pulls from Azure Cosmos DB
 
 Secoda pulls the following metadata from Azure Cosmos DB:
 
-* Databases (Databases are referred to as Schemas in Secoda)
+* Databases
   * Name
-* Containers (Containers are referred to as Tables in Secoda)
+* Containers
   * Name
   * Stored Procedures
 * Columns

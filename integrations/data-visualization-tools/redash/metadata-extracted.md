@@ -6,7 +6,7 @@ description: List of all the metadata that Secoda pulls from Redash
 
 ### What does Secoda extract from Redash?
 
-* Widgets (Widgets are referred to as Charts in Secoda)
+* Widgets
   * Widget Name
   * Widget URL
 * Dashboards
