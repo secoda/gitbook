@@ -1,5 +1,5 @@
 ---
-description: List of all the metadata that Secoda pulls from/pushes to Azure Synapse
+description: List of all the metadata that Secoda pulls from to Azure Synapse
 ---
 
 # Metadata Extracted

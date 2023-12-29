@@ -102,7 +102,9 @@ Note: we're still available on Slack for urgent requests, questions, and general
 * `35.175.75.15` in North America (app.secoda.co).&#x20;
 * `13.251.200.242` in the Asia-Pacific region (apac.secoda.co). &#x20;
 
-Please ensure the relevant address is whitelisted in any tool you'd like to integrate with Secoda.
+Please ensure the relevant address is whitelisted in any tool you'd like to integrate with Secoda. **Note:** These are only for Cloud workspaces. If you are on a managed instance, you can find the IPs in Secoda on the integration setup page (show below).
+
+<figure><img src=".gitbook/assets/Kapture 2023-12-29 at 10.31.27.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
