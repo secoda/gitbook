@@ -1,6 +1,8 @@
-# Best Practices
+---
+description: Check out our documentation around best practices when working with Secoda.
+---
 
-Check out our documentation around best practices when working with Secoda:
+# Best Practices
 
 {% content-ref url="best-practices-for-setting-up-your-workspace.md" %}
 [best-practices-for-setting-up-your-workspace.md](best-practices-for-setting-up-your-workspace.md)
@@ -32,4 +34,8 @@ Check out our documentation around best practices when working with Secoda:
 
 {% content-ref url="verifying-resources-workflow.md" %}
 [verifying-resources-workflow.md](verifying-resources-workflow.md)
+{% endcontent-ref %}
+
+{% content-ref url="external-teams.md" %}
+[external-teams.md](external-teams.md)
 {% endcontent-ref %}

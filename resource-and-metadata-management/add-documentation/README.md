@@ -21,7 +21,7 @@ There are many ways to add additional context your data in Secoda. Here are some
 
 ### Automating documentation
 
-Learn about the many ways to automate metadata management [documentation-best-practices.md](../../readme/best-practices/documentation-best-practices.md "mention")
+Learn about the many ways to automate metadata management [documentation-best-practices.md](../../best-practices/documentation-best-practices.md "mention")
 
 ### Manually add enrichment
 

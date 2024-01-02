@@ -21,7 +21,7 @@ There are many ways to use the Slack integration. The following three scenarios 
 
 * [**Receiving workspace-level notifications in a chosen Channel**](./#slack-workspace-notifications): These can be helpful for the workspace Admins to all be notified of workspace-level changes. Admins/Editors can also [send Announcements](./#send-announcements-to-slack) to this Slack channel.
 * [**Receiving Monitoring incident alerts**](../../../features/monitoring.md#slack-channel-for-monitoring-notifications): Get alerted about new incidents and when they've resolved to monitor data quality.
-* [**Managing data-related questions**](./#secoda-ai-slack): Check out our doc on the [slack-less-than-greater-than-questions-workflow.md](../../../readme/best-practices/slack-less-than-greater-than-questions-workflow.md "mention") for best practices when implementing a workflow for managing user questions.
+* [**Managing data-related questions**](./#secoda-ai-slack): Check out our doc on the [slack-less-than-greater-than-questions-workflow.md](../../../best-practices/slack-less-than-greater-than-questions-workflow.md "mention") for best practices when implementing a workflow for managing user questions.
 
 You can also use the Slack integration for personal direct message notifications, and searching Secoda privately.
 

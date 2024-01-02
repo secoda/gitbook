@@ -20,7 +20,7 @@ Only Workspace Admins are able to create Teams within Secoda.
 2. Click "+New Team"
 3. Choose a Team Name & Icon and set the Team Permissions
 
-The two Permissions options are Public and Private. A Public Team means that anybody within the Workspace can see, browse and join the Team. A Private Team is hidden and only viewable by Admins and the existing Team members.
+The two Permissions options are **Public** and **Private**. A Public Team means that anybody within the Workspace can see, browse and join the Team. A Private Team is hidden and only viewable by Admins and the existing Team members.
 
 {% hint style="info" %}
 Example use case: You might want to create a Private Team if the Team works with sensitive data that only specific employees should have access to.

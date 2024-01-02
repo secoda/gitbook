@@ -35,7 +35,7 @@ The AI Assistant tool is a powerful to to help users find information by using p
 **Chatting with AI**&#x20;
 
 * To start a chat with Secoda's Assistant, simply click into the AI Assistant window and ask away!&#x20;
-* Check out some [prompts.md](prompts.md "mention") to help you get started in understanding the power of this feature, as well as [best-practices](../../readme/best-practices/ "mention") when working with it.
+* Check out some [prompts.md](prompts.md "mention") to help you get started in understanding the power of this feature, as well as [best-practices](../../best-practices/ "mention") when working with it.
 
 **Letting AI Document for you**
 
