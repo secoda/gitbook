@@ -36,8 +36,8 @@ Share your screen showing your Secoda workspace.
 * Click into a Team to explain the different sections within a Team
   * The Team Homepage functions similarly to the Main homepage, but it is configured by the Admins and is specific to that Team - pin resources that the whole Team will benefit from having easy access to
   * The Catalog hosts all of your data sources - show the different integrations
-  * Talk about your current use cases for Documents - what type of documentation have you built out&#x20;
-  * The Dictionary is a space for glossary terms and metrics - show what you've built out so far and how you plan to use that feature&#x20;
+  * Talk about your current use cases for Documents - what type of documentation have you built out
+  * The Dictionary is a space for glossary terms and metrics - show what you've built out so far and how you plan to use that feature
   * Questions is where FAQs live, and also can be used for data requests - explain if/how you plan to incorporate these into workflows
   * Collections are essentially folders that allow you to group a subset of each of these resources - you might consider having separate Collections for different projects within a team
   * Note that Admins can remove any of these sections to simplify the user's experience if they don't need access to certain features
@@ -56,19 +56,19 @@ Share your screen showing your Secoda workspace.
 
 * If users don't know exactly what they want to search for, show them that they can use the AI Assistant to search in plain language
 * Show a few examples of asking the AI some questions about your data: examples [prompts.md](../../../features/ai-assistant/prompts.md "mention")
-  * If your team is interested in documenting PII, you could ask it to find you all of the tables with potential PII data&#x20;
+  * If your team is interested in documenting PII, you could ask it to find you all of the tables with potential PII data
 
 {% embed url="https://www.loom.com/share/6a802f20155d4a83bc2fa758f613d33a?sid=17bd2f81-83c4-49d5-b9e6-262d7f1a65d1" %}
 
 #### Slack Integration
 
-* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [#how-to-use](../../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md#how-to-use "mention")&#x20;
+* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [#how-to-use](../../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md#how-to-use "mention")
 
 {% embed url="https://www.loom.com/share/ebc7267824734f0c92ed1c74d0a42ac3?sid=0fa8cb84-fd7c-4b1e-b93b-e8311c2f84f5" %}
 
 #### Additional Features Demo
 
-You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows. For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../../best-practices/best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using the Propagate metadata feature.
+You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows. For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../../../best-practices/best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using the Propagate metadata feature.
 
 ### Next steps
 

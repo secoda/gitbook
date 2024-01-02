@@ -18,12 +18,12 @@ Now that you've integrated your data sources, and have begun to document your re
 
 how to upkeep your **Data Quality** and **Data Governance,**
 
-{% content-ref url="../readme/best-practices/data-quality.md" %}
-[data-quality.md](../readme/best-practices/data-quality.md)
+{% content-ref url="../best-practices/data-quality.md" %}
+[data-quality.md](../best-practices/data-quality.md)
 {% endcontent-ref %}
 
-{% content-ref url="../readme/best-practices/data-governance.md" %}
-[data-governance.md](../readme/best-practices/data-governance.md)
+{% content-ref url="../best-practices/data-governance.md" %}
+[data-governance.md](../best-practices/data-governance.md)
 {% endcontent-ref %}
 
 &#x20;and so much more!

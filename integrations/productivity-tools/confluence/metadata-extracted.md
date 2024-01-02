@@ -28,4 +28,4 @@ When a Confluence page is brought into Secoda, it'll transfer over and appear ve
 Confluence plug-ins are not supported, so in-body plugins will have inconsistent transformation to Secoda Documents.
 {% endhint %}
 
-Read more about why you might integrate with Confluence [**here**](../../../readme/best-practices/integrating-secoda-into-existing-workflows.md#integration-1).
+Read more about why you might integrate with Confluence [**here**](../../../best-practices/integrating-secoda-into-existing-workflows.md#integration-1).

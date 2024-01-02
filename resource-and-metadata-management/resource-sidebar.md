@@ -20,7 +20,7 @@ Generally, properties refer to fields that can be set within Secoda.&#x20;
 
 **Owners**: A list of [Users or User Groups](../user-management/) that are owners of the resource both set in Secoda and synced from the source (if available). If the owner has been extracted from the source, it cannot be edited and will be greyed out.&#x20;
 
-**Governance**: A tag denoting whether the resource is PII or not. More information about setting Governance Tags can be found [here](../readme/best-practices/data-governance.md).
+**Governance**: A tag denoting whether the resource is PII or not. More information about setting Governance Tags can be found [here](../best-practices/data-governance.md).
 
 **Verification**: A tag denoting whether the resource is Verified or not. More information about setting Verification can be found [here](tags/verified-tag.md).
 
