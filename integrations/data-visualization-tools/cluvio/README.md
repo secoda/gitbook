@@ -4,8 +4,8 @@ description: An overview of the Cluvio integration with Secoda
 
 # Cluvio
 
-{% content-ref url="metadata-extracted.md" %}
-[metadata-extracted.md](metadata-extracted.md)
+{% content-ref url="cluvio-metadata-extracted.md" %}
+[cluvio-metadata-extracted.md](cluvio-metadata-extracted.md)
 {% endcontent-ref %}
 
 ## Getting started with Cluvio <a href="#h_b1c101d905" id="h_b1c101d905"></a>
