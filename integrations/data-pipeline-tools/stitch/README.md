@@ -4,8 +4,8 @@ description: An overview of the Stitch integration with Secoda
 
 # Stitch
 
-{% content-ref url="metadata-extracted.md" %}
-[metadata-extracted.md](metadata-extracted.md)
+{% content-ref url="stitch-metadata-extracted.md" %}
+[stitch-metadata-extracted.md](stitch-metadata-extracted.md)
 {% endcontent-ref %}
 
 ## Getting Started with Stitch <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
