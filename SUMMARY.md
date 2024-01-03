@@ -11,6 +11,7 @@
     * [Invite your teammates](getting-started/secoda-as-an-admin/invite-teammates/README.md)
       * [Joining & Navigating between Multiple Workspaces](getting-started/secoda-as-an-admin/invite-teammates/joining-and-navigating-between-multiple-workspaces.md)
     * [Onboard new users](readme/secoda-as-an-admin/onboarding-new-users/README.md)
+      * [Onboarding email templates](readme/secoda-as-an-admin/onboarding-new-users/onboarding-email-templates.md)
       * [Training session guide](readme/secoda-as-an-admin/onboarding-new-users/training-session-guide.md)
     * [User engagement and adoption](getting-started/secoda-as-an-admin/user-engagement-and-adoption.md)
   * [Secoda as an Editor](getting-started/secoda-as-an-editor.md)
