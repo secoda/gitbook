@@ -2,13 +2,16 @@
 description: List of all the metadata that Secoda pulls from dbt Core
 ---
 
-# Metadata Extracted
+# dbt Core Metadata Extracted
 
 ## What does Secoda extract from dbt Core?
 
+{% hint style="info" %}
+dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
+{% endhint %}
+
 * Models:&#x20;
   * Description&#x20;
-  *
   * URL&#x20;
   * Compiled SQL&#x20;
 * Columns:&#x20;
