@@ -96,7 +96,7 @@ Standard monitors such as nullness, row count, etc can be modified with custom S
 
 ## Managing Monitors
 
-View Status, Last and Next Run details, and a Chart Visualization of the monitor's historical performance
+View **Status**, **Last** and **Next Run** details, and a **Chart Visualization** of the monitor's historical performance
 
 <div align="left">
 
@@ -104,7 +104,9 @@ View Status, Last and Next Run details, and a Chart Visualization of the monitor
 
 </div>
 
-The lighter green surrounding the main line represent the threshold limits - once the threshold is passed, it'll show a red dot indicating an incident
+### Thresholds and Incidents
+
+The lighter green surrounding the main line represent the **threshold** limits - once the threshold is passed, it'll show a red dot indicating an incident
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/88d0fea1-144d-4b61-94c0-903bc22d6275.gif" alt=""><figcaption></figcaption></figure>
 
@@ -122,7 +124,11 @@ You can either Acknowledge or Resolve the incident by click these buttons below.
 
 </div>
 
+### Errors
 
+You may receive an error on your Monitors for various reasons. The Error will appear under Status. You are able to click into the error to see exactly what went wrong with the Monitor. In the example below, a Custom SQL monitor was chosen but a query was never provided, causing it to error out.
+
+<figure><img src="../.gitbook/assets/Kapture 2024-01-05 at 15.33.43.gif" alt=""><figcaption></figcaption></figure>
 
 ## Monitoring Notifications
 
