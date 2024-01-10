@@ -12,4 +12,9 @@
 5. Click Next.
 6. Click Finish. Assign users to this application if you want them to be able to sign in.
 7. Go to the Sign On tab and expand the SAML 2.0 box to see the Metadata details. Copy the Metadata URL.
-8. Provide the URLs from **step 3** and the link from **step 7** to the Secoda team.
+8. Navigate to the Secoda app > Settings > Security > SAML
+9. Choose Okta as the SAML Provider (IDP)
+10. Paste the link from Step 7 under "Metadata URL"
+11. Click Request which will alert the Secoda team of your request.
+
+Once Secoda has completed their steps, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.
