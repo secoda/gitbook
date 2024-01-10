@@ -14,4 +14,9 @@ If you're self-hosted, replace https://app.secoda.co with your domain.
    2. Select your email attribute as the the Value
    3. Click **Save**
 5. Go to the **SSO** tab and copy the **Issuer URL.**&#x20;
-6. Provide the URL from **step 3** and the link from **step 5** to the Secoda team via the support@secoda.co email with the Subject "Secoda SAML Setup".
+6. Navigate to the Secoda app > Settings > Security > SAML
+7. Choose General as the SAML Provider (IDP)
+8. Paste the link from Step 5 under "Metadata URL"
+9. Click Request which will alert the Secoda team of your request.
+
+Once Secoda has completed their steps, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.

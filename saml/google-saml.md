@@ -9,7 +9,7 @@ Set up your own custom SAML app
    1. Enter the name of the custom app.
    2. (Optional) Upload an **app icon**. The app icon appears on the Web and mobile apps list, on the app settings page, and in the app launcher. If you don't upload an icon, an icon is created using the first two letters of the app name.
 5. Click **Continue**.
-6. Download the **IDP metadata** and send the file to the Secoda SAML team.
+6. Copy the **SSO URL**
 7. Click **Continue**.
 8. In the **Service Provider Details** window, enter the appropriate URL for these 2 fields, based on the domain you use Secoda and your email domain: `https://secoda.placeholder.com/api/v1/auth/saml/placeholder+com/acs/`:
    * **ACS URL**
@@ -17,3 +17,9 @@ Set up your own custom SAML app
 9.  In the attributes, the following mappings **must be set**:
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1beaba43-f923-45b8-88a1-044e9e723b9f.png" alt=""><figcaption></figcaption></figure>
+10. Navigate to the Secoda app > Settings > Security > SAML
+11. Choose Google as the SAML Provider (IDP)
+12. Paste the link from **Step 6** under "Metadata URL"
+13. Click Request which will alert the Secoda team of your request.
+
+Once Secoda has completed their steps, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.

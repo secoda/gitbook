@@ -28,13 +28,18 @@ Continuing with the example above, the Application ID URI field should be.&#x20;
 
 ![](https://imagedelivery.net/28-eDrK8lEif6\_ED0iMQeg/d20fd411-d75e-4c17-550e-9976874a0c00/public)
 
-**Please send the inputted Application ID URI to the Secoda team.**
-
 ### Step 3 - XML Link
 
-Click “Endpoints” and copy the “Federation metadata document”. **This is an XML link that needs to be sent to the Secoda team.**
+Click “Endpoints” and copy the “Federation metadata document”.&#x20;
 
-![](https://imagedelivery.net/28-eDrK8lEif6\_ED0iMQeg/344f8cf5-26b7-42d2-2665-bd2a61857e00/public)
+<figure><img src="https://imagedelivery.net/28-eDrK8lEif6_ED0iMQeg/344f8cf5-26b7-42d2-2665-bd2a61857e00/public" alt=""><figcaption></figcaption></figure>
+
+### Step 4 - Request in Secoda app
+
+1. Navigate to the Secoda app > Settings > Security > SAML
+2. Choose Microsoft as the SAML Provider (IDP)
+3. Paste the link from Step 3 under "Metadata URL"
+4. Click Request which will alert the Secoda team of your request.
 
 Once Secoda has completed their steps, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.
 
