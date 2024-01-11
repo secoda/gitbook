@@ -8,11 +8,15 @@ description: >-
 
 By using the /query command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections. This allows users to preview the data directly in Secoda.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/99a26f5b-3334-4818-99f3-eafbb653727a.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-11 at 2.44.46 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Turn off Query capabilities
 
 If you'd like to turn off the ability to preview this data within Secoda, you can do so in the Integration settings. You can do this at the role level so that only specific workspace members have access to this feature. Go to the Integration > Permissions > Check off which roles/groups > Submit.
+
+{% hint style="info" %}
+**NOTE:** By default, editors do not have the permissions enabled for running queries on integrations. You can enable these permissions by going to the permissions tab in the integrations setting page.&#x20;
+{% endhint %}
 
 ## Steps to running queries
 
@@ -22,13 +26,13 @@ If you'd like to turn off the ability to preview this data within Secoda, you ca
 3. Write your query and press the :arrow\_forward: button on the right hand side
 4. Sort the query by clicking on the column names, and share it with other users
 
-### Scheduling queries
+<figure><img src="../../../.gitbook/assets/Kapture 2024-01-11 at 15.37.03.gif" alt=""><figcaption></figcaption></figure>
 
-Using the "schedule" tab, you can set a schedule for your queries to run in Secoda. This can ensure that viewers who are looking at your query results are seeing up to date results that they can trust.
+## Scheduling queries
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.48.05%20AM.png)
+&#x20;If you'd like to write queries that run on a specific schedule, you can create [metrics.md](../../metrics.md "mention") and adjust the refresh rate to your preferred configuration. Metrics can be embedded into the documentation section of resources, dictionary terms, and documents. This can ensure that viewers who are looking at your query results are seeing up to date results that they can trust while also allowing you to manage queries from one location.&#x20;
 
-### Sharing queries with viewers
+## Sharing queries with viewers
 
 These queries are useful for showing viewers how to use queries or if editors want to share / document queries for viewers. As a viewer, I am only able to execute the query if I have access to view the data from that integration (this will be based on which Teams they are apart of).
 
