@@ -12,16 +12,24 @@ description: An overview of the Azure Cosmos DB integration with Secoda
 
 To integrate Azure Cosmos DB with Secoda, follow these three steps:
 
-1. Create a Cosmos DB Read-Only Key
+1. Grab your Cosmos DB Credentials
 2. Whitelist Secoda IP Addresses
 3. Connect Azure Cosmos DB to Secoda
 
-#### 1. Create a Cosmos DB Read-Only Key
+#### 1. Grab your Cosmos DB Credentials
+
+If using the NoSQL Cosmos DB:
 
 * Navigate to the Azure portal.
 * Go to your Cosmos DB account.
 * Under 'Settings', select 'Keys'.
 * Create a read-only key.
+
+If using the Tables Cosmos DB:
+
+* Navigate to the Azure portal.
+* Go to your Cosmos DB account.
+* Under 'Connecting Strings', select "Primary Connecting String"
 
 #### 2. Whitelist Secoda IP Address
 
@@ -33,7 +41,8 @@ To integrate Azure Cosmos DB with Secoda, follow these three steps:
 * Visit [Secoda's Integrations page](https://app.secoda.co/integrations).
 * Click "New Integration".
 * Search for "Azure Cosmos DB" and select it.
-* Enter your Cosmos DB endpoint and the read-only key.
+* Select your cosmos DB type: "Tables" or "NoSQL"
+* Enter your Cosmos DB credentials.
 * Click "Test Connection".
 * Once successful, click "Submit".
 * Choose the data you want to import into Secoda.
