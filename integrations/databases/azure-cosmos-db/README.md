@@ -12,11 +12,11 @@ description: An overview of the Azure Cosmos DB integration with Secoda
 
 To integrate Azure Cosmos DB with Secoda, follow these three steps:
 
-1. Grab your Cosmos DB Credentials
+1. Retrieve your Cosmos DB Credentials
 2. Whitelist Secoda IP Addresses
 3. Connect Azure Cosmos DB to Secoda
 
-#### 1. Grab your Cosmos DB Credentials
+#### 1. Retrieve your Cosmos DB Credentials
 
 If using the NoSQL Cosmos DB:
 
