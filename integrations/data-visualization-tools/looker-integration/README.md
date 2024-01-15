@@ -40,44 +40,7 @@ After retrieving your Looker Client ID, Client Secret, and host , the next step 
 3. Enter your Looker Client ID, Client Secret, and host you retrieved above
 4. Click 'Connect'
 
-#### Connect LookML repo to Secoda (Optional) <a href="#h_306dadb3b4" id="h_306dadb3b4"></a>
+{% hint style="info" %}
+Secoda will automatically detect LookML projects connected to your Looker instance.&#x20;
+{% endhint %}
 
-To get lineage between Looker and your data warehouse, Secoda will need access your GitHub repo where Looker records changes and manages file versions. Secoda will then automatically detect LookML projects connected to your Looker instance.
-
-Navigate to the Git tab on the Looker Integration Page and you will see your LookML projects. For each project you want to connect, click the toggle beside the project name\*\*.\*\*
-
-Once the key is generate, you can select your LookML project and click **Copy public key** and head to your LookML repo in GitHub.
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(7\)%20\(2\).png)
-
-#### GitHub
-
-Once in your GitHub repo, click on **Settings > Deploy keys** on the sidebar.
-
-![](https://downloads.intercomcdn.com/i/o/489714467/decf0b4194df7bc1671ed1b2/Screen+Shot+2022-03-31+at+4.31.54+PM.png)
-
-A new key can be added by clicking on **Add deploy key** button in the top right corner.
-
-![](https://downloads.intercomcdn.com/i/o/489718929/57a0c40bcf93056145475eda/image.png)
-
-Set a title for your new key and then paste the key copied from Secoda into the **Key** text field.
-
-Click **Add key**. You **DO NOT** need to provide write access
-
-![](https://downloads.intercomcdn.com/i/o/489718165/18dea438e4ac144e091fc2bc/image.png)
-
-#### GitLab
-
-Once in your GitLab repo, click on **Settings > Deploy keys** on the sidebar.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a5a7be37-f09c-4e27-8a66-2b0ca87d84ed.png" alt=""><figcaption></figcaption></figure>
-
-Set a title for your new key and then paste the key copied from Secoda into the **Key** text field.
-
-Click **Add key**. You **DO NOT** need to provide write access
-
-
-
-Once the key has been added to GitHub or GitLab go back to your Looker integration in the Secoda App and go to the **Sync History** tab and click on **Run Sync** in the top right corner to start the sync process.
-
-Note: You **DO NOT** need to start the sync process if you would rather wait until the next scheduled sync.
