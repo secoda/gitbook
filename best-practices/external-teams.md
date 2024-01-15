@@ -1,5 +1,9 @@
 # External Teams
 
+{% hint style="danger" %}
+This feature is coming soon.&#x20;
+{% endhint %}
+
 Several of Secoda's users use Secoda as a tool to organize data for their own company's external customers. In these cases, they would not want their customers to have any awareness of one another for security reasons. There are a few best practices you may want to follow to ensure that users are only seeing the content and usernames specific to their organization.&#x20;
 
 If set up in the following way, the affected users will:
