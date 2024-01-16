@@ -59,3 +59,7 @@ Some users might want to reference a Metric in a Document. You can embed a Metri
 Similar to how you can [nest Dictionary terms](broken-reference), you can also nest Metrics under each other to create a folder structure.
 
 To do so, create the Metrics including the parent Metrics, check off the box of the Metrics you'd like to be nested, and click "Set parent".
+
+## Video resource
+
+{% embed url="https://www.loom.com/share/7ebbf4c731c7440d9eb138deaaca8f1b?sid=6a1e8e4e-f532-4ab0-b88c-ebc4136a9b09" %}
