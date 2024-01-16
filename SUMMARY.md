@@ -158,6 +158,7 @@
     * [Prompts](features/ai-assistant/prompts.md)
   * [Analytics Dashboard](features/analytics-dashboard.md)
   * [Announcements](features/announcements.md)
+  * [Automations](features/automations.md)
   * [Bookmarks](features/bookmarks.md)
   * [Catalog](features/catalog.md)
   * [Chrome Extension](features/chrome-extension.md)
