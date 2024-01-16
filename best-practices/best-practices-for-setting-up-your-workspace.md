@@ -1,18 +1,18 @@
 ---
-description: Learn about some best practices that we've seen work well!
+description: Learn about some best practices for setting up that we've seen work well
 ---
 
 # Setting up your workspace
 
-After your integrations are setup and you have all of your data in the product, you might consider how you want the layout of your workspace to look. In this doc, we’ll outline some best practices that we’ve seen work well for our customers.
+After your integrations are setup and you have all of your data in the product, you might consider how you want the layout of your workspace to look. You'll also want to build out certain features so that when you onboard new users, they are set up for success. In this document, we’ll outline some best practices that we’ve seen work well for our customers.
 
 ## Organize Teams
 
-Teams is the main way to organize your organizations resources. Read more about all of the capabilities and how to set up Teams [here](../../user-management/teams.md).
+Teams is the main way to organize your organizations resources. Read more about all of the capabilities and how to set up Teams [here](../user-management/teams.md).
 
 ### General Team
 
-At this stage, all of your data from the connected integrations should be accessible via the General Team Catalog. General is default set to Public to all users, but if you’d like you can make it Private in the Teams Settings.
+At this stage, all of your data from the connected integrations should be accessible via the General Team Catalog. General is by default set to Public to all users, but if you’d like you can make it Private in the Teams Settings. You can also rename it in the Settings (i.e. your Company name).
 
 Here are some use cases for the General Team in Secoda:
 
@@ -39,14 +39,20 @@ Begin with outlining your user base, and then create the Teams based off of that
 
 ## Add content to Homepage
 
-The Homepage is the first thing your users will see when jumping into Secoda. Enable them further by pinning important resources to the Team homepages, and consider writing up relevant notes using the Notepad. Watch some how-to videos on Homepage functionalities [here](../../features/custom-homepage.md).
+The Homepage is the first thing your users will see when jumping into Secoda. Enable them further by pinning important resources to the Team homepages, and consider writing up relevant notes using the Notepad. Watch some how-to videos on Homepage functionalities [here](../features/custom-homepage.md).
 
 ## Automate documentation
 
-We have many features that assist in the automation of your documentation and enrichment within Secoda. Check those out here: [documentation-best-practices.md](documentation-best-practices.md "mention")
+We have many features that assist in the automation of your documentation and enrichment within Secoda. Check those out here: [documentation-best-practices.md](documentation-best-practices.md "mention").&#x20;
+
+It's important to build out documentation so that new users have something to work with when first accessing the tool. It's helpful to have some Documents, Dictionary terms, and Catalog resource description already filled out so that new users can see the value of Secoda from the start.
+
+## Create Search views
+
+Building out [#search-views](../features/search.md#search-views "mention") can be an important step when building out your workspace. Search views can be saved and used by all users across the workspace, which can guide new users to find information on what they're looking for.
 
 ## Integrate with Slack
 
-If your organization uses Slack for internal communications, you definitely will want to set up the Slack integration with Secoda. This allows your users to ask the Slackbot questions about your data without having to leave Slack. It’ll also allow you to receive notifications regarding your workspace within Slack, depending on how you’ve configured your notifications settings.
+If your organization uses Slack for internal communications, you definitely will want to set up the Slack integration with Secoda. This allows your users to ask the Slackbot questions about your data without having to leave Slack - read more about this flow [slack-less-than-greater-than-questions-workflow.md](slack-less-than-greater-than-questions-workflow.md "mention"). It’ll also allow you to receive notifications regarding your workspace within Slack, depending on how you’ve configured your notifications settings.
 
-Read more about setup, and the functionalities of the integration [here](../../integrations/productivity-tools/slack-connection/).
+Read more about setup, and the functionalities of the integration [here](../integrations/productivity-tools/slack-connection/).
