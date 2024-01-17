@@ -23,7 +23,7 @@ To create a Mode access token for Secoda visit [Mode](https://app.mode.com/signi
 1. Click on your avatar in the top left and select 'My Account' from the dropdown menu.
 2. Click the option 'API Tokens'
 3. Enter a token name and click 'Create token'
-4. Copy the API Key and password and save it. This will be used to connect to Secoda.
+4. A Token and Secret will be created. The Secret is considered your password. Copy and save both values as these will be used to connect to Secoda.
 
 #### **Retrieve your Mode organization** <a href="#h_2e32c48e7f" id="h_2e32c48e7f"></a>
 
