@@ -11,7 +11,7 @@ NOTE: Preview of Sigma resources is available in Secoda if permissions are grant
 {% endhint %}
 
 * Workspaces
-  * Workspaace Name
+  * Workspace Name
 * Workbooks
   * Workbook Name
   * Workbook Updated At
