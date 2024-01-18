@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from Sigma
 ---
 
-# Metadata Extracted
+# Sigma Metadata Extracted
 
 ### What does Secoda extract from Sigma?
 
@@ -10,27 +10,29 @@ description: List of all the metadata that Secoda pulls from Sigma
 NOTE: Preview of Sigma resources is available in Secoda if permissions are granted.&#x20;
 {% endhint %}
 
+* Workspaces
+  * Workspaace Name
 * Workbooks
   * Workbook Name
   * Workbook Updated At
   * Workbook Owners
   * Workbook URL
+  * Workbook Badges
 * Pages
   * Page Name
   * Page URL
 * Elements
   * Element Name
   * Element URL
-* Badges
-  * Name
+* Dataset
+  * Dataset Name
+  * Dataset
 * Queries
 * Lineage
   * Sigma Element <-> Sigma Workbook
-  * Sigma Query <-> Sigma Element
-  * Sigma Query <-> Sigma Workbook
-  * Sigma Page -> Sigma Workbook
-  * Sigma Element -> Sigma Page
-  * Sigma Query <-> Tables from other sources
+  * Sigma Page <-> Sigma Workbook
+  * Sigma Element <-> Sigma Page
+  * Sigma Workbook or Elements <-> Tables from other sources
     * Note: These lineage relationships will pass through the Query to the Workbooks and Elements that that Query connects to.&#x20;
 
 {% hint style="info" %}
