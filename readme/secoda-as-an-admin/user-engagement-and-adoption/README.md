@@ -10,23 +10,29 @@ After you've onboarded a group of users, it's important to check back in within 
 
 As the workspace Admins, there are some strategies that you could implement to help change user behaviors and remind them to check Secoda for their data questions.&#x20;
 
-## **Stay alert about all questions regarding data**
+## **Establish workflows that Secoda can improve**
 
-If you think that a question in your communication channels could be answered by using Secoda, hop into the thread and share links to the solution within Secoda. One scenario we see is of users reverting to former, less efficient ways of working. For example, users posting in Slack asking where data on "xyz" lives in Snowflake. Instead of simply sharing the name of the table, search Secoda and share the link to the product (even if the question has already been answered another way).
+Let's say that most of the questions you hear about data are coming through Slack or in another communication channel. As Secoda admins, staying alert about these questions is important. Consider connecting our [slack-connection](../../../integrations/productivity-tools/slack-connection/ "mention") integration so that users can continue asking questions there, but still get answers and value from Secoda without having to go to the app.
 
 {% hint style="info" %}
-Make sure to update your documentation with new content that arises from these questions so that Secoda remains the source of truth, and content doesn't get lost in Slack!
+Make sure to update your documentation with new content that arises from these questions so that Secoda remains the source of truth, and content doesn't get lost in Slack! Check out our feature to [#push-slack-thread-into-secoda-questions](../../../integrations/productivity-tools/slack-connection/#push-slack-thread-into-secoda-questions "mention").
 {% endhint %}
+
+Or let's say that your analytics team would prefer to stay in their BI tool, but still get value out of Secoda. Add a to-do item to their Secoda onboarding checklist to download the [chrome-extension.md](../../../features/chrome-extension.md "mention") so that they can view and edit Secoda metadata directly in their workflows.
+
+Check out other ways for [integrating-secoda-into-existing-workflows.md](../../../best-practices/integrating-secoda-into-existing-workflows.md "mention").
 
 ## **Send out recurring communications**
 
-As a Secoda Workspace Admin, it's important to stay visible within the data community at your organization. There are quick and easy communications you can send out to keep Secoda top of mind for your users - one example being **Weekly Tips & Tricks.**
+As a Secoda Workspace Admin, it's important to stay visible within the data community at your organization. There are quick and easy communications you can send out to keep Secoda top of mind for your users - one example being **Weekly** [tips-and-tricks-to-share-with-new-users.md](tips-and-tricks-to-share-with-new-users.md "mention")**.**
 
-These can include short videos or how-to bullet points regarding features within the tool. For example, you can share a Search tip on filtering to see the most popular resources in your workspace; or a tip on how to bulk edit resources with the same definitions and tags.
+Use our [announcements.md](../../../features/announcements.md "mention") to share news about new verified data sources, a new integration you've connected, or fields that are going to be deprecated, as examples.
 
 ## **Assign ownership to resources**
 
-Assigning ownership at either the Group or individual level encourages users to get into the tool and document their resources within Secoda. Consider outlining both Ownership and Documentation standards or expectations so that users understand their roles and responsibilities.
+Assigning ownership at either the Group or individual level encourages users to get into the tool and document their resources within Secoda. Owners also receive notifications about changes to their resources, which encourages them to stay on top of documentation.&#x20;
+
+Consider outlining both Ownership and Documentation standards or expectations so that users understand their roles and responsibilities.
 
 ## **Highlight user successes**
 
@@ -35,6 +41,8 @@ Everyone appreciates a little recognition and kudos for their efforts. Consider 
 * Celebrate wins in Town Hall / All Hands meetings or in Slack
 * Highlight a data community member of the month in a monthly newsletter
 * Allow users to vote on well-documented resources that helped them complete a project
+
+Use the [analytics-dashboard.md](../../../features/analytics-dashboard.md "mention") to identify some of these metrics.
 
 ## **Make documentation fun!**
 
@@ -65,5 +73,5 @@ People love being apart of a community and Secoda should be a place for people w
 
 When we think about user adoption of a new tool, we like to bake in a certain amount of days buffer of expectation (this number will be different for each organization). Using Secoda is a new "habit" for users for them to unlearn old behaviors (i.e. searching in Confluence/Snowflake) and learn to go to Secoda first.
 
-Use the Analytics feature to track usage of the tool and define your own team's KPIs in order to define and measure success.
+Use the [analytics-dashboard.md](../../../features/analytics-dashboard.md "mention") to track usage of the tool and define your own team's KPIs in order to define and measure success.
 

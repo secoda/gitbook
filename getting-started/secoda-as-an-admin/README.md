@@ -12,4 +12,4 @@ description: Here are some important Admin tasks to get your workplace up and ru
 * [ ] [Populate Questions with FAQs](populate-questions-with-faqs.md)
 * [ ] [Invite your teammates](invite-teammates/)
 * [ ] [Connect to Slack](../../integrations/productivity-tools/slack-connection/)
-* [ ] [User engagement and adoption strategies](user-engagement-and-adoption.md)
+* [ ] [User engagement and adoption strategies](../../readme/secoda-as-an-admin/user-engagement-and-adoption/)

@@ -44,7 +44,7 @@ There are many different ways that our users go about onboarding their teammates
   * Resources addressing any questions from the session (see [https://docs.secoda.co/](https://docs.secoda.co/) to search our documentation)
 * [ ] If you have a dedicated Secoda or data-related Slack channel, invite them to the channel and encourage them to post questions and feedback
   * Make sure to share this feedback with our team as we are always looking for ways to improve the product!
-* [ ] See [User engagement and adoption ](../../../getting-started/secoda-as-an-admin/user-engagement-and-adoption.md)for some ways to get your users excited about the tool
+* [ ] See [User engagement and adoption ](../user-engagement-and-adoption/)for some ways to get your users excited about the tool
 
 ## Workshop ideas
 
