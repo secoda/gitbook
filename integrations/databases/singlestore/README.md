@@ -20,7 +20,8 @@ To create a new user, you’ll need to log into the SingleStore database directl
 
 ```
 -- Create a user named "secoda" with appropriate privileges that Secoda will use when connecting to your SingleStore database. 
-GRANT SELECT, PROCESS, SHOW METADATA ON *.* TO 'secoda'@'%' IDENTIFIED BY '<enter password here>';
+CREATE USER 'secoda'@'%' IDENTIFIED BY '<enter password here>'
+GRANT SELECT, PROCESS, SHOW METADATA ON *.* TO 'secoda'@'%';
 ```
 
 When connecting to SingleStore in Secoda, use the username/password you’ve created here instead of your admin account.
