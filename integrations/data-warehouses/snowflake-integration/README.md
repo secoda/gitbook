@@ -78,6 +78,10 @@ GRANT ROLE SECODA TO USER SECODA_USER;
 ALTER USER SECODA_USER SET DEFAULT_ROLE=SECODA
 ```
 
+{% hint style="info" %}
+If you would like to enable the Push to Snowflake feature, the SECODA user must be the owner of the tables, and have INSERT privileges on the table, and MODIFY privileges on the schema and database.&#x20;
+{% endhint %}
+
 #### **Connect Snowflake to Secoda** <a href="#h_7ee8142011" id="h_7ee8142011"></a>
 
 After creating a Snowflake warehouse, the next step is to connect Secoda.
