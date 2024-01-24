@@ -130,6 +130,10 @@ You can also use Announcements with Slack if you'd like to send adhoc announceme
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-16%20at%2016.28.49.gif" alt=""><figcaption></figcaption></figure>
 
+## Video resource
+
+{% embed url="https://www.loom.com/share/7d292c8a50a34470b5dee861377f5660?sid=abf668f1-c53a-4973-85c7-edca5b5b90cb" %}
+
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}
