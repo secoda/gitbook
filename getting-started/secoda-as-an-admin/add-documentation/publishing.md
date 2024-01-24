@@ -44,7 +44,7 @@ You can also publish all resources in your workspace with one click by using the
 
 ## Audit log
 
-Admins can access the workspace audit log through Secoda Settings. This log tracks the recent 50 changes from the users in your workspace, whereas the [activity-log.md](../../../features/activity-log.md "mention") shows only changes to the specific resource you're looking at.
+Admins can access the workspace audit log through Secoda Settings. This log tracks all historical changes from the users in your workspace, whereas the [activity-log.md](../../../features/activity-log.md "mention") shows only changes to the specific resource that you're looking at.
 
 <figure><img src="../../../.gitbook/assets/Kapture 2023-12-13 at 13.01.13.gif" alt=""><figcaption></figcaption></figure>
 
