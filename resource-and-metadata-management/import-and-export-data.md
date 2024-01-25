@@ -53,7 +53,7 @@ A CSV file with the headings for importing into Secoda.
   * **verified -** This is the [Verified](tags/verified-tag.md) tag and can be set to TRUE, FALSE
   * **published -** This is the published status and can be set to TRUE, FALSE
   * **collections -** List of associated collection names, i.e \['Marketing', 'Engineering']
-  * **owners** - List of associated owner emails, i.e, \['andrew@secoda.co', 'etai@secoda.co']
+  * **owners** - List of associated owner emails, i.e, \['andrew@secoda.co', 'etai@secoda.co']. The emails should correspond to existing users or service accounts in Secoda
   * **tags -** List of associated tag names, i.e, \['production']
   * **property** - This heading is a placeholder for any custom properties you'd like to add to the resource. Please remove it if you don't plan on any custom properties for your resource. To customize it, replace **property** with the name of your custom property and add the values of that property to the relevant rows. If you'd like to add several custom properties, add a new column for each one, with the name of the custom property as the column heading.&#x20;
 
