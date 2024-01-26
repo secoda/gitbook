@@ -10,27 +10,20 @@ description: An overview of the Snowflake integration with Secoda
 
 ## **Getting Started with Snowflake** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are four steps to connect Snowflake with Secoda. Make sure that you are running the commands in each step while logged in as an `ACCOUNTADMIN`, or an account that has `MANAGE GRANTS`. While we are using predefined user (`SECODA_USER`), role (`SECODA`), and warehouse (`SECODA_WAREHOUSE`)
+There are four steps to connect Snowflake with Secoda.&#x20;
 
 1. Create Role for Secoda
 2. Create User for Secoda
-3. Connect Snowflake to Secoda
-4. Whitelist IP Address
+3. Whitelist [Secoda IP Address](./#h\_e7eac6e3f5)
+4. Connect Snowflake to Secoda in the Secoda UI
 
-#### **Create Role for Secoda** <a href="#h_f22c4a805b" id="h_f22c4a805b"></a>
+You **must** be either an `ACCOUNTADMIN`, or have `MANAGE GRANTS` privileges in order to run the commands necessary to connect.&#x20;
 
-You need to run these commands rather than creating a role with the “Create Role” dialogue in the UI.
+We recommend naming the User, Role, and Warehouse, `SECODA_USER`, `SECODA_ROLE`, `SECODA_WAREHOUSE` respectively. However, naming them this way is not necessary to integrate.
 
-This role will be attached to Secoda’s user and it gives just enough permissions for reading metadata in your database. We recommend not reusing this role for other operations.
+### **Step 1: Create Role for Secoda** <a href="#h_f22c4a805b" id="h_f22c4a805b"></a>
 
-1. Click on to Worksheets;
-2. Select a database under database objects
-3. Change role to ACCOUNTADMIN
-4. Create a new `SECODA` role and provide access to the `SNOWFLAKE` system tables using the following commands:
-
-{% hint style="info" %}
-Grant access to any existing and future databases, schemas and tables **for all the databases** you'd like Secoda to import metadata from:
-{% endhint %}
+Navigate to Worksheets, select a database, and run the following commands in that database. You'll need to run these commands for all of the databases that you'd like Secoda to import metadata from.&#x20;
 
 ```
 CREATE ROLE SECODA;
@@ -62,9 +55,7 @@ GRANT SELECT ON FUTURE TABLES IN DATABASE identifier($database_name)  TO ROLE SE
 commit;
 ```
 
-Create User for Secoda
-
-Finally, you need to create the user that will be connected to Secoda. Be sure to use a strong, unique password.
+### Step 2: Create User for Secoda
 
 ```
 CREATE USER SECODA_USER
@@ -79,23 +70,35 @@ ALTER USER SECODA_USER SET DEFAULT_ROLE=SECODA
 ```
 
 {% hint style="info" %}
-If you would like to enable the Push to Snowflake feature, the SECODA user must be the owner of the tables, and have INSERT privileges on the table, and MODIFY privileges on the schema and database.&#x20;
+If you would like to enable the [Push to Snowflake](../../../features/push-metadata-to-source.md) feature, the SECODA\_USER must be the owner of the tables, have INSERT privileges on the table, and MODIFY privileges on the schema and database.&#x20;
 {% endhint %}
 
-#### **Connect Snowflake to Secoda** <a href="#h_7ee8142011" id="h_7ee8142011"></a>
-
-After creating a Snowflake warehouse, the next step is to connect Secoda.
-
-1. In the Secoda App, select `Add Integration` on the Integrations page.
-2. Search for and select “Snowflake”.
-3. Add your credentials as follows: User - The user name (as created above). Password - The password for the user. Account - The account id of your cluster, not the URL (e.g. if the URL is: `my-business.snowflakecomputing.com`, the account-id would be: `my-business`. \
-   **Note:** If you are using Snowflake on AWS, the account id includes the region, for example, your URL might look like this: `my-business.us-east-1.snowflakecomputing.com/` and your account-id would be: `my-business.us-east-1`) Warehouse - The warehouse name.
-
-### **Security** <a href="#h_58079a5dc2" id="h_58079a5dc2"></a>
-
-#### **Whitelisting IPs** <a href="#h_e7eac6e3f5" id="h_e7eac6e3f5"></a>
+### **Step 3: Whitelist Secoda IP Addresses** <a href="#h_7ee8142011" id="h_7ee8142011"></a>
 
 If you create a network policy with Snowflake, add the following [Secoda IP addresses](../../../faq.md#what-are-the-ip-addresses-for-secoda) to the “Allowed IP Addresses” list.
+
+### **Step 4: Connect Snowflake to Secoda** <a href="#h_7ee8142011" id="h_7ee8142011"></a>
+
+1. In the Secoda App, select `Add Integration` on the Integrations page. Search for and select “Snowflake”.
+2. Add your credentials as follows:&#x20;
+   * User - The name of the User created in Step 2.
+   * Password - The Password set in Step 2.
+   * Account - This is the Account ID of your cluster.&#x20;
+   * Warehouse - The Warehouse set in Step 1.&#x20;
+
+#### **How do I find my Account ID?**
+
+You can find the Account ID in the Snowflake URL. The account ID is usually a substring of the URL, before `snowflakecomputing.com`.  The account ID will likely be the business name, as well as the cloud region, if Snowflake is cloud hosted. See below for some examples.&#x20;
+
+1.  URL: `https://secoda.snowflakecomputing.com`
+
+    ACCOUNT ID: `secoda`
+2.  URL: `https://secoda.us-east-1.snowflakecomputing.com`
+
+    ACCOUNT ID: `secoda.us-east-1`
+3.  URL: `https://secoda.west-europe.azure.snowflakecomputing.com`
+
+    ACCOUNT ID: `secoda.west-europe.azure`&#x20;
 
 ### Troubleshooting
 
@@ -107,6 +110,4 @@ In order to resolve this error, please run the following command:
 
 #### Could not connect to Snowflake backend after 0 attempt(s)
 
-This error could be the result of an incorrect Account name. For Secoda, the Snowflake Account name is the Account ID of the cluster, which maps to a substring of the Snowflake URL.
-
-For example, if the url is https://oya5096.us-east-1.snowflakecomputing.com, the account name would be `oya5096.us-east-1`. If the url is https://abc1234.west-europe.azure.snowflakecomputing.com then, the account name would be `abc1234.west-europe.azure`. Please ensure the **entire** [Account Locator](https://docs.snowflake.com/en/user-guide/admin-account-identifier#label-account-locator) is included.
+This error could be the result of an incorrect Account ID. Please double check that your Account ID is properly added.&#x20;
