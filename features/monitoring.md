@@ -25,39 +25,29 @@ Choose from the following monitor types:
 The monitor will alert if any of these values are higher or lower than expected.
 
 {% hint style="info" %}
-**Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.&#x20;
+**Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.
 {% endhint %}
 
-Admins and Editors can find existing Monitors in the Monitors page from the side panel. You can see all the monitors and incidents across the entire platform, and also create new ones from here.&#x20;
+Admins and Editors can find existing Monitors in the Monitors page from the side panel. You can see all the monitors and incidents across the entire platform, and also create new ones from here.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/337f012c-4ced-4657-a69b-819b044089a0.png" alt=""><figcaption></figcaption></figure>
 
 ## Creating Monitors
 
-There are 2 ways to create monitors in Secoda. You can either use the **Monitors** section in the sidebar navigation or through the **Monitors tab** on the resource page.&#x20;
+There are 2 ways to create monitors in Secoda. You can either use the **Monitors** section in the sidebar navigation or through the **Monitors tab** on the resource page.
 
-1.  Select the "**Monitors**" section from the sidebar navigation and click "**Add monitor"** (also found within the monitors tab under the resource)**:**&#x20;
-
-
+1.  Select the "**Monitors**" section from the sidebar navigation and click "**Add monitor"** (also found within the monitors tab under the resource)**:**
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cedab835-f00f-4bef-b5c1-2aeb80fa032a.png" alt=""><figcaption><p>Add monitor option on the main monitors page</p></figcaption></figure>
-
-
 2.  Select the monitor type you want to create and choose the integration you want to create the monitor for (if adding a new monitor from the resource itself, the integration will be pre-selected):
 
-
-
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d82f0b01-677b-419d-b7c8-123755b818ca.png" alt=""><figcaption></figcaption></figure>
-
-
-3.  Select one or multiple resources that you'd like to add the monitor to:\
-
+3.  Select one or multiple resources that you'd like to add the monitor to:\\
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/475c98f5-c217-477b-8c36-265884ea5fee.png" alt=""><figcaption><p>configuration window for monitors<br><br></p></figcaption></figure>
 4. Adjust the **Threshold** and **Schedule** to your preferred configuration
    * **Schedule:** Choose between Daily, Every 12, 6 or 3 hours, or Hourly
-   * **Threshold:** Automatic or Manual\
-
+   * **Threshold:** Automatic or Manual\\
 5. Once configured, click add monitor and it show now show up within the list of monitors. You can view and edit the configurations from the sidebar on the monitor page
 
 <div align="center">
@@ -84,7 +74,7 @@ Follow the same steps as above, but choose "Custom SQL" as the Monitor type. Aft
 
 </div>
 
-### WHERE clause&#x20;
+### WHERE clause
 
 Standard monitors such as nullness, row count, etc can be modified with custom SQL that’s added as a WHERE clause within the standard SQL.
 
@@ -116,8 +106,6 @@ Scroll down to see Run history, and filter for triggered Incident Reports. Here 
 
 You can either Acknowledge or Resolve the incident by click these buttons below. The incident will be automatically resolved if the numbers go back into a good state (within the threshold).
 
-
-
 <div align="center">
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c64a75ec-8256-4980-8e90-5e322f7fd72b.png" alt="" width="282"><figcaption></figcaption></figure>
@@ -130,10 +118,16 @@ You may receive an error on your Monitors for various reasons. The Error will ap
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/268a5907-a2bc-4b80-9d2d-ff8edbbab26b.gif" alt=""><figcaption></figcaption></figure>
 
+## Best Practices&#x20;
+
+With monitors, as we are querying your source, we do recommend being selective around what you're monitoring and how often your monitoring based on your team's cost constraints. Some best practices are to:
+
+* Be selective about which columns/tables are monitored - focus on critical data
+* Reduce the number of times a monitor is run to daily
+
 ## Monitoring Notifications
 
-Ensure that you receive notifications about your monitors by going into your Notification settings. Check off where you'd like to be notified, whether that's in Slack DMs, by email, and/or in the app.\
-
+Ensure that you receive notifications about your monitors by going into your Notification settings. Check off where you'd like to be notified, whether that's in Slack DMs, by email, and/or in the app.\\
 
 <div align="left">
 
