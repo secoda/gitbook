@@ -14,7 +14,7 @@ To Propagate Metadata, select the Propagate Metadata button on the resource with
 
 Once clicked, a popup will be shown which will allow you to chose which metadata properties you'd like to propagate, and which related resources you'd like the metadata properties to be propagated to. The related resources can be searched for by Exact Name, Similar Name, or Downstream Lineage. You have the option to choose one or multiple properties, and one, multiple or **Select all** resources, respectively.
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-10-23 at 14.06.59.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e5bf1716-a7fe-47b0-b6df-86db972a5c9e.gif" alt=""><figcaption></figcaption></figure>
 
 In this popup, you can also chose to override existing metadata on the receiving resource(s) with the metadata properties that you're propagating. If this is not chosen, the metadata will only propagate to properties that don't currently have a value.
 

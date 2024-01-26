@@ -19,7 +19,7 @@ This feature is located above Settings in the left side panel.
 
 Create Reports to organize your Analytics widgets into separate themes. For example, you can have one Report that shows stats on your users, another on documentation, and another on Snowflake costs.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-12-28 at 4.30.01 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/dba41fac-7e33-4ff3-bb51-c9633f3fe9be.png" alt=""><figcaption></figcaption></figure>
 
 ## Filtering the dashboard
 
@@ -37,19 +37,19 @@ Another important metric you can filter for here is **undocumented popular resou
 
 You're able to see how your Snowflake costs have changed over time with this widget.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-11-09 at 16.44.33.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d2db25bc-1d4f-43b4-a276-f94fe3e60adf.gif" alt=""><figcaption></figcaption></figure>
 
 ### Monitor Snowflake costs
 
 You can even use our monitoring features on a Snowflake cost widget to be alerted about changes to daily costs. Simply create the widget, then use the three dot menu to create a monitor.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-12-28 at 4.21.09 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c36d703d-c395-44d1-9824-b806a21d31da.png" alt=""><figcaption></figcaption></figure>
 
 Add filters on usage type and balance source, and voila! You can catch changes before they become larger issues.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-12-27 at 2.17.19 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/470d3cfb-ccb1-429a-9072-043e0fe0e5ac.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

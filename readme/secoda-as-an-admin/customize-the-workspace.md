@@ -41,7 +41,7 @@ In the **Appearance** Settings, you are able to toggle on/off full width which a
 
 In this view, you also have the ability to hide query blocks from automatically being added to your dictionary terms.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-01 at 9.54.24 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1849eb3e-3c06-41d4-98ae-7bb00a4b57cf.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

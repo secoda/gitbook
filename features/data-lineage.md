@@ -21,28 +21,28 @@ Overall, lineage is an important aspect of data management and can help organiza
 3. From here, you can see lineage visualized in a graph view. Click through the arrows on each node to see how the relationships are connected.
 4. Use the Search bar to find and zoom in on a specific node, including columns. This can be helpful for larger, more complex lineage graphs.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.06.54 PM.png" alt=""><figcaption><p>Search Lineage</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b67f4450-2276-4560-bf24-3b096e069180.png" alt=""><figcaption><p>Search Lineage</p></figcaption></figure>
 
 5. On certain resources, you can expand to see the Column Level lineage. You can search within the Columns view to drill down to find the relevant columns.
 
 * If you click into any of the columns, it opens up it's own Impact Analysis showing what is upstream and downstream of that column.&#x20;
 * In the [Data Visualization](../integrations/data-visualization-tools/) tool category, only [Looker](../integrations/data-visualization-tools/looker-integration/) and [Tableau](../integrations/data-visualization-tools/tableau-integration/) are currently supported for column level lineage. This means that you can use the One Click Impact Analysis to see from column in a database, all the way to the impacted Dashboard or Chart in these tools.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.13.08 PM.png" alt=""><figcaption><p>Column Lineage</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d6635a6d-cff8-40dd-b294-28a70260262e.png" alt=""><figcaption><p>Column Lineage</p></figcaption></figure>
 
 6. Use the Fullscreen button to get a closer view of your lineage.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-11-30 at 12.38.59.gif" alt=""><figcaption><p>Fullscreen</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/898abb15-b9bb-4ed9-97a7-e46f5e572f57.gif" alt=""><figcaption><p>Fullscreen</p></figcaption></figure>
 
 ### **One-Click Impact Analysis**
 
 From any node, click the three dots and **Analyze Impact** to see a list-view of all upstream and downstream dependencies of that resource. This view makes impact analysis quick and easy with just one click.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.06.01 PM.png" alt=""><figcaption><p>Lineage view</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d2fdb475-925b-452e-b95f-37f4bc36691b.png" alt=""><figcaption><p>Lineage view</p></figcaption></figure>
 
 * In this view, you can filter for the type of resource and the integration you're looking for, as well as search directly.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-30 at 12.25.59 PM.png" alt=""><figcaption><p>Impact Analysis filters</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/13437609-1b1c-4ec9-b6a6-0418f7f9ad11.png" alt=""><figcaption><p>Impact Analysis filters</p></figcaption></figure>
 
 ## How is Lineage Created?
 

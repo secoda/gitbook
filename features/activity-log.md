@@ -8,7 +8,7 @@ The Activity Log shows the history of activity on each resource. This includes w
 
 Simply click on the clock icon on the top right-hand corner of the resource.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-11-01 at 12.15.40.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/795a72fd-706f-461e-915e-e81e92436bee.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

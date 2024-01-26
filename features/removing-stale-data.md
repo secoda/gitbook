@@ -18,7 +18,7 @@ Secoda automatically hides any stale data from users in the workspace. We define
 
 To see the list of Stale data in your workspace, use the keyboard shortcut **command+k** and scroll down to "Archive".
 
-<figure><img src="../.gitbook/assets/Kapture 2023-10-23 at 14.48.58.gif" alt=""><figcaption><p>Stale and Archived Data</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c363a604-1bc4-4b0d-9765-3647c2307800.gif" alt=""><figcaption><p>Stale and Archived Data</p></figcaption></figure>
 
 You can choose to disable automatic staling in the Settings > Preferences:
 
