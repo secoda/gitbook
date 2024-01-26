@@ -1,6 +1,6 @@
 ---
 description: >-
-  Secoda is built to be super collaborative, so there's a number of ways to
+  Secoda is built to be collaborative, so there's a number of ways to
   share content and resources with other people.
 ---
 
