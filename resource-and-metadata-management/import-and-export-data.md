@@ -38,7 +38,7 @@ If you have set up a documentation tool (Excel, G-Sheet etc.) at your organizati
 
 You can either export your data from Secoda to a CSV, use the template linked below, or create your own CSV using the guidance provided. The file must be in CSV format.
 
-{% file src="../.gitbook/assets/import.csv" %}
+{% file src="https://secoda-public-media-assets.s3.amazonaws.com/301663b6-9811-4577-b7bc-16a88733fe75.csv" %}
 A CSV file with the headings for importing into Secoda.
 {% endfile %}
 

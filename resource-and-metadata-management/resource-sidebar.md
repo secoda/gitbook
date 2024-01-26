@@ -6,7 +6,7 @@ description: Explaining the information in the sidebar.
 
 When looking at a resource, you can see several pieces of information in the side bar, here is a break down of each.&#x20;
 
-<figure><img src="../.gitbook/assets/Screen Shot 2023-11-24 at 3.29.42 PM.png" alt=""><figcaption><p>Image of the resource sidebar</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b20ea07c-5f1a-408d-b7f2-e3f62d4aa1de.png" alt=""><figcaption><p>Image of the resource sidebar</p></figcaption></figure>
 
 ### Properties
 

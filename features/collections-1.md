@@ -51,7 +51,7 @@ On a resource page, you can add a resource to a Collection by opening up the rig
 
 From the Catalog, you can make bulk edits to your resource metadata ([Making bulk edits](../resource-and-metadata-management/add-documentation/bulk-editing-resources.md)). This includes adding many resources to Collections in just a few clicks. In the example below, the user filters for a specific schema in order to add all the columns from the schema into the same Collection, and then makes the bulk edits.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-10-26 at 11.42.09.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/809ef395-e987-4415-807c-bf140572be41.gif" alt=""><figcaption></figcaption></figure>
 
 ## Nesting collections
 
@@ -61,7 +61,7 @@ You can nest a collection when first creating a collection or after a collection
 
 To add a nested collection after the collection(s) has been created, click into the list of collections and check off which you'd like to nest. Then click 'Set parent' and choose the collection that you'd like to be the parent.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-12-06 at 8.19.59 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4d454f86-ac7d-4b5f-a341-fabe43f7e076.png" alt=""><figcaption></figcaption></figure>
 
 Another way to do this is to navigate to a collection, click "Add resource" and then search for the collection you'd like to be nested inside the current selected collection.
 

@@ -30,7 +30,7 @@ The monitor will alert if any of these values are higher or lower than expected.
 
 Admins and Editors can find existing Monitors in the Monitors page from the side panel. You can see all the monitors and incidents across the entire platform, and also create new ones from here.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-27 at 5.26.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/337f012c-4ced-4657-a69b-819b044089a0.png" alt=""><figcaption></figcaption></figure>
 
 ## Creating Monitors
 
@@ -40,20 +40,20 @@ There are 2 ways to create monitors in Secoda. You can either use the **Monitors
 
 
 
-    <figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 3.39.08 PM.png" alt=""><figcaption><p>Add monitor option on the main monitors page</p></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cedab835-f00f-4bef-b5c1-2aeb80fa032a.png" alt=""><figcaption><p>Add monitor option on the main monitors page</p></figcaption></figure>
 
 
 2.  Select the monitor type you want to create and choose the integration you want to create the monitor for (if adding a new monitor from the resource itself, the integration will be pre-selected):
 
 
 
-    <figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 3.43.42 PM (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d82f0b01-677b-419d-b7c8-123755b818ca.png" alt=""><figcaption></figcaption></figure>
 
 
 3.  Select one or multiple resources that you'd like to add the monitor to:\
 
 
-    <figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 4.08.55 PM.png" alt=""><figcaption><p>configuration window for monitors<br><br></p></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/475c98f5-c217-477b-8c36-265884ea5fee.png" alt=""><figcaption><p>configuration window for monitors<br><br></p></figcaption></figure>
 4. Adjust the **Threshold** and **Schedule** to your preferred configuration
    * **Schedule:** Choose between Daily, Every 12, 6 or 3 hours, or Hourly
    * **Threshold:** Automatic or Manual\
@@ -62,7 +62,7 @@ There are 2 ways to create monitors in Secoda. You can either use the **Monitors
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 5.02.38 PM.png" alt="" width="317"><figcaption><p>Configuration details</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c6c8550e-a537-479d-814e-a158003a4e42.png" alt="" width="317"><figcaption><p>Configuration details</p></figcaption></figure>
 
 </div>
 
@@ -80,7 +80,7 @@ Follow the same steps as above, but choose "Custom SQL" as the Monitor type. Aft
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-27 at 5.22.03 PM.png" alt=""><figcaption><p>Custom SQL monitor</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4721c037-cdf0-4071-99fa-2e1dbd07023c.png" alt=""><figcaption><p>Custom SQL monitor</p></figcaption></figure>
 
 </div>
 
@@ -90,7 +90,7 @@ Standard monitors such as nullness, row count, etc can be modified with custom S
 
 <div align="center">
 
-<figure><img src="../.gitbook/assets/where clause.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0e0b3170-52c0-43f1-882b-b3747af5f804.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure>
 
 </div>
 
@@ -100,7 +100,7 @@ View **Status**, **Last** and **Next Run** details, and a **Chart Visualization*
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/Screen Shot 2023-12-05 at 5.33.20 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f470b8d4-08eb-47ce-b27d-24b1bb09a2d1.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -112,7 +112,7 @@ The lighter green surrounding the main line represent the **threshold** limits -
 
 Scroll down to see Run history, and filter for triggered Incident Reports. Here you can see any Downstream Resources that may be impacted by the incident.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-12-08 at 13.58.03.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/799409fb-fc49-4826-9df5-96aa0ac0692f.gif" alt=""><figcaption></figcaption></figure>
 
 You can either Acknowledge or Resolve the incident by click these buttons below. The incident will be automatically resolved if the numbers go back into a good state (within the threshold).
 
@@ -128,7 +128,7 @@ You can either Acknowledge or Resolve the incident by click these buttons below.
 
 You may receive an error on your Monitors for various reasons. The Error will appear under Status. You are able to click into the error to see exactly what went wrong with the Monitor. In the example below, a Custom SQL monitor was chosen but a query was never provided, causing it to error out.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-01-05 at 15.33.43.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/268a5907-a2bc-4b80-9d2d-ff8edbbab26b.gif" alt=""><figcaption></figcaption></figure>
 
 ## Monitoring Notifications
 
@@ -145,7 +145,7 @@ Ensure that you receive notifications about your monitors by going into your Not
 
 In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/138d2dd7-a4f6-4adf-a404-ff041566eabe.png" alt=""><figcaption></figcaption></figure>
 
 ## Video resource
 

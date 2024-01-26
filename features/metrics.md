@@ -31,20 +31,20 @@ Once in the Metrics, you'll be able to see all of the current metrics your team 
 1. **Name Metric**: To create a new metric, simply click "New Metric" in the top left.
 2. **Enrich / Add metadata to the Metric**: You'll have the option to name the metric, add a definition, select the Team(s) and Collections you'd like it to appear in, assign ownership, and add applicable tags.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-11-07 at 17.04.16.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/94e4792e-0bcb-47da-b0dd-fe12b273a2d4.gif" alt=""><figcaption></figcaption></figure>
 
 3.  **Define the Metric with a Query:** After creating a metric, you'll see the "New query" option. Just choose which integration you'd like to query (it can be _any_ [Database](../integrations/databases/) or [Data Warehouse](../integrations/data-warehouses/) integration that we support), type your SQL, and click the Run button.&#x20;
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-11-13 at 4.29.18 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c4aea352-9607-428b-894f-b5f66c54f431.png" alt=""><figcaption></figcaption></figure>
 4. **Visualize the Metric**: After running the query, Secoda will visualize the metric for you. You'll have the option to customize the graph based on the data type, for example line, bar, or pie charts.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-12-19 at 14.48.23.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/106ef08b-c953-42d1-b206-bfe378b99eed.gif" alt=""><figcaption></figcaption></figure>
 
 ## Setting refresh schedules
 
 After defining a metric, the user can set a schedule on how often they'd like the query to be run. Simply click into the Metric, and see the **Configuration** settings on the right hand side. Next to Refresh, you have the option to set the frequency of updates to be hourly, daily, weekly, monthly, or none.
 
-![](<../.gitbook/assets/Screenshot 2023-11-13 at 4.21.44 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/7880707d-d229-40b7-ab88-33f47585ea58.png>)
 
 In the Metrics overview page, you'll also see two columns for **Run status** and **Last run**. Run status tells us whether or not the query was successfully run, and will appear as "Normal" or "Abnormal". Last run tells us when the query was last run.
 
@@ -52,7 +52,7 @@ In the Metrics overview page, you'll also see two columns for **Run status** and
 
 Some users might want to reference a Metric in a Document. You can embed a Metric chart directly into a Document by typing /metric and searching for the metric.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-12-19 at 14.53.28.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6b006aef-9970-4424-8061-c9fa45459774.gif" alt=""><figcaption></figcaption></figure>
 
 ## Nesting Metrics
 

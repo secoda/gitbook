@@ -65,7 +65,7 @@ For many integrations, Secoda will extract the description from the source on th
 
 If you'd like to override the description in Secoda in the following syncs, you can set the preferences for the integration in the Integration settings.
 
-<figure><img src=".gitbook/assets/Screenshot 2023-12-06 at 3.43.43 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/84990c85-e78e-44ee-a67c-ed5cfe8415f8.png" alt=""><figcaption></figcaption></figure>
 
 ## What is Secoda's back up policy?
 
@@ -104,7 +104,7 @@ Note: we're still available on Slack for urgent requests, questions, and general
 
 Please ensure the relevant address is whitelisted in any tool you'd like to integrate with Secoda. **Note:** These are only for Cloud workspaces. If you are on a managed instance, you can find the IPs in Secoda on the integration setup page (show below).
 
-<figure><img src=".gitbook/assets/Kapture 2023-12-29 at 10.31.27.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bd79c274-9b2e-4429-be9e-ac30efdf69f0.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

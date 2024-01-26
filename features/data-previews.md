@@ -14,7 +14,7 @@ Users are able to preview BI dashboards and visualizations directly in Secoda. W
 
 These previews are in fullscreen and can be found under the "Preview" tab of the resource.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-13 at 9.54.05 AM.png" alt=""><figcaption><p>Looker Dashboard Preview</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/270a277c-01a5-4340-97a7-1f636700fc8a.png" alt=""><figcaption><p>Looker Dashboard Preview</p></figcaption></figure>
 
 {% embed url="https://www.loom.com/share/c9562374408b4827a95d50c1f63020d1?sid=100a9a27-10e9-4924-9b7d-a957efa4ce3f" %}
 Previews Video Resource
@@ -24,4 +24,4 @@ Previews Video Resource
 
 Users are able to preview the first 50 table results directly in the Preview tab of the resource.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-09 at 3.45.46 PM.png" alt=""><figcaption><p>BigQuery Table Preview</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8827c221-4bdd-478f-957f-6e36450b93e7.png" alt=""><figcaption><p>BigQuery Table Preview</p></figcaption></figure>
