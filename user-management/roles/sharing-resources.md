@@ -18,7 +18,17 @@ Creating Teams and adding your users to those Teams is the ideal way to share da
 
 You can also manually override the Teams permissions that are set by clicking **Share link and permissions** in the top right of your resource, and clicking **Override permissions**.
 
+<<<<<<< Updated upstream
 &#x20; ![](<https://secoda-public-media-assets.s3.amazonaws.com/f8587efa-6e9d-44b3-b67f-6e412d9f7562.png>)
+=======
+Groups are a way to organize the members within your workspace, but outside of a Team. Using Teams with Collections are a more common way of organizing your resources, but Groups can be useful if you want to organize your members by job function, or any other way that makes sense for your organization.
+
+### Entity-level permissions
+
+You can override inherited permissions by clicking **Share link and permissions** in the top right of your resource.
+
+![](<https://secoda-public-media-assets.s3.amazonaws.com/f8587efa-6e9d-44b3-b67f-6e412d9f7562.png>)
+>>>>>>> Stashed changes
 
 Clicking **Copy link** copies the resource's unique URL to your clipboard so that you can share it with whoever you want. Still, only people with access to the resource can see it.
 
