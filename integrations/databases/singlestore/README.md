@@ -30,15 +30,15 @@ When connecting to SingleStore in Secoda, use the username/password you’ve cre
 
 To retrieve the host domain and port number, sign into SingleStore portal and navigate on the sidebar to `Cloud > Group > Workspaces`.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-14 at 2.55.49 PM.png" alt=""><figcaption><p>Navigate on the sidebar to <code>Cloud > Group > Workspaces</code></p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a97af923-076b-4e03-b2cb-fab280af89d7.png" alt=""><figcaption><p>Navigate on the sidebar to <code>Cloud > Group > Workspaces</code></p></figcaption></figure>
 
 Click `Connect` on the workspace you want to connect
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-14 at 2.56.06 PM (1).png" alt=""><figcaption><p>Click <code>Connect</code> on the workspace you want to connect</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2d56193b-daf6-4ad7-a2c3-33b1879bd964.png" alt=""><figcaption><p>Click <code>Connect</code> on the workspace you want to connect</p></figcaption></figure>
 
 Then you can navigate to `SQL IDE` tab to see the host and port.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-14 at 2.56.18 PM (1).png" alt=""><figcaption><p>Navigate to <code>SQL IDE</code> tab</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1653ed33-3c2c-4670-8bff-f1964635b506.png" alt=""><figcaption><p>Navigate to <code>SQL IDE</code> tab</p></figcaption></figure>
 
 **Connect SingleStore to Secoda**
 

@@ -35,7 +35,7 @@ The overall goal is to gain a feel for the quality of the dataset, and from here
 
 3. Double click into the visualization too see additional details like min, max, mode, unique values etc.
 
-<figure><img src="../.gitbook/assets/Kapture 2023-12-08 at 13.42.18.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/68ee1db9-dec8-4c1d-920a-32c857906923.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

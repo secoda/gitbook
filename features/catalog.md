@@ -14,7 +14,7 @@ From the Catalog page, Admins and Editors are able to export the Catalog view in
 
 Simply apply the filters, click the three dot menu and click "Download catalog view".&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-02 at 1.57.46 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6f9bbeed-9808-4826-926d-6e88b1b61228.png" alt=""><figcaption></figcaption></figure>
 
 To export all resources, check out our documentation on [import-and-export-data.md](../resource-and-metadata-management/import-and-export-data.md "mention").
 

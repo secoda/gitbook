@@ -34,7 +34,7 @@ One of the more important notification types that you might consider configuring
 Set these up in Settings by going to Notifications > Extractions > Table schema changed.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bb77712b-f368-4362-aa24-6292cffc0809.png" alt=""><figcaption></figcaption></figure>
 
 ## Subscribe to resource changes
 

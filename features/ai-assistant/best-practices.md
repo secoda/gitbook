@@ -26,7 +26,7 @@ Examples:
 
 Start new chats every 3-4 questions to ensure that the AI is able to keep up with the data provided. New chats can be started through the right side panel, like so.
 
-<figure><img src="../../.gitbook/assets/Kapture 2023-11-21 at 16.31.15.gif" alt=""><figcaption><p>Starting a new conversation</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8f0a011b-7424-45cb-8704-3f7108d66536.gif" alt=""><figcaption><p>Starting a new conversation</p></figcaption></figure>
 
 ## Make questions succinct
 

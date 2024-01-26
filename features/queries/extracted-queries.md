@@ -21,4 +21,4 @@ Queries can easily be copied, and run directly in Secoda through the [Query edit
 
 For resources that are created from a query (ex. Views) , You can find the Creation Query in the top right hand corner by clicking the `</>` icon. You can also copy that code for ease of use.
 
-<figure><img src="../../.gitbook/assets/Kapture 2024-01-24 at 16.24.33.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/be747437-f61a-4942-afb1-d2043c6c5a36.gif" alt=""><figcaption></figcaption></figure>

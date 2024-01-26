@@ -17,9 +17,9 @@ Assigning owners has many benefits. If your data has ownership defined, you can:
 
 After navigating to a Secoda resource, Editors and Admins can assign Owners by clicking the Owners field and selecting the relevant members from the workspace. The owners field is accessible through Catalog views, or in the side panel.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2023-11-24 at 1.15.38 PM.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5a8db21c-599c-473e-a1a4-7b501f9bc74e.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screen Shot 2023-11-24 at 3.45.11 PM.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/52fcae71-1c83-4397-99ca-1c1e301fb55a.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
 
 ## Automating ownership
 
