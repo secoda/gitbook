@@ -30,7 +30,7 @@ Learn about the many ways to automate metadata management [documentation-best-pr
   * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.
   * You can click the **Documents** tab and then begin adding additional documentation there. Read more about [Documents](../../features/documents.md)[.](../../features/documents.md)
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""></figure>
 
 * Add [tags](../tags/) such as PII, verified and custom tags to annotate the category and status of the data asset
 * [Link resources](../relating-resources.md) to create relationships between them

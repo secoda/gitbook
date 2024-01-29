@@ -24,7 +24,7 @@ This setting is configurable by Admins under "Publishing" in the Settings. If yo
 
 You can also publish all resources in your workspace with one click by using the **Publish all resources** button.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/deb074f5-0a14-4066-b6d8-7b817f10c396.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/deb074f5-0a14-4066-b6d8-7b817f10c396.png" alt=""></figure>
 
 ## Steps to edit Publishing Status
 
@@ -46,5 +46,5 @@ You can also publish all resources in your workspace with one click by using the
 
 Admins can access the workspace audit log through Secoda Settings. This log tracks all historical changes from the users in your workspace, whereas the [activity-log.md](../../../features/activity-log.md "mention") shows only changes to the specific resource that you're looking at.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/60cf2f4b-092b-42f2-9800-c46a2ef80be3.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/60cf2f4b-092b-42f2-9800-c46a2ef80be3.gif" alt=""></figure>
 

@@ -8,7 +8,7 @@ description: >-
 
 By using the /query command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections. This allows users to preview the data directly in Secoda.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3d7f82a1-97ac-4920-9df2-433ac4b87630.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3d7f82a1-97ac-4920-9df2-433ac4b87630.png" alt=""></figure>
 
 ## Turn off Query capabilities
 
@@ -26,7 +26,7 @@ If you'd like to turn off the ability to preview this data within Secoda, you ca
 3. Write your query and press the :arrow\_forward: button on the right hand side
 4. Sort the query by clicking on the column names, and share it with other users
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cc74459b-9c48-4e98-b34d-20cb563bf346.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cc74459b-9c48-4e98-b34d-20cb563bf346.gif" alt=""></figure>
 
 ## Scheduling queries
 

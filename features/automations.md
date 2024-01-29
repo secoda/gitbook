@@ -28,7 +28,7 @@ This list will expand over time, to eventually automate all the editable metadat
 1. Find and click into Automations in the left side bar under Monitors.
 2.  Click Add Automation, which will open a new automation template for you to fill out.&#x20;
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cd99248e-078a-4168-b32b-afb6839768c9.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cd99248e-078a-4168-b32b-afb6839768c9.png" alt=""></figure>
 3. The default title will be "New Automation". Enter a new title describing the task to be accomplished, for example "Update tags".
 
 #### Step 2: Set up rules as filters
@@ -52,4 +52,4 @@ This list will expand over time, to eventually automate all the editable metadat
 
 In the example below, you'll see an Automation that automatically updates the children of resources that are tagged with a "Warning" tag, with that same tag. This will be super time-saving with tables and columns, for example. If I bring in tables that already have a set tag, but the columns within do not yet, this automation will identify those columns and automatically tag them for me.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/34033212-a6cf-446d-8530-11053f328ad5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/34033212-a6cf-446d-8530-11053f328ad5.png" alt=""></figure>

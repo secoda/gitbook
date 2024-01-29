@@ -34,13 +34,13 @@ To create a new dictionary term, simply click **New Dictionary Term** in the top
 
 From here, you'll have the option to add a definition, list Collections the term is a part of, assign ownership, and add applicable tags.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6a2d34cd-adff-4ec8-9922-d9167ad1a390.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6a2d34cd-adff-4ec8-9922-d9167ad1a390.gif" alt=""></figure>
 
 ## Enriching Dictionary Terms
 
 There is a lot more enrichment that can be done with Dictionary terms in order to make them more searchable and link them elsewhere within the product. Add Related resources, a Verification status, as well as Teams that are associated with the term.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b9412fcc-974f-4c6b-b577-074cbede8cc0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b9412fcc-974f-4c6b-b577-074cbede8cc0.png" alt=""></figure>
 
 ## Dictionary Term Templates
 

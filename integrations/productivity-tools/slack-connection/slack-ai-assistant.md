@@ -33,7 +33,7 @@ This feature allows the AI Assistant to give answers to questions within Slack, 
 6. If marked :x:**Incorrect**, the question will be pushed to Secoda without a response and the Admins of the workspace will be notified to provide an answer
 7. Check out our best practices documentation on how to best implement this in your organization: [slack-less-than-greater-than-questions-workflow.md](../../../best-practices/slack-less-than-greater-than-questions-workflow.md "mention")
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Slack%20AI_2%20(2).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Slack%20AI_2%20(2).gif" alt=""></figure>
 
 **Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda](../../../features/ask-questions-in-secoda/ "mention") section.
 
@@ -45,4 +45,4 @@ The AI Assistant will reply in the channel, but this response will be _Only visi
 
 **Note:** As you can see below, it may take around 10 seconds to load a response:relaxed:
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-06-12%20at%2017.29.32%20(1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-06-12%20at%2017.29.32%20(1).gif" alt=""></figure>

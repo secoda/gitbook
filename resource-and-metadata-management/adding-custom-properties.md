@@ -22,7 +22,7 @@ Navigate to the resource and add the Custom Property using the button on the Rig
 
 By default, the properties will be text. However, you can adjust the type by clicking on the icon.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/04022502-77d4-40b3-9e35-f81d0ba13915.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/04022502-77d4-40b3-9e35-f81d0ba13915.png" alt=""></figure>
 
 **Add a custom property to all the Columns in a table:**&#x20;
 

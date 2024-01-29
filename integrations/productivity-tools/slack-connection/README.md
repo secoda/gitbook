@@ -40,7 +40,7 @@ You can also use the Slack integration for personal direct message notifications
    1. Note: This connection will need to be approved by your Slack admin manager.
 6. Choose the Slack channel(s) that you'd like to receive different notifications in.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cb828ed5-c8d2-4324-9438-264aa614ec30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cb828ed5-c8d2-4324-9438-264aa614ec30.png" alt=""></figure>
 
 {% hint style="info" %}
 **Notifications Channel** = Where users receive notifications on everything that is checked off in the Notifications tab of the Slack integration settings
@@ -61,7 +61,7 @@ Admins can set the workspace-level updates from Secoda to go to a Slack channel 
 
 Admins can edit the Slack Notification preferences in the **Notifications** tab in the Slack Integration Settings.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-12%20at%204.55.37%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-12%20at%204.55.37%20PM.png" alt=""></figure>
 
 ## Secoda AI : Slack
 
@@ -73,7 +73,7 @@ If a Slack conversation happens in another channel that is not listed in the Set
 
 This will be helpful for when questions are asked in Slack and a user chimes in with an answer. You won't have to copy this context into Secoda, but instead Push it into Questions with a few clicks.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7f341f05-88a4-45b6-a915-5ce137c8567a.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7f341f05-88a4-45b6-a915-5ce137c8567a.gif" alt=""></figure>
 
 ## Receiving DMs from Slack
 
@@ -83,7 +83,7 @@ If you're an owner or subscriber of a resource, you'll receive notifications abo
 
 1.  Hover over "... More" in Slack and click Automations&#x20;
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3d0b7db2-adbb-458f-a15d-0a0713fcc387.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3d0b7db2-adbb-458f-a15d-0a0713fcc387.png" alt="" width="375"></figure>
 2. Click into Apps and Search for Secoda
 3. Add Secoda, and see your personal Notifications appear via DM
 
@@ -128,7 +128,7 @@ You can also use Announcements with Slack if you'd like to send adhoc announceme
 3. Type up your announcement
 4.  In the Recipients field, search for a Slack channel that you'd like to share it to and select!
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-16%20at%2016.28.49.gif" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-16%20at%2016.28.49.gif" alt=""></figure>
 
 ## Video resource
 

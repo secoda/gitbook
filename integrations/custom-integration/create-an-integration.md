@@ -24,10 +24,10 @@ This step should only be done once, as once the integration is created, you can 
 
 Navigate over to [https://app.secoda.co/integrations](https://app.secoda.co/integrations) and click the New Integration button. Scroll to the bottom right to see the Custom Integration option.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/screencapture-app-secoda-co-integrations-new-2023-06-09-14_47_01.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/screencapture-app-secoda-co-integrations-new-2023-06-09-14_47_01.png" alt="" width="375"></figure>
 
 You'll then be able to name your integration, and add any associated teams. By default, the integration will be named Untitled, and associate with the General team.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%202.48.41%20PM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%202.48.41%20PM.png" alt="" width="375"></figure>
 
 Once you've made the integration, you can alter some settings to determine the behaviour of your integrations. Learn how to do this at the next page.&#x20;
