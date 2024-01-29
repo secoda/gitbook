@@ -31,7 +31,7 @@ Once installed and configured, the Chrome extension will appear as a Secoda icon
 6. If you're already logged into the Secoda app, it will bring you to Secoda and prompt you to **Authenticate Chrome Extension**. Click Authenticate.
 7. If you're not logged into the Secoda app, you will have to use your Secoda email to log into the app and then Authenticate the extension.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/551ce12b-88d8-4dae-a450-d628d3cc0c2c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/551ce12b-88d8-4dae-a450-d628d3cc0c2c.png" alt=""></figure>
 
 ## Capabilities
 
@@ -45,7 +45,7 @@ You also have the ability to edit resources from the extension and push these ch
 
 <div align="left">
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/80a69395-a7fe-437c-8be9-76e32f22a8f5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/80a69395-a7fe-437c-8be9-76e32f22a8f5.png" alt=""></figure>
 
 </div>
 
@@ -59,7 +59,7 @@ See the upstream and downstream lineage of the resource without having to leave 
 
 <div align="left">
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1b66daa8-5db4-404c-be3b-d097ed9fc61f.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1b66daa8-5db4-404c-be3b-d097ed9fc61f.png" alt=""></figure>
 
 </div>
 
@@ -69,7 +69,7 @@ Do you have a question about a resource for the AI Assistant? Ask AI directly in
 
 <div align="left">
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/13141863-01ff-4aeb-b829-6e4d827f082c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/13141863-01ff-4aeb-b829-6e4d827f082c.png" alt=""></figure>
 
 </div>
 
@@ -82,7 +82,7 @@ To search for Secoda context for any information from **any** website:
 
 The Chrome extension will open up a new browser tab with the results for that text.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bde0dd82-92aa-4896-9776-1017e7f00446.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bde0dd82-92aa-4896-9776-1017e7f00446.png" alt=""></figure>
 
 ## Supported tools
 

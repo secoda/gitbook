@@ -19,7 +19,7 @@ As an Admin, you're able to "lock" some of these personalizations. If you don't 
 * Go to **Settings** from the sidebar and click into Workspace Settings
 * Change the Logo to your organization's logo and change the name, if applicable
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-30%20at%203.08.27%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-30%20at%203.08.27%20PM.png" alt=""></figure>
 
 ### Allowed Domains
 
@@ -41,7 +41,7 @@ In the **Appearance** Settings, you are able to toggle on/off full width which a
 
 In this view, you also have the ability to hide query blocks from automatically being added to your dictionary terms.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1849eb3e-3c06-41d4-98ae-7bb00a4b57cf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1849eb3e-3c06-41d4-98ae-7bb00a4b57cf.png" alt=""></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

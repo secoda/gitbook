@@ -18,7 +18,7 @@ To define which emails should be counted, please navigate to the Popularity tab 
 
 For example, if `bob@company.com` runs a query against your Redshift instance, but is not a member of the Secoda workspace, `bob@company.com` will be considered a Service Account in Secoda and will show up in the Popularity tab of the integrations settings as seen below.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1720d699-2b8b-4bc6-b385-b771b3d328e4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1720d699-2b8b-4bc6-b385-b771b3d328e4.png" alt=""></figure>
 
 If an email associated with a Service Account signs into Secoda, it will be converted from a Service Account to a Secoda user and show up in the Members tab of the workspace settings.&#x20;
 

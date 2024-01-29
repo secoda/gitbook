@@ -21,4 +21,4 @@ Check out our best practices documentation: [verifying-resources-workflow.md](..
 You can use the Verified tag on Catalog resources, Documents and Dictionary terms.
 {% endhint %}
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/84f933cc-fb18-4293-b58a-9bfabd26c3c3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/84f933cc-fb18-4293-b58a-9bfabd26c3c3.png" alt=""></figure>

@@ -28,7 +28,7 @@ On this screen, you'll be able to see the plan level that you and your team are 
 
 If you're adding multiple teammates at once, we recommend **using the "Invite members" button** so that you can add them in bulk.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f1fc74b4-1224-4d02-b700-18631a526b5b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f1fc74b4-1224-4d02-b700-18631a526b5b.png" alt=""></figure>
 
 {% embed url="https://www.loom.com/share/fa7b7a5939b64d57bc648189405fb6d8?sid=9241af9d-25f1-4d81-a7c0-1b4d4743f707" %}
 

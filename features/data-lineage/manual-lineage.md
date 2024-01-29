@@ -28,7 +28,7 @@ Open up the data asset you would like to add lineage to in Secoda, you can do th
 * Connect the new Lineage Node to any desired Lineage Node on the diagram <mark style="color:red;">**(C)**</mark>, and click `Save` to save your changes.
 
 ```
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-04%20at%203.20.43%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-04%20at%203.20.43%20PM.png" alt=""></figure>
 ```
 
 The new connection you have created is bi-directional on data assets. In the example above, this means if you navigate to the `Regional` dashboard's lineage diagram, you will see that the table `stg_payments` is now part of the lineage diagram.
@@ -44,7 +44,7 @@ If you've made an accidental connection or want to make updates, you can delete 
 Note: You can only delete manually created lineage, not automatic lineage brought in from the source.
 {% endhint %}
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-05%20at%204.22.52%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-05%20at%204.22.52%20PM.png" alt=""></figure>
 
 ## Video Resource
 

@@ -14,10 +14,10 @@ You can also bulk tag using our [propagating-metadata.md](../add-documentation/p
 
 You can delete a Custom Tag by clicking **Delete** on the same Settings page. Since this action can't be undone within the UI, you will receive a warning before you confirm that you'd like to delete the tag.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/466b1e46-ca51-423f-8712-47dbdf1127aa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/466b1e46-ca51-423f-8712-47dbdf1127aa.png" alt=""></figure>
 
 ## Filtering for Tags
 
 You might want to filter your search for resources with the same Tag. You can do that by clicking  `Add filter` within the Search window.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3ccfa6ff-74fb-4110-aa5e-1137dacd554c.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3ccfa6ff-74fb-4110-aa5e-1137dacd554c.gif" alt=""></figure>

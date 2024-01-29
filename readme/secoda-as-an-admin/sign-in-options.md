@@ -8,7 +8,7 @@ description: >-
 
 There are a variety of ways to sign into Secoda, depending on your existing systems and levels of security. When first accessing the app at app.secoda.co, you'll be shown this screen below. You have the options to sign in with email, SAML, a Microsoft account or a Google account.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6c847a24-4a22-4c1e-855f-8aec32354e20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6c847a24-4a22-4c1e-855f-8aec32354e20.png" alt=""></figure>
 
 ## Microsoft SSO, Google SSO and email
 
@@ -33,4 +33,4 @@ Enterprise plan subscribers with SAML SSO enabled can opt to enable [SCIM](../..
 
 Admins can require users to sign in with a specific type of SSO. Go to Settings > Workspace Settings > Enforce SSO. You then can choose between Google, Microsoft or SAML. Once you choose, users won't be able to login through email or any other means. If they attempt to, it will redirect them to the type that you've specified.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/97ddc084-6ead-43c7-b4a1-7d07f494cc84.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/97ddc084-6ead-43c7-b4a1-7d07f494cc84.png" alt=""></figure>

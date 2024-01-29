@@ -31,7 +31,7 @@ Adding integrations is simple.&#x20;
 4. Under "Associated Teams", click which Teams you'd like to have access to all of the metadata in that integration.
 5. See the Metadata seamlessly flow into your [catalog.md](../../../features/catalog.md "mention").
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.15.07.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.15.07.gif" alt=""></figure>
 
 ## Current integrations
 

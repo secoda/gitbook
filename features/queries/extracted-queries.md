@@ -13,7 +13,7 @@ By clicking on the Queries tab from a resource in Secoda, you can see the query 
 
 At time of extraction, Secoda pulls the last 24 hours of queries run on the resource, directly from the integration. Any queries that haven't been previously seen will be added to the list of queries associated with that resource in Secoda. This list of queries can be found through the Queries tab of the resource page, as seen below.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1f615616-7da5-4871-afcd-9be6146ebd62.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1f615616-7da5-4871-afcd-9be6146ebd62.gif" alt=""></figure>
 
 Queries can easily be copied, and run directly in Secoda through the [Query editor in a document](running-queries-in-secoda/).
 
@@ -21,4 +21,4 @@ Queries can easily be copied, and run directly in Secoda through the [Query edit
 
 For resources that are created from a query (ex. Views) , You can find the Creation Query in the top right hand corner by clicking the `</>` icon. You can also copy that code for ease of use.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/be747437-f61a-4942-afb1-d2043c6c5a36.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/be747437-f61a-4942-afb1-d2043c6c5a36.gif" alt=""></figure>

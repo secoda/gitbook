@@ -32,7 +32,7 @@ Continuing with the example above, the Application ID URI field should be.&#x20;
 
 Click “Endpoints” and copy the “Federation metadata document”.&#x20;
 
-<figure><img src="https://imagedelivery.net/28-eDrK8lEif6_ED0iMQeg/344f8cf5-26b7-42d2-2665-bd2a61857e00/public" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://imagedelivery.net/28-eDrK8lEif6_ED0iMQeg/344f8cf5-26b7-42d2-2665-bd2a61857e00/public" alt=""></figure>
 
 ### Step 4 - Request in Secoda app
 
