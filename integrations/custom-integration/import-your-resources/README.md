@@ -16,7 +16,7 @@ You can upload these resources into Secoda through the UI, or through an API req
 
 Navigate to the Integrations page, click on Custom Integration, and you'll see the ability to select and upload the relevant files.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6b45de04-6904-4738-bd11-086b6b1b8dea.png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/6b45de04-6904-4738-bd11-086b6b1b8dea.png)
 
 ### Upload through the API
 

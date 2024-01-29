@@ -24,7 +24,7 @@ You can use Secoda's UI to make edits to the resources. All the ways to do this 
 
 You can delete resources extracted from Custom Integrations in the UI by clicking on the three dots in the top right corner, and then clicking Delete.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%203.25.13%20PM.png" alt="" width="308"></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%203.25.13%20PM.png)
 
 ### Edit in CSV Export
 

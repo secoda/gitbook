@@ -55,7 +55,7 @@ Once your tunnel has been made, navigate to the source that you're integrating w
 
 At the bottom of the connect page, you'll see the option to add a tunnel. Click on the arrow to see a drop down menu with your recently created Tunnel. Select this tunnel, and click Test Connection to complete your integration setup!
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6fec8c62-f468-4411-8ade-6dca075dda43.png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/6fec8c62-f468-4411-8ade-6dca075dda43.png)
 
 ### Troubleshooting <a href="#h_4e44bc0849" id="h_4e44bc0849"></a>
 

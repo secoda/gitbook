@@ -10,7 +10,7 @@ description: >-
 
 To start the process of connecting your AWS account to Secoda, navigate to the [New Integrations](https://app.secoda.co/integrations/new) page and select an AWS integration. Select the "Role" Option.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(15)%20(1).png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(15)%20(1).png)
 
 Cross-account roles are a mechanism provided by AWS to allow you to grant secure access to Secoda without requiring that you hand over sensitive secrets like Secret Access Keys.
 
@@ -23,7 +23,7 @@ Neither the Account ID nor the External ID are secrets, so don't worry about kee
 3.
 
 ```
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cross-account-2-create-role.png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/cross-account-2-create-role.png)
 ```
 
 4. Proceed to attach permissions to the role, choose a name, then create the role.

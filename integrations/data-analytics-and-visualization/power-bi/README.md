@@ -33,16 +33,16 @@ The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI worksp
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(2\)%20\(1\)%20\(3\).png)
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image.png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/image.png)
 
 3. Ensure that the following permissions have been set in your Secoda (Power BI) Enterprise Application in Azure
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(1).png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(1).png)
 
 4. After you've connected Power BI to Secoda go to [https://app.secoda.co/integrations](https://app.secoda.co/integrations)
 5.  Select your Power BI integration and go to **History > Run extraction > Metadata extraction** which will start an extraction for your Power BI integration.
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(4)%20(1).png" alt=""></figure>
+    ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(4)%20(1).png)
 
 ### Self Managed
 
@@ -103,7 +103,7 @@ Here are the steps to set up a self managed Power BI Azure AD App
 
 To extract Power BI datasets, the "Enhance admin APIs responses with detailed metadata" option in the admin panel must be toggled on.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(4).png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(2)%20(4).png)
 
 ### Troubleshooting
 
