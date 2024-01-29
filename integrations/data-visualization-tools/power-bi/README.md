@@ -92,7 +92,7 @@ Whether you set up Admin or non-admin access APIs is up to you. Admin access ena
    * Member: Secoda
    * Permission: Contributor
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/fff89f8c-0a6b-467c-97c1-e4a572f6713d.png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/fff89f8c-0a6b-467c-97c1-e4a572f6713d.png)
 
 ### Step 5 ->Add the PowerBI Integration To Secoda
 

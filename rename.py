@@ -10,6 +10,10 @@ bucket_name = "secoda-public-media-assets"
 s3 = boto3.resource("s3")
 bucket = s3.Bucket(bucket_name)
 
+# After, run the following regex to fix the markdown embeds on the integrations page.
+# INPUT: <figure><img src="(.*)" alt.*"><figcaption>(.*)</figcaption></figure>
+# REPLACE: ![]($1)\n$2
+
 # Define the regex patterns and replacement strings
 regex_patterns = [
     r"(https://raw.*/.gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|mov|mp4|mpg|mpeg|m4v|pdf|csv)))",  # '.\g<1>'),

@@ -16,7 +16,7 @@ To create a Sigma access token for Secoda visit Sigma and log into your account.
 2. Click the option **APIs and Embed Secrets**
 3. Click **Create New** in the top right
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(1)%20(1)%20(1).png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(1)%20(1)%20(1).png)
 
 4. Fill out the form with the Name and Owner. Make sure that the owner is an Administrator.
 5. Copy the Client ID and Secret and save it. This will be used to connect to Secoda.
@@ -25,7 +25,7 @@ To create a Sigma access token for Secoda visit Sigma and log into your account.
 
 In the **Administrator** settings go to **Account.** In the top under the **Site** you can see which cloud your hosted on, either AWS or GCP.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(7).png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/image%20(7).png)
 
 The host parameter is https://api.sigmacomputing.com for GCP organizations and https://aws-api.sigmacomputing.com for AWS organizations.
 

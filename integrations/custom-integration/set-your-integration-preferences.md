@@ -2,7 +2,7 @@
 
 Once you've made the integration, you can alter some settings to determine the behaviour of your integrations. These settings can only be set in the UI. Navigate to the Preferences heading of your Integration.&#x20;
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%202.55.24%20PM.png" alt=""></figure>
+![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%202.55.24%20PM.png)
 
 By default the preferences are set to disabled for all integrations. Toggle them on if you'd like to:&#x20;
 
