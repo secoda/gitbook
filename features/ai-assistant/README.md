@@ -57,6 +57,8 @@ We are very excited about the Secoda AI Assistant, and are regularly making impr
 * Role and access based answers
 * And more!
 
+[Explore plans which include our AI Assistant here](https://docs.secoda.co/features/ai-assistant)
+
 {% hint style="info" %}
 Secoda AI Assistant is only available for Version 7.0.0 and up. If you are running Secoda On Premise or using a managed Instance, this functionality may not be available for you yet. Stay tuned!
 {% endhint %}
