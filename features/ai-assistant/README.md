@@ -4,6 +4,10 @@ description: This page will go over the AI Assistant functionality.
 
 # AI Assistant
 
+{% hint style="info" %}
+Explore plans which include our AI Assistant [here](https://docs.secoda.co/features/ai-assistant).
+{% endhint %}
+
 ## Overview
 
 Secoda's AI Assistant can be thought of as ChatGPT for your data stack. Using a chat interface, it lets anyone at your company get an answer to a data question, regardless of technical ability.
