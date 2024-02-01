@@ -4,7 +4,7 @@ description: Best practices around verifying resources in your workspace
 
 # Verifying resources workflow
 
-Verifying resources is an important step to address data governance goals at your organization. Verifying a resource gives end-users the confidence that they're using the best source for their work. All types of resources can be tagged as verified including metrics, dictionary terms, documents, tables et.c
+Verifying resources is an important step to address data governance goals at your organization. Verifying a resource gives end-users the confidence that they're using the best source for their work. All types of resources can be tagged as verified including metrics, dictionary terms, documents, tables, etc.&#x20;
 
 Secoda users can utilize the Questions feature in the UI to align on Verified resources. This document outlines the best practices that we've seen work best when identifying and defining Verified resources.
 
@@ -16,7 +16,7 @@ Secoda users can utilize the Questions feature in the UI to align on Verified re
 2. Tag the relevant users who should have a say in answering the question, in the comment section.
 3. Everyone in the thread contributes their notes and comes to a conclusion.
 4. Create or identify the resource, add the appropriate metadata (description, owner, tags etc.) and tag it as Verified to indicate to users that they should trust this as the source of truth.
-5. Link the Question as a [Related resource ](../../resource-and-metadata-management/relating-resources.md)for auditing capabilities and tracking how the group came to the decision.
+5. Link the Question as a [Related resource ](../resource-and-metadata-management/relating-resources.md)for auditing capabilities and tracking how the group came to the decision.
 
 **Check out the video resource showing this workflow!**
 
