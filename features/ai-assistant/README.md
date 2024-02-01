@@ -5,7 +5,7 @@ description: This page will go over the AI Assistant functionality.
 # AI Assistant
 
 {% hint style="info" %}
-Explore plans which include our AI Assistant [here](https://docs.secoda.co/features/ai-assistant).
+Explore plans which include our AI Assistant [here](https://www.secoda.co/pricing).
 {% endhint %}
 
 ## Overview
