@@ -2,12 +2,12 @@
 description: List of all the metadata that Secoda pulls from Metabase
 ---
 
-# Metadata Extracted
+# Metabase Metadata Extracted
 
 ### What does Secoda extract from Metabase?
 
 {% hint style="info" %}
-NOTE: Preview of Metabase resources is available in Secoda if permissions are granted.&#x20;
+NOTE: Preview of Metabase resources is available in Secoda if permissions are granted. [Interactive embedding ](https://www.metabase.com/docs/latest/embedding/interactive-embedding#enabling-interactive-embedding-in-metabase)will need to be enabled for Metabase Previews in Secoda to work.
 {% endhint %}
 
 * Collections
