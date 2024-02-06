@@ -18,7 +18,7 @@ The data discovery features offered by Secoda, such as the Search function, data
 
 ## Learn about Secoda as...
 
-### [an Admin](./#an-admin)
+### [an Admin](getting-started/secoda-as-an-admin/)
 
 As a Secoda workspace admin, you're responsible for setting up your data integrations and inviting new team members. There are other tasks that we recommend that are outlined **in** [**this section**](getting-started/secoda-as-an-admin/).
 
@@ -34,7 +34,7 @@ As a Viewer in Secoda, you get to view and search all of the published data reso
 
 Want to learn about the product in action? Read up on some case studies about how our power customers have integrated the product into their workflows [**here**](https://www.secoda.co/customers).
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d43aae8b-af06-445b-97e7-f7325e109601.png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d43aae8b-af06-445b-97e7-f7325e109601.png" alt=""><figcaption></figcaption></figure>
 
 ## Video resource: Introduction to Secoda
 
