@@ -29,6 +29,7 @@
       * [Redshift Metadata Extracted](integrations/data-warehouses/redshift-integration/redshift-metadata.md)
     * [Snowflake](integrations/data-warehouses/snowflake-integration/README.md)
       * [Snowflake Metadata Extracted](integrations/data-warehouses/snowflake-integration/snowflake-metadata/README.md)
+      * [Snowflake costs](integrations/data-warehouses/snowflake-integration/snowflake-costs.md)
     * [Apache Hive](integrations/data-warehouses/apache-hive/README.md)
       * [Apache Hive Metadata Extracted](integrations/data-warehouses/apache-hive/metadata-extracted.md)
     * [Azure Synapse](integrations/data-warehouses/azure-synapse/README.md)
