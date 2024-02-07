@@ -18,14 +18,12 @@ Cost monitoring does _not_ add more costs to Snowflake since we are only queryin
 
 You can even use our monitoring features on a Snowflake cost widget to be alerted about changes to daily costs. Simply create the widget, then use the three dot menu to create a monitor.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-28 at 4.21.09 PM.png" alt=""><figcaption></figcaption></figure>
 
 Add filters on usage type and balance source, and voila! You can catch changes before they become larger issues.
 
 <div align="left">
 
-<figure><img src="broken-reference" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-27 at 2.17.19 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
-
-##
