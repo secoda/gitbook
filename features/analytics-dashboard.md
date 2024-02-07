@@ -19,7 +19,7 @@ This feature is located above Settings in the left side panel.
 
 Create Reports to organize your Analytics widgets into separate themes. For example, you can have one Report that shows stats on your users, another on documentation, and another on Snowflake costs.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-07 at 4.11.22 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Filtering the dashboard
 
