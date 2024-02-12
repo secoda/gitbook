@@ -21,6 +21,7 @@
     * [Introduction Guide](readme/secoda-as-a-viewer/introduction-guide.md)
     * [Requesting Changes in Secoda](getting-started/secoda-as-a-viewer/requesting-changes-in-secoda.md)
 * [Integrations](integrations/README.md)
+  * [Integration Settings](integrations/integration-settings.md)
   * [Data Warehouses](integrations/data-warehouses/README.md)
     * [BigQuery](integrations/data-warehouses/bigquery-integration/README.md)
       * [BigQuery Metadata Extracted](integrations/data-warehouses/bigquery-integration/bigquery-metadata.md)
