@@ -4,10 +4,8 @@ description: Edit the metadata or bring in new dictionary terms through this fea
 
 # Import and Export Metadata
 
-
-
 {% hint style="info" %}
-If you are hoping to bring in net new resources from an Integration without connecting the integration in the App, you'll need to use the [Custom Integrations](../integrations/custom-integration/) feature. If you are looking to edit existing resources, dictionary terms, documents, etc, you're in the right place!
+If you are hoping to bring in net new resources from an Integration without connecting the integration in the App, you'll need to use the [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, dictionary terms, documents, etc, you're in the right place!
 {% endhint %}
 
 {% embed url="https://www.loom.com/share/8290f98c95ba465c803421d0772f8972" %}
@@ -16,13 +14,13 @@ If you are hoping to bring in net new resources from an Integration without conn
 
 To export data descriptions out of Secoda, you can go to the [import settings](https://app.secoda.co/settings/import) in **Settings → Import & Export** data. Below is the screenshot for the settings. When exporting you can choose the type of resource you'd like to export. After clicking the export button, an **Artifact** will be prepared with your resources. Once it's prepared click the "Download Artifact" button.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(13)%20(2).png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(13)%20(2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(16)%20(2).png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(16)%20(2).png" alt=""><figcaption></figcaption></figure>
 
 Once you export your data , you can view and edit your descriptions in CSV format or Google Sheets and upload the changes to Secoda. Below is an overview of the results from exporting your data:
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(1).png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 Once you are ready to upload your new metadata, you can use the import button to upload your new CSV into Secoda.
 
@@ -38,10 +36,6 @@ If you have set up a documentation tool (Excel, G-Sheet etc.) at your organizati
 
 You can either export your data from Secoda to a CSV, use the template linked below, or create your own CSV using the guidance provided. The file must be in CSV format.
 
-{% file src="https://secoda-public-media-assets.s3.amazonaws.com/301663b6-9811-4577-b7bc-16a88733fe75.csv" %}
-A CSV file with the headings for importing into Secoda.
-{% endfile %}
-
 * The file must have the following **required** columns:
   * **id -** Leave this blank if it's a new resource (i.e dictionary term)
   * **title -** The name of the resource
@@ -55,13 +49,13 @@ A CSV file with the headings for importing into Secoda.
   * **collections -** List of associated collection names, i.e \['Marketing', 'Engineering']
   * **owners** - List of associated owner emails, i.e, \['andrew@secoda.co', 'etai@secoda.co']. The emails should correspond to existing users or service accounts in Secoda
   * **tags -** List of associated tag names, i.e, \['production']
-  * **property** - This heading is a placeholder for any custom properties you'd like to add to the resource. Please remove it if you don't plan on any custom properties for your resource. To customize it, replace **property** with the name of your custom property and add the values of that property to the relevant rows. If you'd like to add several custom properties, add a new column for each one, with the name of the custom property as the column heading.&#x20;
+  * **property** - This heading is a placeholder for any custom properties you'd like to add to the resource. Please remove it if you don't plan on any custom properties for your resource. To customize it, replace **property** with the name of your custom property and add the values of that property to the relevant rows. If you'd like to add several custom properties, add a new column for each one, with the name of the custom property as the column heading.
 
 #### 2. Upload metadata to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
 
 Log into [Secoda](https://app.secoda.co) and go into the [import settings](https://app.secoda.co/settings/import) through **Settings > Import & Export.** Click the "Select File" button under the Import section and select your CSV file and click "Upload". The import will start and show logs until it's completed.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(12)%20(2).png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(12)%20(2).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. Verify metadata <a href="#h_47949f1af3" id="h_47949f1af3"></a>
 
