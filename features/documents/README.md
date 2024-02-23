@@ -21,8 +21,8 @@ Try using the '/' command to add custom elements to a document. Secoda's documen
 
 To learn more about Embedding, you can check out the page below!
 
-{% content-ref url="embeds.md" %}
-[embeds.md](embeds.md)
+{% content-ref url="../embeds.md" %}
+[embeds.md](../embeds.md)
 {% endcontent-ref %}
 
 ### Analysis Documents
@@ -31,6 +31,6 @@ A unique feature of our Documents, is that you can use them with live queries an
 
 Analysis documents are useful once you've connected your database to Secoda and given Secoda permission to query the data in the database. To learn more about how to Query in Secoda for analysis within the tool, check out the page below!
 
-{% content-ref url="queries/" %}
-[queries](queries/)
+{% content-ref url="../queries/" %}
+[queries](../queries/)
 {% endcontent-ref %}

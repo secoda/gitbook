@@ -2,7 +2,7 @@
 
 ## Confluence integration with Secoda
 
-With the Confluence integration, you can sync the content that you've built out in Confluence into Secoda's [Documents](../../../features/documents.md) feature. This allows it to be discoverable, searchable and editable for your Secoda users. There are a few ways to use this integration and we've put together some best practices that we've seen work successfully for our customers.
+With the Confluence integration, you can sync the content that you've built out in Confluence into Secoda's [Documents](../../../features/documents/) feature. This allows it to be discoverable, searchable and editable for your Secoda users. There are a few ways to use this integration and we've put together some best practices that we've seen work successfully for our customers.
 
 You'll want to decide which tool you'd like to be considered the source of truth. **Changes made to Confluence documents in Secoda will not be persisted back to Confluence.** For example, if you have brought in a Document and then decide to make edits on it within Secoda. That document will then become out of sync with the one in Confluence. We recommend choosing between Secoda or Confluence being your source of truth so that your users know which one to trust as the most up to date resource.
 

@@ -76,7 +76,7 @@ Some common use cases for dictionary terms are defined metrics and company speci
 
 #### Documents
 
-[Documents](../../features/documents.md) in Secoda are robust, and allow you to combine text, queries, photos, and live charts in a notebook interface. Use this tab to find information about your organization’s data that is not directly tied to one specific table, term, or resource. Just like the Dictionary, all Documents can be found using Search, and can be directly linked in other resources in the workspace.
+[Documents](../../features/documents/) in Secoda are robust, and allow you to combine text, queries, photos, and live charts in a notebook interface. Use this tab to find information about your organization’s data that is not directly tied to one specific table, term, or resource. Just like the Dictionary, all Documents can be found using Search, and can be directly linked in other resources in the workspace.
 
 We see customers using Documents in a similar way you might use other collaborative documentation tools, like Confluence and Notion.
 
