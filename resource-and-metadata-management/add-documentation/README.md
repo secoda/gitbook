@@ -28,9 +28,9 @@ Learn about the many ways to automate metadata management [documentation-best-pr
 * Search for the dataset or click into the Catalog to find the data that you'd like to document
   * After you've selected the dataset you'd like to document, you'll be directed to the dataset overview page, which shows you the resources currently associated with that data set.
   * You can add a description directly to the dataset by clicking underneath the name of the dataset and typing.
-  * You can click the **Documents** tab and then begin adding additional documentation there. Read more about [Documents](../../features/documents.md)[.](../../features/documents.md)
+  * You can click the **Documents** tab and then begin adding additional documentation there. Read more about [Documents](../../features/documents/)[.](../../features/documents/)
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2014.31.09.gif" alt=""><figcaption></figcaption></figure>
 
 * Add [tags](../tags/) such as PII, verified and custom tags to annotate the category and status of the data asset
 * [Link resources](../relating-resources.md) to create relationships between them
