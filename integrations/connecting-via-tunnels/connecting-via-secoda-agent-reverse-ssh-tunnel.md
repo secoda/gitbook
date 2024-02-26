@@ -1,16 +1,16 @@
 ---
-description: This page walks through connecting your data sources via the Secoda Agent
+description: This page walks through connecting your data sources via a Reverse SSH Tunnel
 ---
 
-# Connecting via Secoda Agent (Reverse SSH Tunnel)
+# Connecting via Reverse SSH Tunnel
 
 ## **Getting Started**
 
-**The Secoda Agent**  implements a Reverse SSH Tunnel to securely connect local data sources without opening ports, while encrypting data in-transit.
+The Reverse SSH Tunnel is used securely connect local data sources without opening ports, while encrypting data in-transit.
 
 ### **Setup**
 
-On your own EC2/VM, you will run the Secoda Agent as a docker image. You can use docker-compose, like so:
+On your own EC2/VM, you will run the `secoda/agent` docker image. You can use docker-compose, like so:
 
 ```yml
 version: "3"
@@ -27,7 +27,7 @@ services:
       - WAREHOUSE_PORT=
 ```
 
-Secoda Agent is an enterprise preview feature. Your enterprise contact at Secoda will provide you with the values for the environment variables.
+Secoda Agent is an Enterprise feature. Your enterprise contact at Secoda will provide you with the values for the environment variables.
 
 ### **Running**
 
@@ -40,7 +40,9 @@ docker-compose up -d
 ### Troubleshooting
 
 Upon running the agent, if the agent becomes stuck on the version number during the startup process, similar to:
+
 ```bash
 agent  | OpenSSH_9.3p2, OpenSSL 3.1.3 19 Sep 2023
 ```
+
 This typically means that the outbound connection is blocked. Please check your firewall settings. Secoda can adjust the outbound port to a whitelisted one if necessary.

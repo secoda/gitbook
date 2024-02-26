@@ -120,7 +120,7 @@
     * [Trino](integrations/query-engines/trino/README.md)
       * [Trino Metadata Extracted](integrations/query-engines/trino/trino-metadata-extracted.md)
   * [Connecting via Tunnels](integrations/connecting-via-tunnels/README.md)
-    * [Connecting via Secoda Agent (Reverse SSH Tunnel)](integrations/connecting-via-tunnels/connecting-via-secoda-agent-reverse-ssh-tunnel.md)
+    * [Connecting via Reverse SSH Tunnel](integrations/connecting-via-tunnels/connecting-via-secoda-agent-reverse-ssh-tunnel.md)
     * [Connecting via SSH Tunnel](integrations/connecting-via-tunnels/connecting-via-ssh-tunnel.md)
     * [Connecting via VPC Peering](integrations/connecting-via-tunnels/connecting-via-vpc-peering.md)
     * [Connecting via AWS Cross Account Role](integrations/connecting-via-tunnels/connecting-via-aws-cross-account-role.md)
