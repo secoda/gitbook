@@ -4,13 +4,13 @@ description: >-
   effective results.
 ---
 
-# Best Practices
+# Interacting with the AI Assistant
 
 When interacting with the Secoda AI Assistant, here are some ways to make the most of the feature.
 
 ## Reference specific resources
 
-There are many times where you'd use the AI Assistant as a discovery tool to find a column or dashboard based on a set of criteria. In other cases, you might know the exact resource name that you'd like more information on. When you do know, it's best to reference the specific resource in your prompt so that the AI Assistant knows exactly which resource you're referring to.&#x20;
+There are many times where you'd use the AI Assistant as a discovery tool to find a column or dashboard based on a set of criteria. In other cases, you might know the exact resource name that you'd like more information on. When you do know, it's best to reference the specific resource in your prompt so that the AI Assistant knows exactly which resource you're referring to.
 
 To do so, **use the @ symbol in your question, followed by the resource name**. This will alert to the AI Assistant to use only that resource when delivering an answer.
 
@@ -36,7 +36,9 @@ Focus on succinct questions. Obscure prompts about the metadata, or long winded 
 
 Questions about the actual content of the data, that isn't referenced in the metadata or documentation, will not provide the most useful results. This is because the data itself is not being sent to OpenAI. Instead, try asking it to write a query for the data you're hoping to learn about.
 
+## Unsure where to start?
 
+Check out our list of [prompts.md](../features/ai-assistant/prompts.md "mention") that you can ask the tool.
 
 **Don't just take our word for it! Ask the tool itself** :wink:
 
