@@ -27,7 +27,7 @@ Create a key, and then save the **Client ID** and **Client Secret**
 
 #### **Retrieve your host** <a href="#h_75eb18a905" id="h_75eb18a905"></a>
 
-Your **host** is the url of your Looker instance **including** the port. For example if your site is: `https://company.cloud.looker.com` the **host** is `https://company.cloud.looker.com:443`
+Your **host** is the url of your Looker instance, for example `https://company.cloud.looker.com`
 
 Sometimes an admin will have specified a custom API url. If that's the case, reach out to your admin and ask them to provide that url.
 
