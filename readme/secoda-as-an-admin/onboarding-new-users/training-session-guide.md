@@ -32,12 +32,13 @@ Share your screen showing your Secoda workspace.
 * Click into Teams and explain how you've designed them; point out which Team the group you're presenting to will be added to
 *   Demo how to join and leave a Team and how it appears in the left sidebar once you join
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3f55a9a4-9d15-4f37-839a-cc46b9d97729.gif" alt=""></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3f55a9a4-9d15-4f37-839a-cc46b9d97729.gif" alt=""><figcaption></figcaption></figure>
 * Click into a Team to explain the different sections within a Team
   * The Team Homepage functions similarly to the Main homepage, but it is configured by the Admins and is specific to that Team - pin resources that the whole Team will benefit from having easy access to
   * The Catalog hosts all of your data sources - show the different integrations
-  * Talk about your current use cases for Documents - what type of documentation have you built out
+  * Metrics is where you can define key metrics your team uses, and visualize them by writing the SQL query used to calculate them
   * The Dictionary is a space for glossary terms and metrics - show what you've built out so far and how you plan to use that feature
+  * Talk about your current use cases for Documents - what type of documentation have you built out
   * Questions is where FAQs live, and also can be used for data requests - explain if/how you plan to incorporate these into workflows
   * Collections are essentially folders that allow you to group a subset of each of these resources - you might consider having separate Collections for different projects within a team
   * Note that Admins can remove any of these sections to simplify the user's experience if they don't need access to certain features
@@ -50,7 +51,7 @@ Share your screen showing your Secoda workspace.
   * Navigate to the Lineage tab to show that feature, if applicable
 *   Click into Search and show off all of the search filters that will help users narrow down their search, more details here [#search](training-session-guide.md#search "mention")
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f89bc6c1-9ddf-4518-ab4d-f652e45d65f7.gif" alt=""></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f89bc6c1-9ddf-4518-ab4d-f652e45d65f7.gif" alt=""><figcaption></figcaption></figure>
 
 #### AI Assistant
 
@@ -62,7 +63,7 @@ Share your screen showing your Secoda workspace.
 
 #### Slack Integration
 
-* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [#how-to-use](../../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md#how-to-use "mention")
+* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [slack-user-guide.md](../../../integrations/productivity-tools/slack-connection/slack-user-guide.md "mention")
 
 {% embed url="https://www.loom.com/share/ebc7267824734f0c92ed1c74d0a42ac3?sid=0fa8cb84-fd7c-4b1e-b93b-e8311c2f84f5" %}
 

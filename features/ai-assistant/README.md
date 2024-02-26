@@ -49,7 +49,7 @@ The AI Assistant tool is a powerful to to help users find information by using p
 
 The AI Assistant can also be used outside of Secoda, in your other tools.
 
-* Connect Secoda and the AI Assistant to your Slack workspace, to improve the data-related questions workflow [slack-ai-assistant.md](../../integrations/productivity-tools/slack-connection/slack-ai-assistant.md "mention").
+* Connect Secoda and the AI Assistant to your Slack workspace, to improve the data-related questions workflow [#secoda-ai-slackbot](../../integrations/productivity-tools/slack-connection/slack-user-guide.md#secoda-ai-slackbot "mention")
 * [#chat-with-secoda-ai](../chrome-extension.md#chat-with-secoda-ai "mention") by using the Chrome extension in other supported data tools, like Tableau and Snowflake.
 
 ## Future Improvements

@@ -15,7 +15,7 @@ You can read all about automated Lineage in Secoda [here](../data-lineage.md). M
 * Primary Keys and/or Foreign Keys are not defined on database tables
 * Product APIs are not able to provide lineage details
 * Parsed queries are not able to determine lineage
-* To create lineage to Resources that are native to Secoda, such as [Dictionary Terms](broken-reference), [Documents](broken-reference/), [Questions](../ask-questions-in-secoda/asking-questions-from-slack.md), and [Collections](../collections-1.md)
+* To create lineage to Resources that are native to Secoda, such as [Dictionary Terms](broken-reference/), [Documents](broken-reference/), [Questions](../ask-questions-in-secoda/), and [Collections](../collections-1.md)
 
 ## How to use Manual Lineage
 
@@ -44,7 +44,7 @@ If you've made an accidental connection or want to make updates, you can delete 
 Note: You can only delete manually created lineage, not automatic lineage brought in from the source.
 {% endhint %}
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-05%20at%204.22.52%20PM.png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-05%20at%204.22.52%20PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Video Resource
 
