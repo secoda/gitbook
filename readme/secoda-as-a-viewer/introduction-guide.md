@@ -24,7 +24,7 @@ The data enablement features offered by Secoda, such as Secoda AI, the Search fu
 
 ## Resources for Getting Started
 
-We’ve added some resources that show you how you can use the different features of Secoda.
+We’ve added some resources below that show you how you can use the different features of Secoda. Check out our introduction to Secoda video [here](../../#video-resource-introduction-to-secoda).
 
 ### 1. Collaborating within your workspace
 
@@ -79,6 +79,10 @@ Some common use cases for dictionary terms are defined metrics and company speci
 [Documents](../../features/documents/) in Secoda are robust, and allow you to combine text, queries, photos, and live charts in a notebook interface. Use this tab to find information about your organization’s data that is not directly tied to one specific table, term, or resource. Just like the Dictionary, all Documents can be found using Search, and can be directly linked in other resources in the workspace.
 
 We see customers using Documents in a similar way you might use other collaborative documentation tools, like Confluence and Notion.
+
+#### Metrics
+
+[Metrics](../../features/metrics.md) in Secoda can be used to define and visualize your organization's KPIs (key performance indicators). For example, you might have a Metric in Secoda for _Average Order Value_ which updates regularly so that you can see how that value changes over time.
 
 #### Collections
 
