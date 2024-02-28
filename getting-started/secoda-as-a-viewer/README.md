@@ -10,6 +10,7 @@ description: >-
 
 * [ ] [Secoda Intro Guide](../../readme/secoda-as-a-viewer/introduction-guide.md)
 * [ ] Jump into the product and explore the [Search](../../features/search.md) capabilities by searching for data that you often work with
+* [ ] Video: [Navigating the Catalog](../../features/catalog.md#navigating-the-catalog-video)
 * [ ] Test out working with the AI Assistant - check out these [prompts for suggestions](../../features/ai-assistant/prompts.md) and [tips to make the conversations more accurate](../../best-practices/best-practices.md)
 * [ ] Read up on[ ](../../best-practices/)[best practices within Secoda](../../best-practices/)
 * [ ] Learn about [Collections](../../features/collections-1.md)
