@@ -6,7 +6,7 @@ description: Learn about our Questions feature here
 
 There is a lot of information that isn't discoverable using metadata or metrics. Sometimes, questions to the data team are much more nuanced and require a person on the data team to answer.
 
-Often these questions are asked and answered in an ad hoc fashion through apps like Slack and Jira, which you can integrate with our Questions feature here: [Broken link](broken-reference "mention") [jira](../../integrations/productivity-tools/jira/ "mention").
+Often these questions are asked and answered in an ad hoc fashion through apps like Slack and Jira, which you can integrate with our Questions feature here: [Broken link](broken-reference "mention") [jira](../integrations/productivity-tools/jira/ "mention").
 
 Within Secoda, you can find past questions, as well as pose a new questions to the data team. Since Secoda is connected to your organization’s data, questions and answers can include links to relevant tables, queries, or even other questions.
 
@@ -28,6 +28,6 @@ Learn more about our Questions feature by exploring the pages below!
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="templates.md" %}
-[templates.md](templates.md)
+{% content-ref url="../resource-and-metadata-management/add-documentation/templates.md" %}
+[templates.md](../resource-and-metadata-management/add-documentation/templates.md)
 {% endcontent-ref %}

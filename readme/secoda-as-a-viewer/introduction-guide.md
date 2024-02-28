@@ -38,7 +38,7 @@ This diagram shows the structure of Teams:
 
 #### **Asking questions**
 
-With Secoda, you can find past questions, as well as pose new questions to the data team. Since Secoda is connected to your organization’s data, questions and answers can include links to relevant tables, queries, or even other questions that can provide more context. Read more about that [**here**](../../features/ask-questions-in-secoda/).
+With Secoda, you can find past questions, as well as pose new questions to the data team. Since Secoda is connected to your organization’s data, questions and answers can include links to relevant tables, queries, or even other questions that can provide more context. Read more about that [**here**](../../features/ask-questions-in-secoda.md).
 
 #### Notifications
 

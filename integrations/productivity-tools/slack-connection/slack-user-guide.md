@@ -25,7 +25,7 @@ You can interact with Secoda's AI Assistant directly in Slack, similar to how yo
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Slack%20AI\_2%20\(2\).gif)
 
-**Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda](../../../features/ask-questions-in-secoda/ "mention") section.
+**Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda.md](../../../features/ask-questions-in-secoda.md "mention") section.
 
 ### Asking questions to Secoda AI for personal use
 
@@ -73,7 +73,7 @@ You can ask Questions using the Slack command: `/ask` followed by a question.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.08.29%20PM%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\).png)
 
-From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../../../features/ask-questions-in-secoda/templates.md)s.
+From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../../../resource-and-metadata-management/add-documentation/templates.md)s.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.20%20PM.png)
 
