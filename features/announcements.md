@@ -1,3 +1,7 @@
+---
+description: Send announcements to Secoda users in your workspaces
+---
+
 # Announcements
 
 Using Announcements, data teams can send messages to their users within Secoda.
