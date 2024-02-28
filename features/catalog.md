@@ -8,13 +8,17 @@ Once you connect an integration to your workspace, all of the metadata from that
 
 Follow the steps on [#how-to-add-integrations](../getting-started/secoda-as-an-admin/connect-your-data/#how-to-add-integrations "mention") to ensure that they're added to the correct Teams. If you haven't built out any Teams yet, the metadata will be added to the default General team which you can edit afterwards.
 
+## Navigating the Catalog: Video
+
+{% embed url="https://www.loom.com/share/9a0e256d9b8943728df2bc01b35a1381?sid=157e4ec7-81d7-478c-b7b7-92a0509dc3a8" %}
+
 ## Download Catalog to CSV
 
-From the Catalog page, Admins and Editors are able to export the Catalog view into a CSV file. You can even apply filters and export the filtered subset of data.&#x20;
+From the Catalog page, Admins and Editors are able to export the Catalog view into a CSV file. You can even apply filters and export the filtered subset of data.
 
-Simply apply the filters, click the three dot menu and click "Download catalog view".&#x20;
+Simply apply the filters, click the three dot menu and click "Download catalog view".
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6f9bbeed-9808-4826-926d-6e88b1b61228.png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6f9bbeed-9808-4826-926d-6e88b1b61228.png" alt=""><figcaption></figcaption></figure>
 
 To export all resources, check out our documentation on [import-and-export-data.md](../resource-and-metadata-management/import-and-export-data.md "mention").
 
