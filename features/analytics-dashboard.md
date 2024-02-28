@@ -4,7 +4,7 @@ description: Take a look into the usage of your workspace
 
 # Analytics Dashboard
 
-Admins have access to the Analytics dashboard which showcases how their Secoda workspace is being used. They also receive a weekly email that highlights the metrics in this analytics dashboard.
+Admins and Editors have access to the Analytics dashboard which showcases how their Secoda workspace is being used. They also receive a weekly email that highlights the metrics in this analytics dashboard.
 
 Some metrics that are tracked include:
 
