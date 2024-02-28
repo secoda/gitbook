@@ -41,4 +41,4 @@ These will be different for all organizations, but some could include:
 * Set SLAs so that all questions are responded to and answered correctly, either by the AI or a colleague, in a certain timeline
 * Designate someone on the data team to be "on-call" who monitors the Slack questions coming in, and ensures that SLAs are followed&#x20;
 * If a colleague answers the question in the thread, consider adding what you've learned to the documentation in Secoda
-* Consider typing out some frequently asked questions and answers into the [Questions](../features/ask-questions-in-secoda/) section in your workspace, so that these are easily picked up by the AI within Slack
+* Consider typing out some frequently asked questions and answers into the [Questions](../features/ask-questions-in-secoda.md) section in your workspace, so that these are easily picked up by the AI within Slack

@@ -15,6 +15,6 @@ description: >-
 * [ ] Read up on[ ](../../best-practices/)[best practices within Secoda](../../best-practices/)
 * [ ] Learn about [Collections](../../features/collections-1.md)
 * [ ] Check out ways to use the [Dictionary](../../features/dictionary.md) and [Documents](../../features/documents/)
-* [ ] Ask your data team questions using the [Questions feature](../../features/ask-questions-in-secoda/)
+* [ ] Ask your data team questions using the [Questions feature](../../features/ask-questions-in-secoda.md)
 * [ ] [Request changes to resources](requesting-changes-in-secoda.md) within Secoda
 * [ ] Test out the [Slack integration](../../integrations/productivity-tools/slack-connection/slack-user-guide.md) to search Secoda directly within Slack
