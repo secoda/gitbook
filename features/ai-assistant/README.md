@@ -18,15 +18,15 @@ By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assi
 
 ## Set Up
 
-By default, the AI Assistant is off. To toggle it on, you must go into your [Workspace Settings](https://app.secoda.co/settings/workspace), and scroll down to find the AI section.
+By default, the AI Assistant is off. To toggle it on, you must go into your [Workspace General Settings](https://app.secoda.co/settings/workspace), and scroll down to find the AI section.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
 
 Once the AI Search is enabled, you'll see the AI Assistant in the left hand menu.
 
-<div align="center">
+<div align="left">
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.38%20PM.png" alt="" width="188"><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-02-28 at 5.54.14 PM.png" alt=""><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
 
 </div>
 
