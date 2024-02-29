@@ -88,7 +88,9 @@ If you create a network policy with Snowflake, add the following [Secoda IP addr
 
 #### **How do I find my Account ID?**
 
-You can find the Account ID in the Snowflake URL. The account ID is usually a substring of the URL, before `snowflakecomputing.com`.  The account ID will likely be the business name, as well as the cloud region, if Snowflake is cloud hosted. See below for some examples.&#x20;
+You can find the Account ID in the Snowflake URL. The account ID is usually a substring of the URL, before `snowflakecomputing.com`.  **If your Snowflake URL does not contain `snowflakecomputing.com`, see** [**here**](./#account-id-is-not-part-of-url) **to determine your Account ID.**&#x20;
+
+The account ID will likely be the business name, as well as the cloud region, if Snowflake is cloud hosted. See below for some examples.&#x20;
 
 1.  URL: `https://secoda.snowflakecomputing.com`
 
@@ -101,6 +103,21 @@ You can find the Account ID in the Snowflake URL. The account ID is usually a su
     ACCOUNT ID: `secoda.west-europe.azure`&#x20;
 
 ### Troubleshooting
+
+#### Account ID is not part of URL
+
+Snowflake has made some recent changes where URLs can be different than the standard format above.  In these cases, you can find the correct account id by:&#x20;
+
+1. Clicking on the account selector in Snowflake
+2. Hovering over the specific account you want to connect to\
+   \
+   <img src="../../../.gitbook/assets/ui-snowsight-account-identifier (1).png" alt="" data-size="original">\
+
+3. Then clicking the copy account URL button on the 3rd section that shows the accounts details (organization id, \
+   \
+   ![](<../../../.gitbook/assets/Screenshot 2024-02-29 at 3.15.51 PM.png>)
+
+This should create a URL ending with `snowflakecomputing.com`and you can follow the steps abvoe to determine the account id.&#x20;
 
 #### Account usage not authorized
 
