@@ -8,7 +8,7 @@ Data governance is a hot topic in the data space as it covers the ways to ensure
 
 Here are some best practices to consider to enable data governance across your organization:
 
-#### Define roles and responsibility
+## Define roles and responsibility
 
 When rolling out a tool like Secoda, it is important to define roles within your organization and who will be taking on which responsibilities. This will ensure that every user knows what needs to be done so that the metadata within the product is **accurate** and up to date. It will also ensure that only the relevant people are able to edit and view certain resources that may be private. Consider these questions:
 
@@ -16,9 +16,13 @@ When rolling out a tool like Secoda, it is important to define roles within your
 * Who will be the data champions who will own the data resources? How do we define ownership?&#x20;
 * Which users and stakeholders will we onboard? Which Teams do we need to create, and which resources will they need access to?
 
-Once you have a grasp on the makeup of your Teams and users, [**roles**](../../user-management/roles/) can be assigned using our RBAC approach, owners can be set, and [**Teams**](../../user-management/teams.md) can be created. [Set permissions at the Team level](../../user-management/teams.md#editing-member-settings) so that only the right users have access to editing the metadata in that Team. Enforce ownership of critical data so that it is kept up to date.
+Once you have a grasp on the makeup of your Teams and users, [**roles**](../user-management/roles/) can be assigned using our RBAC approach, owners can be set, and [**Teams**](../user-management/teams.md) can be created. [Set permissions at the Team level](../user-management/teams.md#editing-member-settings) so that only the right users have access to editing the metadata in that Team. Enforce [ownership](../resource-and-metadata-management/assigning-owners.md) of critical data so that it is kept up to date.
 
-#### Identify critical data elements
+{% hint style="info" %}
+Consider creating an [Automation](../features/automations.md) that assigns ownership to owner-less resources, to ensure that resources don't get lost. Use the template we provided in the UI called "Assign ownership for schema tables".
+{% endhint %}
+
+## Identify critical data elements
 
 It's important to start this initiative by identifying the data that most impacts your business. Consider these questions:
 
@@ -28,9 +32,9 @@ It's important to start this initiative by identifying the data that most impact
 
 Start here since they are more likely to have a larger impact on more users.&#x20;
 
-Another way to identify critical data elements once you've integrated your data into Secoda is by using our [**Lineage feature**](../../features/data-lineage.md). Members can look at the overall lineage and see which are some key nodes that touch a lot of parts of a pipeline. Read more about this idea here: [https://www.synq.io/blog/business-critical-data](https://www.synq.io/blog/business-critical-data).
+Another way to identify critical data elements once you've integrated your data into Secoda is by using our [**Lineage feature**](../features/data-lineage.md). Members can look at the overall lineage and see which are some key nodes that touch a lot of parts of a pipeline. Read more about this idea here: [https://www.synq.io/blog/business-critical-data](https://www.synq.io/blog/business-critical-data).
 
-#### Enrich, enrich, enrich
+## Enrich, enrich, enrich
 
 Your users should feel confident using and **accessing** the right data, but we often see questions and concerns like:&#x20;
 
@@ -41,12 +45,12 @@ Your users should feel confident using and **accessing** the right data, but we 
 * Is it up to date?
 * Is this sensitive data?
 
-This is why enrichment is so important to Secoda, and if done well, should answer all of the questions above. Add descriptions, ownership, and tagging to make your important resources easier to locate when searching within Secoda. Set standards for your editors to follow so they know which types of metadata needs to be included in their documentation.
+This is why enrichment is so important to Secoda, and if done well, should answer all of the questions above. Add descriptions, ownership, and tagging to make your important resources easier to locate when searching within Secoda. Define **standards** for your editors to follow so they know which types of metadata needs to be included in their documentation. Some of this can be addressed by creating [templates.md](../resource-and-metadata-management/add-documentation/templates.md "mention") for documentation!
 
 {% hint style="info" %}
-Consider using our [**Verified identifier**](verifying-resources-workflow.md) on resources that have checked the box on each of those questions, indicating that it is ready for use by your Members. Using this system will provide your users confidence and **reliability** in using the data.
+Consider using our [**Verified identifier**](verifying-resources-workflow.md) on resources that have checked the box on each of those questions, indicating that it is ready for use by your Members. Using this system will provide your users confidence and **reliability** in using the data. Check out some tips on implementing a [verifying-resources-workflow.md](verifying-resources-workflow.md "mention") at your organization!
 
-To enable **security measures**, use our [**PII Identifier feature**](../../resource-and-metadata-management/tags/auto-pii-tagging.md) to tag sensitive resources to alert Members in your workspace.
+
+
+To enable **security measures**, use our [**PII Identifier feature**](../resource-and-metadata-management/tags/auto-pii-tagging.md) to tag sensitive resources to alert Members in your workspace. An  [automations.md](../features/automations.md "mention") can be created that automatically tags new resources with certain qualities, as PII.
 {% endhint %}
-
-####
