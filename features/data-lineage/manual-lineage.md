@@ -15,23 +15,20 @@ You can read all about automated Lineage in Secoda [here](../data-lineage.md). M
 * Primary Keys and/or Foreign Keys are not defined on database tables
 * Product APIs are not able to provide lineage details
 * Parsed queries are not able to determine lineage
-* To create lineage to Resources that are native to Secoda, such as [Dictionary Terms](broken-reference/), [Documents](broken-reference/), [Questions](../ask-questions-in-secoda.md), and [Collections](../collections-1.md)
+* To create lineage to Resources that are native to Secoda, such as [Dictionary Terms](broken-reference/), [Documents](broken-reference/), [Questions](../ask-questions-in-secoda.md), [Metrics](../metrics.md) and [Collections](../collections-1.md)
 
 ## How to use Manual Lineage
 
 #### Creating New Lineage
 
-Open up the data asset you would like to add lineage to in Secoda, you can do this via the Catalog, or via Search
+1. Click into a resource that you would like to add a lineage node to in Secoda. You can do this via the Catalog, or via Search.
+2. Click into the Lineage tab and click the `Add Node` button to manually add a new node to the Lineage diagram. A new Lineage Node modal will open up.
+3. From the new Lineage Node, use the search bar to search for the Resource you want to add to the Lineage diagram.
+4. Connect the new Lineage Node to any desired Lineage Node on the diagram, and click `Save` to save your changes.
 
-* Select the Lineage tab on the data asset, and click the `Add Node` button <mark style="color:red;">**(A)**</mark> to manually add a new node to the Lineage diagram. A new Lineage Node modal will open up.
-* From the new Lineage Node, use the search bar <mark style="color:red;">**(B)**</mark> to search for the Resource you want to add to the Lineage diagram.
-* Connect the new Lineage Node to any desired Lineage Node on the diagram <mark style="color:red;">**(C)**</mark>, and click `Save` to save your changes.
+The new connection you have created is bi-directional on Catalog resources. That means, if you connect a dashboard to a column (for example), you can go to that dashboard and see the connection there as well.
 
-```
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-04%20at%203.20.43%20PM.png" alt=""></figure>
-```
-
-The new connection you have created is bi-directional on data assets. In the example above, this means if you navigate to the `Regional` dashboard's lineage diagram, you will see that the table `stg_payments` is now part of the lineage diagram.
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-04 at 5.15.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Deleting Manual Lineage
 
@@ -44,8 +41,6 @@ If you've made an accidental connection or want to make updates, you can delete 
 Note: You can only delete manually created lineage, not automatic lineage brought in from the source.
 {% endhint %}
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202023-04-05%20at%204.22.52%20PM.png" alt=""><figcaption></figcaption></figure>
-
 ## Video Resource
 
-{% embed url="https://www.loom.com/share/a7681568611243e69720a62d9ce879d5" %}
+{% embed url="https://www.loom.com/share/c30f3f9a09954c9993fa84a03425370b?sid=83b0b27f-abcd-46ce-96f8-e9b23ba1fddc" %}
