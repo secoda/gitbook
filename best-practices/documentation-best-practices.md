@@ -15,6 +15,11 @@ By leveraging Secoda, data teams can automate manual and repetitive tasks which 
 * Our AI Assistant can be utilized in many ways, and we find it extremely powerful when it comes to documentation.
 * The Assistant reads the metadata in your workspace and can generate descriptions of your resources with just one click. This can be done on the Catalog resources, Dictionary metrics and Collections.
 
+&#x20;[automations.md](../features/automations.md "mention")
+
+* Define rules once for updating documentation, and have these automatically updated on a set cadence
+* Automations can make updates to tags, descriptions, owners as well as help organize your workspace by moving resources to specific Teams or Collections, for example
+
 [propagating-metadata.md](../resource-and-metadata-management/add-documentation/propagating-metadata.md "mention")
 
 * You might find that a lot of your data resources are related, and it can become redundant having to manually update resources that should have the same tags and owners, for example.
