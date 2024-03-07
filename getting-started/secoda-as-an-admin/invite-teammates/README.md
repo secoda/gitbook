@@ -16,8 +16,6 @@ description: >-
 
 Overall, inviting teammates to Secoda can help improve collaboration, centralize data management, enhance security, and improve data governance within your organization.
 
-
-
 ## How to invite teammates to Secoda
 
 One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. Only workplace admins are able to invite new users.
@@ -28,9 +26,13 @@ On this screen, you'll be able to see the plan level that you and your team are 
 
 If you're adding multiple teammates at once, we recommend **using the "Invite members" button** so that you can add them in bulk.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f1fc74b4-1224-4d02-b700-18631a526b5b.png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f1fc74b4-1224-4d02-b700-18631a526b5b.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.loom.com/share/fa7b7a5939b64d57bc648189405fb6d8?sid=9241af9d-25f1-4d81-a7c0-1b4d4743f707" %}
+
+{% hint style="warning" %}
+Only users with a business domain name can be invited to the workspace. If using multiple business domains, You can add them to the [allowed domains list](../../../readme/secoda-as-an-admin/customize-the-workspace.md#allowed-domains) in settings to provide access as well.&#x20;
+{% endhint %}
 
 ## Assigning Roles
 
@@ -40,15 +42,11 @@ You can edit teammate roles by clicking on the role button that is beside their 
 
 For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
 
-
-
 ## Deactivating Members
 
 To Deactivate a member from your workspace, click **Deactivate** beside their name. The user's name will still appear on resources that they had previously owned, but will have a strike through their name. This can be helpful context to know who had the historical knowledge of a dataset.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/06102896-2f76-4c6c-b45b-454c39ffb8f1.png)
-
-
 
 ## Groups & Teams
 
