@@ -32,7 +32,9 @@ It's important to start this initiative by identifying the data that most impact
 
 Start here since they are more likely to have a larger impact on more users.&#x20;
 
-Another way to identify critical data elements once you've integrated your data into Secoda is by using our [**Lineage feature**](../features/data-lineage.md). Members can look at the overall lineage and see which are some key nodes that touch a lot of parts of a pipeline. Read more about this idea here: [https://www.synq.io/blog/business-critical-data](https://www.synq.io/blog/business-critical-data).
+Another way to identify critical data elements once you've integrated your data into Secoda is by using our [**Lineage feature**](../features/data-lineage.md). Users can look at the overall lineage and see which are some key nodes that touch a lot of parts of a pipeline. They can also make note of important data resources and make a note of anything upstream of that asset, as it shouldn't also be marked as critical since it's dependent on it.&#x20;
+
+[**Popularity**](../features/popularity.md) metadata could be another important field to look at since usage data can help us understand what's most important to the business. Read more about these ideas here: [https://www.synq.io/blog/business-critical-data](https://www.synq.io/blog/business-critical-data).
 
 ## Enrich, enrich, enrich
 
@@ -54,3 +56,16 @@ Consider using our [**Verified identifier**](verifying-resources-workflow.md) on
 
 To enable **security measures**, use our [**PII Identifier feature**](../resource-and-metadata-management/tags/auto-pii-tagging.md) to tag sensitive resources to alert Members in your workspace. An  [automations.md](../features/automations.md "mention") can be created that automatically tags new resources with certain qualities, as PII.
 {% endhint %}
+
+## Read about how one team automated data governance with Secoda's help
+
+{% embed url="https://www.secoda.co/customers/kaufland-e-commerce-case-study" %}
+
+In summary, the team uses the following strategies to work towards their data governance goals:
+
+* They organized the workspace so that each team has their own [**Collection**](../features/collections-1.md) which acts as a single source of truth for all of their documentation
+* They map every table to a Collection , and ensured that every table has a defined [**owner**](../resource-and-metadata-management/assigning-owners.md)
+  * Tip: Try out [**Automations**](../features/automations.md) to push new tables into the right Collection, and set the owners automatically
+* They rely heavily on [**Lineage**](../features/data-lineage.md) for understanding downstream impacts of their schema changes
+* They use [**Announcements**](../features/announcements.md) as well as [**Slack**](../integrations/productivity-tools/slack-connection/slack-user-guide.md) to notify relevant stakeholders about changes
+* They have a very defined workflow using our [**APIs**](../secoda-api.md) where documentation criteria is required by the developer in order to create new tables and push them to Secoda
