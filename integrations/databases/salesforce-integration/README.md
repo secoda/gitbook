@@ -37,7 +37,9 @@ If you haven't already, create a new Salesforce Connected App:
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(6\)%20\(3\).png)
 
-2. Follow the instruction below to complete the form to create new Connected App (or modify your existing one)
+2. Follow the instruction below to complete the form to create new Connected App (or modify your existing one)&#x20;
+   * There are no specific requirements for what you name the app \
+
 3. If you're using Username & Password flow (tab **Password**):
    * Tick `Enable OAuth Settings`
    * For `Oauth Scopes`, we need at least `Manage user data via APIs (api)`
@@ -54,6 +56,7 @@ If you haven't already, create a new Salesforce Connected App:
 
 5. In the next step, Go to API (Enable OAuth Settings) > Manage Consumer Details to **retrieve your Consumer Key and Consumer Secret**.
    1. Add Secoda's IP to Trusted IP Range for OAuth Web Server Flow. If not, see step 6.2 below to relax IP restriction.
+      * You can find the start and end IP addresses for your region [here](https://docs.secoda.co/faq#what-are-the-ip-addresses-for-secoda)
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(16\)%20\(1\).png)
 
