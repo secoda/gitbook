@@ -30,12 +30,18 @@ You can learn more about all of the capabilities of this integration here: [slac
 **Data Requests Channel** = Where users can ask data questions and receive Secoda AI-generated responses
 {% endhint %}
 
-7. Within the Slack app, go into the Slack channel(s) you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.**
+7. In the AI Assistant tab \[If you have it enabled], configure how your AI Slack bot behaves to messages to
+   * Channel Responses: How Secoda AI responds when a user messages in the connected data request channel
+   *   Thread Responses: How Secoda AI responds when a user messages in a thread in the connected data request channel\
+
+
+       <figure><img src="../../../.gitbook/assets/Screenshot 2024-03-07 at 1.04.58 PM.png" alt=""><figcaption><p>AI Assistant settings page for the Slack integration<br></p></figcaption></figure>
+8. Within the Slack app, go into the Slack channel(s) you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.**
    1. Note: A Slack Admin needs to do this step.&#x20;
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/e2370145-6019-474a-9515-248b45ec9420.png)
 
-8. To set up [#secoda-ai-slackbot](slack-user-guide.md#secoda-ai-slackbot "mention"), make sure you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention") in your workspace. You're then able to utilize the Slack:AI Assistant feature.
+9. To set up [#secoda-ai-slackbot](slack-user-guide.md#secoda-ai-slackbot "mention"), make sure you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention") in your workspace. You're then able to utilize the Slack:AI Assistant feature.
 
 ## How it works
 
