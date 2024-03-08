@@ -19,23 +19,34 @@ services:
     restart: always
     image: "secoda/agent:latest"
     environment:
-      - SSH_USER=
+      - SSH_PORT=
       - SSH_HOST=
       - SSH_LISTEN_PORT=
       - SSH_KEY_BASE64=
-      - WAREHOUSE_HOST=
-      - WAREHOUSE_PORT=
 ```
 
-Secoda Agent is an Enterprise feature. Your enterprise contact at Secoda will provide you with the values for the environment variables.
+To retrieve the docker compose environment for your tunnel, go to [https://app.secoda.co/tunnels](https://app.secoda.co/tunnels) and create a new reverse tunnel.&#x20;
 
-### **Running**
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-08 at 8.49.15 AM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Once you have inputted the values, you can run the Secoda Agent with:
+Copy the details to your clipboard, and replace the contents of your docker compose file with this configuration.
+
+### **Running the agent**
+
+Once you have inputted the values, you can restart the Secoda Agent with:
 
 ```bash
+docker-compose down
 docker-compose up -d
 ```
+
+### Using the reverse tunnel
+
+On an integration credentials page, fill in the integration connection details. DNS names are resolved on the agent, so you may use local hostnames.
+
+Select the reverse tunnel you would like to use. Test connection.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-08 at 8.51.32 AM (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Troubleshooting
 
