@@ -28,7 +28,7 @@ We've talked with many Secoda users and put this page together to highlight some
 
 ### Communicate what can be done
 
-* Enable users to get the most out of the integration by providing them with documentation - Capabilities are outlined in this doc[slack-connection](../integrations/productivity-tools/slack-connection/ "mention")
+* Enable users to get the most out of the integration by providing them with documentation - Capabilities are outlined in this doc [slack-user-guide.md](../integrations/productivity-tools/slack-connection/slack-user-guide.md "mention")
 * Share tips in the channel to remind users about what can be done, what questions can be asked etc. [#slack-integration-tips](../readme/secoda-as-an-admin/user-engagement-and-adoption/tips-and-tricks-to-share-with-new-users.md#slack-integration-tips "mention")
 
 ### Set rules and standards
