@@ -24,7 +24,7 @@ We've talked with many Secoda users and put this page together to highlight some
 
 * Consider testing the functionality out in a private channel with a smaller subset of users
 * Follow the steps to create the connection here [slack-connection](../integrations/productivity-tools/slack-connection/ "mention")
-* Enable the AI Assistant within your workspace, which will allow it to generate responses directly in a Slack thread - steps here [Broken link](broken-reference "mention")
+* Enable the AI Assistant within your workspace, which will allow it to generate responses directly in a Slack thread - steps here [#set-up](../features/ai-assistant/#set-up "mention")
 
 ### Communicate what can be done
 
