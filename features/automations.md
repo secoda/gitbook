@@ -47,6 +47,12 @@ This list will expand over time, to eventually automate all the editable metadat
 2. To set a matching condition for the filters, click the blue **self** button to select which resources you'd like to be edited with the automation. These can be the same resources defined in the previous steps (self), their children resources (child) or their parent resources (parent).
 3. Choose whether or not you'd like to Override existing metadata with these actions, using the check box :ballot\_box\_with\_check:.
 
+{% hint style="info" %}
+The "Override existing metadata" button is **additive** for the list properties like Owners, Tags, and Collections but it will completely replace the properties like Description, PII, and Verified.
+
+For example, if you have an Owner set on a table that was previously brought over from the source (or added manually in Secoda) and then you create an Automation that tags the same resource with a different Owner, both Owner's names will persist.
+{% endhint %}
+
 #### Step 4: Run the Automation
 
 1. Under the **Actions** drop down, you can click Turn on or Delete.
