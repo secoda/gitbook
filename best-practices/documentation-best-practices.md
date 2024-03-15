@@ -20,6 +20,14 @@ By leveraging Secoda, data teams can automate manual and repetitive tasks which 
 * Define rules once for updating documentation, and have these automatically updated on a set cadence
 * Automations can make updates to tags, descriptions, owners as well as help organize your workspace by moving resources to specific Teams or Collections, for example
 
+[bulk-editing-resources.md](../resource-and-metadata-management/add-documentation/bulk-editing-resources.md "mention")
+
+* Use our bulk editing feature to make bulk metadata edits to your resources with a drag down shortcut similar to Excel's
+
+[#importing-metadata-into-secoda](../resource-and-metadata-management/import-and-export-data.md#importing-metadata-into-secoda "mention")
+
+* Create a CSV to bulk import metadata for resources already existing in Secoda. For example, if you have descriptions for your Oracle assets living in a G-sheet, you can upload these onto your existing resources in Secoda.
+
 [propagating-metadata.md](../resource-and-metadata-management/add-documentation/propagating-metadata.md "mention")
 
 * You might find that a lot of your data resources are related, and it can become redundant having to manually update resources that should have the same tags and owners, for example.
@@ -27,10 +35,6 @@ By leveraging Secoda, data teams can automate manual and repetitive tasks which 
 * End result:
   * Reduced time spent on documentation
   * Improved documentation and data literacy
-
-[bulk-editing-resources.md](../resource-and-metadata-management/add-documentation/bulk-editing-resources.md "mention")
-
-* Use our bulk editing feature to make bulk metadata edits to your resources with a drag down shortcut similar to Excel's
 
 [auto-pii-tagging.md](../resource-and-metadata-management/tags/auto-pii-tagging.md "mention")
 
