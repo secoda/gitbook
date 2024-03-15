@@ -58,7 +58,37 @@ For example, if you have an Owner set on a table that was previously brought ove
 1. Under the **Actions** drop down, you can click Turn on or Delete.
 2. Configure the scheduling so that this Automation runs on a set cadence. Automations can run hourly, daily or weekly.
 
-## Example Automation
+## Example Automations
+
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.58 AM (1).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.16.24 AM (1).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.16.55 AM (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.14.42 AM (1).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.04 AM (1).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.38 AM (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Adding Tags to Children
 
 In the example below, you'll see an Automation that automatically updates the children of resources that are tagged with a "Warning" tag, with that same tag. This will be super time-saving with tables and columns, for example. If I bring in tables that already have a set tag, but the columns within do not yet, this automation will identify those columns and automatically tag them for me.
 
