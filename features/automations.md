@@ -62,29 +62,29 @@ For example, if you have an Owner set on a table that was previously brought ove
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.58 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.58 AM (1).png" alt=""><figcaption><p>Create Popular Snowflake tables Collection</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.16.24 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 1.52.31 PM.png" alt=""><figcaption><p>Assign owners to Questions</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.16.55 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.16.55 AM (1).png" alt=""><figcaption><p>Apply descriptions to similarly named resources</p></figcaption></figure>
 
 </div>
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.14.42 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.14.42 AM (1).png" alt=""><figcaption><p>Verify documented Tableau assets</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.04 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.04 AM (1).png" alt=""><figcaption><p>Add Stripe assets to Sales Team</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.38 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.38 AM (1).png" alt=""><figcaption><p>Tag columns as PII</p></figcaption></figure>
 
 </div>
 
