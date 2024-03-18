@@ -8,6 +8,10 @@ description: >-
 
 By leveraging Secoda, data teams can automate manual and repetitive tasks which would improve these processes in terms of efficiency. This page provides some common solutions for leveraging Secoda's features to save time.
 
+{% hint style="info" %}
+Note: When making edits to descriptions in Secoda, ensure that you have the [integration's permissions set ](../integrations/integration-settings.md#permissions)so that descriptions made in Secoda persist.&#x20;
+{% endhint %}
+
 ## Automate enrichment within Secoda
 
 [ai-description-editor.md](../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention")
