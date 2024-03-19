@@ -82,6 +82,8 @@
       * [ThoughtSpot Metadata Extracted](integrations/data-visualization-tools/thoughtspot/thoughtspot-metadata-extracted.md)
     * [Cluvio](integrations/data-visualization-tools/cluvio/README.md)
       * [Cluvio Metadata Extracted](integrations/data-visualization-tools/cluvio/cluvio-metadata-extracted.md)
+    * [Hashboard](integrations/data-visualization-tools/hashboard/README.md)
+      * [Hashboard Metadata Extracted](integrations/data-visualization-tools/hashboard/hashboard-metadata-extracted.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
     * [Stitch](integrations/data-pipeline-tools/stitch/README.md)
       * [Stitch Metadata Extracted](integrations/data-pipeline-tools/stitch/stitch-metadata-extracted.md)
