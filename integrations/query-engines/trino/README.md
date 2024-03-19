@@ -26,6 +26,26 @@ To create a new user for Secoda, you’ll need to add a new entry in your user m
 2. Add a line like `secoda:<password>` in the file, replacing `<password>` with a strong password.
 3. Ensure that this user has the necessary permissions to access the data in Trino.
 
+**(Optional) Query History Config**
+
+If you store the query history from Trino in a table, you can specify the location of this query history table and the relevant columns. Copy the following JSON and replace the values with your configuration. Use this in the  **Query History Config** field on your Trino integration.
+
+```json
+{
+  "query_table": "prod.analytics.query_history",
+  "start_time_column": "start_time", 
+  "end_time_column": "end_time",
+  "query_column": "query_text",
+  "user_column": "user"
+}
+```
+
+{% hint style="info" %}
+The `query_table` must be the full path, i.e, database.schema.table.
+
+The `user_column` must be an email.&#x20;
+{% endhint %}
+
 **Connect Trino to Secoda**&#x20;
 
 After creating a Trino user, the next step is to connect Trino to Secoda:
