@@ -43,7 +43,7 @@ If you store the query history from Trino in a table, you can specify the locati
 {% hint style="info" %}
 The `query_table` must be the full path, i.e, database.schema.table.
 
-The `user_column` must be an email.&#x20;
+The `user_column` in your `query_table` must contain emails as the value.&#x20;
 {% endhint %}
 
 #### **Connect Trino to Secoda**&#x20;
