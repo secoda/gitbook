@@ -231,5 +231,6 @@
   * [Accessibility Statement](policies/accessibility-statement.md)
   * [Data Processing Agreement](policies/data-processing-agreement.md)
   * [Subprocessors](policies/subprocessors.md)
+  * [Service Level Agreement](policies/service-level-agreement.md)
 * [System Status](https://status.secoda.co)
 * [Changelog](https://feedback.secoda.co/changelog)

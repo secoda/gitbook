@@ -1,0 +1,13 @@
+# Service Level Agreement
+
+Uptime Commitment.
+
+1. Secoda will make the Platform available to Customer at least 99.9% of the time, measured on a calendar monthly basis and calculated by subtracting from 100% the total percentage of one (1) minute periods during such month for which there is no external connectivity and/or the Platform does not service obligatory data requests as required for material functionality in accordance with the Agreement, excluding the Exclusions (defined below) (“Uptime Commitment”).
+2. Exclusions.
+   1. The Uptime Commitment shall not apply to unavailability caused by any of the following circumstances: (i) equipment, software, or service malfunctions by any equipment, software, or service not in the custody or control of Secoda or its hosting provider; (ii) Third Party Services; (iii) Customer’s acts or omissions, including without limitation Customer’s breach of the Agreement; (iv) a Force Majeure Event; and (v) Scheduled Maintenance (defined below) ((i)-(v) herein, the “Exclusions”).
+3. Scheduled Maintenance.
+   1. Secoda reserves the right to conduct maintenance on the Platform for up to four (4) hours per calendar month (“Scheduled Maintenance”). Scheduled Maintenance will be conducted during off-peak hours and/or on weekends, unless Secoda provides notice of peak/weekday maintenance at least 24 hours in advance.
+4. Remedies.
+   1. In the event of downtime exceeding sixty (60) consecutive minutes, and such downtime is not attributable to any Exclusions, Customer will be entitled, provided Customer notifies Secoda in writing within 24 hours from the time of downtime, to receive a service credit in the amount of five percent (5%) of the monthly fees attributable to the Platform for any period of thirty (30) or more minutes of unavailability in a given calendar day (“Service Credit”). Service Credits may only be used to offset future invoices for Secoda Services and will not result in a refund of money to Customer. No more than seven (7) Service Credits will be provided in any given calendar month.&#x20;
+   2. Aside from the Service Credit which is available for any downtime exceeding sixty (60) minutes, Customer may also terminate the Agreement, without penalty, upon notice to Secoda in the event Secoda fails to meet the Uptime Commitment in any two (2) consecutive months, or any three (3) months in a rolling twelve (12) month period.
+   3. The Service Credit and the termination right stated in this Section 4 of the SLA states Customer’s exclusive remedy and Secoda’s sole liability with respect to a failure to comply with this SLA.
