@@ -16,15 +16,18 @@ There are three steps to connect Trino with Secoda:
 2. Connect Trino to Secoda
 3. Whitelist Secoda IP Address
 
-#### **Create a Trino User**&#x20;
+#### **Create a Trino User**
 
-Depending on your setup, this could be LDAP, a file-based system, etc. For the purpose of this guide, we'll assume you're using a file-based system for simplicity.
+Depending on your setup, this could be through LDAP, a file-based system, etc. For the purpose of this guide, we'll assume you're using a file-based system for simplicity, but we will also provide instructions for setting up JWT authentication.
 
-To create a new user for Secoda, you’ll need to add a new entry in your user management system. Here's an example for a file-based system:
-
-1. Edit the user file (e.g., `etc/password`) to include a new user entry for Secoda.
-2. Add a line like `secoda:<password>` in the file, replacing `<password>` with a strong password.
-3. Ensure that this user has the necessary permissions to access the data in Trino.
+* **For File-based Authentication:**
+  * Edit the user file (e.g., etc/password) to include a new user entry for Secoda.
+  * Add a line like `secoda:<password>` in the file, replacing `<password>` with a strong password.
+  * Ensure that this user has the necessary permissions to access the data in Trino.
+* **For JWT Authentication:**
+  * You will need to configure Trino to accept JWT for authentication. This involves setting up a JWT provider and configuring Trino to validate JWT tokens against your provider.
+  * Generate a JWT token that includes a claim identifying the user as Secoda. The exact claim required will depend on your Trino configuration.
+  * Ensure that the JWT token grants the necessary permissions for Secoda to access the data in Trino.
 
 #### **(Optional) Query History Config**
 
@@ -43,7 +46,7 @@ If you store the query history from Trino in a table, you can specify the locati
 {% hint style="info" %}
 The `query_table` must be the full path, i.e, database.schema.table.
 
-The `user_column` in your `query_table` must contain emails as the value.&#x20;
+The `user_column` in your `query_table` should contain emails as the value. This is not a requirement.&#x20;
 {% endhint %}
 
 #### **Connect Trino to Secoda**&#x20;
@@ -53,7 +56,7 @@ After creating a Trino user, the next step is to connect Trino to Secoda:
 1. In the Secoda App, navigate to the 'Integrations' tab.
 2. Click on ‘Add Integration’.
 3. Search for and select ‘Trino’.
-4. Enter the details for your Trino environment, including the username and password for the user you created.
+4. Enter the details for your Trino environment, including the username and password or JWT token for the user you created.
 5. Click 'Connect'.
 
 #### **Whitelist Secoda IP Address**&#x20;
