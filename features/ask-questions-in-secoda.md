@@ -6,11 +6,13 @@ description: Learn about our Questions feature here
 
 There is a lot of information that isn't discoverable using metadata or metrics. Sometimes, questions to the data team are much more nuanced and require a person on the data team to answer.
 
-Often these questions are asked and answered in an ad hoc fashion through apps like Slack and Jira, which you can integrate with our Questions feature here: [Broken link](broken-reference "mention") [jira](../integrations/productivity-tools/jira/ "mention").
+Often these questions are asked and answered in an ad hoc fashion through apps like Slack and Jira, which you can integrate with our Questions feature here: [slack-less-than-greater-than-questions-workflow.md](../best-practices/slack-less-than-greater-than-questions-workflow.md "mention")[jira](../integrations/productivity-tools/jira/ "mention").
 
 Within Secoda, you can find past questions, as well as pose a new questions to the data team. Since Secoda is connected to your organization’s data, questions and answers can include links to relevant tables, queries, or even other questions.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-15%20at%2016.19.21.gif" alt=""><figcaption></figcaption></figure>
+
+## About Questions
 
 Once a question is submitted in the UI, teammates can comment on the question and editors can verify the correct answer (or provide a different answer). Once an answer has been chosen by the admin (indicated by a green checkmark), it will be indexed in the central search for any future employee who asks a similar question.
 
@@ -24,10 +26,10 @@ If you'd like to see all of the unanswered Questions, you can sort by Status.
 
 Learn more about our Questions feature by exploring the pages below!
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+[slack-less-than-greater-than-questions-workflow.md](../best-practices/slack-less-than-greater-than-questions-workflow.md "mention")
 
-{% content-ref url="../resource-and-metadata-management/add-documentation/templates.md" %}
-[templates.md](../resource-and-metadata-management/add-documentation/templates.md)
-{% endcontent-ref %}
+[populate-questions-with-faqs.md](../getting-started/secoda-as-an-admin/populate-questions-with-faqs.md "mention")
+
+## Video Resource
+
+{% embed url="https://www.loom.com/share/48f76e3f3b6d4b79980e7ee91ae2b49d?sid=bc9f660c-1a39-46be-a3fb-d6af33bfb875" %}
