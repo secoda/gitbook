@@ -27,3 +27,7 @@ There are two steps to get started using Amplitude with Secoda:
 3. Paste the API Key and API Secret (`Secret Key`)
 4. Head to the **Sync** **History** tab on the side bar and click **Run sync**
 
+{% hint style="info" %}
+Currently only one environment gets extracted from the integration. [This documentation ](https://www.docs.developers.amplitude.com/analytics/apis/taxonomy-api/#authorization)from Amplitude explains how you can control which environment gets extracted
+{% endhint %}
+
