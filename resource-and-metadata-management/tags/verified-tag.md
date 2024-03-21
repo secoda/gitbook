@@ -1,10 +1,16 @@
 ---
 description: >-
-  Secoda's Verified tag influences search ranking and is included in your
-  workspace by default.
+  Verified tags in Secoda are another way to categorize your resources by giving
+  them a "stamp of approval".
 ---
 
 # Verified Identifier
+
+Secoda's Verified tag influences search ranking and is a good indicator for end users that the verified data has been approved by relevant stakeholders. This gives those users confidence is using these resources.
+
+Check out our best practices documentation for Admins and Editors who are interested in implementing a [verifying-resources-workflow.md](../../best-practices/verifying-resources-workflow.md "mention").
+
+## Benefits of Verifying Resources
 
 Verifying data through verified tags in Secoda can provide several benefits to organizations:
 
@@ -15,10 +21,8 @@ Verifying data through verified tags in Secoda can provide several benefits to o
 
 Overall, verifying data through verified tags in Secoda can help organizations improve data quality, enhance data governance, improve data discovery, and enhance trust and credibility.
 
-Check out our best practices documentation: [verifying-resources-workflow.md](../../best-practices/verifying-resources-workflow.md "mention")
-
 {% hint style="info" %}
-You can use the Verified tag on Catalog resources, Documents and Dictionary terms.
+You can use the Verified tag on Catalog resources, Documents, Dictionary terms and Metrics.
 {% endhint %}
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/84f933cc-fb18-4293-b58a-9bfabd26c3c3.png" alt=""></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/84f933cc-fb18-4293-b58a-9bfabd26c3c3.png" alt=""><figcaption></figcaption></figure>

@@ -32,3 +32,7 @@ description: List of all the metadata that Secoda pulls from Dagster
 * Lineage
   * Repository <-> Asset
   * Asset <-> Job
+
+{% hint style="info" %}
+Dagster Lineage in Secoda is generated through [asset dependencies](https://docs.dagster.io/concepts/assets/software-defined-assets#assets-with-dependencies). We are not currently syncing [external dependencies](https://docs.dagster.io/concepts/assets/software-defined-assets#defining-external-asset-dependencies), so you should not expect to see lineage downstream to BI tools, tables, etc.
+{% endhint %}
