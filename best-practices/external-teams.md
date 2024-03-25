@@ -1,4 +1,10 @@
-# External Teams
+---
+description: >-
+  This document goes through best practices when exposing your Secoda workspace
+  to external clients.
+---
+
+# Exposing Secoda to External Clients
 
 {% hint style="danger" %}
 This feature is coming soon.&#x20;

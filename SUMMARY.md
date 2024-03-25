@@ -150,7 +150,7 @@
   * [Interacting with the AI Assistant](best-practices/best-practices.md)
   * [Slack <> Questions workflow](best-practices/slack-less-than-greater-than-questions-workflow.md)
   * [Verifying resources workflow](best-practices/verifying-resources-workflow.md)
-  * [External Teams](best-practices/external-teams.md)
+  * [Exposing Secoda to External Clients](best-practices/external-teams.md)
 * [Resource and Metadata Management](resource-and-metadata-management/README.md)
   * [Resource Sidebar](resource-and-metadata-management/resource-sidebar.md)
   * [Assigning Owners](resource-and-metadata-management/assigning-owners.md)
