@@ -1,36 +1,27 @@
+---
+description: >-
+  Create documents in Secoda on anything that you'd like your users to have more
+  context on!
+---
+
 # Documents
 
-## Documents
-
-Documents allow the data team to store **context** on collections, datasets, and tables in one place. Documents in Secoda are robust, and allow you to combine text, queries, and live charts in a notebook interface. Use this tab to find information about your organization’s data or internal processes that are not directly tied to one specific table, term, or resource. Just like the data dictionary, all documents can be found using search, and can be directly linked in other resources in the workspace.
+Documents in Secoda are robust, and allow you to combine text, queries, and live charts in a notebook interface. Use Documents to find information about your organization’s data or internal processes that are not directly tied to one specific table, term, or resource. Just like the dictionary, all documents can be found using search, and can be directly linked in other resources in the workspace.
 
 Below are some examples of Documents use cases we see often:
 
-* Writing process guides
+* Writing process guides or project specs
 * Documenting important queries
 * Defining KPIs
 * Posting video tutorials
 
-### Documents features and embeds
+## Documents features
 
-Within documents, you can tag other resources in your Secoda workspace. For example, applicable dictionary terms or collections.&#x20;
+* [comments.md](comments.md "mention") can be added in order to collaborate with your co-workers on your Documents.
+* Use the '@' command to tag and reference other resources from across the workspace like tables or dictionary terms.
+* Use the '/' command to add custom elements to a document. Add embeds, files, links, tables, and many more interesting documentation formats to make data documentation more interesting. See a whole list of [embeds.md](../embeds.md "mention").
+* You can also write live [queries](../queries/ "mention") in Documents for adhoc analysis.
+* Bring existing Documents from [confluence](../../integrations/productivity-tools/confluence/ "mention") into Secoda's Documents.
+* Build a Table of Contents in Documents by using the / command and either scrolling or typing "Table of Contents" to insert it.&#x20;
 
-You can also use the '@' command to tag resources from across your knowledge base directly within your data resources.
-
-Try using the '/' command to add custom elements to a document. Secoda's documentation editor lets editors add embeds, files, links, tables, and many more interesting documentation formats to make data documentation more interesting.
-
-To learn more about Embedding, you can check out the page below!
-
-{% content-ref url="../embeds.md" %}
-[embeds.md](../embeds.md)
-{% endcontent-ref %}
-
-### Analysis Documents
-
-A unique feature of our Documents, is that you can use them with live queries and charts. You can reference your data catalogue and data dictionary while creating robust data analysis in Secoda.&#x20;
-
-Analysis documents are useful once you've connected your database to Secoda and given Secoda permission to query the data in the database. To learn more about how to Query in Secoda for analysis within the tool, check out the page below!
-
-{% content-ref url="../queries/" %}
-[queries](../queries/)
-{% endcontent-ref %}
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-25 at 4.37.52 PM.png" alt=""><figcaption><p>Table of Contents</p></figcaption></figure>
