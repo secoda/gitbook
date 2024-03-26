@@ -8,13 +8,13 @@ description: Common questions about the Secoda product
 
 Some of Secoda's features do read the data from the source, however **these are all optional features that can be turned off**. If permissions are provided, the data from the datasource can be read in the following circumstances:
 
-* When using the [**Preview tab**](features/data-previews.md) in Secoda. For tables, the Preview tab will show 50 rows of data (excluding columns that are tagged as PII). For dashboards, we show an iFrame directly from the data source. Preview can be disabled or configured in the integrations Permissions settings.
-* When using [**Query**](features/queries/) blocks. If permissions are provided, Admins and Editors can write and execute queries directly on the source through Secoda. Queries can be disabled or configured in the integrations Permissions settings.
-* When running [**Column Profiling**](features/column-profiling.md). In this instance, Secoda will analyze the Minimums, Maximums, Range, etc of the columns, which requires analysis of the data. For some data sources, this information is provided by the Information schema and querying the data itself is not necessary.&#x20;
-* When setting up [**Monitors**](features/monitoring.md) on your resources. In this case, Secoda will query the data to detect and identify anomalies or issues.
-* When using [**Metrics**](features/metrics.md). Once a metric is set up, it will run queries on the source at a specified cadence.&#x20;
-
-The data is read and saved in short term storage to show historical trends, allow for CSV downloads, and limit the number of queries made on your source.&#x20;
+* When using the [**Preview tab**](features/data-previews.md) in Secoda. Preview can be disabled or configured in the integrations Permissions settings.
+  * For tables, the Preview tab will show 50 rows of data (excluding columns that are tagged as PII). This data is not stored, as it is queried and displayed in real time.&#x20;
+  * For dashboards, we show an iFrame directly from the data source.&#x20;
+* When using [**Query**](features/queries/) blocks. If permissions are provided, Admins and Editors can write and execute queries directly on the source through Secoda. Queries can be disabled or configured in the integrations Permissions settings. Query results are stored to make it easier to access and download without re-running the query.&#x20;
+* When running [**Column Profiling**](features/column-profiling.md). In this instance, Secoda will analyze the Minimums, Maximums, Range, etc of the columns, which requires analysis of the data. For some data sources, this information is provided by the Information schema and querying the data itself is not necessary. Column profile results are stored.
+* When setting up [**Monitors**](features/monitoring.md) on your resources. Secoda will execute queries on the source to detect and identify any anomalies or issues. The results from each query are stored.
+* When using [**Metrics**](features/metrics.md). Once a metric is set up, it will automatically run queries on the data source according to the set schedule. The result of these queries are stored.
 
 If you prefer to not have your data read, many of our great features work by only accessing your metadata! **Secoda does not need to read any source data to be a great data management tool for your team.**&#x20;
 
