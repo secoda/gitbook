@@ -8,8 +8,8 @@ description: Common questions about the Secoda product
 
 Some of Secoda's features do read the data from the source, however **these are all optional features that can be turned off**. If permissions are provided, the data from the datasource can be read in the following circumstances:
 
-* When using the [**Preview tab**](features/data-previews.md) in Secoda. For tables, the Preview tab will show 50 rows of data (excluding columns that are tagged as PII). For dashboards, we show an iFrame directly from the data source.
-* When using [**Query**](features/queries/) blocks. If permissions are provided, Admins and Editors can write and execute queries directly on the source through Secoda.
+* When using the [**Preview tab**](features/data-previews.md) in Secoda. For tables, the Preview tab will show 50 rows of data (excluding columns that are tagged as PII). For dashboards, we show an iFrame directly from the data source. Preview can be disabled or configured in the integrations Permissions settings.
+* When using [**Query**](features/queries/) blocks. If permissions are provided, Admins and Editors can write and execute queries directly on the source through Secoda. Queries can be disabled or configured in the integrations Permissions settings.
 * When running [**Column Profiling**](features/column-profiling.md). In this instance, Secoda will analyze the Minimums, Maximums, Range, etc of the columns, which requires analysis of the data. For some data sources, this information is provided by the Information schema and querying the data itself is not necessary.&#x20;
 * When setting up [**Monitors**](features/monitoring.md) on your resources. In this case, Secoda will query the data to detect and identify anomalies or issues.
 * When using [**Metrics**](features/metrics.md). Once a metric is set up, it will run queries on the source at a specified cadence.&#x20;
