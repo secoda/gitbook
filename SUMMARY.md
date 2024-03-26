@@ -2,6 +2,7 @@
 
 * [Getting Started with Secoda](README.md)
   * [Secoda as an Admin](getting-started/secoda-as-an-admin/README.md)
+    * [Deployment options](readme/secoda-as-an-admin/deployment-options.md)
     * [Sign in options](readme/secoda-as-an-admin/sign-in-options.md)
     * [Connect your data](getting-started/secoda-as-an-admin/connect-your-data/README.md)
       * [Define Service Accounts](getting-started/secoda-as-an-admin/connect-your-data/define-service-accounts.md)
@@ -208,7 +209,6 @@
   * [Teams](user-management/teams.md)
   * [Groups](user-management/groups.md)
 * [Self-Hosted Guide](self-hosted-secoda/README.md)
-  * [Installation Options](self-hosted-secoda/installation-options.md)
   * [Additional Resources](self-hosted-secoda/additional-resources/README.md)
     * [Configure TLS (Docker-Compose)](self-hosted-secoda/additional-resources/configure-tls-docker-compose.md)
     * [Setup Automatic Updates](self-hosted-secoda/additional-resources/setup-automatic-updates.md)
