@@ -41,7 +41,6 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "s3:AbortMultipartUpload",
                 "s3:PutObject",
                 "s3:ListMultipartUploadParts",
-                "lambda:InvokeFunction",
                 "athena:GetWorkGroup",
                 "athena:StartQueryExecution",
                 "athena:StopQueryExecution",
