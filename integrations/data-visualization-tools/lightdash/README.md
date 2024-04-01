@@ -15,7 +15,7 @@ There are 2 steps to get started using Lightdash with Secoda:&#x20;
 1. Get your host from Lightdash. This is the base URL for your Lightdash instance. For example https://lightdash.secoda.co or [https://app.lightdash.cloud](https://app.lightdash.cloud/).
 2. Create an Access Token following this guide [https://docs.lightdash.com/references/personal\_tokens](https://docs.lightdash.com/references/personal\_tokens)
 
-**Connecting Lightdasj to Secoda**
+**Connecting Lightdash to Secoda**
 
 After retrieving your gist and token the next step is to connect to Secoda:
 
