@@ -110,6 +110,8 @@
     * [dbt Metrics Layer Data Dictionary](features/metrics/dbt-metrics-layer-integration.md)
   * [Data Quality Tools](integrations/data-quality-tools/README.md)
     * [Cyera](integrations/data-quality-tools/cyera.md)
+    * [Dataplex](integrations/data-quality-tools/dataplex/README.md)
+      * [Dataplex Metadata Extracted](integrations/data-quality-tools/dataplex/dataplex-metadata-extracted.md)
     * [Great Expectations](integrations/data-quality-tools/great-expectations-integration/README.md)
       * [Great Expectations Metadata Extracted](integrations/data-quality-tools/great-expectations-integration/metadata-extracted.md)
   * [Productivity Tools](integrations/productivity-tools/README.md)
