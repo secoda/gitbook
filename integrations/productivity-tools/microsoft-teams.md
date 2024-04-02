@@ -22,7 +22,7 @@ Create a channel for Secoda notifications. This can be done by going to your Tea
 
 2. Name your incoming webhook **Secoda,** and add Secoda icon, you can download the following image
 
-<figure><img src="../../.gitbook/assets/secoda-app-icon.png" alt="" width="188"></figure>
+<figure><img src="../../.gitbook/assets/secoda-app-icon.png" alt=""></figure>
 
 4. Copy the URL in the modal and select **Done.**
 
