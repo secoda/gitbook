@@ -14,15 +14,15 @@ Create a channel for Secoda notifications. This can be done by going to your Tea
 
 1. Go to your channel -> Manage Channel -> Connectors -> Edit
 
-<figure><img src="https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""></figure>
 
 2. Search and select **Incoming Webhook**
 
-<figure><img src="https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""></figure>
 
 2. Name your incoming webhook **Secoda,** and add Secoda icon, you can download the following image
 
-<figure><img src="https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/secoda-app-icon.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/secoda-app-icon.png" alt="" width="188"></figure>
 
 4. Copy the URL in the modal and select **Done.**
 
@@ -34,4 +34,4 @@ You can also follow the [guide by microsoft on how to create an Incoming Webhook
 2. Test connection. Secoda will send a test message to see if the connection was made.
 3. After connected, you can select which notifications should be sent to the Teams channel.
 
-<figure><img src="https://raw.githubusercontent.com/secoda/gitbook/master/.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""></figure>
