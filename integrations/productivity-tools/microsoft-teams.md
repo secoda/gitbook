@@ -24,6 +24,7 @@ Create a channel for Secoda notifications. This can be done by going to your Tea
 
 <figure><img src="../../.gitbook/assets/secoda-app-icon.png" alt=""></figure>
 
+
 4. Copy the URL in the modal and select **Done.**
 
 You can also follow the [guide by microsoft on how to create an Incoming Webhook](https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook).
