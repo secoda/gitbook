@@ -37,7 +37,7 @@ After retrieving the API token token and secret, the next step is to connect it 
 
 1. In the Secoda App, select Add Integration on the Integrations tab
 2. Search for and select Cyera
-3. Enter your Cyera API token and secret retrieved above
+3. Enter your Cyera API token (in the Client ID field) and secret retrieved above
 4. Once successfully connected, a prompt will ask you to run the initial extraction
 
 ### After Connecting to Secoda
