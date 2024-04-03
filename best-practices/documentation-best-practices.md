@@ -56,23 +56,6 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 * Automatic PII detection through the API can identify resources that need to be more governed for auditing purposes
   * PII can be tagged, and automatic reporting for audits can be generated
 
-## Automate deprecating unused, stale data
-
-ROT data (Redundant, Obsolete, Trivial) is data that is no longer relevant or of use to an organization. We encourage you to minimize the amount of ROT data by automating some of this clean up.
-
-[secoda-api.md](../secoda-api.md "mention")&#x20;
-
-* Can identify large amounts of unused and duplicate tables, then deprecate these
-* End result:
-  * Reduced time identifying this data manually
-  * Improved data quality and security
-  * Improved productivity for analysts trying to find the right data
-  * Reduced costs on data storage
-
-[removing-stale-data.md](../features/removing-stale-data.md "mention")
-
-* Identifies and hides any stale data across your workspace
-
 ## Identify what needs to be documented
 
 If you'd like to identify which resources have not been documented yet, you can do so by following these steps to [#search-within-the-catalog](../features/search.md#search-within-the-catalog "mention").

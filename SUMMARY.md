@@ -153,6 +153,7 @@
   * [Dictionary best practices](best-practices/dictionary-best-practices.md)
   * [Data Governance](best-practices/data-governance.md)
   * [Data Quality](best-practices/data-quality.md)
+  * [Clean up your data](best-practices/clean-up-your-data.md)
   * [Interacting with the AI Assistant](best-practices/best-practices.md)
   * [Slack <> Questions workflow](best-practices/slack-less-than-greater-than-questions-workflow.md)
   * [Verifying resources workflow](best-practices/verifying-resources-workflow.md)
