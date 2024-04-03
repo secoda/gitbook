@@ -22,17 +22,20 @@ The username and password you’ve already created for your cluster is your admi
 
 To create a [new user](http://docs.aws.amazon.com/redshift/latest/dg/r\_Users.html), you’ll need to log into the Redshift database directly and run the following SQL commands:
 
-Redshift doesn't allow for non-super users to access the system tables, which is where we pull the metadata from. Below is a workaround so you aren't giving Secoda superuser access. Secoda only uses the system tables for our metadata extraction, the extraction query can be viewed [here](https://www.notion.so/Redshift-4a22df9ed18b4a6cb35eefd418f65727).
+Secoda only uses the system tables for our metadata extraction, the extraction query can be viewed [here](https://www.notion.so/Redshift-4a22df9ed18b4a6cb35eefd418f65727).
 
 ```
 -- Create a user named "secoda" that Secoda will use when connecting to your Redshift cluster.
 CREATE USER secoda PASSWORD '<enter password here>';
 
--- Allows the non super user "secoda" to query metadata
+-- Allows the "secoda" user to query metadata
 -- Explaination of query here -> https://stackoverflow.com/questions/48567440/granting-permissions-on-redshift-system-tables-to-non-superusers
 ALTER USER secoda SYSLOG ACCESS UNRESTRICTED;
 
 -- Complete this query for any schemas you would like Secoda to extract
+GRANT REFERENCES ON ALL TABLES IN SCHEMA <schema_name> TO secoda
+
+-- Optionally provide SELECT access for the preview, query blocks, and profiling
 GRANT SELECT ON ALL TABLES IN SCHEMA <schema_name> TO secoda
 
 GRANT SELECT ON svv_table_info TO secoda;
