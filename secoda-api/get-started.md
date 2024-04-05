@@ -1,6 +1,8 @@
 # Get Started
 
-The Secoda API is based around REST principals. You will need a [Bearer](authentication.md) token to use the API.&#x20;
+The Secoda API is based around REST principals. You will need a [Bearer](authentication.md) token to use the API - see the [authentication page](authentication.md) for instructions on how to create your token.&#x20;
+
+## Base URL
 
 See below for the Base URL for your workspace.
 
@@ -10,7 +12,7 @@ See below for the Base URL for your workspace.
 | `eu.secoda.co`   | `eapi.secoda.co` |
 | `apac.secoda.co` | `aapi.secoda.co` |
 
-> If your workspace has it's own unique instance, with a URL that follows the pattern of `COMPANY-NAME.secoda.co`, the API Base URL to use will following the pattern of `COMPANY-NAME.secoda.co/api/v1`**.**
+If your workspace is associated with a unique URL, then the Base URL for the API is formed by appending `api/v1/` to the end of your workspace's URL.
 
 ## Pagination
 

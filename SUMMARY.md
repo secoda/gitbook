@@ -230,6 +230,7 @@
 * [Secoda API](secoda-api.md)
   * [Get Started](secoda-api/get-started.md)
   * [Authentication](secoda-api/authentication.md)
+  * [Example Workflows](secoda-api/example-workflows.md)
   * [API Reference](https://api.secoda.co/api/schema/redoc/)
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
