@@ -54,6 +54,8 @@
       * [Azure Cosmos DB Metadata Extracted](integrations/databases/azure-cosmos-db/metadata-extracted.md)
     * [SingleStore](integrations/databases/singlestore/README.md)
       * [SingleStore Metadata Extracted](integrations/databases/singlestore/singlestore-metadata-extracted.md)
+    * [MotherDuck](integrations/databases/motherduck/README.md)
+      * [MotherDuck Metadata Extracted](integrations/databases/motherduck/motherduck-metadata-extracted.md)
   * [Data Visualization Tools](integrations/data-visualization-tools/README.md)
     * [Amplitude](integrations/data-visualization-tools/amplitude-integration/README.md)
       * [Amplitude Metadata Extracted](integrations/data-visualization-tools/amplitude-integration/metadata-extracted.md)
