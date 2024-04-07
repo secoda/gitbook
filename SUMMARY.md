@@ -90,6 +90,8 @@
     * [Lightdash](integrations/data-visualization-tools/lightdash/README.md)
       * [Lightdash Metadata Extracted](integrations/data-visualization-tools/lightdash/lightdash-metadata-extracted.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
+    * [Census](integrations/data-pipeline-tools/census/README.md)
+      * [Census Metadata Extracted](integrations/data-pipeline-tools/census/census-metadata-extracted.md)
     * [Stitch](integrations/data-pipeline-tools/stitch/README.md)
       * [Stitch Metadata Extracted](integrations/data-pipeline-tools/stitch/stitch-metadata-extracted.md)
     * [Airflow](integrations/data-pipeline-tools/airflow/README.md)
