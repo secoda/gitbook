@@ -1,7 +1,5 @@
 ---
-description: >-
-  Best practices around verifying resources, like business terms, in your
-  workspace
+description: Best practices around verifying resources in your workspace
 ---
 
 # Verifying resources workflow
