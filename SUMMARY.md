@@ -123,6 +123,7 @@
       * [Confluence Metadata Extracted](integrations/productivity-tools/confluence/metadata-extracted.md)
       * [Confluence best practices](integrations/productivity-tools/confluence/confluence-best-practices.md)
     * [Git](integrations/productivity-tools/git-integration.md)
+    * [GitHub](integrations/productivity-tools/github.md)
     * [Jira](integrations/productivity-tools/jira/README.md)
       * [Jira Metadata Extracted](integrations/productivity-tools/jira/metadata-extracted.md)
     * [Linear](integrations/productivity-tools/linear-integration.md)
