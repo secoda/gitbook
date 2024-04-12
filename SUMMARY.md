@@ -112,6 +112,8 @@
     * [dbt Core](integrations/data-transformation-tools/dbt-core/README.md)
       * [dbt Core Metadata Extracted](integrations/data-transformation-tools/dbt-core/metadata-extracted.md)
     * [dbt Metrics Layer Data Dictionary](features/metrics/dbt-metrics-layer-integration.md)
+    * [Airbyte](integrations/data-transformation-tools/airbyte/README.md)
+      * [Airbyte Metadata Extracted](integrations/data-transformation-tools/airbyte/airbyte-metadata-extracted.md)
   * [Data Quality Tools](integrations/data-quality-tools/README.md)
     * [Cyera](integrations/data-quality-tools/cyera.md)
     * [Dataplex](integrations/data-quality-tools/dataplex/README.md)
