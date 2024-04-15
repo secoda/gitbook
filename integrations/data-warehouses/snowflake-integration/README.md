@@ -73,6 +73,19 @@ ALTER USER SECODA_USER SET DEFAULT_ROLE=SECODA
 If you would like to enable the [Push to Snowflake](../../../features/push-metadata-to-source.md) feature, the SECODA\_USER must be the owner of the tables, have INSERT privileges on the table, and MODIFY privileges on the schema and database.&#x20;
 {% endhint %}
 
+If you're using Key-Pair authentication for connecting to Secoda, you can run the following command to connect the Key to the `SECODA_USER`.&#x20;
+
+#### Key-Pair Authentication
+
+If you would like you use key-pair authentication instead of a password you will need to:&#x20;
+
+1. [Configure the key-pair in Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). Once the key is created, you can run the following command to connect the key to the `SECODA_USER`.&#x20;
+
+<pre><code><strong>ALTER USER SECODA_USER SET RSA_PUBLIC_KEY='my_public_key';
+</strong></code></pre>
+
+2. Take the final key and convert it to base64 encoding.&#x20;
+
 ### **Step 3: Whitelist Secoda IP Addresses** <a href="#h_7ee8142011" id="h_7ee8142011"></a>
 
 If you create a network policy with Snowflake, add the following [Secoda IP addresses](../../../faq.md#what-are-the-ip-addresses-for-secoda) to the “Allowed IP Addresses” list.
@@ -83,6 +96,7 @@ If you create a network policy with Snowflake, add the following [Secoda IP addr
 2. Add your credentials as follows:&#x20;
    * User - The name of the User created in Step 2.
    * Password - The Password set in Step 2.
+     * Alternatively you can select the key-pair authentication and enter the private key and passphrase created in step 2.&#x20;
    * Account - This is the Account ID of your cluster.&#x20;
    * Warehouse - The Warehouse set in Step 1.&#x20;
 
