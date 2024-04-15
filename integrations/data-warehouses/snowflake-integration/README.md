@@ -73,8 +73,6 @@ ALTER USER SECODA_USER SET DEFAULT_ROLE=SECODA
 If you would like to enable the [Push to Snowflake](../../../features/push-metadata-to-source.md) feature, the SECODA\_USER must be the owner of the tables, have INSERT privileges on the table, and MODIFY privileges on the schema and database.&#x20;
 {% endhint %}
 
-If you're using Key-Pair authentication for connecting to Secoda, you can run the following command to connect the Key to the `SECODA_USER`.&#x20;
-
 #### Key-Pair Authentication
 
 If you would like you use key-pair authentication instead of a password you will need to:&#x20;
@@ -84,7 +82,11 @@ If you would like you use key-pair authentication instead of a password you will
 <pre><code><strong>ALTER USER SECODA_USER SET RSA_PUBLIC_KEY='my_public_key';
 </strong></code></pre>
 
-2. Take the final key and convert it to base64 encoding.&#x20;
+2. Take the final key and convert it to base64 encoding. You can run the following command to convert the key.
+
+```
+base64 -i rsa_key.p
+```
 
 ### **Step 3: Whitelist Secoda IP Addresses** <a href="#h_7ee8142011" id="h_7ee8142011"></a>
 
