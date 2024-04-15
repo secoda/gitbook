@@ -180,7 +180,7 @@
     * [Propagating Metadata](resource-and-metadata-management/add-documentation/propagating-metadata.md)
     * [Templates](resource-and-metadata-management/add-documentation/templates.md)
   * [Import and Export Metadata](resource-and-metadata-management/import-and-export-data.md)
-  * [Relating Resources](resource-and-metadata-management/relating-resources.md)
+  * [Related Resources](resource-and-metadata-management/relating-resources.md)
 * [Features](features/README.md)
   * [Activity Log](features/activity-log.md)
   * [AI Assistant](features/ai-assistant/README.md)
