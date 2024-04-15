@@ -68,6 +68,10 @@ Admins can pick and choose which Integrations they'd like certain Teams to have 
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Kapture%202023-05-11%20at%2011.11.34.gif" alt=""><figcaption></figcaption></figure>
 
+### Select subset of resources to be added to the Team
+
+You can use an Automation to automatically add a subset of resources to the Team instead of the entire integration. Check out the video here:[#limit-resources-in-a-catalog](../features/catalog.md#limit-resources-in-a-catalog "mention")
+
 ## Roles Capabilities
 
 Viewers, Editors and Admins within Secoda all have different capabilities when it comes to Teams. These are outlined in the graph below. Note: contact a Workspace Admin if you need assistance with Teams in your workspace.
