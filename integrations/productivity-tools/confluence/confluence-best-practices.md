@@ -1,12 +1,22 @@
+---
+description: Best practices on integrating Confluence in Secoda
+---
+
 # Confluence best practices
 
 ## Confluence integration with Secoda
 
 With the Confluence integration, you can sync the content that you've built out in Confluence into Secoda's [Documents](../../../features/documents/) feature. This allows it to be discoverable, searchable and editable for your Secoda users. There are a few ways to use this integration and we've put together some best practices that we've seen work successfully for our customers.
 
+## Initial Confluence sync
+
+When initiating the sync process between Confluence and Secoda, it's important to note that resources can only be selected at the _Space_ level within Confluence for importation into Secoda. If you wish to include only specific sections or Pages, you have the option to create a new Space in Confluence containing only the desired pages, and subsequently sync that designated Space with Secoda. This approach allows for more precise control over the content being brought over.
+
+## Defining your source of truth
+
 You'll want to decide which tool you'd like to be considered the source of truth. **Changes made to Confluence documents in Secoda will not be persisted back to Confluence.** For example, if you have brought in a Document and then decide to make edits on it within Secoda. That document will then become out of sync with the one in Confluence. We recommend choosing between Secoda or Confluence being your source of truth so that your users know which one to trust as the most up to date resource.
 
-## **Secoda as the source of truth**
+### **Secoda as the source of truth**
 
 Use Secoda as the source of truth if the documents will no longer be edited within Confluence. A main use case for this method is if you plan to move over all of your documentation to Secoda, and move off of Confluence.
 
@@ -18,7 +28,7 @@ Use Secoda as the source of truth if the documents will no longer be edited with
 If another sync is preformed, the edits you make in Secoda will not persist. The documents will revert to whatever is in Confluence, and any edits or changes in Secoda will be removed.
 {% endhint %}
 
-## **Confluence as the source of truth**
+### **Confluence as the source of truth**
 
 Use Confluence as the source of truth if the documents will continue to be edited within Confluence, but you'd like to have these documents be searchable and discoverable. A main use case for this method is if your users will continue using Confluence as their main documentation editor, but you'd like to still have this context in Secoda.
 
