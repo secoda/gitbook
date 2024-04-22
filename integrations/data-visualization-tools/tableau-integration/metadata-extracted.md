@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from Tableau
 ---
 
-# Metadata Extracted
+# Tableau Metadata Extracted
 
 ### What does Secoda extract from Tableau?
 
@@ -32,10 +32,12 @@ NOTE: Preview of Tableau resources is available in Secoda if permissions are gra
   * Owners
   * URL
   * Updated At
+  * Number of Views
 * Sheets
   * Name
   * URL
   * Owners
+  * Number of Views
 * Fields
   * Name
   * Description
