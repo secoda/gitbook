@@ -24,16 +24,27 @@ You can also search directly from the Home page, [within the Catalog](search.md#
 
 ## How Search works
 
-The search strategy ranks results based on how closely they match your search term in different fields, using a priority system:
+Our search functionality leverages popularity boosting, taking into account both internal and external interactions:
 
-1. **Exact Title Match**: Finds resources where the title exactly matches your search term. This is highly prioritized, making it more important than other matches.
-2. **Title Prefix Match**: Looks for resources where the title starts with your search term. It's slightly less important than an exact match but still prioritized.
-3. **Phrase Match in Title**: Identifies resources where the title contains your search term as a phrase. This has a lower priority compared to exact and prefix matches.
-4. **Phrase Match in Description**: Searches for your term as an exact phrase within the resources' description. It's less important than finding the phrase in the title.
-5. **Phrase Match in Documentation**: Finds your term as an exact phrase within the resources' definition, having the lowest priority among phrase matches.
-6. **Wildcard Match in Full Title**: Highly prioritizes resources where the full title contains your search term anywhere. This is given the highest importance of all, significantly more than any other match type.
+**Internal Popularity Boosting:**
 
-In essence, resources that exactly match your term in the title are most preferred, followed by those where the term starts the title or appears as a phrase in the title, description, or definition. Documents with your search term anywhere in the full title are deemed most relevant.
+* **Views within Secoda:** The more a resource is viewed within Secoda, the higher it will rank in search results.
+* **User Interaction within Secoda:** Resources gain additional boost points if the current user has recently interacted with them, whether it's a Catalog resource, Document, Term, or Question. This personalizes search results based on user activity.
+
+**External Popularity Boosting:**
+
+* **External Interactions:** Queries and views in external tools like Tableau or Looker contribute to the popularity score of a resource, enhancing its visibility in search results.
+
+**Enhanced Search Ranking Strategy:**
+
+* **Exact Title Match:** Highest priority is given to resources with titles that exactly match the search term.
+* **Title Prefix Match:** Searches for resources where the title starts with the search term.
+* **Phrase Match in Title:** Ranks resources where the title contains the search term as a phrase.
+* **Phrase Match in Description:** Looks for the search term as an exact phrase within the resource's description.
+* **Phrase Match in Documentation:** Identifies the term within the resource's documentation, though with a lower priority.
+* **Wildcard Match in Full Title:** Gives the highest importance to resources where the full title contains the search term anywhere.
+
+This approach ensures that the most relevant and interacted-with documents are prominently displayed, aiding users in quickly finding the most pertinent and popular content.
 
 ## Search views
 
