@@ -41,6 +41,7 @@ All of the above practices can also be done through [the Secoda API](../secoda-a
 * Articles:&#x20;
   * [Data Stack Cost Management Best Practices | Secoda](https://www.secoda.co/blog/managing-costs-of-the-modern-data-stack-at-scale)
   * [How To Increase the ROI of Your Data Team | Secoda](https://www.secoda.co/blog/from-cost-center-to-revenue-generator-unleashing-the-potential-of-data-teams)
+  * [4 ways to improve data quality | Secoda](https://www.secoda.co/blog/4-ways-to-improve-data-quality)
 * Webinar: [Mastering cost containment for modern data teams](https://www.youtube.com/watch?v=1R8y8LZRJCU)
 * [snowflake-costs.md](../integrations/data-warehouses/snowflake-integration/snowflake-costs.md "mention")
 
