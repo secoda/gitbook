@@ -53,5 +53,3 @@ Once you've onboarded your initial rollout group, you might find it helpful to h
 * **Teams workshops:** Organize recurring Teams workshops to discuss how the group would like to organize their resources. Talk through and designate owners, and consider implementing different [custom metadata tags](../../../resource-and-metadata-management/tags/custom-tags.md) for your resources.
 * **Dictionary workshop:** Brainstorm a list of terms that the group uses/hears in their day to day workflows. What concepts or terms are you often explaining to others? Those could be potential terms in the Dictionary!
 * **Documentation days:** Set aside a recurring workshop for documentation clean up days to ensure that your users are staying on top of the resources that they own.
-
-###

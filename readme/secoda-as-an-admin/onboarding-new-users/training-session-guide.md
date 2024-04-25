@@ -69,11 +69,13 @@ Share your screen showing your Secoda workspace.
 
 #### Additional Features Demo
 
-You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows. For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../../../best-practices/best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using the Propagate metadata feature.
+You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows.&#x20;
+
+For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../../../best-practices/best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using Automations & the Propagate metadata feature. A data owner might also want to know about [monitoring.md](../../../features/monitoring.md "mention") and how they can set up data quality alerting for their core tables.
 
 ### Next steps
 
+* Invite the users to Secoda and add them to their respective Teams
 * Ask users to review the resources that they/their team owns - update descriptions and other metadata if necessary
 * Ask users to test out the AI Assistant and provide feedback
-* Add users to the product and assign them to their Teams
-* Share any relevant documentation with users, including[secoda-as-a-viewer](../../../getting-started/secoda-as-a-viewer/ "mention")
+* Share any relevant documentation with users, including[secoda-as-a-viewer](../../../getting-started/secoda-as-a-viewer/ "mention") [secoda-as-an-editor.md](../../../getting-started/secoda-as-an-editor.md "mention")
