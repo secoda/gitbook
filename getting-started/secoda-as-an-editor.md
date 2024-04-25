@@ -4,18 +4,31 @@ description: Here you can find resources for new Editors within Secoda
 
 # Secoda as an Editor
 
-As an Editor in Secoda, you play an essential role in shaping the tool for other data consumers across your organization. Editors have the power to add endless enrichment to the data resources to enable your whole team to be data-driven.
+As an Editor in Secoda, you are pivotal in enriching data resources and fostering a data-driven culture within your organization. Here's how you can make the most out of your role:
 
-Check out some of our existing documentation and steps you may want to take as a new Editor within the product:
+**Start Here:**
 
-* [ ] High-level [introduction to Secoda](../readme/secoda-as-a-viewer/introduction-guide.md)
+* [ ] **High-level** [introduction to Secoda](../readme/secoda-as-a-viewer/introduction-guide.md)
+* [ ] **Video Tutorials:**
   * [ ] Video: [Introduction to Secoda](../#video-resource-introduction-to-secoda)
   * [ ] Video: [Initial steps for new Editors in Secoda](https://www.loom.com/share/ba344cf7b50d41c8af25b67b2a943712?sid=fcca1054-2431-4d54-b3fe-4ab364e49b0f)
-* [ ] Read up on [best practices within Secoda](../best-practices/)
-* [ ] Identify which data resources you own and s[tart contextualizing your data](../resource-and-metadata-management/add-documentation/) by adding enrichment
-* [ ] Download the [Chrome extension](../features/chrome-extension.md) to view and edit Secoda metadata directly in other tools like Tableau and Snowflake
-* [ ] Ask[ Secoda AI Assistant questions about your data directly in Slack](../integrations/productivity-tools/slack-connection/slack-user-guide.md) (make sure your Admins have enabled Slack and AI)
-* [ ] Populate the tool with [documents](../features/documents/) and [dictionary terms](../features/dictionary.md) related to your owned resources
-* [ ] Set your [notifications preferences](../features/notifications.md)&#x20;
-* [ ] [Customize your personal homepage](../features/custom-homepage.md#personal-homepage) with links to your most-viewed resources to enable easy access&#x20;
-* [ ] Read up on the many other [features](../features/) you can take advantage of!
+
+**Enhance and Enrich:**
+
+* [ ] **Best Practices:** Read up on[ ](https://chat.openai.com/c/eab2984d-7157-4080-873f-f2cc92e2f22b)[best practices within Secoda](../best-practices/).
+* [ ] **Identify Ownership:** Determine which data resources you own and begin [adding valuable context and enrichment](../best-practices/documentation-best-practices.md).
+* [ ] **Chrome Extension:** Download and use the [Chrome extension](../features/chrome-extension.md) to manage Secoda metadata directly in tools like Tableau and Snowflake.&#x20;
+
+**Engage and Enhance:**
+
+* [ ] **Secoda AI Assistant:** Interact with the [Secoda AI Assistant directly in Slack](../integrations/productivity-tools/slack-connection/slack-user-guide.md) for data inquiries—ensure your Admins have enabled this integration.
+* [ ] **Documentation and Terms:** Populate the tool with essential [Documents](../features/documents/) and [Dictionary terms ](../features/dictionary.md)related to your resources.
+
+**Customize and Configure:**
+
+* [ ] **Notification Settings:** Set your [notification preferences ](../features/notifications.md)to stay updated on changes and updates.
+* [ ] **Personal Homepage Customization:** Tailor your [personal homepage](../features/custom-homepage.md) with links to frequently accessed resources for quicker navigation.
+
+**Explore Further:**
+
+* [ ] **Learn More:** Dive deeper into the extensive features available to you as an Editor in Secoda. [Explore features](../features/).
