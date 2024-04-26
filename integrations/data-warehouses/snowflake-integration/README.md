@@ -55,6 +55,14 @@ GRANT SELECT ON FUTURE TABLES IN DATABASE identifier($database_name)  TO ROLE SE
 commit;
 ```
 
+\[Optional] If you are using Snowflake Dynamic Tables, to bring in those tables, you have to grant `MONITOR` permissions to the SECODA role on all of those tables.
+
+```
+GRANT MONITOR ON TABLE database.schema.some_dynamic_table TO ROLE SECODA;
+```
+
+This step has to be repeated for every single dynamic table that you wish to bring into Secoda.
+
 ### Step 2: Create User for Secoda
 
 ```
