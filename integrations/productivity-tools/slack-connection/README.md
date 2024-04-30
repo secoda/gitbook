@@ -65,6 +65,12 @@ You can also use the Secoda integration for Slack for personal direct message no
 
 Overall, connecting Slack to Secoda can help your team stay updated, collaborate more effectively, and work more efficiently.
 
+## Troubleshooting
+
+If you encounter issues with the Slack integration, don't hesitate to reach out to our support team at [support@secoda.co](mailto:support@secoda.co) for assistance.
+
+
+
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}
