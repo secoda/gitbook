@@ -16,11 +16,11 @@ Follow the steps on [#how-to-add-integrations](../getting-started/secoda-as-an-a
 
 From the Catalog page, Admins and Editors are able to export the Catalog view into a CSV file. You can even apply filters and export the filtered subset of data.
 
-Simply apply the filters, click the three dot menu and click "Download catalog view".
+Simply apply the filters, click the three dot menu and click "Export page as CSV".
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6f9bbeed-9808-4826-926d-6e88b1b61228.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-04-22 at 2.54.30 PM.png" alt=""><figcaption></figcaption></figure>
 
-To export all resources, check out our documentation on [import-and-export-data.md](../resource-and-metadata-management/import-and-export-data.md "mention").
+To export all Catalog resources, check out our documentation on [import-and-export-data.md](../resource-and-metadata-management/import-and-export-data.md "mention").
 
 ## Identify undocumented Catalog resources
 
