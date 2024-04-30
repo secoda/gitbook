@@ -4,7 +4,7 @@ description: Seamlessly integrate Secoda with your Slack workspace
 
 # Slack
 
-Connecting your workspace to Slack allows you to receive notifications from Secoda regarding changes in your workspace and ask questions about your data directly from Slack. When using the Slack Integration you're agreeing to our [privacy-policy.md](../../../policies/privacy-policy.md "mention")and [terms-of-use.md](../../../policies/terms-of-use.md "mention").
+Connecting your workspace to Slack allows you to receive notifications from Secoda regarding changes in your workspace and ask questions about your data directly from Slack. When using the Secoda integration for Slack you're agreeing to our [privacy-policy.md](../../../policies/privacy-policy.md "mention")and [terms-of-use.md](../../../policies/terms-of-use.md "mention").
 
 You can learn more about all of the capabilities of this integration here: [slack-user-guide.md](slack-user-guide.md "mention")
 
@@ -15,7 +15,7 @@ You can learn more about all of the capabilities of this integration here: [slac
 2. After this channel is created or you've decided which existing channel you'd like to use, go to **Integrations** in the Secoda App.
 3. Click **New integration** and search for **Slack**.
 4. Choose which **Teams** you'd like to include.
-   1. We recommend choosing all so that everyone across your organization has access to the Slack integration.
+   1. We recommend choosing all so that everyone across your organization has access to the Secoda integration for Slack.
 5. Click **Connect.**
    1. Note: This connection will need to be approved by your Slack admin manager.
 6. Choose the Slack channel(s) that you'd like to receive different notifications in.
@@ -23,7 +23,7 @@ You can learn more about all of the capabilities of this integration here: [slac
 ![](https://secoda-public-media-assets.s3.amazonaws.com/cb828ed5-c8d2-4324-9438-264aa614ec30.png)
 
 {% hint style="info" %}
-**Notifications Channel** = Where users receive notifications on everything that is checked off in the Notifications tab of the Slack integration settings
+**Notifications Channel** = Where users receive notifications on everything that is checked off in the Notifications tab of the integration settings
 
 **Monitoring Incidents Channel** = Where users receive notifications on new monitoring incidents, and when they resolve
 
@@ -35,23 +35,23 @@ You can learn more about all of the capabilities of this integration here: [slac
    *   Thread Responses: How Secoda AI responds when a user messages in a thread in the connected data request channel\
 
 
-       <figure><img src="../../../.gitbook/assets/Screenshot 2024-03-07 at 1.04.58 PM.png" alt=""><figcaption><p>AI Assistant settings page for the Slack integration<br></p></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-30 at 6.16.52 PM.png" alt=""><figcaption><p>AI Assistant settings page<br></p></figcaption></figure>
 8. Within the Slack app, go into the Slack channel(s) you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.**
    1. Note: A Slack Admin needs to do this step.&#x20;
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/e2370145-6019-474a-9515-248b45ec9420.png)
 
-9. To set up [#secoda-ai-slackbot](slack-user-guide.md#secoda-ai-slackbot "mention"), make sure you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention") in your workspace. You're then able to utilize the Slack:AI Assistant feature.
+9. To set up [#secoda-ai-slackbot](slack-user-guide.md#secoda-ai-slackbot "mention"), make sure you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention") in your workspace. You're then able to utilize the Secoda AI Assistant for Slack feature.
 
 ## How it works
 
-There are many ways to use the Slack integration. The following three scenarios can be managed in one Slack channel, or can be split into multiple different channels:
+There are many ways to use the Secoda integration for Slack. The following three scenarios can be managed in one Slack channel, or can be split into multiple different channels:
 
-* [**Receiving workspace-level notifications in a chosen Channel**](./#slack-workspace-notifications): These can be helpful for the workspace Admins to all be notified of workspace-level changes. Admins/Editors can also [send Announcements](slack-user-guide.md#send-announcements-to-slack) to this Slack channel. Configure these in the **Notifications** tab in the Slack Integration Settings.
+* [**Receiving workspace-level notifications in a chosen Channel**](./#slack-workspace-notifications): These can be helpful for the workspace Admins to all be notified of workspace-level changes. Admins/Editors can also [send Announcements](slack-user-guide.md#send-announcements-to-slack) to this Slack channel. Configure these in the **Notifications** tab in the integration Settings.
 * [**Receiving Monitoring incident alerts**](../../../features/monitoring.md#slack-channel-for-monitoring-notifications): Get alerted about new incidents and when they've resolved to monitor data quality.
 * [**Managing data-related questions**](../../../best-practices/slack-less-than-greater-than-questions-workflow.md): Set up a workflow in Slack for managing user questions about data.
 
-You can also use the Slack integration for personal direct message notifications, and searching Secoda privately.
+You can also use the Secoda integration for Slack for personal direct message notifications, and searching Secoda privately.
 
 * [**Receive personally relevant notifications via DM**](slack-user-guide.md#receiving-dms-from-slack): After configuring your preferences in Settings and adding the Slack app, you can get personal notifications via DM.
 * [**Searching**](slack-user-guide.md#searching-from-slack) **and**[ **asking questions privately**](slack-user-guide.md#asking-questions-to-secoda-ai-for-personal-use): Use the Slack command `/secoda` anywhere in Slack to search Secoda in a private way.
