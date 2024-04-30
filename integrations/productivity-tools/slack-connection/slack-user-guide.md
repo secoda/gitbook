@@ -6,7 +6,7 @@ description: An end-user guide to using Secoda's Slack integration
 
 There are many ways to interact with Secoda through Slack. You can use it to search and ask questions about the metadata in Secoda, and get notified about changes within the workspace. This document outlines all the capabilities of the Slack integration with Secoda.
 
-## Secoda AI Slackbot
+## Secoda AI bot for Slack
 
 You can interact with Secoda's AI Assistant directly in Slack, similar to how you would in the app. The questions and answers from the AI Assistant can then be pushed into Secoda Questions in your workspace!&#x20;
 
