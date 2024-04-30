@@ -16,16 +16,6 @@ Click on “Generate New API Key” button and then write down the generated key
 
 To make an authenticated request to your Secoda workspace. Please include an `Authorization` header with your HTTP request with the following format `Bearer <Your API Key>`
 
-### Step 3: Test Your Authentication
-
-Make a request to the Secoda Health Check API endpoint `/healthcheck`. A successful response should look like this.&#x20;
-
-```json
-{
-    "status": "OK"
-}
-```
-
 ### Request Examples
 
 See below for example requests to the Secoda API.  You must replace `{{base_URL}}` with the [base URL](get-started.md) for your workspace, and the Bearer with the API key generated using the instructions above. &#x20;

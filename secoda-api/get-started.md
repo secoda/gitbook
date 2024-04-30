@@ -14,6 +14,16 @@ See below for the Base URL for your workspace.
 
 If your workspace is associated with a unique URL, then the Base URL for the API is formed by appending `api/v1/` to the end of your workspace's URL.
 
+### Test the Base URL
+
+Make a request to the Secoda Health Check API endpoint `/healthcheck`. A successful response should look like this.&#x20;
+
+```json
+{
+    "status": "OK"
+}
+```
+
 ## Pagination
 
 The API response includes several key components relevant to pagination:
