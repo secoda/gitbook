@@ -4,13 +4,23 @@ description: Create data monitors for visibility into the health of your data st
 
 # Monitoring
 
-Monitoring is an essential player in maintaining data quality. Within Secoda, you can configure essential monitors to be alerted about changes to your data. Automatically schedule and create thresholds with the ability to track the history of runs and visualize performance of your monitors.
+## Introduction
+
+Monitoring plays a crucial role in maintaining data quality by allowing you to configure alerts for changes in your data. Automatically schedule monitors and set thresholds to track run history and visualize monitor performance.
+
+Admins and Editors can access existing Monitors from the Monitors page accessible via the side panel. Here, you can view all monitors and incidents across the platform and create new ones.
+
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/337f012c-4ced-4657-a69b-819b044089a0.png" alt=""><figcaption></figcaption></figure>
+
+To learn about how our current customers are using Monitors in Secoda to improve their data quality, check out this list of [monitoring-use-cases.md](monitoring-use-cases.md "mention").
 
 {% hint style="info" %}
-If you've chosen Automatic thresholds, it can take up to a week for Secoda to finish learning what the right thresholds should be for your monitors.
+**Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.
 {% endhint %}
 
-Choose from the following monitor types:
+## Types of Monitors
+
+Select from a variety of Monitors to suit your needs:
 
 * **Row Count** - The number of rows over time
 * **Freshness** - The time elapsed since last update
@@ -20,33 +30,27 @@ Choose from the following monitor types:
 * **Mean** - The arithmetic mean of a numeric column
 * **Null Percentage** - The percentage of values in a column that are null
 * **Unique Percentage** - The percentage of values in a column that are unique
-* [**Custom SQL**](monitoring.md#custom-sql-monitors) - Define a monitor by writing your own SQL query
+* [**Custom SQL**](./#custom-sql-monitors) - Define a monitor by writing your own SQL query
 
 The monitor will alert if any of these values are higher or lower than expected.
 
-{% hint style="info" %}
-**Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.
-{% endhint %}
-
-Admins and Editors can find existing Monitors in the Monitors page from the side panel. You can see all the monitors and incidents across the entire platform, and also create new ones from here.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/337f012c-4ced-4657-a69b-819b044089a0.png" alt=""><figcaption></figcaption></figure>
-
 ## Creating Monitors
 
-There are 2 ways to create monitors in Secoda. You can either use the **Monitors** section in the sidebar navigation or through the **Monitors tab** on the resource page.
+Monitors can be created via the **Monitors** section in the sidebar or through the **Monitors tab** on the resource page:
 
-1.  Select the "**Monitors**" section from the sidebar navigation and click "**Add monitor"** (also found within the monitors tab under the resource)**:**
+1.  Navigate to "**Monitors**" and click "**Add monitor."**&#x20;
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cedab835-f00f-4bef-b5c1-2aeb80fa032a.png" alt=""><figcaption><p>Add monitor option on the main monitors page</p></figcaption></figure>
-2.  Select the monitor type you want to create and choose the integration you want to create the monitor for (if adding a new monitor from the resource itself, the integration will be pre-selected):
+2.  Choose the monitor type and select the integration.
+
+    &#x20;(if adding a new Monitor from the resource itself, the integration will be pre-selected):
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d82f0b01-677b-419d-b7c8-123755b818ca.png" alt=""><figcaption></figcaption></figure>
-3.  Select one or multiple resources that you'd like to add the monitor to:
+3.  Select one or multiple resources that you'd like to add the monitor to.
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/475c98f5-c217-477b-8c36-265884ea5fee.png" alt=""><figcaption><p>configuration window for monitors<br><br></p></figcaption></figure>
-4. Adjust the **Threshold** and **Schedule** to your preferred configuration
-   * **Schedule:** Choose between Daily, Every 12, 6 or 3 hours, or Hourly
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/475c98f5-c217-477b-8c36-265884ea5fee.png" alt=""><figcaption><p>configuration window for monitors<br></p></figcaption></figure>
+4. Adjust the **Threshold** and **Schedule** to your preferred configuration.
+   * **Schedule Options:** Daily, Every 12, 6 or 3 hours, or Hourly
    * **Threshold:** Automatic or Manual
      * Note: For Automatic thresholds to be set, it can take 4 days for hourly, 6 days for multiple times a day, and 8-9 days for daily monitors.&#x20;
 5. Once configured, click add monitor and it show now show up within the list of monitors. You can view and edit the configurations from the sidebar on the monitor page
@@ -87,7 +91,7 @@ Standard monitors such as nullness, row count, etc can be modified with custom S
 
 ## Managing Monitors
 
-View **Status**, **Last** and **Next Run** details, and a **Chart Visualization** of the monitor's historical performance
+View **Status**, **Last** and **Next Run** details, and a **Chart Visualization** of the monitor's historical performance.
 
 <div align="left">
 
@@ -96,6 +100,10 @@ View **Status**, **Last** and **Next Run** details, and a **Chart Visualization*
 </div>
 
 ### Thresholds and Incidents
+
+{% hint style="info" %}
+If you've chosen Automatic thresholds, it can take up to a week for Secoda to finish learning what the right thresholds should be for your monitors.
+{% endhint %}
 
 The lighter green surrounding the main line represent the **threshold** limits - once the threshold is passed, it'll show a red dot indicating an incident
 
@@ -121,10 +129,16 @@ You may receive an error on your Monitors for various reasons. The Error will ap
 
 ## Best Practices
 
-With monitors, as we are querying your source, we do recommend being selective around what you're monitoring and how often your monitoring based on your team's cost constraints. Some best practices are to:
+To optimize the effectiveness of data monitoring and manage resource utilization, consider these best practices:
 
-* Be selective about which columns/tables are monitored - focus on critical data
-* Reduce the number of times a monitor is run to daily
+1. **Selective Monitoring:** Focus on the most critical data elements. Prioritize columns and tables that are essential for your business operations to avoid unnecessary strain on resources.
+2. **Optimize Frequency:** Set monitoring frequencies that balance timeliness and resource consumption. For many applications, configuring monitors to run **daily** is sufficient to catch issues without incurring excessive costs.
+3. **Regular Reviews:** Periodically review data quality monitoring configurations. This ensures that your monitoring strategies stay aligned with evolving business needs and data landscapes.
+4. **Workflow Integration:** Embed monitoring alerts into your team’s daily workflows using tools like Slack or email (see [#monitoring-notifications](./#monitoring-notifications "mention")). This ensures that the right personnel are promptly notified, enabling swift action.
+5. **Documentation and Training:** Keep detailed documentation of your monitor setups and procedures. Train your team on the importance of monitoring and the actions required when specific alerts are triggered.
+6. **Trend Analysis:** Leverage historical data from your monitoring activities to identify trends and patterns. This analysis can help refine your data management practices and predictive monitoring over time.
+
+By following these guidelines, you can ensure your monitoring processes are both efficient and effective, providing critical insights while maintaining control over costs and resource use.
 
 ## Monitoring Notifications
 
@@ -138,7 +152,7 @@ Ensure that you receive notifications about your monitors by going into your Not
 
 #### Slack Channel for Monitoring notifications
 
-In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
+In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/138d2dd7-a4f6-4adf-a404-ff041566eabe.png" alt=""><figcaption></figcaption></figure>
 
