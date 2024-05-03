@@ -22,12 +22,12 @@ Continuing with email and password, Microsoft and Google are included in every c
 
 If you'd like to fine tune permissions and security, you can implement your own SSO using SAML technology. SAML requires some additional setup, which is outlined in the documents linked below. For SAML, we offer the following providers:
 
-* [Microsoft Azure Active Directory SAML](../../enterprise/saml/microsoft-azure-ad-saml.md)
-* [Okta SAML](../../enterprise/saml/okta-saml.md)
-* [OneLogin SAML](../../enterprise/saml/onelogin-saml.md)
-* [Google SAML](../../enterprise/saml/google-saml.md)
+* [Microsoft Azure Active Directory SAML](../../saml/microsoft-azure-ad-saml.md)
+* [Okta SAML](../../saml/okta-saml.md)
+* [OneLogin SAML](../../saml/onelogin-saml.md)
+* [Google SAML](../../saml/google-saml.md)
 
-Enterprise plan subscribers with SAML SSO enabled can opt to enable [SCIM](../../enterprise/saml/scim.md).
+Enterprise plan subscribers with SAML SSO enabled can opt to enable [SCIM](../../saml/scim.md).
 
 ## Enforce SSO type
 
