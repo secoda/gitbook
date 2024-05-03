@@ -26,7 +26,7 @@ A single-tenant Cloud set up is an isolated version of the app in it's own VPC  
 
 This provides stronger security guarantees, dedicated resources, and can offer lower latency by configuration in a nearby AWS region.
 
-## [**Self-Hosted**](../../enterprise/self-hosted-secoda/) (On-Premise)
+## [**Self-Hosted**](../../self-hosted-secoda/) (On-Premise)
 
 There are three options for self-hosting Secoda:
 

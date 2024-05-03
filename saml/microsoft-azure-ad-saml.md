@@ -22,7 +22,7 @@ Go to “App Registrations”, click on the app you just created and then click 
 
 `https://<domain>/secoda`
 
-Continuing with the example above, the Application ID URI field should be.&#x20;
+Continuing with the example above, the Application ID URI field should be.
 
 `https://abc.company.co/secoda`
 
@@ -30,9 +30,9 @@ Continuing with the example above, the Application ID URI field should be.&#x20;
 
 ### Step 3 - XML Link
 
-Click “Endpoints” and copy the “Federation metadata document”.&#x20;
+Click “Endpoints” and copy the “Federation metadata document”.
 
-<figure><img src="https://imagedelivery.net/28-eDrK8lEif6_ED0iMQeg/344f8cf5-26b7-42d2-2665-bd2a61857e00/public" alt=""></figure>
+<figure><img src="https://imagedelivery.net/28-eDrK8lEif6_ED0iMQeg/344f8cf5-26b7-42d2-2665-bd2a61857e00/public" alt=""><figcaption></figcaption></figure>
 
 ### Step 4 - Request in Secoda app
 
@@ -42,4 +42,3 @@ Click “Endpoints” and copy the “Federation metadata document”.&#x20;
 4. Click Request which will alert the Secoda team of your request.
 
 Once Secoda has completed their steps, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.
-

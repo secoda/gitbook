@@ -2,7 +2,7 @@
 description: Self-hosted or on-premise
 ---
 
-# Self-Hosted Guide
+# Self-Hosted
 
 ### **Installation Options**
 
