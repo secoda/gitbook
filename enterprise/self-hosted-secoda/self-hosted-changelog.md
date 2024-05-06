@@ -10,7 +10,15 @@ description: >-
 
 This is a patch version update with miscellaneous bug fixes.&#x20;
 
+**Catalog**
+
 * Fixed resources not being nested on the sidebar catalog tree
+
+**Queries**
+
 * Fixed `TRUNCATE` queries showing as creation queries on BigQuery
-* Fixed SSL certificate being too weak for Microsoft SQL Server integration
 * Fixed query block in questions being cut off
+
+**Integrations**
+
+* Fixed SSL certificate being too weak for Microsoft SQL Server integration
