@@ -1,5 +1,7 @@
 ---
-description: This page will go over the AI Assistant functionality.
+description: >-
+  This Admin guide explains how to configure and optimize the Secoda AI
+  Assistant.
 ---
 
 # AI Assistant
@@ -10,59 +12,65 @@ Explore plans which include our AI Assistant [here](https://www.secoda.co/pricin
 
 ## Overview
 
-Secoda's AI Assistant can be thought of as ChatGPT for your data stack. Using a chat interface, it lets anyone at your company get an answer to a data question, regardless of technical ability.
+The Secoda AI Assistant enhances your data stack by providing a powerful chat interface that allows anyone in your organization to retrieve data insights.&#x20;
 
 Secoda's AI Assistant is powered by [OpenAI's APIs](https://openai.com/product), which sit atop the GPT4 Large Language Model. We are updated to the latest version of GPT -- GPT4 Turbo.&#x20;
 
-By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assistant can help you with documentation, query building, locating institutional knowledge, and more!
+By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assistant can help you with documentation, query building, institutional knowledge discovery, all while safeguarding your metadata!
 
-## Set Up
+## **Enabling the AI Assistant**&#x20;
 
-By default, the AI Assistant is off. To toggle it on, you must go into your [Workspace General Settings](https://app.secoda.co/settings/workspace), and scroll down to find the AI section.
+By default, the AI Assistant is disabled. To activate it:
+
+* Navigate to Workspace General Settings.
+* Scroll to the AI section and toggle on the AI Assistant.
+* Once enabled, the AI Assistant will appear in the left-hand menu of your workspace.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
 
-Once the AI Search is enabled, you'll see the AI Assistant in the left hand menu.
+### **AI Settings for Admins**&#x20;
 
-<div align="left">
+Admins can customize AI settings to align with workspace preferences and security protocols:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-28 at 5.54.14 PM.png" alt=""><figcaption><p>Screen shot showing where you can access the AI Assistant once it's been enabled.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-08 at 2.40.52 PM.png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
 
-</div>
+#### Agent Tools
 
-## How to use the AI Assistant
+* By default, tools like `search_resources`, `search_knowledge`, `catalog_search`, `retrieve_entity`, and `entity_link` are enabled to ensure comprehensive search capabilities across the workspace.
+* The `run_sql` tool, disabled by default, allows the AI to execute SQL queries directly on your connected integrations. This tool can provide answers to data queries but can be disabled if there are security concerns. Users can ask questions like "How many customers do we have?" and getting a numeric answer instead of pointing the user to a guiding resource or query. The AI will also provide the user with the steps that it took to find that answer, including any SQL queries it ran on the backend to provide more context.
 
-### Within the UI
+#### **Custom Instructions**&#x20;
 
-The AI Assistant tool is a powerful to to help users find information by using plain-language, and getting answers in a chat-like interface. It also can help you document your resources across your workspace.
+Admins can set specific instructions for the AI to follow, enhancing control and relevance.
 
-**Chatting with AI**&#x20;
+Some examples that we've seen work well:
 
-* To start a chat with Secoda's Assistant, simply click into the AI Assistant window and ask away!&#x20;
-* Check out some [prompts.md](prompts.md "mention") to help you get started in understanding the power of this feature, as well as [best-practices](../../best-practices/ "mention") when working with it.
+> * Do not index on resources tagged with "archived" or "deprecated" or "stale".
+> * Only provide results on "Verified" resources.
+> * Only provide results on Published resources - do not include resources that are still in Draft.
+> * Only reference tables and views from the production analytics schema in Snowflake, never use data from the RAW database.&#x20;
 
-**Letting AI Document for you**
+#### Descriptions custom instructions
 
-* Use the AI to generate descriptions for your metadata with just one click. Read more here:[ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
+Admins are able to define custom instructions to the [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention") so that you can define documentation standards and a format for it to follow.
 
-### Within your workflows
+Some examples that we've seen work well:
 
-The AI Assistant can also be used outside of Secoda, in your other tools.
+> * Add "AI-Generated" to the end of each description added, to indicate to users that a human didn't come up with this definition.
+> * Do not reference the database, schema, table information in the description (this information is obvious in Secoda)
+> * Do not use full, wordy sentences. Be brief and include only the necessary facts.
+> * All tables and columns are related to insurance. Keep this in mind when generating descriptions.
 
-* Connect Secoda and the AI Assistant to your Slack workspace, to improve the data-related questions workflow [#secoda-ai-slackbot](../../integrations/productivity-tools/slack-connection/slack-user-guide.md#secoda-ai-slackbot "mention")
-* [#chat-with-secoda-ai](../chrome-extension.md#chat-with-secoda-ai "mention") by using the Chrome extension in other supported data tools, like Tableau and Snowflake.
+## **Future Improvements**&#x20;
 
-## Future Improvements
+Looking ahead, we are committed to enhancing the Secoda AI Assistant with:
 
-We are very excited about the Secoda AI Assistant, and are regularly making improvements to it. Improvements to look out for are:
+* Improved response times and reliability.
+* Enhanced understanding of complex prompts.
+* Tailored responses based on user roles and access levels.
 
-* Quicker and more reliable performance
-* Better understanding of prompts
-* Role and access based answers
-* And more!
-
-[Explore plans which include our AI Assistant here](https://docs.secoda.co/features/ai-assistant)
+This guide ensures that Admins are equipped to optimize the AI Assistant within their Secoda environment, driving efficient and secure data operations across the organization.
 
 {% hint style="info" %}
-Secoda AI Assistant is only available for Version 7.0.0 and up. If you are running Secoda On Premise or using a managed Instance, this functionality may not be available for you yet. Stay tuned!
+Secoda AI Assistant is only available for Version 7.0.0 and up.
 {% endhint %}
