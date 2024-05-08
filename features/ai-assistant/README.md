@@ -26,6 +26,12 @@ By default, the AI Assistant is disabled. To activate it:
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
 
+{% hint style="info" %}
+By default, both Published and Draft resources are included in the AI Assistant responses. This can be controlled using [custom instructions](./#descriptions-custom-instructions) to restrict this to only Published resources, for example.
+{% endhint %}
+
+### **AI Settings for Admins**
+
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-08 at 2.40.52 PM.png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
