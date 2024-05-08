@@ -17,7 +17,7 @@ There are 2 steps to get started using Lightdash with Secoda:&#x20;
 
 **Connecting Lightdash to Secoda**
 
-After retrieving your gist and token the next step is to connect to Secoda:
+After retrieving your host and token the next step is to connect to Secoda:
 
 1. In the Secoda App, select **Add Integration** on the [Integrations page](https://app.secoda.co/integrations/browse)
 2. Search for and select **Lightdash**
