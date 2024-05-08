@@ -12,6 +12,10 @@ description: Check out our documentation around best practices when working with
 [integrating-secoda-into-existing-workflows.md](integrating-secoda-into-existing-workflows.md)
 {% endcontent-ref %}
 
+{% content-ref url="../features/ai-assistant/best-practices.md" %}
+[best-practices.md](../features/ai-assistant/best-practices.md)
+{% endcontent-ref %}
+
 {% content-ref url="documentation-best-practices.md" %}
 [documentation-best-practices.md](documentation-best-practices.md)
 {% endcontent-ref %}
