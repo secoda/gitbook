@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from dbt Cloud
 ---
 
-# Metadata Extracted
+# dbt Cloud Metadata Extracted
 
 {% hint style="info" %}
 dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
