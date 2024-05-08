@@ -12,8 +12,6 @@ description: An overview of the dbt Core integration with Secoda
 
 {% hint style="info" %}
 dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
-
-The metadata extracted from dbt core is: Descriptions, Lineage, SQL Query, and Tags (optional).
 {% endhint %}
 
 There are several options to connect dbt core with Secoda:
