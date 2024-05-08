@@ -22,8 +22,8 @@ By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assi
 
 By default, the AI Assistant is disabled. To activate it:
 
-* Navigate to Workspace General Settings.
-* Scroll to the AI section and toggle on the AI Assistant.
+* Navigate to Settings > AI.
+* Toggle on the AI Assistant.
 * Once enabled, the AI Assistant will appear in the left-hand menu of your workspace.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
