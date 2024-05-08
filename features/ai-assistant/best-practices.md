@@ -40,6 +40,8 @@ When you know the exact resource you're inquiring about, use the `@` symbol foll
 
 Verify with your workspace Admin whether the AI Assistant can **run direct data queries**. If enabled, you can ask data-specific questions like "How many customers do we have?" and get the number in just a few seconds. The AI will also provide you with the steps that it took to find that answer, including any SQL queries it ran on the backend to provide more context.
 
+{% embed url="https://www.loom.com/share/96ca735fa5704810bb6309ddb2e64565?sid=05b11563-33bb-46de-8a21-ac3e6bbfb79d" %}
+
 If queries aren't enabled, avoid questions about the actual content of the data that isn't referenced in the metadata or documentation. In this case, the data itself is not being sent to OpenAI so we are unable to give accurate results. Instead, try asking it to write a query for the data you're hoping to learn about.
 
 **3. Keep It Fresh**
