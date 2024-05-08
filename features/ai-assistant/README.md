@@ -1,7 +1,5 @@
 ---
-description: >-
-  This Admin guide explains how to configure and optimize the Secoda AI
-  Assistant.
+description: This page will go over the AI Assistant functionality.
 ---
 
 # AI Assistant
@@ -27,8 +25,6 @@ By default, the AI Assistant is disabled. To activate it:
 * Once enabled, the AI Assistant will appear in the left-hand menu of your workspace.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
-
-### **AI Settings for Admins**&#x20;
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
