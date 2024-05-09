@@ -20,7 +20,7 @@ There are two steps to get started using Dataplex with Secoda
 * Login to [GCP console](https://console.cloud.google.com/) and go to the [Service Accounts page](https://console.cloud.google.com/iam-admin/serviceaccounts).&#x20;
 * Click + **Create Service Account**
 * Enter a name click **Create and Continue**
-* In the **Grant this service account access to project** section add the `Data Catalog Viewer` role
+* In the **Grant this service account access to project** section add the `Data Catalog Viewer` role and `Dataplex Metadata Reader` role
 * Click **Done**
 * Search for the Service Account that was just created, click the three dots action menu and select **Manage keys**
 * Click **Add key > Create new key**
