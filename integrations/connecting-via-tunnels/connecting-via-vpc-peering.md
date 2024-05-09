@@ -26,5 +26,10 @@ After sending the VPC Peering request you will need to accept incoming connectio
 * (Worker) `482836992928/sg-096e49e8ee5ebd1b6`
 * (Service)  `482836992928/sg-0c2d21417310fd28f`&#x20;
 
-You will also need to add Secoda's CIDR (`10.2.0.0/16`) OR the specific private subnets ( `10.2.1.0/24` , `10.2.0.0/24` ) to your Route Table.
+You will also need to add Secoda's CIDR OR the specific private subnets ( `10.2.1.0/24` , `10.2.0.0/24` ) to your Route Table.
 
+The VPC (Accepter) and the CIDR's for each region are: &#x20;
+
+<table><thead><tr><th width="117">Region</th><th>VPC (Accepter)</th><th>CIDR</th></tr></thead><tbody><tr><td>US</td><td>vpc-0d8e3f390c5aee744</td><td>10.2.0.0/16</td></tr><tr><td>EU</td><td>vpc-01a0b77b5b5616d60</td><td>10.4.0.0/16</td></tr><tr><td>APAC</td><td>vpc-0c7421c54b3efbc07</td><td>10.5.0.0/16</td></tr></tbody></table>
+
+5. Once the connection is setup, you will simply need to add the specific integration following the steps on the [integration page](../).&#x20;
