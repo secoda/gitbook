@@ -1,5 +1,9 @@
 # Secoda SDK Custom Integration
 
+{% hint style="info" %}
+Check out our webinar on the SecodaDK [here](https://www.youtube.com/watch?v=1oiWOxXs3B4)!
+{% endhint %}
+
 ## Overview
 
 The Secoda SDK is a Python-based toolkit that allows for the creation of custom integrations. These integrations can be used to add resources and lineage to Secoda.
