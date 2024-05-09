@@ -10,7 +10,7 @@ description: >-
 
 Navigate to your workspace settings on Secoda. Click on the “API” to get a list of your API Keys.
 
-Click on “Generate New API Key” button and then write down the generated key. Please keep this key somewhere safe and do not share with others. This key will have admin access to your Secoda workspace.
+Click on “Generate New API Key” button and then write down the generated key. Please keep this key somewhere safe and do not share with others. This key will have the same access to your Secoda workspace as the user who created it.
 
 ### Step 2: Authenticate Your Requests
 
