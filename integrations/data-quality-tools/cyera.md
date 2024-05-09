@@ -4,7 +4,9 @@ description: An overview of Cyera integration with Secoda
 
 # Cyera
 
-Secoda currently supports retrieving tags from Cyera and matching those tag with existing tables and columns inside Secoda.
+Cyera helps you define data sensitivity levels and automates the tagging and classification of your data. It also includes an access control component to ensure that only authorized personnel can access sensitive data.
+
+Secoda's integration with Cyera not only retrieves these sensitivity tags but also matches them with existing tables and columns within Secoda. This functionality enhances data governance by making sensitivity labels visible and actionable within the Secoda environment, ensuring compliance with your organization's data privacy standards.
 
 ## Getting started with Cyera
 
@@ -40,9 +42,8 @@ After retrieving the API token token and secret, the next step is to connect it 
 3. Enter your Cyera API token (in the Client ID field) and secret retrieved above
 4. Once successfully connected, a prompt will ask you to run the initial extraction
 
-### After Connecting to Secoda
+## After Connecting to Secoda
 
-Any resources that are classified in Cyera will get tagged with the same classifications in Secoda. The list of Cyera tags can be seen in the [Tags](../../resource-and-metadata-management/tags/custom-tags.md) tab of the Workspace Settings.
+Resources classified in Cyera are automatically tagged with the same classifications in Secoda. You can view the list of Cyera tags in the [Tags](../../resource-and-metadata-management/tags/) tab under Workspace Settings.&#x20;
 
-:warning:Resources that are tagged in Cyera but doesn't exist in Secoda will not get their classifications ingested into Secoda.
-
+:warning:Resources tagged in Cyera that do not exist in Secoda will not have their classifications ingested into Secoda.
