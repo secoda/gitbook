@@ -1,5 +1,5 @@
 ---
-description: Common questions about the Secoda product
+description: Key questions about the Secoda product
 ---
 
 # FAQ
