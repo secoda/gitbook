@@ -1,24 +1,52 @@
 ---
-description: Best practices around verifying resources in your workspace
+description: >-
+  Best practices around collaborating with your team to define resources in your
+  workspace
 ---
 
-# Verifying resources workflow
+# Defining resources workflow
 
-Verifying resources is an important step to address data governance goals at your organization. Verifying a resource gives end-users the confidence that they're using the best source for their work. All types of resources can be tagged as verified including metrics, business terms in the dictionary, documents, tables, etc.&#x20;
+## Introduction
 
-Secoda users can utilize the Questions feature in the UI to align on Verified resources. This document outlines the best practices that we've seen work best when identifying and defining Verified resources.
+Defining resources accurately and consistently is essential for effective data governance. This workflow is designed to guide teams in properly defining any type of resource, such as metrics, business terms, documents, and tables, ensuring they meet our organizational standards for accuracy and reliability.
 
-## How to set up this workflow
+Secoda users can utilize the Questions feature in the UI to align on defining resources. This document outlines the best practices that we've seen work best when identifying and defining resources, then marking them as [Verified](../resource-and-metadata-management/tags/verified-tag.md).
 
-1. Create a Question regarding a resource that you'd like to be Verified. The following examples show how you might ask a question about different types of resources:
-   * **Metric**: How do we define and calculate _this metric_?
-   * **Dictionary term**: How do we define _this term_?
-   * **Document**: What are _the best practices_ for using this dashboard?
-   * **Catalog resource** (table, schema etc.): _Which table_ is the most accurate representation, and most up to date?
-2. Tag the relevant users who should have a say in answering the question, in the comment section.
-3. Everyone in the thread contributes their notes and comes to a conclusion.
-4. Create or identify the resource, add the appropriate metadata (description, owner, tags etc.) and tag it as Verified to indicate to users that they should trust this as the source of truth.
-5. Link the Question as a [Related resource ](../resource-and-metadata-management/relating-resources.md)for auditing capabilities and tracking how the group came to the decision.
+## Workflow Overview
+
+1. **Initiate a Question**:
+
+Initiate the process by creating a [Question](../features/ask-questions-in-secoda.md) in the UI about the resource you wish to define. This could be a metric, a business term, a document, or any other data resource. For example:
+
+* Metric: "How do we define and calculate this metric?"
+* Dictionary term: "What does this term mean within our context?"
+* Document: "What are the usage guidelines for this document?"
+* Catalog resource: "Which version of this data is most accurate and up-to-date?"
+
+2. **Collaboration and Discussion**:
+
+Engage relevant stakeholders by tagging them in the comment section of the question. Facilitate a discussion where all parties can contribute their insights and knowledge.
+
+3. **Consensus**:
+
+Reach a consensus based on the discussion and mark the definition as the correct Answer.&#x20;
+
+4. **Resource Creation**:
+
+Formalize the definition by creating or updating the resource with the agreed-upon definition or other metadata.&#x20;
+
+5. **Linking to Documentation**:
+
+Link the discussion from the Questions feature to the resource as a [Related resource](../resource-and-metadata-management/relating-resources.md) for auditing capabilities. This linkage serves as a historical record of the decision-making process.
+
+## Verification of Defined Resources
+
+After a resource is defined, it can be marked as Verified to further assure its reliability:
+
+* **Verification Process**: Tag the resource as 'Verified' to indicate that it has undergone a thorough review process and is deemed a reliable source of truth.
+* **Importance of Verification**: This tag helps end-users understand that the resource is not only defined but also validated by the team, reflecting a significant investment in ensuring its accuracy and relevance.
+
+By following this workflow, we ensure that our resources are not only defined with precision but also verified for their trustworthiness, enhancing the overall data governance across the organization.
 
 ## Video resource
 
