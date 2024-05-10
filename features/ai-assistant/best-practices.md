@@ -44,13 +44,19 @@ Verify with your workspace Admin whether the AI Assistant can **run direct data 
 
 If queries aren't enabled, avoid questions about the actual content of the data that isn't referenced in the metadata or documentation. In this case, the data itself is not being sent to OpenAI so we are unable to give accurate results. Instead, try asking it to write a query for the data you're hoping to learn about.
 
-**3. Keep It Fresh**
+**3. Provide feedback**&#x20;
+
+Use the <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44d@2x.png" alt=":+1:" data-size="line"> and <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44e@2x.png" alt=":-1:" data-size="line"> buttons to provide feedback on the AI Assistant's responses. This helps it learn and improve its accuracy. For instance, if it references the incorrect table, you can correct it, guiding its future responses.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 1.03.47 PM.png" alt=""><figcaption><p>Provide feedback to improve the AI</p></figcaption></figure>
+
+**4. Keep It Fresh**
 
 Start new chats every 3-4 questions to ensure clarity and reset the context for the AI, enhancing response accuracy.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8f0a011b-7424-45cb-8704-3f7108d66536.gif" alt=""><figcaption><p>Starting a new conversation</p></figcaption></figure>
 
-**4. Keep Questions Concise and Direct**
+**5. Keep Questions Concise and Direct**
 
 Clear and succinct questions yield the best responses. Avoid overly complex or vague prompts that might confuse the AI.
 
