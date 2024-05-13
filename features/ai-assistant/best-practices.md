@@ -13,7 +13,7 @@ The Secoda AI Assistant enhances your ability to quickly find information and do
 **1. Engaging with the AI Assistant:**
 
 * **Access:** Click into the AI Assistant window within the Secoda UI to start an interaction. You can also find the AI Assistant on all resource pages (see video below).
-* **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [prompts.md](prompts.md "mention") to help you get started in understanding the power of this feature.
+* **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [prompts.md](prompts.md "mention") and [ai-use-cases.md](ai-use-cases.md "mention") to help you get started in understanding the power of this feature.
 * **Documentation:** Use the AI to automatically generate descriptions for your metadata with just one click [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
 
 {% embed url="https://www.loom.com/share/473aad77e80c41caa8e252f7ac2d568b?sid=b0657b9d-6f0f-419c-9719-259bda14ebaa" %}
@@ -25,24 +25,25 @@ The Secoda AI Assistant enhances your ability to quickly find information and do
 
 ## **Best Practices for Interacting with the AI Assistant**
 
-**1. Be Specific**
+**1. Understand Data Query Capabilities**
 
-When you know the exact resource you're inquiring about, use the `@` symbol followed by the resource name to direct the AI accurately.
-
-* **Examples:**
-  * "Can you tell me more about how the @Sales Dashboard was created and which resources it uses?"
-  * "How would I join the @orders and @payments tables in a query?"
-  * "What downstream resources would be affected if I deprecated the @customers table?"
-
-{% embed url="https://www.loom.com/share/b7e9c8a8acf44a569b6e15e69416f02e" %}
-
-**2. Understand Data Query Capabilities**
-
-Verify with your workspace Admin whether the AI Assistant can **run direct data queries**. If enabled, you can ask data-specific questions like "How many customers do we have?" and get the number in just a few seconds. The AI will also provide you with the steps that it took to find that answer, including any SQL queries it ran on the backend to provide more context.
+Verify with your workspace Admin whether the AI Assistant can **run direct data queries**. If enabled, you can ask data-specific questions like "How many customers do we have?" and get the number in just a few seconds. Clicking "Show steps" will provide you with the steps that it took to find that answer, including any SQL queries it ran on the backend to provide more context.
 
 {% embed url="https://www.loom.com/share/96ca735fa5704810bb6309ddb2e64565?sid=05b11563-33bb-46de-8a21-ac3e6bbfb79d" %}
 
 If queries aren't enabled, avoid questions about the actual content of the data that isn't referenced in the metadata or documentation. In this case, the data itself is not being sent to OpenAI so we are unable to give accurate results. Instead, try asking it to write a query for the data you're hoping to learn about.
+
+**2. Be Specific**
+
+When you know the exact resource you're inquiring about, use the `@` symbol followed by the resource name to direct the AI accurately.
+
+**Examples:**
+
+* "Can you tell me more about how the @Sales Dashboard was created and which resources it uses?"
+* "How would I join the @orders and @payments tables in a query?"
+* "What downstream resources would be affected if I deprecated the @customers table?"
+
+{% embed url="https://www.loom.com/share/b7e9c8a8acf44a569b6e15e69416f02e" %}
 
 **3. Provide feedback**&#x20;
 
