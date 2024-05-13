@@ -71,6 +71,24 @@ Looking ahead, we are committed to enhancing the Secoda AI Assistant with:
 * Enhanced understanding of complex prompts.
 * Tailored responses based on user roles and access levels.
 
+## Additional documentation
+
+{% content-ref url="best-practices.md" %}
+[best-practices.md](best-practices.md)
+{% endcontent-ref %}
+
+{% content-ref url="ai-use-cases.md" %}
+[ai-use-cases.md](ai-use-cases.md)
+{% endcontent-ref %}
+
+{% content-ref url="security.md" %}
+[security.md](security.md)
+{% endcontent-ref %}
+
+{% content-ref url="prompts.md" %}
+[prompts.md](prompts.md)
+{% endcontent-ref %}
+
 This guide ensures that Admins are equipped to optimize the AI Assistant within their Secoda environment, driving efficient and secure data operations across the organization.
 
 {% hint style="info" %}
