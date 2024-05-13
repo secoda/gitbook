@@ -14,10 +14,11 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 
 ## Automate enrichment within Secoda
 
-[ai-description-editor.md](../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention")
+[best-practices.md](../features/ai-assistant/best-practices.md "mention")
 
 * Our AI Assistant can be utilized in many ways, and we find it extremely powerful when it comes to documentation.
-* The Assistant reads the metadata in your workspace and can generate descriptions of your resources with just one click. This can be done on the Catalog resources, Dictionary metrics and Collections.
+* The AI Assistant is available in the sidebar on each resource in your workspace. Simply ask it to write up documentation on a resource that you're clicked into to generate rich documentation in just seconds. Check out the video resource here: [#how-to-use-the-ai-assistant](../features/ai-assistant/best-practices.md#how-to-use-the-ai-assistant "mention").
+* The [ai-description-editor.md](../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention") can similarly be used to generate descriptions of your resources with just one click. This can be done on the Catalog resources, Dictionary metrics and Collections.
 
 &#x20;[automations.md](../features/automations.md "mention")
 
