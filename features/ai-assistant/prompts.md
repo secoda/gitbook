@@ -7,11 +7,11 @@ description: See below for prompt examples to use in your workspace.
 ### I'm a Data Analyst:&#x20;
 
 1. How can I query {insert table name}?
-2. What is downstream of {insert table name}
-3. What is downstream of {insert column name}
+2. What is downstream of {insert table name}?
+3. What is downstream of {insert column name}?
 4. What are the primary data sources used in the {insert specific topic} dataset?
 5. Analyze the data lineage of the {insert table name} table.
-6. What table is used to for the {insert KPI}
+6. What table is used to for the {insert KPI}?
 7. Identify any query optimizations or best practices for the "{insert specific topic, e.g., sales performance}" dataset.
 8. Search for all queries related to {insert specific metric or subject, e.g., customer churn rate}.
 9. Find all resources related to debugging or troubleshooting common query errors in the "{insert data source, e.g., BigQuery}" platform.
@@ -27,7 +27,7 @@ description: See below for prompt examples to use in your workspace.
 19. Develop a comprehensive metadata glossary that defines common terms, acronyms, and abbreviations used in the organization.
 20. Document the metadata lineage for a specific data pipeline, showcasing the flow of data from source systems to the final output.
 
-### I'm an Analytics Engineer:
+### I'm a Data Engineer:
 
 1. Show the schema and column details for a particular table
 2. What does {insert column name} mean?
@@ -96,11 +96,7 @@ description: See below for prompt examples to use in your workspace.
 19. What data-driven initiatives can be implemented to improve customer experience?
 20. Search for the metadata catalog that contains details about {insert specific topic, e.g., data quality rules}.
 
-### Here are some examples of Etai and Andrew using our AI!
-
-{% embed url="https://www.loom.com/share/d9a8166f218a4fc5ae26c32e5f89d817" %}
-Etai from Secoda demonstrating the use of Secoda AI to ask questions about lineage between data resources.
-{% endembed %}
+### Here are some examples of Andrew using our AI!
 
 {% embed url="https://www.loom.com/share/6982dc8ec9df4c04bddba8bf52c1e666?sid=969f7b0b-60c5-4ee1-bcc0-e20a9d9d224e" %}
 Andrew from Secoda demonstrating how to use Secoda AI to write queries relevant to your workspace.
