@@ -41,6 +41,17 @@ Admins can customize AI settings to align with workspace preferences and securit
 * By default, tools like `search_resources`, `search_knowledge`, `catalog_search`, `retrieve_entity`, and `entity_link` are enabled to ensure comprehensive search capabilities across the workspace.
 * The `run_sql` tool, disabled by default, allows the AI to execute SQL queries directly on your connected integrations. This tool can provide answers to data queries but can be disabled if there are security concerns. Users can ask questions like "How many customers do we have?" and getting a numeric answer instead of pointing the user to a guiding resource or query. The AI will also provide the user with the steps that it took to find that answer, including any SQL queries it ran on the backend to provide more context.
 
+{% hint style="info" %}
+**To ensure security and relevance:**
+
+**Query Execution Requirements**: The AI will only execute a query if both of the following conditions are met:
+
+1. `run_sql` is toggled on in the AI settings.
+2. **The user asking the question has Query access** for that specific integration. Admins can enable this in the Integration Permissions settings.&#x20;
+
+This ensures that only authorized users can run queries on sensitive or critical data, maintaining control over data access.
+{% endhint %}
+
 #### **Custom Instructions**&#x20;
 
 Admins can set specific instructions for the AI to follow, enhancing control and relevance.
