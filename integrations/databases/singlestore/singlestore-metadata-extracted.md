@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from SingleStore
 ---
 
-# Metadata Extracted
+# SingleStore Metadata Extracted
 
 Secoda pulls the following metadata from SingleStore:
 
@@ -17,6 +17,7 @@ Secoda pulls the following metadata from SingleStore:
   * Name
   * Description
   * Type
+  * Comments
 * Popularity
 * Lineage
   * SingleStore Table <--> SingleStore Table
