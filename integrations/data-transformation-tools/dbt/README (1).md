@@ -16,10 +16,11 @@ dbt is a secondary integration that adds additional metadata on to your data war
 
 Once the integration is established:
 
+* If connected, Jobs will appear in the Catalog which you can click into to see Test results and additional metadata for those Tests.
 * Data warehouse or relational database tables associated with dbt will display a dbt icon next to their titles.
-* A 'Tests' tab will appear for resources where dbt tests have been run.
+* A 'Tests' tab will appear for resources where dbt Tests have been run.
 * You can view dbt metadata overlaid on the lineage graphs to understand dependencies and transformations better.
-* Within the lineage tab, lineage nodes will feature a checkmark icon. Clicking on these icons reveals which dbt tests have been run and their statuses.
+* Within the lineage tab, lineage nodes will feature a checkmark icon. Clicking on these icons reveals which dbt Tests have been run and their statuses.
 * See the video below of what a correctly functioning integration should look like:
 
 <figure><img src="../../../.gitbook/assets/Kapture 2024-05-08 at 14.36.40.gif" alt=""><figcaption></figcaption></figure>
