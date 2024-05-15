@@ -34,10 +34,10 @@ There are numerous ways to utilize Monitors within the Secoda UI to enhance oper
      * **Implementation:** Use a mean monitor on the call duration column to alert if the average time significantly deviates from the norm, which could indicate issues with call handling or system problems.
      * **Outcome:** Ensures consistent customer service and helps identify areas for process improvement.
 6. **Unique Percentage Monitor**
-   * **Use Case: Voting System**
-     * **Scenario:** In a voting system, each voter ID should be unique to prevent multiple entries.
-     * **Implementation:** Set a unique percentage monitor on the voter ID column to ensure that nearly 100% of the entries are unique.
-     * **Outcome:** Maintains the integrity of the voting process by preventing duplicate voting.
+   * **Use Case:** **SaaS User Management**
+     * **Scenario:** In a SaaS platform, each user account ID should be unique to ensure individual access and prevent unauthorized multiple account usage.
+     * **Implementation:** Implement a unique percentage monitor on the user ID column to ensure that nearly 100% of the entries are unique.
+     * **Outcome:** Maintains the integrity of the user management system by preventing duplicate account creations, enhancing security and user experience.
 7. **Nullness Monitor**
    * **Use Case: Customer Contact Information**
      * **Scenario:** In a customer relationship management (CRM) system, contact details such as phone numbers and email addresses are critical for communications. These fields should never be null.
