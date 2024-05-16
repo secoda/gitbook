@@ -41,6 +41,10 @@ After creating a Microsoft SQL Server user, the next step is to connect Secoda:
 3. Enter your Microsoft SQL Server credentials
 4. Click 'Connect'
 
+{% hint style="info" %}
+You can now connect to the entire server and integrate all databases within it through a single integration. This enhancement simplifies management by allowing a single point of integration for multiple databases, which previously required separate integrations for each database.
+{% endhint %}
+
 ### **Security** <a href="#h_c60cf20ba6" id="h_c60cf20ba6"></a>
 
 VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the Secoda IPs to read from your data warehouse.
