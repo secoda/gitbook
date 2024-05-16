@@ -44,10 +44,12 @@ Admins can customize AI settings to align with workspace preferences and securit
 {% hint style="info" %}
 **To ensure security and relevance:**
 
+**Team-Based Replies:** Our AI strictly adheres to Team-based data access permissions. If a user asks about resources from a Team that they are not a part of, the AI will not return any results.
+
 **Query Execution Requirements**: The AI will only execute a query if both of the following conditions are met:
 
 1. `run_sql` is toggled on in the AI settings.
-2. **The user asking the question has Query access** for that specific integration. Admins can enable this in the Integration Permissions settings.&#x20;
+2. **The user asking the question has Query access** for the specific integration, which can be managed by admins in the Integration Permissions settings.
 
 This ensures that only authorized users can run queries on sensitive or critical data, maintaining control over data access.
 {% endhint %}
