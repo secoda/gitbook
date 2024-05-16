@@ -2,7 +2,7 @@
 description: This page reviews the security practices in place for the AI Assistant.
 ---
 
-# Security
+# AI Security FAQs
 
 Wondering if the Secoda AI Assistant is the right tool for your workspace considering your data governance and privacy policies?
 
@@ -51,3 +51,14 @@ However, the specific location of the data center used may depend on various fac
 It's worth noting that OpenAI offers a GDPR-compliant Data Processing Addendum (DPA) that outlines the company's obligations and responsibilities as a data processor under GDPR.
 
 You can learn more about OpenAI's Privacy Policies [here](https://openai.com/policies/privacy-policy).
+
+### Who can run queries on data?
+
+Queries can be executed if the following conditions are satisfied:
+
+* **Run SQL Toggle:** The `run_sql` feature is enabled in the AI settings by an admin.
+* **User Permissions:** The user making the query request must have the appropriate query access for the specific integration, as configured by admins in the Integration Permissions settings.
+
+### **How does the AI manage data access?**
+
+Our AI strictly adheres to Team-based data access permissions. If a user inquires about resources from a Team they are not a member of, the AI will not provide any results. This policy ensures that access to data is secure and relevant to the user’s team assignments.
