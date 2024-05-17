@@ -8,42 +8,51 @@ description: >-
 
 ## **About Publishing** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-Under the "Status" metadata, each resource will be marked either **Published** or **Draft**.
+### **Understanding 'Status' Metadata**
 
-As an Admin, you have the ability to have everything that's created or brought into Secoda be auto-Published or auto-Draft, by default. If you choose to auto-publish, all editors, viewers and guests will be able to view all new resources (in the Teams that they have joined).
+* Each resource in Secoda is marked with a "Status" indicating whether it is "Published" or "Draft".
+* **Auto-Publish Setting:** Admins can configure settings to automatically set all new or imported resources to "Published" or "Draft". If auto-publish is enabled, all resources become visible to editors, viewers, and guests within their respective teams upon creation.
 
-However, editors and admins have the ability to push resources into the Draft stage which will hide these from viewers and guests in the workspace. This functionality is built into Secoda to ensure that only the resources that are relevant and documented are available for consumption.
+### **Managing Resource Visibility**
+
+* **Draft Resources:** Admins and editors can move resources to the "Draft" status, which hides them from viewers and guests. This ensures that only fully prepared and relevant resources are accessible.
+* **Auto-Publish Children:** If a table is set to "Published", all its columns are automatically published as well. The status for these columns is read-only, as demonstrated in the provided video:
+
+<figure><img src="../../../.gitbook/assets/Kapture 2024-05-16 at 13.44.54 (2).gif" alt=""><figcaption><p>Read-only columns</p></figcaption></figure>
 
 ## Publishing settings
 
-### Toggle on auto-publish
+* **Toggle Auto-Publish:** This option, found under "Publishing" in the Settings menu, allows admins to decide whether new resources should automatically be "Published" or remain as "Draft" until manually changed.
+* **Publish All Resources:** A single click on the 'Publish all resources' button will change the status of all draft resources in the workspace to "Published", including dictionary terms and documents.
 
-This setting is configurable by Admins under "Publishing" in the Settings. If you'd prefer all new resources be labeled "Draft" until you're ready to publish to all users, you can toggle auto-publish off.
-
-### Publish all
-
-You can also publish all resources in your workspace with one click by using the **Publish all resources** button. This will publish any resources (including dictionary terms and documents) that have the **Draft** status in the workspace.&#x20;
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/deb074f5-0a14-4066-b6d8-7b817f10c396.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/deb074f5-0a14-4066-b6d8-7b817f10c396.png" alt=""><figcaption><p>Publishing Settings</p></figcaption></figure>
 
 ## Steps to edit Publishing Status
 
-1. Toggle on auto-publish
-2. Create new resources (Documents, Dictionary terms, Metrics etc) or bring in resources through connecting an integration
-3. Note that all resources are labeled "Published"
-4. If you'd like something to be hidden from viewers, simply double click on the metadata, uncheck it and see how it labels it "Draft"
-   1. You might want to put a resource into Draft if it is not ready for consumption, for example if the description and metadata are still in the process of being built out
+1. Toggle on auto-publish, if desired.
+2. Create new resources (Documents, Dictionary terms, Metrics etc) or bring in resources through connecting an integration.
+3. Resources will automatically be labeled "Published" based on your auto-publish setting.
+4. To set a resource to "Draft", double-click on the resource’s metadata and uncheck the appropriate option.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/48243ab1-eb09-4a37-83c3-436feb60d444.gif" alt=""><figcaption><p>Publish > Draft</p></figcaption></figure>
 
-4. If you'd like to [bulk edit](../../../resource-and-metadata-management/add-documentation/bulk-editing-resources.md) the status to Draft, you can use the drag and drop feature like so:
+5. Use the [drag-and-drop feature ](../../../resource-and-metadata-management/add-documentation/bulk-editing-resources.md)to bulk edit multiple resources to "Draft" if they are not ready for wider visibility.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5ddc2263-0032-4156-b437-971313eba254.gif" alt=""><figcaption><p>Bulk Draft</p></figcaption></figure>
 
-5. Once you're ready to publish the resource, double click the metadata and check off Published OR see the steps below to publish your entire workspace with one click
+6. To publish, either double-click the metadata and check "Published" or use the 'Publish all resources' button for bulk action.
+
+## **Automating Publishing Status**
+
+You can automate the process of setting the publishing status of your resources using Secoda's [automations.md](../../../features/automations.md "mention") feature. This capability allows you to configure rules that automatically set resources to "Published" or "Draft" based on specified conditions, streamlining how content is managed and shared within your workspace.
+
+* **Configuring Automations:** To automate the publishing status, navigate to the Automations section in the left sidebar. Here, you can create a new automation or modify an existing one to include publishing actions.
+* **Setting Properties:** Within the automation setup, you can choose 'Mark as Published/Draft' as a property to configure. This allows you to specify whether resources meeting your automation criteria will be automatically published or set to draft.
+
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Automating Publishing</p></figcaption></figure>
 
 ## Audit log
 
 Admins can access the workspace audit log through Secoda Settings. This log tracks all historical changes from the users in your workspace, whereas the [activity-log.md](../../../features/activity-log.md "mention") shows only changes to the specific resource that you're looking at.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/60cf2f4b-092b-42f2-9800-c46a2ef80be3.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/60cf2f4b-092b-42f2-9800-c46a2ef80be3.gif" alt=""><figcaption><p>Audit Log</p></figcaption></figure>
