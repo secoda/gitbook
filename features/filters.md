@@ -46,9 +46,11 @@ We support the following operators in Secoda, which will show up depending on th
 
 Once you've applied at least one filter to your search, a 'Save View' button will appear in the top right corner. Clicking this button takes you to the View editor with the applied filters. This feature helps in managing customized data views efficiently. Learn more about [#search-views](search.md#search-views "mention").
 
-### **Tips for Advanced Filtering**
+### **Advanced Filtering Capabilities**
 
-* **Combining Filters:** Learn how to combine multiple filters for more precise data retrieval. For instance, you can combine filters for 'Owners' and 'Status' to track recent changes by specific team members.
+* **Nested Search in Filters:** We've added nested search capabilities to filters. For instance, you can directly search for a user's name without having to navigate through "Owners" first. This makes it quicker and more intuitive to find specific entries.
+* **Keyboard Shortcuts for Filters:** To improve efficiency, you can now use the keyboard shortcut '(f)' to open filters and navigate through them with ease.
+* **Combining Filters:** Combine multiple filters for more precise data retrieval. For instance, you can combine filters for 'Owners' and 'Status' to track recent changes by specific team members.
 * **Using Boolean Operators:** Incorporate operators such as _IS, IS NOT_ for complex searches that require a combination of conditions.
 
 ## **Use Case: Filtering for Undocumented Resources**
