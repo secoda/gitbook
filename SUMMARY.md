@@ -206,6 +206,7 @@
   * [Documents](features/documents/README.md)
     * [Comments](features/documents/comments.md)
   * [Embeddings](features/embeds.md)
+  * [Filters](features/filters.md)
   * [Inbox](features/data-inbox.md)
   * [Lineage](features/data-lineage.md)
     * [Manual Lineage](features/data-lineage/manual-lineage.md)
