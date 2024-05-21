@@ -6,46 +6,79 @@ description: >-
 
 # Automations
 
-Users can create rule-based automations at scale and update metadata and documentation in bulk. This Zapier-like feature will save your team an invaluable amount of time!
+## Introduction
 
-You can update the following resource metadata using Automations:
+Automations in Secoda enable admins to set up rule-based operations that automate routine data management tasks, much like Zapier. This feature significantly saves time by automating updates to metadata and documentation, allowing teams to concentrate on more strategic activities and enhance productivity and accuracy in data management.
 
-* Tags
+To see these in action, check out our document on example use cases here.
+
+## Capabilities of Automations
+
+Automations allow users to **update** a wide range of resource metadata, including:
+
+* Tags (Custom, Verification, & Governance)
 * Owners
+* Documentation
 * Descriptions
-* Verification
+* Subscribers
+* Status (Published, Draft)
+
+Additionally, Automations can help **organize** workspace resources by moving them to:
+
 * Teams
 * Collections
-* Subscribers
 
-{% hint style="info" %}
-This list will expand over time, to eventually automate all the editable metadata that is included as part of your resource documentation.
-{% endhint %}
+**Communication** with users is also streamlined through Automations, enabling:
+
+* Inbox notifications and announcements
+* Email dispatches
+* Slack messages
 
 ## Creating an Automation
 
-#### Step 1: Create a new Automation in Secoda
+**Step 1: Initiate an Automation**
 
-1. Find and click into Automations in the left side bar under Monitors.
-2.  Click Add Automation, which will give you the option to start from scratch or choose from our list of templates.
+1. Navigate to Automations in the left sidebar.
+2. Click 'Create Automation' to start from scratch or select from a list of predefined templates.
+   * **Using a Template:** Templates come with pre-configured filters and settings, which can be further customized.
+   * **Starting from Scratch:** Allows for complete customization from the ground up.
+     * Enter a title for the Automation, for example, "Update tags."
+     * (Optional) Add a description and choose an icon for the Automation to help identify it easily in the future.
 
-    <figure><img src="../.gitbook/assets/Screenshot 2024-02-08 at 4.30.19 PM.png" alt=""><figcaption></figcaption></figure>
-3.  Choosing a template will set up the filters and settings for you, while starting from scratch will open a new automation template for you to fill out.
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-08 at 4.30.19 PM.png" alt=""><figcaption><p>Creating a new Automation</p></figcaption></figure>
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cd99248e-078a-4168-b32b-afb6839768c9.png" alt=""><figcaption></figcaption></figure>
-4. Enter a title and description of the task to be accomplished, for example "Update tags".
+**Step 2: Set trigger**
 
-#### Step 2: Set up rules as filters
+* **Scheduled:** Set Automations to trigger on a specific schedule (hourly, daily, weekly) on a particular day and time.
+*   **Schema Changes:** Automations trigger when changes are made to the specified schemas in the source (ex. a column has been added to a table).
 
-1. For each filter you'd like to add, select **Add Filter** and add the metadata you'd like to filter for.&#x20;
-2. Next, you must define how you'd like to filter on this metadata. Should it be an exact match, contain a term, etc.
-3. If you have more than one filter, click the blue **all** button to choose either **all** or **any**. **All** will implement `AND` logic among the filters, while **any** will logically `OR` the criteria.
+    <figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 09.53.21 (1).gif" alt=""><figcaption><p>Setting the trigger</p></figcaption></figure>
 
-#### Step 3: Select the actions to be performed based on the rules above
+**Step 3: Configure Rules as Filters**
 
-1. Select Add Property and add which properties you'd like to be updated with the automation.&#x20;
-2. To set a matching condition for the filters, click the blue **self** button to select which resources you'd like to be edited with the automation. These can be the same resources defined in the previous steps (self), their children resources (child) or their parent resources (parent).
-3. Choose whether or not you'd like to Override existing metadata with these actions, using the check box :ballot\_box\_with\_check:.
+1. Click '+Add Action' and select 'Filter resources' to begin adding filters.
+2. Select filters and define the filtering logic (exact match, contains, is set, etc.).
+3. To add more filters, click 'Add Filter' and select 'all' or 'any' to apply AND or OR logic across filters.
+4.  (Optional) Add a Filter Group by selecting '+Add Action' and choosing between AND or OR logic.
+
+    <figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 15.03.40.gif" alt=""><figcaption><p>Setting up rules and filter groups</p></figcaption></figure>
+
+**Step 4: Define Actions**
+
+1. Select '+Add Action' to select the actions or metadata properties to update. Choose from the following actions:
+   * **Edit resources:**
+     * Use the 'Resources' button to specify the scope of resources affected (resources, parent, children).
+     * Click '+Add Property' to choose which metadata properties to update.
+   * **Send announcement:**&#x20;
+     * Select recipients and craft the messaging for an [Inbox](data-inbox.md) announcement.
+   * **Send email:**
+     * Select recipients and craft the messaging for an email.
+   * **Send Slack message:**&#x20;
+     * Select Slack channels and compose the message to be sent.
+   * **Propagate metadata:**
+     * Specify the scope of resources to propagate metadata to relative to the filtered resources set earlier (Child resources, Parent resources, Resources with the same name).&#x20;
+     * Specify the level of which you'd like to propagate metadata to: 1-4.
+2. For Editing & Propagating Metadata: Choose whether or not you'd like to Override existing metadata with these actions, using the toggle.
 
 {% hint style="info" %}
 The "Override existing metadata" button is **additive** for the list properties like Owners, Tags, and Collections but it will completely replace the properties like Description, PII, and Verified.
@@ -53,43 +86,11 @@ The "Override existing metadata" button is **additive** for the list properties 
 For example, if you have an Owner set on a table that was previously brought over from the source (or added manually in Secoda) and then you create an Automation that tags the same resource with a different Owner, both Owner's names will persist.
 {% endhint %}
 
-#### Step 4: Run the Automation
+<figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 15.09.04.gif" alt=""><figcaption><p>Propagating descriptions to children resources</p></figcaption></figure>
 
-1. Under the **Actions** drop down, you can click Turn on or Delete.
-2. Configure the scheduling so that this Automation runs on a set cadence. Automations can run hourly, daily or weekly.
+**Step 5: Run the Automation**
 
-## Example Automations
+1. In the top right, choose 'Turn on automation' to activate.
+2. (Optional) Use the three dot menu to 'Delete' the Automation.
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.58 AM (1).png" alt=""><figcaption><p>Create Popular Snowflake tables Collection</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 1.52.31 PM.png" alt=""><figcaption><p>Assign owners to Questions</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.16.55 AM (1).png" alt=""><figcaption><p>Apply descriptions to similarly named resources</p></figcaption></figure>
-
-</div>
-
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.14.42 AM (1).png" alt=""><figcaption><p>Verify documented Tableau assets</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.04 AM (1).png" alt=""><figcaption><p>Add Stripe assets to Sales Team</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-03-15 at 11.15.38 AM (1).png" alt=""><figcaption><p>Tag columns as PII</p></figcaption></figure>
-
-</div>
-
-#### Adding Tags to Children
-
-In the example below, you'll see an Automation that automatically updates the children of resources that are tagged with a "Warning" tag, with that same tag. This will be super time-saving with tables and columns, for example. If I bring in tables that already have a set tag, but the columns within do not yet, this automation will identify those columns and automatically tag them for me.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/34033212-a6cf-446d-8530-11053f328ad5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 15.11.07.gif" alt=""><figcaption><p>Delete, turn on, run Automation</p></figcaption></figure>
