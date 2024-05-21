@@ -50,14 +50,15 @@ This approach ensures that the most relevant and interacted-with documents are p
 
 You are able to save search filters so that you can easily go back to common searches. These can be either personal to you, or at the Team level.
 
-1. Click into Search and click the filters icon next to Relevance
-2. Click + Create new view
-3. Title the filter view, add which filters you'd like, and set the Team visibility
-   * Note: If you leave the "Team visibility" section blank, these will only be saved to your personal space
+1. Click into Search and select relevant filters to add.
+2. Click 'Save view'.
+3. Title the filtered view and set the Team visibility (Optional).
+   * Note: If you leave the "Team visibility" section blank, these will only be saved to your personal space.
+4. Access previously created Views in the top left of search under 'All results'.
 
 Check out the video below for a step by step walkthrough!
 
-{% embed url="https://www.loom.com/share/9dec6cfc5dae489884567c54596c7665?sid=55903669-0d5e-438d-ac3b-9b00a9eca52d" %}
+<figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 09.20.26.gif" alt=""><figcaption><p>Creating a View</p></figcaption></figure>
 
 ## Search within the Catalog
 
@@ -81,7 +82,7 @@ Searching can be daunting if you’re not sure exactly what you’re looking for
 
 The [Secoda AI](https://www.secoda.co/blog/transforming-data-discovery-using-secoda-ai)[ Assistant](ai-assistant/) improves user experience when searching for resources. Once you’ve enabled it, you can find the AI Assistant on the lefthand panel under Search. You can also Ask AI right from the main Search. This feature will be helpful for business users who might not know where to begin when looking at data. Read more about it [here](https://docs.secoda.co/features/ai-assistant).
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/877412ec-091c-458a-bf63-c5ea7b1c5c5d.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-05-20 at 16.26.29.gif" alt=""><figcaption></figcaption></figure>
 
 ### Sort
 
@@ -92,26 +93,10 @@ You’re able to sort by Relevance, Popularity, Last modified and Date created.
 * Last modified will show you the most recently _updated_ resources
 * Date created will show you the most recently _created_ resources
 
-<div align="center">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1cc2981a-a1a2-4a67-abf5-8df85caa5039.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### All filters
-
-If you know what kind of resource you are searching for, you can filter down to that type in the All filter dropdown. There you will see every type of resources from Apps to Questions.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-02%20at%205.00.40%20PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-20 at 4.27.34 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Add filter
 
-You can get even more granular with filters in the Add filter section. For example, if you are looking for all resources containing PII tags, this feature allows you to filter down your results.
+You can see all filter options by clicking the 'Add filter+' button. Learn more about filters here: [filters.md](filters.md "mention").
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c8f1519a-12f7-4856-98a8-4dc11b8dc745.png" alt=""><figcaption></figcaption></figure>
-
-### View
-
-The view filter allows you to toggle on/off the different kinds of information related to the results from your search.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/759e542f-10a8-49b1-b048-77ee43965c8a.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-20 at 4.29.39 PM.png" alt=""><figcaption></figcaption></figure>
