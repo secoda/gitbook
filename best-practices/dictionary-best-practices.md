@@ -39,6 +39,7 @@ If you don't have a list yet, and need to start fresh...
 
 ## Enrich dictionary terms
 
+* When defining terms, it's often necessary to involve multiple stakeholders to reach agreement. Secoda's [verifying-resources-workflow.md](verifying-resources-workflow.md "mention") can help facilitate this process.
 * Add enrichment to dictionary terms by adding them to relevant Collections, adding owners and tags, link them to related terms
   * Don't forget that you can make bulk changes to terms and use some of our other documentation tips listed here [documentation-best-practices.md](documentation-best-practices.md "mention")
 * This ensures that they're even more searchable within the UI, and so users can see how terms and resources are related across the workspace
