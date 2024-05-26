@@ -45,14 +45,14 @@ Additionally, Automations can help **organize** workspace resources by moving th
      * Enter a title for the Automation, for example, "Update tags."
      * (Optional) Add a description and choose an icon for the Automation to help identify it easily in the future.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-08 at 4.30.19 PM.png" alt=""><figcaption><p>Creating a new Automation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-02-08 at 4.30.19 PM.png" alt=""><figcaption><p>Creating a new Automation</p></figcaption></figure>
 
 **Step 2: Set trigger**
 
 * **Scheduled:** Set Automations to trigger on a specific schedule (hourly, daily, weekly) on a particular day and time.
 *   **Schema Changes:** Automations trigger when changes are made to the specified schemas in the source (ex. a column has been added to a table).
 
-    <figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 09.53.21 (1).gif" alt=""><figcaption><p>Setting the trigger</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Kapture 2024-05-21 at 09.53.21 (1).gif" alt=""><figcaption><p>Setting the trigger</p></figcaption></figure>
 
 **Step 3: Configure Rules as Filters**
 
@@ -61,7 +61,7 @@ Additionally, Automations can help **organize** workspace resources by moving th
 3. To add more filters, click 'Add Filter' and select 'all' or 'any' to apply AND or OR logic across filters.
 4.  (Optional) Add a Filter Group by selecting '+Add Action' and choosing between AND or OR logic.
 
-    <figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 15.03.40.gif" alt=""><figcaption><p>Setting up rules and filter groups</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Kapture 2024-05-21 at 15.03.40.gif" alt=""><figcaption><p>Setting up rules and filter groups</p></figcaption></figure>
 
 **Step 4: Define Actions**
 
@@ -70,7 +70,7 @@ Additionally, Automations can help **organize** workspace resources by moving th
      * Use the 'Resources' button to specify the scope of resources affected (resources, parent, children).
      * Click '+Add Property' to choose which metadata properties to update.
    * **Send announcement:**&#x20;
-     * Select recipients and craft the messaging for an [Inbox](data-inbox.md) announcement.
+     * Select recipients and craft the messaging for an [Inbox](../data-inbox.md) announcement.
    * **Send email:**
      * Select recipients and craft the messaging for an email.
    * **Send Slack message:**&#x20;
@@ -86,11 +86,11 @@ The "Override existing metadata" button is **additive** for the list properties 
 For example, if you have an Owner set on a table that was previously brought over from the source (or added manually in Secoda) and then you create an Automation that tags the same resource with a different Owner, both Owner's names will persist.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 15.09.04.gif" alt=""><figcaption><p>Propagating descriptions to children resources</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Kapture 2024-05-21 at 15.09.04.gif" alt=""><figcaption><p>Propagating descriptions to children resources</p></figcaption></figure>
 
 **Step 5: Run the Automation**
 
 1. In the top right, choose 'Turn on automation' to activate.
 2. (Optional) Use the three dot menu to 'Delete' the Automation.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-05-21 at 15.11.07.gif" alt=""><figcaption><p>Delete, turn on, run Automation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Kapture 2024-05-21 at 15.11.07.gif" alt=""><figcaption><p>Delete, turn on, run Automation</p></figcaption></figure>
