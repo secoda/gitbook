@@ -19,7 +19,7 @@ When rolling out a tool like Secoda, it is important to define roles within your
 Once you have a grasp on the makeup of your Teams and users, [**roles**](../user-management/roles/) can be assigned using our RBAC approach, owners can be set, and [**Teams**](../user-management/teams.md) can be created. [Set permissions at the Team level](../user-management/teams.md#editing-member-settings) so that only the right users have access to editing the metadata in that Team. Enforce [ownership](../resource-and-metadata-management/assigning-owners.md) of critical data so that it is kept up to date.
 
 {% hint style="info" %}
-Consider creating an [Automation](../features/automations.md) that assigns ownership to owner-less resources, to ensure that resources don't get lost. Use the template we provided in the UI called "Assign ownership for schema tables".
+Consider creating an [Automation](../features/automations/) that assigns ownership to owner-less resources, to ensure that resources don't get lost. Use the template we provided in the UI called "Assign ownership for schema tables".
 {% endhint %}
 
 ## Identify critical data elements
@@ -54,7 +54,7 @@ Consider using our [**Verified identifier**](verifying-resources-workflow.md) on
 
 
 
-To enable **security measures**, use our [**PII Identifier feature**](../resource-and-metadata-management/tags/auto-pii-tagging.md) to tag sensitive resources to alert Members in your workspace. An  [automations.md](../features/automations.md "mention") can be created that automatically tags new resources with certain qualities, as PII.
+To enable **security measures**, use our [**PII Identifier feature**](../resource-and-metadata-management/tags/auto-pii-tagging.md) to tag sensitive resources to alert Members in your workspace. An  [automations](../features/automations/ "mention") can be created that automatically tags new resources with certain qualities, as PII.
 {% endhint %}
 
 ## Read about how one team automated data governance with Secoda's help
@@ -65,7 +65,7 @@ In summary, the team uses the following strategies to work towards their data go
 
 * They organized the workspace so that each team has their own [**Collection**](../features/collections-1.md) which acts as a single source of truth for all of their documentation
 * They map every table to a Collection , and ensured that every table has a defined [**owner**](../resource-and-metadata-management/assigning-owners.md)
-  * Tip: Try out [**Automations**](../features/automations.md) to push new tables into the right Collection, and set the owners automatically
+  * Tip: Try out [**Automations**](../features/automations/) to push new tables into the right Collection, and set the owners automatically
 * They rely heavily on [**Lineage**](../features/data-lineage.md) for understanding downstream impacts of their schema changes
 * They use [**Announcements**](../features/announcements.md) as well as [**Slack**](../integrations/productivity-tools/slack-connection/slack-user-guide.md) to notify relevant stakeholders about changes
 * They have a very defined workflow using our [**APIs**](../secoda-api.md) where documentation criteria is required by the developer in order to create new tables and push them to Secoda

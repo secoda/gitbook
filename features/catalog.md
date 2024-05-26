@@ -28,7 +28,7 @@ To identify resources in the catalog that have or have not been documented yet, 
 
 ## Limit resources in a Catalog
 
-If you'd like a Team to only have access to specific Catalog resources, such as tables or columns, without granting them access to the entire integration, you can create an [automations.md](automations.md "mention") to pull that subset of resources:
+If you'd like a Team to only have access to specific Catalog resources, such as tables or columns, without granting them access to the entire integration, you can create an [automations](automations/ "mention") to pull that subset of resources:
 
 {% embed url="https://www.loom.com/share/389a4466059e44648f51df336b714cd4?sid=7ad00c04-3831-4236-9fd5-40c4626d9f17" %}
 

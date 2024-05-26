@@ -25,7 +25,7 @@ After navigating to a Secoda resource, Editors and Admins can assign Owners by c
 
 Please see the [integrations](../integrations/ "mention")docs to see which integrations bring in ownership metadata.
 
-Create an [automations.md](../features/automations.md "mention") to define ownership and have these fields automatically update on a set schedule.
+Create an [automations](../features/automations/ "mention") to define ownership and have these fields automatically update on a set schedule.
 
 Try out the [propagating-metadata.md](add-documentation/propagating-metadata.md "mention") & [bulk-editing-resources.md](add-documentation/bulk-editing-resources.md "mention") features to manually bulk add owners to your resources.
 

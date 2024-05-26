@@ -11,7 +11,7 @@ PII (Personally Identifiable Information) tags are used to identify data assets 
 ## **How to Tag PII in Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 {% hint style="info" %}
-You can automate this process by creating an [automations.md](../../features/automations.md "mention"). Check out the template in the UI to get started!
+You can automate this process by creating an [automations](../../features/automations/ "mention"). Check out the template in the UI to get started!
 {% endhint %}
 
 By going to the data tab, you can find and quickly tag PII data in Secoda easily. To tag your PII data, go to **Settings -> Data**

@@ -44,7 +44,7 @@ description: >-
 
 ## **Automating Publishing Status**
 
-You can automate the process of setting the publishing status of your resources using Secoda's [automations.md](../../../features/automations.md "mention") feature. This capability allows you to configure rules that automatically set resources to "Published" or "Draft" based on specified conditions, streamlining how content is managed and shared within your workspace.
+You can automate the process of setting the publishing status of your resources using Secoda's [automations](../../../features/automations/ "mention") feature. This capability allows you to configure rules that automatically set resources to "Published" or "Draft" based on specified conditions, streamlining how content is managed and shared within your workspace.
 
 * **Configuring Automations:** To automate the publishing status, navigate to the Automations section in the left sidebar. Here, you can create a new automation or modify an existing one to include publishing actions.
 * **Setting Properties:** Within the automation setup, you can choose 'Mark as Published/Draft' as a property to configure. This allows you to specify whether resources meeting your automation criteria will be automatically published or set to draft.
