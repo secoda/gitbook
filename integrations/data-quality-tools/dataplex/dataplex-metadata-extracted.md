@@ -8,4 +8,3 @@ Secoda syncs the tag templates from Dataplex and any of the fields that have bee
 
 * Tag templates
   * Fields
-* Lineage
