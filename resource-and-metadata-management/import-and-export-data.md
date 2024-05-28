@@ -1,8 +1,8 @@
 ---
-description: Edit the metadata or bring in new dictionary terms through this feature.
+description: Edit the properties or bring in new dictionary terms through this feature.
 ---
 
-# Import and Export Metadata
+# Import and Export Resources
 
 {% hint style="info" %}
 If you are hoping to bring in net new resources from an Integration without connecting the integration in the App, you'll need to use the [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, dictionary terms, documents, etc, you're in the right place!
@@ -10,9 +10,9 @@ If you are hoping to bring in net new resources from an Integration without conn
 
 {% embed url="https://www.loom.com/share/8290f98c95ba465c803421d0772f8972" %}
 
-### E**xport metadata from Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+### E**xport resources from Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-To export data descriptions out of Secoda, you can go to the [import settings](https://app.secoda.co/settings/import) in **Settings → Import & Export** data. Below is the screenshot for the settings. When exporting you can choose the type of resource you'd like to export. After clicking the export button, an **Artifact** will be prepared with your resources. Once it's prepared click the "Download Artifact" button.
+To export resources out of Secoda, you can go to the [settings](https://app.secoda.co/settings/import) in **Settings → Import & Export** data. Below is the screenshot for the settings. When exporting you can choose the type of resource you'd like to export. After clicking the export button, an **Artifact** will be prepared with your resources. Once it's prepared click the "Download Artifact" button.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(13)%20(2).png" alt=""><figcaption></figcaption></figure>
 
@@ -24,13 +24,13 @@ Once you export your data , you can view and edit your descriptions in CSV forma
 
 Once you are ready to upload your new metadata, you can use the import button to upload your new CSV into Secoda.
 
-### **Importing metadata into Secoda**
+### **Importing into Secoda**
 
-If you have set up a documentation tool (Excel, G-Sheet etc.) at your organization, you can migrate your metadata to Secoda following these steps.
+If you have set up a documentation tool (Excel, G-Sheet etc.) at your organization, you can migrate your properties to Secoda following these steps.
 
 1. Prepare your CSV
-2. Update metadata in CSV
-3. Import metadata to Secoda
+2. Update properties in CSV
+3. Import resources to Secoda
 
 #### 1. Prepare your CSV <a href="#h_da2aba5589" id="h_da2aba5589"></a>
 
@@ -51,15 +51,15 @@ You can either export your data from Secoda to a CSV, use the template linked be
   * **tags -** List of associated tag names, i.e, \['production']
   * **property** - This heading is a placeholder for any custom properties you'd like to add to the resource. Please remove it if you don't plan on any custom properties for your resource. To customize it, replace **property** with the name of your custom property and add the values of that property to the relevant rows. If you'd like to add several custom properties, add a new column for each one, with the name of the custom property as the column heading.
 
-#### 2. Upload metadata to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
+#### 2. Upload resources to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
 
 Log into [Secoda](https://app.secoda.co) and go into the [import settings](https://app.secoda.co/settings/import) through **Settings > Import & Export.** Click the "Select File" button under the Import section and select your CSV file and click "Upload". The import will start and show logs until it's completed.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(12)%20(2).png" alt=""><figcaption></figcaption></figure>
 
-#### 3. Verify metadata <a href="#h_47949f1af3" id="h_47949f1af3"></a>
+#### 3. Verify properties <a href="#h_47949f1af3" id="h_47949f1af3"></a>
 
-Go to a data resource and confirm that the metadata has been correctly imported. If you have any questions or issues please contact support@secoda.co
+Go to a data resource and confirm that the properties have been correctly imported. If you have any questions or issues please contact support@secoda.co
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

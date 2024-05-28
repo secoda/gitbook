@@ -10,7 +10,7 @@ When looking at a resource, you can see several pieces of information in the sid
 
 ### Properties
 
-Generally, properties refer to fields that are **editable** and can be set within Secoda.
+Generally, properties refer to fields that can be edited.
 
 **Status**: This refers to whether the resource is Published or a Draft. More information about Publishing can be found [here](../getting-started/secoda-as-an-admin/add-documentation/publishing.md).
 
@@ -26,11 +26,13 @@ Generally, properties refer to fields that are **editable** and can be set withi
 
 **Teams**: A list of [Teams](../user-management/teams.md) that the resource can be found in.
 
+**Views**: The number of views that resource has gotten over the last 90 days in Secoda.
+
 Any custom properties will also show up in this section. Learn more about Custom Properties [here](adding-custom-properties.md).
 
 ### Metadata
 
-Generally, metadata refers to fields that are **uneditable** in Secoda and can be extracted from the integration or be default fields within Secoda.&#x20;
+Generally, metadata refers to fields that are uneditable in Secoda.
 
 **Created:** The timestamp of when the resource was created from the Integration. For instance, the time at which the table was created in Snowflake.
 
@@ -45,8 +47,6 @@ Generally, metadata refers to fields that are **uneditable** in Secoda and can b
 **Table Size:** If available, this field indicates the digital size of the table.
 
 **Popularity:** Synced from the integration only, the [Popularity](../features/popularity.md) field refers the number of Queries run on the resource (if it's a table) or the number of Views received by the resource (if it's a dashboard) in the last 24 hours, relative to the time of the last sync. For instance, if a Snowflake sync happened 3 days ago, Popularity will show the number of queries run on that table in the period from 4 days ago to 3 days ago (24 hours before the time of the sync).
-
-**Views**: The number of views that resource has gotten over the last 90 days in Secoda.
 
 ### Subscribers
 

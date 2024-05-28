@@ -1,10 +1,10 @@
 ---
 description: >-
-  After you've connected your data to Secoda, you can start adding documentation
-  and metadata to your data to enrich it for your users.
+  After you've connected your data and metadata to Secoda, you can start adding
+  documentation and editing properties to your data to enrich it for your users.
 ---
 
-# Editing Metadata
+# Editing Properties
 
 ## Benefits to adding enrichment
 
@@ -21,7 +21,7 @@ There are many ways to add additional context your data in Secoda. Here are some
 
 ### Automating documentation
 
-Learn about the many ways to automate metadata management [documentation-best-practices.md](../../best-practices/documentation-best-practices.md "mention")
+Learn about the many ways to automate property management [documentation-best-practices.md](../../best-practices/documentation-best-practices.md "mention")
 
 ### Manually add enrichment
 
