@@ -4,12 +4,46 @@ description: Here are some important Admin tasks to get your workplace up and ru
 
 # Secoda as an Admin
 
-* [ ] If you plan to set up single sign-on, [explore our options](../../readme/secoda-as-an-admin/sign-in-options.md)
-* [ ] Consider which of your data sources you'll connect to Secoda, then [follow these steps to integrate](connect-your-data/)
-* [ ] Read up on our [Best practices](../../features/ai-assistant/best-practices.md) to get an idea of how other customers are using Secoda
-* [ ] [Customize the workspace](../../readme/secoda-as-an-admin/customize-the-workspace.md) with homepages and other tools
-* [ ] [Start editing your metadata](../../resource-and-metadata-management/add-documentation/) and adding enrichment to improve [search](../../features/search.md) and [Secoda AI](../../features/ai-assistant/) accuracy
-* [ ] [Populate Questions with FAQs](populate-questions-with-faqs.md)&#x20;
-* [ ] [Invite your teammates](invite-teammates/) to the workspace
-* [ ] Consider c[onnecting Secoda to Slack](../../integrations/productivity-tools/slack-connection/)
-* [ ] Read up on some [User engagement and adoption strategies](../../readme/secoda-as-an-admin/user-engagement-and-adoption/) to get users engaged in using Secoda
+As an Admin in Secoda, your role is crucial in shaping the workspace landscape and ensuring smooth operations across your organization’s data platform. Here’s your guide to leveraging Admin privileges effectively:
+
+**Getting Started:**
+
+* [ ] [**Introduction to Secoda**](../../): Familiarize yourself with the platform’s core functionalities.
+
+**Configuration and Integration:**
+
+* [ ] **Single Sign-On Setup**: Explore single [sign-on options](../../readme/secoda-as-an-admin/sign-in-options.md) and set them up for your organization.
+* [ ] **Data Source Integration**: Decide which data sources to connect with Secoda and follow[ the integration guides](connect-your-data/) provided.
+* [ ] **Automations**: Learn how to use [Automations](../../features/automations/) to streamline data management tasks, and check out how[ other Secoda users are leveraging the features](../../features/automations/automations-use-cases.md).
+* [ ] **Workspace Customization**:
+  * [ ] Customize the [workspace homepage](../../features/custom-homepage.md) to reflect your organizational needs.
+  * [ ] [Adjust settings and create Teams](../../best-practices/best-practices-for-setting-up-your-workspace.md) to tailor the user experience and workspace functionality.
+
+**Optimize Platform Usage:**
+
+* [ ] **Best Practices**: Read our [best practices guides](../../best-practices/) to ensure you are maximizing the platform’s potential.
+
+**User Management**:
+
+* [ ] **Invite Teammates**: Encourage collaboration by [inviting teammates](invite-teammates/) to the workspace.
+* [ ] **Manage Roles and Permissions**: Control [access and responsibilities](../../user-management/) effectively to ensure proper data governance.
+
+**Enhancement and Engagement:**
+
+* [ ] **Metadata Management**: Start [editing and enriching](../../resource-and-metadata-management/add-documentation/) metadata to improve [data discoverability](../../features/search.md) and [Secoda AI](../../features/ai-assistant/)’s accuracy.
+* [ ] **Documentation and Dictionary Terms**: Populate the platform with essential [documents](../../features/documents/) and [terms](../../features/dictionary.md) that provide context to your data resources.
+* [ ] **User Engagement Strategies**: Explore strategies to boost [user adoption](../../readme/secoda-as-an-admin/user-engagement-and-adoption/) and engagement across your organization.
+
+**Communication and Collaboration:**
+
+* [ ] **Slack Integration**: Consider [connecting Secoda to Slack](../../integrations/productivity-tools/slack-connection/slack-user-guide.md) for seamless communication and data inquiries.
+* [ ] **FAQs**: Populate the [Questions](../../features/ask-questions-in-secoda.md) section with FAQs to help users understand common data queries.
+
+**Monitoring and Maintenance:**
+
+* [ ] **Notification Settings**: Configure [notifications](../../features/notifications.md) to keep updated on important changes and updates.
+* [ ] **Activity Logs**: Monitor [user activities](../../features/activity-log.md) and data usage to maintain governance and compliance.
+
+**Explore Further:**
+
+* [ ] **Advanced Features**: Dive deeper into the [advanced features](../../features/) available for Admins in Secoda. Explore more through our detailed guides and community discussions.
