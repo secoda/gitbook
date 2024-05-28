@@ -4,7 +4,7 @@ description: >-
   columns, tables, badges, tags, etc.
 ---
 
-# Bulk Editing Metadata
+# Bulk Editing
 
 ## How to **Bulk Edit in the Catalog** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
@@ -30,10 +30,6 @@ Once the resources that you'd like to edit are in view, simply make the edit to 
 To apply this change to other resources in view, click on the edited resource, hold it down and drag to the other resources you'd like to apply this to (similar to how you would in Excel or Airtable).&#x20;
 
 You can also make bulk edits by selecting the resources you'd like to edit by pressing `ctrl + c`, and then `ctrl + v` (AKA copy and paste).&#x20;
-
-To see it in action, check out this Loom video:
-
-{% embed url="https://www.loom.com/share/50c4ce8d31ee4e96867207f3cd49678e" %}
 
 ## Bulk editing other resource types
 
