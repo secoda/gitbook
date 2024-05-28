@@ -16,7 +16,8 @@ Secoda pulls the following metadata from Snowflake:
   * Schema
   * Database
   * Frequent Users
-* Views (Views are referred to as Tables in Secoda)
+  * Tags
+* Views
   * Name
   * Description
   * Last Updated Timestamp
@@ -24,12 +25,14 @@ Secoda pulls the following metadata from Snowflake:
   * Schema
   * Database
   * Frequent Users
+  * Tags
 * Columns
   * Name
   * Description
   * Type
   * Foreign Key
   * Primary Key
+  * Tags
 * Column Profile
   * Min
   * Max

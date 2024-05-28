@@ -2,34 +2,41 @@
 description: List of all the metadata that Secoda pulls from Power BI
 ---
 
-# Metadata Extracted
+# Power BI Metadata Extracted
 
 ### What does Secoda extract from PowerBI?
 
 * Groups
-  * Group Name
+  * Name
 * Reports
-  * Report Name
-  * Report Description
-  * Report Owners
-  * Report Usage (Number of views in PowerBI)
-  * Report URL
+  * Name
+  * Description
+  * Owners
+  * Usage (Number of views in PowerBI)
+  * URL
+  * Tags
 * Tiles
-  * Tile Name
-  * Tile Description
-  * Tile Owners
-  * Tile URL
+  * Name
+  * Description
+  * Owners
+  * URL
+  * Tags
+* Pages
+  * Name
+  * Tags
 * Datasets
-  * Dataset Name
+  * Name
 * Tables
-  * Table Name
+  * Name
+  * Tags
 * Measures
-  * Measure Name
+  * Name
 * Dashboards
-  * Dashboard Name
-  * Dashboard Description
-  * Dashboard Owners
-  * Dashboard URL
+  * Name
+  * Description
+  * Owners
+  * URL
+  * Tags
 * DAX
 
 {% hint style="info" %}
