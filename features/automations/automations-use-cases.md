@@ -50,13 +50,21 @@ Secoda’s Automations feature allows you to streamline and automate repetitive 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-21 at 4.45.42 PM.png" alt=""><figcaption><p>Send announcements about undocumented assets</p></figcaption></figure>
 
+## Alert users of schema changes
+
+* **Objective:** Notify stakeholders when changes occur in core schemas to keep them updated in real-time.
+* **Setup:** Set the trigger to detect schema changes, then send an announcement/Slack notification/email to designated users detailing the changes.
+* **Benefits:** Ensures timely updates to all relevant parties, automating these change notifications.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-29 at 1.07.58 PM.png" alt=""><figcaption><p>Alert about schema changes</p></figcaption></figure>
+
 ## Tag resources for deprecation
 
 * **Objective:** Automate the identification of outdated or irrelevant resources.&#x20;
 * **Setup:** Flag resources that haven't been accessed or updated within a predefined period, tagging them as "Candidates for deprecation".&#x20;
 * **Benefits:** Keeps the data ecosystem clean and focused, reducing clutter and focusing efforts on relevant, up-to-date resources.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-24 at 2.28.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-24 at 2.28.05 PM.png" alt=""><figcaption><p>Identify resources for deprecation</p></figcaption></figure>
 
 ## Publish documented tables
 
@@ -64,7 +72,7 @@ Secoda’s Automations feature allows you to streamline and automate repetitive 
 * **Setup:** Configure automations to change the status of tables from 'Draft' to 'Published' once they meet predefined documentation criteria.
 * **Benefits:** Ensures only fully documented tables are visible to Viewers, maintaining data quality and accessibility.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-23 at 11.37.03 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-23 at 11.37.03 AM.png" alt=""><figcaption><p>Publish documented resources</p></figcaption></figure>
 
 ## Apply descriptions to similarly named resources
 
