@@ -6,16 +6,29 @@ description: Assigning owners to resources
 
 ## **Benefits to assigning ownership**
 
-Assigning owners has many benefits. If your data has ownership defined, you can:
+Assigning ownership to data provides several key benefits:
 
-* Understand who will be affected by upstream or downstream changes to a dataset
-* Understand who to talk to regarding information about the data
-* Get notifications when the datasets change
-* Identify abandoned data sets no one currently owns, that may need to be maintained or removed
+* **Clarity on Impact:** Easily identify who will be affected by changes to a dataset, whether those changes are upstream or downstream.
+* **Communication Efficiency:** Know exactly who to contact for information about specific data.
+* **Change Notifications:** Owners receive updates when datasets undergo changes.
+* **Data Management:** Quickly identify and address datasets that are abandoned and may need maintenance or removal.
 
 ## **How to assign owners to data in Secoda**
 
-After navigating to a Secoda resource, Editors and Admins can assign Owners by clicking the Owners field and selecting the relevant members from the workspace. The owners field is accessible through Catalog views, or in the side panel.
+Owners can be assigned to data within Secoda by Editors and Admins:
+
+1. Navigate to a resource within the Secoda Catalog or use the resource side panel.
+2. Click on the Owners field.
+3. Select relevant member(s) or a Group from the workspace.
+
+### Group owners
+
+Ownership can also be assigned at the Group level:
+
+* Create  [groups.md](../user-management/groups.md "mention") within the settings.
+* Search for the Group name when adding an owner.
+
+Benefits: Group ownership ensures consistent management even when individual members leave the organization.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5a8db21c-599c-473e-a1a4-7b501f9bc74e.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
 
@@ -23,19 +36,22 @@ After navigating to a Secoda resource, Editors and Admins can assign Owners by c
 
 ## Automating ownership
 
-Please see the [integrations](../integrations/ "mention")docs to see which integrations bring in ownership metadata.
+Please see the [integrations](../integrations/ "mention")docs to see which integrations automatically bring in ownership metadata.
 
 Create an [automations](../features/automations/ "mention") to define ownership and have these fields automatically update on a set schedule.
 
 Try out the [propagating-metadata.md](add-documentation/propagating-metadata.md "mention") & [bulk-editing-resources.md](add-documentation/bulk-editing-resources.md "mention") features to manually bulk add owners to your resources.
 
-## Being an owner
+## Responsibilities of owners
 
-Owners are responsible keeping documentation on their datasets up to date. If something looks off with a dataset, or a new user is looking to get acquainted with the data, they can ask questions in the questions tab.
+Owners play a crucial role in maintaining the integrity of data:
 
-Owners will receive notifications through email and the Secoda app when tables, columns or documentation-related changes. If you have the Secoda Slack integration installed, you will receive notifications through Slack.
+* **Documentation:** Keep all related documentation up to date.
+* **Queries and Communication:** Address questions posted in the Questions tab of a dataset.
+* **Notifications:** Receive notifications through email, the Secoda app, and, if integrated, through Slack.
+* **Engagement:** Add comments or FAQs to datasets to enhance the documentation available to all users.
 
-Table Owners can add helpful comments or Frequently Asked Questions about a dataset so they’ll show at the top of the documentation tab.
+By effectively managing ownership, organizations can ensure data remains reliable, up-to-date, and valuable.
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
