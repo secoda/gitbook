@@ -1,5 +1,5 @@
 ---
-description: This section will go over how to propagate properties between resources.
+description: This section will go over how to propagate metadata between related resources.
 ---
 
 # Propagation

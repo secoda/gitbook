@@ -15,14 +15,16 @@ There are two options for setting up the Power BI integration on Secoda, OAuth (
 The PowerBI integration uses OAuth 2.0 to connect Secoda to your Power BI workspace. To connect Power BI to Secoda follow the steps below:
 
 1. In the Integrations section, click on New Integration, and select PowerBI.
-2. Navigate to the OAuth tab, and click Connect with OAuth. You will be prompted to log in to your PowerBI Workspace.&#x20;
+2. Navigate to the OAuth tab, and click Connect with OAuth. You will be prompted to log in to your PowerBI Workspace.
 3. Upon successful completion of OAuth authentication with Power BI, click the Run Initial Sync button to begin a sync.
 
 To see Lineage to your PowerBI resources from external sources, make sure you enable the following settings in the Tenant tab of the Admin API Settings section in PowerBI:
 
 * Allow service principals to use read-only admin APIs
 * Enhance admin APIs responses with detailed metadata
-* Enhance admin APIs responses with DAX and mashup expressions
+* Enhance admin APIs responses with DAX and mashup expressions and click apply to the entire organization&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-21 at 10.13.34 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Option 2: Azure AD App
 
@@ -39,7 +41,7 @@ To see Lineage to your PowerBI resources from external sources, make sure you en
 ### Step 2 -> Create a Client Secret
 
 1. In the certificates and Secrets tab, click the New Client Secret button.
-2. The description and expiry of the client secret is up to you. Click Add, and save the Client Secret value.&#x20;
+2. The description and expiry of the client secret is up to you. Click Add, and save the Client Secret value.
 
 ### Step 3 -> Enable API Access
 
@@ -51,15 +53,15 @@ Whether you set up Admin or non-admin access APIs is up to you. Admin access ena
 
 **In the Azure Portal:**
 
-1. Navigate to the Azure Active Directory link.&#x20;
-2. In the Groups tab, create a new group with the following **required** information.&#x20;
+1. Navigate to the Azure Active Directory link.
+2. In the Groups tab, create a new group with the following **required** information.
    * Group type: Security
    * Group name: PowerBI API Access
 3. Search for and select Secoda in the Members list. Click Create to complete the process.
 
 **In Power BI:**
 
-1. Navigate to the tenant settings page. You must be a Power BI admin to see this page.&#x20;
+1. Navigate to the tenant settings page. You must be a Power BI admin to see this page.
 2. In the Tenant settings tab, navigate to the Developer Settings section, and enable the following setting:
    * Allow service principals to use Power BI APIs (Make sure to add the PowerBI API Access Group you created in the previous step)
 3. Admin API Settings section under the Tenant settings tab, enable the following settings:
@@ -74,7 +76,7 @@ Whether you set up Admin or non-admin access APIs is up to you. Admin access ena
 <summary>Setting up Non-Admin API Access</summary>
 
 1. In the Azure Portal, navigate to the API Permissions tab and click Add a Permission.
-2. The following permissions, under the PowerBI Service, must be added to enable access by Secoda.&#x20;
+2. The following permissions, under the PowerBI Service, must be added to enable access by Secoda.
    * Dashboard Read All
    * Dataflow Read All
    * Dataset Read All
