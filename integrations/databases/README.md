@@ -30,8 +30,8 @@ Secoda currently integrates with the following database tools:
 [singlestore](singlestore/)
 {% endcontent-ref %}
 
-{% content-ref url="motherduck/" %}
-[motherduck](motherduck/)
+{% content-ref url="../data-warehouses/motherduck/" %}
+[motherduck](../data-warehouses/motherduck/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
