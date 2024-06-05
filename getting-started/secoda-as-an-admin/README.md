@@ -18,6 +18,7 @@ As an Admin in Secoda, your role is crucial in shaping the workspace landscape a
 * [ ] **Workspace Customization**:
   * [ ] Customize the [workspace homepage](../../features/custom-homepage.md) to reflect your organizational needs.
   * [ ] [Adjust settings and create Teams](../../best-practices/best-practices-for-setting-up-your-workspace.md) to tailor the user experience and workspace functionality.
+  * [ ] Set Resource Visibility: Choose to automatically [publish all resources](add-documentation/publishing.md) or keep them as drafts until ready for broader viewing.
 
 **Optimize Platform Usage:**
 
