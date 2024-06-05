@@ -4,62 +4,72 @@ description: Edit the properties or bring in new dictionary terms through this f
 
 # Import and Export Resources
 
+## Overview
+
+This guide provides a step-by-step process for exporting and importing metadata using CSV files in Secoda. This allows for bulk editing and updating of metadata to ensure consistency and prevent duplication across your data resources.
+
 {% hint style="info" %}
-If you are hoping to bring in net new resources from an Integration without connecting the integration in the App, you'll need to use the [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, dictionary terms, documents, etc, you're in the right place!
+If your goal is to introduce net new resources from an integration without connecting the integration in the app, you should utilize the  [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, such as dictionary terms, documents, etc., the following instructions will guide you through the process.&#x20;
 {% endhint %}
+
+## Video resource
 
 {% embed url="https://www.loom.com/share/8290f98c95ba465c803421d0772f8972" %}
 
-### E**xport resources from Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## E**xporting resources from Secoda** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-To export resources out of Secoda, you can go to the [settings](https://app.secoda.co/settings/import) in **Settings → Import & Export** data. Below is the screenshot for the settings. When exporting you can choose the type of resource you'd like to export. After clicking the export button, an **Artifact** will be prepared with your resources. Once it's prepared click the "Download Artifact" button.
+To export resources from Secoda:
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(13)%20(2).png" alt=""><figcaption></figcaption></figure>
+1. **Navigate to Settings:** Go to [Settings](https://app.secoda.co/settings/import) → Import & Export data.
+2. **Select Resource Type:** Choose the type of resource you wish to export.&#x20;
+3. **Download the Export:** Once the Artifact is prepared as a Bulk export of your resources, click the "Download Artifact" button.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(16)%20(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-06-05 at 12.28.49 PM.png" alt=""><figcaption></figcaption></figure>
 
-Once you export your data , you can view and edit your descriptions in CSV format or Google Sheets and upload the changes to Secoda. Below is an overview of the results from exporting your data:
+Below is an example of the results from exporting your data:
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(1).png" alt=""><figcaption></figcaption></figure>
 
-Once you are ready to upload your new metadata, you can use the import button to upload your new CSV into Secoda.
+## Preparing Your CSV for Import
 
-### **Importing into Secoda**
+Before importing new or updated metadata into Secoda:
 
-If you have set up a documentation tool (Excel, G-Sheet etc.) at your organization, you can migrate your properties to Secoda following these steps.
+1. **Edit Your CSV:** After exporting, you can edit your descriptions and other properties in CSV format or Google Sheets.
+2. **Set Up Your CSV:** Use the exported data as a base, the provided template in the UI, or create your own CSV adhering to the required structure:
 
-1. Prepare your CSV
-2. Update properties in CSV
-3. Import resources to Secoda
+**Required Columns:**
 
-#### 1. Prepare your CSV <a href="#h_da2aba5589" id="h_da2aba5589"></a>
+* **id:** Leave this blank for new resources.
+* **title:** The name of the resource.
+* **entity\_type:** Possible values include table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event.
 
-You can either export your data from Secoda to a CSV, use the template linked below, or create your own CSV using the guidance provided. The file must be in CSV format.
+**Optional Columns:**
 
-* The file must have the following **required** columns:
-  * **id -** Leave this blank if it's a new resource (i.e dictionary term)
-  * **title -** The name of the resource
-  * **entity\_type** - Can be any of the following - table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event
-* The file can have the following **optional** columns:
-  * **description** - This is one-liner description of the resource
-  * **definition** - Mark down friendly documentation of the resource
-  * **pii** - This is the [Governance](../best-practices/data-governance.md) tag and can be set to TRUE, FALSE
-  * **verified -** This is the [Verified](tags/verified-tag.md) tag and can be set to TRUE, FALSE
-  * **published -** This is the published status and can be set to TRUE, FALSE
-  * **collections -** List of associated collection names, i.e \['Marketing', 'Engineering']
-  * **owners** - List of associated owner emails, i.e, \['andrew@secoda.co', 'etai@secoda.co']. The emails should correspond to existing users or service accounts in Secoda
-  * **tags -** List of associated tag names, i.e, \['production']
-  * **property** - This heading is a placeholder for any custom properties you'd like to add to the resource. Please remove it if you don't plan on any custom properties for your resource. To customize it, replace **property** with the name of your custom property and add the values of that property to the relevant rows. If you'd like to add several custom properties, add a new column for each one, with the name of the custom property as the column heading.
+* **description:** A brief description of the resource.
+* **definition:** Markdown-friendly documentation of the resource.
+* **pii:** Governance tag (TRUE or FALSE).
+* **verified:** Verified status (TRUE or FALSE).
+* **published:** Published status (TRUE or FALSE).
+* **collections:** List of associated collection names, e.g., \['Marketing', 'Engineering'].
+* **owners:** List of associated owner emails that should correspond to existing users in Secoda, e.g., \['brittany@secoda.co'].
+* **tags:** List of associated tag names, e.g., \['production'].
+* **custom properties:** If applicable, replace 'property' with the name of your custom property and add values accordingly. Add separate columns for multiple custom properties. Please remove it if you don't plan on adding any custom properties for your resource.
 
-#### 2. Upload resources to Secoda <a href="#h_1114a0b4bd" id="h_1114a0b4bd"></a>
+## Importing Updated Metadata into Secoda
 
-Log into [Secoda](https://app.secoda.co) and go into the [import settings](https://app.secoda.co/settings/import) through **Settings > Import & Export.** Click the "Select File" button under the Import section and select your CSV file and click "Upload". The import will start and show logs until it's completed.
+1. **Access Import Settings:** Log into Secoda, navigate to Settings > Import & Export.
+2. **Upload CSV File:** Click "Select File" under the Import section, choose your prepared CSV file, and click "Upload". Monitor the import process through the displayed logs.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(12)%20(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-06-05 at 12.31.29 PM.png" alt=""><figcaption></figcaption></figure>
 
-#### 3. Verify properties <a href="#h_47949f1af3" id="h_47949f1af3"></a>
+## Verifying Imported Properties
 
-Go to a data resource and confirm that the properties have been correctly imported. If you have any questions or issues please contact support@secoda.co
+After importing, it's crucial to verify that all properties have been correctly updated:
+
+1. **Check Data Resource:** Visit a data resource within Secoda to confirm that the properties reflect the recent imports.
+2. **Resolve Issues:** If there are discrepancies or if you encounter issues, please contact support@secoda.co.
+
+By following these steps, you can efficiently manage the metadata of your resources in Secoda, ensuring data integrity and streamlined operations across your organization.
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
