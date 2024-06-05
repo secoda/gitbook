@@ -1,6 +1,6 @@
 # Data Warehouses
 
-Secoda currently integrates with the following data warehouse tools:
+MSecoda currently integrates with the following data warehouse tools:
 
 {% content-ref url="redshift-integration/" %}
 [redshift-integration](redshift-integration/)
@@ -20,6 +20,10 @@ Secoda currently integrates with the following data warehouse tools:
 
 {% content-ref url="apache-hive/" %}
 [apache-hive](apache-hive/)
+{% endcontent-ref %}
+
+{% content-ref url="motherduck/" %}
+[motherduck](motherduck/)
 {% endcontent-ref %}
 
 Secoda also integrates into databases, Bi tools and more integrations, which can be found here:
