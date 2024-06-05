@@ -1,43 +1,51 @@
 ---
-description: >-
-  While you cannot add custom properties to your data directly from Secoda, you
-  can insert custom properties in your metadata.
+description: Custom properties allow you add additional context to resources in Secoda.
 ---
 
 # Custom Properties
 
-This allows you to add more context and organize the datasets that you've integrated to Secoda.
+## Overview
 
-There are a few ways to add custom properties to resources in Secoda.
+Custom properties allow you to enrich the metadata of your resources within Secoda, providing additional context and enhancing organization. This guide outlines the methods to add custom properties to individual resources and in bulk.
 
 {% hint style="info" %}
-The only way to add custom properties in bulk is to use our [Import/Export](import-and-export-data.md) feature.&#x20;
+The only way to add custom properties in bulk is to use our [Import/Export](import-and-export-data.md) feature.
 {% endhint %}
 
-**Add a custom property to a Resource through the Side Panel:**&#x20;
+## Adding Custom Properties to Individual Resources
 
-Navigate to the resource and add the Custom Property using the button on the Right side panel. This can be used to add a Custom Property to Documents, Tables, Columns, and more.
+**Via Side Panel:**
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%2012.17.15%20PM.png" alt=""><figcaption><p>Adding custom properties through a side panel.</p></figcaption></figure>
+1. **Access the Resource:** Navigate to the specific resource (document, table, column, etc.) within Secoda.
+2. **Add the Property:** Use the "+ Add Property" button located on the right side panel.
+3. **Choose Property Type:** Select from Text, Checkbox, User, Tag, Resource, Date, Number, Select, and Multiselect Property types.
+4. **Edit the Property:** Click into the value to edit the Property.
+5. **Delete the Property:** Click into the Property type to Delete it.
 
-By default, the properties will be text. However, you can adjust the type by clicking on the icon.&#x20;
+<figure><img src="../.gitbook/assets/Kapture 2024-06-05 at 13.58.01.gif" alt=""><figcaption><p>Creating a Property</p></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/04022502-77d4-40b3-9e35-f81d0ba13915.png" alt=""></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-06-05 at 13.58.39 (1).gif" alt=""><figcaption><p>Editing &#x26; Deleting a Property</p></figcaption></figure>
 
-**Add a custom property to all the Columns in a table:**&#x20;
+**For all Columns in a Specific Table:**
 
-Navigate to the table that the columns belong to, and add the property using the button highlighted in the image below. This will add an additional column to this table's catalogue, similar to the Description and Type columns seen below.
+1. **Navigate to the Table:** Go to the table where you want to add properties to columns.
+2. **Add the Property:** Use the designated button as shown in the image below to add properties directly to all columns within the table. This will create additional columns in the table's catalog, similar to the Description and Type columns.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%2012.18.45%20PM.png" alt=""><figcaption><p>Adding properties to a table.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-06-05 at 2.07.44 PM.png" alt=""><figcaption><p>Custom Property on Table Columns</p></figcaption></figure>
 
-\
-**Add custom properties in bulk:**&#x20;
+## Bulk Adding of Custom Properties
 
-To add custom properties in bulk, you'll need to utilize our Import and Export feature linked below. In the CSV that you are using to upload resources to Secoda, add an additional column. Every additional column will be applied to every resource in the CSV as a new property. Note, this is the only way to bulk add custom properties to columns from different tables, at one time.
+To efficiently add custom properties to multiple resources:
+
+1. **Use Import/Export Feature:** Prepare a CSV for importing metadata into Secoda. Include an additional column for each custom property you wish to add. This method is ideal for adding properties across various resources simultaneously.
 
 {% content-ref url="import-and-export-data.md" %}
 [import-and-export-data.md](import-and-export-data.md)
 {% endcontent-ref %}
+
+By following these instructions, you can tailor the metadata within your Secoda environment to meet your specific organizational needs, enhancing both the utility and accessibility of your data resources.
+
+
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
