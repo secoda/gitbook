@@ -1,3 +1,7 @@
+---
+description: Tips and tricks for using the Secoda APIs.
+---
+
 # Get Started
 
 The Secoda API is based around REST principals. You will need a [Bearer](authentication.md) token to use the API - see the [authentication page](authentication.md) for instructions on how to create your token.&#x20;
@@ -72,3 +76,13 @@ def process_data(results):
 # Initial call to fetch data
 fetch_all_pages("https://api.secoda.co/resource/all/")
 ```
+
+## Catalog Filters
+
+To list resources in your workspace with fine-grained control over filtering and sorting, you can use the `resource/catalog` endpoint from Secoda. This endpoint allows you to customize the response by providing a serialized JSON object, URL encoded, as a query parameter in your request.
+
+Refer to the [JSON documentation](https://api.secoda.co/api/schema/redoc/#tag/Resource/paths/\~1resource\~1catalog/get) for detailed information on the JSON structure, and the file linked below for how to utilize this request. The linked file is a sample Jupyter Notebook that demonstrates how to retrieve all resources that are Tables, Views, Dashboards, or Workbooks, which contain "customers" in the title. The results are sorted in descending order based on the last update time of the resource.
+
+{% file src="../.gitbook/assets/Catalog Filter Template" %}
+
+Note: This script linked does not account for pagination. Please see the [pagination](get-started.md#pagination) section above for guidance around implementing this as part of your script.&#x20;
