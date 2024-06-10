@@ -50,6 +50,6 @@ To add resources one-by-one, follow these steps:
 
 ## Reordering Catalog Columns
 
-Admins can reorder metadata columns to highlight important information. For example, drag the 'Verification Tag' to a more visible position to emphasize its importance. These changes will be reflected across the workspace for all users, as demonstrated in the gif below.
+Admins can reorder columns to highlight important information. Click 'Rearrange columns', then drag the metadata you'd like to be more visible up to the top of the list. These changes will be reflected across the workspace for all users, as demonstrated in the gif below.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7a374f16-11b9-4360-b7a8-6dbe98b7eac2.gif" alt=""><figcaption><p>Re-order metadata columns</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 13.54.19.gif" alt=""><figcaption><p>Reorder Metadata Columns</p></figcaption></figure>
