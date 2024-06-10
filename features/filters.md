@@ -57,12 +57,15 @@ Consider saving your filters with [views.md](views.md "mention") to streamline y
 
 1. **Access Filters:**
    * Go to any section where Filters can be applied, such as the Catalog, Collections, Metrics, Dictionary, Documents, or Questions. For this example, we'll use the **Catalog**.
-   * Click on the column header that corresponds to the metadata type you want to filter (e.g., Integration, Type, Owners).
+   *   Click 'Add filter' or on the column header that corresponds to the metadata type you want to filter (e.g., Integration, Type, Owners).
+
+       <figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 12.11.31.gif" alt=""><figcaption><p>Accessing Filters</p></figcaption></figure>
 2. **View Filtering Options:**
    * Upon clicking the column header, a menu will appear offering several actions:
      * **Sort Ascending/Descending:** Order the metadata based on the selected column.
-     * **Add Filter:** Customize your view by selecting specific criteria. This option is particularly useful for narrowing down your data visibility according to specific requirements.
-     * **Hide Column:** Remove the column from view if it's not relevant to your current analysis.
+     *   **Add Filter:** Customize your view by selecting specific criteria. This option is particularly useful for narrowing down your data visibility according to specific requirements.&#x20;
+
+         <figure><img src="../.gitbook/assets/Screenshot 2024-06-10 at 12.15.14 PM.png" alt=""><figcaption><p>Filtering Options</p></figcaption></figure>
 3. **Apply Filters:**
    * Select ‘Add Filter’ and choose the desired criteria from the list to refine your Catalog view.
 
@@ -74,6 +77,8 @@ For example, to find resources without descriptions:
 
 1. Click into the **Catalog**.
 2. Navigate to the 'Description' metadata column.
-3. Select 'Blank' to filter and display resources that lack descriptions.
+3. Select 'Add filter' and 'is not set' to filter and display resources that lack descriptions.
 
 Next you can apply descriptions in bulk using the [ai-description-editor.md](../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention")!
+
+<figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 12.18.17.gif" alt=""><figcaption><p>Filtering for Description 'is not set'</p></figcaption></figure>

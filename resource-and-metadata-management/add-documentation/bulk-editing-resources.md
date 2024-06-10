@@ -16,7 +16,7 @@ Adding documentation manually to one resource at a time can be useful for small 
    * Go to any section where bulk edits are needed, such as the Catalog, Collections, Metrics, Dictionary, Documents, or Questions.&#x20;
    * For this example, we'll use the **Catalog**.
 2. **Filter Resources:**&#x20;
-   * Apply relevant [Broken link](broken-reference "mention") to narrow down the resources you want to edit.&#x20;
+   * Apply relevant [filters.md](../../features/filters.md "mention") to narrow down the resources you want to edit.&#x20;
    * For instance, filter by Integration=Tableau and Type=Dashboard to filter on Tableau dashboards.
 3. **Select Resources:**
    * **Select All:** Click the checkbox in the upper left corner to select all visible resources.
@@ -44,7 +44,7 @@ To help you visualize the process of making bulk edits in Secoda, we've included
 
 As you can see below, we've filtered for PII resources, selected all, chose the Verify command, and applied the bulk changes.
 
-<figure><img src="../../.gitbook/assets/Kapture 2024-04-30 at 16.04.21 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Kapture 2024-04-30 at 16.04.21 (1).gif" alt=""><figcaption><p>Bulk Catalog Edits</p></figcaption></figure>
 
 ## **Bulk Editing with Automations**
 
