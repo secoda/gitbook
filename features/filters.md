@@ -14,6 +14,8 @@ Filters are powerful tools in Secoda that enhance your ability to efficiently ex
 
 Use Secoda's [search.md](search.md "mention") function to apply filters and narrow down your results. This is particularly useful when searching for specific data characteristics across your entire database.
 
+<figure><img src="../.gitbook/assets/Kapture 2024-05-01 at 10.32.53 (1).gif" alt=""><figcaption><p>Filtering Search</p></figcaption></figure>
+
 ### Filter categories
 
 In Secoda, you can apply filters based on the following categories:
