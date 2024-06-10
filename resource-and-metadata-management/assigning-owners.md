@@ -15,6 +15,8 @@ Assigning ownership to data provides several key benefits:
 
 ## **How to assign owners to data in Secoda**
 
+After navigating to a Secoda resource, Editors and Admins can assign Owners by clicking the Owners field and selecting the relevant members from the workspace. The owners field is accessible through the Catalog view, or in the [resource-sidebar.md](resource-sidebar.md "mention").
+
 Owners can be assigned to data within Secoda by Editors and Admins:
 
 1. Navigate to a resource within the Secoda Catalog or use the resource side panel.
@@ -30,15 +32,15 @@ Ownership can also be assigned at the Group level:
 
 Benefits: Group ownership ensures consistent management even when individual members leave the organization.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5a8db21c-599c-473e-a1a4-7b501f9bc74e.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 4.21.41 PM.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/52fcae71-1c83-4397-99ca-1c1e301fb55a.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5a8db21c-599c-473e-a1a4-7b501f9bc74e.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
 
 ## Automating ownership
 
 Please see the [integrations](../integrations/ "mention")docs to see which integrations automatically bring in ownership metadata.
 
-Create an [automations](../features/automations/ "mention") to define ownership and have these fields automatically update on a set schedule.
+Create an [automations.md](../features/automations.md "mention") to define ownership and have these fields automatically update on a set schedule.
 
 Try out the [propagating-metadata.md](add-documentation/propagating-metadata.md "mention") & [bulk-editing-resources.md](add-documentation/bulk-editing-resources.md "mention") features to manually bulk add owners to your resources.
 

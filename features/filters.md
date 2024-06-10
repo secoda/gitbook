@@ -10,8 +10,6 @@ description: >-
 
 Filters are powerful tools in Secoda that enhance your ability to efficiently explore and access metadata. This guide explains how to set up and effectively use filters in both the Catalog and Search functions.
 
-**Note:** Consider saving your filters with [#search-views](search.md#search-views "mention") to streamline your workflow, particularly if you frequently revisit specific datasets. Saved views can be quickly accessed, reducing the time spent reapplying the same filters.
-
 ## **Filtering your Search**
 
 Use Secoda's [search.md](search.md "mention") function to apply filters and narrow down your results. This is particularly useful when searching for specific data characteristics across your entire database.
@@ -44,7 +42,7 @@ We support the following operators in Secoda, which will show up depending on th
 
 ### Create views
 
-Once you've applied at least one filter to your search, a 'Save View' button will appear in the top right corner. Clicking this button takes you to the View editor with the applied filters. This feature helps in managing customized data views efficiently. Learn more about [#search-views](search.md#search-views "mention").
+Consider saving your filters with [views.md](views.md "mention") to streamline your workflow, particularly if you frequently revisit specific datasets. Saved views can be quickly accessed, reducing the time spent reapplying the same filters.
 
 ### **Advanced Filtering Capabilities**
 
@@ -52,6 +50,19 @@ Once you've applied at least one filter to your search, a 'Save View' button wil
 * **Keyboard Shortcuts for Filters:** To improve efficiency, you can now use the keyboard shortcut '(f)' to open filters and navigate through them with ease.
 * **Combining Filters:** Combine multiple filters for more precise data retrieval. For instance, you can combine filters for 'Owners' and 'Status' to track recent changes by specific team members.
 * **Using Boolean Operators:** Incorporate operators such as _IS, IS NOT_ for complex searches that require a combination of conditions.
+
+## **Applying Filters in Catalog**
+
+1. **Access Filters:**
+   * Go to any section where Filters can be applied, such as the Catalog, Collections, Metrics, Dictionary, Documents, or Questions. For this example, we'll use the **Catalog**.
+   * Click on the column header that corresponds to the metadata type you want to filter (e.g., Integration, Type, Owners).
+2. **View Filtering Options:**
+   * Upon clicking the column header, a menu will appear offering several actions:
+     * **Sort Ascending/Descending:** Order the metadata based on the selected column.
+     * **Add Filter:** Customize your view by selecting specific criteria. This option is particularly useful for narrowing down your data visibility according to specific requirements.
+     * **Hide Column:** Remove the column from view if it's not relevant to your current analysis.
+3. **Apply Filters:**
+   * Select ‘Add Filter’ and choose the desired criteria from the list to refine your Catalog view.
 
 ## **Use Case: Filtering for Undocumented Resources**
 

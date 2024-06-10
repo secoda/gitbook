@@ -34,4 +34,4 @@ At every sync, Secoda runs queries on your Snowflake instance. Generally, these 
 
 Secoda queries Snowflake in two ways during each sync. The first, is querying the information schema of each database in Snowflake. The second, is querying the `snowflake.account_usage.query_history` table. From these two queries, Secoda is able to extract and calculate [Metadata](snowflake-metadata/), [Cost](../../../features/analytics-dashboard.md), [Lineage](../../../features/data-lineage.md), [Query History](../../../features/queries/), [Popularity](../../../features/popularity.md) and [profile](../../../features/column-profiling.md) the Snowflake Columns.&#x20;
 
-Note, queries outside of a sync, such as those from [Monitors](../../../features/monitoring/), are not included in the cost above, and can vary depending on how the feature is implemented in your workspace.&#x20;
+Note, queries outside of a sync, such as those from [Monitors](../../../features/monitoring.md), are not included in the cost above, and can vary depending on how the feature is implemented in your workspace.&#x20;

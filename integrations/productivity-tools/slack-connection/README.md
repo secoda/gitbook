@@ -48,7 +48,7 @@ You can learn more about all of the capabilities of this integration here: [slac
 There are many ways to use the Secoda integration for Slack. The following three scenarios can be managed in one Slack channel, or can be split into multiple different channels:
 
 * [**Receiving workspace-level notifications in a chosen Channel**](./#slack-workspace-notifications): These can be helpful for the workspace Admins to all be notified of workspace-level changes. Admins/Editors can also [send Announcements](slack-user-guide.md#send-announcements-to-slack) to this Slack channel. Configure these in the **Notifications** tab in the integration Settings.
-* [**Receiving Monitoring incident alerts**](../../../features/monitoring/#slack-channel-for-monitoring-notifications): Get alerted about new incidents and when they've resolved to monitor data quality.
+* [**Receiving Monitoring incident alerts**](../../../features/monitoring.md#slack-channel-for-monitoring-notifications): Get alerted about new incidents and when they've resolved to monitor data quality.
 * [**Managing data-related questions**](../../../best-practices/slack-less-than-greater-than-questions-workflow.md): Set up a workflow in Slack for managing user questions about data.
 
 You can also use the Secoda integration for Slack for personal direct message notifications, and searching Secoda privately.

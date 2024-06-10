@@ -25,7 +25,7 @@ If set up in the following way, the affected users will:
 3. Resource Management
    * **Add Resources**: Add relevant resources into the respective Private Teams.
    * **Search Visibility**: Resources in Private Teams are hidden from search results for users outside that Team.
-   * **Automations**: Use _an_ [_Automation_](../features/automations/) for bulk resource allocation.
+   * **Automations**: Use _an_ [_Automation_](../features/automations.md) for bulk resource allocation.
    * _Note: Adding a parent resource (e.g., a database table) automatically adds child resources (e.g., columns in the table) into the Team._&#x20;
 
 By following these guidelines, you can effectively manage data access for external customers using Secoda, ensuring that each customer's information remains secure and isolated.

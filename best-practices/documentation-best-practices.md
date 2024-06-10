@@ -20,14 +20,14 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 * The AI Assistant is available in the sidebar on each resource in your workspace. Simply ask it to write up documentation on a resource that you're clicked into to generate rich documentation in just seconds. Check out the video resource here: [#how-to-use-the-ai-assistant](../features/ai-assistant/best-practices.md#how-to-use-the-ai-assistant "mention").
 * The [ai-description-editor.md](../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention") can similarly be used to generate descriptions of your resources with just one click. This can be done on the Catalog resources, Dictionary metrics and Collections.
 
-&#x20;[automations](../features/automations/ "mention")
+&#x20;[automations.md](../features/automations.md "mention")
 
 * Define rules once for updating documentation, and have these automatically updated on a set cadence
 * Automations can make updates to tags, descriptions, owners as well as help organize your workspace by moving resources to specific Teams or Collections, for example
 
 [bulk-editing-resources.md](../resource-and-metadata-management/add-documentation/bulk-editing-resources.md "mention")
 
-* Use our bulk editing feature to make bulk metadata edits to your resources with a drag down shortcut similar to Excel's
+* Check out our bulk editing features to make bulk metadata edits to your resources
 
 [#importing-metadata-into-secoda](../resource-and-metadata-management/import-and-export-data.md#importing-metadata-into-secoda "mention")
 

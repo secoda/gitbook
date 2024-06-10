@@ -12,7 +12,7 @@ Admins and Editors can access existing Monitors from the Monitors page accessibl
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/337f012c-4ced-4657-a69b-819b044089a0.png" alt=""><figcaption></figcaption></figure>
 
-To learn about how our current customers are using Monitors in Secoda to improve their data quality, check out this list of [monitoring-use-cases.md](monitoring-use-cases.md "mention").
+To learn about how our current customers are using Monitors in Secoda to improve their data quality, check out this list of [monitoring-use-cases.md](monitoring/monitoring-use-cases.md "mention").
 
 {% hint style="info" %}
 **Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.
@@ -30,7 +30,7 @@ Select from a variety of Monitors to suit your needs:
 * **Mean** - The arithmetic mean of a numeric column
 * **Null Percentage** - The percentage of values in a column that are null
 * **Unique Percentage** - The percentage of values in a column that are unique
-* [**Custom SQL**](./#custom-sql-monitors) - Define a monitor by writing your own SQL query
+* [**Custom SQL**](monitoring.md#custom-sql-monitors) - Define a monitor by writing your own SQL query
 
 The monitor will alert if any of these values are higher or lower than expected.
 
@@ -134,7 +134,7 @@ To optimize the effectiveness of data monitoring and manage resource utilization
 1. **Selective Monitoring:** Focus on the most critical data elements. Prioritize columns and tables that are essential for your business operations to avoid unnecessary strain on resources.
 2. **Optimize Frequency:** Set monitoring frequencies that balance timeliness and resource consumption. For many applications, configuring monitors to run **daily** is sufficient to catch issues without incurring excessive costs.
 3. **Regular Reviews:** Periodically review data quality monitoring configurations. This ensures that your monitoring strategies stay aligned with evolving business needs and data landscapes.
-4. **Workflow Integration:** Embed monitoring alerts into your team’s daily workflows using tools like Slack or email (see [#monitoring-notifications](./#monitoring-notifications "mention")). This ensures that the right personnel are promptly notified, enabling swift action.
+4. **Workflow Integration:** Embed monitoring alerts into your team’s daily workflows using tools like Slack or email (see [#monitoring-notifications](monitoring.md#monitoring-notifications "mention")). This ensures that the right personnel are promptly notified, enabling swift action.
 5. **Documentation and Training:** Keep detailed documentation of your monitor setups and procedures. Train your team on the importance of monitoring and the actions required when specific alerts are triggered.
 6. **Trend Analysis:** Leverage historical data from your monitoring activities to identify trends and patterns. This analysis can help refine your data management practices and predictive monitoring over time.
 
@@ -152,7 +152,7 @@ Ensure that you receive notifications about your monitors by going into your Not
 
 #### Slack Channel for Monitoring notifications
 
-In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
+In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/138d2dd7-a4f6-4adf-a404-ff041566eabe.png" alt=""><figcaption></figcaption></figure>
 

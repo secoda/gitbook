@@ -1,7 +1,7 @@
 ---
 description: >-
-  After you've connected your data and metadata to Secoda, you can start adding
-  documentation and editing properties to your data to enrich it for your users.
+  After you've connected your data to Secoda, you can start adding documentation
+  and metadata to your data to enrich it for your users.
 ---
 
 # Editing Properties

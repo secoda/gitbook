@@ -4,31 +4,37 @@ description: The Catalog is where the metadata from your connected integrations 
 
 # Catalog
 
-Once you connect an integration to your workspace, all of the metadata from that source will appear in the Catalog section.
+The Catalog serves as the central repository for metadata from your connected integrations. Once an integration is connected to your workspace, all metadata from that source populates the Catalog, ready for further action and organization.
 
-Follow the steps on [#how-to-add-integrations](../getting-started/secoda-as-an-admin/connect-your-data/#how-to-add-integrations "mention") to ensure that they're added to the correct Teams. If you haven't built out any Teams yet, the metadata will be added to the default General team which you can edit afterwards.
+To manage how metadata is assigned to different Teams within your workspace, follow the steps  [#how-to-add-integrations](../getting-started/secoda-as-an-admin/connect-your-data/#how-to-add-integrations "mention"). If no Teams have been set up, metadata will automatically be assigned to the default 'General' team, which you can reassign or edit later.
 
-## Navigating the Catalog: Video
+## Editing in the Catalog
+
+For efficient management of multiple resources, learn how to perform bulk edits in the Catalog view here [bulk-editing-resources.md](../resource-and-metadata-management/add-documentation/bulk-editing-resources.md "mention").
+
+## Applying Filters to the Catalog
+
+Enhance your navigation within the Catalog by applying filters. Detailed instructions can be found here [Broken link](broken-reference "mention").
+
+## Creating and Managing Catalog Views
+
+Create custom filtered Views of the Catalog to streamline access to frequently used resources. Learn how to create these Views here [views.md](views.md "mention").
+
+## Navigate the Catalog: Video
 
 {% embed url="https://www.loom.com/share/9a0e256d9b8943728df2bc01b35a1381?sid=157e4ec7-81d7-478c-b7b7-92a0509dc3a8" %}
 
-## Download Catalog to CSV
+## Exporting Catalog Metadata
 
-From the Catalog page, Admins and Editors are able to export the Catalog view into a CSV file. You can even apply filters and export the filtered subset of data.
-
-Simply apply the filters, click the three dot menu and click "Export page as CSV".
+Admins and Editors can export data from the Catalog to a CSV file. After applying necessary filters, use the three-dot menu and select 'Export page as CSV'.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-22 at 2.54.30 PM.png" alt=""><figcaption></figcaption></figure>
 
-To export all Catalog resources, check out our documentation on [import-and-export-data.md](../resource-and-metadata-management/import-and-export-data.md "mention").
+For comprehensive guidance on exporting all Catalog resources, refer to our full documentation on [import-and-export-data.md](../resource-and-metadata-management/import-and-export-data.md "mention").
 
-## Identify undocumented Catalog resources
+## Limiting Resource Access in a Catalog
 
-To identify resources in the catalog that have or have not been documented yet, you can follow the steps here [#search-within-the-catalog](search.md#search-within-the-catalog "mention")
-
-## Limit resources in a Catalog
-
-If you'd like a Team to only have access to specific Catalog resources, such as tables or columns, without granting them access to the entire integration, you can create an [automations](automations/ "mention") to pull that subset of resources:
+If you'd like a Team to only have access to specific Catalog resources, such as tables or columns, without granting them access to the entire integration, you can create an [automations.md](automations.md "mention") to pull that subset of resources:
 
 {% embed url="https://www.loom.com/share/389a4466059e44648f51df336b714cd4?sid=7ad00c04-3831-4236-9fd5-40c4626d9f17" %}
 
@@ -36,10 +42,8 @@ To add resources one-by-one, follow these steps:
 
 {% embed url="https://www.loom.com/share/0726a1f58ec14ac59321324b1ad12cf3?sid=f6e2318f-866e-41d1-aa6c-876343958bf2" %}
 
-## Re-order Catalog columns
+## Reordering Catalog Columns
 
-Admins are able to re-order the metadata columns, in whatever order they'd like. Let's say you want to put more emphasis on the Verification Tag. You can drag that column to be the first column next to the resource name so that it is more visible to your users.
-
-This change will persist at the workspace level for all of your users. In the gif below, you'll see that once the change is made, and the screen is refreshed, the change persists.
+Admins can reorder metadata columns to prioritize important metadata, such as dragging the 'Verification Tag' to a more prominent position. Changes will be visible across the workspace for all users, as shown in the gif below.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7a374f16-11b9-4360-b7a8-6dbe98b7eac2.gif" alt=""><figcaption><p>Re-order metadata columns</p></figcaption></figure>

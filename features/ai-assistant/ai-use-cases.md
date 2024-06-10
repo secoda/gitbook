@@ -34,7 +34,7 @@ AI technology transforms data management by simplifying complex tasks and making
 
 ## **Custom SQL Monitor for All User Levels**
 
-* **Writing SQL for Monitors**: The AI Assistant empowers users with basic technical skills to create and manage [custom SQL monitors](../monitoring/#custom-sql-monitors) effectively.
+* **Writing SQL for Monitors**: The AI Assistant empowers users with basic technical skills to create and manage [custom SQL monitors](../monitoring.md#custom-sql-monitors) effectively.
 * **How does the AI Assistant do this?**
   * Crafts complex SQL queries, democratizing the setup of advanced data monitoring systems.
 * **Benefits**:
