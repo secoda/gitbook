@@ -71,7 +71,7 @@ Share your screen showing your Secoda workspace.
 
 You may want to highlight additional features depending on who you are providing training for. Consider the persona that you are working with, and which features might be useful for improving their current workflows.&#x20;
 
-For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../../../best-practices/best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using Automations & the Propagate metadata feature. A data owner might also want to know about [monitoring](../../../features/monitoring/ "mention") and how they can set up data quality alerting for their core tables.
+For example, a data analyst might benefit from seeing how the [queries](../../../features/queries/ "mention") feature works in Documents. A data owner would benefit from hearing about the different ways to [#automate-documentation](../../../best-practices/best-practices-for-setting-up-your-workspace.md#automate-documentation "mention"), like using Automations & the Propagate metadata feature. A data owner might also want to know about [monitoring.md](../../../features/monitoring.md "mention") and how they can set up data quality alerting for their core tables.
 
 ### Next steps
 

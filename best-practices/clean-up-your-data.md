@@ -24,7 +24,7 @@ Make sure you check the [lineage graph](../features/data-lineage.md) in Secoda b
 * Utilize the Popularity metadata to determine which data resources are least accessed.&#x20;
 * Sorting the Catalog by Popularity helps identify candidates for deprecation based on minimal views or queries.
 
-### [automations](../features/automations/ "mention") to identify stale assets
+### [automations.md](../features/automations.md "mention") to identify stale assets
 
 * Set up Automations to tag resources that haven’t been accessed or updated within a specific timeframe as "Stale" or "Candidates for Deprecation."&#x20;
 * Consider adding a property to the Automation to push these to a private Team or specific Collection, if that's helpful for review purposes.

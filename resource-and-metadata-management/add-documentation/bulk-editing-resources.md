@@ -6,34 +6,54 @@ description: >-
 
 # Bulk Editing
 
-## How to **Bulk Edit in the Catalog** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## Introduction
 
-Adding documentation manually to one resource at a time can be useful for small amounts of unique data. Many users have large amounts of data that need to be documented, and using our Bulk Editor tool is the best way to do that.&#x20;
+Adding documentation manually to one resource at a time can be useful for small amounts of unique data. However, if you have large volumes of data requiring documentation, Secoda offers efficient solutions through both manual and automated bulk editing.
 
-To get started, head to the "Catalog" tab from the navigation bar on the left. Here, you'll see all of your data catalog resources, which you can sort and search (by name) using:
+## **Bulk Editing**
 
-* Table name&#x20;
-* Source
-* Database
-* Schema
-* Description
-* Tags
-* Status&#x20;
-* Owners
-* Collections
-* Last Updated
+1. **Navigate:**&#x20;
+   * Go to any section where bulk edits are needed, such as the Catalog, Collections, Metrics, Dictionary, Documents, or Questions.&#x20;
+   * For this example, we'll use the **Catalog**.
+2. **Filter Resources:**&#x20;
+   * Apply relevant [Broken link](broken-reference "mention") to narrow down the resources you want to edit.&#x20;
+   * For instance, filter by Integration=Tableau and Type=Dashboard to filter on Tableau dashboards.
+3. **Select Resources:**
+   * **Select All:** Click the checkbox in the upper left corner to select all visible resources.
+   * **Select Individually:** Check boxes one by one for specific resources.
+   * **Select a Range:** Click the first checkbox, hold the Shift key, and click the last checkbox in the range you want to edit.
+4. **Execute Commands:**
+   * View all available [#commands-options](bulk-editing-resources.md#commands-options "mention") by clicking the three-dot Commands button at the bottom of the screen. Options like Set PII and Verify might be suggested based on the context.
+   * Choose the appropriate bulk update action from the menu and confirm your selection to apply changes.
 
-You can bulk edit any of these fields.
+### Commands options
 
-Once the resources that you'd like to edit are in view, simply make the edit to one resource by clicking on it and making the change.&#x20;
+* [propagating-metadata.md](propagating-metadata.md "mention")
+* Set Collections
+* Set tags
+* Set owners
+* Set published
+* Set PII
+* Verify
+* Edit in sidebar
+* Delete selected
 
-To apply this change to other resources in view, click on the edited resource, hold it down and drag to the other resources you'd like to apply this to (similar to how you would in Excel or Airtable).&#x20;
+### **Video resource**
 
-You can also make bulk edits by selecting the resources you'd like to edit by pressing `ctrl + c`, and then `ctrl + v` (AKA copy and paste).&#x20;
+To help you visualize the process of making bulk edits in Secoda, we've included a GIF that covers the essential steps: filtering resources, selecting them, choosing a command, and applying the changes.
 
-## Bulk editing other resource types
+As you can see below, we've filtered for PII resources, selected all, chose the Verify command, and applied the bulk changes.
 
-You are also able to do this same shortcut for bulk editing in the Dictionary, Collections and Documents! Simply make the edit to one cell, and drag to other resources that you'd like to apply the change to. Don't forget that you can add filters so that you're only making changes to a select group of resources.
+<figure><img src="../../.gitbook/assets/Kapture 2024-04-30 at 16.04.21 (1).gif" alt=""><figcaption></figcaption></figure>
+
+## **Bulk Editing with Automations**
+
+* **Set Up Automation:** Learn how to use Automations in Secoda to handle bulk edits. For instance, you can create an Automation that applies the same definition to all columns named "customer\_id".
+* **Guide:** [Read up on setting up Automations](../../features/automations.md) to bulk edit resources in Secoda.
+
+## **Conclusion**&#x20;
+
+Secoda’s bulk editing features are designed to simplify the process of updating large data sets, making it easy to maintain consistency and accuracy across your resources. Whether through automation or manual selection, these tools help you efficiently manage and document your data.
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

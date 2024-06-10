@@ -9,7 +9,7 @@ Secoda's API's can be used for many workflows. Below are some customer favourite
 {% hint style="info" %}
 Thinking about a workflow that you don't see here? Let's chat about it at [support@secoda.co](mailto:support@secoda.co)!&#x20;
 
-Don't forget! You can also use [Automations](../features/automations/), [CSV Imports](../resource-and-metadata-management/import-and-export-data.md), and our [Custom Integration SDK](../integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration/) to programmatically add documentation and resources without the Secoda APIs.
+Don't forget! You can also use [Automations](../features/automations.md), [CSV Imports](../resource-and-metadata-management/import-and-export-data.md), and our [Custom Integration SDK](../integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration/) to programmatically add documentation and resources without the Secoda APIs.
 {% endhint %}
 
 ## Identify Stale Dashboards

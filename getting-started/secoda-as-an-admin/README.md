@@ -14,7 +14,7 @@ As an Admin in Secoda, your role is crucial in shaping the workspace landscape a
 
 * [ ] **Single Sign-On Setup**: Explore single [sign-on options](../../readme/secoda-as-an-admin/sign-in-options.md) and set them up for your organization.
 * [ ] **Data Source Integration**: Decide which data sources to connect with Secoda and follow[ the integration guides](connect-your-data/) provided.
-* [ ] **Automations**: Learn how to use [Automations](../../features/automations/) to streamline data management tasks, and check out how[ other Secoda users are leveraging the features](../../features/automations/automations-use-cases.md).
+* [ ] **Automations**: Learn how to use [Automations](../../features/automations.md) to streamline data management tasks, and check out how[ other Secoda users are leveraging the features](../../features/automations/automations-use-cases.md).
 * [ ] **Workspace Customization**:
   * [ ] Customize the [workspace homepage](../../features/custom-homepage.md) to reflect your organizational needs.
   * [ ] [Adjust settings and create Teams](../../best-practices/best-practices-for-setting-up-your-workspace.md) to tailor the user experience and workspace functionality.
