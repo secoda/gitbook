@@ -1,38 +1,30 @@
 ---
 description: >-
-  Secoda is built to be collaborative, so there's a number of ways to share
-  content and resources with other people.
+  Learn how to precisely control access to individual resources in Secoda,
+  enabling tailored sharing settings distinct from broader team-based
+  permissions.
 ---
 
-# Sharing Resources
+# Sharing Individual Resources
 
-## **How to share resources in Secoda**
+## **Introduction**
 
-There are a few different ways that you can organize permissions in Secoda. Entities will inherit permissions from their parent, so if you give someone access to a Team, they will have access to all of the resources within that Team. If you give someone access to a Collection, they will have access to all of the resources within the Collection. If you give someone access to a resource, they will have access to that resource only.
+Sharing individual resources effectively in Secoda allows for precise control over who can access specific data. This document focuses on direct resource sharing, distinct from broader permissions management covered in our separate [..](../ "mention") guide on using Teams, Collections, and Groups.
 
-### Teams permissions
+### Sharing Resources at the Individual Level
 
-[teams.md](../teams.md "mention") are the highest level of organization in Secoda. You can create teams for different departments, projects, or any other way that makes sense for your organization. You can then assign resources to teams, and all members of that team will have access to those resources.
+1.  **Direct Resource Sharing:**
 
-### Collection permissions
+    * To share a specific resource, navigate to the resource within Secoda and click on the 'Share' button located at the top right corner. This opens the permissions panel for that resource.
 
-[collections-1.md](../../features/collections-1.md "mention") are a way to organize your resources within a team. You can create collections for different projects, or any other way that makes sense for your organization. You can then assign resources to collections, and all members of the Team that collection is in will have access to those resources.
+    <figure><img src="../../.gitbook/assets/Screenshot 2024-02-27 at 4.42.23 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Group permissions
-
-[groups.md](../groups.md "mention") are a way to organize the members within your workspace. It's common to create groups so that it's easier to assign [ownership](../../resource-and-metadata-management/assigning-owners.md) at the Group level, or add Groups to Teams instead of individually adding users to a Team one-by-one.
-
-### Entity-level permissions
-
-You can edit inherited permissions (permissions based on Teams) by clicking **Share** in the top right of your resource.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-27 at 4.42.23 PM.png" alt=""><figcaption></figcaption></figure>
-
-Clicking **Share** opens up existing Permissions (Image 1). In the case below, the Collection is shared with all users in the General Team.&#x20;
-
-To remove select users from viewing this Collection, but keep them in the Team, you can click "Can read" and select "Remove access" (Image 2).&#x20;
-
-After removing the user, you'll see "Reset permissions" appear (Image 3). This button is helpful if this was done in error, or if you'd like to re-open up access to those users.&#x20;
+    * **Existing Permissions:** You will initially see the current access settings, which reflect any inherited permissions from the resource's parent entity (like a Team or Collection). See Image 1 below for reference, where the Collection is shared with all users in the General Team.
+2. **Modifying Access:**
+   * **Granting Access:** To allow a new user or group to access the resource, you can add them directly through the 'Share' panel. They will then be able to view or edit the resource based on the permissions you assign.
+   * **Restricting Access:** To tailor access for specific users (or Groups) within a broader Team, you can adjust their permissions to more restrictive levels. For instance, you may want to change an Editor’s permissions to "Can read" only, limiting their ability to make changes while still allowing them to view the resource (Image 2).&#x20;
+   * **Removing Access:** If access needs to be removed from an individual, select their permission next to their name and choose "Remove access." This action can be reversed by clicking "Reset permissions," which reverts to the previous settings if the change was made in error or needs to be undone (Image 3).
+3. **Copy Link:** For easy sharing, click 'Copy link' to copy the resource's unique URL to your clipboard. Note that only users with the necessary permissions can view the resource, even if they have the link.
 
 <div>
 
@@ -48,10 +40,8 @@ After removing the user, you'll see "Reset permissions" appear (Image 3). This b
 
 </div>
 
-Clicking **Copy link** copies the resource's unique URL to your clipboard so that you can share it with whoever you want. Still, only people with access to the resource can see it.
-
 {% hint style="warning" %}
-If a parent document or a Collection has custom entity-level permissions set, users who are not in that permissions set will not be able to access anything nested within it.&#x20;
+If a parent document or a Collection has custom resource-level permissions set, users who are not in that permissions set will not be able to access anything nested within it.&#x20;
 
 Make sure that when you're sharing a resource with someone, if it's nested in a Collection or under a Parent document, that parent resource permissions include the user you're hoping to share it with.
 {% endhint %}

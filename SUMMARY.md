@@ -230,7 +230,7 @@
   * [Views](features/views.md)
 * [User Management](user-management/README.md)
   * [Roles & Permissions](user-management/roles/README.md)
-    * [Sharing Resources](user-management/roles/sharing-resources.md)
+    * [Sharing Individual Resources](user-management/roles/sharing-resources.md)
     * [Requesting Access](user-management/roles/requesting-access.md)
   * [Teams](user-management/teams.md)
   * [Groups](user-management/groups.md)
