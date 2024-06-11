@@ -25,3 +25,14 @@ Previews Video Resource
 Users are able to preview the first 50 table results directly in the Preview tab of the resource.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8827c221-4bdd-478f-957f-6e36450b93e7.png" alt=""><figcaption><p>BigQuery Table Preview</p></figcaption></figure>
+
+### FAQs
+
+<details>
+
+<summary>Seeing a Unexpected Server Error when previewing on Safari</summary>
+
+This can occur if cross-site tracking is disabled. You'll have to go into **Safari > Preferences > Privacy > Uncheck "Prevent cross-site tracking"**
+
+</details>
+
