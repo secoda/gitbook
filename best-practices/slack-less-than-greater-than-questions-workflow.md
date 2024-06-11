@@ -11,7 +11,7 @@ We've talked with many Secoda users and put this page together to highlight some
 ### Initial questions to consider
 
 1. Is there a centralized Slack channel that your colleagues go to when asking questions about data?
-   1. If yes, consider connecting the Slack integration to this channel.
+   1. If yes, consider connecting the [Slack integration](../integrations/productivity-tools/slack-connection/) to this channel.
    2. If no, work with the relevant stakeholders to create this channel (or delete other channels so this knowledge is centralized) and socialize it to your organization.
 2. Who normally has the most questions about data?
    1. Make sure that these users are included in the connected Slack channel.
