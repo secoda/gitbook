@@ -6,7 +6,7 @@ Once your integration code is ready and fully tested locally. The next step is t
 
 1. **Navigate to the Create Integration Page**: Click on the Integrations in the side bar, navigate to the Create tab, and select Create Integration.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Enter Integration Details**: Fill in the submission form with the integration name, upload an integration icon, and provide a detailed description of your integration.
 

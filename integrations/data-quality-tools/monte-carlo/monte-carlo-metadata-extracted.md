@@ -13,3 +13,5 @@ description: List of all the metadata that Secoda pulls from Monte Carlo
   * Columns
 * Lineage
   * Monitors <-> Tables from other sources
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
