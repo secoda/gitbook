@@ -191,7 +191,7 @@
     * [Secoda Fields Explained](integrations/custom-integrations-and-marketplace/secoda-fields-explained.md)
 * [Features](features/README.md)
   * [Activity Log](features/activity-log.md)
-  * [AI Assistant](features/ai-assistant/README.md)
+  * [Secoda AI](features/ai-assistant/README.md)
     * [AI Assistant user guide](features/ai-assistant/best-practices.md)
     * [AI Use Cases](features/ai-assistant/ai-use-cases.md)
     * [AI Security FAQs](features/ai-assistant/security.md)

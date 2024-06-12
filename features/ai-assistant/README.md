@@ -1,40 +1,38 @@
 ---
-description: This page will go over the AI Assistant functionality.
+description: This page will go over the Secoda AI functionality.
 ---
 
-# AI Assistant
+# Secoda AI
 
-{% hint style="info" %}
-Explore plans which include our AI Assistant [here](https://www.secoda.co/pricing).
-{% endhint %}
+Explore plans which include Secoda AI [here](https://www.secoda.co/pricing).
 
 ## Overview
 
-The Secoda AI Assistant enhances your data stack by providing a powerful chat interface that allows anyone in your organization to retrieve data insights.&#x20;
+The Secoda Secoda AI enhances your data stack by providing a powerful chat interface that allows anyone in your organization to retrieve data insights.&#x20;
 
-Secoda's AI Assistant is powered by [OpenAI's APIs](https://openai.com/product), which sit atop the GPT4 Large Language Model. We are updated to the latest version of GPT -- GPT4 Turbo.&#x20;
+Secoda's Secoda AI is powered by [OpenAI's APIs](https://openai.com/product), which sit atop the GPT4 Large Language Model. We are updated to the latest version of GPT -- [GPT-4o](https://platform.openai.com/docs/models/gpt-4o).&#x20;
 
 By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assistant can help you with documentation, query building, institutional knowledge discovery, all while safeguarding your metadata!
 
-## **Enabling the AI Assistant**&#x20;
+## **Enabling the Secoda AI**
 
-By default, the AI Assistant is disabled. To activate it:
+By default, Secoda AI is disabled. To activate it:
 
 * Navigate to Settings > AI.
-* Toggle on the AI Assistant.
-* Once enabled, the AI Assistant will appear in the left-hand menu of your workspace.
+* Toggle on the Secoda AI.
+* Once enabled, the Secoda AI will appear in the left-hand menu of your workspace.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-04-26%20at%202.23.16%20PM.png" alt=""><figcaption><p>Screenshot showing how to enable AI Search in the Workspace Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-By default, both Published and Draft resources are included in the AI Assistant responses. This can be controlled using [custom instructions](./#descriptions-custom-instructions) to restrict this to only Published resources, for example.
+By default, both Published and Draft resources are included in Secoda AI responses. This can be controlled using [custom instructions](./#descriptions-custom-instructions) to restrict this to only Published resources, for example.
 {% endhint %}
 
 ### **AI Settings for Admins**
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-08 at 2.40.52 PM.png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 #### Agent Tools
 
@@ -53,6 +51,12 @@ Admins can customize AI settings to align with workspace preferences and securit
 
 This ensures that only authorized users can run queries on sensitive or critical data, maintaining control over data access.
 {% endhint %}
+
+#### **Resource filter rules**
+
+Admins can set which resources are included or excluded from Secoda AI. By default, all published resources are included in the scope of Secoda AI. The resource filter rules use the same [filters.md](../filters.md "mention")that the search and catalog pages use.
+
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 #### **Custom Instructions**&#x20;
 

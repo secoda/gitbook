@@ -140,21 +140,41 @@ To optimize the effectiveness of data monitoring and manage resource utilization
 
 By following these guidelines, you can ensure your monitoring processes are both efficient and effective, providing critical insights while maintaining control over costs and resource use.
 
+## Monitoring Permissions
+
+Monitoring functionality is primarily intended for users with Edit or Admin roles, rather than end business users who typically have Viewer permissions.
+
+1. **Creating:**
+   * Any Admin or Editor can now create monitors, without requiring specific integration permissions.
+2. **Editing and Owning:**
+   * Initially, any Admin or Editor can edit monitors. However, once an owner is designated for a monitor, only the owner and Admins will have editing rights.
+   * Owners and Admins will also have the ability to invite additional owners to the monitors.
+3. **Deleting, Running, and Resolving:**
+   * The permissions for deleting, running, and resolving monitors will mirror those for editing. This means that only the monitor's owner and Admins can perform these actions once an owner is assigned.
+4. **Viewing:**
+   * Viewing permissions remain unchanged, with any Admin or Editor able to view monitors. We are planning future updates that will allow more granular control over who can view monitor outputs, enhancing privacy and data security.
+
 ## Monitoring Notifications
 
-Ensure that you receive notifications about your monitors by going into your Notification settings. Check off where you'd like to be notified, whether that's in Slack DMs, by email, and/or in the app.
+Stay informed about the status of your monitors by adjusting your Notification settings. Specify your preferred channels for receiving alerts—whether through Slack DMs, email, or directly within the app.&#x20;
 
 <div align="left">
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications in Settings</p></figcaption></figure>
 
 </div>
 
-#### Slack Channel for Monitoring notifications
+#### **Configuring Slack Channel Notifications**
 
-In the Slack integration Channels settings, Admins are able to set the monitoring notifications to go to a specific channel. This can be the same or different channel than what you've set up for other notifications. Learn more [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
+Admins can direct monitoring notifications to specific Slack channels, distinct from other notification settings. This ensures that the right team members are alerted promptly. For detailed steps on setting this up, visit [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/138d2dd7-a4f6-4adf-a404-ff041566eabe.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/138d2dd7-a4f6-4adf-a404-ff041566eabe.png" alt=""><figcaption><p>Example Slack notification</p></figcaption></figure>
+
+#### Email Monitoring Notifications
+
+Email notifications provide direct links to the relevant sections in Secoda. As shown in the image below, clicking the "Open Secoda" link takes you to the Inbox notification, while other links direct you to specific incidents or tables.
+
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Image explaining the links in email notifications</p></figcaption></figure>
 
 ## Video resource
 
