@@ -20,8 +20,10 @@ Below are some examples of Documents use cases we see often:
 * [comments.md](comments.md "mention") can be added in order to collaborate with your co-workers on your Documents.
 * Use the '@' command to tag and reference other resources from across the workspace like tables or dictionary terms.&#x20;
   * This automatically adds those tagged resources as [relating-resources.md](../../resource-and-metadata-management/relating-resources.md "mention") in the workspace.
-  * You can hover over a resources that's tagged using the @ command to see a preview of the resource before clicking into it.
+  * You can hover over a resources that's tagged using the @ command to see a **preview** of the resource before clicking into it.
 * Use the '/' command to add custom elements to a document. Add embeds, files, links, tables, and many more interesting documentation formats to make data documentation more interesting. See a whole list of [embeds.md](../embeds.md "mention").
+* For easier navigation within longer documents, you can create **anchor links** to specific sections.
+  * Simply use `/h1` or `/h2` to designate headings, then click the "#" next to the heading to generate a link directly to that section.&#x20;
 * You can also write live [queries](../queries/ "mention") in Documents for adhoc analysis.
 * Bring existing Documents from [confluence](../../integrations/productivity-tools/confluence/ "mention") into Secoda's Documents.
 * Build a Table of Contents in Documents by using the / command and either scrolling or typing "Table of Contents" to insert it.&#x20;

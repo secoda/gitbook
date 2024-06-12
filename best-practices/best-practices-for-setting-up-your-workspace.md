@@ -4,61 +4,59 @@ description: Learn about some best practices for setting up that we've seen work
 
 # Setting up your workspace
 
-After your integrations are setup and you have all of your data in the product, you might consider how you want the layout of your workspace to look. You'll also want to build out certain features so that when you onboard new users, they are set up for success. In this document, we’ll outline some best practices that we’ve seen work well for our customers.
+After configuring your integrations and importing metadata, it's essential to consider the layout and structure of your workspace. This guide outlines best practices for effectively organizing your workspace and features to ensure new users are well-prepared upon onboarding.
 
-## Organize Teams
+## **Organizing Teams**
 
-Teams is the main way to organize your organization's resources. Read more about all of the capabilities and how to set up Teams [here](../user-management/teams.md).
+Teams are the primary way to manage your organization's resources. Learn more about the capabilities and setup process for Teams [here](../user-management/teams.md).
 
-### General Team
+### **General Team Usage**
 
-At this stage, all of your data from the connected integrations should be accessible via the General Team Catalog. General is by default set to Public to all users, but if you’d like you can make it Private in the Teams Settings. You can also rename it in the Settings (i.e. your Company name, Data Team etc.).
+By default, all metadata from connected integrations is accessible via the General Team Catalog. The General Team is set to Public, but you can change it to Private or rename it in the Team Settings.
 
-Here are some use cases for the General Team in Secoda:
+**Use cases for the Public 'General' Team:**
 
-* Use the General Team as a **public** space for all users in your workspace to access
-  * Create a dictionary of terms, metrics and acronyms that are often used cross-functionally
-  * Create internal processes and best practices documents relevant to all users
-  * Create Secoda onboarding documents for first time users including how to navigate your org’s workspace
-* Use the General Team as a **private** space for a subset of users to access
-  * This might come in handy if you’re using Secoda as a client-facing tool and you don’t want all users to access integrations across multiple clients
-  * Make General private in Team Settings and limit it only to your internal team members
+* Serve as a common space for all workspace users to access.
+* House a dictionary of commonly used terms, metrics, and acronyms.
+* Store internal processes and best practices documentation.
+* Include onboarding documents for new users to navigate the workspace.
 
-### Other Teams
+### **Creating Specific Teams**
 
-Begin with outlining your user base, and then create the Teams based off of that list.
+1. **Identify Your Users**: Start by identifying both your current and potential future users. Determine their roles and consider grouping them to streamline access management. For a detailed understanding of how Roles, Teams, and Groups interact within our RBAC framework, refer to our [user-management](../user-management/ "mention") documentation.
+2. **Establish Teams**: Create Teams reflecting the departments or roles of your users. For example:
+   * If your initial power users are part of the Data Platform team, create a "Data Platform" Team and add relevant users or [Groups](../user-management/groups.md).
+   * For future rollouts to the Business Intelligence team, prepare a "Business Intelligence" Team for upcoming onboarding.
 
-1. Make a list of your initial users, and the other users you eventually plan to onboard into the product
-2. Create Teams based on the teams those users are apart of. For example,
-   1. Let’s say the initial power users who roll out the tool are in the same team, the Data Platform team → Create a Team named “Data Platform” and add the relevant users (consider creating [Groups](../user-management/groups.md) so that you can assign an entire Group to the Team instead of adding users one at a time)
-   2. Let’s say your first rollout will be to editors on the Business Intelligence team → Create a Team named “Business Intelligence” as a placeholder for when they eventually are onboarded
-   3. Consider creating Teams for all of your future users
-3. In the Integrations settings, add the relevant Teams to the integrations that they should have access to. These will flow into the Catalogs of each Team selected.
-4. Consider [editing the sidebar ](../user-management/teams.md#customizing-your-teams-sidebar)depending on what each Team needs access to
-   1. Some customers have less technical users who might only need access to a singular collection. In Teams settings, you are able to remove from their view the Catalog, Dictionary, Documents and Questions sections.
+#### **Customizing Teams**
 
-## Automate documentation
+* **Sidebar Customization**: Adjust the sidebar to match the access needs of each Team. For example, less technical users might only need access to specific Collections, so you can choose to hide unnecessary sections like the Catalog, Dictionary, Documents, or Questions.
+* **Assign Integrations or Resources to Teams**: To limit which metadata is added to each Team, at the highest level you can [add whole integrations to Teams in the settings](../getting-started/secoda-as-an-admin/connect-your-data/#how-to-add-integrations). Utilize [these tricks](../features/catalog.md#limiting-resource-access-in-a-catalog) to add only necessary schemas, tables, and columns to each Team.&#x20;
 
-We have many features that assist in the automation of your documentation and enrichment within Secoda. Check those out here: [documentation-best-practices.md](documentation-best-practices.md "mention").&#x20;
+## Automating documentation
 
-It's important to build out documentation so that new users have something to work with when first accessing the tool. It's helpful to have some Documents, Dictionary terms, and Catalog resource descriptions already filled out so that new users can see the value of Secoda from the start. This is also essential to the accuracy of Search and the AI Assistant, as they are learning from all of this enrichment.
+Secoda offers several features to help automate the enrichment and documentation of your data. For more details, check out [documentation-best-practices.md](documentation-best-practices.md "mention").
 
-Start with documenting the resources that are most used by the organization, or by the initial users you plan to bring onto Secoda. Consider using our [verified-tag.md](../resource-and-metadata-management/tags/verified-tag.md "mention") tag to indicate to users that those resources are approved by the business, and the most accurate data.
+#### **Initial Documentation Setup**&#x20;
 
-## Build out FAQs
+Creating robust documentation from the start is crucial. Ensure that Documents, Dictionary terms, and Catalog resource descriptions are well-documented to showcase Secoda's value immediately to new users. This initial content not only helps in accurate searches but also enhances the AI Assistant’s functionality.
 
-Secoda's Questions feature can provide a lot of value for new users of the tool. Before onboarding users, Admins should consider building out some frequently asked questions in the Questions section. They can type up a FAQ, provide the answer, and mark that as the correct answer. These can be helpful for new users when they first join, and also guide them to asking their own questions to the data team.
+#### **Prioritizing Certain Documentation**&#x20;
 
-## Integrate with Slack
+Begin by documenting the most frequently used resources, especially those relevant to the initial users you're bringing into Secoda. Use the [verified-tag.md](../resource-and-metadata-management/tags/verified-tag.md "mention") tag to signify that these resources are business-approved and provide the most reliable data.
 
-If your organization uses Slack for internal communications, you definitely will want to set up the Slack integration with Secoda. This allows your users to ask the Slackbot questions about your data without having to leave Slack - read more about this flow [slack-less-than-greater-than-questions-workflow.md](slack-less-than-greater-than-questions-workflow.md "mention"). It’ll also allow you to receive notifications regarding your workspace within Slack, depending on how you’ve configured your notifications settings.
+## **Building Out FAQs**&#x20;
 
-Read more about setup, and the functionalities of the integration [here](../integrations/productivity-tools/slack-connection/).
+Leverage Secoda's Questions feature to support new users effectively. Admins should pre-populate the Questions section with FAQs, providing answers and marking correct responses. This helps guide new users and facilitates their engagement with the data team.
 
-## Create Search views
+## **Integrating with Slack**&#x20;
 
-Building out [#search-views](../features/search.md#search-views "mention") can be an important step when building out your workspace. Search views can be saved and used by all users across the workspace, which can guide new users to find information on what they're looking for.
+Integrate Secoda with Slack to enhance internal communications. This integration allows users to query data through Slack and receive workspace notifications without leaving the platform. Learn more about [setting up](slack-less-than-greater-than-questions-workflow.md) and [using the Slack integration](../integrations/productivity-tools/slack-connection/slack-user-guide.md) here.
 
-## Add content to Homepage
+## **Creating Search Views**&#x20;
 
-The Homepage is the first thing your users will see when jumping into Secoda. Enable them further by pinning important resources to the Team homepages, and consider writing up relevant notes using the Notepad. Watch some how-to videos on Homepage functionalities [here](../features/custom-homepage.md).
+Develop [Search views](../features/views.md) to aid Search navigation for new users. These views, once saved, are accessible to all users, helping them locate needed information efficiently.
+
+## **Enhancing the Homepage**&#x20;
+
+The [#team-homepage](../features/custom-homepage.md#team-homepage "mention") is the first interface users interact with in Secoda. Enhance user experience by pinning critical resources and writing notes in the Notepad feature. Explore how-to videos on optimizing Homepage functionality [here](../features/custom-homepage.md).
