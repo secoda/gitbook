@@ -158,7 +158,7 @@ Endpoints  ->&#x20;
 
 Manifest.json: `https://api.secoda.co/integration/dbt/manifest/`
 
-Run\_results.json: `https://api.secoda.co/integration/dbt/run_results/`
+Run\_results.json: `https://api.secoda.co/integration/dbt/run_result/`
 
 Method -> `POST`
 
@@ -173,16 +173,25 @@ headers = {
 response = requests.post(
 	"<https://api.secoda.co/integration/dbt/manifest/>",
 	files={"manifest_file": open("manifest.json", "rb")},
-	data={"integration_id": "Your Integration ID"},
+	data={"integration": "Your Integration ID"},
 	headers=headers
 )
 print(response.json())
 ```
 
-Sample Response ->&#x20;
+Sample Request for Run Results file (Python) ->&#x20;
 
-```json
-{
-   "message":"Successfully ran extraction for dbt"
+```python
+import requests
+
+headers = {
+    "Authorization": "Bearer <Your Key>"
 }
+response = requests.post(
+	"<https://api.secoda.co/integration/dbt/run_result/>",
+	files={"run_result_file": open("run_results.json", "rb")},
+	data={"integration": "Your Integration ID"},
+	headers=headers
+)
+print(response.json())
 ```
