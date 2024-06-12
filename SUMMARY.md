@@ -154,6 +154,8 @@
       * [Dataplex Metadata Extracted](integrations/data-quality-tools/dataplex/dataplex-metadata-extracted.md)
     * [Great Expectations](integrations/data-quality-tools/great-expectations-integration/README.md)
       * [Great Expectations Metadata Extracted](integrations/data-quality-tools/great-expectations-integration/metadata-extracted.md)
+    * [Monte Carlo](integrations/data-quality-tools/monte-carlo/README.md)
+      * [Monte Carlo Metadata Extracted](integrations/data-quality-tools/monte-carlo/monte-carlo-metadata-extracted.md)
   * [Productivity Tools](integrations/productivity-tools/README.md)
     * [Confluence](integrations/productivity-tools/confluence/README.md)
       * [Confluence Metadata Extracted](integrations/productivity-tools/confluence/metadata-extracted.md)
