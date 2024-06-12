@@ -11,6 +11,7 @@ Secoda supports this feature for the following integrations:
 * [**BigQuery**](https://docs.secoda.co/integrations/data-warehouses/bigquery-integration/bigquery-metadata#metadata-pushed)
 * [**Snowflake**](https://docs.secoda.co/integrations/data-warehouses/snowflake-integration/snowflake-metadata#metadata-pushed)
 * [**Redshift**](https://docs.secoda.co/integrations/data-warehouses/redshift-integration/redshift-metadata#metadata-pushed)
+* [**Postgres**](../integrations/databases/postgres-integration/postgres-metadata.md#metadata-pushed)
 
 Click into the pages linked above to see which metadata is synced.
 
@@ -32,4 +33,4 @@ These pushes should update the source quite quickly, usually within minutes. If 
 
 1. Click into the Integration
 2. Go into Preferences and make sure that "Descriptions" is toggled OFF
-   1. If this is toggled on, the source will be considered the source of truth meaning Secoda edits will not be pushed into the source
+   * If this is toggled on, the source will be considered the source of truth meaning Secoda edits will not be pushed into the source

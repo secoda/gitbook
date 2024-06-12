@@ -2,7 +2,9 @@
 description: List of all the metadata that Secoda pulls from Postgres
 ---
 
-# Metadata Extracted
+# Postgres Metadata Extracted
+
+### Metadata pulled
 
 Secoda pulls the following metadata from Postgres:
 
@@ -37,3 +39,12 @@ Secoda pulls the following metadata from Postgres:
   * Postgres Table/View <-> Dashboards from other sources
   * Postgres Table/View <-> Jobs from other sources
 * Preview of first 50 rows (Optional)
+
+### Metadata pushed <a href="#metadata-pushed" id="metadata-pushed"></a>
+
+If enabled, Secoda pushes the following metadata to Postgres:
+
+* Tables
+  * Description
+* Columns
+  * Description
