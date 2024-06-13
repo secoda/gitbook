@@ -78,6 +78,7 @@ Some examples that we've seen work well:
 > * Add "AI-Generated" to the end of each description added, to indicate to users that a human didn't come up with this definition.
 > * Do not reference the database, schema, table information in the description (this information is obvious in Secoda)
 > * Do not use full, wordy sentences. Be brief and include only the necessary facts.
+> * Descriptions should be concise and not editorialized. Do not describe the data as 'essential' or 'critical'; only describe the contents.
 > * All tables and columns are related to insurance. Keep this in mind when generating descriptions.
 
 ## **Future Improvements**&#x20;
@@ -94,8 +95,8 @@ Looking ahead, we are committed to enhancing the Secoda AI Assistant with:
 [best-practices.md](best-practices.md)
 {% endcontent-ref %}
 
-{% content-ref url="ai-use-cases.md" %}
-[ai-use-cases.md](ai-use-cases.md)
+{% content-ref url="secoda-ai-use-cases.md" %}
+[secoda-ai-use-cases.md](secoda-ai-use-cases.md)
 {% endcontent-ref %}
 
 {% content-ref url="security.md" %}

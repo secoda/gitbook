@@ -4,7 +4,7 @@ description: >-
   effective results.
 ---
 
-# AI Assistant user guide
+# Secoda AI user guide
 
 The Secoda AI Assistant enhances your ability to quickly find information and document resources within your workspace using a simple, chat-like interface. This guide will help you understand how to effectively use the AI Assistant both within the Secoda platform and in your everyday workflows.
 
@@ -13,7 +13,7 @@ The Secoda AI Assistant enhances your ability to quickly find information and do
 **1. Engaging with the AI Assistant:**
 
 * **Access:** Click into the AI Assistant window within the Secoda UI to start an interaction. You can also find the AI Assistant on all resource pages (see video below).
-* **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [prompts.md](prompts.md "mention") and [ai-use-cases.md](ai-use-cases.md "mention") to help you get started in understanding the power of this feature.
+* **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [prompts.md](prompts.md "mention") and [secoda-ai-use-cases.md](secoda-ai-use-cases.md "mention") to help you get started in understanding the power of this feature.
 * **Documentation:** Use the AI to automatically generate descriptions for your metadata with just one click [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
 
 {% embed url="https://www.loom.com/share/473aad77e80c41caa8e252f7ac2d568b?sid=b0657b9d-6f0f-419c-9719-259bda14ebaa" %}
