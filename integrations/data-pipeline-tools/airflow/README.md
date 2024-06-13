@@ -8,14 +8,17 @@ description: An overview of the Airflow integration with Secoda
 [metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
-## **Getting Started with Airflow** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-There are two ways to connect Airflow to Secoda:
 
-1. Pull method: Secoda uses the Airflow Rest API to pull the metadata from your Airflow instance
-2. Push method: using Secoda's airflow provider, you can add callbacks to certain DAGs and tasks so they get pushed to Secoda.
+### **Getting Started with Airflow** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-### Pull Method
+There are three ways to connect Airflow to Secoda:
+
+1. **API** method: Secoda uses the Airflow Rest API to pull the metadata from your Airflow instance
+2. **Astronomer** method: Secoda uses the Astronomer REST API to pull the metadata from your Astronomer instance.
+3. **Plugin** method: using Secoda's airflow plugin, you can add callbacks to certain DAGs and tasks so DAG metadata and lineage gets pushed to Secoda.
+
+### API
 
 There are three steps to get started using Airflow with Secoda:
 
@@ -41,7 +44,7 @@ After changing this is what the line should look like:
 
 After enabling the Airflow REST API, the next step is to connect Secoda:
 
-1. In the Secoda App, select ‘Add Integration’ on the Integrations tab
+1. In the Secoda App, select ‘Connect Integration’ on the Integrations tab
 2. Search for and select ‘Airflow’
 3. Enter your Airflow user and password. This information is kept encrypted.
 4. Click 'Connect'
@@ -52,7 +55,41 @@ VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re 
 
 Allow Secoda to access your Airflow API from the [Secoda IP Address](../../../faq.md#what-are-the-ip-addresses-for-secoda).
 
-### Push Method
+### Astronomer
+
+There are three steps to getting started with Astronomer
+
+1. Retrieve your access token
+2. Retrieve the deployment URL
+3. Connect Astronomer to Secoda
+
+**Retrieve your access token**
+
+Follow the steps in [Create a Workspace API token](https://www.astronomer.io/docs/astro/workspace-api-tokens#create-a-workspace-api-token) to create your token. Make sure to save the token on creation in order to use it later in this setup.
+
+**Retrieve your deployment URL**
+
+Your Deployment URL is the [host](https://swagger.io/docs/specification/2-0/api-host-and-base-path/) you use to call the Airflow API.
+
+Run the following command to retrieve the URL for your Deployment Airflow UI:
+
+```
+astro deployment inspect -n <deployment_name> metadata.airflow_api_url
+```
+
+Alternatively, you can retrieve your Deployment URL by opening the Airflow UI for your Deployment on Astro and copying the URL of the page up to `/home`. For example, if the home page of your Deployment Airflow UI is hosted at `clq52c95r000208i8c7wahwxt.astronomer.run/dz3uu847/home`, your Deployment URL is `clq52c95r000208i8c7wahwxt.astronomer.run/dz3uu847`.
+
+**Connect Astronomer to Secoda**
+
+After retrieving the access token and deployment URL, the next step is to connect Secoda:
+
+1. In the Secoda App, select ‘Connect Integration’ on the Integrations tab
+2. Search for and select ‘Airflow’
+3. Select the "Astronomer" option
+4. Enter your Astronomer deployment URL and access token. This information is kept encrypted.
+5. Click 'Connect'
+
+### Plugin
 
 This method will push metadata from your Airflow instance to Secoda. Then on an extraction, Secoda will process all the pushed metadata instead of directly pulling from the API.
 
@@ -64,7 +101,7 @@ Click on “Generate New API Key” button and then write down the generated key
 
 #### Create an Airflow Integration
 
-Navigate to the integrations page and create a new Airflow integration. Change the connection type tab to "Pull" and then click submit. Copy the integration ID from the URL of the page and write it down.
+Navigate to the integrations page and create a new Airflow integration. Change the connection type tab to "API" and then click submit. Copy the integration ID from the URL of the page and write it down.
 
 #### Install Secoda Airflow Provider
 
