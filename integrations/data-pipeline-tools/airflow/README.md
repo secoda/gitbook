@@ -174,11 +174,13 @@ dag_failure_callback
 task_failure_callback
 ```
 
-#### Run an extraction Secoda
+#### Run an extraction in Secoda
 
-After your DAGs have run with the new callbacks, please navigate to your Airflow integration on Secoda and run an extraction to process all of the callbacks. To automate this step, you could configure your extractions to run right after your Airflow runs have finished using a cron expression.
+After your DAGs have run with the new callbacks, please navigate to your Airflow integration in Secoda and run an extraction to process all of the callbacks.&#x20;
 
-If you'd like to run the extraction at the same time as your DAG, consider adding a run integration API request to your DAG. See below for a sample request.&#x20;
+To automate this step, please set your integration schedule to run extractions right after your Airflow runs have finished.
+
+Alternatively, consider adding a run integration API request to the end of your DAG. That way the extraction will run as part of the DAG process. See below for a sample request.&#x20;
 
 Endpoint: `{Your Secoda Domain}/api/v1/databuilder/jobs/`
 
