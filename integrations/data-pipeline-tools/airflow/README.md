@@ -16,9 +16,9 @@ There are three ways to connect Airflow to Secoda:
 
 1. **API** method: Secoda uses the Airflow Rest API to pull the metadata from your Airflow instance
 2. **Astronomer** method: Secoda uses the Astronomer REST API to pull the metadata from your Astronomer instance.
-3. **Plugin** method: using Secoda's airflow plugin, you can add callbacks to certain DAGs and tasks so DAG metadata and lineage gets pushed to Secoda.
+3. **Plugin** method: using Secoda's Airflow plugin, you can add callbacks to certain DAGs and tasks so DAG metadata and lineage gets pushed to Secoda.
 
-### API
+### 1. API
 
 There are three steps to get started using Airflow with Secoda:
 
@@ -55,7 +55,7 @@ VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re 
 
 Allow Secoda to access your Airflow API from the [Secoda IP Address](../../../faq.md#what-are-the-ip-addresses-for-secoda).
 
-### Astronomer
+### 2. Astronomer
 
 There are three steps to getting started with Astronomer
 
@@ -89,7 +89,7 @@ After retrieving the access token and deployment URL, the next step is to connec
 4. Enter your Astronomer deployment URL and access token. This information is kept encrypted.
 5. Click 'Connect'
 
-### Plugin
+### 3. Plugin
 
 This method will push metadata from your Airflow instance to Secoda. Then on an extraction, Secoda will process all the pushed metadata instead of directly pulling from the API.
 
@@ -115,7 +115,8 @@ After the installation, navigate to your Airflow connections settings and create
 
 * Connection ID: `secoda_default`
 * Connection Type: `Secoda Hook`
-* Host: `https://api.secoda.co` (for EU region, please use `https://eapi.secoda.co`)
+* Host: `{Your Secoda Domain}/api/v1/`
+  * The Secoda Domain is the domain you access Secoda with
 * Password:  enter your API key from first step&#x20;
 * Extra JSON: enter your integration ID in the following format
 
@@ -123,7 +124,7 @@ After the installation, navigate to your Airflow connections settings and create
 {"integration_id": "id from step 2"}
 ```
 
-Save the connection and now Secoda provider should be working.
+Save the connection. The Secoda provider is set up!
 
 #### Add Secoda callbacks to your DAGs
 
@@ -176,3 +177,18 @@ task_failure_callback
 #### Run an extraction Secoda
 
 After your DAGs have run with the new callbacks, please navigate to your Airflow integration on Secoda and run an extraction to process all of the callbacks. To automate this step, you could configure your extractions to run right after your Airflow runs have finished using a cron expression.
+
+If you'd like to run the extraction at the same time as your DAG, consider adding a run integration API request to your DAG. See below for a sample request.&#x20;
+
+Endpoint: `{Your Secoda Domain}/api/v1/databuilder/jobs/`
+
+Method: `POST`
+
+Payload:
+
+```
+{
+    "integration_id": "Your Airflow Integration ID",
+    "type": "metadata
+}
+```
