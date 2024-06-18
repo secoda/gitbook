@@ -196,7 +196,7 @@
 * [Features](features/README.md)
   * [Activity Log](features/activity-log.md)
   * [Secoda AI](features/ai-assistant/README.md)
-    * [Secoda AI user guide](features/ai-assistant/best-practices.md)
+    * [Secoda AI User Guide](features/ai-assistant/best-practices.md)
     * [Secoda AI Use Cases](features/ai-assistant/secoda-ai-use-cases.md)
     * [AI Security FAQs](features/ai-assistant/security.md)
     * [Prompts](features/ai-assistant/prompts.md)
