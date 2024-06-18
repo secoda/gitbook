@@ -22,19 +22,33 @@ By default, Secoda AI is disabled. To activate it:
 * Toggle on the Secoda AI.
 * Once enabled, the Secoda AI will appear in the left-hand menu of your workspace.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Toggle on AI</p></figcaption></figure>
 
-{% hint style="info" %}
-By default, both Published and Draft resources are included in Secoda AI responses. This can be controlled using [custom instructions](./#descriptions-custom-instructions) to restrict this to only Published resources, for example.
-{% endhint %}
-
-### **AI Settings for Admins**
+## **AI Settings for Admins**
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
 
-#### Agent Tools
+### **AI Governance**
+
+AI Governance in Secoda empowers organizations to control the data accessed by AI, enhancing security and data relevance.&#x20;
+
+#### Key Features:
+
+* **Customizable Filters:** Admins can specify which resources are accessible to the AI by setting inclusive or exclusive filter rules. This ensures that AI interactions are confined to appropriate datasets.
+* **Consistent Configuration:** The filter rules for AI are aligned with [those used on the Search and Catalog pages](../filters.md), ensuring a unified approach to data governance across the platform.
+
+#### Benefits:
+
+* **Enhanced Data Security:** Restricts AI access to sensitive or non-production data, minimizing potential exposure.
+* **Improved Data Relevance:** Focuses AI interactions on current and verified data, increasing the accuracy and reliability of the insights provided.
+
+By implementing these rules, Admins can tailor AI capabilities to fit organizational needs and compliance requirements, ensuring that only relevant and secure data is queried.
+
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>AI Governance Filters</p></figcaption></figure>
+
+### Agent Tools
 
 * By default, tools like `search_resources`, `search_knowledge`, `catalog_search`, `retrieve_entity`, and `entity_link` are enabled to ensure comprehensive search capabilities across the workspace.
 * The `run_sql` tool, disabled by default, allows the AI to execute SQL queries directly on your connected integrations. This tool can provide answers to data queries but can be disabled if there are security concerns. Users can ask questions like "How many customers do we have?" and getting a numeric answer instead of pointing the user to a guiding resource or query. The AI will also provide the user with the steps that it took to find that answer, including any SQL queries it ran on the backend to provide more context.
@@ -52,13 +66,7 @@ Admins can customize AI settings to align with workspace preferences and securit
 This ensures that only authorized users can run queries on sensitive or critical data, maintaining control over data access.
 {% endhint %}
 
-#### **Resource filter rules**
-
-Admins can set which resources are included or excluded from Secoda AI. By default, all published resources are included in the scope of Secoda AI. The resource filter rules use the same [filters.md](../filters.md "mention")that the search and catalog pages use.
-
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
-
-#### **Custom Instructions**&#x20;
+### **Custom Instructions**&#x20;
 
 Admins can set specific instructions for the AI to follow, enhancing control and relevance.
 
@@ -69,7 +77,11 @@ Some examples that we've seen work well:
 > * Only provide results on Published resources - do not include resources that are still in Draft.
 > * Only reference tables and views from the production analytics schema in Snowflake, never use data from the RAW database.&#x20;
 
-#### Descriptions custom instructions
+{% hint style="info" %}
+By default, both Published and Draft resources are included in Secoda AI responses. This can be controlled using the custom instructions to restrict this to only Published resources, for example.
+{% endhint %}
+
+### Descriptions custom instructions
 
 Admins are able to define custom instructions to the [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention") so that you can define documentation standards and a format for it to follow.
 
