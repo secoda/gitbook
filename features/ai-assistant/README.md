@@ -46,7 +46,7 @@ AI Governance in Secoda empowers organizations to control the data accessed by A
 
 By implementing these rules, Admins can tailor AI capabilities to fit organizational needs and compliance requirements, ensuring that only relevant and secure data is queried.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>AI Governance Filters</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-20 at 12.23.40 PM.png" alt=""><figcaption><p>AI Governance Filters</p></figcaption></figure>
 
 ### Agent Tools
 
