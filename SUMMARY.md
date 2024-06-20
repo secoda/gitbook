@@ -211,6 +211,7 @@
   * [Column Profiling](features/column-profiling.md)
   * [Custom Homepage](features/custom-homepage.md)
   * [Data Previews](features/data-previews.md)
+  * [Data Quality Score](features/data-quality-score.md)
   * [Dictionary](features/dictionary.md)
   * [Documents](features/documents/README.md)
     * [Comments](features/documents/comments.md)
