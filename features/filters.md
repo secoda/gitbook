@@ -22,7 +22,7 @@ In Secoda, you can apply filters based on the following categories:
 
 | Type                     | Filters                                                                                                     |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| Resource characteristics | Type, Integration, Related                                                                                  |
+| Resource characteristics | Type, Integration, Related, Quality                                                                         |
 | Metadata properties      | Title, Description, Tags, Status, Priority, Published, Collections, Owners, Governance, Verification, Teams |
 | Temporal filters         | Created time, Updated time, Externally updated time                                                         |
 | Source filters           | Metadata source, Group, Schema, Database, Table                                                             |

@@ -20,7 +20,7 @@ As an Admin in Secoda, your role is crucial in shaping the workspace landscape a
   * [ ] [Adjust settings and create Teams](../../best-practices/best-practices-for-setting-up-your-workspace.md) to tailor the user experience and workspace functionality.
   * [ ] Set Resource Visibility: Choose to automatically [publish all resources](add-documentation/publishing.md) or keep them as drafts until ready for broader viewing.
 
-**Optimize Platform Usage:**
+**Optimize Platform Setup and Usage:**
 
 * [ ] **Best Practices**: Read our [best practices guides](../../best-practices/) to ensure you are maximizing the platform’s potential.
 
@@ -33,6 +33,7 @@ As an Admin in Secoda, your role is crucial in shaping the workspace landscape a
 
 * [ ] **Metadata Management**: Start [editing and enriching](../../resource-and-metadata-management/add-documentation/) metadata to improve [data discoverability](../../features/search.md) and [Secoda AI](../../features/ai-assistant/)’s accuracy.
 * [ ] **Documentation and Dictionary Terms**: Populate the platform with essential [documents](../../features/documents/) and [terms](../../features/dictionary.md) that provide context to your data resources.
+* [ ] **Data Quality:** Check out your [Data Quality Score](../../features/data-quality-score.md) and suggestions from Secoda on how you might improve it.
 * [ ] **User Engagement Strategies**: Explore strategies to boost [user adoption](../../readme/secoda-as-an-admin/user-engagement-and-adoption/) and engagement across your organization.
 
 **Communication and Collaboration:**
