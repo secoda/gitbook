@@ -7,52 +7,41 @@ description: >-
 
 # Invite your teammates
 
-## Benefits to inviting teammates to Secoda
+## **Benefits** to inviting teammates to Secoda
 
-1. Improved collaboration: By inviting teammates to Secoda, you can facilitate collaboration and ensure that everyone has access to the data and data documentation they need to do their job. This can help reduce confusion and improve the efficiency of your team.
-2. Centralized data management: Inviting teammates to Secoda allows you to centralize data management and ensure that all team members have access to the most up-to-date data and documentation. This can help reduce the risk of errors or misunderstandings due to outdated or incomplete information.
-3. Enhanced security: Inviting teammates to Secoda allows you to control access to your data and ensure that only authorized team members have access to sensitive information. This can help protect your data and enhance security within your organization.
-4. Improved data governance: By inviting teammates to Secoda, you can establish clear roles and responsibilities for data management and ensure that all team members follow established data governance policies and procedures.
+* **Enhanced Collaboration:** Streamlines data access and collaboration, reducing confusion and improving team efficiency.
+* **Centralized Data Management:** Ensures all team members access up-to-date data and documentation, minimizing errors.
+* **Improved Security:** Allows precise control over data access, safeguarding sensitive information.
+* **Robust Data Governance:** Facilitates the implementation of data governance policies by defining clear roles and responsibilities.
 
-Overall, inviting teammates to Secoda can help improve collaboration, centralize data management, enhance security, and improve data governance within your organization.
+## **How to Invite Teammates**
 
-## How to invite teammates to Secoda
-
-One of the first things you'll be prompted to do when you open the Secoda app for the first time is invite people that you work with. Only workplace admins are able to invite new users.
-
-To start inviting teammates, go to the Settings page by clicking the ⚙ button in the bottom left corner. From here, click **Members.**
-
-On this screen, you'll be able to see the plan level that you and your team are on, and the number of seats this plan includes. You'll also see a **Viewer invite link** to send to teammates (who will be added as Viewers by default).
-
-If you're adding multiple teammates at once, we recommend **using the "Invite members" button** so that you can add them in bulk.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f1fc74b4-1224-4d02-b700-18631a526b5b.png" alt=""><figcaption></figcaption></figure>
-
-{% embed url="https://www.loom.com/share/fa7b7a5939b64d57bc648189405fb6d8?sid=9241af9d-25f1-4d81-a7c0-1b4d4743f707" %}
+* **Initial Setup:** As a workplace Admin, you're prompted to invite colleagues when you first access Secoda.
+* **Inviting Users:** Navigate to the Settings by clicking the ⚙ icon, then select '**Members**' to access the invitation controls.
+* **Sending Invites:** Use the 'Invite members' button for bulk invitations or the Invite link for individual invites.
+* **Assigning Roles:** Manage user roles directly from the Members page, adjusting access as necessary. For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
 
 {% hint style="warning" %}
-Only users with a business domain name can be invited to the workspace. If using multiple business domains, You can add them to the [allowed domains list](../../../readme/secoda-as-an-admin/customize-the-workspace.md#allowed-domains) in settings to provide access as well.&#x20;
+Only users with a business domain name can be invited to the workspace. If using multiple business domains, You can add them to the [allowed domains list](../../../readme/secoda-as-an-admin/customize-the-workspace.md#allowed-domains) in the Security settings.&#x20;
 {% endhint %}
 
-## Assigning Roles
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-06-20 at 12.39.15 PM.png" alt=""><figcaption></figcaption></figure>
 
-In this same screen, you can view current members in your Secoda space, their emails, and the role that they have within Secoda.
+## **Creating Groups and Teams**
 
-You can edit teammate roles by clicking on the role button that is beside their name and info.
-
-For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
+Establish groups and teams to manage user roles and access effectively. Learn more about [user-management](../../../user-management/ "mention").
 
 ## Deactivating Members
 
-To Deactivate a member from your workspace, click **Deactivate** beside their name. The user's name will still appear on resources that they had previously owned, but will have a strike through their name. This can be helpful context to know who had the historical knowledge of a dataset.
+To Deactivate a member from your workspace, click **Deactivate** beside their name.&#x20;
+
+The user's name will still appear on resources that they had previously owned, but will have a strike through their name. This can be helpful context to know who had the historical knowledge of a dataset.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/06102896-2f76-4c6c-b45b-454c39ffb8f1.png)
 
-## Groups & Teams
+## Video resource
 
-Creating Groups and Teams will be important for user management. Read more about user management here:
-
-{% embed url="https://docs.secoda.co/user-management" %}
+{% embed url="https://www.loom.com/share/fa7b7a5939b64d57bc648189405fb6d8?sid=9241af9d-25f1-4d81-a7c0-1b4d4743f707" %}
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
