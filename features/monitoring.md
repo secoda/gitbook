@@ -164,6 +164,8 @@ Stay informed about the status of your monitors by adjusting your Notification s
 
 </div>
 
+Notifications for monitor incidents are issued only after the **first occurrence** following a successful run. The same incident will not trigger new alerts unless the issue has been resolved and another incident occurs. This policy minimizes repetitive alerts and ensures that notifications remain meaningful and actionable.
+
 #### **Configuring Slack Channel Notifications**
 
 Admins can direct monitoring notifications to specific Slack channels, distinct from other notification settings. This ensures that the right team members are alerted promptly. For detailed steps on setting this up, visit [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
