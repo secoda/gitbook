@@ -12,7 +12,7 @@ Consider setting up [Private and Public Teams ](../user-management/teams.md)and 
 
 ## How to set this up
 
-1. Set up a Private team that only certain users have access to&#x20;
+1. Set up a [Private team](../user-management/teams.md#team-settings) that only certain users have access to&#x20;
    * A Private team means that users must be invited by an Admin to accessing the resources in this team.&#x20;
    * This Private team should be shared with your data team, the Admins/Editors in your workspace, SMEs, or whoever you believe is approved to viewing and editing the "unpolished" data resources.
    * Add all of your new, "Draft", or work-in-progress resources into this team.&#x20;
@@ -27,10 +27,10 @@ Consider setting up [Private and Public Teams ](../user-management/teams.md)and 
 
           <figure><img src="../.gitbook/assets/Screenshot 2024-04-09 at 12.44.56 PM.png" alt=""><figcaption></figcaption></figure>
       * The users in that Private Team can edit the resource documentation and complete a[ verified workflow](verifying-resources-workflow.md) (optional) to verify the resource.
-   2. **Automation 2:** All resources that have a description and owner set, should be tagged as Verified and get added to the Public team for end-user consumption
+   2. **Automation 2:** All resources that have a description and owner set, should be tagged as Verified, marked as Published, and get added to the Public team for end-user consumption.
       * Note: You can choose to define Verification differently than "having a description and owner", this is just an example.&#x20;
-      * This automation ensures that resources are tagged as Verified and made accessible to business users in the Public team.
+      * This automation ensures that resources are tagged as Verified, Published, and made accessible to business users in the Public team.
       *
 
-          <figure><img src="../.gitbook/assets/Screenshot 2024-04-09 at 12.49.53 PM.png" alt=""><figcaption></figcaption></figure>
+          <figure><img src="../.gitbook/assets/Screenshot 2024-06-26 at 1.00.09 PM.png" alt=""><figcaption></figcaption></figure>
 
