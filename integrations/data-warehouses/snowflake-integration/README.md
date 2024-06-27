@@ -152,3 +152,7 @@ In order to resolve this error, please run the following command:
 #### Could not connect to Snowflake backend after 0 attempt(s)
 
 This error could be the result of an incorrect Account ID. Please double check that your Account ID is properly added.&#x20;
+
+**No active warehouse selected in the current session**&#x20;
+
+This error can be due to the warehouse name not being fully uppercase. Updating the warehouse name to all uppercase letters should resolve this issue.&#x20;
