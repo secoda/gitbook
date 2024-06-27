@@ -30,7 +30,7 @@ By default, all metadata from connected integrations is accessible via the Gener
 
 #### **Customizing Teams**
 
-* **Sidebar Customization**: Adjust the sidebar to match the access needs of each Team. For example, less technical users might only need access to specific Collections, so you can choose to hide unnecessary sections like the Catalog, Dictionary, Documents, or Questions.
+* **Sidebar Customization**: [Adjust the sidebar](../user-management/teams.md#customizing-your-teams-sidebar) to match the access needs of each Team. For example, less technical users might only need access to specific Collections, so you can choose to hide unnecessary sections like the Catalog, Dictionary, Documents, or Questions.
 * **Assign Integrations or Resources to Teams**: To limit which metadata is added to each Team, at the highest level you can [add whole integrations to Teams in the settings](../getting-started/secoda-as-an-admin/connect-your-data/#how-to-add-integrations). Utilize [these tricks](../features/catalog.md#limiting-resource-access-in-a-catalog) to add only necessary schemas, tables, and columns to each Team.&#x20;
 
 ## Automating documentation

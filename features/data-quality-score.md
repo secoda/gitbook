@@ -22,6 +22,17 @@ The Data Quality Score (DQS) in Secoda offers a comprehensive scoring system tha
 
 Access to DQS motivates both data producers and consumers to uphold high data quality standards, fostering a culture of continuous improvement and accountability within your organization.
 
+## Enabling DQS
+
+By default, DQS is disabled in all workspaces. To activate it:
+
+1. Navigate to Settings > Quality Score.
+2. Toggle on the Quality Score.
+
+Consider adjusting the **Resource filter rules** to selectively include or exclude specific resources from the DQS calculations. For instance, you might exclude resources from your 'dev' database, which are often incomplete and could skew the overall quality score.
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-06-27 at 2.26.29 PM.png" alt=""><figcaption><p>DQS Settings</p></figcaption></figure>
+
 ## Accessing and Using DQS
 
 ### **Table-Level Scores**
@@ -54,6 +65,12 @@ These filters help you quickly identify and prioritize areas for improvement dir
 
 <figure><img src="../.gitbook/assets/Kapture 2024-06-18 at 17.29.14.gif" alt=""><figcaption><p>Filtering on Quality</p></figcaption></figure>
 
+### **Automations for DQS**
+
+Create an Automation to automatically apply actions based on the DQS of each table. For instance, when a table achieves a "Good" quality score, the system can automatically mark it as "Published" and "Verified." This helps users quickly identify which tables are confirmed as reliable and ready for business use.
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-06-27 at 3.03.13 PM.png" alt="" width="502"><figcaption><p>DQS Automation</p></figcaption></figure>
+
 ### **Adding a DQS Homepage Widget**
 
 1. **Customize Your Homepage**: Navigate to your personal or team-level homepage settings.
@@ -84,6 +101,8 @@ DQS consists of four main dimensions, each reflecting essential aspects of data 
 * **Freshness Achieved (10 Points)**: Full points if the data freshness is within the expected period; otherwise, it scores 0.
 
 **4. Accuracy (35 Points)**
+
+The Accuracy score integrates results from dbt tests or Secoda Monitors, with future plans to include tools like Monte Carlo and Great Expectations.
 
 * **Nullness (10 Points)**:&#x20;
   * 5 points awarded if a nullness test is configured for the table; otherwise, it scores 0.
