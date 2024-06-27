@@ -8,9 +8,9 @@ description: >-
 
 ## Introduction
 
-Automations in Secoda enable admins to set up rule-based operations that automate routine data management tasks, much like Zapier. This feature significantly saves time by automating updates to metadata and documentation, allowing teams to concentrate on more strategic activities and enhance productivity and accuracy in data management.
+Automations in Secoda enable Admins to set up rule-based operations that automate routine data management tasks, much like Zapier. This feature significantly saves time by automating updates to metadata and documentation, allowing teams to concentrate on more strategic activities and enhance productivity and accuracy in data management.
 
-To see these in action, check out our document on example use cases here.
+To see these in action, check out our document on example use cases [here](automations/automations-use-cases.md).
 
 ## Capabilities of Automations
 
