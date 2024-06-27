@@ -35,3 +35,10 @@ After retrieving the Service Account JSON key, the next step is to connect it to
 2. Search for and select Dataplex
 3. Enter your Dataplex Service Account JSON key retreived above
 4. Once successfully connected, a prompt will ask you to run the initial extraction
+
+**Once Connected to Secoda**&#x20;
+
+After the sync has completed successfully, resources that are decorated with additional metadata (e.g. tag templates) and fields will have the Dataplex icon. The fields will show up as custom properties in the resource sidebar.&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-10 at 2.54.25 PM (2).png" alt=""><figcaption><p>Resource with Dataplex metadata</p></figcaption></figure>
+
