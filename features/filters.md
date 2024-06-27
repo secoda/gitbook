@@ -55,9 +55,12 @@ Consider saving your filters with [views.md](views.md "mention") to streamline y
 
 ## **Applying Filters in Catalog**
 
+To utilize the advanced filtering capabilities:
+
 1. **Access Filters:**
    * Go to any section where Filters can be applied, such as the Catalog, Collections, Metrics, Dictionary, Documents, or Questions. For this example, we'll use the **Catalog**.
-   *   Click 'Add filter' or on the column header that corresponds to the metadata type you want to filter (e.g., Integration, Type, Owners).
+   * Click 'Add filter' above the table and begin typing to add or adjust filters without pre-selecting a category. Tip: You can type a value like "Snowflake" instead of having to click through "Integrations" + find and click Snowflake.
+   *   Alternatively, click on the column header that corresponds to the metadata type you want to filter (e.g., Integration, Type, Owners).
 
        <figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 12.11.31.gif" alt=""><figcaption><p>Accessing Filters</p></figcaption></figure>
 2. **View Filtering Options:**
