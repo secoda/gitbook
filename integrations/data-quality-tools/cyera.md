@@ -46,4 +46,6 @@ After retrieving the API token token and secret, the next step is to connect it 
 
 Resources classified in Cyera are automatically tagged with the same classifications in Secoda. You can view the list of Cyera tags in the [Tags](../../resource-and-metadata-management/tags/) tab under Workspace Settings.&#x20;
 
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-09 at 4.22.20 PM.png" alt=""><figcaption><p>Example of Cyera Tags in Secoda</p></figcaption></figure>
+
 :warning:Resources tagged in Cyera that do not exist in Secoda will not have their classifications ingested into Secoda.
