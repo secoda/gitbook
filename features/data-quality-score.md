@@ -24,10 +24,7 @@ Access to DQS motivates both data producers and consumers to uphold high data qu
 
 ## Enabling DQS
 
-By default, DQS is disabled in all workspaces. To activate it:
-
-1. Navigate to Settings > Quality Score.
-2. Toggle on the Quality Score.
+By default, DQS is enabled in all workspaces. Admins can disable it in the Quality Score settings.
 
 Consider adjusting the **Resource filter rules** to selectively include or exclude specific resources from the DQS calculations. For instance, you might exclude resources from your 'dev' database, which are often incomplete and could skew the overall quality score.
 
