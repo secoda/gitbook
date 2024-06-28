@@ -23,14 +23,14 @@ Create Reports to organize your Analytics widgets into separate themes. For exam
 
 ## Filtering the dashboard
 
-You are able to filter on the metrics in the dashboard. In the gif below, you can see how to filter on "Popular resources" to show the most popular _dashboards_ for example!
+You are able to filter on the widgets in the dashboard. In the gif below, you can see how to filter on "Popular resources" to show the most popular _charts_ for example!
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5b42c5e9-f743-42c7-82a8-f386a22f5906.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-06-28 at 15.09.38 (1).gif" alt=""><figcaption><p>Popular charts</p></figcaption></figure>
 
 ## Identifying undocumented resources
 
 Another important metric you can filter for here is **undocumented popular resources**. This would be an important metric to know about so that you can make sure to build out the documentation since your users are often visiting these resources.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bbb4ffc2-d60b-40aa-b757-f60f3af7b51f.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.loom.com/share/96a0cdf5b99c4f0dba83f43c1dceb19d?sid=067c899c-c2fd-40ab-b0d8-35afbf1e36e6" %}
 
 Reach out to us if there are other metrics that you'd like to see in this dashboard!
