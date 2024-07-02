@@ -12,9 +12,9 @@ As an Admin, you can create templates for:&#x20;
 
 ## How to Create Templates in Secoda
 
-To create  template in Secoda, click the arrow next to **New \*Document, Question, Dictionary Term\*** and select **+ New template**.
+To create a template in Secoda, click the arrow next to **New \*Document, Question, Dictionary Term\*** and select **+ New template**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-28 at 3.00.17 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-02 at 4.29.55 PM.png" alt=""><figcaption></figcaption></figure>
 
 You can create a new template or edit current ones from this view.
 

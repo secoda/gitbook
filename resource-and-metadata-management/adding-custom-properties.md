@@ -31,7 +31,7 @@ The only way to add custom properties in bulk is to use our [Import/Export](impo
 1. **Navigate to the Table:** Go to the table where you want to add properties to columns.
 2. **Add the Property:** Use the designated button as shown in the image below to add properties directly to all columns within the table. This will create additional columns in the table's catalog, similar to the Description and Type columns.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-06-05 at 2.07.44 PM.png" alt=""><figcaption><p>Custom Property on Table Columns</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-07-02 at 4.32.04 PM.png" alt=""><figcaption><p>Custom Property on Table Columns</p></figcaption></figure>
 
 ## Bulk Adding of Custom Properties
 
