@@ -28,7 +28,7 @@ Create custom filtered Views of the Catalog to streamline access to frequently u
 
 Watch this helpful video to learn how to navigate through the Catalog effectively.
 
-{% embed url="https://www.loom.com/share/9a0e256d9b8943728df2bc01b35a1381?sid=157e4ec7-81d7-478c-b7b7-92a0509dc3a8" %}
+{% embed url="https://www.loom.com/share/074dfe6ec93a4d87819542fb68b64937?sid=02e4d9f2-9f86-4ec9-af82-5d9aa04d4879" %}
 
 ## Exporting Catalog Metadata
 
@@ -46,10 +46,14 @@ Create custom access rules to limit access to particular tables or columns witho
 
 To add resources one-by-one, follow these steps:
 
-{% embed url="https://www.loom.com/share/0726a1f58ec14ac59321324b1ad12cf3?sid=f6e2318f-866e-41d1-aa6c-876343958bf2" %}
+{% embed url="https://www.loom.com/share/c5fd1489134d47d4914b492c0fb141d8?sid=d4f8cad3-4e56-45a3-b082-568e573cb0ee" %}
 
-## Reordering Catalog Columns
+## Reordering and Sorting Catalog Columns
 
-Admins can reorder columns to highlight important information. Click 'Rearrange columns', then drag the metadata you'd like to be more visible up to the top of the list. These changes will be reflected across the workspace for all users, as demonstrated in the gif below.
+Admins can customize the display of columns to emphasize key information. To rearrange columns, click 'Rearrange columns' and drag the desired metadata to a more prominent position at the top of the list. See the demonstration in the gif below for a visual guide.
+
+For sorting, click on the desired column header, then choose either ascending or descending order.&#x20;
+
+These adjustments will apply universally across the workspace, enhancing visibility for all users.&#x20;
 
 <figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 13.54.19.gif" alt=""><figcaption><p>Reorder Metadata Columns</p></figcaption></figure>

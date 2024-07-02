@@ -20,4 +20,4 @@ You can also bulk tag using our [propagating-metadata.md](../add-documentation/p
 
 You might want to filter your search for resources with the same Tag. You can do that by clicking `Add filter` within the Search window.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3ccfa6ff-74fb-4110-aa5e-1137dacd554c.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.loom.com/share/78d98dfaef8144f2ba26998c8663a70a?sid=50d426bc-f1e4-4b99-a1f5-fe38c71246fc" %}

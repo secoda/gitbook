@@ -12,9 +12,9 @@ Secoda ingests metadata and resources from your data warehouse, BI tool and ETL 
 
 ## What is a resource?
 
-In Secoda, a resource is any entity that metadata and properties can be added to. This includes, but is not limited to, tables, dashboards, charts, columns, queries, documents, dictionary terms, and more.&#x20;
+A resource in Secoda encompasses any entity that can be enhanced with metadata and properties. This broad category includes tables, dashboards, charts, columns, queries, documents, dictionary terms, and more.&#x20;
 
-Most resources can be opened into their own page. The page will include tabs for Lineage, and Documentation, and a side panel with the resources metadata and properties. For a breakdown of the information on the side panel, check out the page below.&#x20;
+Most resources can be accessed through their own dedicated page, which typically features tabs for Lineage and Documentation, alongside a side panel displaying the resource’s metadata and editable properties. For a breakdown of the information on the side panel, check out the page below.&#x20;
 
 {% content-ref url="resource-sidebar.md" %}
 [resource-sidebar.md](resource-sidebar.md)
@@ -22,11 +22,11 @@ Most resources can be opened into their own page. The page will include tabs for
 
 ### What is resource metadata?
 
-In Secoda, metadata refers to any information about the resource that is generated automatically and therefore cannot be edited. This includes information such as the timestamp that the resource was created, the popularity of the resource, and the type.&#x20;
+Metadata in Secoda refers to details about the resource that are automatically captured and cannot be modified. This includes information such as creation timestamps, resource popularity, and the resource type. Such information is crucial for understanding the lifecycle and usage of each resource within your organization.
 
 ### What are resource properties?
 
-In Secoda, properties refer to the any editable information about the resource either edited in Secoda or pulled from the source. This context is not automatically generated. This includes descriptions, documentation, owners, custom properties, and more.&#x20;
+Properties in Secoda are editable attributes that provide additional context about a resource. These attributes can be manually entered in Secoda or pulled directly from the source. Editable properties include descriptions, documentation, ownership details, and custom properties, which offer a deeper level of customization and control.
 
 **Metadata and Properties are the lifeblood of Secoda, the more you put in, the more you'll get out of the tool!**&#x20;
 
@@ -56,7 +56,7 @@ Learn how to assign owners to your resources, or relate resources to one another
 [relating-resources.md](relating-resources.md)
 {% endcontent-ref %}
 
-Finally, if you're looking to make changes outside of Secoda, you can export all your resources, and edit their properties in a CSV. Import the CSV back in to see all your changes! More details below.
+For changes that require manipulation outside of Secoda, you have the flexibility to export your resources to a CSV file, make offline edits, and then re-import them to apply updates across your Secoda environment. Detailed instructions on this process can be found in the corresponding section below.
 
 {% content-ref url="import-and-export-data.md" %}
 [import-and-export-data.md](import-and-export-data.md)

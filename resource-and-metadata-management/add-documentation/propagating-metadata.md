@@ -8,6 +8,8 @@ description: This section will go over how to propagate properties between resou
 
 Secoda offers a robust feature that allows you to copy properties from one resource to related resources within your workspace. This can streamline the management of properties across related resources.
 
+If you'd like to Automate this process even further, check out [automations-use-cases.md](../../features/automations/automations-use-cases.md "mention") for some examples.
+
 ## Steps to Propagate
 
 1. **Select the Resource:**
@@ -35,10 +37,4 @@ Secoda offers a robust feature that allows you to copy properties from one resou
 
 By following these steps, you can effectively manage and synchronize documentation across various resources in your Secoda workspace, enhancing data governance and usability.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e5bf1716-a7fe-47b0-b6df-86db972a5c9e.gif" alt=""><figcaption></figcaption></figure>
-
-Want to see this feature in action? Watch the Loom video below, or send us a message!
-
-{% embed url="https://www.loom.com/share/61e86eaa1be34c7c97df6b7adf456f63" %}
-Loom Video showing how to propagate metadata.
-{% endembed %}
+{% embed url="https://www.loom.com/share/ff571a8bb859466f8571fec8d041dcf4" %}

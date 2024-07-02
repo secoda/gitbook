@@ -35,7 +35,7 @@ Adding documentation manually to one resource at a time can be useful for small 
 * Set published
 * Set PII
 * Verify
-* Edit in sidebar
+* Apply AI description
 * Delete selected
 
 ### **Video resource**
