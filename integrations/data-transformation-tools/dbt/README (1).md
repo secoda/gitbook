@@ -26,3 +26,7 @@ Once the integration is established:
 <figure><img src="../../../.gitbook/assets/Kapture 2024-05-08 at 14.36.40.gif" alt=""><figcaption></figcaption></figure>
 
 This integration empowers teams to track and verify data transformations directly within the Secoda environment, ensuring transparency and accuracy in data operations. Whether you use dbt Core or dbt Cloud, Secoda facilitates a comprehensive view of your data landscape.
+
+### Syncing metadata back to dbt
+
+Metadata changes made in Secoda can be written back to dbt by running a metadata sync in a [github.md](../../productivity-tools/github.md "mention") integration that is linked to your code repository. Once your GitHub integration is setup, you can sync changes made in Secoda to the dbt resources directly in GitHub to keep your metadata up to date.
