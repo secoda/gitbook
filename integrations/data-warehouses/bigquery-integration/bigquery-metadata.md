@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from/pushes to BigQuery
 ---
 
-# Metadata Extracted
+# BigQuery Metadata Extracted
 
 ### Metadata pulled
 
@@ -15,12 +15,16 @@ Secoda pulls the following metadata from BigQuery:
   * Schema
   * Database
   * Frequent users
+  * Policy tags
+  * Labels
 * Fields (Fields are referred to as Columns in Secoda)
   * Name
   * Description
   * Type
   * Foreign Key
   * Primary Key
+  * Policy tags
+  * Labels
 * Column Profile
   * Min
   * Max
