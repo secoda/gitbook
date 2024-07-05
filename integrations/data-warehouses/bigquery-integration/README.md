@@ -44,6 +44,14 @@ If you want to enable metadata push feature, add the following role:
 BigQuery Data Editor
 ```
 
+If you want to enable syncing policy tags, add the following roles:
+
+```
+Data Catalog Admin
+Data Catalog Tag Editor
+Tag User
+```
+
 b) If you're programatically creating the service account add the following roles:
 
 ```
@@ -57,6 +65,14 @@ If you want to enable metadata push feature, add the following role:
 
 ```
 roles/bigquery.tables.update
+```
+
+If you want to enable syncing policy tags, add the following roles:
+
+```
+roles/datacatalog.admin
+roles/datacatalog.tagEditor
+roles/datacatalog.tagUser
 ```
 
 5\. [Create a JSON key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys). The downloaded file will be used to create your warehouse in the next section.
