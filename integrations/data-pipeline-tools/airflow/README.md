@@ -101,7 +101,7 @@ Click on “Generate New API Key” button and then write down the generated key
 
 #### Create an Airflow Integration
 
-Navigate to the integrations page and create a new Airflow integration. Change the connection type tab to "API" and then click submit. Copy the integration ID from the URL of the page and write it down.
+Navigate to the integrations page and create a new Airflow integration. Change the connection type tab to "Push" and then click Submit. Copy the integration ID from the URL of the page and write it down.
 
 #### Install Secoda Airflow Provider
 
