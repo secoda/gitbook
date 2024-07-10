@@ -29,6 +29,7 @@
   * [Data Governance](best-practices/data-governance.md)
   * [Data Quality](best-practices/data-quality.md)
   * [Clean up your data](best-practices/clean-up-your-data.md)
+  * [Tool Migrations Using Secoda](best-practices/tool-migrations-using-secoda.md)
   * [Slack <> Questions workflow](best-practices/slack-less-than-greater-than-questions-workflow.md)
   * [Defining resources workflow](best-practices/verifying-resources-workflow.md)
   * [Streamline data access: Private and Public Teams workflow](best-practices/streamline-data-access-private-and-public-teams-workflow.md)
