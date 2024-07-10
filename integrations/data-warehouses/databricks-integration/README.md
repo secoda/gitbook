@@ -34,6 +34,7 @@ Enter in the following credentials:
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-31%20at%2011.32.53%20AM.png)
 
 * **Access Token:** The access token you generated in the first step
+* **\[Optional] Warehouse ID (Recommended) or Cluster ID:** This is the resource what SQL queries will run on.
 
 After entering in the information into Secoda, click "Test Connection". After the connection is successful your can Submit and run the initial extraction.
 
