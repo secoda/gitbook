@@ -14,11 +14,15 @@ description: An overview of the Airflow integration with Secoda
 
 There are three ways to connect Airflow to Secoda:
 
-1. **API** method: Secoda uses the Airflow Rest API to pull the metadata from your Airflow instance
+{% hint style="info" %}
+For Google Composer or MWAA, you must use the Plugin method to integrate Airflow with Secoda.
+{% endhint %}
+
+1. **Apache** (API) method: Secoda uses the Apache Airflow Rest API to pull the metadata from your Airflow instance
 2. **Astronomer** method: Secoda uses the Astronomer REST API to pull the metadata from your Astronomer instance.
 3. **Plugin** method: using Secoda's Airflow plugin, you can add callbacks to certain DAGs and tasks so DAG metadata and lineage gets pushed to Secoda.
 
-### 1. API
+### 1. Apache (API)
 
 There are three steps to get started using Airflow with Secoda:
 
