@@ -35,7 +35,7 @@ There are two steps to get started using Looker Studio with Secoda through Googl
 
 1. In Secoda, head to the **Integrations** page and click **New integration**
 2. Select **Looker** **Studio** and click on the **OAuth** tab
-3. Click the `Google OAuth 2.0` button and login using your Google account
+3. Click the `Connect with OAuth` button and login using your Google account
 4. Head to the **History** tab on the side bar and click **Run extraction**
 
 ## Getting Started with Session Cookies <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>

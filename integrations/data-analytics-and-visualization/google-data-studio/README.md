@@ -35,7 +35,7 @@ There are two steps to get started using Google Data Studio with Secoda through 
 
 1. In Secoda, head to the **Integrations** page and click **New integration**
 2. Select **Google Data Studio** and click on the **OAuth** tab
-3. Click the `Google OAuth 2.0` button and login using your Google account
+3. Click the `Connect with OAuth` button and login using your Google account
 4. Head to the **History** tab on the side bar and click **Run extraction**
 
 ## Getting Started with Session Cookies <a href="#h_21e27f5a15" id="h_21e27f5a15"></a>
