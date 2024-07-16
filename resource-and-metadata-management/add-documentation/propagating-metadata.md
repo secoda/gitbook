@@ -15,7 +15,7 @@ If you'd like to Automate this process even further, check out [automations-use-
 1. **Select the Resource:**
    * In the Catalog, identify the resource that contains the properties you wish to propagate. Check the box next to the resource to select it.
 2. **Initiate Propagation:**
-   * Click the three-dot Commands button.
+   * Click the three-dot Actions button.
    * Choose "Propagate" from the menu.
 3. **Choose Properties:**
    * Select the specific properties you would like to propagate from the source resource, like Owners and Tags.
