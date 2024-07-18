@@ -37,6 +37,8 @@ There are five items you will need in order to integrate your Jira project into 
 3. Project key
 4. Jira API token
 5. Account email
+6. Organization ID
+7. Organization Admin API key
 
 #### Project URL
 
@@ -64,18 +66,24 @@ Note: multiple API tokens can link to the same Jira project
 
 To find your account email, you can click on the icon in the top right corner of any Jira page, and enter it into the Account Email section of Secoda's Jira integration setup.
 
-Note: For Jira users to appear as assignees on Secoda, they **must** change email visibility to "Anyone" by going through Manage Account -> Profile and Visibility -> Contact
+Note: For Jira users to appear as assignees on Secoda, you can either get an organization admin key as seen below, or have users change email visibility to "Anyone" by going through Manage Account -> Profile and Visibility -> Contact
+
+#### Organization ID
+
+To find your organization ID, go to [this link](https://admin.atlassian.com/), and select the workspace that you want to import. Then, the page will redirect you to 'https://admin.atlassian.com/o/{your-org-id}/overview' and you can copy the ID from the link.
+
+#### Organization Admin API Key
+
+After you have logged into your organization on 'https://admin.atlassian.com/', head to the settings tab in the navbar. From here, click API keys on the left sidebar, and create a key with a label of your choosing. After creation, it will show you your organization ID as well as the API key.
 
 ### Connect Jira to Secoda <a href="#h_448e650cba" id="h_448e650cba"></a>
 
 1. Open your Secoda integrations page
 2. Click on "New Integration" on the top left
 3. Select Jira from the list of integrations
-4. Input your Jira credentials from **Prepare Your Jira Credentials** above. This includes the project URL, name, key, API token, and your Jira email
+4. Input your Jira credentials from **Prepare Your Jira Credentials** above. This includes the project URL, name, key, API token, your Jira email, organization ID, and organization admin API key
 5. Select the Teams that you wish to receive the Jira issues (appearing as Questions in Secoda)
-6. Click on "Test Connection" to save the integration.
+6. Click on "Test Connection" to save the integration
 7. Once integration is created, click on “Run Extraction” from history tab to run your first extraction
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/3ca7f135-38a1-4e05-8a7a-ac59d5888ed5.png)
 
 Once the Jira extraction finishes running, you will be able to view all issues from your Jira project in the desired team's Question page.
