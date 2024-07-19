@@ -154,6 +154,7 @@
     * [Airbyte](integrations/data-transformation-tools/airbyte/README.md)
       * [Airbyte Metadata Extracted](integrations/data-transformation-tools/airbyte/airbyte-metadata-extracted.md)
   * [Data Quality Tools](integrations/data-quality-tools/README.md)
+    * [Pager Duty](integrations/data-quality-tools/pager-duty.md)
     * [Cyera](integrations/data-quality-tools/cyera.md)
     * [Dataplex](integrations/data-quality-tools/dataplex/README.md)
       * [Dataplex Metadata Extracted](integrations/data-quality-tools/dataplex/dataplex-metadata-extracted.md)
