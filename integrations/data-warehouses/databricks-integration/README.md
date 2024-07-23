@@ -16,6 +16,8 @@ There are three steps to get started using Databricks with Secoda:
 2. Connect Databricks to Secoda
 3. Whitelist Secoda IP Address
 
+**Note:** You can run Databricks on Secoda using AWS or GCP.
+
 ### Create an access token
 
 In your Databricks console go to the **User Settings** and generate a new access token. Save the value to be used to connect Databricks to Secoda in the second step.
