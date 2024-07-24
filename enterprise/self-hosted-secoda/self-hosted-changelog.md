@@ -6,6 +6,17 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2024.3.1 (July 13, 2024)
+
+This is a patch version update with miscellaneous bug fixes.&#x20;
+
+* Show `Verified` column as part of the Resource List
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-24 at 12.25.05 PM.png" alt=""><figcaption></figcaption></figure>
+
+* Improve selection of databases for [SQL Server](../../integrations/databases/microsoft-sql-server/) integration
+* Show On Prem version in Workspace settings
+
 ### v2024.3.0 (July 2, 2024)
 
 **New Integrations and Integration Improvements**
