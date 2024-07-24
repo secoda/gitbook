@@ -92,12 +92,12 @@ DQS consists of four main dimensions, each reflecting essential aspects of data 
 * **Column Descriptions (10 Points)**: Points awarded based on the percentage of columns with descriptions.
 * **Schema Description (5 Points)**: Full points if the table schema has a description; no description scores 0.
 
-**3. Reliability (15 Points)**
+**3. Reliability (20 Points)**
 
-* **Freshness Set (5 Points)**: Full points awarded if a freshness monitor or SLA is defined; otherwise, it scores 0.
+* **Freshness Set (10 Points)**: Full points awarded if a freshness monitor or SLA is defined; otherwise, it scores 0.
 * **Freshness Achieved (10 Points)**: Full points if the data freshness is within the expected period; otherwise, it scores 0.
 
-**4. Accuracy (35 Points)**
+**4. Accuracy (30 Points)**
 
 The Accuracy score integrates results from dbt tests or Secoda Monitors, with future plans to include tools like Monte Carlo and Great Expectations.
 
@@ -107,10 +107,7 @@ The Accuracy score integrates results from dbt tests or Secoda Monitors, with fu
 * **Uniqueness (10 Points)**:&#x20;
   * 5 points awarded if a uniqueness test is configured for the table; otherwise, it scores 0.
   * Points awarded based on the percentage of passing uniqueness tests.
-* **Cardinality (10 Points)**:&#x20;
-  * 5 points awarded if a cardinality test is configured for the table; otherwise, it scores 0.
-  * Points awarded based on the percentage of passing cardinality tests.
-* **Other Tests (5 Points)**: Additional points based on the percentage of other tests passing.
+* **Other Tests (10 Points)**: Additional points based on the percentage of other tests passing.
 
 ## Feedback
 
