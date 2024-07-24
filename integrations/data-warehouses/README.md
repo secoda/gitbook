@@ -1,6 +1,6 @@
 # Data Warehouses
 
-MSecoda currently integrates with the following data warehouse tools:
+Secoda currently integrates with the following data warehouse tools:
 
 {% content-ref url="redshift-integration/" %}
 [redshift-integration](redshift-integration/)
