@@ -6,6 +6,13 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2024.3.2 (July 24, 2024)
+
+This is a patch version update with miscellaneous bug fixes.&#x20;
+
+* Limit the ability to create new workspaces to Admin's only
+* Improvements to column selection when creating Monitors
+
 ### v2024.3.1 (July 13, 2024)
 
 This is a patch version update with miscellaneous bug fixes.&#x20;
