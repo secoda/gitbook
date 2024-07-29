@@ -22,11 +22,11 @@ Adding documentation manually to one resource at a time can be useful for small 
    * **Select All:** Click the checkbox in the upper left corner to select all visible resources.
    * **Select Individually:** Check boxes one by one for specific resources.
    * **Select a Range:** Click the first checkbox, hold the Shift key, and click the last checkbox in the range you want to edit.
-4. **Execute Commands:**
-   * View all available [#commands-options](bulk-editing-resources.md#commands-options "mention") by clicking the three-dot Commands button at the bottom of the screen. Options like Set PII and Verify might be suggested based on the context.
+4. **Execute Actions:**
+   * View all available [#actions-options](bulk-editing-resources.md#actions-options "mention")by clicking the three-dot Actions button at the bottom of the screen. Options like Set PII and Verify might be suggested based on the context.
    * Choose the appropriate bulk update action from the menu and confirm your selection to apply changes.
 
-### Commands options
+### Actions options
 
 * [propagating-metadata.md](propagating-metadata.md "mention")
 * Set Collections
@@ -36,13 +36,14 @@ Adding documentation manually to one resource at a time can be useful for small 
 * Set PII
 * Verify
 * Apply AI description
-* Delete selected
+* Delete (from workspace)
+* Remove from collection
 
 ### **Video resource**
 
-To help you visualize the process of making bulk edits in Secoda, we've included a GIF that covers the essential steps: filtering resources, selecting them, choosing a command, and applying the changes.
+To help you visualize the process of making bulk edits in Secoda, we've included a GIF that covers the essential steps: filtering resources, selecting them, choosing an action, and applying the changes.
 
-As you can see below, we've filtered for PII resources, selected all, chose the Verify command, and applied the bulk changes.
+As you can see below, we've filtered for PII resources, selected all, chose the Verify action, and applied the bulk changes.
 
 <figure><img src="../../.gitbook/assets/Kapture 2024-04-30 at 16.04.21 (1).gif" alt=""><figcaption><p>Bulk Catalog Edits</p></figcaption></figure>
 
