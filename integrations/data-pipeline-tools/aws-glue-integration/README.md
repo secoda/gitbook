@@ -45,6 +45,7 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
             "Action": [
                 "glue:GetDataflowGraph",
                 "glue:GetJobs",
+                "glue:GetJobRuns",
                 "glue:GetTable",
                 "glue:GetDatabases",
                 "glue:SearchTables",
