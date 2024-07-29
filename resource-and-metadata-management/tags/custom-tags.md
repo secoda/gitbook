@@ -6,7 +6,7 @@ description: Creating and managing custom tags in Secoda to help categorize your
 
 ## How to Create Custom Tags
 
-1. Navigate to Workspace settings by clicking the `Settings` tab in the sidebar.
+1. Navigate to Workspace settings by clicking on the workspace name in the top left of the UI, and selecting "Settings."
 2. Under Workspace settings, select `Tags`.
 3. Click the `Create tag` button.
 4. Enter Name, an optional Description, and choose a colour to represent the tag.

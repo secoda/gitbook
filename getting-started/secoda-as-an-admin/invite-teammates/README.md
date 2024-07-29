@@ -17,12 +17,12 @@ description: >-
 ## **How to Invite Teammates**
 
 * **Initial Setup:** As a workplace Admin, you're prompted to invite colleagues when you first access Secoda.
-* **Inviting Users:** Navigate to the Settings by clicking the ⚙ icon, then select '**Members**' to access the invitation controls.
+* **Inviting Users:** Navigate to the [Settings](../../../readme/secoda-as-an-admin/settings.md), then select '**Members**' to access the invitation controls.
 * **Sending Invites:** Use the 'Invite members' button for bulk invitations or the Invite link for individual invites.
 * **Assigning Roles:** Manage user roles directly from the Members page, adjusting access as necessary. For more on what permissions certain roles have, check out [**Roles.**](../../../user-management/roles/)
 
 {% hint style="warning" %}
-Only users with a business domain name can be invited to the workspace. If using multiple business domains, You can add them to the [allowed domains list](../../../readme/secoda-as-an-admin/customize-the-workspace.md#allowed-domains) in the Security settings.&#x20;
+Only users with a business domain name can be invited to the workspace. If using multiple business domains, you can add them to the [allowed domains list](../../../readme/secoda-as-an-admin/customize-the-workspace.md#allowed-domains) in the Security settings.&#x20;
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-06-20 at 12.39.15 PM.png" alt=""><figcaption></figcaption></figure>

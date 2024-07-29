@@ -18,7 +18,7 @@ By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assi
 
 By default, Secoda AI is disabled. To activate it:
 
-1. Navigate to Settings > AI.
+1. Navigate to [Settings](../../readme/secoda-as-an-admin/settings.md) > AI.
 2. Toggle on the Secoda AI.
 3. Once enabled, the Secoda AI will appear in the left-hand menu of your workspace.
 
