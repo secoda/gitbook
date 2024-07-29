@@ -24,12 +24,12 @@ To utilize AI-generated descriptions, ensure the AI Assistant is activated in yo
 
 ### In the Catalog
 
-The AI can generate descriptions at both the column and table level. Follow these steps:
+The AI can generate descriptions for any resource. Follow these steps:
 
 **Individual Resource Descriptions**:
 
-1. Navigate to the Catalog and select a table or column.
-2. Click the purple "Add Description" button adjacent to the description field.
+1. Navigate to the Catalog and select a resource.
+2. Click "Add Description" button adjacent to the description field. Select the purple AI editor button to generate a description.
 3. You can :ballot\_box\_with\_check:keep the AI-generated description, request a new one by clicking :arrows\_clockwise: Try again, or  :x: reject it.
 4. See the description filled out automatically!
 
@@ -38,7 +38,7 @@ The AI can generate descriptions at both the column and table level. Follow thes
 **Bulk Description Edits**:
 
 1. Select multiple resources by ticking the boxes next to each Column Title, or select all checking the top left button.
-2. Choose "Apply AI Description" from the Command bar.
+2. Choose "Apply AI Description" from the Actions bar.
 3. A notification will appear in the corner of your screen showing the progress of the bulk metadata generation. Once completed, descriptions will automatically update in your Catalog.
 4. Once complete, the descriptions will automatically appear in your Catalog!
 
