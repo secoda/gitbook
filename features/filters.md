@@ -42,6 +42,14 @@ We support the following operators in Secoda, which will show up depending on th
 
 <figure><img src="../.gitbook/assets/Kapture 2024-05-20 at 17.28.39.gif" alt=""><figcaption><p>Advanced filtering in Search</p></figcaption></figure>
 
+### AI Filters
+
+With AI Filters, you can filter your data using plain language, making it easier to find exactly what you need. Simply select "AI Filters" and type out what you'd like to see. This limits the amount of clicking and searching, saving you valuable time.
+
+{% embed url="https://www.loom.com/share/c2e0283f1c374a3abf2dd3f300328079?sid=45c7acb2-2e06-4913-88db-ee4c417a1c7c" %}
+AI Filters
+{% endembed %}
+
 ### Create views
 
 Consider saving your filters with [views.md](views.md "mention") to streamline your workflow, particularly if you frequently revisit specific datasets. Saved views can be quickly accessed, reducing the time spent reapplying the same filters.
