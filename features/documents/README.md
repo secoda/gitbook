@@ -39,7 +39,7 @@ Add embeds, files, links, tables, and many more interesting documentation format
 
 For easier navigation within longer documents, you can create **anchor links** to specific sections.
 
-* Simply use `/h1` or `/h2` to designate headings, then click the "#" next to the heading to generate a link directly to that section.&#x20;
+Simply use `/h1` or `/h2` to designate headings, then click the "#" next to the heading to generate a link directly to that section.&#x20;
 
 ### Find and Replace
 
