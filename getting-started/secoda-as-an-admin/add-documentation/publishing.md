@@ -22,7 +22,7 @@ description: >-
 
 ## Publishing settings
 
-* **Toggle Auto-Publish:** This option, found under "Publishing" in the Settings menu, allows admins to decide whether new resources should automatically be "Published" or remain as "Draft" until manually changed.
+* **Toggle Auto-Publish:** This option, found under "Publishing" in the [Settings](../../../readme/secoda-as-an-admin/settings.md) menu, allows admins to decide whether new resources should automatically be "Published" or remain as "Draft" until manually changed.
 * **Publish All Resources:** A single click on the 'Publish all resources' button will change the status of all draft resources in the workspace to "Published", including dictionary terms and documents.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/deb074f5-0a14-4066-b6d8-7b817f10c396.png" alt=""><figcaption><p>Publishing Settings</p></figcaption></figure>
@@ -53,6 +53,6 @@ You can automate the process of setting the publishing status of your resources 
 
 ## Audit log
 
-Admins can access the workspace audit log through Secoda Settings. This log tracks all historical changes from the users in your workspace, whereas the [activity-log.md](../../../features/activity-log.md "mention") shows only changes to the specific resource that you're looking at.
+Admins can access the workspace audit log through Secoda [Settings](../../../readme/secoda-as-an-admin/settings.md). This log tracks all historical changes from the users in your workspace, whereas the [activity-log.md](../../../features/activity-log.md "mention") shows only changes to the specific resource that you're looking at.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/60cf2f4b-092b-42f2-9800-c46a2ef80be3.gif" alt=""><figcaption><p>Audit Log</p></figcaption></figure>
