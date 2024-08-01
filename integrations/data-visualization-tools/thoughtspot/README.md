@@ -13,7 +13,7 @@ There are four steps to connect ThoughtSpot with Secoda:
 1. Retrieve your ThoughtSpot host
 2. Retrieve your ThoughtSpot username and password
 3. Retrieve your ThoughtSpot Organization Id (Optional)
-4. Connect Looker to Secoda
+4. Connect ThoughtSpot to Secoda
 
 #### **Retrieve your host** <a href="#h_75eb18a905" id="h_75eb18a905"></a>
 
