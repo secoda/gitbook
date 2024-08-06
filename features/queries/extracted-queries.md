@@ -12,8 +12,8 @@ By clicking on the Queries tab from a resource in Secoda, you can access the res
 
 * [snowflake-integration](../../integrations/data-warehouses/snowflake-integration/ "mention")
 * [redshift-integration](../../integrations/data-warehouses/redshift-integration/ "mention")
-* [aws-glue-integration](../../integrations/data-pipeline-tools/aws-glue-integration/ "mention")
 * [bigquery-integration](../../integrations/data-warehouses/bigquery-integration/ "mention")
+* [databricks-integration](../../integrations/data-warehouses/databricks-integration/ "mention")
 
 ### How Secoda Extracts Queries
 
