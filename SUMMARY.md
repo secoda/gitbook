@@ -166,6 +166,8 @@
   * [Data Lakes](integrations/data-lakes/README.md)
     * [Google Cloud Storage](integrations/data-lakes/google-cloud-storage/README.md)
       * [GCS Metadata Extracted](integrations/data-lakes/google-cloud-storage/gcs-metadata-extracted.md)
+    * [AWS S3](integrations/data-lakes/aws-s3/README.md)
+      * [S3 Metadata Extracted](integrations/data-lakes/aws-s3/s3-metadata-extracted.md)
   * [Productivity Tools](integrations/productivity-tools/README.md)
     * [Confluence](integrations/productivity-tools/confluence/README.md)
       * [Confluence Metadata Extracted](integrations/productivity-tools/confluence/metadata-extracted.md)
