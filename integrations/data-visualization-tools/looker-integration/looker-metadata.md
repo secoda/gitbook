@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from Looker
 ---
 
-# Metadata Extracted
+# Looker Metadata Extracted
 
 ### What does Secoda extract from Looker?
 
@@ -26,11 +26,22 @@ NOTE: Preview of Looker resources is available in Secoda if permissions are gran
   * Name
   * Description
   * Tags
-* Fields - Dimensions and Measures&#x20;
+  * Fields (including Dimensions and Measures)
+    * Description
+    * Tags
+    * SQL
 * Views&#x20;
   * Name
   * Description
   * Tags
+  * Dimensions
+    * Description
+    * Tags
+    * SQL
+  * Measures
+    * Description
+    * Tags
+    * SQL
 * Lineage
   * Looker Dashboard -> Looker Look
   * Looker Explore <-> Looker Look
@@ -40,3 +51,4 @@ NOTE: Preview of Looker resources is available in Secoda if permissions are gran
 {% hint style="info" %}
 To determine lineage from Looker, we use the relationships and dependencies provided from the Looker APIs as well as our own Query parser to determine lineage to sources outside of Looker.
 {% endhint %}
+
