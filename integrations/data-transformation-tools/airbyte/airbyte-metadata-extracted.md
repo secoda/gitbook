@@ -6,7 +6,7 @@ description: List of all the metadata that Secoda pulls from Airbyte
 
 ## What does Secoda extract from Airbyte?
 
-* Connections
+* Connections:
   * Title
   * Status
 * Connections Lineage <-> External Tables
