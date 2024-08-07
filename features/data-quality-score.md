@@ -92,10 +92,10 @@ DQS consists of four main dimensions, each reflecting essential aspects of data 
 * **Column Descriptions (10 Points)**: Points awarded based on the percentage of columns with descriptions.
 * **Schema Description (5 Points)**: Full points if the table schema has a description; no description scores 0.
 
-**3. Reliability (20 Points)**
+**3. Freshness (20 Points)**
 
-* **Freshness Set (10 Points)**: Full points awarded if a freshness monitor or SLA is defined; otherwise, it scores 0.
-* **Freshness Achieved (10 Points)**: Full points if the data freshness is within the expected period; otherwise, it scores 0.
+* **Freshness Monitor Set (10 Points)**: Full points awarded if a freshness monitor is set; otherwise, it scores 0.
+* **Freshness Passing (10 Points)**: Full points if the data freshness is within the expected period; otherwise, it scores 0.
 
 **4. Accuracy (30 Points)**
 
