@@ -23,28 +23,44 @@ During the extraction process, Secoda retrieves the **last 24 hours of queries**
 
 ### How to Access Queries Run on a Resource
 
-1. Click into a resource from the Catalog or find it using Search.
-2. Navigate to the Queries tab.
+To view detailed information about queries run on a specific resource, follow these steps:
 
-For each query run on that resource, you will see the following additional information:
-
-* **SQL Query:** The full query run on the resource from the integration source.
-* **Average Runtime:** The average amount of time it takes to run the query.
-* **Total Runtime:** The total amount of run time in the past 24 hours.
-* **Total Runs:** The number of times it's been run in the past 24 hours.
-* **Resources:** The list of resources that the query references.
-
-3. Click on a query to see the Query Summary. The Summary allows you to:
-
-* View visual analytics on that particular query.
-* See a query history with date, user, run time, and cost details.
-* Filter the history to see data from the last 30, 7, or 1 day.
+1. **Locate the Resource**:
+   * Click into a resource from the Catalog, or find it using the Search function.
+2. **Navigate to the Queries Tab**:
+   * Once you are on the resource page, go to the "Queries" tab.
+3. **Review Query Information**:
+   * For each query run on the resource, you will see the following details:
+     * **SQL Query**: The full query executed on the resource from the integration source.
+     * **Average Runtime**: The average amount of time it takes to run the query.
+     * **Total Runtime**: The total amount of run time in the past 24 hours.
+     * **Total Runs**: The number of times the query has been run in the past 24 hours.
+     * **Users**: The user(s) who have executed this query.
+4. **Explore the Query Summary**:
+   * Click on a query to access the Query Summary, where you can:
+     * **Visual Analytics**: View visual analytics related to the specific query.
+     * **Query History**: See the query history, including date, user, runtime, and cost details.
+     * **Referenced Resources**: View the list of resources that the query references.
+     * **Filter History**: Filter the history to see data from the last 30 days, 7 days, or 1 day.
 
 <figure><img src="../../.gitbook/assets/Kapture 2024-08-06 at 15.46.35.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Queries can easily be copied, and run directly in Secoda through the [Query editor within a document](running-queries-in-secoda/).
 {% endhint %}
+
+### How to Access All Queries
+
+To view a comprehensive list of all extracted queries across all resources in Secoda, follow these steps:
+
+1. **Open the Command Palette**:
+   * Press `CMD + K` on your keyboard.
+2. **Search for "Queries"**:
+   * In the command palette, type "Queries" or scroll to select the "Queries" option.
+3. **Utilize the Aggregate Queries Page**:
+   * On the aggregate queries page, you can:
+     * **Search**: Use the search bar to find specific queries.
+     * **Analyze Runtime**: Look at the Average Runtime column to identify the slowest running queries. This can help you pinpoint areas for optimization.
 
 ### Video Resource
 
