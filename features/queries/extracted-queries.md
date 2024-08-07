@@ -48,7 +48,7 @@ Queries can easily be copied, and run directly in Secoda through the [Query edit
 
 ### Video Resource
 
-{% embed url="https://www.loom.com/share/ce222b598d4a43518fd5ac66aceae453?sid=0bdc8698-ebce-466b-bd3b-27edea9b2796" %}
+{% embed url="https://www.loom.com/share/5dc88735081446fa980a951ddcbfa2b0?sid=e82af52e-47e8-4faf-97cb-453d2f46a403" %}
 
 ## Creation queries
 
