@@ -60,3 +60,7 @@ Imagine onboarding both the Business Intelligence and Marketing departments into
   * For ease of discovery, the BI team could gather a folder of the key BI dashboards into a Collection in their Team for the Marketing Team's consumption.
 
 This setup ensures everyone has the appropriate level of access while maintaining tight control over important data.
+
+## Video Resource
+
+{% embed url="https://www.loom.com/share/87e16857e8394a81ad5935de0a551208" %}
