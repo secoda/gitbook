@@ -2,16 +2,22 @@
 description: This page will describe how to create a JSONL file for upload into Secoda.
 ---
 
-# Create your JSONL File
+# JSONL File Format
 
 Create a newline-delimited JSON (JSONL) file that contains a JSON object for each resource or lineage entry that is meant to be imported into Secoda.&#x20;
 
+### Resources and Lineage
+
 Secoda expects metadata files to follow a newline-delimited JSON (JSONL) format. Two types of files can be uploaded into Secoda into this way:&#x20;
 
-1. `resources.jsonl`: Contains [metadata](../../../../resource-and-metadata-management/#what-is-metadata) for various [resources](../../../../resource-and-metadata-management/#what-is-a-resource), such as tables, columns, dashboards, and charts.
-2. `lineage.jsonl`: Contains [lineage](../../../../features/data-lineage.md) information that describes relationships within Resources in the `resouces.jsonl` file (this is referred to as Internal Lineage) and relationships between Resources in the `resources.jsonl` file with Resources that already exist in Secoda (this is referred to as External Lineage).
+1. `resources.jsonl`: Contains [metadata](../../../resource-and-metadata-management/#what-is-metadata) for various [resources](../../../resource-and-metadata-management/#what-is-a-resource), such as tables, columns, dashboards, and charts.
+2. `lineage.jsonl`: Contains [lineage](../../../features/data-lineage.md) information that describes relationships within Resources in the `resouces.jsonl` file (this is referred to as Internal Lineage) and relationships between Resources in the `resources.jsonl` file with Resources that already exist in Secoda (this is referred to as External Lineage).
 
-Example for `resources.jsonl`:
+{% hint style="info" %}
+Learn more about the available fields for the JSON objects [here](../secoda-fields-explained.md).&#x20;
+{% endhint %}
+
+#### Example for `resources.jsonl`:
 
 ```
 {"entity_type": "table", "databuilder_id": "secoda.public.order", "title": "order", "description": "Orders from KFC", "schema": "public", "database": "secoda"}
@@ -20,7 +26,7 @@ Example for `resources.jsonl`:
 {"entity_type": "chart", "databuilder_id": "dashboard.revenue_2023_forecast.yoy_growth", "parent_databuilder_id": "dashboard.revenue_2023_forecast", "title": "YoY Growth"}
 ```
 
-Example for `lineage.jsonl`:
+#### Example for `lineage.jsonl`:
 
 Example 1: Internal lineage between two internal resources.&#x20;
 
@@ -45,9 +51,9 @@ Example 4: Lineage involving a SQL query that references multiple tables. Can be
 { "from_identifier": { "type": "tables_from_query", "sql": "SELECT * FROM public.users INNER JOIN public.orders ON users.id = orders.user_id" }, "to_identifier": { "type": "internal_resource", "databuilder_id": "internal.dashboard.654" } }
 ```
 
-These JSON objects have several required and optional fields. See an outline of the Secoda fields [here](../../secoda-fields-explained.md).&#x20;
+These JSON objects have several required and optional fields. See an outline of the Secoda fields [here](../secoda-fields-explained.md).&#x20;
 
-## Generating Metadata Files (Example)
+### Example - Generating Metadata Files
 
 There are several ways to generate a JSONL file. If you plan on using Python, we recommending defining the Secoda resources as Pydantic models. The code below shows how Secoda has defined the Resource and Lineage models using Pydantic. All the fields as part of the models are explained in the documentation above.
 

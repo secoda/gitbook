@@ -4,29 +4,21 @@ description: >-
   to your unique data environment.
 ---
 
-# Custom Integrations and Marketplace
+# Custom Integrations
 
-Custom integrations bridge the gaps in your data ecosystem. There are several ways to build a custom integration in Secoda - Secoda APIs, CSV and JSONL Upload, and the Secoda Development Kit. All three options provide users with flexible, and effective ways to bring the whole data stack into Secoda.
+Custom integrations help bridge the gaps in your data ecosystem. In Secoda, there are two types of custom integrations: **File Uploads** and **Marketplace**. Both options offer flexible and effective ways to bring your entire data stack into Secoda.
 
-### Secoda APIs&#x20;
+### File Upload
 
-Create a new integration, and push resources using the Secoda API. This option is the most labour intensive and technical, but allows users to be very detailed in how they create their integration and how it's built into their pipelines.&#x20;
-
-{% content-ref url="../../secoda-api.md" %}
-[secoda-api.md](../../secoda-api.md)
-{% endcontent-ref %}
-
-### CSV or JSONL Upload
-
-Great for less technical users, and for resources that don't require frequent extractions, this option allows users to create a CSV or JSONL file and upload it directly in Secoda. &#x20;
+Ideal for less technical users and resources that don’t require frequent extractions, this option allows users to create and upload a CSV or JSONL file directly into Secoda.
 
 {% content-ref url="custom-integration/" %}
 [custom-integration](custom-integration/)
 {% endcontent-ref %}
 
-### Secoda Development Kit
+### Marketplace (Secoda SDK)
 
-Build an integration from scratch using the Secoda Development Kit. Users can upload their code to Secoda to have the integration run on a schedule automatically. Folks who build a custom integration using the Secoda SDK are encouraged to consider publishing the integration to the Secoda marketplace!
+Marketplace integrations are built using the Secoda Software Development Kit (SDK). Users can upload their code to Secoda, allowing the integration to run automatically on a set schedule. Those who build a Marketplace integration with the Secoda SDK are encouraged to publish it for other Secoda users to benefit from.
 
 {% content-ref url="secoda-sdk-custom-integration/" %}
 [secoda-sdk-custom-integration](secoda-sdk-custom-integration/)
@@ -35,4 +27,3 @@ Build an integration from scratch using the Secoda Development Kit. Users can up
 {% hint style="info" %}
 Not sure which option is the best for your team? Feel free to get in touch with the [Secoda support team](mailto:support@secoda.co)!
 {% endhint %}
-

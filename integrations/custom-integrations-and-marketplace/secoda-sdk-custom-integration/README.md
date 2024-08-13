@@ -1,14 +1,16 @@
-# Secoda SDK Custom Integration
+---
+description: Learn how to build a Marketplace integration using the Secoda SDK.
+---
+
+# Marketplace
+
+To create a Marketplace integration, you'll need to use the Secoda Software Development Kit (SDK). The SDK is a Python-based toolkit that allows for the creation of custom Marketplace integrations. These integrations can be used to add resources and lineage to Secoda.
 
 {% hint style="info" %}
-Check out our webinar on the SecodaDK [here](https://www.youtube.com/watch?v=1oiWOxXs3B4)!
+Check out our webinar on the Secoda SDK [here](https://www.youtube.com/watch?v=1oiWOxXs3B4)!
 {% endhint %}
 
-## Overview
-
-The Secoda SDK is a Python-based toolkit that allows for the creation of custom integrations. These integrations can be used to add resources and lineage to Secoda.
-
-To start building with the Secoda SDK, there are a few steps to follow. First, you need to write your code. You can use the documentation below or scroll down for a [step by step example](./#example-step-by-step-integration-development)!&#x20;
+To start building with the Secoda SDK, there are a few steps to follow. First, you need to write your Python code. You can use the documentation below or scroll down for a [step by step example](./#example-step-by-step-integration-development)!&#x20;
 
 {% content-ref url="sdk-documentation.md" %}
 [sdk-documentation.md](sdk-documentation.md)
@@ -20,7 +22,7 @@ Once the code is written, you can upload and connect your integration.&#x20;
 [upload-and-connect-your-custom-integration.md](upload-and-connect-your-custom-integration.md)
 {% endcontent-ref %}
 
-And share it in the Secoda Marketplace!
+And share it!
 
 {% content-ref url="publishing-to-marketplace.md" %}
 [publishing-to-marketplace.md](publishing-to-marketplace.md)
