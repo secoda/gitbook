@@ -1,75 +1,72 @@
 ---
-description: Set up the integration to your teams preferred settings.
+description: Customize and manage your integration after setup.
 ---
 
 # Integration Settings
 
-### **Basic**
-
-In the basic settings, you can pick a name to help you identify this integration in Secoda. This can be especially useful when using multiple instances of the same integration (e.g multiple Tableau instances).&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 12.02.47 PM.png" alt=""><figcaption></figcaption></figure>
-
-### **Connection**&#x20;
-
-The connection tab is where you will add your credentials (varies depending on the specific integration requirements). This page also includes the documentation to follow along when connecting an integration for the first time.&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 12.05.02 PM.png" alt=""><figcaption></figcaption></figure>
-
-### **Sync History**&#x20;
-
-The sync history tab is where you can find a list of all the syncs completed for the integration. This is also where you can trigger and terminate a sync manually.
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 12.07.49 PM (1).png" alt=""><figcaption><p>Running a manual sync</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 4.25.48 PM.png" alt=""><figcaption><p>Terminating a running sync</p></figcaption></figure>
-
-Clicking into any specific sync will open up the sync stages window where you can get a more detailed view of what was extracted. \
-\
-For some integrations, there will be an option for both pulling and [pushing metadata](../features/push-metadata-to-source.md).&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 4.29.12 PM.png" alt=""><figcaption></figcaption></figure>
-
-### **Schedule**
-
-The schedule settings allow you to set a schedule that extractions will follow (e.g. daily, every 7 days). Please enter a cron expression to schedule the extractions. For example, 0 0 \* \* \* will schedule the extractions to run every day at midnight UTC.&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 12.15.41 PM.png" alt=""><figcaption></figcaption></figure>
-
-### **Schema**&#x20;
-
-The schema settings allow you to select specific schemas/groups that you would like metadata extracted from the source. The resources associated with the selected schemas/groups will be imported into the workspace and be visible in the catalog view.&#x20;
-
-### **Popularity**
-
-The [popularity](../features/popularity.md) of a data resource in Secoda is calculated based on the number of times it has been queried or viewed in the last 24 hours, pulled directly from the Source.
-
-This section allows you to uncheck service accounts to prevent their queries from counting towards resource popularity.&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 4.30.41 PM.png" alt=""><figcaption></figcaption></figure>
-
-### **Permissions**
-
-The Permissions section allows you to control who was access to see [Previews](../features/data-previews.md) and which Editors can run [Queries](../features/queries/running-queries-in-secoda/) for the integration.&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 4.34.30 PM.png" alt=""><figcaption></figcaption></figure>
-
-### **Preferences**&#x20;
-
-The preferences section allows you to configure whether you want to always use the integration source for resource descriptions or the definition added in Secoda. If you choose to enable the descriptions from source, changes made to the descriptions in Secoda will be overwritten to match the source description. \
-\
-
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-09 at 4.36.26 PM.png" alt=""><figcaption></figcaption></figure>
-
-You can also disable automatically removing resources that are not in subsequent extractions for this integration. Normally, when a resource is not in a subsequent extraction, it is removed from the workspace. With this setting enabled, these resources will still be accessible in the workspace.&#x20;
-
-## Removing an Integration&#x20;
-
-To remove an integration, simply select the integration and delete it from the integrations page.&#x20;
-
-{% embed url="https://www.loom.com/share/5046d7ee0e6f4b479d219c9daeefe7f6?sid=8e402714-3d3e-48db-845f-2945423d55cd" %}
+On the **Integrations** page, you can easily view and search through all your integrations. You can see details about your integrations including the last and upcoming runs, as well as the status of the most recent run. Additionally, you can use the command palette to run or delete multiple integrations at once.
 
 {% hint style="warning" %}
 Deleting an integration from the workspace will remove all associated resources. Adding the integration back will not preserve the changes (e.g. metadata updates) that were made when originally connected and rather will act as a new integration.&#x20;
 {% endhint %}
+
+If you click into an integration, the following options become available.&#x20;
+
+### Enable Integration
+
+After selecting an integration, you'll find the **Enabled** toggle in the top right corner. By default, all integrations are enabled. If toggled off, the integration is paused, meaning it will not run automatically based on the schedule set.
+
+### Run Sync
+
+In the top right corner, you'll also see the **Run Sync** button. This action triggers a manual sync. Clicking this button allows you to choose whether the sync should **Pull** or **Push** metadata.&#x20;
+
+{% hint style="info" %}
+Not all integrations will support both Pull and Push. Learn more about what integrations are supported for Push Metadata [here](../features/push-metadata-to-source.md).&#x20;
+{% endhint %}
+
+### Syncs
+
+This is the first page you’ll see when you navigate to an integration. It provides a detailed history of past syncs, allowing you to review each sync's stages, the number of resources pulled, and any errors that may have occurred.
+
+### Schedule
+
+To automate your syncs, use this page to set the run frequency with a Cron Expression. You can learn more about Cron Expressions [here](https://crontab.guru/). If you don’t specify a schedule, the default is `0 0 * * *`, which runs the sync daily at midnight UTC.
+
+### Groups or Schemas
+
+If applicable to the integration, use this page to select which Groups or Schemas you want to sync. Click the **Refresh** button to check for any new Groups or Schemas available for import. By default, all Groups and Schemas will be selected and included in the sync.
+
+If you'd like to change this default behaviour, navigate to the [Resource Management](integration-settings.md#resource-management) section in the [Preferences.](integration-settings.md#preferences)&#x20;
+
+### Preferences
+
+#### Preview Permissions
+
+This section allows you to select which Roles or User Groups should have permission to [Preview](../features/data-previews.md) the resource, if the integration supports Preview. By default, all Roles are given permission to preview.&#x20;
+
+#### Query Permissions
+
+This section lets you choose which Editors in your workspace have permission to query the resource, if the integration supports querying. By default, only Admins can query the resource. However, querying permissions for Viewers are not currently supported.
+
+#### Popularity
+
+This section allows you to deselect any accounts that you do not want to contribute to resource Popularity. The Popularity of a data resource in Secoda is determined by the number of times it has been queried or viewed in the last 24 hours, with data pulled directly from the integration. Learn more about Popularity [here](../features/popularity.md).
+
+#### Metadata Management - This functionality is coming soon :eyes:
+
+For any integration that syncs Tags, Owners, or Descriptions, this section allows you to choose where these properties are maintained. If they are maintained in Secoda, the fields will never be overwritten by a sync. If they are maintained in the integration, the fields will not be editable in Secoda.
+
+{% hint style="info" %}
+Regardless of the settings chosen, when a resource is synced with Secoda for the first time, all available metadata will be imported.
+{% endhint %}
+
+#### Resource Management
+
+This section offers several options. If a toggle is specific to a particular integration, please refer to the integration page in the Secoda documentation for more details about that toggle. The options listed below are shared across all integrations:
+
+* **Disable Automatic Staling:** Prevents the automatic removal of resources that are not present in subsequent syncs for this integration. By default, if a resource is not extracted in a subsequent sync (ex. it is removed from the source), it is removed from the workspace. With this setting enabled, those resources will remain accessible in the workspace.
+* **Disable Extraction of Resources from New Schemas:** Prevents the automatic extraction of resources from newly added groups or schemas. By default, if a new schema or group is added in the source, the subsequent sync will extract all resources from that schema or group. Disabling this option means you'll need to manually select the new schema or group in the [Groups or Schema](integration-settings.md#groups-or-schemas) page to extract those resources.
+
+#### Filtering
+
+In this section, you can use the filters to exclude resources from extraction based on their title. Excluding resources based on other properties is not currently supported.
