@@ -1,4 +1,8 @@
-# SDK Documentation
+---
+description: Documentation for the Secoda Software Development Kit.
+---
+
+# Secoda SDK
 
 The Secoda SDK is a powerful tool for developers to create custom integrations with the Secoda platform. It provides a framework for connecting and extracting data from various sources into Secoda, allowing for a rich and interconnected data ecosystem.
 

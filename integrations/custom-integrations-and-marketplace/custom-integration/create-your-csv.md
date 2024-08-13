@@ -1,7 +1,7 @@
-# Create your CSV
+# CSV File Format
 
 {% hint style="info" %}
-CSV Uploads **only work** for custom integrations that can map their resources to Tables and Columns.&#x20;
+CSV File Uploads **only work** for custom integrations that can map their resources to Tables and Columns. Lineage is not support for CSV File Upload at this time.
 {% endhint %}
 
 Generate a CSV of your data that contains a list of all of your columns in the database in the following format.
@@ -75,4 +75,4 @@ WHERE c.TABLE_SCHEMA not in ({','.join(SnowflakeConnectionConstants.DEFAULT_IGNO
 
 Feel free to reach out to us for more guidance on how to generate CSVs.&#x20;
 
-At this point, you cannot add custom properties or tags using the CSV upload. However, you can add custom properties and tags after the initial extraction has been done using the [Import/Export ](../../../../resource-and-metadata-management/import-and-export-data.md)feature.&#x20;
+At this point, you cannot add custom properties or tags using the CSV upload. However, you can add custom properties and tags after the initial extraction has been done using the [Import/Export ](../../../resource-and-metadata-management/import-and-export-data.md)feature.&#x20;
