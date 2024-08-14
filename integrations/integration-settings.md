@@ -69,8 +69,6 @@ This section offers several options. If a toggle is specific to a particular int
 
 #### Filtering
 
-In this section, you can use the filters to exclude resources from extraction based on their title. Excluding resources based on other properties is not currently supported.
-
-### Video Resource
+In this section, you can use the filters to exclude resources (schemas, tables, columns) from extraction based on their title.  Excluding resources based on other properties is not currently supported.
 
 {% embed url="https://www.loom.com/share/4d7f24d958464f95ae493d165da7bb0a?sid=5708cbf8-0635-46a7-9fc9-8da59f80e857" %}
