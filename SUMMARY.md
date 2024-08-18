@@ -274,6 +274,7 @@
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
   * [Terms of Use](policies/terms-of-use.md)
+  * [Master Subscription Agreement](policies/master-subscription-agreement.md)
   * [Privacy Policy](policies/privacy-policy.md)
   * [Security Policy](policies/security-policy.md)
   * [Accessibility Statement](policies/accessibility-statement.md)
