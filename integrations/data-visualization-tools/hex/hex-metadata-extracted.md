@@ -14,3 +14,5 @@ description: List of all the metadata that Secoda pulls from Hex
   * Views for the last 30 days
   * Date the project was created
   * Date the project was last published
+* Lineage
+  * End-to-end lineage from Projects to Source tables, i.e Snowflake tables
