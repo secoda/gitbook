@@ -12,7 +12,6 @@ dbt is a secondary integration that adds additional metadata on to your data war
 
 * Models Metadata:&#x20;
   * Description&#x20;
-  * Owner&#x20;
   * URL&#x20;
   * Compiled SQL&#x20;
   * Updated Time
