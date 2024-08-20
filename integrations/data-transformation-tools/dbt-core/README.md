@@ -152,15 +152,19 @@ The API provides an endpoint to upload your manifest.json and run\_results.json 
 
 1. Create a blank dbt core integration by going to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and selecting the "dbt Core" integration and then click "Test Connection". And run the initial extraction. This extraction will fail, but that's intended.
 2. Return to https://app.secoda.co/integrations and click on the dbt Core integration that was just created. Save the ID which is contained in the URL.
-3. Use the endpoints below to upload your files. This will trigger an extraction to run on the integration you created in step #1.
+3. Use the endpoints below to upload your files.&#x20;
 
 Endpoints  ->&#x20;
+
+### Option 3A: Two Separate Calls (One for Manifest, One for Run Results)
 
 Manifest.json: `https://api.secoda.co/integration/dbt/manifest/`
 
 Run\_results.json: `https://api.secoda.co/integration/dbt/run_result/`
 
 Method -> `POST`
+
+NOTE -> This will _automatically_ trigger an extraction to run on the integration you created
 
 Sample Request for Manifest file (Python) ->&#x20;
 
@@ -195,3 +199,81 @@ response = requests.post(
 )
 print(response.json())
 ```
+
+### Option 3B: One Call to Upload both Manifest and Run Results
+
+#### 1. Get your dbt Core Integration ID
+
+* Get the integration ID from the integration page URL
+  * For example, if the url is `https://app.secoda.co/integrations/f7d68db5-9dbc-4880-b6cd-ec363c1f7d6b/syncs`, the integration id would be `f7d68db5-9dbc-4880-b6cd-ec363c1f7d6b`
+* Or get the integration ID programmatically via a `GET` request to the `/integration/integrations/` endpoint and parse the list for your dbt Core integration
+
+#### 2. Upload manifest.json and run\_results.json
+
+Endpoint (inserting the integration\_id from Step 1): `https://api.secoda.co/integration/dbt/{integration_id}/upload_artifacts/`
+
+Method -> `POST`
+
+Expected Response -> `200`
+
+Sample Request for uploading your files (Python, note the TODOs) ->&#x20;
+
+````python
+```python
+import requests
+
+# TODO: replace YOUR_INTEGRATION_ID with your integration_id
+integration_id = "YOUR_INTEGRATION_ID"
+
+url = f"https://api.secoda.co/integration/dbt/{integration_id}/upload_artifacts/"
+
+# TODO: replace YOUR_PATH with your path to run_results and manifest
+files={
+  "run_results": open("YOUR_PATH/run_results.json", "rb"), 
+  "manifest": open("YOUR_PATH/manifest.json", "rb")
+}
+
+# TODO: replace YOUR_API_KEY with your Secoda API key
+headers = {
+  "Authorization": "Bearer YOUR_API_KEY"
+}
+
+response = requests.request("POST", url, headers=headers, files=files)
+
+print(response)
+```
+````
+
+#### 3. Trigger an Integration Sync
+
+Endpoint  (inserting the integration\_id from Step 1): `https://api.secoda.co/integration/dbt/{integration_id}/trigger/`
+
+Method -> `POST`
+
+Expected Response -> `200`
+
+Sample Request for triggering a sync (Python, note the TODOs) ->&#x20;
+
+````python
+```python
+import requests
+
+# TODO: replace YOUR_INTEGRATION_ID with your integration_id
+integration_id = "YOUR_INTEGRATION_ID"
+
+url = f"https://api.secoda.co/integration/dbt/{integration_id}/trigger/"
+
+# TODO: replace YOUR_API_KEY with your Secoda API key
+headers = {
+  "Authorization": "Bearer YOUR_API_KEY"
+}
+
+response = requests.request("POST", url, headers=headers)
+
+print(response)
+```
+````
+
+#### 4. Now that a sync has been triggered, you can now monitor your sync in the UI!
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-08-20 at 1.46.44 PM.png" alt=""><figcaption></figcaption></figure>
