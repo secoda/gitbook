@@ -83,7 +83,7 @@ To list resources in your workspace with fine-grained control over filtering and
 
 To generate the JSON object, you can use our API filter generator in your Settings page.&#x20;
 
-{% embed url="https://www.loom.com/share/0d051cbf9b7a45b0b8582c5f779ac448" %}
+{% embed url="https://www.loom.com/share/1c0b5c60998e434b9ad82b589efc933a" %}
 
 If you'd like to build your filters from scratch, refer to the [JSON documentation](https://api.secoda.co/api/schema/redoc/#tag/Resource/paths/\~1resource\~1catalog/get) for detailed information on the JSON structure, and the file linked below for how to utilize this request. The linked file is a sample Jupyter Notebook that demonstrates how to retrieve all resources that are Tables, Views, Dashboards, or Workbooks, which contain "customers" in the title. The results are sorted in descending order based on the last update time of the resource.
 
