@@ -52,7 +52,7 @@ This section lets you choose which Editors in your workspace have permission to 
 
 This section allows you to deselect any accounts that you do not want to contribute to resource Popularity. The Popularity of a data resource in Secoda is determined by the number of times it has been queried or viewed in the last 24 hours, with data pulled directly from the integration. Learn more about Popularity [here](../features/popularity.md).
 
-#### Metadata Management - This functionality is coming soon :eyes:
+#### Property Management
 
 For any integration that syncs Tags, Owners, or Descriptions, this section allows you to choose where these properties are maintained. If they are maintained in Secoda, the fields will never be overwritten by a sync. If they are maintained in the integration, the fields will not be editable in Secoda.
 

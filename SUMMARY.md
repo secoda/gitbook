@@ -41,7 +41,7 @@
     * [Bulk Editing](resource-and-metadata-management/add-documentation/bulk-editing-resources.md)
     * [Propagation](resource-and-metadata-management/add-documentation/propagating-metadata.md)
     * [Templates](resource-and-metadata-management/add-documentation/templates.md)
-  * [Resource Sidebar](resource-and-metadata-management/resource-sidebar.md)
+  * [Resource Sidesheet](resource-and-metadata-management/resource-sidebar.md)
   * [Assigning Owners](resource-and-metadata-management/assigning-owners.md)
   * [Custom Properties](resource-and-metadata-management/adding-custom-properties.md)
   * [Tags](resource-and-metadata-management/tags/README.md)
