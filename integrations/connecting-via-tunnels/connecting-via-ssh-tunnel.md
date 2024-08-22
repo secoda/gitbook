@@ -10,28 +10,28 @@ Tunnels require you to run an SSH server process ([SSHD](https://www.ssh.com/aca
 
 ### Set Up
 
-There are three main steps to set up a tunnel:&#x20;
+There are three main steps to set up a tunnel:
 
 {% hint style="info" %}
-Set up can vary depending on the Cloud provider used. We provide some general tips and tricks for AWS and Azure below.&#x20;
+Set up can vary depending on the Cloud provider used. We provide some general tips and tricks for AWS and Azure below.
 {% endhint %}
 
-1. Configure a host in your environment that is accessible from the public internet. Make sure the [Secoda IP address](../../faq.md#what-are-the-ip-addresses-for-secoda) is whitelisted.&#x20;
-2. [Create a Tunnel in Secoda](https://app.secoda.co/tunnles/new) and add in the configuration details from the host (`SSH Username`, `SSH Hostname`, `Port`). Once you submit these details, a Public Key will be shown.&#x20;
-3. Add the Public Key to the `authorized_keys` file in your host. &#x20;
+1. Configure a host in your environment that is accessible from the public internet. Make sure the [Secoda IP address](../../faq.md#what-are-the-ip-addresses-for-secoda) is whitelisted.
+2. [Create a Tunnel in Secoda](https://app.secoda.co/tunnels/new) and add in the configuration details from the host (`SSH Username`, `SSH Hostname`, `Port`). Once you submit these details, a Public Key will be shown.
+3. Add the Public Key to the `authorized_keys` file in your host.
 
 #### AWS
 
 * Create an EC2 instance from the AWS Management Console in a public subnet in the same VPC as the resource that you'd like to integrate with Secoda.
 * Add the SSH key from Secoda.
-* Create a Security Group for this instance, and add an inbound rule for the Secoda IPs.&#x20;
+* Create a Security Group for this instance, and add an inbound rule for the Secoda IPs.
 * Make sure the EC2 instance has access to the resource that you'd like to integrate with Secoda. This might mean adding an inbound rule for the IP of the EC2 instance to the database or source that you're integrating with Secoda.
 
 #### Azure Cloud
 
-* Create a Virtual Network from the Azure console, that has access to the database or datasource that you'd like to integrate with Secoda. Make sure the Azure firewall is enabled for this network.&#x20;
+* Create a Virtual Network from the Azure console, that has access to the database or datasource that you'd like to integrate with Secoda. Make sure the Azure firewall is enabled for this network.
 * Create a Virtual Machine. This machine is acting as the jump server. This VM does not need an public access, but must have access to the database or datastore that is meant to integrate with Secoda.
-* Go to your firewall rules, and add a NAT rule.&#x20;
+* Go to your firewall rules, and add a NAT rule.
   * Protocol should be set to TCP
   * Source IP address should be set to the [Secoda IP Address](../../faq.md#what-are-the-ip-addresses-for-secoda)
   * Destination IP address should be the IP address of your Firewall
@@ -51,7 +51,7 @@ $ chmod 0600 authorized_keys // Set restrictive permissions on this folder
 
 ### Connecting your Integration using a Tunnel
 
-Once your tunnel has been made, navigate to the source that you're integrating with. On the connect page, add the credentials for the datasource.&#x20;
+Once your tunnel has been made, navigate to the source that you're integrating with. On the connect page, add the credentials for the datasource.
 
 At the bottom of the connect page, you'll see the option to add a tunnel. Click on the arrow to see a drop down menu with your recently created Tunnel. Select this tunnel, and click Test Connection to complete your integration setup!
 
