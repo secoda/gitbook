@@ -17,7 +17,7 @@ To see these in action, check out our document on example use cases [here](autom
 Automations allow users to **update** a wide range of resource metadata, including:
 
 * Tags (Custom, Verification, & Governance)
-* Owners
+* Owners (individual Users and User Groups)
 * Documentation
 * Descriptions
 * Subscribers

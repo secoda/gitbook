@@ -98,6 +98,8 @@ The Chrome extension supports resources in the following tools:
 * [Sigma](../integrations/data-visualization-tools/sigma-integration/): Workbooks, Elements, Pages
 * [Mode](../integrations/data-visualization-tools/mode/): Reports, Charts
 * [dbt Cloud](../integrations/data-transformation-tools/dbt/#chrome-extension-with-dbt-cloud): Jobs, Models
+* [Lightdash](../integrations/data-visualization-tools/lightdash/): Dashboards
+* [Hex](../integrations/data-visualization-tools/hex/): Projects
 
 ## Video resource
 
