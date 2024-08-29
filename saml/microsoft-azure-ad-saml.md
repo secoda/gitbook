@@ -4,41 +4,35 @@ description: Set up Microsoft Azure SAML in three easy steps.
 
 # Microsoft Azure AD SAML
 
-### Step 1 - Redirect URI
+### Step 1 - Create the application
 
-Go to [portal.azure.com](http://portal.azure.com), create a new app registration (single tenant), and add the relevant redirect URI (include the trailing slash). Make sure you replace **company+com** with your email domain.
+Go to [portal.azure.com](http://portal.azure.com), create a new **Enterprise application**. Click **"Integrate any other application you don't find in the gallery (Non-gallery)"**
 
-`https://<app|eu|apac>.secoda.co/api/v1/auth/saml/company+com/acs/`
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-29 at 1.57.06 PM.png" alt=""><figcaption></figcaption></figure>
 
-For example, if your Secoda url is `eu.secoda.co` email is `brittany@abc.company.co` then the redirect URI should be:
 
-`https://eu.secoda.co/api/v1/auth/saml/abc+company+co/acs/`
 
-![](https://imagedelivery.net/28-eDrK8lEif6\_ED0iMQeg/01a2728a-9dd9-4a0f-eb72-5999686fcb00/public)
+Click "Single sign-on" followed by SAML. Edit the **"Basic SAML Configuration".**
 
-### Step 2 - Application ID URI
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-29 at 1.59.11 PM.png" alt=""><figcaption></figcaption></figure>
 
-Go to “App Registrations”, click on the app you just created and then click the “Expose an API” tab, and enter a value in the “Application ID URI” field. **This should be to the email domain you own.** This is only for verification purposes, this url is never called or redirected to.
 
-`https://<domain>/secoda`
 
-Continuing with the example above, the Application ID URI field should be.
+Fill in the following **3** values and hit save.
 
-`https://abc.company.co/secoda`
+<table><thead><tr><th width="141">Property</th><th width="246">Value</th><th>Example</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Identifier (Entity ID)</strong></td><td><code>https://&#x3C;YOUR_COMPANY_DOMAIN>/secoda</code></td><td><code>https://company.com/secoda</code></td><td>No trailing slash.</td></tr><tr><td><strong>Reply URL (ACS URL)</strong></td><td><code>https://&#x3C;APP|EU|APAC>.secoda.co/api/v1/auth/saml/&#x3C;YOUR_EMAIL_DOMAIN_WITH_PLUS>/acs/</code></td><td><code>https://eu.secoda.co/api/v1/auth/saml/company+com/acs/</code></td><td>Include a trailing slash.</td></tr><tr><td><strong>Sign on URL</strong> </td><td><code>https://&#x3C;APP|EU|APAC>.secoda.co/api/v1/auth/saml/&#x3C;YOUR_EMAIL_DOMAIN_WITH_PLUS>/acs/</code></td><td><code>https://eu.secoda.co/api/v1/auth/saml/company+com/acs/</code></td><td>Include a trailing slash.</td></tr></tbody></table>
 
-![](https://imagedelivery.net/28-eDrK8lEif6\_ED0iMQeg/d20fd411-d75e-4c17-550e-9976874a0c00/public)
 
-### Step 3 - XML Link
 
-Click “Endpoints” and copy the “Federation metadata document”.
+Then copy the **App Federation Metadata Url**.
 
-<figure><img src="https://imagedelivery.net/28-eDrK8lEif6_ED0iMQeg/344f8cf5-26b7-42d2-2665-bd2a61857e00/public" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-29 at 2.07.49 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Step 4 - Request in Secoda app
+### Step 2 - Request the application in Secoda
 
 1. Navigate to the Secoda app > Settings > Security > SAML
-2. Choose Microsoft as the SAML Provider (IDP)
-3. Paste the link from Step 3 under "Metadata URL"
+2. Choose **Microsoft** as the SAML Provider (IDP)
+3. Paste the **App Federation Metadata Url** under "Metadata URL".
 4. Click Request which will alert the Secoda team of your request.
 
 Once Secoda has completed their steps, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.
