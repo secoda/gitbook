@@ -21,7 +21,7 @@ First, create a Secoda a VPC Peering request following the instructions below&#x
     * **Region**: Choose **Another region**, if you're VPC is not in **us-east-1**.
     * **VPC (Accepter)**: Enter the VPC id. See table below for VPC ids.
 
-    <table><thead><tr><th width="121">Region</th><th width="602">VPC (Accepter)</th></tr></thead><tbody><tr><td>US</td><td>vpc-0d8e3f390c5aee744</td></tr><tr><td>EU</td><td>vpc-01a0b77b5b5616d60</td></tr><tr><td>APAC</td><td>vpc-0c7421c54b3efbc07</td></tr><tr><td>Managed</td><td>Contact us</td></tr></tbody></table>
+    <table><thead><tr><th width="121">Region</th><th width="602">VPC (Accepter)</th></tr></thead><tbody><tr><td>US</td><td><code>vpc-0d8e3f390c5aee744</code></td></tr><tr><td>EU</td><td><code>vpc-01a0b77b5b5616d60</code></td></tr><tr><td>APAC</td><td><code>vpc-0c7421c54b3efbc07</code></td></tr><tr><td>Managed</td><td>Contact us</td></tr></tbody></table>
 4. In the confirmation dialog box, choose **OK**.
 
 After sending the VPC Peering request you will need to accept incoming connections on the  appropriate ports and machines from these two security groups (prefixed with Secoda' account id) where our integrations connect from:
@@ -30,6 +30,6 @@ After sending the VPC Peering request you will need to accept incoming connectio
 
 You will also need to add Secoda's CIDR to your Route Table. The VPC (Accepter) and the CIDR's for each region are: &#x20;
 
-<table><thead><tr><th width="121">Region</th><th width="363">VPC (Accepter)</th><th>CIDR</th></tr></thead><tbody><tr><td>US</td><td>vpc-0d8e3f390c5aee744</td><td>10.2.0.0/16</td></tr><tr><td>EU</td><td>vpc-01a0b77b5b5616d60</td><td>10.4.0.0/16</td></tr><tr><td>APAC</td><td>vpc-0c7421c54b3efbc07</td><td>10.5.0.0/16</td></tr><tr><td>Managed</td><td>Contact us</td><td>Contact us</td></tr></tbody></table>
+<table><thead><tr><th width="121">Region</th><th width="363">VPC (Accepter)</th><th>CIDR</th></tr></thead><tbody><tr><td>US</td><td><code>vpc-0d8e3f390c5aee744</code></td><td><code>10.2.0.0/16</code></td></tr><tr><td>EU</td><td><code>vpc-01a0b77b5b5616d60</code></td><td><code>10.4.0.0/16</code></td></tr><tr><td>APAC</td><td><code>vpc-0c7421c54b3efbc07</code></td><td><code>10.5.0.0/16</code></td></tr><tr><td>Managed</td><td>Contact us</td><td>Contact us</td></tr></tbody></table>
 
 5. Once the connection is setup, you will simply need to add the specific integration following the steps on the [integration page](../).&#x20;
