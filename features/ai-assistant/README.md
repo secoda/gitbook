@@ -30,7 +30,7 @@ Admins can customize AI settings to align with workspace preferences and securit
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
 
-### **AI Governance**
+### **Governance**
 
 AI Governance in Secoda empowers organizations to control the data accessed by AI, enhancing security and data relevance.&#x20;
 
@@ -68,6 +68,8 @@ This ensures that only authorized users can run queries on sensitive or critical
 
 ### **Custom Instructions**&#x20;
 
+#### Chat
+
 Admins can set specific instructions for the AI to follow, enhancing control and relevance.
 
 Some examples that we've seen work well:
@@ -81,7 +83,7 @@ Some examples that we've seen work well:
 By default, both Published and Draft resources are included in Secoda AI responses. This can be controlled using the custom instructions to restrict this to only Published resources, for example.
 {% endhint %}
 
-### Descriptions custom instructions
+#### Descriptions
 
 Admins are able to define custom instructions to the [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention") so that you can define documentation standards and a format for it to follow.
 
@@ -92,6 +94,33 @@ Some examples that we've seen work well:
 > * Do not use full, wordy sentences. Be brief and include only the necessary facts.
 > * Descriptions should be concise and not editorialized. Do not describe the data as 'essential' or 'critical'; only describe the contents.
 > * All tables and columns are related to insurance. Keep this in mind when generating descriptions.
+
+### Personas
+
+Secoda AI Personas are customizable assistants tailored to specific roles, aligning with team workflows. They access relevant data, support unique instructions, and integrate with tools like Slack. Personas can be personalized with names, icons, and permissions, ensuring the right people use the right tools for enhanced productivity.
+
+#### Configuration
+
+To create an AI Persona, open the [AI settings](https://app.secoda.co/settings/ai) and expand the "Personas" section and click the "Create Persona" button.
+
+<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="563"><figcaption></figcaption></figure>
+
+Each Persona can be configured with the following details:
+
+* Name
+* Icon
+* Description
+* Custom instructions
+* Resource filters
+* Team access
+
+<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
+
+Once your Persona has been created, you can switch between Personas on the Secoda AI page. After that you can chat with your Secoda AI Persona similar to how you chat with Secoda AI.
+
+<figure><img src="../../.gitbook/assets/image (44).png" alt="" width="563"><figcaption></figcaption></figure>
+
+
 
 ## **Future Improvements**&#x20;
 
