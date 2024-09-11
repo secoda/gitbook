@@ -107,12 +107,12 @@ To create an AI Persona, open the [AI settings](https://app.secoda.co/settings/a
 
 Each Persona can be configured with the following details:
 
-* Name
-* Icon
-* Description
-* Custom instructions
-* Resource filters
-* Team access
+* **Name**: Give your Persona a unique name.
+* **Icon**: Select an icon that represents the Persona.
+* **Description**: Add a brief description of the Persona's purpose.
+* **Custom Instructions**: Set specific instructions for the Persona’s role and tasks.
+* **Resource Filters**: Limit the Persona’s access to certain datasets or resources.
+* **Team Access**: Control which teams or users can access this Persona.
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
 
