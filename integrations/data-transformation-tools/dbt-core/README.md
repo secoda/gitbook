@@ -8,7 +8,7 @@ description: An overview of the dbt Core integration with Secoda
 [metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
-## **Getting Started with dbt Core** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+## **Getting started with dbt Core** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
 {% hint style="info" %}
 dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
@@ -16,11 +16,11 @@ dbt is a secondary integration that adds additional metadata on to your data war
 
 There are several options to connect dbt core with Secoda:
 
-1. Connect an AWS S3 or GCP GCS bucket (Recommended)
+1. **(Recommended)** Connect an AWS, GCP, or Azure storage bucket/container
 2. Upload a `manifest.json` and `run_results.json` through the UI
 3. Upload a `manifest.json` and `run_results.json` through the Secoda API
 
-## **Option 1 -> Storage bucket (container)** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+## **Option 1 – Storage bucket (container)** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
 This option is recommended to ensure that Secoda always has the latest `manifest.json` and `run_results.json` files from dbt Core. Secoda will only sync these files from the bucket.
 
@@ -146,7 +146,7 @@ gsutil cors set cors.json gs://bucket-name
 4. Copy the **Connection string** and add to your integration form.
 5. Test the connection.
 
-## **Option 2 -> Upload a single manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+## **Option 2 – Upload a single manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
 This is a one time sync with your manifest.json file. You can upload the file following these steps:
 
@@ -154,7 +154,7 @@ This is a one time sync with your manifest.json file. You can upload the file fo
 2. Choose the File Upload tab and select your manifest.json and run\_results.json files using the file select
 3. Test the Connection - if successful you'll be prompted to run your initial sync
 
-## **Option 3 -> Using the API**
+## **Option 3 – Using the API**
 
 The API provides an endpoint to upload your manifest.json and run\_results.json file. This is convenient if you run dbt with Airflow because you can upload the manifest.json at the end of a dbt run. Follow these instructions to upload your manifest.json via the API:
 
