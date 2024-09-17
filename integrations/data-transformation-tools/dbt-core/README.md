@@ -20,11 +20,11 @@ There are several options to connect dbt core with Secoda:
 2. Upload a `manifest.json` and `run_results.json` through the UI
 3. Upload a `manifest.json` and `run_results.json` through the Secoda API
 
-## **Option 1 -> Connect a Bucket (Recommended)** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+## **Option 1 -> Storage bucket (container)** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
 This option is recommended to ensure that Secoda always has the latest `manifest.json` and `run_results.json` files from dbt Core. Secoda will only sync these files from the bucket.
 
-### **Connect an AWS S3 bucket**
+### **1a. Connect an AWS S3 bucket**
 
 You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.&#x20;
 
@@ -100,7 +100,7 @@ You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.&#x20;
 
 </details>
 
-### **Connect a GCS GCP bucket**
+### **1b. Connect a GCS S3-compatible bucket**
 
 1. Login to GCP cloud console.
 2. Create a service account.
@@ -129,7 +129,7 @@ gsutil cors set cors.json gs://bucket-name
 ```
 
 6. Save the HMAC keys to be used in the connection form.
-   * **Acess Key Id**
+   * **Access Key Id**
    * **Secret**
    * **Region** bucket region for GCP
    * **S3 Endpoint** must be added and set to `https://storage.googleapis.com`
@@ -138,7 +138,15 @@ gsutil cors set cors.json gs://bucket-name
    * Choose the Access Key tab and add the HMAC keys saved above to the relevant fields.&#x20;
    * Test the Connection - if successful you'll be prompted to run your initial sync
 
-## **Option 2 -> Upload manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+### **1c. Connect a** Azure Blob Storage container
+
+1. Go to portal.azure.com and then click **Storage accounts**.
+2. Copy the name of the desired storage account. Enter that in the integration form.
+3. Click on your storage account and under **Security + networking** select **Access keys**.
+4. Copy the **Connection string** and add to your integration form.
+5. Test the connection.
+
+## **Option 2 -> Upload a single manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
 This is a one time sync with your manifest.json file. You can upload the file following these steps:
 
@@ -146,7 +154,7 @@ This is a one time sync with your manifest.json file. You can upload the file fo
 2. Choose the File Upload tab and select your manifest.json and run\_results.json files using the file select
 3. Test the Connection - if successful you'll be prompted to run your initial sync
 
-## **Option 3 -> Secoda API**
+## **Option 3 -> Using the API**
 
 The API provides an endpoint to upload your manifest.json and run\_results.json file. This is convenient if you run dbt with Airflow because you can upload the manifest.json at the end of a dbt run. Follow these instructions to upload your manifest.json via the API:
 
@@ -156,7 +164,7 @@ The API provides an endpoint to upload your manifest.json and run\_results.json 
 
 Endpoints  ->&#x20;
 
-### Option 3A: Two Separate Calls (One for Manifest, One for Run Results)
+### 3a. Two separate calls (One for Manifest, One for Run Results)
 
 Manifest.json: `https://api.secoda.co/integration/dbt/manifest/`
 
@@ -200,7 +208,7 @@ response = requests.post(
 print(response.json())
 ```
 
-### Option 3B: One Call to Upload both Manifest and Run Results
+### 3b. One call to upload both Manifest and Run Results
 
 #### 1. Get your dbt Core Integration ID
 
