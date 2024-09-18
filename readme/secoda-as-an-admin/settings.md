@@ -22,6 +22,7 @@ To access Settings, click on the workspace name in the top left of the UI, and s
 The following settings are configurable only by Admins:
 
 * **General**: Add a workspace logo, edit the workspace name, view the current version of your workspace, and delete the workspace if needed.
+* **Catalog:** Set a default view for the catalogs across your workspace. Choose which properties to show, and in what order.&#x20;
 * **Security**: Add additional email domains allowed to sign up for the workspace and set up SSO. Read more: [sign-in-options.md](sign-in-options.md "mention").
 * **Appearance**: Configure resource pages to be full-width and hide the '?' help and feedback button from viewers and guests.
 * **Members**: Manage workspace members and groups. Read more: [invite-teammates](../../getting-started/secoda-as-an-admin/invite-teammates/ "mention").
