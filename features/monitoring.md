@@ -109,17 +109,21 @@ The lighter green surrounding the main line represent the **threshold** limits -
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/88d0fea1-144d-4b61-94c0-903bc22d6275.gif" alt=""><figcaption></figcaption></figure>
 
-Scroll down to see Run history, and filter for triggered Incident Reports. Here you can see any Downstream Resources that may be impacted by the incident.
+At the bottom of the Monitor page, you will find a history of all measurements, including those that have triggered incidents. You can easily filter this list to view only incidents and specify a particular time period.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/799409fb-fc49-4826-9df5-96aa0ac0692f.gif" alt=""><figcaption></figcaption></figure>
+When an incident occurs, you have two primary options for handling it: you can either acknowledge the incident to recognize that it has occurred or resolve it once appropriate actions have been taken.
 
-You can either Acknowledge or Resolve the incident by click these buttons below. The incident will be automatically resolved if the numbers go back into a good state (within the threshold).
+The incident page provides visibility into all resources impacted downstream of the affected table or column. Additionally, the activity log allows team members to comment on the incident, tag others, and add relevant context for resolution.
 
-<div align="center">
+If you have an existing integration with Jira, you can create a ticket for the incident directly from the Secoda incident page, streamlining your workflow.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c64a75ec-8256-4980-8e90-5e322f7fd72b.png" alt="" width="282"><figcaption></figcaption></figure>
+Incidents are automatically acknowledged if a comment is made or a Jira ticket is created. They are automatically resolved if the measurement returns to range after three consecutive monitoring runs.
 
-</div>
+This incident management system is designed to enhance team collaboration and streamline the resolution process.
+
+Learn more in the video below!
+
+{% embed url="https://www.loom.com/share/8ff9e64b45654cda85009cefbd71ef43" %}
 
 ### Errors
 
