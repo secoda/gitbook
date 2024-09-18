@@ -7,10 +7,8 @@ description: >-
 # Data Quality Score
 
 {% hint style="info" %}
-**The Data Quality Score feature is currently under development.** Sign up for [beta access here](https://tally.so/r/nG1aRL) to be among the first to explore its capabilities!
+**The Data Quality Score feature is currently in public beta and available to all customers.** This access may be subject to change after the public beta.&#x20;
 {% endhint %}
-
-## Overview
 
 The Data Quality Score (DQS) in Secoda offers a comprehensive scoring system that evaluates your data's quality. Focused initially on tables, DQS not only helps teams understand their data quality but also provides actionable steps to improve their scores over time. It aggregates scores across several categories to deliver a comprehensive total out of 100%.
 
