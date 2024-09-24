@@ -147,6 +147,8 @@
       * [Confluent Cloud Metadata Extracted](integrations/data-pipeline-tools/confluent-cloud/confluent-cloud-metadata-extracted.md)
     * [Polytomic](integrations/data-pipeline-tools/polytomic/README.md)
       * [Polytomic Metadata Extracted](integrations/data-pipeline-tools/polytomic/metadata-extracted.md)
+    * [Matillion](integrations/data-pipeline-tools/matillion/README.md)
+      * [Matillion Metadata Extracted](integrations/data-pipeline-tools/matillion/matillion-metadata-extracted.md)
   * [Data Transformation Tools](integrations/data-transformation-tools/README.md)
     * [dbt](<integrations/data-transformation-tools/dbt/README (1).md>)
       * [dbt Cloud](integrations/data-transformation-tools/dbt/README.md)
