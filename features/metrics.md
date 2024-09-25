@@ -36,7 +36,7 @@ Once in the Metrics, you'll be able to see all of the current metrics your team 
 3.  **Define the Metric with a Query:** After creating a metric, you'll see the "New query" option. Just choose which integration you'd like to query (it can be _any_ [Database](../integrations/databases/) or [Data Warehouse](../integrations/data-warehouses/) integration that we support), type your SQL, and click the Run button.
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c4aea352-9607-428b-894f-b5f66c54f431.png" alt=""><figcaption></figcaption></figure>
-4. **Visualize the Metric**: After running the query, Secoda will visualize the metric for you. You'll have the option to customize the graph based on the data type, for example line, bar, or pie charts.
+4. **Visualize the Metric**: After running the query, Secoda will visualize the metric for you. Currently time-series based line graphs are supported.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/106ef08b-c953-42d1-b206-bfe378b99eed.gif" alt=""><figcaption></figcaption></figure>
 
