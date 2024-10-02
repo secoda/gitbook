@@ -10,38 +10,63 @@ You can learn more about all of the capabilities of this integration here: [slac
 
 ## Steps for setting up Slack
 
-1. Create a new Slack channel, multiple channels depending on your use cases (ideas [below](./#how-it-works)), or decide which existing channel(s) you'd like to use
-   1. If you'd like to use a **Private** Slack channel for these, you must type **`/invite @Secoda`** in the channel and then go to Secoda and follow the below steps
+1. Create a new Slack channel, multiple channels depending on your use cases (ideas [below](./#how-it-works)), or decide which existing channel(s) you'd like to use. If you'd like to use a **Private** Slack channel for these, you must type **`/invite @Secoda`** in the channel and then go to Secoda and follow the below steps
 2. After this channel is created or you've decided which existing channel you'd like to use, go to **Integrations** in the Secoda App.
 3. Click **New integration** and search for **Slack**.
-4. Choose which **Teams** you'd like to include.
-   1. We recommend choosing all so that everyone across your organization has access to the Secoda integration for Slack.
-5. Click **Connect.**
-   1. Note: This connection will need to be approved by your Slack admin manager.
-6. Choose the Slack channel(s) that you'd like to receive different notifications in.
+4. Choose which **Teams** you'd like to include. We recommend choosing all so that everyone across your organization has access to the Secoda integration for Slack.
+5. Click **Connect.** Note: This connection will need to be approved by your Slack admin manager.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/cb828ed5-c8d2-4324-9438-264aa614ec30.png)
+<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Notifications Channel** = Where users receive notifications on everything that is checked off in the Notifications tab of the integration settings
 
-**Monitoring Incidents Channel** = Where users receive notifications on new monitoring incidents, and when they resolve
+**Incidents Channel** = Where users receive notifications on new monitoring incidents, and when they resolve
 
-**Data Requests Channel** = Where users can ask data questions and receive Secoda AI-generated responses
+**Questions Channel** = Where users can ask data questions and receive Secoda AI-generated responses\
+
 {% endhint %}
 
-7. In the AI Assistant tab \[If you have it enabled], configure how your AI Slack bot behaves to messages to
-   * Channel Responses: How Secoda AI responds when a user messages in the connected data request channel
-   *   Thread Responses: How Secoda AI responds when a user messages in a thread in the connected data request channel\
-
-
-       <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-30 at 6.16.52 PM.png" alt=""><figcaption><p>AI Assistant settings page<br></p></figcaption></figure>
-8. Within the Slack app, go into the Slack channel(s) you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.**
+7. Within the Slack app, go into the Slack channel(s) you chose and connect it to the Secoda App. This can be done in the channel settings (upper right hand corner) by clicking **Integrations >** **Add an App.**
    1. Note: A Slack Admin needs to do this step.&#x20;
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/e2370145-6019-474a-9515-248b45ec9420.png)
 
-9. To set up [#secoda-ai-slackbot](slack-user-guide.md#secoda-ai-slackbot "mention"), make sure you've enabled Secoda AI Assistant [#set-up](../../../features/ai-assistant/#set-up "mention") in your workspace. You're then able to utilize the Secoda AI Assistant for Slack feature.
+## Configuring Channels
+
+The Secoda Slack integration allows you to streamline communication with your data team and manage incidents directly from Slack. To make the most of this integration, you can configure dedicated Slack channels for different types of interactions. Here’s how to set up each type of channel.
+
+### Questions Channel
+
+The “Questions” channel is where data consumers can ask questions and interact directly with the data team. This channel supports bi-directional syncing with Secoda, meaning any questions asked in Slack will be automatically logged in Secoda, and responses from the data team will sync back into the Slack conversation.
+
+• Setup: Create or select a channel for questions, such as #data-questions. Ensure Secoda is added to the channel to enable bi-directional syncing. Configure the behaviour for pushing threads to Secoda questions and how Secoda AI responds to the questions.
+
+• Use case: Great for quick inquiries about data definitions, metrics, or troubleshooting issues.
+
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+
+### Notifications Channel
+
+The “Notifications” channel is used to receive automated updates from Secoda, such as new data releases, system updates, or important announcements.
+
+• Setup: Create or select a channel for notifications, such as #secoda-notifications. Configure the notification preferences in Secoda to send updates to this channel.
+
+• Use case: Ideal for keeping your data team and other stakeholders informed about any changes or important updates in your data ecosystem.\
+
+
+<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
+### Incidents Channel
+
+The “Incidents” channel is dedicated to managing monitoring incidents. Like the Questions channel, it supports bi-directional syncing. This allows incident discussions initiated in Slack to be automatically tracked in Secoda, while any updates made in Secoda regarding an incident will sync back to the Slack conversation.
+
+• Setup: Create or select a channel for incident management, such as #data-incidents. Add Secoda to the channel to enable bi-directional syncing for incidents.
+
+• Use case: Critical for managing data or system outages and ensuring that both the incident and its resolution are well-documented and tracked in real-time.\
+
+
+By setting up these channels, your team can stay in sync with data operations and ensure effective communication between data consumers, the data team, and incident management processes.
 
 ## How it works
 
