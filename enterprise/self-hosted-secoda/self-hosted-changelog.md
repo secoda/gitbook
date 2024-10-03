@@ -6,6 +6,27 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2024.4.0 (October 2, 2024)
+
+**New Features**
+
+* [**Data Quality Score**](https://docs.secoda.co/features/data-quality-score) **(DQS)**: A new public beta feature, automatically scoring data quality across key dimensions such as completeness, accuracy, and consistency at the column and table levels. Includes customizable thresholds and actionable insights for improving data quality.
+* [**AI Personas**](https://docs.secoda.co/features/ai-assistant#personas): Introduced role-specific AI personas, allowing users to customize AI interactions for specific roles within their organization. Tailor persona configurations, personalize names and icons, and set resource permissions.
+* **New Integrations:** Brand new integrations for [PagerDuty](https://docs.secoda.co/integrations/data-quality-tools/pager-duty), [GCS](https://docs.secoda.co/integrations/data-lakes/google-cloud-storage), [S3](https://docs.secoda.co/integrations/data-lakes/aws-s3), [Hex](https://docs.secoda.co/integrations/data-visualization-tools/hex), and [Matillion](https://docs.secoda.co/integrations/data-pipeline-tools/matillion).
+* [**Queries Page**](https://docs.secoda.co/features/queries/extracted-queries)**:** Understand your most popular or slowest queries with the queries tab on resources and the Queries page.&#x20;
+
+**Improvements**
+
+* **Slack Workflow Enhancements**: Improved Slack workflows, making it easier to integrate Secoda with Slack for questions, incident management, and notifications. Slack now syncs bi-directionally with your content in Secoda.
+* **UI and Navigation Enhancements**: Improvements to breadcrumbs and enhanced navigation across documentation and the query editor.
+* **Monitor Sensitivity Control**: Enhanced controls for adjusting the threshold sensitivity of data monitors, giving users better flexibility over automatic threshold settings.
+* **Monitoring Incident Auto-Resolution**: Incidents now auto-resolve when consecutive measurements fall within acceptable ranges, reducing manual intervention.
+* **Jira Integration for Incidents**: Secoda users with Jira integrations can now push incidents directly to Jira, simplifying incident management workflows.
+* **Filter Enhancements**: Improved suggested filters for faster and more accurate search results. In addition, the AI filter can use natural language to filter your resources.
+* **Push to dbt:** Keep metadata synced between Secoda and your dbt repository with the GitHub integration.
+
+For more detailed information on these updates, please visit [Secoda's changelog](https://feedback.secoda.co/changelog).
+
 ### v2024.3.2 (July 24, 2024)
 
 This is a patch version update with miscellaneous bug fixes.&#x20;
