@@ -20,9 +20,9 @@ To see the list of Stale data in your workspace, use the keyboard shortcut **com
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c363a604-1bc4-4b0d-9765-3647c2307800.gif" alt=""><figcaption><p>Stale and Archived Data</p></figcaption></figure>
 
-You can choose to disable automatic staling in the Settings > Preferences:
+You can choose to disable automatic staling by navigating to Integrations > _Click on Integration_ > Settings > Preferences > Resource Management:
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e86edef7-cb0f-444c-bdf1-bf2cc21f6cf1.png" alt=""></figure>
+<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
