@@ -10,8 +10,8 @@ Secoda currently integrates with the following Data Transformation tools:
 
 * Cloud & Core
 
-{% content-ref url="airbyte/" %}
-[airbyte](airbyte/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}
