@@ -226,7 +226,6 @@ Expected Response -> `200`
 
 Sample Request for uploading your files (Python, note the TODOs) ->&#x20;
 
-````python
 ```python
 import requests
 
@@ -250,7 +249,6 @@ response = requests.request("POST", url, headers=headers, files=files)
 
 print(response)
 ```
-````
 
 #### 3. Trigger an Integration Sync
 
@@ -262,10 +260,8 @@ Expected Response -> `200`
 
 Sample Request for triggering a sync (Python, note the TODOs) ->&#x20;
 
-````python
-```python
-import requests
-
+<pre class="language-python"><code class="lang-python"><strong>import requests
+</strong>
 # TODO: replace YOUR_INTEGRATION_ID with your integration_id
 integration_id = "YOUR_INTEGRATION_ID"
 
@@ -279,8 +275,7 @@ headers = {
 response = requests.request("POST", url, headers=headers)
 
 print(response)
-```
-````
+</code></pre>
 
 #### 4. Now that a sync has been triggered, you can now monitor your sync in the UI!
 

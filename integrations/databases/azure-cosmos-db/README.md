@@ -48,4 +48,3 @@ If using the Tables Cosmos DB:
 * Choose the data you want to import into Secoda.
 * Click "Run Initial Extraction".
 
-### Datatype Conversion

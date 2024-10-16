@@ -63,7 +63,6 @@ To connect to MongoDB to Secoda, repeat the following steps.
         ![](https://secoda-public-media-assets.s3.amazonaws.com/39361fa5-1bea-4858-a5f2-57fc13ab064d.png)
 4.  Once successfully connected, choose the databases and collections you want to extract to Secoda
 
-    ![](<https://secoda-public-media-assets.s3.amazonaws.com/b583ad6e-8328-402f-bc74-7245fe8456b3.png>)
+    ![](https://secoda-public-media-assets.s3.amazonaws.com/b583ad6e-8328-402f-bc74-7245fe8456b3.png)
 5. Run the initial extraction
 
-### Data type conversion

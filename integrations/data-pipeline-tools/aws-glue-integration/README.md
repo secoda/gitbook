@@ -8,7 +8,7 @@ description: An overview of the AWS Glue integration with Secoda
 [metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
-### Integrating Secoda with AWS Glue&#x20;
+### Getting Started with Glue&#x20;
 
 The AWS Glue integration will pull metadata from your AWS Glue Catalog and the associated lineage information from the data sources for Glue. To connect AWS Glue to Secoda you'll need to create an IAM user that has permission to get Glue objects. Follow the instructions below to set up that user.
 
