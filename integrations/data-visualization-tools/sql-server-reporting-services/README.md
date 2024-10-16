@@ -20,13 +20,13 @@ There are 3 steps to connect SQL Server Reporting Services with Secoda:
 
 To retrieve the host domain, navigate to the home page of your report services workspace. Take the part of the URL that does not change when navigating around the workspace as your host domain.
 
-For example, if the page is on the 'browse' tab and the link is "https://example.secoda/reports/browse", then the host domain is "https://example.secoda/reports" in this case.
+For example, if the page is on the 'browse' tab and the link is `https://example.secoda/reports/browse`, then the host domain is `https://example.secoda/reports` in this case.
 
 **Retrieve account credentials**
 
 Your username and password is required to connect SQL Server Reporting Services to Secoda. Note that the display name in the top right of the home page may not be the username for your account. If you unsure of your username, it can be found by following these steps:
 
-1. Enter your host domain into your browser, and add the following after it “/api/v2.0/me?%24select=Username”
+1. Enter your host domain into your browser, and add the following to the end of the url, `/api/v2.0/me?%24select=Username`
 2. To the right of the “username” field, your account username is found
 
 **Connect SQL Server Reporting Services**

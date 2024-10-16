@@ -30,11 +30,6 @@ The same username and password used to login to your Matillion instance can be u
 
 Since these credentials will be accessible to organization users who have access to your Matillion integration, we recommend creating a new username and password specifically for the integration.
 
-#### Retrieve the project name and group name
-
-In your Matillion ETL instance, navigate to your desired resources, in the URL, the group name is the first section after the host domain, and the project name is the second.\
-For example, if you have the resource URL: "https://12.345.678.901/#MyGroup/MyProject/Version/example\_resource", then set your group to MyGroup and your project to MyProject.
-
 #### Connect Matillion to Secoda
 
 After retrieving the host domain and user credentials, the next step is to connect to Secoda:

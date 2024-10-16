@@ -52,11 +52,9 @@ After creating a Redshift warehouse, the next step is to connect Secoda:
 3. Enter your Redshift credentials
 4. Click 'Connect'
 
-### **Security** <a href="#h_317efbf748" id="h_317efbf748"></a>
+#### Whitelist Secoda IP Address
 
 VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the [Secoda IPs](../../../faq.md#what-are-the-ip-addresses-for-secoda) to read from your data warehouse.
-
-### **Best Practice** <a href="#h_61b5b414fd" id="h_61b5b414fd"></a>
 
 #### **Networking** <a href="#h_88c5c0ac60" id="h_88c5c0ac60"></a>
 

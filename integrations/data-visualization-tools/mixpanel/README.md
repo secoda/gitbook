@@ -23,10 +23,10 @@ To create a service account, navigate to [Mixpanel](https://mixpanel.com/login/)
 2. Click on ‘organization settings’
 3. Click on ‘service accounts’ on the left side bar
 4. Click the ‘add service account’ button in the top right
-5. \*Give it a name, select ‘member’, select all projects you want to be integrated with Secoda, select ‘analyst’ and ‘never’
+5. Give it a name, select ‘member’, select all projects you want to be integrated with Secoda, select ‘analyst’ and ‘never’
 6. **Save the username and secret, as the secret can not be accessed again**
 
-\*Note: Any service account settings will work for Secoda, so an existing account can be used as well. These are just our recommended settings.
+> Note: Any service account settings will work for Secoda, so an existing account can be used as well. These are just our recommended settings.
 
 #### Connect Mixpanel to Secoda
 

@@ -8,9 +8,16 @@ description: An overview of the AWS QuickSight integration with Secoda
 [metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
-## Integrating Secoda with AWS QuickSight&#x20;
+## Getting Started with AWS QuickSight&#x20;
 
-The AWS QuickSight integration will pull metadata from your AWS QuickSight workspace and the associated lineage information from the data sources for QuickSight. To connect AWS QuickSight to Secoda you'll need to create an IAM user that has permission to get QuickSight objects. Follow the instructions below to set up that user.
+The AWS QuickSight integration will pull metadata from your AWS QuickSight workspace and the associated lineage information from the data sources for QuickSight.&#x20;
+
+There are two steps to connect AWS Quicksight with Secoda.
+
+1. Create an IAM user that has permission to get QuickSight objects.
+2. Connect QuickSight to Secoda.
+
+#### Create an IAM User
 
 Log in to your [AWS console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1) and then to the [IAM management console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/home)
 
@@ -45,4 +52,6 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
 
 Refresh the policy list and search for your newly created policy. Select that policy and then create the user.&#x20;
 
-Copy the Access Key ID and Secret Access Key that is generated for the user. Return to https://app.secoda.co/integrations and select the AWS QuickSight integration. Input your AWS Account ID, region, access key ID and secret access key and click "Test Connection". After the connection is established click "Run initial extraction" to begin the process of syncing your Quicksight workspace.&#x20;
+#### Connect QuickSight to Secoda
+
+Copy the Access Key ID and Secret Access Key that is generated for the user. Return to [Integrations](https://app.secoda.co/integrations) and select the AWS QuickSight integration. Input your AWS Account ID, region, access key ID and secret access key and click "Test Connection". After the connection is established click "Run initial extraction" to begin the process of syncing your Quicksight workspace.&#x20;
