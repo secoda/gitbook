@@ -8,11 +8,20 @@ description: Custom properties allow you add additional context to resources in 
 
 Custom properties allow you to enrich the metadata of your resources within Secoda, providing additional context and enhancing organization. This guide outlines the methods to add custom properties to individual resources and in bulk.
 
-{% hint style="info" %}
-The only way to add custom properties in bulk is to use our [Import/Export](import-and-export-data.md) feature.
-{% endhint %}
+## Adding Custom Properties to all resources
 
-## Adding Custom Properties to Individual Resources
+To add a custom property to all resources by resource type, you can follow these steps.&#x20;
+
+1. Go to Settings > Properties.
+2. Click the "Create property" button.&#x20;
+3. Select the label, type, and resource types that you'd like the property to be applied to.
+4. Review your property and click "Confirm".
+
+After this is completed, the custom property will show up in the Catalog table and the pages for all of the resources of the resource type(s) selected.&#x20;
+
+<figure><img src="../.gitbook/assets/Kapture 2024-10-22 at 18.00.31.gif" alt=""><figcaption></figcaption></figure>
+
+## Adding Custom Properties to individual resources
 
 **Via Side Panel:**
 
@@ -33,15 +42,23 @@ The only way to add custom properties in bulk is to use our [Import/Export](impo
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-07-02 at 4.32.04 PM.png" alt=""><figcaption><p>Custom Property on Table Columns</p></figcaption></figure>
 
-## Bulk Adding of Custom Properties
+## Bulk Update of Custom Properties
 
-To efficiently add custom properties to multiple resources:
+To efficiently update custom properties to multiple resources you can use the **Import & Export** functionality or the **API**:
 
-1. **Use Import/Export Feature:** Prepare a CSV for importing metadata into Secoda. Include an additional column for each custom property you wish to add. This method is ideal for adding properties across various resources simultaneously.
+1. **Use Import & Export Feature:** Prepare a CSV for importing metadata into Secoda. Include an additional column for each custom property you wish to add. This method is ideal for updating properties across various resources simultaneously.
 
 {% content-ref url="import-and-export-data.md" %}
 [import-and-export-data.md](import-and-export-data.md)
 {% endcontent-ref %}
+
+2. **Use the API:** Create a python script that updates the custom&#x20;
+
+{% content-ref url="../secoda-api.md" %}
+[secoda-api.md](../secoda-api.md)
+{% endcontent-ref %}
+
+
 
 By following these instructions, you can tailor the metadata within your Secoda environment to meet your specific organizational needs, enhancing both the utility and accessibility of your data resources.
 
