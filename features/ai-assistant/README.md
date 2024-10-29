@@ -95,28 +95,28 @@ Some examples that we've seen work well:
 > * Descriptions should be concise and not editorialized. Do not describe the data as 'essential' or 'critical'; only describe the contents.
 > * All tables and columns are related to insurance. Keep this in mind when generating descriptions.
 
-### Personas
+### Agents
 
-Secoda AI Personas are customizable assistants tailored to specific roles, aligning with team workflows. They access relevant data, support unique instructions, and integrate with tools like Slack. Personas can be personalized with names, icons, and permissions, ensuring the right people use the right tools for enhanced productivity.
+Secoda AI Agents are customizable assistants tailored to specific roles, aligning with team workflows. They access relevant data, support unique instructions, and integrate with tools like Slack. Personas can be personalized with names, icons, and permissions, ensuring the right people use the right tools for enhanced productivity.
 
 #### Configuration
 
-To create an AI Persona, open the [AI settings](https://app.secoda.co/settings/ai) and expand the "Personas" section and click the "Create Persona" button.
+To create an AI Agent, open the [AI settings](https://app.secoda.co/settings/ai) and expand the "Agents" section and click the "Create Agent" button.
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Each Persona can be configured with the following details:
+Each Agent can be configured with the following details:
 
-* **Name**: Give your Persona a unique name.
-* **Icon**: Select an icon that represents the Persona.
-* **Description**: Add a brief description of the Persona's purpose.
-* **Custom Instructions**: Set specific instructions for the Persona’s role and tasks.
-* **Resource Filters**: Limit the Persona’s access to certain datasets or resources.
-* **Team Access**: Control which teams or users can access this Persona.
+* **Name**: Give your Agent a unique name.
+* **Icon**: Select an icon that represents the Agent.
+* **Description**: Add a brief description of the Agent's purpose.
+* **Custom Instructions**: Set specific instructions for the Agent’s role and tasks.
+* **Resource Filters**: Limit the Agent’s access to certain datasets or resources.
+* **Team Access**: Control which teams or users can access this Agent.
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Once your Persona has been created, you can switch between Personas on the Secoda AI page. After that you can chat with your Secoda AI Persona similar to how you chat with Secoda AI.
+Once your Agent has been created, you can switch between Agents on the Secoda AI page. After that you can chat with your Secoda AI Agent similar to how you chat with Secoda AI.
 
 <figure><img src="../../.gitbook/assets/image (44).png" alt="" width="563"><figcaption></figcaption></figure>
 
