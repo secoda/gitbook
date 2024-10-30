@@ -21,7 +21,7 @@ Once logged in to Monte Carlo, follow these steps to create an API token:
 
 1. Click on the **Settings** button in the nav bar and select the **API**  section
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Click **Create key** fill out the details and click **Create**
 3. Copy and save your API token and secret, as it can't be accessed again
