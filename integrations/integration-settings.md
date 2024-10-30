@@ -32,11 +32,15 @@ This is the first page you’ll see when you navigate to an integration. It prov
 
 To automate your syncs, use this page to set the run frequency with a Cron Expression. You can learn more about Cron Expressions [here](https://crontab.guru/). If you don’t specify a schedule, the default is `0 0 * * *`, which runs the sync daily at midnight UTC.
 
-### Groups or Schemas
+### Schemas & Groups
 
 If applicable to the integration, use this page to select which Groups or Schemas you want to sync. Click the **Refresh** button to check for any new Groups or Schemas available for import. By default, all Groups and Schemas will be selected and included in the sync.
 
 If you'd like to change this default behaviour, navigate to the [Resource Management](integration-settings.md#resource-management) section in the [Preferences.](integration-settings.md#preferences)&#x20;
+
+In addition the Teams that a Database, Schema, or Group are associated with can be configured on this tab under the "Team visibility" column. By default, the Teams will be inherited from the Integration settings but you can override the Teams on any Database, Schema, or Group.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Preferences
 
