@@ -36,10 +36,6 @@ After retrieving the dbt integration id, the next step is to connect to Secoda:
 6. Select 'Only select repositories', and use the dropdown to select the specific repository associated with the dbt integration.
 7. Click install.
 
-{% hint style="warning" %}
-Github integration is currently only supported for users on app.secoda.co.
-{% endhint %}
-
 ## After Connecting to Secoda
 
 Once the connection is setup, Secoda will check any new pull requests opened in that repository for entities that exist within your workspace. If any deletions are present on the entities, a comment will be written on the pull request of the affected entities, and all immediate downstream entities. An email with the same information will be sent out to all owners of affected entities as well.
