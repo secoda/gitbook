@@ -121,9 +121,19 @@ Incidents are automatically acknowledged if a comment is made or a Jira ticket i
 
 This incident management system is designed to enhance team collaboration and streamline the resolution process.
 
-Learn more in the video below!
+### Annotations
 
-{% embed url="https://www.loom.com/share/8ff9e64b45654cda85009cefbd71ef43" %}
+The **Monitoring Annotations** feature provides a way to mark specific data points within monitoring incidents, giving teams a deeper context and helping refine automatic thresholds over time. This feature includes a **Normal** button, which allows users to indicate that a particular data point is not an anomaly, but rather expected behavior.
+
+**Using Monitoring Annotations with the Normal Button**
+
+1. Navigate to the Incident that you wish to annotate.
+2. Select the **Normal** button for the data point that you want to classify as expected.
+3. This action marks the data point as typical, contributing to the accuracy of Secoda's automatic thresholding over time.
+
+By tagging data points through Monitoring Annotations, you help Secoda’s monitoring become more attuned to your data’s unique patterns, reducing false alerts and improving the identification of true anomalies.
+
+<figure><img src="../.gitbook/assets/Kapture 2024-11-04 at 11.46.05.gif" alt=""><figcaption><p>Monitor Annotations</p></figcaption></figure>
 
 ### Errors
 
