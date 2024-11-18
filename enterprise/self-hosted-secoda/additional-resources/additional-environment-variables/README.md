@@ -34,6 +34,7 @@ AWS_SECRET_ACCESS_KEY=
 
 # Example
 PRIVATE_BUCKET=organization-manifest-bucket
+# These are not necessary if the container can assume an AWS role
 AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
 AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 ```
@@ -49,6 +50,12 @@ BIGQUERY_SECRETS=
 BIGQUERY_SECRETS='{"web":{"client_id":"1234567890-abcdefghijklmnopqrstuvwxyz.apps.googleusercontent.com","project_id":"your-project-id","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"your-client-secret","redirect_uris":["https://your-redirect-uri.com/callback","http://localhost:8080/callback"],"javascript_origins":["https://your-domain.com","http://localhost:8080"]}}'
 ```
 
+{% content-ref url="google-oauth-application-on-premise.md" %}
+[google-oauth-application-on-premise.md](google-oauth-application-on-premise.md)
+{% endcontent-ref %}
+
+
+
 **Looker Studio (OAuth) Integration**
 
 ```
@@ -60,7 +67,13 @@ GOOGLE_DATA_STUDIO_CLIENT_ID=1234567890-abcdefghijklmnopqrstuvwxyz.apps.googleus
 GOOGLE_DATA_STUDIO_CLIENT_SECRET=GOCSPX-abcdefghijABCDEFGHIJ12345678
 ```
 
-**Power BI (OAuth) Integration**
+{% content-ref url="google-oauth-application-on-premise.md" %}
+[google-oauth-application-on-premise.md](google-oauth-application-on-premise.md)
+{% endcontent-ref %}
+
+
+
+**PowerBI (OAuth) Integration**
 
 ```
 POWERBI_CLIENT_ID=
@@ -70,6 +83,12 @@ POWERBI_CLIENT_SECRET=
 POWERBI_CLIENT_ID=12345678-abcd-1234-efgh-56789abcdef0
 POWERBI_CLIENT_SECRET=abcDEF123456!@#XYZ789
 ```
+
+{% content-ref url="powerbi-oauth-application-on-premise.md" %}
+[powerbi-oauth-application-on-premise.md](powerbi-oauth-application-on-premise.md)
+{% endcontent-ref %}
+
+
 
 **Github Integration**
 
@@ -85,3 +104,6 @@ GITHUB_SIGNING_SECRET=abc123XYZ456!@#example
 GITHUB_APP_PRIVATE_KEY=LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQoMQUlFQW9NKlRoU
 ```
 
+{% content-ref url="github-application-on-premise.md" %}
+[github-application-on-premise.md](github-application-on-premise.md)
+{% endcontent-ref %}
