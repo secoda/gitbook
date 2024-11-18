@@ -269,6 +269,8 @@
         * [PowerBI OAuth Application (on-premise)](enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/powerbi-oauth-application-on-premise.md)
         * [Google OAuth Application (on-premise)](enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/google-oauth-application-on-premise.md)
         * [Github Application (on-premise)](enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/github-application-on-premise.md)
+        * [OpenAI API Key Creation (on-premise)](enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/openai-api-key-creation-on-premise.md)
+        * [AWS Bucket with Access Keys (on-premise)](enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/aws-bucket-with-access-keys-on-premise.md)
       * [TLS/SSL (Docker compose)](self-hosted-secoda/additional-resources/configure-tls-docker-compose.md)
       * [Automatic Updates (Docker compose)](self-hosted-secoda/additional-resources/setup-automatic-updates.md)
       * [Backups (Docker compose)](self-hosted-secoda/additional-resources/setup-backups.md)

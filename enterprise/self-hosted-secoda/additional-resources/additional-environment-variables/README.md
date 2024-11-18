@@ -25,6 +25,10 @@ OPENAI_API_KEY=
 OPENAI_API_KEY=sk-abc12345EXAMPLExyz67890
 ```
 
+{% content-ref url="openai-api-key-creation-on-premise.md" %}
+[openai-api-key-creation-on-premise.md](openai-api-key-creation-on-premise.md)
+{% endcontent-ref %}
+
 **File Uploads **_**(recommended)**_
 
 ```
@@ -38,6 +42,10 @@ PRIVATE_BUCKET=organization-manifest-bucket
 AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
 AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 ```
+
+{% content-ref url="aws-bucket-with-access-keys-on-premise.md" %}
+[aws-bucket-with-access-keys-on-premise.md](aws-bucket-with-access-keys-on-premise.md)
+{% endcontent-ref %}
 
 ### Integrations
 
@@ -54,8 +62,6 @@ BIGQUERY_SECRETS='{"web":{"client_id":"1234567890-abcdefghijklmnopqrstuvwxyz.app
 [google-oauth-application-on-premise.md](google-oauth-application-on-premise.md)
 {% endcontent-ref %}
 
-
-
 **Looker Studio (OAuth) Integration**
 
 ```
@@ -71,8 +77,6 @@ GOOGLE_DATA_STUDIO_CLIENT_SECRET=GOCSPX-abcdefghijABCDEFGHIJ12345678
 [google-oauth-application-on-premise.md](google-oauth-application-on-premise.md)
 {% endcontent-ref %}
 
-
-
 **PowerBI (OAuth) Integration**
 
 ```
@@ -87,8 +91,6 @@ POWERBI_CLIENT_SECRET=abcDEF123456!@#XYZ789
 {% content-ref url="powerbi-oauth-application-on-premise.md" %}
 [powerbi-oauth-application-on-premise.md](powerbi-oauth-application-on-premise.md)
 {% endcontent-ref %}
-
-
 
 **Github Integration**
 
