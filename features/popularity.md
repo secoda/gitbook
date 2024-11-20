@@ -24,17 +24,19 @@ To learn more about popularity and usage within the Secoda app, scroll down to t
 
 Anyone is Secoda can sort by popularity directly within Search. The resources that are most often used and queried from the source will appear at the top.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0fb3b56b-8f73-41e3-8acb-60ee2fd6f0f1.gif" alt=""><figcaption><p>Sorting in Search</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-11-20 at 22.37.11.gif" alt=""><figcaption></figcaption></figure>
 
 Once you're clicked into a catalog resource, you can see the number of queries run on that data, as well as it's frequent users.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f96f8a71-af5a-4dd4-9fd3-c0748a52e2ef.png" alt=""><figcaption><p>Popularity metadata</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### Popularity based on views in Secoda
+### Views in Secoda
 
-As an editor or admin in Secoda, you can see what's popular across your workspace users _within_ Secoda by filtering in the [**Analytics**](analytics-dashboard.md) dashboard. In the example below, I've filtered the resource type to dashboard to show which dashboards are being looked at the most directly within Secoda.
+As an editor or admin in Secoda, you can see what's popular across your workspace users _within_ Secoda by filtering in the [**Analytics**](analytics-dashboard.md) dashboard or on the Search page. In the example below, the resource type filter is used to show which dashboards are being looked at the most directly within Secoda.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ebaaaa0d-0fbe-488b-b13c-a670da616f44.gif" alt=""><figcaption><p>Analytics Dashboard</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-11-20 at 22.45.24.gif" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Improving accuracy of the popularity metric
 

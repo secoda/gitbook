@@ -214,7 +214,7 @@
     * [Secoda AI Use Cases](features/ai-assistant/secoda-ai-use-cases.md)
     * [Secoda AI Security FAQs](features/ai-assistant/security.md)
     * [Prompts](features/ai-assistant/prompts.md)
-  * [Analytics Dashboard](features/analytics-dashboard.md)
+  * [Analytics](features/analytics-dashboard.md)
   * [Announcements](features/announcements.md)
   * [Automations](features/automations.md)
     * [Automations Use Cases](features/automations/automations-use-cases.md)
