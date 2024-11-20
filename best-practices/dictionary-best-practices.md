@@ -35,7 +35,7 @@ If you don't have a list yet, and need to start fresh...
   * Define company jargon and acronyms that can often get confusing for new hires
 * Team-specific glossaries
   * Define terms by Team, based on which team _owns_ those terms and therefore owns the documentation of them
-* Consider [Nesting terms](../features/dictionary.md#nesting-terms) so that they are easier to navigate for your users
+* Consider [Nesting terms](../features/glossary.md#nesting-terms) so that they are easier to navigate for your users
 
 ## Enrich glossary terms
 

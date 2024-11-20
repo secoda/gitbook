@@ -20,8 +20,8 @@ description: Check out our documentation around best practices when working with
 [documentation-best-practices.md](documentation-best-practices.md)
 {% endcontent-ref %}
 
-{% content-ref url="glossary-best-practices.md" %}
-[glossary-best-practices.md](glossary-best-practices.md)
+{% content-ref url="dictionary-best-practices.md" %}
+[dictionary-best-practices.md](dictionary-best-practices.md)
 {% endcontent-ref %}
 
 {% content-ref url="data-governance.md" %}

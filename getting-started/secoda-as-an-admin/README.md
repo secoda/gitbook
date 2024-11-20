@@ -32,7 +32,7 @@ As an Admin in Secoda, your role is crucial in shaping the workspace landscape a
 **Enhancement and Engagement:**
 
 * [ ] **Metadata Management**: Start [editing and enriching](../../resource-and-metadata-management/add-documentation/) metadata to improve [data discoverability](../../features/search.md) and [Secoda AI](../../features/ai-assistant/)’s accuracy.
-* [ ] **Documentation and Dictionary Terms**: Populate the platform with essential [documents](../../features/documents/) and [terms](../../features/dictionary.md) that provide context to your data resources.
+* [ ] **Documentation and Dictionary Terms**: Populate the platform with essential [documents](../../features/documents/) and [terms](../../features/glossary.md) that provide context to your data resources.
 * [ ] **Data Quality:** Check out your [Data Quality Score](../../features/data-quality-score.md) and suggestions from Secoda on how you might improve it.
 * [ ] **User Engagement Strategies**: Explore strategies to boost [user adoption](../../readme/secoda-as-an-admin/user-engagement-and-adoption/) and engagement across your organization.
 

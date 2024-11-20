@@ -70,7 +70,7 @@ The [**Catalog**](../../features/catalog.md) is the home to all metadata for any
 
 #### **Dictionary**
 
-The [Dictionary](../../features/dictionary.md) is where you can define terms that are relevant to your organization. All documented terms are accessible via Secoda’s Search, and can be referenced in other resources in your workspace. It’s an especially helpful space for newer employees getting acquainted with the company or their role.
+The [Dictionary](../../features/glossary.md) is where you can define terms that are relevant to your organization. All documented terms are accessible via Secoda’s Search, and can be referenced in other resources in your workspace. It’s an especially helpful space for newer employees getting acquainted with the company or their role.
 
 Some common use cases for dictionary terms are defined metrics and company specific jargon. The overall goal of a dictionary is to get everyone in your organization speaking the same language.
 
