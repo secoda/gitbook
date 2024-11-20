@@ -1,12 +1,12 @@
 ---
 description: >-
-  Read up on some best practices and strategies around building out a Dictionary
+  Read up on some best practices and strategies around building out a Glossary
   within Secoda
 ---
 
-# Dictionary best practices
+# Glossary best practices
 
-We've put together some ideas around best practices when building out a Dictionary within Secoda. There's not one way to go about these as every organization has different requirements, but here are some ideas that have proven to work well :rocket:
+We've put together some ideas around best practices when building out a Glossary within Secoda. There's not one way to go about these as every organization has different requirements, but here are some ideas that have proven to work well :rocket:
 
 ## Choosing terms
 
@@ -25,22 +25,22 @@ If you don't have a list yet, and need to start fresh...
 ## [Templates](../resource-and-metadata-management/add-documentation/templates.md)
 
 * Utilizing the Templates feature within the UI is a great way to ensure that documentation standards are set and followed
-* Admins of each Team should create dictionary templates so that editors know what kind of information is expected to be added to each term
+* Admins of each Team should create glossary templates so that editors know what kind of information is expected to be added to each term
 
 ## Organization
 
-* Since each Team has it's own section for a dictionary, you might consider ways to organize the many terms that your organization needs to define
-* Consider using the General Team dictionary as an onboarding tool&#x20;
+* Since each Team has it's own section for a glossary, you might consider ways to organize the many terms that your organization needs to define
+* Consider using the General Team glossary as an onboarding tool&#x20;
   * Define more general terms that span across the whole organization&#x20;
   * Define company jargon and acronyms that can often get confusing for new hires
-* Team-specific dictionaries
+* Team-specific glossaries
   * Define terms by Team, based on which team _owns_ those terms and therefore owns the documentation of them
 * Consider [Nesting terms](../features/dictionary.md#nesting-terms) so that they are easier to navigate for your users
 
-## Enrich dictionary terms
+## Enrich glossary terms
 
 * When defining terms, it's often necessary to involve multiple stakeholders to reach agreement. Secoda's [verifying-resources-workflow.md](verifying-resources-workflow.md "mention") can help facilitate this process.
-* Add enrichment to dictionary terms by adding them to relevant Collections, adding owners and tags, link them to related terms
+* Add enrichment to glossary terms by adding them to relevant Collections, adding owners and tags, link them to related terms
   * Don't forget that you can make bulk changes to terms and use some of our other documentation tips listed here [documentation-best-practices.md](documentation-best-practices.md "mention")
 * This ensures that they're even more searchable within the UI, and so users can see how terms and resources are related across the workspace
 

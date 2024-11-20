@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-The AI Description Editor is a powerful tool in Secoda that integrates seamlessly into your Catalog, Dictionary, and Collections. It enables one-click bulk edits to the Description field, significantly accelerating the process of enriching metadata with consistent and relevant content.
+The AI Description Editor is a powerful tool in Secoda that integrates seamlessly into your Catalog, Glossary, and Collections. It enables one-click bulk edits to the Description field, significantly accelerating the process of enriching metadata with consistent and relevant content.
 
 ## How It Works
 
@@ -46,8 +46,8 @@ The AI can generate descriptions for any resource. Follow these steps:
 
 If you'd like to add more content to the description, you can simply click into the description to edit them.
 
-### In the Dictionary and Collections
+### In the Glossary and Collections
 
-This feature can also be used to add descriptions to your Dictionary metrics and Collections. Simply click into those sections and follow the same steps outlined above!
+This feature can also be used to add descriptions to your Glossary terms and Collections. Simply click into those sections and follow the same steps outlined above!
 
 {% embed url="https://www.loom.com/share/a13661361fbd405289f5fe3ec14fb958?sid=4bd0537f-e3aa-446f-89b1-e6a17e7b4558" %}
