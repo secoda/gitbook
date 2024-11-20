@@ -18,7 +18,7 @@ Data doesn't have meaning without a consistent understanding of how terms are de
 
 Secoda's glossary is the place to define all of your organizational terms. Glossary terms are searchable and can be found in the Glossary folders.
 
-Check out our [glossary-best-practices.md](../best-practices/glossary-best-practices.md "mention") for strategies regarding building out your Glossary.
+Check out our [dictionary-best-practices.md](../best-practices/dictionary-best-practices.md "mention") for strategies regarding building out your Glossary.
 
 {% hint style="info" %}
 Each Team is able to have it's own Glossary section, but you can also use the General Team to host terms that you don't want to assign to a Team. You can add Terms to multiple Team's Glossaries as well.
