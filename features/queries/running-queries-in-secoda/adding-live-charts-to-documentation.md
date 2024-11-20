@@ -4,30 +4,32 @@ description: >-
   instead of a query. Below are the steps to share a query as a chart.
 ---
 
-# Adding Live Charts to Documentation
+# Chart Blocks
 
-## Inserting Live Charts in Secoda
+## Create a Chart Block
 
-After executing a query, you can choose to display it to viewers as a chart instead of a query. Below are the steps to share a query as a chart.&#x20;
+After executing a query, you can choose to display the data as a chart in a chart block. Below are the steps to share a query as a chart.
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Group%20599.png>)
+1. Click `Graph Results` on the bottom of the query block
+2. Select the x-axis, y-axis, and optionally the dimension. These options will be automatically selected  based on the data in the query results.
+3. Select the format of the values (numeric, percentage, currency, decimal)
+4. Click `Create graph`
+5. The chart will be embedded directly below the query
 
-The first step to creating a chart is to [execute the query](./). Once the query has run, flip to the "chart tab", which will initially show up blank. Click on the button on the right hand side to open up the chart options.
+<figure><img src="../../../.gitbook/assets/Kapture 2024-11-20 at 23.28.00 (1).gif" alt=""><figcaption></figcaption></figure>
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Group%20600.png>)
+{% hint style="info" %}
+At this time the chart blocks only support line graphs for time-series data.
+{% endhint %}
 
-Once you open the right-hand tab, you will be able to select the chart type, axis, scale, order and sorting preference. Secoda allows editors to create:
+Additionally, a chart can be embedded anywhere within the documentation by using the `/Query Chart` command. Here's the steps to do this.
 
-* Line graphs&#x20;
-* Bar Charts
-* Pie Charts
-* Stacked Area
-* Horizontal Bar
-* Scatter Plots
+1. Use the `/Query Chart` command in the documentation editor
+2. Select a query from the Query option
+3. Select the x-axis, y-axis, and optionally dimension, and format
+4. Click `Create graph`
 
-![](<https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-11%20at%2010.37.51%20PM.png>)
-
-If you only want the chart to display, you can select "prefer chart" and viewers will only see the chart in Secoda instead of the query. Charts can be embedded anywhere in the product including collections, questions, tables, charts, queries and docs.&#x20;
+<figure><img src="../../../.gitbook/assets/Kapture 2024-11-20 at 23.36.12.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
