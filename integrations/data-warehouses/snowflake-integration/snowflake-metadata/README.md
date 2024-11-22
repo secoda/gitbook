@@ -57,10 +57,8 @@ Secoda pulls the following metadata from Snowflake:
 
 If enabled, Secoda pushes the following metadata to Snowflake:
 
-* Tables
-  * Description
-* Columns
-  * Description
+* Descriptions
+* Tags
 
 It only looks at the tables that have been published and all of their columns. If a table isn't published in Secoda and you run a sync, it will not push back to the source.
 
