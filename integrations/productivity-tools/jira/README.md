@@ -14,7 +14,7 @@ You might consider integrating your Secoda workspace with Jira if your team rece
 
 There are three steps to getting started using Jira with Secoda
 
-1. Create an Jira project to upload your issues, or locate an existing project
+1. Create a Jira project to upload your issues, or locate an existing project
 2. Prepare your Jira credentials
 3. Connect Jira to Secoda
 
@@ -30,7 +30,7 @@ Once created or found, you should see the project with its respective boards and
 
 ### Prepare Your Jira Credentials <a href="#h_1255353919" id="h_1255353919"></a>
 
-There are eight items you will need in order to integrate your Jira project into Secoda:
+There are nine items you will need in order to integrate your Jira project into Secoda:
 
 1. Project URL
 2. Project name
@@ -40,6 +40,7 @@ There are eight items you will need in order to integrate your Jira project into
 6. Account email
 7. Organization ID
 8. Organization Admin API key
+9. Webhook secret
 
 #### Project URL
 
@@ -67,7 +68,7 @@ Note: The project in the filter must be the same as the project you entered from
 
 Next, you must obtain an API token for Jira. Login to [this page](https://id.atlassian.com/manage-profile/security/api-tokens) and click "Create API token". When prompted, name the token the same name as your project, copy and save it somewhere secure, as it cannot be accessed afterwards. Enter this token into the respective section on Secoda's Jira integration setup.
 
-Note: multiple API tokens can link to the same Jira project
+Note: Multiple API tokens can link to the same Jira project
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/fbf0e0db-663e-4b87-9773-6025728db2ca.png)
 
@@ -87,14 +88,48 @@ After you have logged into your organization on `https://admin.atlassian.com/`, 
 
 <figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
+#### Webhook secret
+
+A Jira webhook is needed to use Secoda's bi-directional sync between issues and questions. To register a new webhook, go to your project's main page, open the settings menu in the top right, and click on System under Jira settings.
+
+Note: A Jira admin is needed to do this step.
+
+<figure><img src="../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+
+On this page, scroll down all the way on the left sidebar until you see the WebHooks option.
+
+<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+
+From there, click on the Create a WebHook button near the top right, which will open the webhook creation page.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+
+Now, to ensure the webhook works correctly, fill in the following fields:
+
+* Under URL, enter the Jira webhook endpoint. If you are an on-prem customer, it will be `https://your-domain.com/api/vi/integration/jira/jira-webhook/`. If you are a cloud customer, it will be `https://api.secoda.co/integration/jira/jira-webhook/`.
+* Under Secret, either generate a secret token or create one yourself. Enter this secret into the `Webhook secret` field back on the Secoda integration creation page.
+* Under Events, paste the following JQL filter into the text box: `issue.property[RestApiCall] != "True"`.
+* Enable the "updated" event under Issue, as well as the "created", "updated", and "deleted" events under Comment.
+* Scroll to the bottom and click Create to finish registering the webhook.
+
+<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+
+Your finished webhook should look something like this:
+
+<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+
+Secoda will now automatically sync a question's title, description, assignee, priority, and status with its linked Jira issue, as well as any comments that are created, updated, or deleted.
+
 ### Connect Jira to Secoda <a href="#h_448e650cba" id="h_448e650cba"></a>
 
 1. Open your Secoda integrations page
-2. Click on "New Integration" on the top left
+2. Click on "Connect Integration" in the top right
 3. Select Jira from the list of integrations
-4. Input your Jira credentials from **Prepare Your Jira Credentials** above. This includes the project URL, name, key, issues filter, API token, your Jira email, organization ID, and organization admin API key
+4. Input your Jira credentials from **Prepare Your Jira Credentials** above. This includes the project URL, name, key, issues filter, API token, your Jira email, organization ID, organization admin API key, and webhook secret
 5. Select the Teams that you wish to receive the Jira issues (appearing as Questions in Secoda)
 6. Click on "Test Connection" to save the integration
-7. Once integration is created, click on “Run Extraction” from history tab to run your first extraction
+7. Once integration is created, click on “Run Sync” from Connection tab to run your first extraction
 
 Once the Jira extraction finishes running, you will be able to view all issues from your Jira project in the desired team's Question page.
