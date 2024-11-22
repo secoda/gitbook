@@ -4,6 +4,14 @@ A data movement tool, such as an ETL (Extract, Transform, Load) tool, is used to
 
 Secoda currently integrates with the following Data Movement tools:
 
+{% content-ref url="census/" %}
+[census](census/)
+{% endcontent-ref %}
+
+{% content-ref url="stitch/" %}
+[stitch](stitch/)
+{% endcontent-ref %}
+
 {% content-ref url="airflow/" %}
 [airflow](airflow/)
 {% endcontent-ref %}
@@ -24,8 +32,28 @@ Secoda currently integrates with the following Data Movement tools:
 [hightouch](hightouch/)
 {% endcontent-ref %}
 
+{% content-ref url="apache-kafka/" %}
+[apache-kafka](apache-kafka/)
+{% endcontent-ref %}
+
+{% content-ref url="confluent-cloud/" %}
+[confluent-cloud](confluent-cloud/)
+{% endcontent-ref %}
+
 {% content-ref url="polytomic/" %}
 [polytomic](polytomic/)
+{% endcontent-ref %}
+
+{% content-ref url="matillion/" %}
+[matillion](matillion/)
+{% endcontent-ref %}
+
+{% content-ref url="airbyte/" %}
+[airbyte](airbyte/)
+{% endcontent-ref %}
+
+{% content-ref url="informatica/" %}
+[informatica](informatica/)
 {% endcontent-ref %}
 
 {% hint style="info" %}

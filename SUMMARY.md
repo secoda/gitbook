@@ -151,6 +151,8 @@
       * [Matillion Metadata Extracted](integrations/data-pipeline-tools/matillion/matillion-metadata-extracted.md)
     * [Airbyte](integrations/data-pipeline-tools/airbyte/README.md)
       * [Airbyte Extracted Metadata](integrations/data-pipeline-tools/airbyte/airbyte-extracted-metadata.md)
+    * [Informatica](integrations/data-pipeline-tools/informatica/README.md)
+      * [Informatica Metadata Extracted](integrations/data-pipeline-tools/informatica/informatica-metadata-extracted.md)
   * [Data Transformation Tools](integrations/data-transformation-tools/README.md)
     * [dbt](<integrations/data-transformation-tools/dbt/README (1).md>)
       * [dbt Cloud](integrations/data-transformation-tools/dbt/README.md)

@@ -14,8 +14,7 @@ There are four steps to connect your Matillion ETL instance with Secoda:
 
 1. Retrieve your Matillion ETL host domain
 2. Retrieve Username and Password credentials
-3. Retrieve the Project name and Group name you want to connect to
-4. Connect Matillion to Secoda
+3. Connect Matillion to Secoda
 
 #### Retrieve the host domain
 
@@ -36,5 +35,5 @@ After retrieving the host domain and user credentials, the next step is to conne
 
 1. In the Secoda App, select **Add Integration** on the integration tab
 2. Search for and select Matillion
-3. Enter your Matillion host domain, username, and password, as well as the group name and project name you want to link.
+3. Enter your Matillion host domain, username, and password
 4. Click connect
