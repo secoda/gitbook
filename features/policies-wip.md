@@ -43,7 +43,7 @@ Platform policies consist of just privileges, e.g, "Can view Analytics". Platfor
 * Who can add Owners to a Chart?
 * Who can add Tags to a Dashboard?
 
-A Metadata Policy can be broken down into 2 parts:
+A Resource Policy can be broken down into 2 parts:
 
 1. **Resources**: Which Resources that the policy applies to, e.g. "All Tables".
 2. **Privileges**: What actions are being permitted by a policy, e.g. "Add Tags".
