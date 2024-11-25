@@ -88,6 +88,7 @@ These privileges are for Secoda operators to access & manage the administrative 
 | Manage Properties         | Allow user to create, update, delete Properties                                |
 | Manage Monitors           | Allow a user to create, update, delete Monitors                                |
 | Manage Automations        | Allow a user to create, update, delete Automations                             |
+| Manage Analytics          | Allow a user to create, update, delete Analytics Reports                       |
 | Manage Views              | Allow user to create, update, and delete any Views.                            |
 | Manage Questions          | Allow a user to mark question as answered.                                     |
 | Manage Workspace Settings | Allow user to view and change platform-level settings, like security settings. |
