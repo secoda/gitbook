@@ -80,7 +80,7 @@ These permissions are for Secoda operators to access & manage the administrative
 | Manage Users & Groups | Allow user to create, remove, and update users and groups on Secoda.                                                         |
 | Manage Integrations   | Allow user to manage integrations to Secoda.                                                                                 |
 
-**Product Features**[**​**](https://datahubproject.io/docs/authorization/policies#product-features)
+**Tools**
 
 | Permission                | Description                                                                    |
 | ------------------------- | ------------------------------------------------------------------------------ |
@@ -95,18 +95,19 @@ These permissions are for Secoda operators to access & manage the administrative
 | View Analytics            | Allow user to view the Secoda analytics dashboard.                             |
 | View Monitors             | Allow user to create, update, and delete any Monitors.                         |
 
-**Resource Management**[**​**](https://datahubproject.io/docs/authorization/policies#entity-management)
+**Organization**
 
 | Permission         | Description                                           |
 | ------------------ | ----------------------------------------------------- |
 | Manage Teams       | Allow user to create and remove Teams.                |
 | Manage Glossary    | Allow user to create, edit, and remove Glossary Terms |
+| Manage Documents   | Allow a user to created, edit, and remove Documents   |
 | Manage Collections | Allow user to create, edit, and remove Collections    |
 | Manage Tags        | Allow user to create and remove Tags.                 |
 
 
 
-**Resource Permissions**[**​**](https://datahubproject.io/docs/authorization/policies#entity-privileges)
+**Resources**[**​**](https://datahubproject.io/docs/authorization/policies#entity-privileges)
 
 | Permission      | Description                                                                                 |
 | --------------- | ------------------------------------------------------------------------------------------- |
@@ -115,7 +116,7 @@ These permissions are for Secoda operators to access & manage the administrative
 | Delete Resource | Allow user to delete this resource.                                                         |
 | Create Resource | Allow user to create a resource if it doesn't exist.                                        |
 
-**Property Permissions**[**​**](https://datahubproject.io/docs/authorization/policies#aspect-privileges)
+**Properties**
 
 | Permission             | Description                                                   |
 | ---------------------- | ------------------------------------------------------------- |
