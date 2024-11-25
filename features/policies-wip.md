@@ -20,20 +20,20 @@ Policies are only enabled for Premium and Enterprise tiers.
 
 ### What is a Policy?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-policy" id="what-is-a-policy"></a>
 
-Policies consist of a set of privileges (see all privileges below) that can be applied to Roles which are applied to users. There are 2 types of Policies within Secoda:
+Policies consist of a set of permissions (see all permissions below) that can be applied to Roles which are applied to users. There are 2 types of Policies within Secoda:
 
 1. Platform Policies
 2. Resource Policies
 
 #### Platform Policies[​](https://datahubproject.io/docs/authorization/policies#platform-policies) <a href="#platform-policies" id="platform-policies"></a>
 
-**Platform** policies determine who has platform-level privileges on Secoda. Examples of these privileges include
+**Platform** policies determine who has platform-level permissions on Secoda. Examples of these permissions include
 
 * Managing Users & Groups
 * Viewing the Secoda Analytics
 * Managing Policies&#x20;
 
-Platform policies consist of just privileges, e.g, "Can view Analytics". Platform policies do not include a specific "target resource" against which the Policies apply. Instead, they simply serve to assign specific privileges.
+Platform policies consist of just permissions, e.g, "Can view Analytics". Platform policies do not include a specific "target resource" against which the Policies apply. Instead, they simply serve to assign specific permissions.
 
 #### Resource Policies[​](https://datahubproject.io/docs/authorization/policies#metadata-policies) <a href="#metadata-policies" id="metadata-policies"></a>
 
@@ -46,7 +46,7 @@ Platform policies consist of just privileges, e.g, "Can view Analytics". Platfor
 A Resource Policy can be broken down into 2 parts:
 
 1. **Resources**: Which Resources that the policy applies to, e.g. "All Tables".
-2. **Privileges**: What actions are being permitted by a policy, e.g. "Add Tags".
+2. **Permissions**: What actions are being permitted by a policy, e.g. "Add Tags".
 
 **Resources**[**​**](https://datahubproject.io/docs/authorization/policies#resources)
 
@@ -65,15 +65,15 @@ Out of the box, Secoda is deployed with a set of default Policies. The set of de
 
 <figure><img src="../.gitbook/assets/Policy.png" alt=""><figcaption></figcaption></figure>
 
-### Privileges[​](https://datahubproject.io/docs/authorization/policies#reference) \[WIP] <a href="#reference" id="reference"></a>
+### Permissions[​](https://datahubproject.io/docs/authorization/policies#reference) \[WIP] <a href="#reference" id="reference"></a>
 
-#### Platform-level privileges[​](https://datahubproject.io/docs/authorization/policies#platform-level-privileges) <a href="#platform-level-privileges" id="platform-level-privileges"></a>
+#### Platform-level permissions[​](https://datahubproject.io/docs/authorization/policies#platform-level-privileges) <a href="#platform-level-privileges" id="platform-level-privileges"></a>
 
-These privileges are for Secoda operators to access & manage the administrative functionality of the system.
+These permissions are for Secoda operators to access & manage the administrative functionality of the system.
 
 **Access & Credentials**[**​**](https://datahubproject.io/docs/authorization/policies#access--credentials)
 
-| Privilege             | Description                                                                                                                  |
+| Permission            | Description                                                                                                                  |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Generate API Keys     | Allow user to generate personal access tokens for use with Secoda APIs.                                                      |
 | Manage Policies       | Allow user to create and remove access control policies. Be careful - Users with this privilege are effectively super users. |
@@ -82,7 +82,7 @@ These privileges are for Secoda operators to access & manage the administrative 
 
 **Product Features**[**​**](https://datahubproject.io/docs/authorization/policies#product-features)
 
-| Privilege                 | Description                                                                    |
+| Permission                | Description                                                                    |
 | ------------------------- | ------------------------------------------------------------------------------ |
 | Manage Features           | A catch-all for all features                                                   |
 | Manage Properties         | Allow user to create, update, delete Properties                                |
@@ -97,7 +97,7 @@ These privileges are for Secoda operators to access & manage the administrative 
 
 **Resource Management**[**​**](https://datahubproject.io/docs/authorization/policies#entity-management)
 
-| Privilege          | Description                                           |
+| Permission         | Description                                           |
 | ------------------ | ----------------------------------------------------- |
 | Manage Teams       | Allow user to create and remove Teams.                |
 | Manage Glossary    | Allow user to create, edit, and remove Glossary Terms |
@@ -106,18 +106,18 @@ These privileges are for Secoda operators to access & manage the administrative 
 
 
 
-**Resource Privileges**[**​**](https://datahubproject.io/docs/authorization/policies#entity-privileges)
+**Resource Permissions**[**​**](https://datahubproject.io/docs/authorization/policies#entity-privileges)
 
-| Privilege       | Description                                                                                 |
+| Permission      | Description                                                                                 |
 | --------------- | ------------------------------------------------------------------------------------------- |
 | View Resource   | Allow user to view the resource page.                                                       |
 | Edit Resource   | Allow user to edit any information about an resource. Super user privileges for the entity. |
 | Delete Resource | Allow user to delete this resource.                                                         |
 | Create Resource | Allow user to create a resource if it doesn't exist.                                        |
 
-**Property Privileges**[**​**](https://datahubproject.io/docs/authorization/policies#aspect-privileges)
+**Property Permissions**[**​**](https://datahubproject.io/docs/authorization/policies#aspect-privileges)
 
-| Privilege              | Description                                                   |
+| Permission             | Description                                                   |
 | ---------------------- | ------------------------------------------------------------- |
 | Edit Tags              | Allow user to add and remove tags to a resource.              |
 | Edit Collections       | Allow user to add and remove collections to a resource.       |
@@ -129,5 +129,3 @@ These privileges are for Secoda operators to access & manage the administrative 
 | Edit Lineage           | Allow user to add and remove lineage edges for this resource. |
 | Edit Owners            | Allow user to add and remove owners of a resource.            |
 | Edit PII               | Allow a user to update the PII of a resource.                 |
-
-Test
