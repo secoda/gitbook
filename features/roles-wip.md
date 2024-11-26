@@ -5,35 +5,71 @@ noIndex: true
 
 # Roles \[WIP]
 
-### Custom Roles
+### VIntroduction[​](https://datahubproject.io/docs/authorization/policies#introduction) <a href="#introduction" id="introduction"></a>
 
-Custom Roles are associated with [policies-wip.md](policies-wip.md "mention") to control who can do what to which resources in Secoda.&#x20;
+Secoda provides the ability to declare fine-grained access controls through Custom Roles. Some examples of roles that can be created are:
+
+* Table Owners should be allowed to edit documentation, but not Tags.
+* Jenny, our Data Steward, should be allowed to edit Tags for any Dashboard, but no other metadata.
+* John, a Data Analyst, should be allowed to edit the Related Resources for a specific Data Pipeline he is a downstream consumer of.
+* The Data Platform team should be allowed to manage users and groups, view platform analytics, and manage roles.
 
 {% hint style="info" %}
-Custom Roles are only available for Premium and Enterprise tiers.&#x20;
+Custom Roles are only enabled for Premium and Enterprise tiers.
 {% endhint %}
 
-### Default Roles
+### What is a Custom Role?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-policy" id="what-is-a-policy"></a>
 
-By default the Admin, Editor, and Viewer roles are predefined to control certain privileges.&#x20;
+A Custom Role consists of a set of permissions (see all permissions below) that can be applied to users. There are 2 types of Permissions within Secoda:
 
-**Access & Credentials**[**​**](https://datahubproject.io/docs/authorization/policies#access--credentials)
+1. Platform Permissions
+2. Resource Permissions
 
-<table><thead><tr><th>Privilege</th><th>Description</th><th width="85" data-type="checkbox">Admin</th><th width="82" data-type="checkbox">Editor</th><th width="70" data-type="checkbox">View</th></tr></thead><tbody><tr><td>Generate API Keys</td><td>Allow user to generate personal access tokens for use with Secoda APIs.</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Manage Policies</td><td>Allow user to create and remove access control policies. Be careful - Users with this privilege are effectively super users.</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Manage Users &#x26; Groups</td><td>Allow user to create, remove, and update users and groups on Secoda.</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Manage Integrations</td><td>Allow user to manage integrations to Secoda.</td><td>true</td><td>false</td><td>false</td></tr></tbody></table>
+#### Platform Permissions[​](https://datahubproject.io/docs/authorization/policies#platform-policies) <a href="#platform-policies" id="platform-policies"></a>
 
-**Product Features**[**​**](https://datahubproject.io/docs/authorization/policies#product-features)
+**Platform** permissions determine who has platform-level access and management on Secoda. Examples of these permissions include
 
-<table><thead><tr><th width="253">Privilege</th><th width="246">Description</th><th width="87" data-type="checkbox">Admin</th><th width="81" data-type="checkbox">Editor</th><th width="92" data-type="checkbox">Viewer</th></tr></thead><tbody><tr><td>Manage Features</td><td>A catch-all for all features</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Manage Properties</td><td>Allow user to create, update, delete Properties</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Manage Monitors</td><td>Allow a user to create, update, delete Monitors</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Manage Automations</td><td>Allow a user to create, update, delete Automations</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Manage Views</td><td>Allow user to create, update, and delete any Views.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Manage Questions</td><td>Allow a user to mark question as answered.</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Manage Workspace Settings</td><td>Allow user to view and change platform-level settings, like security settings.</td><td>true</td><td>false</td><td>false</td></tr><tr><td>View Analytics</td><td>Allow user to view the Secoda analytics dashboard.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>View Monitors</td><td>Allow user to create, update, and delete any Monitors.</td><td>true</td><td>true</td><td>false</td></tr></tbody></table>
+* Managing Users & Groups
+* Viewing the Secoda Analytics
+* Managing Roles&#x20;
 
-**Resource Management**[**​**](https://datahubproject.io/docs/authorization/policies#entity-management)
+Platform permissions consist of just permissions, e.g, "Can view Analytics". Platform permissions do not include a specific "target resource" against which the Permission applies to. Instead, they simply serve to assign specific permissions.
 
-<table><thead><tr><th width="249">Privilege</th><th width="251">Description</th><th width="86" data-type="checkbox">Admin</th><th width="89" data-type="checkbox">Editor</th><th data-type="checkbox">Viewer</th></tr></thead><tbody><tr><td>Manage Teams</td><td>Allow user to create and remove Teams.</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Manage Glossary</td><td>Allow user to create, edit, and remove Glossary Terms</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Manage Collections</td><td>Allow user to create, edit, and remove Collections</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Manage Tags</td><td>Allow user to create and remove Tags.</td><td>true</td><td>true</td><td>false</td></tr></tbody></table>
+#### Resource Permissions[​](https://datahubproject.io/docs/authorization/policies#metadata-policies) <a href="#metadata-policies" id="metadata-policies"></a>
 
-**Entity Privileges**[**​**](https://datahubproject.io/docs/authorization/policies#entity-privileges)
+**Resource** permissions determine who can do what to which resources. For example,
 
-<table><thead><tr><th width="249">Privilege</th><th>Description</th><th width="77" data-type="checkbox">Admin</th><th width="83" data-type="checkbox">Editor</th><th width="83" data-type="checkbox">Viewer</th></tr></thead><tbody><tr><td>View Resource</td><td>Allow user to view the resource page.</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Edit Resource</td><td>Allow user to edit any information about an resource. Super user privileges for the entity.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Delete Resource</td><td>Allow user to delete this resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Create Resource</td><td>Allow user to create a resource if it doesn't exist.</td><td>true</td><td>true</td><td>false</td></tr></tbody></table>
+* Who can edit Tables Documentation & Related Resources?
+* Who can add Owners to a Chart?
+* Who can add Tags to a Dashboard?
 
-**Property Privileges**[**​**](https://datahubproject.io/docs/authorization/policies#aspect-privileges)
+A Resource Permission can be broken down into 2 parts:
 
-<table><thead><tr><th width="249">Privilege</th><th width="254">Description</th><th width="81" data-type="checkbox">Admin</th><th width="82" data-type="checkbox">Editor</th><th data-type="checkbox">Viewer</th></tr></thead><tbody><tr><td>Edit Tags</td><td>Allow user to add and remove tags to a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Collections</td><td>Allow user to add and remove collections to a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Description</td><td>Allow user to edit the description of a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Documentation</td><td>Allow user to edit documentation associated with a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Status</td><td>Allow user to edit the status of a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Teams</td><td>Allow user to edit the Teams of a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Custom Properties</td><td>Allow user to edit the Custom Properties of a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Lineage</td><td>Allow user to add and remove lineage edges for this resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit Owners</td><td>Allow user to add and remove owners of a resource.</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Edit PII</td><td>Allow a user to update the PII of a resource.</td><td>true</td><td>true</td><td>false</td></tr></tbody></table>
+1. **Resources**: Which Resources that the permission applies to, e.g. "All Tables".
+2. **Permissions**: What actions are being permitted by a permission, e.g. "Manage Tags".
+
+**Resources**[**​**](https://datahubproject.io/docs/authorization/policies#resources)
+
+Subsets of resources can be associated with the permission by leveraging [filters.md](filters.md "mention"). This uses the same capabilities that the filters in search, catalog, and many places in the application uses. Some examples of filters include:
+
+1. Resources from a specific integration, e.g, Snowflake
+2. Resources of a specific type, e.g, Tables
+3. Resources that contain a specific tag
+4. Resources that are marked as PII
+
+### Managing Roles[​](https://datahubproject.io/docs/authorization/policies#managing-policies) <a href="#managing-policies" id="managing-policies"></a>
+
+Policies can be managed on the page **Settings > Members > Roles** tab. The `Roles` tab will only be visible to those users having the `Manage Roles` privilege.
+
+Out of the box, Secoda is deployed with a set of default Roles. The set of default roles are Viewers, Editors, and Admins.
+
+### Permissions[​](https://datahubproject.io/docs/authorization/policies#reference) \[WIP] <a href="#reference" id="reference"></a>
+
+**Platform**[**​**](https://datahubproject.io/docs/authorization/policies#product-features)
+
+<table><thead><tr><th width="222">Privilege</th><th width="109">Admin</th><th width="117">Editor</th><th width="107">Viewer</th></tr></thead><tbody><tr><td>Users</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Roles</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Groups</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>API Keys</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Integrations</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr><tr><td>Monitors</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Automations</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Views</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Questions</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Secoda AI</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>DQS</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Tags</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Properties</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Teams</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Import &#x26; Export</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr><tr><td>Billing</td><td><code>Manage</code></td><td><code>None</code></td><td><code>None</code></td></tr><tr><td>Workspace Settings</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr></tbody></table>
+
+**Resources**
+
+<table><thead><tr><th width="249">Permission</th><th width="123">Admin</th><th width="108">Editor</th><th>Viewer</th></tr></thead><tbody><tr><td>Resource</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Description</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Documentation</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Tags</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Collections</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Status</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Teams</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Lineage</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Owners</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>PII</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Verified</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Related Resources</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Custom Properties</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr></tbody></table>
 
