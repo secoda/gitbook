@@ -11,7 +11,7 @@ description: >-
 
 Role-Based Access Control (RBAC) in Secoda is designed to ensure that only authorized users have access to specific resources, protecting sensitive information and enhancing platform functionality. This guide outlines how Secoda utilizes Roles, Groups, Teams, and Collections to manage access and permissions efficiently.
 
-Permissions in Secoda are inherited hierarchically. When you grant someone access to a Team, they automatically gain access to all resources within that Team. Similarly, giving someone access to a Collection grants them access to all resources within that Collection. If you'd like to limit resources access at an individual level, check out [sharing-resources.md](roles/sharing-resources.md "mention").
+Permissions in Secoda are inherited hierarchically. When you grant someone access to a Team, they automatically gain access to all resources within that Team. Similarly, giving someone access to a Collection grants them access to all resources within that Collection. If you'd like to limit resources access at an individual level, check out [sharing-resources.md](../features/sharing-resources.md "mention").
 
 ## **Teams**&#x20;
 
@@ -35,7 +35,7 @@ Each member in Secoda is assigned a role that defines what they can do:
 **Role Customization at the Team Level:** In Secoda, you can further customize access by adjusting a member’s role within specific teams. For example, a member might be an Editor at the organization level but restricted to a Viewer role in a sensitive team. This flexibility allows for precise control over who can view and edit resources within each team, enhancing security and compliance.
 {% endhint %}
 
-For more details on roles, see [roles](roles/ "mention").
+For more details on roles, see [roles.md](roles.md "mention").
 
 ## **Groups**&#x20;
 

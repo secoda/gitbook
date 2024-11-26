@@ -21,7 +21,7 @@ After selecting an integration, you'll find the **Enabled** toggle in the top ri
 In the top right corner, you'll also see the **Run Sync** button. This action triggers a manual sync. Clicking this button allows you to choose whether the sync should **Pull** or **Push** metadata.&#x20;
 
 {% hint style="info" %}
-Not all integrations will support both Pull and Push. Learn more about what integrations are supported for Push Metadata [here](../features/push-metadata-to-source.md).&#x20;
+Not all integrations will support both Pull and Push. Learn more about what integrations are supported for Push Metadata [here](push-metadata-to-source.md).&#x20;
 {% endhint %}
 
 ### Syncs

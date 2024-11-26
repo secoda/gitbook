@@ -36,7 +36,7 @@ Secoda offers the ability to [Preview](../../features/data-previews.md) the firs
 
 This behaviour does not extend to [Queries](../../features/queries/). If a query is run on a table, the results are shown exactly as returned from the Source. This means that if the query results are returned with data from columns marked as PII, the user making the query will be able to view the potentially sensitive information.
 
-We recommend setting up the permissions for each Integration according to the governance policies for your organizational structure. Preview and Queries can be disabled for the workspace, or available to specific User Groups/Users. More information about how to set up permissions for Queries and Previews can be found in their respective documentation. Information about roles within Secoda can be found [here](../../user-management/roles/).
+We recommend setting up the permissions for each Integration according to the governance policies for your organizational structure. Preview and Queries can be disabled for the workspace, or available to specific User Groups/Users. More information about how to set up permissions for Queries and Previews can be found in their respective documentation. Information about roles within Secoda can be found [here](../../user-management/roles.md).
 
 ## Removing PII Tags
 

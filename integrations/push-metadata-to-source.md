@@ -11,7 +11,8 @@ Secoda supports this feature for the following integrations:
 * [**BigQuery**](https://docs.secoda.co/integrations/data-warehouses/bigquery-integration/bigquery-metadata#metadata-pushed)
 * [**Snowflake**](https://docs.secoda.co/integrations/data-warehouses/snowflake-integration/snowflake-metadata#metadata-pushed)
 * [**Redshift**](https://docs.secoda.co/integrations/data-warehouses/redshift-integration/redshift-metadata#metadata-pushed)
-* [**Postgres**](../integrations/databases/postgres-integration/postgres-metadata.md#metadata-pushed)
+* [**Postgres**](databases/postgres-integration/postgres-metadata.md#metadata-pushed)
+* Tableau
 
 Click into the pages linked above to see which metadata is synced.
 

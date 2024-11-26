@@ -10,7 +10,7 @@ Monitoring plays a crucial role in maintaining data quality by allowing you to c
 
 Admins and Editors can access existing Monitors from the Monitors page accessible via the side panel. Here, you can view all monitors and incidents across the platform and create new ones.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/337f012c-4ced-4657-a69b-819b044089a0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 To learn about how our current customers are using Monitors in Secoda to improve their data quality, check out this list of [monitoring-use-cases.md](monitoring/monitoring-use-cases.md "mention").
 
@@ -22,8 +22,13 @@ To learn about how our current customers are using Monitors in Secoda to improve
 
 Select from a variety of Monitors to suit your needs:
 
+**Tables**
+
 * **Row Count** - The number of rows over time
 * **Freshness** - The time elapsed since last update
+
+**Columns**
+
 * **Cardinality** - The number of distinct values of a given column
 * **Maximum** - The highest value of a numeric column
 * **Minimum** - The lowest value of a numeric column
@@ -32,34 +37,46 @@ Select from a variety of Monitors to suit your needs:
 * **Unique Percentage** - The percentage of values in a column that are unique
 * [**Custom SQL**](monitoring.md#custom-sql-monitors) - Define a monitor by writing your own SQL query
 
+**Pipelines**
+
+* **Job duration** - Average length of job runs
+* **Job error rate** - Percentage of failed job runs
+* **Job success rate -** Percentage of successful job runs
+
+**Snowflake**
+
+* **Cost -** Daily total cost
+* **Query Volume -** Daily queries run
+* **Compute Credits -** Daily compute credits consumed
+* **Storage Usage -** Total storage usage
+
 The monitor will alert if any of these values are higher or lower than expected.
 
 ## Creating Monitors
 
 Monitors can be created via the **Monitors** section in the sidebar or through the **Monitors tab** on the resource page:
 
-1.  Navigate to "**Monitors**" and click "**Add monitor."**&#x20;
+1. Navigate to "**Monitors**" and click "**Create monitor."**&#x20;
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cedab835-f00f-4bef-b5c1-2aeb80fa032a.png" alt=""><figcaption><p>Add monitor option on the main monitors page</p></figcaption></figure>
-2.  Choose the monitor type and select the integration.
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
-    &#x20;(if adding a new Monitor from the resource itself, the integration will be pre-selected):
+2. Choose the monitor type and select the integration. If adding a new Monitor from the resource itself, the integration will be pre-selected.
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d82f0b01-677b-419d-b7c8-123755b818ca.png" alt=""><figcaption></figcaption></figure>
-3.  Select one or multiple resources that you'd like to add the monitor to.
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/475c98f5-c217-477b-8c36-265884ea5fee.png" alt=""><figcaption><p>configuration window for monitors<br></p></figcaption></figure>
+3. Select one or multiple resources that you'd like to add the monitor to.
+
+<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+
 4. Adjust the **Threshold** and **Schedule** to your preferred configuration.
-   * **Schedule Options:** Daily, Every 12, 6 or 3 hours, or Hourly
-   * **Threshold:** Automatic or Manual
-     * Note: For Automatic thresholds to be set, it can take 4 days for hourly, 6 days for multiple times a day, and 8-9 days for daily monitors.&#x20;
+
+* **Schedule Options:** Daily, Every 12, 6 or 3 hours, or Hourly
+* **Threshold:** Automatic or Manual
+  * Note: For Automatic thresholds to be set, it can take 4 days for hourly, 6 days for multiple times a day, and 8-9 days for daily monitors.&#x20;
+
 5. Once configured, click add monitor and it show now show up within the list of monitors. You can view and edit the configurations from the sidebar on the monitor page
 
-<div align="center">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c6c8550e-a537-479d-814e-a158003a4e42.png" alt="" width="317"><figcaption><p>Configuration details</p></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** You can only add a monitor type which each of the columns support.
@@ -73,31 +90,19 @@ A user is be able to create a monitor that runs custom SQL to create an output. 
 
 Follow the same steps as above, but choose "Custom SQL" as the Monitor type. After creating, click into it so that you can add your desired query in the right side panel.
 
-<div align="center">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4721c037-cdf0-4071-99fa-2e1dbd07023c.png" alt=""><figcaption><p>Custom SQL monitor</p></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
 ### WHERE clause
 
 Standard monitors such as nullness, row count, etc can be modified with custom SQL that’s added as a WHERE clause within the standard SQL.
 
-<div align="center">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0e0b3170-52c0-43f1-882b-b3747af5f804.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0e0b3170-52c0-43f1-882b-b3747af5f804.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure></div>
 
 ## Managing Monitors
 
 View **Status**, **Last** and **Next Run** details, and a **Chart Visualization** of the monitor's historical performance.
 
-<div align="left">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f470b8d4-08eb-47ce-b27d-24b1bb09a2d1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f470b8d4-08eb-47ce-b27d-24b1bb09a2d1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Thresholds and Incidents
 
@@ -172,11 +177,7 @@ Monitoring functionality is primarily intended for users with Edit or Admin role
 
 Stay informed about the status of your monitors by adjusting your Notification settings. Specify your preferred channels for receiving alerts—whether through Slack DMs, email, or directly within the app.&#x20;
 
-<div align="left">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications in Settings</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications in Settings</p></figcaption></figure></div>
 
 Notifications for monitor incidents are issued only after the **first occurrence** following a successful run. The same incident will not trigger new alerts unless the issue has been resolved and another incident occurs. This policy minimizes repetitive alerts and ensures that notifications remain meaningful and actionable.
 
@@ -191,7 +192,3 @@ Admins can direct monitoring notifications to specific Slack channels, distinct 
 Email notifications provide direct links to the relevant sections in Secoda. As shown in the image below, clicking the "Open Secoda" link takes you to the Inbox notification, while other links direct you to specific incidents or tables.
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Image explaining the links in email notifications</p></figcaption></figure>
-
-## Video resource
-
-{% embed url="https://www.loom.com/share/03c92029f9cd4de4ae11653a2cea6c0c?sid=202df101-4494-44f7-8594-b0606f3cf5d9" %}

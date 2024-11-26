@@ -33,7 +33,7 @@ You can hover over a resources that's tagged using the @ command to see a **prev
 
 Use the '/' command to add custom elements to a document.&#x20;
 
-Add embeds, files, links, tables, and many more interesting documentation formats to make data documentation more interesting. See a whole list of [embeds.md](../embeds.md "mention").
+Add embeds, files, links, tables, and many more interesting documentation formats to make data documentation more interesting. See a whole list of [embeds.md](embeds.md "mention").
 
 ### Anchor Links
 

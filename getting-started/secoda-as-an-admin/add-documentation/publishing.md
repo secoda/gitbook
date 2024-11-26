@@ -4,11 +4,11 @@ description: >-
   once you feel it is ready for viewers to see.
 ---
 
-# Publish and Draft Statuses
+# Publishing
 
 ## **About Publishing** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-### **Understanding 'Status' Metadata**
+### **Understanding Status**
 
 * Each resource in Secoda is marked with a "Status" indicating whether it is "Published" or "Draft".
 * **Auto-Publish Setting:** Admins can configure settings to automatically set all new or imported resources to "Published" or "Draft". If auto-publish is enabled, all resources become visible to editors, viewers, and guests within their respective teams upon creation.
