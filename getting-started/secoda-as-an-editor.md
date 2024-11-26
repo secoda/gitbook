@@ -27,7 +27,7 @@ As an Editor in Secoda, you are pivotal in enriching data resources and fosterin
 **Customize and Configure:**
 
 * [ ] **Notification Settings:** Set your [notification preferences ](../features/notifications.md)to stay updated on changes and updates.
-* [ ] **Personal Homepage Customization:** Tailor your [personal homepage](../features/custom-homepage.md) with links to frequently accessed resources for quicker navigation.
+* [ ] **Personal Homepage Customization:** Tailor your [personal homepage](../features/homepage.md) with links to frequently accessed resources for quicker navigation.
 
 **Explore Further:**
 

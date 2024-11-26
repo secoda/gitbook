@@ -33,8 +33,8 @@ You can change your personal homepage background, and Admins can edit the Team h
 
 You can also pin resources to the homepage to point users in the right direction when they first join your workspace. To learn more about the home page, see the Custom Homepage link below!
 
-{% content-ref url="../../features/custom-homepage.md" %}
-[custom-homepage.md](../../features/custom-homepage.md)
+{% content-ref url="../../features/homepage.md" %}
+[homepage.md](../../features/homepage.md)
 {% endcontent-ref %}
 
 ### Documents and Dictionary appearance

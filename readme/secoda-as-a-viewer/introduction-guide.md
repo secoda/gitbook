@@ -94,4 +94,4 @@ See our doc on the[ **steps to setting up Collections within Secoda**](../../fea
 
 ### 4. Customize your workspace
 
-Each user has their own individual Home page! Learn how you can [**customize it here**](../../features/custom-homepage.md#personal-homepage) to add personal notes and flag specific resources you often visit.
+Each user has their own individual Home page! Learn how you can [**customize it here**](../../features/homepage.md#personal-homepage) to add personal notes and flag specific resources you often visit.

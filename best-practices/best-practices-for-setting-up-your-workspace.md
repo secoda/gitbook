@@ -59,4 +59,4 @@ Develop [Search views](../features/views.md) to aid Search navigation for new us
 
 ## **Enhancing the Homepage**&#x20;
 
-The [#team-homepage](../features/custom-homepage.md#team-homepage "mention") is the first interface users interact with in Secoda. Enhance user experience by pinning critical resources and writing notes in the Notepad feature. Explore how-to videos on optimizing Homepage functionality [here](../features/custom-homepage.md).
+The [#team-homepage](../features/homepage.md#team-homepage "mention") is the first interface users interact with in Secoda. Enhance user experience by pinning critical resources and writing notes in the Notepad feature. Explore how-to videos on optimizing Homepage functionality [here](../features/homepage.md).
