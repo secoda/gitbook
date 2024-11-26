@@ -35,7 +35,7 @@ Use Confluence as the source of truth if the documents will continue to be edite
 1. Connect the Confluence integration and set a schedule of how often you'd like it to be run.
 2. Consider setting imported Confluence documents to Read-Only in Secoda to maintain consistency and prevent accidental edits:
    1. **Create an** [**Automation**](../../../features/automations.md) **to Add Docs to a Collection**: Automatically add all Confluence documents to a specific Collection within Secoda.
-   2. **Set Read-Only Permissions**: Configure the Collection [permissions](../../../user-management/roles/sharing-resources.md) to be "Can read" for all users. This prevents editing and ensures that documents are only **viewed** within Secoda, since edits cannot be pushed from Secoda > Confluence.
+   2. **Set Read-Only Permissions**: Configure the Collection [permissions](../../../features/sharing-resources.md) to be "Can read" for all users. This prevents editing and ensures that documents are only **viewed** within Secoda, since edits cannot be pushed from Secoda > Confluence.
 3. Identify Confluence documents in Secoda through the Source property in the [Sidebar](../../../resource-and-metadata-management/resource-sidebar.md). If you'd like to identify these documents more clearly, we'd recommend making a [Custom Tag](../../../resource-and-metadata-management/tags/custom-tags.md) called Confluence, and adding it to the documents.&#x20;
 
 {% hint style="info" %}

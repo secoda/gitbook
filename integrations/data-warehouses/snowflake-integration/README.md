@@ -14,7 +14,7 @@ There are four steps to connect Snowflake with Secoda.&#x20;
 
 1. Create Role for Secoda
 2. Create User for Secoda
-3. Whitelist [Secoda IP Address](./#h\_e7eac6e3f5)
+3. Whitelist [Secoda IP Address](./#h_e7eac6e3f5)
 4. Connect Snowflake to Secoda in the Secoda UI
 
 You **must** be either an `ACCOUNTADMIN`, or have `MANAGE GRANTS` privileges in order to run the commands necessary to connect.&#x20;
@@ -78,7 +78,7 @@ ALTER USER SECODA_USER SET DEFAULT_ROLE=SECODA
 ```
 
 {% hint style="info" %}
-If you would like to enable the [Push to Snowflake](../../../features/push-metadata-to-source.md) feature, the SECODA\_USER must be the owner of the tables, have INSERT privileges on the table, and MODIFY privileges on the schema and database.&#x20;
+If you would like to enable the [Push to Snowflake](../../push-metadata-to-source.md) feature, the SECODA\_USER must be the owner of the tables, have INSERT privileges on the table, and MODIFY privileges on the schema and database.&#x20;
 {% endhint %}
 
 #### Key-Pair Authentication

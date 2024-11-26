@@ -16,7 +16,7 @@ When rolling out a tool like Secoda, it is important to define roles within your
 * Who will be the data champions who will own the data resources? How do we define ownership?&#x20;
 * Which users and stakeholders will we onboard? Which Teams do we need to create, and which resources will they need access to?
 
-Once you have a grasp on the makeup of your Teams and users, [**roles**](../user-management/roles/) can be assigned using our RBAC approach, owners can be set, and [**Teams**](../user-management/teams.md) can be created. [Set permissions at the Team level](../user-management/teams.md#editing-member-settings) so that only the right users have access to editing the metadata in that Team. Enforce [ownership](../resource-and-metadata-management/assigning-owners.md) of critical data so that it is kept up to date.
+Once you have a grasp on the makeup of your Teams and users, [**roles**](../user-management/roles.md) can be assigned using our RBAC approach, owners can be set, and [**Teams**](../user-management/teams.md) can be created. [Set permissions at the Team level](../user-management/teams.md#editing-member-settings) so that only the right users have access to editing the metadata in that Team. Enforce [ownership](../resource-and-metadata-management/assigning-owners.md) of critical data so that it is kept up to date.
 
 {% hint style="info" %}
 Consider creating an [Automation](../features/automations.md) that assigns ownership to owner-less resources, to ensure that resources don't get lost. Use the template we provided in the UI called "Assign ownership for schema tables".
