@@ -16,7 +16,7 @@ The following variables can be added to the `api` and `worker` (if worker exists
 
 ### Modules
 
-**AI Assistant **_**(recommended)**_
+**AI Assistant&#x20;**_**(recommended)**_
 
 ```
 OPENAI_API_KEY=
@@ -29,7 +29,7 @@ OPENAI_API_KEY=sk-abc12345EXAMPLExyz67890
 [openai-api-key-creation-on-premise.md](openai-api-key-creation-on-premise.md)
 {% endcontent-ref %}
 
-**File Uploads **_**(recommended)**_
+**File Uploads&#x20;**_**(recommended)**_
 
 ```
 PRIVATE_BUCKET=
