@@ -5,7 +5,7 @@ noIndex: true
 
 # Roles \[WIP]
 
-### VIntroduction[​](https://datahubproject.io/docs/authorization/policies#introduction) <a href="#introduction" id="introduction"></a>
+### Introduction[​](https://datahubproject.io/docs/authorization/policies#introduction) <a href="#introduction" id="introduction"></a>
 
 Secoda provides the ability to declare fine-grained access controls through Custom Roles. Some examples of roles that can be created are:
 
