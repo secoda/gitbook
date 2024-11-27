@@ -30,7 +30,7 @@ Below is an example of the results from exporting your data:
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/image%20(5)%20(1).png" alt=""><figcaption></figcaption></figure>
 
-## Preparing Your CSV for Import
+## Preparing a CSV for import
 
 Before importing new or updated metadata into Secoda:
 
@@ -53,7 +53,6 @@ Before importing new or updated metadata into Secoda:
 * **collections:** List of associated collection names, e.g., \['Marketing', 'Engineering'].
 * **owners:** List of associated owner emails that should correspond to existing users in Secoda, e.g., \['brittany@secoda.co'].
 * **tags:** List of associated tag names, e.g., \['production'].
-* **custom properties:** If applicable, replace 'property' with the name of your custom property and add values accordingly. Add separate columns for multiple custom properties. Please remove it if you don't plan on adding any custom properties for your resource.
 
 ## Importing Updated Metadata into Secoda
 
@@ -62,7 +61,7 @@ Before importing new or updated metadata into Secoda:
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-05 at 12.31.29 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Verifying Imported Properties
+## Verifying an import
 
 After importing, it's crucial to verify that all properties have been correctly updated:
 
