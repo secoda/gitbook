@@ -21,7 +21,7 @@ After this is completed, the custom property will appear up in the Catalog table
 
 <figure><img src="../.gitbook/assets/Kapture 2024-10-22 at 18.00.31.gif" alt=""><figcaption></figcaption></figure>
 
-## Bulk update of Custom Properties
+## Bulk update of (New) Custom Properties
 
 To efficiently update custom properties to multiple resources you can use the **Import CSV** functionality or the **API**:
 
@@ -31,7 +31,7 @@ To efficiently update custom properties to multiple resources you can use the **
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-11-27 at 10.07.47 AM.png" alt=""><figcaption><p>Sample columns in CSV file</p></figcaption></figure>
 
-1. **Use the API:** Create a python script that updates the custom properties.
+2. **Use the API:** Create a custom script to update the custom properties.
 
 {% content-ref url="../secoda-api.md" %}
 [secoda-api.md](../secoda-api.md)
@@ -39,7 +39,7 @@ To efficiently update custom properties to multiple resources you can use the **
 
 ***
 
-## (Legacy) Adding Custom Properties to individual resources
+## (Legacy) Adding Custom Properties to sidebar of individual resource
 
 **Via side panel:**
 
@@ -52,13 +52,6 @@ To efficiently update custom properties to multiple resources you can use the **
 <figure><img src="../.gitbook/assets/Kapture 2024-06-05 at 13.58.01.gif" alt=""><figcaption><p>Creating a Property</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Kapture 2024-06-05 at 13.58.39 (1).gif" alt=""><figcaption><p>Editing &#x26; Deleting a Property</p></figcaption></figure>
-
-**For all columns in a specific trable:**
-
-1. **Navigate to the Table:** Go to the table where you want to add properties to columns.
-2. **Add the Property:** Use the designated button as shown in the image below to add properties directly to all columns within the table. This will create additional columns in the table's catalog, similar to the Description and Type columns.
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-02 at 4.32.04 PM.png" alt=""><figcaption><p>Custom Property on Table Columns</p></figcaption></figure>
 
 ***
 
