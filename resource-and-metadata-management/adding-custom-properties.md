@@ -8,7 +8,7 @@ description: Custom properties allow you add additional context to resources in 
 
 Custom properties allow you to enrich the metadata of your resources within Secoda, providing additional context and enhancing organization. This guide outlines the methods to add custom properties to individual resources and in bulk.
 
-## Adding Custom Properties to all resources
+## (New) Adding Custom Properties to all resources
 
 To add a custom property to all resources by resource type, you can follow these steps.&#x20;
 
@@ -17,13 +17,31 @@ To add a custom property to all resources by resource type, you can follow these
 3. Select the label, type, and resource types that you'd like the property to be applied to.
 4. Review your property and click "Confirm".
 
-After this is completed, the custom property will show up in the Catalog table and the pages for all of the resources of the resource type(s) selected.&#x20;
+After this is completed, the custom property will appear up in the Catalog table and the pages for the visibility type(s) selected.&#x20;
 
 <figure><img src="../.gitbook/assets/Kapture 2024-10-22 at 18.00.31.gif" alt=""><figcaption></figcaption></figure>
 
-## Adding Custom Properties to individual resources
+## Bulk update of Custom Properties
 
-**Via Side Panel:**
+To efficiently update custom properties to multiple resources you can use the **Import CSV** functionality or the **API**:
+
+1. **Import CSV file:** Ensure the custom properties are visible on the table you want to bulk update. Then click "Export page as CSV". This will be your template. Open the CSV export and modify the columns containing custom properties. "String" custom properties can contain up to 255 characters of text. "Select", "User", or "Resource" custom properties must contain an array of (v4) uuids. Then click "Import custom properties from CSV" and select the file you modified.
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-27 at 10.01.19 AM.png" alt=""><figcaption><p>Export page as CSV</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-27 at 10.07.47 AM.png" alt=""><figcaption><p>Sample columns in CSV file</p></figcaption></figure>
+
+1. **Use the API:** Create a python script that updates the custom properties.
+
+{% content-ref url="../secoda-api.md" %}
+[secoda-api.md](../secoda-api.md)
+{% endcontent-ref %}
+
+***
+
+## (Legacy) Adding Custom Properties to individual resources
+
+**Via side panel:**
 
 1. **Access the Resource:** Navigate to the specific resource (document, table, column, etc.) within Secoda.
 2. **Add the Property:** Use the "+ Add Property" button located on the right side panel.
@@ -35,28 +53,14 @@ After this is completed, the custom property will show up in the Catalog table a
 
 <figure><img src="../.gitbook/assets/Kapture 2024-06-05 at 13.58.39 (1).gif" alt=""><figcaption><p>Editing &#x26; Deleting a Property</p></figcaption></figure>
 
-**For all Columns in a Specific Table:**
+**For all columns in a specific trable:**
 
 1. **Navigate to the Table:** Go to the table where you want to add properties to columns.
 2. **Add the Property:** Use the designated button as shown in the image below to add properties directly to all columns within the table. This will create additional columns in the table's catalog, similar to the Description and Type columns.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-07-02 at 4.32.04 PM.png" alt=""><figcaption><p>Custom Property on Table Columns</p></figcaption></figure>
 
-## Bulk Update of Custom Properties
-
-To efficiently update custom properties to multiple resources you can use the **Import & Export** functionality or the **API**:
-
-1. **Use Import & Export Feature:** Prepare a CSV for importing metadata into Secoda. Include an additional column for each custom property you wish to add. This method is ideal for updating properties across various resources simultaneously.
-
-{% content-ref url="import-and-export-data.md" %}
-[import-and-export-data.md](import-and-export-data.md)
-{% endcontent-ref %}
-
-2. **Use the API:** Create a python script that updates the custom&#x20;
-
-{% content-ref url="../secoda-api.md" %}
-[secoda-api.md](../secoda-api.md)
-{% endcontent-ref %}
+***
 
 
 
