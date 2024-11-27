@@ -8,7 +8,7 @@ description: Custom properties allow you add additional context to resources in 
 
 Custom properties allow you to enrich the metadata of your resources within Secoda, providing additional context and enhancing organization. This guide outlines the methods to add custom properties to individual resources and in bulk.
 
-## (New) Adding Custom Properties to all resources
+## (New) Adding Custom Properties to the catalog
 
 To add a custom property to all resources by resource type, you can follow these steps.&#x20;
 
@@ -21,7 +21,7 @@ After this is completed, the custom property will appear up in the Catalog table
 
 <figure><img src="../.gitbook/assets/Kapture 2024-10-22 at 18.00.31.gif" alt=""><figcaption></figcaption></figure>
 
-## Bulk update of (New) Custom Properties
+## Bulk updating (New) Custom Properties
 
 To efficiently update custom properties to multiple resources you can use the **Import CSV** functionality or the **API**:
 
@@ -39,9 +39,9 @@ To efficiently update custom properties to multiple resources you can use the **
 
 ***
 
-## (Legacy) Adding Custom Properties to sidebar of individual resource
+## (Legacy) Adding Custom Properties to the properties sidebar
 
-**Via side panel:**
+This feature is considered **legacy**, and we recommend adding custom properties to the catalog (above).
 
 1. **Access the Resource:** Navigate to the specific resource (document, table, column, etc.) within Secoda.
 2. **Add the Property:** Use the "+ Add Property" button located on the right side panel.
