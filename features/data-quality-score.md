@@ -97,7 +97,7 @@ DQS consists of four main dimensions, each reflecting essential aspects of data 
 
 **4. Accuracy (30 Points)**
 
-The Accuracy score integrates results from dbt tests or Secoda Monitors, with future plans to include tools like Monte Carlo and Great Expectations.
+The Accuracy score integrates results from Secoda Monitors or 3rd party tests like dbt, Monte Carlo and Great Expectations.
 
 * **Nullness (10 Points)**:&#x20;
   * 5 points awarded if a nullness test is configured for the table; otherwise, it scores 0.
