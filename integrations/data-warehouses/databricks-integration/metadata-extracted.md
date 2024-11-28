@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from Databricks
 ---
 
-# Metadata Extracted
+# Databricks Metadata Extracted
 
 Secoda pulls the following metadata from Databricks:
 
@@ -28,7 +28,7 @@ Secoda pulls the following metadata from Databricks:
   * Title
   * Description
   * Type
-* Lineage
+* Lineage via Unity Catalog
   * Databricks Table <-> Databricks Table
   * Databricks Column <-> Databricks Column&#x20;
   * Databricks Table <-> Tables from other sources
