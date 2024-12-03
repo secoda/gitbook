@@ -12,26 +12,22 @@ The goal of the Chrome extension feature is to make the capabilities of Secoda m
 
 It's main capabilities include:
 
-* Accessing and editing Secoda metadata directly in tools like Looker, Tableau, Snowflake, BigQuery, etc.
-* Accessing and searching resource lineage from within these tools
-* Starting conversations with Secoda AI from within these tools
-* Highlighting text and searching Secoda from anywhere
+* Searching, accessing, and editing Secoda metadata directly in tools like Looker, Tableau, Snowflake, BigQuery, and others. See [#supported-tools](chrome-extension.md#supported-tools "mention")for the full list.
+* Accessing and searching resource lineage from within these tools.
+* Starting conversations with Secoda AI and asking the data team questions from within these tools.
+* Highlighting text and searching Secoda from anywhere on the web.
 
 Once installed and configured, the Chrome extension will appear as a Secoda icon in the bottom right hand of your screen for easy access within a supported tool.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c9cd2319-71cf-47f5-bf5a-b5519c504e83.png" alt=""><figcaption><p>Chrome extension in Snowflake UI</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Kapture 2024-12-03 at 16.27.51.gif" alt=""><figcaption></figcaption></figure>
 
 ## How to Install and Authenticate
 
 1. The first step is to ensure that you have a Secoda account, and that your workspace has connected at least one of the [#supported-tools](chrome-extension.md#supported-tools "mention") below.
-2. Download the extension in the web store using[ <mark style="color:blue;">**this link**</mark>](https://chrome.google.com/webstore/detail/secoda/akcolkhleaionhppniljgglpeeohkljk)<mark style="color:blue;">.</mark>
+2. Download the Secoda Chrome Extension in the web store using[ <mark style="color:blue;">**this link**</mark>](https://chrome.google.com/webstore/detail/secoda/akcolkhleaionhppniljgglpeeohkljk)<mark style="color:blue;">.</mark>
 3. Click **Add to Chrome.**
-4. Go to any of the supported tools sites, and click the Secoda icon on the bottom right of the screen.
-5. Enter your email associated with your Secoda account.
-6. If you're already logged into the Secoda app, it will bring you to Secoda and prompt you to **Authenticate Chrome Extension**. Click Authenticate.
-7. If you're not logged into the Secoda app, you will have to use your Secoda email to log into the app and then Authenticate the extension.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/551ce12b-88d8-4dae-a450-d628d3cc0c2c.png" alt=""><figcaption></figcaption></figure>
+4. Open the Secoda Chrome Extension and click **Authenticate.**
+5. Go through the authentication flow in Secoda. Verify that the connection is made in the Chrome Extension settings at [https://app.secoda.co/settings/chrome-extension](https://app.secoda.co/settings/chrome-extension)
 
 ## Capabilities
 
@@ -43,11 +39,7 @@ Access resource metadata in the supported tools to gain context about ownership,
 
 You also have the ability to edit resources from the extension and push these changes into Secoda.
 
-<div align="left">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/80a69395-a7fe-437c-8be9-76e32f22a8f5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Your permissions in Secoda will control what metadata you can see and edit when using the extension in other supported tools. For example, viewers in Secoda will not be able to push any edits.
@@ -57,21 +49,19 @@ Your permissions in Secoda will control what metadata you can see and edit when 
 
 See the upstream and downstream lineage of the resource without having to leave the other tool that you are currently working in. Click into Lineage to see the relationships at different depths, use the provided search bar to search, and access the lineage graph within the Secoda UI.
 
-<div align="left">
+<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1b66daa8-5db4-404c-be3b-d097ed9fc61f.png" alt=""><figcaption></figcaption></figure>
+### Search Resources
 
-</div>
+If you have a question about any resource in your Secoda workspace you can use the universal search to find, access, and understand from any data tool.
 
-### Chat with Secoda AI
+<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
-Do you have a question about a resource for the AI Assistant? Ask AI directly in the pop-up and this will automatically open a conversation in Secoda with that prompt.
+### Ask Questions to Secoda AI and the Data Team
 
-<div align="left">
+Do you have a question about a resource for the AI Assistant or the Data Team? Click on the links in the main page of the Chrome Extension to be redirected to Secoda for asking these questions.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/13141863-01ff-4aeb-b829-6e4d827f082c.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 
 ### Highlight Text to Search
 
