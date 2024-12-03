@@ -6,6 +6,14 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2024.4.1 (December 3, 2024)
+
+**Bug Fixes**
+
+* Fixed Preferences tab on the Integration page not showing
+* Fixed Secoda AI not returning a response
+* Fixed MongoDB integration not connecting
+
 ### v2024.4.0 (October 2, 2024)
 
 **New Features**
