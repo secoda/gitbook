@@ -133,3 +133,13 @@ Secoda will now automatically sync a question's title, description, assignee, pr
 7. Once integration is created, click on “Run Sync” from Connection tab to run your first extraction
 
 Once the Jira extraction finishes running, you will be able to view all issues from your Jira project in the desired team's Question page.
+
+### Push to Jira
+
+Secoda Questions can be pushed to Jira as an Issue which will sync the properties found in this page [metadata-extracted.md](metadata-extracted.md "mention"). To push a Question to Jira go to the Questions page and click the "Create Issue" button on the right hand side bar.
+
+<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+
+Select name, description, type, and priority then create the issue. After the issue is creating all of the properties will be synced bi-directionally between Secoda and Jira.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
