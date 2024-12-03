@@ -43,3 +43,5 @@ Learn more about our Questions feature by exploring the pages below!
 [slack-less-than-greater-than-questions-workflow.md](../best-practices/slack-less-than-greater-than-questions-workflow.md "mention")
 
 [populate-questions-with-faqs.md](../getting-started/secoda-as-an-admin/populate-questions-with-faqs.md "mention")
+
+[#push-to-jira](../integrations/productivity-tools/jira/#push-to-jira "mention")
