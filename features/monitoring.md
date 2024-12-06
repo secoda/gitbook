@@ -10,7 +10,7 @@ Monitoring plays a crucial role in maintaining data quality by allowing you to c
 
 Admins and Editors can access existing Monitors from the Monitors page accessible via the side panel. Here, you can view all monitors and incidents across the platform and create new ones.
 
-<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98a9d2a6-c1ce-4827-b2cb-e923f4ab00be.png" alt=""><figcaption></figcaption></figure>
 
 To learn about how our current customers are using Monitors in Secoda to improve their data quality, check out this list of [monitoring-use-cases.md](monitoring/monitoring-use-cases.md "mention").
 
@@ -58,15 +58,15 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 
 1. Navigate to "**Monitors**" and click "**Create monitor."**&#x20;
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9aca8ba5-cbcf-4995-93d0-0f89a8429658.png" alt=""><figcaption></figcaption></figure>
 
 2. Choose the monitor type and select the integration. If adding a new Monitor from the resource itself, the integration will be pre-selected.
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d2a75a0e-0dce-432a-9073-12767e01e133.png" alt=""><figcaption></figcaption></figure>
 
 3. Select one or multiple resources that you'd like to add the monitor to.
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/aa102bfb-7046-457a-a27c-29034cca940a.png" alt=""><figcaption></figcaption></figure>
 
 4. Adjust the **Threshold** and **Schedule** to your preferred configuration.
 
@@ -76,7 +76,7 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 
 5. Once configured, click add monitor and it show now show up within the list of monitors. You can view and edit the configurations from the sidebar on the monitor page
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1c9e6d48-4f85-4648-a70d-042cb01ed60f.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** You can only add a monitor type which each of the columns support.
@@ -90,7 +90,7 @@ A user is be able to create a monitor that runs custom SQL to create an output. 
 
 Follow the same steps as above, but choose "Custom SQL" as the Monitor type. After creating, click into it so that you can add your desired query in the right side panel.
 
-<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f1c3d6ac-41ea-4965-af82-eabe7b4c5e5c.png" alt=""><figcaption></figcaption></figure>
 
 ### WHERE clause
 
@@ -138,7 +138,7 @@ The **Monitoring Annotations** feature provides a way to mark specific data poin
 
 By tagging data points through Monitoring Annotations, you help Secoda’s monitoring become more attuned to your data’s unique patterns, reducing false alerts and improving the identification of true anomalies.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-11-04 at 11.46.05.gif" alt=""><figcaption><p>Monitor Annotations</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/90a0dd5c-8350-41e5-b118-e8ce9c66f46d.gif" alt=""><figcaption><p>Monitor Annotations</p></figcaption></figure>
 
 ### Errors
 
@@ -191,4 +191,4 @@ Admins can direct monitoring notifications to specific Slack channels, distinct 
 
 Email notifications provide direct links to the relevant sections in Secoda. As shown in the image below, clicking the "Open Secoda" link takes you to the Inbox notification, while other links direct you to specific incidents or tables.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Image explaining the links in email notifications</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0b353c94-27f9-4dc3-bdab-fdf60460795f.png" alt=""><figcaption><p>Image explaining the links in email notifications</p></figcaption></figure>

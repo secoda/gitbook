@@ -21,19 +21,19 @@ There are three steps to get started using Coalesce with Secoda:
 
 You can determine your Coalesce host by logging into Coalesce and taking the base url from the link. In the example below, the host would be `https://app.coalescesoftware.io`
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7b890fdb-a02e-404c-bea6-76760e981fd1.png" alt=""><figcaption></figcaption></figure>
 
 #### **Retrieve your API key** <a href="#h_a2cb9baed8" id="h_a2cb9baed8"></a>
 
 For Secoda to retrieve metadata from Coalesce, you need to get your Access Token. To do this, go to **Deploy > Generate Access Token** and copy the token.
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2024-08-07 at 9.45.50 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/385c40e5-87d1-4db7-a71e-ffc810022bdf.png" alt=""><figcaption></figcaption></figure>
 
 **Retrieve your Environment ID**
 
 On the **Deploy** page, get the ID of the environment that you want to import into Secoda. For the example below, it would be 3.
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2024-08-07 at 9.48.53 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b1602513-c428-4aa8-9840-c2ce3660d9a5.png" alt=""><figcaption></figcaption></figure>
 
 **Connect Coalesce to Secoda**
 

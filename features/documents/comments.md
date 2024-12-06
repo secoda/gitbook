@@ -14,7 +14,7 @@ Comments will allow users to align on definitions, internal projects, task manag
 2. Highlight text that you'd like to add a comment to by clicking and dragging over the text
 3. Click the comment icon, type your comment and click the arrow to share
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-23 at 9.03.54 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/01c5a0c3-2c9b-40f9-b426-24da57fd7a76.png" alt=""><figcaption></figcaption></figure>
 
 ### Other Comments capabilities
 
@@ -24,4 +24,4 @@ Comments will allow users to align on definitions, internal projects, task manag
 * Reply to comments in the thread
 * Resolve comments by clicking the check mark :heavy\_check\_mark: on the comment
 
-<figure><img src="../../.gitbook/assets/Kapture 2024-02-22 at 18.01.41.gif" alt=""><figcaption><p>Comments Video Resource</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ca88443c-1f3c-4b61-8a8f-bc70bdabfa82.gif" alt=""><figcaption><p>Comments Video Resource</p></figcaption></figure>

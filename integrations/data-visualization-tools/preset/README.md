@@ -19,7 +19,7 @@ There are 3 steps to connect Preset to Secoda:
 
 Go to your Teams. Look at Manage User Settings > API keys
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-08 at 9.49.00 AM.png" alt=""><figcaption><p>Where to look for your credentials</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2fbe58cc-12b7-4f45-8bb4-995d12c454e1.png" alt=""><figcaption><p>Where to look for your credentials</p></figcaption></figure>
 
 Generate a new API key and save the Token and Secret for the next step.
 

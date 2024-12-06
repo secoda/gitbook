@@ -14,7 +14,7 @@ Filters are powerful tools in Secoda that enhance your ability to efficiently ex
 
 Use Secoda's [search.md](search.md "mention") function to apply filters and narrow down your results. This is particularly useful when searching for specific data characteristics across your entire database.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-05-01 at 10.32.53 (1).gif" alt=""><figcaption><p>Filtering Search</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2486cba9-359b-4190-bf17-634b41c8d3a9.gif" alt=""><figcaption><p>Filtering Search</p></figcaption></figure>
 
 ### Filter categories
 
@@ -40,7 +40,7 @@ We support the following operators in Secoda, which will show up depending on th
 * _is any of, is not_ and _is not set_ when multiple options are included in the filter.
 * _is on or before_ or _after_ for date-related filters.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-05-20 at 17.28.39.gif" alt=""><figcaption><p>Advanced filtering in Search</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9a35f094-a99f-4f61-9b9e-ceb706b758f6.gif" alt=""><figcaption><p>Advanced filtering in Search</p></figcaption></figure>
 
 ### AI Filters
 
@@ -70,13 +70,13 @@ To utilize the advanced filtering capabilities:
    * Click 'Add filter' above the table and begin typing to add or adjust filters without pre-selecting a category. Tip: You can type a value like "Snowflake" instead of having to click through "Integrations" + find and click Snowflake.
    *   Alternatively, click on the column header that corresponds to the metadata type you want to filter (e.g., Integration, Type, Owners).
 
-       <figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 12.11.31.gif" alt=""><figcaption><p>Accessing Filters</p></figcaption></figure>
+       <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/82f1031c-02aa-4831-9ede-d7169472bcaa.gif" alt=""><figcaption><p>Accessing Filters</p></figcaption></figure>
 2. **View Filtering Options:**
    * Upon clicking the column header, a menu will appear offering several actions:
      * **Sort Ascending/Descending:** Order the metadata based on the selected column.
      *   **Add Filter:** Customize your view by selecting specific criteria. This option is particularly useful for narrowing down your data visibility according to specific requirements.&#x20;
 
-         <figure><img src="../.gitbook/assets/Screenshot 2024-06-10 at 12.15.14 PM.png" alt=""><figcaption><p>Filtering Options</p></figcaption></figure>
+         <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2ac2e05f-a8c7-4134-934d-950bc83b9e00.png" alt=""><figcaption><p>Filtering Options</p></figcaption></figure>
 3. **Apply Filters:**
    * Select ‘Add Filter’ and choose the desired criteria from the list to refine your Catalog view.
 
@@ -92,4 +92,4 @@ For example, to find resources without descriptions:
 
 Next you can apply descriptions in bulk using the [ai-description-editor.md](../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention")!
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 12.18.17.gif" alt=""><figcaption><p>Filtering for Description 'is not set'</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/49766660-37a7-4a00-ad2f-67743f5323f5.gif" alt=""><figcaption><p>Filtering for Description 'is not set'</p></figcaption></figure>

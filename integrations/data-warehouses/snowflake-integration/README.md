@@ -135,11 +135,11 @@ Snowflake has made some recent changes where URLs can be different than the stan
 1. Clicking on the account selector in Snowflake
 2. Hovering over the specific account you want to connect to\
    \
-   <img src="../../../.gitbook/assets/ui-snowsight-account-identifier (1).png" alt="" data-size="original">\
+   <img src="https://secoda-public-media-assets.s3.amazonaws.com/660640ab-8e40-41a1-be24-6da71bc4b39f.png" alt="" data-size="original">\
 
 3. Then clicking the copy account URL button on the 3rd section that shows the accounts details (organization id, \
    \
-   ![](<../../../.gitbook/assets/Screenshot 2024-02-29 at 3.15.51 PM.png>)
+   ![](<https://secoda-public-media-assets.s3.amazonaws.com/f461ba8b-ea39-402c-849a-e84b96d73a16.png>)
 
 This should create a URL ending with `snowflakecomputing.com`and you can follow the steps abvoe to determine the account id.&#x20;
 

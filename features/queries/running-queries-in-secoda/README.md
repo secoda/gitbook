@@ -16,19 +16,19 @@ By using the `/query` command, editors can embed live queries into table documen
 4. View the query results share it with other users
 5. Optionally, rename the query block
 
-<figure><img src="../../../.gitbook/assets/Kapture 2024-11-20 at 23.12.02.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/062f5729-af95-4544-85da-692101614dd1.gif" alt=""><figcaption></figcaption></figure>
 
 ## Sharing queries
 
 Query blocks are useful for showing viewers how to use queries or if editors want to share queries for viewers. Viewers are unable to execute queries but can read the results of the query blocks and view the query. Query blocks can be directly linked to with the `Copy link` option
 
-<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0edb3b26-cb55-4248-902d-3623935d9b53.png" alt=""><figcaption></figcaption></figure>
 
 ## Exporting Query Results
 
 An admin or editor can export the full list of data associated with the query results to CSV. The download option is found at the bottom of the query block.
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/00f67df7-9ea0-4b23-af31-f5c674e39806.png" alt=""><figcaption></figcaption></figure>
 
 ## Query Permissions
 

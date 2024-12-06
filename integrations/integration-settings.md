@@ -40,7 +40,7 @@ If you'd like to change this default behaviour, navigate to the [Resource Manage
 
 In addition the Teams that a Database, Schema, or Group are associated with can be configured on this tab under the "Team visibility" column. By default, the Teams will be inherited from the Integration settings but you can override the Teams on any Database, Schema, or Group.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/fccf81f7-f9b1-443f-9e3a-41301152545b.png" alt=""><figcaption></figcaption></figure>
 
 ### Preferences
 

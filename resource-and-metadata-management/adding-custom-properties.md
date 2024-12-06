@@ -19,7 +19,7 @@ To add a custom property to all resources by resource type, you can follow these
 
 After this is completed, the custom property will appear up in the Catalog table and the pages for the visibility type(s) selected.&#x20;
 
-<figure><img src="../.gitbook/assets/Kapture 2024-10-22 at 18.00.31.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2ed01729-ee98-45cf-91af-ff535b112638.gif" alt=""><figcaption></figcaption></figure>
 
 ## Bulk updating (New) Custom Properties
 
@@ -27,9 +27,9 @@ To efficiently update custom properties to multiple resources you can use the **
 
 1. **Import CSV file:** Ensure the custom properties are visible on the table you want to bulk update. Then click "Export page as CSV". This will be your template. Open the CSV export and modify the columns containing custom properties. "String" custom properties can contain up to 255 characters of text. "Select", "User", or "Resource" custom properties must contain an array of (v4) uuids. Then click "Import custom properties from CSV" and select the file you modified.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-11-27 at 10.01.19 AM.png" alt=""><figcaption><p>Export page as CSV</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/fcb195ee-fdf4-4f2f-8b0d-7a96c8e9bb47.png" alt=""><figcaption><p>Export page as CSV</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-11-27 at 10.07.47 AM.png" alt=""><figcaption><p>Sample columns in CSV file</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/fbe8be70-1a30-4635-825c-ff45e44798c7.png" alt=""><figcaption><p>Sample columns in CSV file</p></figcaption></figure>
 
 2. **Use the API:** Create a custom script to update the custom properties.
 
@@ -49,9 +49,9 @@ This feature is considered **legacy**, and we recommend adding custom properties
 4. **Edit the Property:** Click into the value to edit the Property.
 5. **Delete the Property:** Click into the Property type to Delete it.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-05 at 13.58.01.gif" alt=""><figcaption><p>Creating a Property</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f593e100-1e1a-4a70-a78e-0681afd23a03.gif" alt=""><figcaption><p>Creating a Property</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-05 at 13.58.39 (1).gif" alt=""><figcaption><p>Editing &#x26; Deleting a Property</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/65c7fa9e-d3e7-4959-b08d-c21e99c85b67.gif" alt=""><figcaption><p>Editing &#x26; Deleting a Property</p></figcaption></figure>
 
 ***
 

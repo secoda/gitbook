@@ -19,7 +19,7 @@ By clicking on the Queries tab from a resource in Secoda, you can access the res
 
 During the extraction process, Secoda retrieves the **last 24 hours of queries** run on the resource directly from the integration. Any new, previously unseen queries are added to the list of queries associated with that resource in Secoda. This comprehensive list can be found under the Queries tab on the resource page, as shown below.
 
-<figure><img src="../../.gitbook/assets/Kapture 2024-08-06 at 15.34.20.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6ba6695e-8db9-46f6-94e4-8e6a3afc0f98.gif" alt=""><figcaption></figcaption></figure>
 
 ### How to Access Queries Run on a Resource
 
@@ -43,7 +43,7 @@ To view detailed information about queries run on a specific resource, follow th
      * **Referenced Resources**: View the list of resources that the query references.
      * **Filter History**: Filter the history to see data from the last 30 days, 7 days, or 1 day.
 
-<figure><img src="../../.gitbook/assets/Kapture 2024-08-06 at 15.46.35.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0f34d014-88bd-43a8-940e-64276a9bac79.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Queries can easily be copied, and run directly in Secoda through the [Query editor within a document](running-queries-in-secoda/).

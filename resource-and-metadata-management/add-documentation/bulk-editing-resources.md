@@ -45,7 +45,7 @@ To help you visualize the process of making bulk edits in Secoda, we've included
 
 As you can see below, we've filtered for PII resources, selected all, chose the Verify action, and applied the bulk changes.
 
-<figure><img src="../../.gitbook/assets/Kapture 2024-04-30 at 16.04.21 (1).gif" alt=""><figcaption><p>Bulk Catalog Edits</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2594fc01-214b-44c0-aca1-6df508f854d3.gif" alt=""><figcaption><p>Bulk Catalog Edits</p></figcaption></figure>
 
 ## **Bulk Editing with Automations**
 

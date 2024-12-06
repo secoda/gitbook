@@ -18,7 +18,7 @@ description: >-
 * **Draft Resources:** Admins and editors can move resources to the "Draft" status, which hides them from viewers and guests. This ensures that only fully prepared and relevant resources are accessible.
 * **Auto-Publish Children:** If a table is set to "Published", all its columns are automatically published as well. The status for these columns is read-only, as demonstrated in the provided video:
 
-<figure><img src="../../../.gitbook/assets/Kapture 2024-05-16 at 13.44.54 (2).gif" alt=""><figcaption><p>Read-only columns</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a58761c2-dfdf-4deb-b6e9-594e36011845.gif" alt=""><figcaption><p>Read-only columns</p></figcaption></figure>
 
 ## Publishing settings
 
@@ -49,7 +49,7 @@ You can automate the process of setting the publishing status of your resources 
 * **Configuring Automations:** To automate the publishing status, navigate to the Automations section in the left sidebar. Here, you can create a new automation or modify an existing one to include publishing actions.
 * **Setting Properties:** Within the automation setup, you can choose 'Mark as Published/Draft' as a property to configure. This allows you to specify whether resources meeting your automation criteria will be automatically published or set to draft.
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Automating Publishing</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0e59afe6-46f9-46f3-8765-cd0537567c4c.png" alt=""><figcaption><p>Automating Publishing</p></figcaption></figure>
 
 ## Audit log
 

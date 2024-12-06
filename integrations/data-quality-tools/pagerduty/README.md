@@ -24,7 +24,7 @@ To create a new service in PagerDuty:
 4. Provide a name, set an escalation policy, and assign it to team members.
 5. If prompted, create an integration using "Events API v2".
 
-<figure><img src="../../../.gitbook/assets/pagerduty/integration-create-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9cd18c0f-2508-405e-8861-8933f69a8f7f.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Create an "Events API v2" Integration
 
@@ -39,7 +39,7 @@ To create a new integration:
 5. Click "Add Integration" or "Add another integration".
 6. Select "Events API v2" and add it to your service.
 
-<figure><img src="../../../.gitbook/assets/pagerduty/service-add-integration.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/40268254-14af-428e-a9f5-30196a36ce91.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Connect the Integration with Secoda
 
@@ -47,7 +47,7 @@ To create a new integration:
 2. Open the "Events API v2" section.
 3. Copy the Integration Key from the configuration section.
 
-<figure><img src="../../../.gitbook/assets/pagerduty/integration-key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/122c813b-0ced-4a0c-a1f1-699cd6535c22.png" alt=""><figcaption></figcaption></figure>
 
 ## Post-Integration Steps
 

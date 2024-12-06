@@ -21,15 +21,15 @@ Once logged in to Cyera, follow these steps to create an API token:
 
 1. Click on the **Settings** icon on the bottom left
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-15 at 11.07.19 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0fffabf6-8568-4993-93cb-529747e53297.png" alt=""><figcaption></figcaption></figure>
 
 2. Click on **API Token** on the popup
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-15 at 11.07.34 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98bf146b-f098-4c75-a7ca-f815dd4b90f7.png" alt=""><figcaption></figcaption></figure>
 
 3. Generate a token name `secoda`. For lowest level of permissions, select `Viewer` role
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-15 at 11.10.24 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/708b0b7f-e8d1-48ff-9f90-4aca42a3a8b9.png" alt=""><figcaption></figcaption></figure>
 
 4. Copy and save your API token and secret, as it can't be accessed again
 
@@ -46,6 +46,6 @@ After retrieving the API token token and secret, the next step is to connect it 
 
 Resources classified in Cyera are automatically tagged with the same classifications in Secoda. You can view the list of Cyera tags in the [Tags](../../resource-and-metadata-management/tags/) tab under Workspace Settings.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-09 at 4.22.20 PM.png" alt=""><figcaption><p>Example of Cyera Tags in Secoda</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f09efcd8-3441-482e-b894-bcedc0b846e0.png" alt=""><figcaption><p>Example of Cyera Tags in Secoda</p></figcaption></figure>
 
 :warning:Resources tagged in Cyera that do not exist in Secoda will not have their classifications ingested into Secoda.

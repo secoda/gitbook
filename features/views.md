@@ -19,7 +19,7 @@ You can save filters for quick access to common searches and subsets of resource
 
 **Note:** Personal views are only visible to you and can be used to customize your workspace without affecting team settings.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-11-04 at 15.03.16.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bb1ac275-69ca-49ae-a752-6d8121e14cae.gif" alt=""><figcaption></figcaption></figure>
 
 ### **Search Views**
 
@@ -30,4 +30,4 @@ You can save filters for quick access to common searches and subsets of resource
 
 **Note:** Personal views are only visible to you and can be used to customize your workspace without affecting team settings.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 12.24.20.gif" alt=""><figcaption><p>Search Views</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ed5703e1-28ce-4cdd-bc2f-2b03586cd135.gif" alt=""><figcaption><p>Search Views</p></figcaption></figure>

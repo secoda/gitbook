@@ -20,14 +20,14 @@ As an Admin, you can create templates to standardize and streamline various task
 
 From this view, you can create new templates or edit existing ones.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-02 at 4.29.55 PM.png" alt=""><figcaption><p>Dictionary template</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b83b18ed-f3cd-406e-a156-b4f3ad882ce0.png" alt=""><figcaption><p>Dictionary template</p></figcaption></figure>
 
 **For the Documentation Tab:**
 
 1. Go to the Documentation tab on an asset.
 2. Select "Use template" to create or use an existing template.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 at 4.47.41 PM.png" alt=""><figcaption><p>Documentation tab template</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5ed3f8fa-7a6f-4558-b2ab-68bb23529ff9.png" alt=""><figcaption><p>Documentation tab template</p></figcaption></figure>
 
 ### Setting a Template as default
 
@@ -38,7 +38,7 @@ You can set a template as the default format for editors and viewers:
 
 In this menu, you can also delete and edit templates.
 
-&#x20;![](<../../.gitbook/assets/Screenshot 2024-02-28 at 3.04.45 PM.png>)
+&#x20;![](<https://secoda-public-media-assets.s3.amazonaws.com/5aa5c9fc-8e09-47d2-8fa7-c1a51fae7f65.png>)
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

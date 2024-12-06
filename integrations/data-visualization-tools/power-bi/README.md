@@ -24,7 +24,7 @@ To see Lineage to your PowerBI resources from external sources, make sure you en
 * Enhance admin APIs responses with detailed metadata
 * Enhance admin APIs responses with DAX and mashup expressions and click apply to the entire organization&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-21 at 10.13.34 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/90778d2c-d201-41e2-a551-4456f67ef8c2.png" alt=""><figcaption></figcaption></figure>
 
 ## Option 2: Azure AD App
 

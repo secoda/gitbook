@@ -51,15 +51,15 @@ Use command+f to find words and replace them with something else.
 
 * Build a Table of Contents in Documents by using the / command and either scrolling or typing "Table of Contents" to insert it.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-25 at 4.37.52 PM.png" alt=""><figcaption><p>Table of Contents</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e963446f-1b43-4594-9de8-471c8fa753d6.png" alt=""><figcaption><p>Table of Contents</p></figcaption></figure>
 
 * Download Documents as PDF, JSON, CSV files
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-12 at 10.14.51 AM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c83cd61b-092e-4c55-a218-b87ba419c2d2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 *   Duplicate a Document
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2024-04-12 at 10.12.55 AM.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/50b4e90a-40af-40d2-96ec-2053bcde896c.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 * You can write live [queries](../queries/ "mention") in Documents for adhoc analysis.

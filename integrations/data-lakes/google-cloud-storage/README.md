@@ -47,7 +47,7 @@ Generate HMAC keys for the newly created service account. Access key and the sec
 
 
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-07-24 at 1.59.18 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d4c613ef-314d-4b74-860a-14b96da148da.png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;Connect Google Cloud Storage to Secoda
 
