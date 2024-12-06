@@ -16,7 +16,7 @@ You can learn more about all of the capabilities of this integration here: [slac
 4. Choose which **Teams** you'd like to include. We recommend choosing all so that everyone across your organization has access to the Secoda integration for Slack.
 5. Click **Connect.** Note: This connection will need to be approved by your Slack admin manager.
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3af6bcb5-c935-46d2-ae16-74faba13cd6f.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Notifications Channel** = Where users receive notifications on everything that is checked off in the Notifications tab of the integration settings
@@ -44,7 +44,7 @@ The “Questions” channel is where data consumers can ask questions and intera
 
 • Use case: Great for quick inquiries about data definitions, metrics, or troubleshooting issues.
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8b82abd3-92f1-4bad-a087-b2d00319b5a5.png" alt=""><figcaption></figcaption></figure>
 
 ### Notifications Channel
 
@@ -55,7 +55,7 @@ The “Notifications” channel is used to receive automated updates from Secoda
 • Use case: Ideal for keeping your data team and other stakeholders informed about any changes or important updates in your data ecosystem.\
 
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a2f5cb49-f15f-4b7b-bccb-cf2269ad0247.png" alt=""><figcaption></figcaption></figure>
 
 ### Incidents Channel
 

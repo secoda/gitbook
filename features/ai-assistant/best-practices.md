@@ -53,7 +53,7 @@ When you know the exact resource you're inquiring about, use the `@` symbol foll
 
 Use the <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44d@2x.png" alt=":+1:" data-size="line"> and <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44e@2x.png" alt=":-1:" data-size="line"> buttons to provide feedback on the AI Assistant's responses. This helps it learn and improve its accuracy. For instance, if it references the incorrect table, you can correct it, guiding its future responses.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 1.03.47 PM.png" alt=""><figcaption><p>Provide feedback to improve the AI</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98a13872-27b5-4f05-9762-2d3e3afa752e.png" alt=""><figcaption><p>Provide feedback to improve the AI</p></figcaption></figure>
 
 **4. Keep It Fresh**
 

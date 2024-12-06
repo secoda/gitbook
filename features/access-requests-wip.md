@@ -24,20 +24,20 @@ The Access Requests feature in Secoda simplifies and centralizes the process of 
     2. An optional reason for access.
     3. An optional expiration period for access.
 
-    <figure><img src="../.gitbook/assets/Create access request (3).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3332b1f0-e670-4cef-b287-e55729de78ab.png" alt="" width="375"><figcaption></figcaption></figure>
 2. Review & Approval:
    1. Reviewers evaluate the request and choose the role or identity to update.
    2. Requests can be approved via the Secoda interface or Slack.
 
-<figure><img src="../.gitbook/assets/Access.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/55960578-b82b-4ee7-a483-fe165ac3864e.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Pending.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/111d12ee-a25e-4f06-950e-141a4e49e843.png" alt=""><figcaption></figcaption></figure>
 
 3. Access Management: Upon approval:
    1. Access is granted automatically to the specified identity.
    2. Access is revoked automatically after the expiration period.
 
-<figure><img src="../.gitbook/assets/Approved.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f7823204-28a0-497c-b3fa-7c7260172c16.png" alt=""><figcaption></figcaption></figure>
 
 
 

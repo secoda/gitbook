@@ -27,7 +27,7 @@ Example Confluence Page in Confluence:&#x20;
 
 Same Confluence page in Secoda:&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-09 at 4.00.36 PM.png" alt=""><figcaption><p>Example Confluence page after extraction by Secoda</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6b92be98-59e6-425c-a3f5-3bf003024cfc.png" alt=""><figcaption><p>Example Confluence page after extraction by Secoda</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** Some basic Confluence body elements (such as header links, some emojis, etc.) do not directly transfer into Secoda, and may appear different in Secoda Documents.\

@@ -22,13 +22,13 @@ By default, Secoda AI is disabled. To activate it:
 2. Toggle on the Secoda AI.
 3. Once enabled, the Secoda AI will appear in the left-hand menu of your workspace.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Toggle on AI</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8efa4541-d0fa-4a06-bc40-9c7afb51683a.png" alt=""><figcaption><p>Toggle on AI</p></figcaption></figure>
 
 ## **AI Settings for Admins**
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ab0017ec-1f2a-4786-b58f-157e5a5b9a59.png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
 
 ### **Governance**
 
@@ -46,7 +46,7 @@ AI Governance in Secoda empowers organizations to control the data accessed by A
 
 By implementing these rules, Admins can tailor AI capabilities to fit organizational needs and compliance requirements, ensuring that only relevant and secure data is queried.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-20 at 12.23.40 PM.png" alt=""><figcaption><p>AI Governance Filters</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c3e3c238-b7ba-4c66-8a05-c55abdbf2a77.png" alt=""><figcaption><p>AI Governance Filters</p></figcaption></figure>
 
 ### Agent Tools
 
@@ -103,7 +103,7 @@ Secoda AI Agents are customizable assistants tailored to specific roles, alignin
 
 To create an AI Agent, open the [AI settings](https://app.secoda.co/settings/ai) and expand the "Agents" section and click the "Create Agent" button.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4206c7f9-c60f-437d-9258-ea53657c3556.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Each Agent can be configured with the following details:
 
@@ -114,11 +114,11 @@ Each Agent can be configured with the following details:
 * **Resource Filters**: Limit the Agent’s access to certain datasets or resources.
 * **Team Access**: Control which teams or users can access this Agent.
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/431656c4-124f-4801-9387-5e25ec4d6e1f.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Once your Agent has been created, you can switch between Agents on the Secoda AI page. After that you can chat with your Secoda AI Agent similar to how you chat with Secoda AI.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d01b9fdc-c295-44fd-b8d6-3aade6cbc0e0.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

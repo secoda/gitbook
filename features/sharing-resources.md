@@ -17,7 +17,7 @@ Sharing individual resources effectively in Secoda allows for precise control ov
 
     * To share a specific resource, navigate to the resource within Secoda and click on the 'Share' button located at the top right corner. This opens the permissions panel for that resource.
 
-    <figure><img src="../.gitbook/assets/Screenshot 2024-02-27 at 4.42.23 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6bd407cd-316e-4a2d-a0b8-3f821b8c955e.png" alt=""><figcaption></figcaption></figure>
 
     * **Existing Permissions:** You will initially see the current access settings, which reflect any inherited permissions from the resource's parent entity (like a Team or Collection). See Image 1 below for reference, where the Collection is shared with all users in the General Team.
 2. **Modifying Access:**
@@ -26,7 +26,7 @@ Sharing individual resources effectively in Secoda allows for precise control ov
    * **Removing Access:** If access needs to be removed from an individual, select their permission next to their name and choose "Remove access." This action can be reversed by clicking "Reset permissions," which reverts to the previous settings if the change was made in error or needs to be undone (Image 3).
 3. **Copy Link:** For easy sharing, click 'Copy link' to copy the resource's unique URL to your clipboard. Note that only users with the necessary permissions can view the resource, even if they have the link.
 
-<div><figure><img src="../.gitbook/assets/Screenshot 2024-02-27 at 4.43.22 PM (3).png" alt=""><figcaption><p>Image 1</p></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-27 at 4.57.00 PM (3).png" alt=""><figcaption><p>Image 2</p></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-02-27 at 4.51.38 PM (3).png" alt=""><figcaption><p>Image 3</p></figcaption></figure></div>
+<div><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/eaaa1767-7a1a-4e46-8f50-c48165502d6c.png" alt=""><figcaption><p>Image 3</p></figcaption></figure></div>
 
 {% hint style="warning" %}
 If a parent document or a Collection has custom resource-level permissions set, users who are not in that permissions set will not be able to access anything nested within it.&#x20;

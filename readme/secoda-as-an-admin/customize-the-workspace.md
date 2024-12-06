@@ -19,13 +19,13 @@ As an Admin, you're able to "lock" some of these personalizations. If you don't 
 * Go to **Settings** from the sidebar and click into Workspace Settings
 * Change the Logo to your organization's logo and change the name, if applicable
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-20 at 12.42.53 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/72a730f0-cef3-481e-95a4-0dc80a49fa6d.png" alt=""><figcaption></figcaption></figure>
 
 ### Allowed Domains
 
 If using multiple domains for your organization, you can add these domains to the "Allowed domains" section in the Security settings. This will allow members with email IDs ending in those domains to sign up to the workspace directly.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-20 at 12.42.13 PM.png" alt=""><figcaption><p>Security Settings</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0714291b-b9da-4af6-8f2d-22df05a4a7a6.png" alt=""><figcaption><p>Security Settings</p></figcaption></figure>
 
 ### Edit the Homepage
 

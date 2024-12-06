@@ -11,11 +11,11 @@ description: Once your integration code is ready, the next step is to upload it 
 3. **Script Upload**: Next, upload your integration script. The script must be a python file.
 4. **Configure User Inputs**: List the user input fields that your script requires. In the example below, the fields for `email` and `password` are mandatory. `password` must also be flagged as sensitive to maintain the security of user credentials. The fields listed **must** directly match the code.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/dbe6f59e-2545-4bc4-b06c-41d725cfef42.png" alt=""><figcaption></figcaption></figure>
 
 5. **List Endpoint Permissions**: Clearly list all the HTTP/HTTPS endpoints your script interacts with. This is a critical step that allows Secoda to validate the endpoints and allow the outbound traffic safely. This step ensures secure and seamless operation of your integration.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bec4712b-33be-4128-a945-347055e7c113.png" alt=""><figcaption></figcaption></figure>
 
 Once your custom integration has been uploaded, you can connect to it like you would any integration. It will now be available to select in the list of Integrations under the category indicated in the set up flow. It will have a `Community` tag indicating it was made by a Secoda user, and a `Draft` tag indicating that the integration is only available to the workspace that created it.&#x20;
 

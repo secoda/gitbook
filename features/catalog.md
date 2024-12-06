@@ -34,7 +34,7 @@ Watch this helpful video to learn how to navigate through the Catalog effectivel
 
 * **Export a Filtered Subset of Resources:** Admins and Editors can export data from the Catalog to a CSV file. After setting the desired filters, use the three-dot menu and select 'Export page as CSV'.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-04-22 at 2.54.30 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/61d63f00-eb12-487c-8788-e7341aabb3f7.png" alt=""><figcaption></figcaption></figure>
 
 * **Comprehensive Exporting:** For detailed guidance on exporting all Catalog resources, refer to our full documentation on [import-and-export-data.md](../resource-and-metadata-management/import-and-export-data.md "mention").
 
@@ -56,4 +56,4 @@ For sorting, click on the desired column header, then choose either ascending or
 
 These adjustments will apply universally across the workspace, enhancing visibility for all users.&#x20;
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-10 at 13.54.19.gif" alt=""><figcaption><p>Reorder Metadata Columns</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d0ef4998-7340-44a8-9f47-d9c2da24befd.gif" alt=""><figcaption><p>Reorder Metadata Columns</p></figcaption></figure>

@@ -48,7 +48,7 @@ This is a patch version update with miscellaneous bug fixes.&#x20;
 
 * Show `Verified` column as part of the Resource List
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-24 at 12.25.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f38b9974-1256-40c1-a5f7-4d3473080a83.png" alt=""><figcaption></figcaption></figure>
 
 * Improve selection of databases for [SQL Server](../../integrations/databases/microsoft-sql-server/) integration
 * Show On Prem version in Workspace settings

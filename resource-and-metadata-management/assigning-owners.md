@@ -32,7 +32,7 @@ Ownership can also be assigned at the Group level:
 
 Benefits: Group ownership ensures consistent management even when individual members leave the organization.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 4.21.41 PM.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cce63bed-a982-471b-b0de-4fb4fbd5f597.png" alt=""><figcaption><p>Owners in Catalog view</p></figcaption></figure>
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5a8db21c-599c-473e-a1a4-7b501f9bc74e.png" alt=""><figcaption><p>Owners in the side panel</p></figcaption></figure>
 

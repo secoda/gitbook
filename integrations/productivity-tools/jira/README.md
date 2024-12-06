@@ -62,7 +62,7 @@ If you want to filter the issues that will be synced to Secoda, you can enter a 
 
 Note: The project in the filter must be the same as the project you entered from above, or no issues will be synced.
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cb178ec0-74af-4499-9477-d6fe16f8173f.png" alt=""><figcaption></figcaption></figure>
 
 #### API Token
 
@@ -86,7 +86,7 @@ To find your organization ID, go to [this link](https://admin.atlassian.com/), a
 
 After you have logged into your organization on `https://admin.atlassian.com/`, head to the settings tab in the navbar. From here, click API keys on the left sidebar, and create a key with a label of your choosing. On creation, it will show you your organization ID as well as the API key.
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9d7de80f-c0f7-4c7b-bb74-fecd16b61d30.png" alt=""><figcaption></figcaption></figure>
 
 #### Webhook secret
 
@@ -94,15 +94,15 @@ A Jira webhook is needed to use Secoda's bi-directional sync between issues and 
 
 Note: A Jira admin is needed to do this step.
 
-<figure><img src="../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8e3e4efa-edb3-4607-8dda-1c7cf8129e29.png" alt=""><figcaption></figcaption></figure>
 
 On this page, scroll down all the way on the left sidebar until you see the WebHooks option.
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/09454781-cfdc-41c9-b94e-39d16aa529e7.png" alt=""><figcaption></figcaption></figure>
 
 From there, click on the Create a WebHook button near the top right, which will open the webhook creation page.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c8450a43-e79c-46bb-b266-3eb6ab730405.png" alt=""><figcaption></figcaption></figure>
 
 Now, to ensure the webhook works correctly, fill in the following fields:
 
@@ -112,13 +112,13 @@ Now, to ensure the webhook works correctly, fill in the following fields:
 * Enable the "updated" event under Issue, as well as the "created", "updated", and "deleted" events under Comment.
 * Scroll to the bottom and click Create to finish registering the webhook.
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/06e4a84f-aa1d-4003-abbe-5098e24a7748.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/15cab1fd-d06c-4e34-9c4b-f369ae4badf0.png" alt=""><figcaption></figcaption></figure>
 
 Your finished webhook should look something like this:
 
-<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d4df41bf-d651-4614-a281-c313e79070ed.png" alt=""><figcaption></figcaption></figure>
 
 Secoda will now automatically sync a question's title, description, assignee, priority, and status with its linked Jira issue, as well as any comments that are created, updated, or deleted.
 
@@ -138,8 +138,8 @@ Once the Jira extraction finishes running, you will be able to view all issues f
 
 Secoda Questions can be pushed to Jira as an Issue which will sync the properties found in this page [metadata-extracted.md](metadata-extracted.md "mention"). To push a Question to Jira go to the Questions page and click the "Create Issue" button on the right hand side bar.
 
-<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/05768360-9024-4c7c-a70b-c6e49d0fe3f3.png" alt=""><figcaption></figcaption></figure>
 
 Select name, description, type, and priority then create the issue. After the issue is creating all of the properties will be synced bi-directionally between Secoda and Jira.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/70f8c5d3-b6da-4d9a-b5c1-6f772b8d05d4.png" alt=""><figcaption></figcaption></figure>

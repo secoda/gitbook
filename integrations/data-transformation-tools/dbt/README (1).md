@@ -23,7 +23,7 @@ Once the integration is established:
 * Within the lineage tab, lineage nodes will feature a checkmark icon. Clicking on these icons reveals which dbt Tests have been run and their statuses.
 * See the video below of what a correctly functioning integration should look like:
 
-<figure><img src="../../../.gitbook/assets/Kapture 2024-05-08 at 14.36.40.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/39ce3633-8550-47f7-a1e0-8861c29c21ce.gif" alt=""><figcaption></figcaption></figure>
 
 This integration empowers teams to track and verify data transformations directly within the Secoda environment, ensuring transparency and accuracy in data operations. Whether you use dbt Core or dbt Cloud, Secoda facilitates a comprehensive view of your data landscape.
 

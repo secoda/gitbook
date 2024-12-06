@@ -6,7 +6,7 @@ description: Learn about and set monitors on your Snowflake costs in Secoda
 
 Everyone is thinking about cost containment these days, and so are we! You can track your Snowflake costs, using our Snowflake Cost widget as part of the [Analytics Dashboard](../../../features/analytics-dashboard.md).
 
-<figure><img src="../../../.gitbook/assets/Kapture 2024-01-17 at 10.57.36 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/00c1a731-bf10-4f7d-bd89-b8f5b240a77a.gif" alt=""><figcaption></figcaption></figure>
 
 ## How does the Widget work?
 
@@ -18,13 +18,13 @@ Visualizing your cost trends using the Widget **will not** impact your overall c
 
 You can even use our monitoring features on a Snowflake cost widget to be alerted about changes to daily costs. Simply create the widget, then use the three dot menu to create a monitor.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-28 at 4.21.09 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d6e5f85b-8746-4d2d-8a65-b0242b431ada.png" alt=""><figcaption></figcaption></figure>
 
 Add filters on usage type and balance source, and voila! You can catch changes before they become larger issues.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-12-27 at 2.17.19 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5ed500df-807b-4c1f-a7d0-707f0f0aa05a.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

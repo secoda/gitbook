@@ -18,7 +18,7 @@ AI technology continues to transform data management, making complex tasks simpl
   * **Instant Insights**: Delivers quick insights into key business metrics, enhancing decision-making speed and accuracy.
   * **User-Friendly**: Simplifies data exploration for non-technical users, enabling intuitive interaction with complex datasets.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 3.43.37 PM.png" alt=""><figcaption><p>Ask questions about customer data</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d7e3eaf3-7079-41af-8982-6ce33f2da027.png" alt=""><figcaption><p>Ask questions about customer data</p></figcaption></figure>
 
 ## **Documentation Automation**
 
@@ -39,7 +39,7 @@ AI technology continues to transform data management, making complex tasks simpl
   * **Streamlined Profiling**: Significantly reduces time and effort required for data profiling.
   * **Enhanced Understanding**: Helps users quickly grasp data structure, quality, and anomalies, supporting effective governance and utilization.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 3.47.23 PM.png" alt=""><figcaption><p>Ask for a data profile</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4387e1d0-6983-4c7f-afb8-1c0ae3192879.png" alt=""><figcaption><p>Ask for a data profile</p></figcaption></figure>
 
 ## **Custom SQL Monitor for All User Levels**
 
@@ -51,13 +51,13 @@ AI technology continues to transform data management, making complex tasks simpl
   * **Improved Data Integrity**: Facilitates sophisticated data integrity checks, enhancing compliance and data accuracy.
 * **Example Workflow:**
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Ask about best ways to monitor quality</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8aa77ac6-ea54-4a34-aca7-cd4f2c5db5ad.png" alt=""><figcaption><p>Ask about best ways to monitor quality</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Ask the AI to run the query</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f55a4415-314f-48b3-9d9d-d3309cab5fcc.png" alt=""><figcaption><p>Ask the AI to run the query</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Click "Show Steps" to reveal the query</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9da977fc-04a2-4993-98aa-a96243259c2d.png" alt=""><figcaption><p>Click "Show Steps" to reveal the query</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Inputting the query into a Custom SQL monitor to track overtime</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9f797a7e-1ffe-4cde-9e27-61a4e3166837.png" alt=""><figcaption><p>Inputting the query into a Custom SQL monitor to track overtime</p></figcaption></figure>
 
 ## Conclusion
 

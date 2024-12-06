@@ -19,13 +19,13 @@ This feature is located above Settings in the left side panel.
 
 Create Reports to organize your Analytics widgets into separate themes. For example, you can have one Report that shows stats on your users, another on documentation, and another on Snowflake costs.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-07 at 4.11.22 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/897aaaf0-057b-472d-b73f-ba6545aa3129.png" alt=""><figcaption></figcaption></figure>
 
 ## Filtering the dashboard
 
 You are able to filter on the widgets in the dashboard. In the gif below, you can see how to filter on "Popular resources" to show the most popular _charts_ for example!
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-28 at 15.09.38 (1).gif" alt=""><figcaption><p>Popular charts</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/24b65dee-8b43-448c-89c7-a3b9602651ef.gif" alt=""><figcaption><p>Popular charts</p></figcaption></figure>
 
 ## Identifying undocumented resources
 

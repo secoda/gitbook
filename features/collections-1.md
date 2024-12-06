@@ -55,7 +55,7 @@ From the Catalog, you can make bulk edits to your resource metadata ([Making bul
 
 To remove a resource from a Collection, simply check the box next to it and select "Remove from collection" from the Actions bar. You can also do this in bulk by checking off multiple resources.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-29 at 3.57.00 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3f72037e-3633-4c60-a487-081f99f9cbba.png" alt=""><figcaption></figcaption></figure>
 
 ## Nesting collections
 

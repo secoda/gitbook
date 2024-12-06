@@ -16,7 +16,7 @@ After executing a query, you can choose to display the data as a chart in a char
 4. Click `Create graph`
 5. The chart will be embedded directly below the query
 
-<figure><img src="../../../.gitbook/assets/Kapture 2024-11-20 at 23.28.00 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f8a765eb-2376-464d-a599-a0c4e0d5a716.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 At this time the chart blocks only support line graphs for time-series data.
@@ -29,7 +29,7 @@ Additionally, a chart can be embedded anywhere within the documentation by using
 3. Select the x-axis, y-axis, and optionally dimension, and format
 4. Click `Create graph`
 
-<figure><img src="../../../.gitbook/assets/Kapture 2024-11-20 at 23.36.12.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5e0335af-7885-425c-a434-c02430f06232.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
