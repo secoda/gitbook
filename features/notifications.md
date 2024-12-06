@@ -12,7 +12,7 @@ Viewers, editors, and admins can change their personal notification settings by 
 
 You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-29 at 1.27.28 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4ca79922-e12f-4a5b-a980-3f005b9448bf.png" alt=""><figcaption></figcaption></figure>
 
 ### In-App Notifications
 

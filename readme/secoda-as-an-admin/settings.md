@@ -10,7 +10,7 @@ The Settings page in Secoda allows Admins to configure Account and Workspace-lev
 
 To access Settings, click on the workspace name in the top left of the UI, and select "Settings."
 
-<figure><img src="../../.gitbook/assets/Kapture 2024-07-29 at 12.51.19.gif" alt=""><figcaption><p>Secoda Settings</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4fed8808-0b83-44e8-8fba-c3961c70888a.gif" alt=""><figcaption><p>Secoda Settings</p></figcaption></figure>
 
 ## Account Settings
 

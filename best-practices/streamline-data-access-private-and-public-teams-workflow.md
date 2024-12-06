@@ -25,12 +25,12 @@ Consider setting up [Private and Public Teams ](../user-management/teams.md)and 
       * This ensures that all new resources are getting approved before being exposed to end users
       *
 
-          <figure><img src="../.gitbook/assets/Screenshot 2024-04-09 at 12.44.56 PM.png" alt=""><figcaption></figcaption></figure>
+          <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b77fa7ce-0ca8-4ed2-95a9-6dbc7d0c7ecc.png" alt=""><figcaption></figcaption></figure>
       * The users in that Private Team can edit the resource documentation and complete a[ verified workflow](verifying-resources-workflow.md) (optional) to verify the resource.
    2. **Automation 2:** All resources that have a description and owner set, should be tagged as Verified, marked as Published, and get added to the Public team for end-user consumption.
       * Note: You can choose to define Verification differently than "having a description and owner", this is just an example.&#x20;
       * This automation ensures that resources are tagged as Verified, Published, and made accessible to business users in the Public team.
       *
 
-          <figure><img src="../.gitbook/assets/Screenshot 2024-06-26 at 1.00.09 PM.png" alt=""><figcaption></figcaption></figure>
+          <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8bdd5cf8-5478-429d-8d1a-1120a9c95046.png" alt=""><figcaption></figcaption></figure>
 

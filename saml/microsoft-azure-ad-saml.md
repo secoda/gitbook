@@ -8,13 +8,13 @@ description: Set up Microsoft Azure SAML in three easy steps.
 
 Go to [portal.azure.com](http://portal.azure.com), create a new **Enterprise application**. Click **"Integrate any other application you don't find in the gallery (Non-gallery)"**
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-29 at 1.57.06 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9dcadac8-e209-4326-a14e-291dff8c646e.png" alt=""><figcaption></figcaption></figure>
 
 
 
 Click "Single sign-on" followed by SAML. Edit the **"Basic SAML Configuration".**
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-29 at 1.59.11 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6d729b1e-ed1b-4f5c-aebd-17e6c1242984.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -26,7 +26,7 @@ Fill in the following **3** values and hit save.
 
 Then copy the **App Federation Metadata Url**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-29 at 2.07.49 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/21c77090-b50a-454f-9cf0-12761f3882bd.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Request the application in Secoda
 

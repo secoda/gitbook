@@ -26,7 +26,7 @@ By default, DQS is enabled in all workspaces. Admins can disable it in the Quali
 
 Consider adjusting the **Resource filter rules** to selectively include or exclude specific resources from the DQS calculations. For instance, you might exclude resources from your 'dev' database, which are often incomplete and could skew the overall quality score.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-06-27 at 2.26.29 PM.png" alt=""><figcaption><p>DQS Settings</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d2a5674e-b6ee-4dec-9970-876cdda4a35c.png" alt=""><figcaption><p>DQS Settings</p></figcaption></figure>
 
 ## Accessing and Using DQS
 
@@ -37,7 +37,7 @@ Consider adjusting the **Resource filter rules** to selectively include or exclu
 3. **View Score Details**: Check the overall score and explore detailed breakdowns for each category.
 4. **Improve Scores**: Click on specific categories to see actionable steps to enhance scores.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-18 at 17.03.45.gif" alt=""><figcaption><p>Table DQS</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/64ff7f62-2120-413f-a8a7-b49bf6165393.gif" alt=""><figcaption><p>Table DQS</p></figcaption></figure>
 
 ### **Tracking Changes with Analytics Reports**
 
@@ -45,7 +45,7 @@ Consider adjusting the **Resource filter rules** to selectively include or exclu
 2. **Create a Quality Score Report**: Use the "Add report" button to set up a new report focused on DQS.
 3. **Customize Your View**: Apply filters, such as by Team, to pinpoint areas needing data quality improvements.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-18 at 17.06.08.gif" alt=""><figcaption><p>DQS in Analytics</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0688a8c0-950a-4518-b491-079c41a5a46b.gif" alt=""><figcaption><p>DQS in Analytics</p></figcaption></figure>
 
 ### **Search and Catalog Filters**
 
@@ -58,13 +58,13 @@ In the Search and Catalog views, you can [filter](filters.md) resources based on
 
 These filters help you quickly identify and prioritize areas for improvement directly from your search results or catalog listings.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-18 at 17.29.14.gif" alt=""><figcaption><p>Filtering on Quality</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/90f01deb-66bd-4ad1-b5da-995569ff804a.gif" alt=""><figcaption><p>Filtering on Quality</p></figcaption></figure>
 
 ### **Automations for DQS**
 
 Create an Automation to automatically apply actions based on the DQS of each table. For instance, when a table achieves a "Good" quality score, the system can automatically mark it as "Published" and "Verified." This helps users quickly identify which tables are confirmed as reliable and ready for business use.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-06-27 at 3.03.13 PM.png" alt="" width="502"><figcaption><p>DQS Automation</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c10109be-5953-412e-a8a2-0f092d36bfc1.png" alt="" width="502"><figcaption><p>DQS Automation</p></figcaption></figure>
 
 ### **Adding a DQS Homepage Widget**
 
@@ -72,7 +72,7 @@ Create an Automation to automatically apply actions based on the DQS of each tab
 2. **Add the DQS Widget**: Select the DQS widget to add it to your homepage.
 3. **Access DQS Instantly**: Enjoy quick and easy access to your data quality scores directly from the homepage.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-06-18 at 17.09.02.gif" alt=""><figcaption><p>DQS on the Homepage</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/fcf44804-45ee-4391-a698-ef2fb3171710.gif" alt=""><figcaption><p>DQS on the Homepage</p></figcaption></figure>
 
 ## Scoring Categories
 

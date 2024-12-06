@@ -24,7 +24,7 @@ To export resources from Secoda:
 2. **Select Resource Type:** Choose the type of resource you wish to export.&#x20;
 3. **Download the Export:** Once the Artifact is prepared as a Bulk export of your resources, click the "Download Artifact" button.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-06-05 at 12.28.49 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e38e12e7-e3c1-42d7-a369-f18dedbe3376.png" alt=""><figcaption></figcaption></figure>
 
 Below is an example of the results from exporting your data:
 
@@ -59,7 +59,7 @@ Before importing new or updated metadata into Secoda:
 1. **Access Import Settings:** Log into Secoda, navigate to Settings > Import & Export.
 2. **Upload CSV File:** Click "Select File" under the Import section, choose your prepared CSV file, and click "Upload". Monitor the import process through the displayed logs.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-06-05 at 12.31.29 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/662eddc9-a584-42d8-8f26-6f382e136c7f.png" alt=""><figcaption></figcaption></figure>
 
 ## Verifying an import
 

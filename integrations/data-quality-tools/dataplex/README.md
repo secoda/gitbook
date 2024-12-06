@@ -40,5 +40,5 @@ After retrieving the Service Account JSON key, the next step is to connect it to
 
 After the sync has completed successfully, resources that are decorated with additional metadata (e.g. tag templates) and fields will have the Dataplex icon. The fields will show up as custom properties in the resource sidebar.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-10 at 2.54.25 PM (2).png" alt=""><figcaption><p>Resource with Dataplex metadata</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/42f79eb2-4bcc-4d77-a01e-9aaa631ebe05.png" alt=""><figcaption><p>Resource with Dataplex metadata</p></figcaption></figure>
 

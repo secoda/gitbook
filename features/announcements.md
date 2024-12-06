@@ -8,7 +8,7 @@ Using Announcements, data teams can send messages to their users within Secoda.
 
 Users have the ability to send Announcements directly from the [Inbox](data-inbox.md) in Secoda, by clicking "New announcement".
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-07 at 2.48.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/db278a77-7b19-493f-941f-8c35c4b05113.png" alt=""><figcaption></figcaption></figure>
 
 Users can choose where they receive these announcements (in-app, Slack, or email) by going to their personal [Notifications settings](notifications.md).
 

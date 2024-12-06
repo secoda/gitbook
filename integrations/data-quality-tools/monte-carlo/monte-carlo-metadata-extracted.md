@@ -13,4 +13,4 @@ description: List of all the metadata that Secoda pulls from Monte Carlo
   * Columns
 * Monitors are linked to their associated tables (see image below)
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0eece5fa-3889-4de5-b5b0-4faf2a895338.png" alt=""><figcaption></figcaption></figure>

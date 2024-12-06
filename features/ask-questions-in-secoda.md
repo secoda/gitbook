@@ -23,14 +23,14 @@ Traditionally, questions to the data team are managed ad hoc via platforms like 
 * **Answering Questions**: Once a question is posted, teammates can comment, and editors have the ability to verify or provide different answers.
 * **Finalizing Answers**: Admins or Editors select the best answer, which is then marked with a green checkmark and indexed in Secoda’s central search, making it easily accessible for anyone who might have similar queries in the future.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-12-03 at 16.03.21.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/05cfc065-97a7-4003-869d-31a77a2ecd20.gif" alt=""><figcaption></figcaption></figure>
 
 ## About Questions
 
 * **Rich Context**: Since Secoda integrates with your organization's data systems, responses can include links to relevant tables, queries, or related questions, enriching the context and utility of each answer.
 * **Metadata Management**: Each question features a sidebar where users can set priorities, add the question to collections or teams, and more. Admins and editors can also delete incorrect or outdated responses.
 
-<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/486b4cf1-5638-4327-b033-9b185640b6bb.png" alt=""><figcaption></figcaption></figure>
 
 * **Unanswered Questions**: Easily filter and view unanswered questions by sorting by status, ensuring no query goes unresolved.
 

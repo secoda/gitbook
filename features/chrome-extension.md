@@ -19,7 +19,7 @@ It's main capabilities include:
 
 Once installed and configured, the Chrome extension will appear as a Secoda icon in the bottom right hand of your screen for easy access within a supported tool.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-12-03 at 16.27.51.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/aa9db612-3624-4eb2-b4b5-c3d4ebc83de2.gif" alt=""><figcaption></figcaption></figure>
 
 ## How to Install and Authenticate
 
@@ -39,7 +39,7 @@ Access resource metadata in the supported tools to gain context about ownership,
 
 You also have the ability to edit resources from the extension and push these changes into Secoda.
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b065c805-bc26-4874-afcd-94846d2e27cc.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Your permissions in Secoda will control what metadata you can see and edit when using the extension in other supported tools. For example, viewers in Secoda will not be able to push any edits.
@@ -49,19 +49,19 @@ Your permissions in Secoda will control what metadata you can see and edit when 
 
 See the upstream and downstream lineage of the resource without having to leave the other tool that you are currently working in. Click into Lineage to see the relationships at different depths, use the provided search bar to search, and access the lineage graph within the Secoda UI.
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/57b2201d-50e2-402b-87ca-1136a53e098b.png" alt=""><figcaption></figcaption></figure>
 
 ### Search Resources
 
 If you have a question about any resource in your Secoda workspace you can use the universal search to find, access, and understand from any data tool.
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/571cd74b-7c81-4a70-b0cc-e24ff2b6d8b7.png" alt=""><figcaption></figcaption></figure>
 
 ### Ask Questions to Secoda AI and the Data Team
 
 Do you have a question about a resource for the AI Assistant or the Data Team? Click on the links in the main page of the Chrome Extension to be redirected to Secoda for asking these questions.
 
-<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5a6b70c5-13b7-4354-9b12-370a3ad1acec.png" alt=""><figcaption></figcaption></figure>
 
 ### Highlight Text to Search
 

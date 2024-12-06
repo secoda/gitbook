@@ -30,7 +30,7 @@ Make sure you check the [lineage graph](../features/data-lineage.md) in Secoda b
 * Consider adding a property to the Automation to push these to a private Team or specific Collection, if that's helpful for review purposes.
 * Then, filter the Catalog by these tags to manage these resources efficiently!
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-04-03 at 4.51.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/06c2902f-50e1-419e-bb37-158f82568367.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### [monitoring-use-cases.md](../features/monitoring/monitoring-use-cases.md "mention")
 

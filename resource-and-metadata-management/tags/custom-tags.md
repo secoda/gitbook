@@ -11,7 +11,7 @@ description: Creating and managing custom tags in Secoda to help categorize your
 3. Click the `Create tag` button.
 4. Enter Name, an optional Description, and choose a colour to represent the tag.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-12 at 10.15.46 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a12f6f7c-eef4-46de-b79b-2c394f836103.png" alt=""><figcaption></figcaption></figure>
 
 ## Group Tags
 
@@ -23,7 +23,7 @@ For organizations that use tags extensively and require further categorization:
 2. **Organize Existing Tags:**
    * To add an existing tag to a group, use the three-dot menu on the tag and select '-> Move tag to group'.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-12 at 10.16.29 AM.png" alt=""><figcaption><p>Group Tags</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a28c94c4-7ee5-43e1-8ce5-d95f3165a2a6.png" alt=""><figcaption><p>Group Tags</p></figcaption></figure>
 
 ## Deleting Tags
 

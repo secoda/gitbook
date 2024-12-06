@@ -50,7 +50,7 @@ Once the key is generate, you can select your LookML project and click **Copy pu
 
 
 
-<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/33a1442a-8a9e-4212-8244-318c5eca0375.png" alt=""><figcaption></figcaption></figure>
 
 #### GitHub
 
@@ -60,17 +60,17 @@ A new key can be added by clicking on **Add deploy key** button in the top right
 
 
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3a8f9c54-6990-4294-bfc2-39cc30f9c853.png" alt=""><figcaption></figcaption></figure>
 
 Set a title for your new key and then paste the key copied from Secoda into the **Key** text field.
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/84c58a1a-60ca-48e7-ad0e-2c8a12cb7694.png" alt=""><figcaption></figcaption></figure>
 
 #### GitLab
 
 Once in your GitLab repo, click on **Settings > Deploy keys** on the sidebar.
 
-<figure><img src="../../../.gitbook/assets/a5a7be37-f09c-4e27-8a66-2b0ca87d84ed.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2999382b-e864-4bc8-9316-7d0ad8f39cb7.png" alt=""><figcaption></figcaption></figure>
 
 Set a title for your new key and then paste the key copied from Secoda into the **Key** text field.
 

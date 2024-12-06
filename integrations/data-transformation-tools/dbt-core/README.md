@@ -279,4 +279,4 @@ print(response)
 
 #### 4. Now that a sync has been triggered, you can now monitor your sync in the UI!
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-08-20 at 1.46.44 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a5b823c3-bf19-48b0-9a30-e577e4fc3ae5.png" alt=""><figcaption></figcaption></figure>

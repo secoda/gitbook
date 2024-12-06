@@ -27,7 +27,7 @@ services:
 
 To retrieve the docker compose environment for your tunnel, go to [https://app.secoda.co/tunnels](https://app.secoda.co/tunnels) and create a new reverse tunnel.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-08 at 8.49.15 AM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e6807591-f663-464a-837c-cca19a138e17.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Copy the details to your clipboard, and replace the contents of your docker compose file with this configuration.
 
@@ -46,7 +46,7 @@ On an integration credentials page, fill in the integration connection details. 
 
 Select the reverse tunnel you would like to use. Test connection.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-08 at 8.51.32 AM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d634e6ca-a785-4ca4-87f9-211cf4958137.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Troubleshooting
 

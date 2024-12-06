@@ -25,7 +25,7 @@ description: >-
 Only users with a business domain name can be invited to the workspace. If using multiple business domains, you can add them to the [allowed domains list](../../../readme/secoda-as-an-admin/customize-the-workspace.md#allowed-domains) in the Security settings.&#x20;
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-06-20 at 12.39.15 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98143553-7da9-4d4c-a47d-00791efd554b.png" alt=""><figcaption></figcaption></figure>
 
 ## **Creating Groups and Teams**
 

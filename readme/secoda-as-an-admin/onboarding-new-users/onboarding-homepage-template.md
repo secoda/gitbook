@@ -16,11 +16,11 @@ If you've created a default Public team that all users have access to, like the 
 2. Add content that you'd want new users of Secoda to know when first accessing the tool. We've shared some ideas [below](onboarding-homepage-template.md#template).&#x20;
 3.  Pin that Document to the General Team's Homepage by going to General Team > Home > Edit > Add Notepad > Write up a blurb similar to what's below in green and use the @ symbol to link the Document you've just created.
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2024-02-09 at 9.21.39 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5417ebfa-5279-4962-a785-7a3e25c678ca.png" alt=""><figcaption></figcaption></figure>
 
 If you're only using **Private** Teams to organize your workspace, you can follow the same steps above but make sure to add the Intro Document to all of the relevant private Teams. You can do this by clicking into the Document and editing the sidebar Teams metadata:
 
-<figure><img src="../../../.gitbook/assets/Kapture 2024-02-09 at 09.30.20.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4795a210-6685-4201-8614-754fc7dcf441.gif" alt=""><figcaption></figcaption></figure>
 
 ## Template
 

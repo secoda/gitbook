@@ -25,7 +25,7 @@ Once your integration is ready and you've completed the pre-submission checklist
 * Navigate to the Integrations > Create Integration > select your custom integration.
 * Click on the "Submit for review" button, as highlighted in the screenshot below.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/432974d5-c2bc-466e-b3f8-01560b6930d4.png" alt=""><figcaption></figcaption></figure>
 
 #### 3. Review Process
 

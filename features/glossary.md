@@ -4,7 +4,7 @@ description: The data glossary is one spot for all of your organization's terms
 
 # Glossary
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p>Glossary Term</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6d570f9b-2baa-4729-96d8-bbc92c6f6a0c.png" alt=""><figcaption><p>Glossary Term</p></figcaption></figure>
 
 A glossary is a resource that provides definitions and metadata for data terms within an organization. Creating a data glossary can provide several benefits:
 
@@ -36,13 +36,13 @@ To create a new glossary term, simply click **Create term** in the top right.
 
 From here, you'll have the option to add a definition, list collections the term is a part of, assign ownership, and add applicable tags.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-11-20 at 22.10.22 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/7d2eb182-c104-47c7-a06b-ee4cd1c42fe8.gif" alt=""><figcaption></figcaption></figure>
 
 ## Enriching Glossary Terms
 
 There is a lot more enrichment that can be done with Glossary terms in order to make them more searchable and link them elsewhere within the product. Add Synonyms, Related resources, a Verification status, as well as other properties on the right hand side bar.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-11-20 at 22.19.12.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f2adb22b-612a-4438-86b8-af3b7b5d63f0.gif" alt=""><figcaption></figcaption></figure>
 
 ## Glossary Term Templates
 
@@ -62,4 +62,4 @@ If you're team is working with a whole long list of terms, you might want to con
 
 For example, let's say you have a bunch of terms that all fall under the category "Customer". You can create a term called Customer, define it, and then nest the other existing terms underneath it.
 
-<figure><img src="../.gitbook/assets/Kapture 2024-11-20 at 22.28.30.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c5f09ca2-baf1-431b-a01b-ff40ccd281cb.gif" alt=""><figcaption></figcaption></figure>
