@@ -11,5 +11,6 @@ Secoda pulls the following metadata from Druid:
 * Columns
   * Name
   * Type
+* Preview on first 50 rows (Optional)
 
 Since Druid does not utilize databases or schemas, all tables and columns are assigned to a default database and schema, both named **'druid'**.
