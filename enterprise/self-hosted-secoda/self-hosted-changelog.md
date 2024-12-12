@@ -6,6 +6,13 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2024.4.2 (December 12, 2024)
+
+**Bug Fixes**
+
+* Fixed SSH tunnel integration syncs not queuing resulting in failures
+* Fixed Trino integration not syncing tables from multiple schemas correctly
+
 ### v2024.4.1 (December 3, 2024)
 
 **Bug Fixes**
@@ -21,7 +28,7 @@ description: >-
 * [**Data Quality Score**](https://docs.secoda.co/features/data-quality-score) **(DQS)**: A new public beta feature, automatically scoring data quality across key dimensions such as completeness, accuracy, and consistency at the column and table levels. Includes customizable thresholds and actionable insights for improving data quality.
 * [**AI Personas**](https://docs.secoda.co/features/ai-assistant#personas): Introduced role-specific AI personas, allowing users to customize AI interactions for specific roles within their organization. Tailor persona configurations, personalize names and icons, and set resource permissions.
 * **New Integrations:** Brand new integrations for [PagerDuty](https://docs.secoda.co/integrations/data-quality-tools/pager-duty), [GCS](https://docs.secoda.co/integrations/data-lakes/google-cloud-storage), [S3](https://docs.secoda.co/integrations/data-lakes/aws-s3), [Hex](https://docs.secoda.co/integrations/data-visualization-tools/hex), and [Matillion](https://docs.secoda.co/integrations/data-pipeline-tools/matillion).
-* [**Queries Page**](https://docs.secoda.co/features/queries/extracted-queries)**:** Understand your most popular or slowest queries with the queries tab on resources and the Queries page.&#x20;
+* [**Queries Page**](https://docs.secoda.co/features/queries/extracted-queries)**:** Understand your most popular or slowest queries with the queries tab on resources and the Queries page.
 
 **Improvements**
 
@@ -37,14 +44,14 @@ For more detailed information on these updates, please visit [Secoda's changelog
 
 ### v2024.3.2 (July 24, 2024)
 
-This is a patch version update with miscellaneous bug fixes.&#x20;
+This is a patch version update with miscellaneous bug fixes.
 
 * Limit the ability to create new workspaces to Admin's only
 * Improvements to column selection when creating Monitors
 
 ### v2024.3.1 (July 13, 2024)
 
-This is a patch version update with miscellaneous bug fixes.&#x20;
+This is a patch version update with miscellaneous bug fixes.
 
 * Show `Verified` column as part of the Resource List
 
@@ -57,7 +64,7 @@ This is a patch version update with miscellaneous bug fixes.&#x20;
 
 **New Integrations and Integration Improvements**
 
-* [Airflow plugin ](../../integrations/data-pipeline-tools/airflow/#id-3.-plugin)
+* [Airflow plugin](../../integrations/data-pipeline-tools/airflow/#id-3.-plugin)
 * [Astronomer](../../integrations/data-pipeline-tools/airflow/#id-2.-astronomer)
 * [SQL Server Reporting Services](../../integrations/data-visualization-tools/sql-server-reporting-services/)
 * [Monte Carlo](../../integrations/data-quality-tools/monte-carlo/)
@@ -71,7 +78,7 @@ This is a patch version update with miscellaneous bug fixes.&#x20;
 * Display of the latest sync status in the integrations table.
 * Added support for Snowflake Dynamic Tables and Key Pair Authentication for Snowflake.
 * Added support for syncing updated\_at from Salesforce columns.
-* Added SSH Tunnel Support for MongoDB.&#x20;
+* Added SSH Tunnel Support for MongoDB.
 
 **Filtering, Search & Catalog**
 
@@ -127,7 +134,7 @@ This is a patch version update with miscellaneous bug fixes.&#x20;
 
 ### v2024.2.3 (May 3, 2024)
 
-This is a patch version update with miscellaneous bug fixes.&#x20;
+This is a patch version update with miscellaneous bug fixes.
 
 **Catalog**
 
