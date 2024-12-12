@@ -156,6 +156,8 @@
       * [Airbyte Extracted Metadata](integrations/data-pipeline-tools/airbyte/airbyte-extracted-metadata.md)
     * [Informatica](integrations/data-pipeline-tools/informatica/README.md)
       * [Informatica Metadata Extracted](integrations/data-pipeline-tools/informatica/informatica-metadata-extracted.md)
+    * [Azure Data Factory](integrations/data-pipeline-tools/azure-data-factory/README.md)
+      * [Azure Data Factory Metadata Extracted](integrations/data-pipeline-tools/azure-data-factory/azure-data-factory-metadata-extracted.md)
   * [Data Transformation Tools](integrations/data-transformation-tools/README.md)
     * [dbt](<integrations/data-transformation-tools/dbt/README (1).md>)
       * [dbt Cloud](integrations/data-transformation-tools/dbt/README.md)
