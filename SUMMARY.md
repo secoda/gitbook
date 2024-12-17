@@ -249,7 +249,6 @@
       * [Chart Blocks](features/queries/running-queries-in-secoda/adding-live-charts-to-documentation.md)
     * [Extracted Queries](features/queries/extracted-queries.md)
   * [Questions](features/ask-questions-in-secoda.md)
-  * [Roles](features/roles-wip.md)
   * [Search](features/search.md)
   * [Secoda AI](features/ai-assistant/README.md)
     * [Secoda AI User Guide](features/ai-assistant/best-practices.md)
