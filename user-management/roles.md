@@ -58,13 +58,29 @@ Policies can be managed on the page **Settings > Members > Roles** tab. The `Rol
 
 Out of the box, Secoda is deployed with a set of default Roles. The set of default roles are Viewers, Editors, and Admins.
 
-### Permissions[​](https://datahubproject.io/docs/authorization/policies#reference) \[WIP] <a href="#reference" id="reference"></a>
+### Permissions[​](https://datahubproject.io/docs/authorization/policies#reference) <a href="#reference" id="reference"></a>
 
+{% hint style="info" %}
 Each permission can enable Create, Update, View, and Delete. Managed allows for all.
+{% endhint %}
 
-<table><thead><tr><th width="222">Privilege</th><th width="109">Admin</th><th width="108">Editor</th><th width="107">Viewer</th></tr></thead><tbody><tr><td>Users</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Roles</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Groups</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>API Keys</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Integrations</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr><tr><td>Monitors</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Automations</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Analytics</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Views</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Questions</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Secoda AI</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>DQS</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Tags</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Properties</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Teams</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Import &#x26; Export</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr><tr><td>Billing</td><td><code>Manage</code></td><td><code>None</code></td><td><code>None</code></td></tr><tr><td>Workspace Settings</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr></tbody></table>
+#### Settings
 
-#### **Resources**
+<table><thead><tr><th width="225">Permission</th><th width="108">Admin</th><th width="111">Editor</th><th width="106">Viewer</th></tr></thead><tbody><tr><td>API Keys</td><td><code>Manage</code></td><td><code>Create</code></td><td><code>None</code></td></tr><tr><td>Billing</td><td><code>Manage</code></td><td><code>None</code></td><td><code>None</code></td></tr><tr><td>Import and export</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Workspace settings</td><td><code>Manage</code></td><td><code>None</code></td><td><code>None</code></td></tr></tbody></table>
+
+
+
+#### Features
+
+<table><thead><tr><th width="222">Permission</th><th width="109">Admin</th><th width="108">Editor</th><th width="107">Viewer</th></tr></thead><tbody><tr><td>Integrations</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr><tr><td>Monitors</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Automations</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Analytics</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Views</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Questions</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Secoda AI</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>DQS</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Tags</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Properties</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Teams</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr></tbody></table>
+
+#### **User & Role Management**
+
+<table><thead><tr><th width="226">Permission</th><th width="103">Admin</th><th width="109">Editor</th><th width="105"></th></tr></thead><tbody><tr><td>Users</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Roles</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Groups</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Teams</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr></tbody></table>
+
+
+
+#### **Resource Management**
 
 <table><thead><tr><th width="226">Permission</th><th width="107">Admin</th><th width="108">Editor</th><th width="116">Viewer</th></tr></thead><tbody><tr><td>Resource</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Lineage</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Column Profile</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Preview</td><td><code>View</code></td><td><code>View</code></td><td><code>View</code></td></tr></tbody></table>
 
