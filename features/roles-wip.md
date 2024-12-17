@@ -1,9 +1,4 @@
----
-hidden: true
-noIndex: true
----
-
-# Roles \[WIP]
+# Roles
 
 ### Introduction[​](https://datahubproject.io/docs/authorization/policies#introduction) <a href="#introduction" id="introduction"></a>
 
