@@ -1,6 +1,6 @@
 # Secoda AI Terms
 
-Last Updated August 29, 2024
+Last Updated December 23, 2024
 
 These Secoda AI Terms and Conditions (”the Terms”) supplement the applicable Secoda Services Agreement (“Services Agreement”) between You and Secoda, which is incorporated by reference. These Terms apply specifically to the private beta (”Beta Program” or “Beta”) that provides new features in Secoda AI driven by AI models which may be hosted by Secoda or applicable 3rd-party partners (”Models”).
 
@@ -32,7 +32,7 @@ You may not use Secoda AI to (i) engage in nefarious use, including generating m
 
 Secoda reserves the right to determine that any other use is unacceptable for any reason, at our sole discretion, and either restrict or terminate access accordingly.
 
-Secoda uses technology provided by OpenAI, LLC (“OpenAI”). You may not use Secoda in a manner that violates any OpenAI Policy, including their [Content Policy](https://labs.openai.com/policies/content-policy); [Sharing and Publication Policy](https://openai.com/api/policies/sharing-publication/); and [Community Guidelines](https://openai.com/api/policies/community-guidelines/).
+Secoda uses technology provided by OpenAI, LLC (“OpenAI”) and Anthropic PBC ("Anthropic"). You may not use Secoda in a manner that violates any OpenAI or Anthropic Policy.
 
 ### LIMITS ON LIABILITY[​](https://learn.hex.tech/docs/legal/hex-magic-terms-and-conditions#limits-on-liability) <a href="#limits-on-liability" id="limits-on-liability"></a>
 

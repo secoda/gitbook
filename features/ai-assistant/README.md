@@ -4,15 +4,17 @@ description: This page will go over the Secoda AI functionality.
 
 # Secoda AI
 
-Explore plans which include Secoda AI [here](https://www.secoda.co/pricing).
+{% hint style="info" %}
+"LLM provider" refers to OpenAI or Anthropic. Workspace admins can choose which provider they use in their AI settings.
+{% endhint %}
 
 ## Overview
 
-The Secoda Secoda AI enhances your data stack by providing a powerful chat interface that allows anyone in your organization to retrieve data insights.&#x20;
+The Secoda Secoda AI enhances your data stack by providing a powerful chat interface that allows anyone in your organization to retrieve data insights.
 
-Secoda's Secoda AI is powered by [OpenAI's APIs](https://openai.com/product), which sit atop the GPT4 Large Language Model. We are updated to the latest version of GPT -- [GPT-4o](https://platform.openai.com/docs/models/gpt-4o).&#x20;
+Secoda AI is powered by OpenAI and Anthropic's API. Workspace admins currently have the choice of using OpenAI's GPT-4o model or Anthropic's Claude Sonnet 3.5 model. Read more about Secoda AI's security posture in our [security.md](security.md "mention").
 
-By sharing **only** the metadata in your workspace with OpenAI, Secoda's AI Assistant can help you with documentation, query building, institutional knowledge discovery, all while safeguarding your metadata!
+Secoda's AI can help you with documentation, query building, institutional knowledge discovery.
 
 ## **Enabling the Secoda AI**
 
@@ -32,7 +34,7 @@ Admins can customize AI settings to align with workspace preferences and securit
 
 ### **Governance**
 
-AI Governance in Secoda empowers organizations to control the data accessed by AI, enhancing security and data relevance.&#x20;
+AI Governance in Secoda empowers organizations to control the data accessed by AI, enhancing security and data relevance.
 
 #### Key Features:
 
@@ -66,7 +68,7 @@ By implementing these rules, Admins can tailor AI capabilities to fit organizati
 This ensures that only authorized users can run queries on sensitive or critical data, maintaining control over data access.
 {% endhint %}
 
-### **Custom Instructions**&#x20;
+### **Custom Instructions**
 
 #### Chat
 
@@ -77,7 +79,7 @@ Some examples that we've seen work well:
 > * Do not index on resources tagged with "archived" or "deprecated" or "stale".
 > * Only provide results on "Verified" resources.
 > * Only provide results on Published resources - do not include resources that are still in Draft.
-> * Only reference tables and views from the production analytics schema in Snowflake, never use data from the RAW database.&#x20;
+> * Only reference tables and views from the production analytics schema in Snowflake, never use data from the RAW database.
 
 {% hint style="info" %}
 By default, both Published and Draft resources are included in Secoda AI responses. This can be controlled using the custom instructions to restrict this to only Published resources, for example.
@@ -120,9 +122,7 @@ Once your Agent has been created, you can switch between Agents on the Secoda AI
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d01b9fdc-c295-44fd-b8d6-3aade6cbc0e0.png" alt="" width="563"><figcaption></figcaption></figure>
 
-
-
-## **Future Improvements**&#x20;
+## **Future Improvements**
 
 Looking ahead, we are committed to enhancing the Secoda AI Assistant with:
 
