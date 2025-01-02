@@ -7,10 +7,11 @@ If you're self-hosted, replace https://app.secoda.co with your domain.
 {% endhint %}
 
 1. In the OneLogin console go to **Applications > Add App** and search for "SAML Custom Connector (Advanced)" and select the option.
-2.  Name the app `Secoda` and click **Save.**
+2. Name the app `Secoda` and click **Save.**
+3. In the Configuration tab set the Audience, Recipient, ACS, and ACS consumer paths to the endpoints provided by the [https://app.secoda.co/settings/security](https://app.secoda.co/settings/security) page.&#x20;
 
-    <figure><img src="../.gitbook/assets/Group 6.png" alt=""><figcaption><p>Configuration tab values. <em>These values are an example, do not copy these values.</em></p></figcaption></figure>
-3. In the Configuration tab set the Audience, Recipient, ACS, and ACS consumer paths **to your personalized** endpoints, provided by the [https://app.secoda.co/settings/security](https://app.secoda.co/settings/security) page.&#x20;
+<figure><img src="../.gitbook/assets/Group 6.png" alt=""><figcaption><p>Configuration tab values. <em>These values are an example, do not copy these values.</em></p></figcaption></figure>
+
 4. Go to the **Parameters** tab and add a new parameter by clicking the **+** button. Add the `email`, \` `firstName`, and `lastName` parameters.&#x20;
 
 <figure><img src="../.gitbook/assets/Group 9.png" alt=""><figcaption><p><em>Check "Include in SAML assertion" for all of these parameters</em></p></figcaption></figure>
@@ -19,7 +20,7 @@ If you're self-hosted, replace https://app.secoda.co with your domain.
 
 5. Check **"Both"** for the SAML signature element field.
 
-<figure><img src="../.gitbook/assets/Group 7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Group 7.png" alt=""><figcaption><p><em>Both signatures must be enabled</em></p></figcaption></figure>
 
 6. Change the SAML Signature Algorithm to **SHA-256**. Then save all of your changes. Copy the **Issuer URL** and submit that on [**https://app.secoda.co/settings/security**](https://app.secoda.co/settings/security) as the **Metadata URL** with SAML Provider **Generic**.
 
