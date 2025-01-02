@@ -8,7 +8,7 @@ If you're self-hosted, replace https://app.secoda.co with your domain.
 
 1. In the OneLogin console go to **Applications > Add App** and search for "SAML Custom Connector (Advanced)" and select the option.
 2. Name the app `Secoda` and click **Save.**
-3. In the Configuration tab set the Audience, Recipient, ACS, and ACS consumer paths to the endpoints provided by the [https://app.secoda.co/settings/security](https://app.secoda.co/settings/security) page.&#x20;
+3. In the Configuration tab set the Audience, Recipient, and ACS consumer paths to the endpoints provided by the [https://app.secoda.co/settings/security](https://app.secoda.co/settings/security) page.&#x20;
 
 <figure><img src="../.gitbook/assets/Group 6.png" alt=""><figcaption><p>Configuration tab values. <em>These values are an example, do not copy these values.</em></p></figcaption></figure>
 
@@ -24,6 +24,6 @@ If you're self-hosted, replace https://app.secoda.co with your domain.
 
 6. Change the SAML Signature Algorithm to **SHA-256**. Then save all of your changes. Copy the **Issuer URL** and submit that on [**https://app.secoda.co/settings/security**](https://app.secoda.co/settings/security) as the **Metadata URL** with SAML Provider **Generic**.
 
-
+<figure><img src="../.gitbook/assets/Group 1 (1) (1).png" alt=""><figcaption><p><em>Set SHA-256</em></p></figcaption></figure>
 
 Once the Secoda team approves your request, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.
