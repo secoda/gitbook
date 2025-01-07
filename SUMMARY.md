@@ -281,6 +281,7 @@
       * [TLS/SSL (Docker compose)](self-hosted-secoda/additional-resources/configure-tls-docker-compose.md)
       * [Automatic Updates (Docker compose)](self-hosted-secoda/additional-resources/setup-automatic-updates.md)
       * [Backups (Docker compose)](self-hosted-secoda/additional-resources/setup-backups.md)
+      * [Outbound Connections](enterprise/self-hosted-secoda/additional-resources/outbound-connections.md)
     * [Self-Hosted Changelog](enterprise/self-hosted-secoda/self-hosted-changelog.md)
   * [SIEM](enterprise/siem/README.md)
     * [Google Chronicle](enterprise/siem/google-chronicle.md)
