@@ -32,6 +32,17 @@ Admins can customize AI settings to align with workspace preferences and securit
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ab0017ec-1f2a-4786-b58f-157e5a5b9a59.png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
 
+### **LLM**
+
+Secoda provides the option to choose between two LLMs in your [Secoda AI settings](https://app.secoda.co/settings/ai):
+
+1. **Anthropic Claude Sonnet 3.5**
+2. **OpenAI GPT 4o**
+
+Both models excel at different things so we encourage teams to experiment with the models to see which performs better for your use cases.
+
+<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+
 ### **Governance**
 
 AI Governance in Secoda empowers organizations to control the data accessed by AI, enhancing security and data relevance.
