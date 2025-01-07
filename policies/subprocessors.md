@@ -2,7 +2,7 @@
 
 
 
-| Company                                            | Description                       | Country in which Sub-processing will take place                                           |
+| Company                                            | Description                       | Location                                                                                  |
 | -------------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------- |
 | Amazon Web Services, Inc.                          | Hosting                           | <p>United States (us-east-1) <br>Germany (eu-central-1)<br>Singapore (ap-southeast-1)</p> |
 | Retool, Inc.                                       | Product Analytics                 | United States                                                                             |
