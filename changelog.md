@@ -1,5 +1,9 @@
 # Changelog
 
+{% hint style="info" %}
+The changelog for self-hosted customers is maintained in [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
+{% endhint %}
+
 ## Jira Syncing and Chrome Extension Updates (v7.34.0)
 
 _December 06, 2024_
