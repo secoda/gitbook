@@ -44,6 +44,10 @@ NOTE: Preview of PowerBI resources is available in Secoda to Power BI Pro or Pre
   * Tags
   * Preview
 * DAX
+* Dataflows
+  * Name
+  * Description
+  * Owner
 
 {% hint style="info" %}
 You must fully enable metadata scanning in order for DAX expressions to be returned. For more information, see [Enable tenant settings for metadata scanning](https://learn.microsoft.com/en-us/power-bi/admin/service-admin-metadata-scanning-setup#enable-tenant-settings-for-metadata-scanning).
