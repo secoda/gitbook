@@ -203,6 +203,7 @@
     * [Connecting via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/README.md)
       * [Snowflake via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/snowflake-via-aws-privatelink.md)
       * [AWS Service via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/aws-service-via-aws-privatelink.md)
+    * [Recommendations to Improve SSH Tunnel Concurrency on SSH Bastion](integrations/security/recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md)
   * [Custom Integrations](integrations/custom-integrations-and-marketplace/README.md)
     * [File Upload](integrations/custom-integrations-and-marketplace/custom-integration/README.md)
       * [CSV File Format](integrations/custom-integrations-and-marketplace/custom-integration/create-your-csv.md)
