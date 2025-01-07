@@ -26,6 +26,18 @@ We have updated the environment variables for self-hosted images. Please see [ad
 * **Monitoring Workflow**: Streamlined incident management with automated comment sync between tools and improved notification systems.
 * **Navigation Updates**: Redesigned interface elements with new filtering options and improved resource bookmarking for better usability.
 
+**Breaking Changes**
+
+The following functionality now requires user-provided environment variables. Information on adding these environment variables can be found [here](additional-resources/additional-environment-variables/).
+
+* **AI** **Assistant**
+* **File Uploads**
+* **OAuth Integrations**
+  * **BigQuery**
+  * **Looker Studio**
+  * **PowerBI**
+  * **GitHub**
+
 For more detailed information on these updates, please visit [Secoda's full changelog](https://docs.secoda.co/changelog).
 
 ### v2024.4.2 (December 12, 2024)
