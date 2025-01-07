@@ -6,6 +6,28 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.1.6 (January 7, 2024)
+
+{% hint style="info" %}
+We have updated the environment variables for self-hosted images. Please see [additional-environment-variables](additional-resources/additional-environment-variables/ "mention") for the list of all environment that need to be manually added to your deployments.
+{% endhint %}
+
+**New Features**
+
+* [**Unified Glossary**](https://docs.secoda.co/features/glossary): Combined Dictionary and Metrics into a single interface with support for synonyms, related terms, and direct commenting. Makes it easier to manage both static terms and dynamic metrics in one place.
+* [**Enhanced Monitoring Creation Flow**](https://docs.secoda.co/features/monitoring): Introduced bulk monitor creation for hundreds of resources, plus new job monitors for dbt and Airflow tracking duration, success rates, and error rates.
+* [**Custom Catalog Views**](https://docs.secoda.co/features/views): Create and share personalized filtered views of your data catalog, making it easier for teams to find and access relevant data. Includes persistent filter settings.
+
+**Improvements**
+
+* **Chrome Extension Updates**: Added catalog-wide search and expanded tool support for integrations.
+* **Jira Integration**: Two-way synchronization between Secoda Questions and Jira tickets, with automatic comment syncing and direct context linking.
+* **Advanced Lineage**: Added filtering by resource type and integration, with job information visible on graph edges and improved navigation.
+* **Monitoring Workflow**: Streamlined incident management with automated comment sync between tools and improved notification systems.
+* **Navigation Updates**: Redesigned interface elements with new filtering options and improved resource bookmarking for better usability.
+
+For more detailed information on these updates, please visit [Secoda's full changelog](https://docs.secoda.co/changelog).
+
 ### v2024.4.2 (December 12, 2024)
 
 **Bug Fixes**
