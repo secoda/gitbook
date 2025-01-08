@@ -1,8 +1,54 @@
 # Changelog
 
 {% hint style="info" %}
-The changelog for self-hosted customers is maintained in [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
+The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
+
+## Enhanced Secoda AI options (v8.2.0) <a href="#h_219c272670" id="h_219c272670"></a>
+
+_Jan 8, 2025_
+
+We're excited to announce that Secoda customers can now choose between Anthropic's Claude 3.5 Sonnet or Open AI's GPT-4o LLM to power their Secoda AI experience.
+
+What this means for you:
+
+⚖️ AI model selection: Choose the AI model that best fits your needs - either Claude 3.5 Sonnet or GPT-4o
+
+🚀 Enhanced capabilities: Claude 3.5 Sonnet offers improved accuracy in understanding data documentation and maintains better context for more relevant responses
+
+🔒 Enterprise-ready: Both options maintain strong security certifications and compliance requirements
+
+🔄 Simple switching: Users can switch between GPT-4o and Claude 3.5 Sonnet through their AI settings
+
+✅ Seamless transition: All existing features work smoothly with either model
+
+This update gives you more flexibility and control over your Secoda AI experience.
+
+***
+
+## Introducing custom roles: Early access now open <a href="#h_44b08ebff7" id="h_44b08ebff7"></a>
+
+We’re excited to offer [custom roles](https://secoda.intercom-clicks.com/via/e?ob=BDTKtEPMtfMxfBwMvVupbcjSn%2BR6c0pU5ll2LxhFHxI1r2twHbF7UliJKQsNFUKR\&h=07983fe4d2943021055cf67c7736e6f480e8d5e3-dssmg53d_615450\&l=0c63de3ed5e84eaa8a62c68782a795de7f558cf0-131246877) in early access, giving your teams more flexibility and control over access permissions. Static roles can be limiting—Secoda’s fine-grained permissions ensure everyone gets access to exactly what they need, and nothing more.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Key features:
+
+🔒 Granular permissions: Control who can create, edit, or delete resources, down to individual integrations.
+
+👥 Team-specific access: Assign roles tailored to responsibilities, like managing monitors or reviewing documentation.
+
+⚡ SSO integration: Seamlessly sync with Okta, Azure AD, and other SSO providers for efficient role management.
+
+Want early access? Fill out [this Tally form](https://secoda.intercom-clicks.com/via/e?ob=C9MdeHpS0F5F1P8TppjCgR3TboujYfTA8HmA2a3bE7M%3D\&h=e09ba03d1d361a421c457424c1740935cd3741f5-dssmg53d_615450\&l=330607b3ed8dc9469e0bd9c787fcc7453819a116-131246878) to request access and get started!
+
+Note: This feature will be included for Enterprise customers and available as an add-on for Core and Premium plans.
+
+
+
+***
+
+
 
 ## Jira Syncing and Chrome Extension Updates (v7.34.0)
 
@@ -33,8 +79,6 @@ We’ve made significant updates to the browser extension to improve navigation,
 These updates make navigating and managing your data easier and more efficient, all within the tools you already use.
 
 [Learn more](https://docs.secoda.co/features/chrome-extension)
-
-November 2024
 
 ## Job Monitoring & Monitoring Creation Flow Updates (v7.33.0)
 
