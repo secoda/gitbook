@@ -60,6 +60,15 @@ $ vi authorized_keys
 
 # Set restrictive permissions on the authorized_keys file
 $ chmod 0600 authorized_keys
+
+# Exit the 'secoda' user session
+$ exit
+
+# Restart the SSH service (systemd-based systems)
+$ sudo systemctl restart ssh 
+
+# Restart the SSH service (SysVinit-based systems, if applicable)
+$ sudo service ssh restart
 ```
 
 ### Connecting your Integration using a Tunnel
