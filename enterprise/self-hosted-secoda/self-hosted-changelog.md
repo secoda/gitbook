@@ -32,8 +32,7 @@ For more detailed information on these updates, please visit [Secoda's full chan
 
 The following functionality now requires user-provided environment variables. Information on adding these environment variables can be found [here](additional-resources/additional-environment-variables/).
 
-* **AI** **Assistant**
-* **File Uploads**
+* **Secoda AI**
 * **OAuth Integrations**
   * **BigQuery**
   * **Looker Studio**
