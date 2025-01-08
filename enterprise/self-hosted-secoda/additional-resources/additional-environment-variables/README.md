@@ -29,7 +29,9 @@ OPENAI_API_KEY=sk-abc12345EXAMPLExyz67890
 [openai-api-key-creation-on-premise.md](openai-api-key-creation-on-premise.md)
 {% endcontent-ref %}
 
-**File Uploads&#x20;**_**(recommended)**_
+**Bucket Uploads**
+
+If this is not configured, Secoda defaults to storing file uploads in Postgres.
 
 ```
 PRIVATE_BUCKET=
