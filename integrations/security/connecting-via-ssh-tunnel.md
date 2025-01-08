@@ -35,18 +35,31 @@ Set up can vary depending on the Cloud provider used. We provide some general ti
   * Protocol should be set to TCP
   * Source IP address should be set to the [Secoda IP Address](../../faq.md#what-are-the-ip-addresses-for-secoda)
   * Destination IP address should be the IP address of your Firewall
-  * Recommended Port is 22
+  * Default Port is 22
   * Translated IP address should be the IP address of the Virtual Machine
 * From within your instance, you'll need to create a user and set up the SSH key provided by Secoda. The follow commands are recommended to do this:
 
 ```xml
-$ sudo useradd -m secoda // Create a new non admin user for Secoda
-$ sudo su - secoda // Finegrain permissions for this user as you see fit
-$ mkdir .ssh // Create an SSH folder if one doesn't already exist
-$ chmod 0700 .ssh // Set restrictive permissions on this folder
-$ cd .shh // Go into this folder
-$ vi authorized_keys // Open a new file called authorized_keys, add a Public Key to this file and save it
-$ chmod 0600 authorized_keys // Set restrictive permissions on this folder
+# Create a new non-admin user for Secoda
+$ sudo useradd -m secoda 
+
+# Switch to the new user
+$ sudo su - secoda 
+
+# Create an SSH folder if one doesn't already exist
+$ mkdir -p ~/.ssh 
+
+# Set restrictive permissions on the .ssh folder
+$ chmod 0700 ~/.ssh 
+
+# Navigate into the .ssh folder
+$ cd ~/.ssh 
+
+# Create or open the authorized_keys file, add a Public Key to this file, and save it
+$ vi authorized_keys 
+
+# Set restrictive permissions on the authorized_keys file
+$ chmod 0600 authorized_keys
 ```
 
 ### Connecting your Integration using a Tunnel
@@ -57,17 +70,32 @@ At the bottom of the connect page, you'll see the option to add a tunnel. Click 
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/6fec8c62-f468-4411-8ade-6dca075dda43.png)
 
-### Troubleshooting <a href="#h_4e44bc0849" id="h_4e44bc0849"></a>
+## Troubleshooting
 
 If you're having trouble establishing a connection with a standard tunnel, check the following:
 
-* Check that the [Secoda IP](../../faq.md#what-are-the-ip-addresses-for-secoda) is whitelisted on your Bastion host.
-* Check that the public key _**we provide you**_ on tunnel creation is in the `~/.ssh/authorized_keys` file.
-* Check permissions on the SSH files.
-  * `~/.ssh` directory should be `0700`
-  * `~/.ssh/authorized_keys` file should be `0644`
-* Check that the Bastion host can network to your data source.
-  * `nc -z $data_source_host $data_source_port`
+1. **Whitelist the Secoda IP**\
+   Ensure that the Secoda IP is whitelisted on your Bastion host.
+2. **Verify the Public Key**\
+   Confirm that the public key provided during tunnel creation is correctly added to the `~/.ssh/authorized_keys` file of the user on the Bastion host.
+3.  **Check Permissions on SSH Files**\
+    Ensure that the permissions on SSH-related files and directories are set correctly:
+
+    * `~/.ssh` directory: `0700`
+    * `~/.ssh/authorized_keys` file: `0600`
+
+    **Note:** The permissions for `authorized_keys` should be `0600` (not `0644`) to maintain strict security compliance.
+4.  **Test Network Connectivity**\
+    Verify that the Bastion host can connect to your data source. Replace `$data_source_host` and `$data_source_port` with the actual hostname and port of your data source.
+
+    ```
+    Copy code
+    ```
+
+    ```bash
+    nc -z $data_source_host $data_source_port
+    ```
+
 *   Check that you can use the bastion host from your personal machine. You will need to use _your own_ private and public keys, not the public key from the above step. Replace the values where appropriate.
 
     ```
