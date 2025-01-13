@@ -47,4 +47,4 @@ dbt is a secondary integration that adds additional metadata on to your data war
 * Exposures (dbt Exposures are referred to as `DASHBOARD` in Secoda)
   * The exposures can be a dashboard, notebook, analysis, ml, or application, but we currently only support dashboards.
 * Monitors
-  * See
+  * See [#monitors-as-code](../../../features/monitoring.md#monitors-as-code "mention")on how to implement monitors in your model yml
