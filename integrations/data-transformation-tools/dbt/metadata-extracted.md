@@ -45,7 +45,6 @@ dbt is a secondary integration that adds additional metadata on to your data war
 * Groups (Groups are referred to as `USER_GROUPS` in Secoda)
 * Contracts (dbt Contracts are referred to as `TEST` in Secoda)
 * Exposures (dbt Exposures are referred to as `DASHBOARD` in Secoda)
-  1. The exposures can be a dashboard, notebook, analysis, ml, or application, but we currently only support dashboards.
-* Semantic layer metrics (Referred to as Dictionary terms in Secoda) on dbt v1.6+:
-  * Name
-  * Type (Simple, Ration, Derived)
+  * The exposures can be a dashboard, notebook, analysis, ml, or application, but we currently only support dashboards.
+* Monitors
+  * See
