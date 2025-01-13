@@ -56,7 +56,7 @@ The monitor will alert if any of these values are higher or lower than expected.
 
 Monitors can be created via the **Monitors** section in the sidebar or through the **Monitors tab** on the resource page:
 
-1. Navigate to "**Monitors**" and click "**Create monitor."**&#x20;
+1. Navigate to "**Monitors**" and click "**Create monitor."**
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9aca8ba5-cbcf-4995-93d0-0f89a8429658.png" alt=""><figcaption></figcaption></figure>
 
@@ -72,7 +72,7 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 
 * **Schedule Options:** Daily, Every 12, 6 or 3 hours, or Hourly
 * **Threshold:** Automatic or Manual
-  * Note: For Automatic thresholds to be set, it can take 4 days for hourly, 6 days for multiple times a day, and 8-9 days for daily monitors.&#x20;
+  * Note: For Automatic thresholds to be set, it can take 4 days for hourly, 6 days for multiple times a day, and 8-9 days for daily monitors.
 
 5. Once configured, click add monitor and it show now show up within the list of monitors. You can view and edit the configurations from the sidebar on the monitor page
 
@@ -175,7 +175,7 @@ Monitoring functionality is primarily intended for users with Edit or Admin role
 
 ## Monitoring Notifications
 
-Stay informed about the status of your monitors by adjusting your Notification settings. Specify your preferred channels for receiving alerts—whether through Slack DMs, email, or directly within the app.&#x20;
+Stay informed about the status of your monitors by adjusting your Notification settings. Specify your preferred channels for receiving alerts—whether through Slack DMs, email, or directly within the app.
 
 <div align="left"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications in Settings</p></figcaption></figure></div>
 
@@ -191,4 +191,93 @@ Admins can direct monitoring notifications to specific Slack channels, distinct 
 
 Email notifications provide direct links to the relevant sections in Secoda. As shown in the image below, clicking the "Open Secoda" link takes you to the Inbox notification, while other links direct you to specific incidents or tables.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0b353c94-27f9-4dc3-bdab-fdf60460795f.png" alt=""><figcaption><p>Image explaining the links in email notifications</p></figcaption></figure>
+## Monitors as Code
+
+You can declare Secoda monitors directly in your dbt model YAML files using the meta configuration. This allows you to set up monitoring for your dbt models without leaving your dbt project.
+
+### Configuration Structure
+
+Add monitors under the meta.secoda.monitors section of your model configuration:
+
+```yaml
+version: 2
+
+models:
+  - name: my_model
+    meta:
+      secoda:
+        monitors:
+          row_count:
+            enabled: true
+          freshness:
+            enabled: true
+```
+
+### Available Monitor Types
+
+#### Row Count Monitor
+
+Tracks the number of rows in your table over time
+
+```yaml
+models:
+  - name: my_model
+    meta:
+      secoda:
+        monitors:
+          row_count:
+            enabled: true
+```
+
+#### Freshness Monitor
+
+Monitors when your table was last updated
+
+```yaml
+models:
+  - name: my_model
+    meta:
+      secoda:
+        monitors:
+          freshness:
+            enabled: true
+```
+
+### Monitor Configuration Options
+
+Each monitor can be configured with the following options:
+
+* `enabled`: (boolean) Whether the monitor is active
+* `sensitivity`: (integer, 1-10) How sensitive the monitor should be to changes
+* `schedule`: (optional) Custom schedule configuration
+* `cadence`: "hourly" | "daily"
+* `frequency`: Number of hours (if cadence is hourly)
+* `hour`: Hour of the day to run (if cadence is daily)
+* `day`: Day of week to run (0-6, where 0 is Sunday)
+
+#### Example with Full Configuration:
+
+```yaml
+version: 2
+
+models:
+  - name: orders
+    meta:
+      secoda:
+        monitors:
+          row_count:
+            enabled: true
+            sensitivity: 5
+            schedule:
+              cadence: daily
+              hour: 3
+          freshness:
+            enabled: true
+            sensitivity: 7
+            schedule:
+              cadence: hourly
+              frequency: 4
+```
+
+
+
