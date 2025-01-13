@@ -6,7 +6,7 @@ description: >-
 
 # Self-Hosted Changelog
 
-### v2025.1.6 (January 7, 2024)
+### v2025.1.9 (January 13, 2024)
 
 {% hint style="info" %}
 We have updated the environment variables for self-hosted images. Please see [additional-environment-variables](additional-resources/additional-environment-variables/ "mention") for the list of all environment that need to be manually added to your deployments. These environment variables influence the [#breaking-changes](self-hosted-changelog.md#breaking-changes "mention").
