@@ -21,3 +21,5 @@ description: List of all the metadata that Secoda pulls from Azure Data Factory.
     * Started date (Timestamp)
     * Finished date (Timestamp)
     * Duration
+* Lineage
+  * Azure Data Factory Jobs <-> Tables from other sources
