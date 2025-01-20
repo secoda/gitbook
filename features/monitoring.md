@@ -242,24 +242,33 @@ You can mix both formats across different models and columns, but each individua
 
 ### Configuration Options
 
-#### Thresholds Configuration
-- `method`: "manual" or "automatic" (default: "automatic")
-- `min`: Minimum acceptable value (for manual method)
-- `max`: Maximum acceptable value (for manual method)
-- `sensitivity`: Scale of 1-10 for automatic thresholds (default: 5)
-- `bounds`: "both", "upper", or "lower" (default: "both")
+Here are all available configuration properties with their default values:
 
-#### Schedule Configuration
-- `cadence`: "hourly" or "daily" (default: "daily")
-- `hour_utc`: Hour of the day to run (0-23, for daily cadence)
-- `frequency`: Run frequency in hours (for hourly cadence)
-
-#### General Configuration
-- `name`: Custom name for the monitor
-- `description`: Optional description
-- `query`: SQL query for custom_sql monitors
+```yaml
+monitors:
+  metric_name:
+    # Threshold Configuration
+    thresholds:
+      method: automatic   # or manual
+      min: null           # required if method is manual
+      max: null           # required if method is manual
+      sensitivity: 5      # scale 1-10, used for automatic method
+      bounds: both        # or upper or lower
+    
+    # Schedule Configuration
+    schedule:
+      cadence: daily     # or hourly
+      hour_utc: 0        # hour of day (0-23) for daily cadence
+      frequency: 1       # run frequency in hours for hourly cadence
+    
+    # General Configuration
+    name: ""             # custom monitor name
+    description: ""      # optional description
+    query: null          # required for custom_sql monitors
+```
 
 ### Complete Example
+
 ```yaml
 version: 2
 models:
