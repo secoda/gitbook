@@ -191,93 +191,108 @@ Admins can direct monitoring notifications to specific Slack channels, distinct 
 
 Email notifications provide direct links to the relevant sections in Secoda. As shown in the image below, clicking the "Open Secoda" link takes you to the Inbox notification, while other links direct you to specific incidents or tables.
 
-## Monitors as Code
+# Monitors as Code
 
-You can declare Secoda monitors directly in your dbt model YAML files using the meta configuration. This allows you to set up monitoring for your dbt models without leaving your dbt project.
+You can declare Secoda monitors directly in your dbt model YAML files. These monitors are managed entirely through code and cannot be modified through the Secoda UI. Changes are applied when the dbt integration syncs with Secoda.
 
-### Configuration Structure
+### Monitor Configuration Formats
 
-Add monitors under the meta.secoda.monitors section of your model configuration:
+Monitors can be specified using two formats:
 
+#### List Format (Default Configuration)
 ```yaml
-version: 2
-
-models:
-  - name: my_model
-    meta:
-      secoda:
-        monitors:
-          row_count:
-            enabled: true
-          freshness:
-            enabled: true
+monitors:
+  - mean
+  - max
+  - null_percentage
 ```
+When using list format, each monitor uses these default settings:
+- Automatic thresholds (sensitivity: 5)
+- Daily schedule (runs once per day at UTC midnight)
+- Both upper and lower bounds
+- Auto-generated monitor name
+
+#### Dictionary Format (Custom Configuration)
+```yaml
+monitors:
+  mean: {}  # Empty dict for default configuration (same defaults as list format)
+  null_percentage:
+    name: "Custom Null Check"
+    thresholds:
+      sensitivity: 8
+      bounds: lower
+```
+
+You can mix both formats across different models and columns, but each individual `monitors` section must use either list or dictionary format, not both. Use list format for simplicity when default settings are sufficient, and dictionary format when you need to customize any monitor settings.
 
 ### Available Monitor Types
 
-#### Row Count Monitor
+#### Table-Level Monitors
+- `row_count`: Tracks number of rows
+- `freshness`: Monitors last update time (Snowflake/Redshift only)
+- `custom_sql`: Execute custom SQL queries
 
-Tracks the number of rows in your table over time
+#### Column-Level Monitors
+- `mean`: Average value
+- `max`: Maximum value
+- `min`: Minimum value
+- `cardinality`: Number of unique values
+- `null_percentage`: Percentage of null values
+- `unique_percentage`: Percentage of unique values
 
-```yaml
-models:
-  - name: my_model
-    meta:
-      secoda:
-        monitors:
-          row_count:
-            enabled: true
-```
+### Configuration Options
 
-#### Freshness Monitor
+#### Thresholds Configuration
+- `method`: "manual" or "automatic" (default: "automatic")
+- `min`: Minimum acceptable value (for manual method)
+- `max`: Maximum acceptable value (for manual method)
+- `sensitivity`: Scale of 1-10 for automatic thresholds (default: 5)
+- `bounds`: "both", "upper", or "lower" (default: "both")
 
-Monitors when your table was last updated
+#### Schedule Configuration
+- `cadence`: "hourly" or "daily" (default: "daily")
+- `hour_utc`: Hour of the day to run (0-23, for daily cadence)
+- `frequency`: Run frequency in hours (for hourly cadence)
 
-```yaml
-models:
-  - name: my_model
-    meta:
-      secoda:
-        monitors:
-          freshness:
-            enabled: true
-```
+#### General Configuration
+- `name`: Custom name for the monitor
+- `description`: Optional description
+- `query`: SQL query for custom_sql monitors
 
-### Monitor Configuration Options
-
-Each monitor can be configured with the following options:
-
-* `enabled`: (boolean) Whether the monitor is active
-* `sensitivity`: (integer, 1-10) How sensitive the monitor should be to changes
-* `schedule`: (optional) Custom schedule configuration
-* `cadence`: "hourly" | "daily"
-* `frequency`: Number of hours (if cadence is hourly)
-* `hour`: Hour of the day to run (if cadence is daily)
-* `day`: Day of week to run (0-6, where 0 is Sunday)
-
-#### Example with Full Configuration:
-
+### Complete Example
 ```yaml
 version: 2
-
 models:
-  - name: orders
+  - name: stg_orders
     meta:
       secoda:
         monitors:
-          row_count:
-            enabled: true
-            sensitivity: 5
-            schedule:
-              cadence: daily
-              hour: 3
-          freshness:
-            enabled: true
-            sensitivity: 7
+          custom_sql:
+            query: "SELECT AVG(amount) FROM analytics.dbt_prod.stg_orders"
             schedule:
               cadence: hourly
-              frequency: 4
+          row_count:
+            name: "Orders Volume Monitor"
+            thresholds:
+              method: manual
+              min: 50
+              max: 500
+    columns:
+      - name: order_amount
+        meta:
+          secoda:
+            monitors:
+              - mean
+              - max
+              - null_percentage
+      - name: status
+        meta:
+          secoda:
+            monitors:
+              unique_percentage: {}
+              cardinality:
+                thresholds:
+                  method: manual
+                  min: 3
+                  max: 10
 ```
-
-
-
