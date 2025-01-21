@@ -26,7 +26,7 @@ This option is recommended to ensure that Secoda always has the latest `manifest
 
 ### **1a. Connect an AWS S3 bucket**
 
-You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.&#x20;
+You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.
 
 <details>
 
@@ -69,8 +69,8 @@ You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.&#x20;
 
 <summary>AWS Roles</summary>
 
-1. Create a new AWS IAM role. In the Select type of trusted entity page, click Another AWS account and add the following account ID: 482836992928.&#x20;
-2. Click on Require External ID, and copy the randomly generated value from Secoda, in the dbt Core connection page.&#x20;
+1. Create a new AWS IAM role. In the Select type of trusted entity page, click Another AWS account and add the following account ID: 482836992928.
+2. Click on Require External ID, and copy the randomly generated value from Secoda, in the dbt Core connection page.
 3. Attach the following policy to the role. Make sure to change `<your-bucket-name>`.
 
 ```
@@ -92,7 +92,7 @@ You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.&#x20;
 }
 ```
 
-4. Once the role is created, you'll receive an Amazon Resource Name (ARN) for the role.&#x20;
+4. Once the role is created, you'll receive an Amazon Resource Name (ARN) for the role.
 5. Connect your S3 bucket to Secoda
    * Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
    * Choose the Role tab and add the credentials from AWS (Role ARN, Region, Bucket Name)
@@ -135,7 +135,7 @@ gsutil cors set cors.json gs://bucket-name
    * **S3 Endpoint** must be added and set to `https://storage.googleapis.com`
 7. Connect your S3 bucket to Secoda
    * Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
-   * Choose the Access Key tab and add the HMAC keys saved above to the relevant fields.&#x20;
+   * Choose the Access Key tab and add the HMAC keys saved above to the relevant fields.
    * Test the Connection - if successful you'll be prompted to run your initial sync
 
 ### **1c. Connect a** Azure Blob Storage container
@@ -147,6 +147,10 @@ gsutil cors set cors.json gs://bucket-name
 5. Test the connection.
 
 ## **Option 2 – Upload a single manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+
+{% hint style="info" %}
+The dbt manifest file contains complete information about how tables are transformed and how they are connected in terms of data lineage. It details the model to table relationships, providing a complete and accurate lineage view.
+{% endhint %}
 
 This is a one time sync with your manifest.json file. You can upload the file following these steps:
 
@@ -160,9 +164,9 @@ The API provides an endpoint to upload your manifest.json and run\_results.json 
 
 1. Create a blank dbt core integration by going to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and selecting the "dbt Core" integration and then click "Test Connection". And run the initial extraction. This extraction will fail, but that's intended.
 2. Return to https://app.secoda.co/integrations and click on the dbt Core integration that was just created. Save the ID which is contained in the URL.
-3. Use the endpoints below to upload your files.&#x20;
+3. Use the endpoints below to upload your files.
 
-Endpoints  ->&#x20;
+Endpoints ->
 
 ### 3a. Two separate calls (One for Manifest, One for Run Results)
 
@@ -174,7 +178,7 @@ Method -> `POST`
 
 NOTE -> This will _automatically_ trigger an extraction to run on the integration you created
 
-Sample Request for Manifest file (Python) ->&#x20;
+Sample Request for Manifest file (Python) ->
 
 ```python
 import requests
@@ -191,7 +195,7 @@ response = requests.post(
 print(response.json())
 ```
 
-Sample Request for Run Results file (Python) ->&#x20;
+Sample Request for Run Results file (Python) ->
 
 ```python
 import requests
@@ -224,7 +228,7 @@ Method -> `POST`
 
 Expected Response -> `200`
 
-Sample Request for uploading your files (Python, note the TODOs) ->&#x20;
+Sample Request for uploading your files (Python, note the TODOs) ->
 
 ```python
 import requests
@@ -252,13 +256,13 @@ print(response)
 
 #### 3. Trigger an Integration Sync
 
-Endpoint  (inserting the integration\_id from Step 1): `https://api.secoda.co/integration/dbt/{integration_id}/trigger/`
+Endpoint (inserting the integration\_id from Step 1): `https://api.secoda.co/integration/dbt/{integration_id}/trigger/`
 
 Method -> `POST`
 
 Expected Response -> `200`
 
-Sample Request for triggering a sync (Python, note the TODOs) ->&#x20;
+Sample Request for triggering a sync (Python, note the TODOs) ->
 
 <pre class="language-python"><code class="lang-python"><strong>import requests
 </strong>
