@@ -36,6 +36,10 @@ For quick trials or non-production environments, Secoda provides a lightweight *
 
 For detailed information on the resources required to run Secoda in a production environment — or to understand the setup handled by automated installation packages — refer to the README file in the [Generic Secoda Helm repository](https://github.com/secoda/secoda-helm-generic).
 
+### Maintaining Self-hosted Instance
+
+Customers will be notified whenever new releases are available for their self-hosted instance. To upgrade to the latest version, simply update your self-hosted instance to point to the latest version tags for both the frontend and API containers. This will automatically trigger all necessary migrations and updates. Unless explicitly stated otherwise, no infrastructure changes are required during the upgrade process.
+
 ### **SAML**
 
 [okta-saml.md](../saml/okta-saml.md "mention")
