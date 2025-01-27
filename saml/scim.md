@@ -59,3 +59,30 @@ Follow the directions below for your identity provider to setup the SCIM integra
 8. Save the configuration
 {% endtab %}
 {% endtabs %}
+
+### Group syncing
+
+Secoda's SCIM integration also supports group syncing. From your side all you have to do is start pushing groups from your Identity provider to Secoda. These will then map one to one with [groups.md](../user-management/groups.md "mention") in Secoda.&#x20;
+
+When syncing groups, the following attributes are supported:
+
+* `displayName`: The name of the group in Secoda
+* `members`: Array of user references that belong to the group
+
+```json
+{
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"],
+    "displayName": "Data Scientists",
+    "members": [
+        {
+            "value": "user-id-1",
+            "display": "user1@company.com"
+        },
+        {
+            "value": "user-id-2", 
+            "display": "user2@company.com"
+        }
+    ]
+}
+```
+
