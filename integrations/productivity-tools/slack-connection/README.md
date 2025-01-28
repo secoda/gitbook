@@ -4,7 +4,7 @@ description: Seamlessly integrate Secoda with your Slack workspace
 
 # Slack
 
-Connecting your workspace to Slack allows you to receive notifications from Secoda regarding changes in your workspace and ask questions about your data directly from Slack. When using the Secoda integration for Slack you're agreeing to our [privacy-policy.md](../../../policies/privacy-policy.md "mention")and [terms-of-use.md](../../../policies/terms-of-use.md "mention").
+Connecting your workspace to Slack allows you to receive notifications from Secoda regarding changes in your workspace and ask questions about your data directly from Slack. When using the Secoda integration for Slack you're agreeing to our [privacy-policy.md](../../../policies/privacy-policy.md "mention") and [terms-of-use.md](../../../policies/terms-of-use.md "mention").
 
 You can learn more about all of the capabilities of this integration here: [slack-user-guide.md](slack-user-guide.md "mention")
 
