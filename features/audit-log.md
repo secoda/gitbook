@@ -25,9 +25,9 @@ Each log entry contains:
 
 ### API Access
 
-You can programmatically access the Activity Log through our REST API:
+You can programmatically access the Audit Log through our REST API:
 
-#### Get Workspace Activity Log
+#### Get Workspace Audit Log
 
 ```http
 GET /api/v1/notification/workspace/
@@ -61,22 +61,6 @@ Example Response:
   ]
 }
 ```
-
-#### Get Resource-Specific Activity Log
-
-```http
-GET /api/v1/notification/resource/?resource_id={resource_id}
-```
-
-Query Parameters:
-
-* `resource_id`: ID of the resource to get activities for (required)
-* `page`: Page number for pagination
-* `page_size`: Number of items per page
-
-Note: The API is read-only and only accessible to workspace administrators. Attempting to POST or UPDATE will result in a 403 error.
-
-\[Rest of the documentation remains unchanged]
 
 ### Best Practices
 
