@@ -88,6 +88,8 @@
       * [Azure Cosmos DB Metadata Extracted](integrations/databases/azure-cosmos-db/metadata-extracted.md)
     * [SingleStore](integrations/databases/singlestore/README.md)
       * [SingleStore Metadata Extracted](integrations/databases/singlestore/singlestore-metadata-extracted.md)
+    * [DynamoDB](integrations/databases/dynamodb/README.md)
+      * [DynamoDB Metadata Extracted](integrations/databases/dynamodb/dynamodb-metadata-extracted.md)
   * [Data Visualization Tools](integrations/data-visualization-tools/README.md)
     * [Amplitude](integrations/data-visualization-tools/amplitude-integration/README.md)
       * [Amplitude Metadata Extracted](integrations/data-visualization-tools/amplitude-integration/metadata-extracted.md)
