@@ -25,7 +25,7 @@ Each log entry contains:
 
 ### API Access
 
-You can programmatically access the Audit Log through our REST API:
+You can programmatically access the Audit Log through our REST API. Please refer to [secoda-api.md](../secoda-api.md "mention")for detailed documentation on using the API.
 
 #### Get Workspace Audit Log
 
