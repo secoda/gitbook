@@ -6,6 +6,10 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.1.11 (January 31, 2024)
+
+* Added support for SAML without outbound connections.
+
 ### v2025.1.10 (January 16, 2024)
 
 * Added `ES_VERIFY_CERTS` environment variable to optionally ignore Elasticsearch certification.
