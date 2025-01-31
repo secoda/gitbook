@@ -8,7 +8,7 @@ description: >-
 
 ### v2025.1.11 (January 31, 2024)
 
-* Added support for SAML without outbound connections.
+* Added support for various features, such as SAML, without outbound connections.
 
 ### v2025.1.10 (January 16, 2024)
 
