@@ -4,9 +4,7 @@ description: Welcome to Secoda! Your data organization's single source of truth.
 
 # Getting Started with Secoda
 
-{% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
-{% endhint %}
 
 ## What is Secoda?
 
@@ -36,12 +34,6 @@ Want to learn about the product in action? Read up on some case studies about ho
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d43aae8b-af06-445b-97e7-f7325e109601.png" alt=""><figcaption></figcaption></figure>
 
-## Video resource: Introduction to Secoda
-
-**Got a few minutes?** Check out a video overview of our product:
-
-{% embed url="https://www.loom.com/share/8aa3956104ee4ab29d0150b8eeff7fa7?sid=875b96d9-abf7-4c5b-8ab4-16719886c0e7" %}
-
 {% hint style="info" %}
-Good to know: We understand that some integrations and data structures are more complex than others, so if you're having any issues, reach out directly on our [Slack community](https://join.slack.com/t/secodacommunity/shared\_invite/zt-mhnu278g-FktKZmZ51SDQtlu3NRAxqg) or support@secoda.co
+Good to know: We understand that some integrations and data structures are more complex than others, so if you're having any issues, reach out directly on our [Slack community](https://join.slack.com/t/secodacommunity/shared_invite/zt-mhnu278g-FktKZmZ51SDQtlu3NRAxqg) or support@secoda.co
 {% endhint %}
