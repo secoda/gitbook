@@ -6,15 +6,19 @@ description: >-
 
 # Self-Hosted Changelog
 
-### v2025.1.11 (January 31, 2024)
+### v2025.1.12 (February 4, 2025)
+
+* Added support for celery queue without outbound connections.
+
+### v2025.1.11 (January 31, 2025)
 
 * Added support for various features, such as SAML, without outbound connections.
 
-### v2025.1.10 (January 16, 2024)
+### v2025.1.10 (January 16, 2025)
 
 * Added `ES_VERIFY_CERTS` environment variable to optionally ignore Elasticsearch certification.
 
-### v2025.1.9 (January 13, 2024)
+### v2025.1.9 (January 13, 2025)
 
 {% hint style="info" %}
 We have updated the environment variables for self-hosted images. Please see [additional-environment-variables](additional-resources/additional-environment-variables/ "mention") for the list of all environment that need to be manually added to your deployments. These environment variables influence the [#breaking-changes](self-hosted-changelog.md#breaking-changes "mention").
