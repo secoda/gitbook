@@ -90,7 +90,7 @@ Out of the box, Secoda is deployed with a set of default Roles. The set of defau
 Manage is all permissions (Create, Update, Delete, and View)
 {% endhint %}
 
-User Management Permissions
+**User Management**&#x20;
 
 | Name   | Admin  | Editor | Viewer |
 | ------ | ------ | ------ | ------ |
@@ -98,7 +98,7 @@ User Management Permissions
 | Groups | Manage | View   | View   |
 | Roles  | Manage | View   | View   |
 
-#### Resource Management Permissions
+#### Resource Management
 
 | Name        | Admin  | Editor         | Viewer |
 | ----------- | ------ | -------------- | ------ |
@@ -107,7 +107,7 @@ User Management Permissions
 | Tags        | Manage | Create, Update | View   |
 | Collections | Manage | Create, Update | View   |
 
-#### Settings Permissions
+#### Settings
 
 | Name          | Admin  | Editor         | Viewer |
 | ------------- | ------ | -------------- | ------ |
@@ -119,7 +119,7 @@ User Management Permissions
 | Import/Export | Manage | None           | None   |
 | Appearance    | Manage | None           | None   |
 
-#### Feature Permissions
+#### Features
 
 | Name          | Admin  | Editor         | Viewer       |
 | ------------- | ------ | -------------- | ------------ |
