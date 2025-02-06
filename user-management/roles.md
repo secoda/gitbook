@@ -15,72 +15,123 @@ Custom Roles are only enabled for Premium and Enterprise tiers.
 
 ### What is a Custom Role?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-policy" id="what-is-a-policy"></a>
 
-A Custom Role consists of a set of permissions (see all permissions below) that can be applied to users. There are 2 types of Permissions within Secoda:
+Custom roles allow workspace administrators to create tailored permission sets that go beyond Secoda's default roles (Admin, Editor, Viewer, and Guest). With custom roles, you can define precise access levels for different teams and use cases within your organization.
 
-1. Platform Permissions
-2. Resource Permissions
+### Understanding Custom Roles
 
-#### Platform Permissions[​](https://datahubproject.io/docs/authorization/policies#platform-policies) <a href="#platform-policies" id="platform-policies"></a>
+Custom roles provide granular control over:
 
-**Platform** permissions determine who has platform-level access and management on Secoda. Examples of these permissions include
+* Resource access (tables, dashboards, documents, etc.)
+* Feature permissions (API access, monitoring, automation, etc.)
+* Administrative capabilities
 
-* Managing Users & Groups
-* Viewing the Secoda Analytics
-* Managing Roles&#x20;
+Unlike default roles which have predefined permission sets, custom roles let you:
 
-Platform permissions consist of just permissions, e.g, "Can view Analytics". Platform permissions do not include a specific "target resource" against which the Permission applies to. Instead, they simply serve to assign specific permissions.
+* Choose specific permissions for each feature
+* Set different access levels for different resource types
+* Create role-based access control (RBAC) that matches your organization's needs
 
-#### Resource Permissions[​](https://datahubproject.io/docs/authorization/policies#metadata-policies) <a href="#metadata-policies" id="metadata-policies"></a>
+### Creating a Custom Role
 
-**Resource** permissions determine who can do what to which resources. For example,
+To create a custom role:
 
-* Who can edit Tables Documentation & Related Resources?
-* Who can add Owners to a Chart?
-* Who can add Tags to a Dashboard?
+1. Navigate to Settings > Members and permissions
+2. Click on the "Roles" tab
+3. Select "Create Role"
+4. Provide:
+   * Role name
+   * Description
+   * Select permissions for each feature category
 
-A Resource Permission can be broken down into 2 parts:
+#### Permission Categories
 
-1. **Resources**: Which Resources that the permission applies to, e.g. "All Tables".
-2. **Permissions**: What actions are being permitted by a permission, e.g. "Manage Tags".
+Custom roles can be configured with permissions across several categories:
 
-**Resources**[**​**](https://datahubproject.io/docs/authorization/policies#resources)
+* **User Management**
+  * Users: Create, update, read, or delete users
+  * Groups: Manage group memberships and settings
+  * Roles: Create and modify roles
+* **Resource Management**
+  * Read: View resources and their metadata
+  * Write: Edit resources and their properties
+  * Manage: Full control including deletion. This includes management of properties including description, owner, tags, verified, etc.
+* **Settings**
+  * Workspace: Configure general workspace settings
+  * Security: Manage SAML and security settings
+  * API Keys: Generate and manage API access
+  * Properties: Configure custom properties
+  * Billing: Access billing and subscription settings
+  * Import/Export: Manage data imports and exports
+  * Appearance: Customize workspace appearance
+* **Features**
+  * AI Assistant: Configure and use Secoda AI
+  * Quality Score: Manage data quality metrics
+  * Questions: Create and manage Q\&A
+  * Automations: Set up automated workflows
+  * Monitors: Configure data monitoring
+  * Views: Create and manage custom views
+  * Analytics: Access usage analytics
+  * Queries: View and manage queries
+  * Lineage: View and edit data lineage
+  * Tags: Create and manage resource tags
+  * Collections: Organize resources in collections
 
-Subsets of resources can be associated with the permission by leveraging [filters.md](../features/filters.md "mention"). This uses the same capabilities that the filters in search, catalog, and many places in the application uses. Some examples of filters include:
+### Best Practices
 
-1. Resources from a specific integration, e.g, Snowflake
-2. Resources of a specific type, e.g, Tables
-3. Resources that contain a specific tag
-4. Resources that are marked as PII
+1. **Principle of Least Privilege**: Grant only the permissions necessary for each role
+2. **Document Role Purposes**: Add clear descriptions to explain each role's intended use
+3. **Regular Review**: Periodically audit custom roles to ensure they align with current needs
 
-### Managing Roles[​](https://datahubproject.io/docs/authorization/policies#managing-policies) <a href="#managing-policies" id="managing-policies"></a>
-
-Policies can be managed on the page **Settings > Members > Roles** tab. The `Roles` tab will only be visible to those users having the `Manage Roles` privilege.
+### Permissions <a href="#reference" id="reference"></a>
 
 Out of the box, Secoda is deployed with a set of default Roles. The set of default roles are Viewers, Editors, and Admins.
 
-### Permissions[​](https://datahubproject.io/docs/authorization/policies#reference) <a href="#reference" id="reference"></a>
-
 {% hint style="info" %}
-Each permission can enable Create, Update, View, and Delete. Managed allows for all.
+Manage is all permissions (Create, Update, Delete, and View)
 {% endhint %}
 
-#### Settings
+User Management Permissions
 
-<table><thead><tr><th width="225">Permission</th><th>Description</th><th width="108">Admin</th><th width="111">Editor</th><th width="106">Viewer</th></tr></thead><tbody><tr><td>API Keys</td><td>Allows user to create API keys to programatically access Secoda.</td><td><code>Manage</code></td><td><code>Create</code></td><td><code>None</code></td></tr><tr><td>Billing</td><td>Allows user to view invoices and update payment methods.</td><td><code>Manage</code></td><td><code>None</code></td><td><code>None</code></td></tr><tr><td>Import and export</td><td>Allows user to export resources to CSV and import via CSV.</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Workspace settings</td><td>Allows user to manage various workspace settings.</td><td><code>Manage</code></td><td><code>None</code></td><td><code>None</code></td></tr></tbody></table>
+| Name   | Admin  | Editor | Viewer |
+| ------ | ------ | ------ | ------ |
+| Users  | Manage | View   | View   |
+| Groups | Manage | View   | View   |
+| Roles  | Manage | View   | View   |
 
+#### Resource Management Permissions
 
+| Name        | Admin  | Editor         | Viewer |
+| ----------- | ------ | -------------- | ------ |
+| Resources   | Manage | Create, Update | View   |
+| Properties  | Manage | Create, Update | View   |
+| Tags        | Manage | Create, Update | View   |
+| Collections | Manage | Create, Update | View   |
 
-#### Features
+#### Settings Permissions
 
-<table><thead><tr><th width="222">Permission</th><th>Description</th><th width="109">Admin</th><th width="108">Editor</th><th width="107">Viewer</th></tr></thead><tbody><tr><td>Integrations</td><td>Allows user to manage integrations.</td><td><code>Manage</code></td><td><code>View</code></td><td><code>None</code></td></tr><tr><td>Monitors</td><td>Allows user to manage monitors.</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Automations</td><td>Allows user to manage automations.</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Analytics</td><td>Allows user to manage analytics.</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>None</code></td></tr><tr><td>Views</td><td>Allows user to manage views.</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Questions</td><td>Allows user to manage questions.</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Secoda AI</td><td>Allows user to </td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>DQS</td><td></td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Tags</td><td></td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Properties</td><td></td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Teams</td><td></td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Lineage</td><td></td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr><tr><td>Preview</td><td></td><td><code>View</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Column Profile</td><td></td><td><code>View</code></td><td><code>View</code></td><td><code>View</code></td></tr></tbody></table>
+| Name          | Admin  | Editor         | Viewer |
+| ------------- | ------ | -------------- | ------ |
+| Workspace     | Manage | View           | View   |
+| Security      | Manage | None           | None   |
+| API Keys      | Manage | Create, Update | View   |
+| Properties    | Manage | Create, Update | View   |
+| Billing       | Manage | None           | None   |
+| Import/Export | Manage | None           | None   |
+| Appearance    | Manage | None           | None   |
 
-#### **User & Role Management**
+#### Feature Permissions
 
-<table><thead><tr><th width="226">Permission</th><th width="103">Admin</th><th width="109">Editor</th><th width="105"></th></tr></thead><tbody><tr><td>Users</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Roles</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Groups</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr><tr><td>Teams</td><td><code>Manage</code></td><td><code>View</code></td><td><code>View</code></td></tr></tbody></table>
-
-
-
-#### **Resource Management**
-
-<table><thead><tr><th width="226">Permission</th><th width="107">Admin</th><th width="108">Editor</th><th width="116">Viewer</th></tr></thead><tbody><tr><td>Resource</td><td><code>Manage</code></td><td><code>Manage</code></td><td><code>View</code></td></tr></tbody></table>
+| Name          | Admin  | Editor         | Viewer       |
+| ------------- | ------ | -------------- | ------------ |
+| AI Assistant  | Manage | View           | View         |
+| Quality Score | Manage | Create, Update | View         |
+| Questions     | Manage | Create, Update | Create, View |
+| Automations   | Manage | View           | None         |
+| Monitors      | Manage | Create, Update | View         |
+| Views         | Manage | Create, Update | View         |
+| Analytics     | Manage | View           | None         |
+| Queries       | Manage | Create, Update | View         |
+| Lineage       | Manage | Create, Update | View         |
+| Tags          | Manage | Create, Update | View         |
+| Collections   | Manage | Create, Update | View         |
 
