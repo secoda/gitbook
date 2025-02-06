@@ -98,13 +98,13 @@ Manage is all permissions (Create, Update, Delete, and View)
 | Groups | Manage | View   | View   |
 | Roles  | Manage | View   | View   |
 
-#### Resource Management
+**Resource Management**
 
 | Name      | Admin  | Editor         | Viewer |
 | --------- | ------ | -------------- | ------ |
 | Resources | Manage | Create, Update | View   |
 
-#### Settings
+**Settings**
 
 | Name              | Admin  | Editor         | Viewer |
 | ----------------- | ------ | -------------- | ------ |
@@ -116,7 +116,7 @@ Manage is all permissions (Create, Update, Delete, and View)
 | Import and export | Manage | None           | None   |
 | Appearance        | Manage | None           | None   |
 
-#### Features
+**Features**
 
 | Name          | Admin  | Editor         | Viewer       |
 | ------------- | ------ | -------------- | ------------ |
