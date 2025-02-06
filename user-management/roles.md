@@ -100,31 +100,28 @@ Manage is all permissions (Create, Update, Delete, and View)
 
 #### Resource Management
 
-| Name        | Admin  | Editor         | Viewer |
-| ----------- | ------ | -------------- | ------ |
-| Resources   | Manage | Create, Update | View   |
-| Properties  | Manage | Create, Update | View   |
-| Tags        | Manage | Create, Update | View   |
-| Collections | Manage | Create, Update | View   |
+| Name      | Admin  | Editor         | Viewer |
+| --------- | ------ | -------------- | ------ |
+| Resources | Manage | Create, Update | View   |
 
 #### Settings
 
-| Name          | Admin  | Editor         | Viewer |
-| ------------- | ------ | -------------- | ------ |
-| Workspace     | Manage | View           | View   |
-| Security      | Manage | None           | None   |
-| API Keys      | Manage | Create, Update | View   |
-| Properties    | Manage | Create, Update | View   |
-| Billing       | Manage | None           | None   |
-| Import/Export | Manage | None           | None   |
-| Appearance    | Manage | None           | None   |
+| Name              | Admin  | Editor         | Viewer |
+| ----------------- | ------ | -------------- | ------ |
+| Workspace         | Manage | View           | View   |
+| Security          | Manage | None           | None   |
+| API keys          | Manage | Create, Update | View   |
+| Properties        | Manage | Create, Update | View   |
+| Billing           | Manage | None           | None   |
+| Import and export | Manage | None           | None   |
+| Appearance        | Manage | None           | None   |
 
 #### Features
 
 | Name          | Admin  | Editor         | Viewer       |
 | ------------- | ------ | -------------- | ------------ |
-| AI Assistant  | Manage | View           | View         |
-| Quality Score | Manage | Create, Update | View         |
+| Secoda AI     | Manage | View           | View         |
+| Quality score | Manage | Create, Update | View         |
 | Questions     | Manage | Create, Update | Create, View |
 | Automations   | Manage | View           | None         |
 | Monitors      | Manage | Create, Update | View         |
