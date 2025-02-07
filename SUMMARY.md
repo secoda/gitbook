@@ -199,6 +199,7 @@
       * [Slack user guide](integrations/productivity-tools/slack-connection/slack-user-guide.md)
     * [Microsoft Teams](integrations/productivity-tools/microsoft-teams.md)
     * [Google Drive](integrations/productivity-tools/google-drive.md)
+    * [Gmail](integrations/productivity-tools/gmail.md)
   * [Query Engines](integrations/query-engines/README.md)
     * [Trino](integrations/query-engines/trino/README.md)
       * [Trino Metadata Extracted](integrations/query-engines/trino/trino-metadata-extracted.md)
