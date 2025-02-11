@@ -1,9 +1,8 @@
 ---
-hidden: true
 noIndex: true
 ---
 
-# Access Requests \[WIP]
+# Access Requests
 
 The Access Requests feature in Secoda simplifies and centralizes the process of requesting, approving, and auditing access to data resources across multiple platforms. This feature helps organizations eliminate fragmented workflows, enhance security, and streamline compliance.
 
@@ -39,8 +38,6 @@ The Access Requests feature in Secoda simplifies and centralizes the process of 
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f7823204-28a0-497c-b3fa-7c7260172c16.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### Getting Started
 
 1. Setup Integrations: Connect supported platforms to Secoda to ingest user and role identities.
@@ -52,23 +49,14 @@ The Access Requests feature in Secoda simplifies and centralizes the process of 
 
 Access Requests will be support the following platforms during the Beta period:
 
-#### Data Warehouses
-
 * Snowflake
 * BigQuery
 * Redshift
-* Databricks
-
-#### Business Intelligence
-
-* Tableau
-* Looker
-* Power BI
-* Sigma
+* Postgres
 
 ### Beta Availability
 
-The Access Requests feature will be available in public beta starting December 16 until February 2025. Feedback during this period will help shape the final release.
+The Access Requests feature will be available in public beta starting February 12 until April 2025. Feedback during this period will help shape the final release. Sign up for Early Access [here](https://tally.so/r/3N8ENQ).
 
 ### Use Cases
 

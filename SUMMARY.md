@@ -223,7 +223,7 @@
     * [Secoda Fields Explained](integrations/custom-integrations-and-marketplace/secoda-fields-explained.md)
   * [Push Metadata to Source](integrations/push-metadata-to-source.md)
 * [Features](features/README.md)
-  * [Access Requests \[WIP\]](features/access-requests-wip.md)
+  * [Access Requests](features/access-requests.md)
   * [Activity Log](features/activity-log.md)
   * [Analytics](features/analytics-dashboard.md)
   * [Announcements](features/announcements.md)
