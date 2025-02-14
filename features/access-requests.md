@@ -6,6 +6,12 @@ noIndex: true
 
 The Access Requests feature in Secoda simplifies and centralizes the process of requesting, approving, and auditing access to data resources across multiple platforms. This feature helps organizations eliminate fragmented workflows, enhance security, and streamline compliance.
 
+{% hint style="info" %}
+Access Requests are currently in Early Access. Sign up [here](https://tally.so/r/n0DBQ6) if you are interested in using Access Requests.
+{% endhint %}
+
+
+
 ### Key Features
 
 * **Centralized Requests**: Users can create Data Access Requests (DARs) directly within Secoda, specifying the resources, access duration, and roles.
