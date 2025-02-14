@@ -4,9 +4,39 @@
 The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
 
+## Custom roles, Access Requests, and Secoda AI Enhancements (v8.4.0)
+
+Feb 14, 2025
+
+We're excited to introduce our new monthly update format. All our latest features, improvements, and organization updates are now on one central landing page—plus a monthly letter from me about where we're headed.
+
+Here's a peak at what's new in February:
+
+🔐 Custom roles (early access) - Design roles with fine-grained access controls to resources and features in Secoda that match your team’s needs, eliminating the "too much or too little" access problem
+
+🎯 Access requests (early access) - One central hub to request, approve, and manage data access across all your tools
+
+🔄 DynamoDB integration - Automatically catalog and discover your NoSQL data resources with built-in metadata extraction
+
+🤖 Claude 3.5 Sonnet for Secoda AI - Improved accuracy for technical questions powered by advanced AI, making data more accessible to everyone
+
+<details>
+
+<summary>Improvements</summary>
+
+* Enhanced handling nested resources and custom properties in CSV import
+* Monitoring support for Redshift serverless
+* [API documentation](https://api.secoda.co/api/schema/redoc/) layout update
+* [SQL lineage endpoint](https://api.secoda.co/api/schema/redoc/#tag/Lineage/paths/~1lineage~1lineage_from_query/post)
+* Filter and sort support for queries lists
+
+</details>
+
+Read more about the February update [here](https://www.secoda.co/product-news/february-2025)
+
 ## Enhanced Secoda AI options (v8.2.0) <a href="#h_219c272670" id="h_219c272670"></a>
 
-_Jan 8, 2025_
+Jan 8, 2025
 
 We're excited to announce that Secoda customers can now choose between Anthropic's Claude 3.5 Sonnet or Open AI's GPT-4o LLM to power their Secoda AI experience.
 
