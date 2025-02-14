@@ -8,7 +8,7 @@ The changelog for self-hosted customers is maintained separately and can be foun
 
 Feb 14, 2025
 
-We're excited to introduce our new monthly update format. All our latest features, improvements, and organization updates are now on one central landing page—plus a monthly letter from me about where we're headed.
+We're excited to introduce our new monthly update format. All our latest features, improvements, and organization updates are now on one central landing page — check it out [here](https://www.secoda.co/product-news/february-2025).
 
 Here's a peak at what's new in February:
 
