@@ -4,7 +4,7 @@ description: See below for prompt examples to use in your workspace.
 
 # Prompts
 
-### I'm a Data Analyst:&#x20;
+### Data Analyst:&#x20;
 
 1. How can I query {insert table name}?
 2. What is downstream of {insert table name}?
@@ -27,7 +27,7 @@ description: See below for prompt examples to use in your workspace.
 19. Develop a comprehensive metadata glossary that defines common terms, acronyms, and abbreviations used in the organization.
 20. Document the metadata lineage for a specific data pipeline, showcasing the flow of data from source systems to the final output.
 
-### I'm a Data Engineer:
+### Data Engineer:
 
 1. Show the schema and column details for a particular table
 2. What does {insert column name} mean?
@@ -39,18 +39,17 @@ description: See below for prompt examples to use in your workspace.
 8. Write me LookML code based on my {insert KPI}
 9. Write me Python code based on my {insert table} to calculate {insert KPI}
 10. Fix this query: {insert query}
-11. Where is this query used: {insert query}
-12. View details on the {insert ETL platform, e.g., Apache Airflow} job "{insert job name}."
-13. Who created this query: {insert query}
-14. Write .yml documentation for my dbt model
-15. Write .md documentation for my dbt model using docs block format
-16. Write documentation for the {insert specific topic, e.g., sales performance} dataset, including its structure, data sources, and usage guidelines.
-17. Create a user guide for querying the {insert table name}, providing step-by-step instructions and examples.
-18. Document the data dictionary for the {insert specific topic} dataset, including definitions and descriptions of each column.
-19. Prepare a documentation template for documenting dashboards, including their purpose, audience, and data sources.
-20. Write documentation on troubleshooting common query errors in the {insert data source, e.g., BigQuery} platform, including error messages and potential solutions.
+11. View details on the {insert ETL platform, e.g., Apache Airflow} job "{insert job name}."
+12. Who created this query: {insert query}
+13. Write .yml documentation for my dbt model
+14. Write .md documentation for my dbt model using docs block format
+15. Write documentation for the {insert specific topic, e.g., sales performance} dataset, including its structure, data sources, and usage guidelines.
+16. Create a user guide for querying the {insert table name}, providing step-by-step instructions and examples.
+17. Document the data dictionary for the {insert specific topic} dataset, including definitions and descriptions of each column.
+18. Prepare a documentation template for documenting dashboards, including their purpose, audience, and data sources.
+19. Write documentation on troubleshooting common query errors in the {insert data source, e.g., BigQuery} platform, including error messages and potential solutions.
 
-### I'm working on Data Governance:
+### Data Governance:
 
 1. Which tables contain PII?
 2. Which dashboards contain PII?
@@ -73,7 +72,7 @@ description: See below for prompt examples to use in your workspace.
 19. Develop a data lineage diagram documenting the flow of data from its source to the destination tables.
 20. Document the metadata standards and conventions followed in the organization.
 
-### I'm thinking about Data Leadership:
+### Data Leadership:
 
 1. Recommend the most suitable dashboard to monitor {insert KPI}.
 2. Suggest the relevant stakeholders to discuss {insert KPI} analysis with.
