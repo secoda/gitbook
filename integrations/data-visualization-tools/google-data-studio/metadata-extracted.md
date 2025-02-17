@@ -2,9 +2,9 @@
 description: List of all the metadata that Secoda pulls from Google Data Studio
 ---
 
-# Metadata Extracted
+# Looker Studio Metadata Extracted
 
-### What does Secoda extract from Google Data Studio?
+### What does Secoda extract from Looker Studio?
 
 * Reports
   * Report Name
@@ -17,10 +17,10 @@ description: List of all the metadata that Secoda pulls from Google Data Studio
 * Tables
   * Table Name
 * Lineage&#x20;
-  * Google Data Studio Dashboard <-> Google Data Studio Chart
-  * Google Data Studio Dashboard <-> Google Data Studio Table
+  * Google Data Studio Dashboard <-> Looker Studio Chart
+  * Google Data Studio Dashboard <-> Looker Studio Table
   * Google Data Studio Dashboard <-> Tables from other sources
 
 {% hint style="info" %}
-To determine lineage from Google Data Studio, we use the relationships and dependencies provided from Google Data Studio as well as our own Query parser to determine lineage to sources outside of Google Data Studio.
+To determine lineage from Looker Studio, we use the relationships and dependencies provided from Looker Studio as well as our own Query parser to determine lineage to sources outside of Looker Studio.
 {% endhint %}

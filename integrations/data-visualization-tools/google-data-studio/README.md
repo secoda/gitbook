@@ -10,7 +10,7 @@ description: An overview of the Looker Studio integration with Secoda
 
 Secoda has two methods of integrating with Looker Studio: retrieving a session cookie and using Google OAuth
 
-**NOTE:** _Using the Google OAuth method does not extract upstream (datasources) and downstream (charts) lineage due to the limitations of the Google Looker Studio API_
+**NOTE:** _Using the Google OAuth method does not extract upstream (datasources) and downstream (charts) lineage due to the limitations of the Looker Studio API_
 
 **NOTE:** _The session cookies expire after 12 hours and you need to re-retrieve the cookie each time you wish to run the extraction._
 
@@ -80,4 +80,4 @@ _After retrieving the session cookie, you can connect Looker Studio to Secoda by
 
 #### Invalid authentication
 
-Looker Studio uses session cookies for authentication, which often expire. In order to resolve this error, you’ll have to generate a new session cookie and add it to your Secoda workspace. The way to do this is outlined in the Looker Studio docs, found [here](https://docs.secoda.co/integrations/google-data-studio#h\_21e27f5a15-1).
+Looker Studio uses session cookies for authentication, which often expire. In order to resolve this error, you’ll have to generate a new session cookie and add it to your Secoda workspace. The way to do this is outlined in the Looker Studio docs, found [here](https://docs.secoda.co/integrations/google-data-studio#h_21e27f5a15-1).
