@@ -6,6 +6,10 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.1.13 (Feb 18, 2025)
+
+* Added SAML environment variable. See the Authentication section of [additional-environment-variables](additional-resources/additional-environment-variables/ "mention") for more details
+
 ### v2025.1.12 (February 4, 2025)
 
 * Added support for celery queue without outbound connections.

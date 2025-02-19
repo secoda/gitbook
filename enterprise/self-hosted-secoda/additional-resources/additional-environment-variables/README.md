@@ -49,6 +49,44 @@ AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 [aws-bucket-with-access-keys-on-premise.md](aws-bucket-with-access-keys-on-premise.md)
 {% endcontent-ref %}
 
+### Authentication
+
+SAML
+
+```
+METADATA_AUTO_CONF_BASE64=<base64-encoded-metadata-xml>
+```
+
+You can provide your SAML metadata XML as a base64 encoded string. This is useful when you cannot expose a public metadata URL.
+
+Example Okta metadata XML before base64 encoding:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="http://www.okta.com/exk1abc2defg3hij4" 
+                     xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+   <md:IDPSSODescriptor WantAuthnRequestsSigned="false" 
+                        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>
+                  MIIDpDCCAoygAwIBAgIGAX1JSrGgMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYDVQQGEwJVUzET
+                  <!-- Rest of your Okta certificate -->
+               </ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
+                             Location="https://your-domain.okta.com/app/app-name/exk1abc2defg3hij4/slo/saml"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
+                             Location="https://your-domain.okta.com/app/app-name/exk1abc2defg3hij4/sso/saml"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" 
+                             Location="https://your-domain.okta.com/app/app-name/exk1abc2defg3hij4/sso/saml"/>
+   </md:IDPSSODescriptor>
+</md:EntityDescriptor>
+```
+
 ### Integrations
 
 **BigQuery (OAuth) Integration**
