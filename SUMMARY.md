@@ -72,6 +72,8 @@
       * [Azure Synapse Metadata Extracted](integrations/data-warehouses/azure-synapse/metadata-extracted.md)
     * [MotherDuck](integrations/data-warehouses/motherduck/README.md)
       * [MotherDuck Metadata Extracted](integrations/data-warehouses/motherduck/motherduck-metadata-extracted.md)
+    * [ClickHouse](integrations/data-warehouses/clickhouse/README.md)
+      * [ClickHouse Metadata Extracted](integrations/data-warehouses/clickhouse/clickhouse-metadata-extracted.md)
   * [Databases](integrations/databases/README.md)
     * [Druid](integrations/databases/druid/README.md)
       * [Druid Metadata Extracted](integrations/databases/druid/druid-metadata-extracted.md)
