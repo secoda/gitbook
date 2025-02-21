@@ -26,6 +26,7 @@ There are two steps to connect AWS S3 with Secoda
 {
     "Statement": [
         {
+            "Sid": "AllowS3Access",
             "Action": [
                 "s3:PutObject",
                 "s3:PutObjectAcl",
@@ -39,6 +40,12 @@ There are two steps to connect AWS S3 with Secoda
                 "arn:aws:s3:::<your-bucket-name>",
                 "arn:aws:s3:::<your-bucket-name>/*"
             ]
+        },
+        {
+            "Sid": "AllowSTSAssumeRole",
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": "*"
         }
     ],
     "Version": "2012-10-17"
