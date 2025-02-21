@@ -24,7 +24,7 @@ Email notifications are sent to the email that is associated with your Secoda ac
 
 ### Slack Notifications
 
-Read up on how to configure your notifications to be sent to Slack here [#slack-notifications](../integrations/productivity-tools/slack-connection/#slack-notifications "mention").
+Read up on how to configure your notifications to be sent to Slack here [#slack-notifications](../extensions/slack-connection/#slack-notifications "mention").
 
 ## Schema change notifications
 

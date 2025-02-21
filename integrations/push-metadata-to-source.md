@@ -13,7 +13,7 @@ Secoda supports this feature for the following integrations:
 * [**Redshift**](https://docs.secoda.co/integrations/data-warehouses/redshift-integration/redshift-metadata#metadata-pushed)
 * [**Postgres**](databases/postgres-integration/postgres-metadata.md#metadata-pushed)
 * [**Tableau**](data-visualization-tools/tableau-integration/metadata-extracted.md)
-* [**Jira**](productivity-tools/jira/metadata-extracted.md)
+* [**Jira**](../extensions/jira/metadata-extracted.md)
 
 Click into the pages linked above to see which metadata is synced.
 

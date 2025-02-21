@@ -22,9 +22,9 @@ The Secoda AI Assistant enhances your ability to quickly find information and do
 **AI Governance:** Every resource's sidebar in Secoda includes AI Governance settings. This section informs you if the AI is permitted to access the data from that source and if it will include it in its responses. This ensures that AI interactions comply with your organization’s data governance policies.
 {% endhint %}
 
-&#x20;**2. Incorporating AI in Your Workflows:**
+**2. Incorporating AI in Your Workflows:**
 
-* **Slack Integration:** Connect the AI Assistant to your Slack workspace to streamline your data-related queries[#secoda-ai-slackbot](../../integrations/productivity-tools/slack-connection/slack-user-guide.md#secoda-ai-slackbot "mention").
+* **Slack Integration:** Connect the AI Assistant to your Slack workspace to streamline your data-related queries[#secoda-ai-slackbot](../../extensions/slack-connection/slack-user-guide.md#secoda-ai-slackbot "mention").
 * **Chrome Browser Extensions:** Use the Chrome extension to [#chat-with-secoda-ai](../chrome-extension.md#chat-with-secoda-ai "mention") directly from other data tools like Tableau and Snowflake.
 
 ## **Best Practices for Interacting with the AI Assistant**
@@ -49,7 +49,7 @@ When you know the exact resource you're inquiring about, use the `@` symbol foll
 
 {% embed url="https://www.loom.com/share/b7e9c8a8acf44a569b6e15e69416f02e" %}
 
-**3. Provide feedback**&#x20;
+**3. Provide feedback**
 
 Use the <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44d@2x.png" alt=":+1:" data-size="line"> and <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44e@2x.png" alt=":-1:" data-size="line"> buttons to provide feedback on the AI Assistant's responses. This helps it learn and improve its accuracy. For instance, if it references the incorrect table, you can correct it, guiding its future responses.
 
@@ -69,7 +69,7 @@ Clear and succinct questions yield the best responses. Avoid overly complex or v
 
 Check out our list of [prompts.md](prompts.md "mention") that you can ask the tool.
 
-By following these guidelines, you can significantly enhance your productivity and data understanding using the Secoda AI Assistant.&#x20;
+By following these guidelines, you can significantly enhance your productivity and data understanding using the Secoda AI Assistant.
 
 **Don't just take our word for it! Ask the tool itself** :wink:
 

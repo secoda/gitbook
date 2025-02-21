@@ -12,10 +12,10 @@ As the workspace Admins, there are some strategies that you could implement to h
 
 ## **Establish workflows that Secoda can improve**
 
-Let's say that most of the questions you hear about data are coming through Slack or in another communication channel. As Secoda admins, staying alert about these questions is important. Consider connecting our [slack-connection](../../../integrations/productivity-tools/slack-connection/ "mention") integration so that users can continue asking questions there, but still get answers and value from Secoda without having to go to the app.
+Let's say that most of the questions you hear about data are coming through Slack or in another communication channel. As Secoda admins, staying alert about these questions is important. Consider connecting our [slack-connection](../../../extensions/slack-connection/ "mention") integration so that users can continue asking questions there, but still get answers and value from Secoda without having to go to the app.
 
 {% hint style="info" %}
-Make sure to update your documentation with new content that arises from these questions so that Secoda remains the source of truth, and content doesn't get lost in Slack! Check out our feature to [#push-slack-thread-into-secoda-questions](../../../integrations/productivity-tools/slack-connection/#push-slack-thread-into-secoda-questions "mention").
+Make sure to update your documentation with new content that arises from these questions so that Secoda remains the source of truth, and content doesn't get lost in Slack! Check out our feature to [#push-slack-thread-into-secoda-questions](../../../extensions/slack-connection/#push-slack-thread-into-secoda-questions "mention").
 {% endhint %}
 
 Or let's say that your analytics team would prefer to stay in their BI tool, but still get value out of Secoda. Add a to-do item to their Secoda onboarding checklist to download the [chrome-extension.md](../../../features/chrome-extension.md "mention") so that they can view and edit Secoda metadata directly in their workflows.

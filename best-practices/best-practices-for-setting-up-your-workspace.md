@@ -51,7 +51,7 @@ Leverage Secoda's Questions feature to support new users effectively. Admins sho
 
 ## **Integrating with Slack**&#x20;
 
-Integrate Secoda with Slack to enhance internal communications. This integration allows users to query data through Slack and receive workspace notifications without leaving the platform. Learn more about [setting up](slack-less-than-greater-than-questions-workflow.md) and [using the Slack integration](../integrations/productivity-tools/slack-connection/slack-user-guide.md) here.
+Integrate Secoda with Slack to enhance internal communications. This integration allows users to query data through Slack and receive workspace notifications without leaving the platform. Learn more about [setting up](slack-less-than-greater-than-questions-workflow.md) and [using the Slack integration](../extensions/slack-connection/slack-user-guide.md) here.
 
 ## **Creating Search Views**&#x20;
 

@@ -10,7 +10,7 @@ Let's face it - bringing on a new tool to your already-hectic workflow can seem 
 
 With Secoda, users shouldn't have to change current behaviors to engage with the product. We've iterated on and added many features to allow Secoda to seamlessly integrate with your existing workflows.
 
-### [Secoda's AI Slackbot](../integrations/productivity-tools/slack-connection/slack-user-guide.md#secoda-ai-slackbot)&#x20;
+### [Secoda's AI Slackbot](../extensions/slack-connection/slack-user-guide.md#secoda-ai-slackbot)&#x20;
 
 * Connect the AI Assistant to your data requests Slack channel so that users don't have to leave their Slack workflow to find answers. Check out [best practices ](slack-less-than-greater-than-questions-workflow.md)here.
 * End result:
@@ -31,11 +31,11 @@ With Secoda, users shouldn't have to change current behaviors to engage with the
   * Improved data quality
   * Reduced time spent on manual notifications
 
-### [jira](../integrations/productivity-tools/jira/ "mention") Integration
+### [jira](../extensions/jira/ "mention") Integration
 
 * Connect the Jira integration to seamless manage your data requests coming in from Jira, directly in the Secoda Questions feature
 
-### [confluence](../integrations/productivity-tools/confluence/ "mention") Integration
+### [confluence](../extensions/confluence/ "mention") Integration
 
 * Connect the Confluence integration to bring in content from Confluence spaces and pages&#x20;
 * Why integrate Confluence?

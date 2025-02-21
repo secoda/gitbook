@@ -63,7 +63,7 @@ Share your screen showing your Secoda workspace.
 
 #### Slack Integration
 
-* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [slack-user-guide.md](../../../integrations/productivity-tools/slack-connection/slack-user-guide.md "mention")
+* Open up Slack to demo how to use the Slack integration to ask the AI questions about your data directly in Slack [slack-user-guide.md](../../../extensions/slack-connection/slack-user-guide.md "mention")
 
 {% embed url="https://www.loom.com/share/ebc7267824734f0c92ed1c74d0a42ac3?sid=0fa8cb84-fd7c-4b1e-b93b-e8311c2f84f5" %}
 

@@ -29,4 +29,4 @@ Here are some helpful first steps with documentation links for new Viewers withi
 
 * [ ] **Questions Feature:** Use the [Questions feature](../../features/ask-questions-in-secoda.md) to ask your data team about your organization's data.
 * [ ] **Resource Management:** [Request changes to resources](requesting-changes-in-secoda.md) within Secoda, such as adding descriptions to resources where you're an expert or owner.
-* [ ] **Slack Integration:** Test out searching Secoda directly within Slack. Learn how to use the [Slack integration](../../integrations/productivity-tools/slack-connection/slack-user-guide.md).
+* [ ] **Slack Integration:** Test out searching Secoda directly within Slack. Learn how to use the [Slack integration](../../extensions/slack-connection/slack-user-guide.md).

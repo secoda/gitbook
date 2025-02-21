@@ -4,7 +4,9 @@ description: Create data monitors for visibility into the health of your data st
 
 # Monitoring
 
-## Introduction
+## Monitoring
+
+### Introduction
 
 Monitoring plays a crucial role in maintaining data quality by allowing you to configure alerts for changes in your data. Automatically schedule monitors and set thresholds to track run history and visualize monitor performance.
 
@@ -18,7 +20,7 @@ To learn about how our current customers are using Monitors in Secoda to improve
 **Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.
 {% endhint %}
 
-## Types of Monitors
+### Types of Monitors
 
 Select from a variety of Monitors to suit your needs:
 
@@ -52,7 +54,7 @@ Select from a variety of Monitors to suit your needs:
 
 The monitor will alert if any of these values are higher or lower than expected.
 
-## Creating Monitors
+### Creating Monitors
 
 Monitors can be created via the **Monitors** section in the sidebar or through the **Monitors tab** on the resource page:
 
@@ -84,7 +86,7 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 For example, if you have 3 numeric columns selected, you can add a "MIN" or "MAX" monitor, but you cannot do it if even one string column is selected in the modal.
 {% endhint %}
 
-### Custom SQL Monitors
+#### Custom SQL Monitors
 
 A user is be able to create a monitor that runs custom SQL to create an output. The only requirement is that the final output of the custom SQL must be a single value.
 
@@ -92,19 +94,19 @@ Follow the same steps as above, but choose "Custom SQL" as the Monitor type. Aft
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f1c3d6ac-41ea-4965-af82-eabe7b4c5e5c.png" alt=""><figcaption></figcaption></figure>
 
-### WHERE clause
+#### WHERE clause
 
 Standard monitors such as nullness, row count, etc can be modified with custom SQL that’s added as a WHERE clause within the standard SQL.
 
 <div align="center"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0e0b3170-52c0-43f1-882b-b3747af5f804.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure></div>
 
-## Managing Monitors
+### Managing Monitors
 
 View **Status**, **Last** and **Next Run** details, and a **Chart Visualization** of the monitor's historical performance.
 
 <div align="left"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f470b8d4-08eb-47ce-b27d-24b1bb09a2d1.png" alt=""><figcaption></figcaption></figure></div>
 
-### Thresholds and Incidents
+#### Thresholds and Incidents
 
 {% hint style="info" %}
 If you've chosen Automatic thresholds, it can take up to a week for Secoda to finish learning what the right thresholds should be for your monitors.
@@ -126,7 +128,7 @@ Incidents are automatically acknowledged if a comment is made or a Jira ticket i
 
 This incident management system is designed to enhance team collaboration and streamline the resolution process.
 
-### Annotations
+#### Annotations
 
 The **Monitoring Annotations** feature provides a way to mark specific data points within monitoring incidents, giving teams a deeper context and helping refine automatic thresholds over time. This feature includes a **Normal** button, which allows users to indicate that a particular data point is not an anomaly, but rather expected behavior.
 
@@ -140,13 +142,13 @@ By tagging data points through Monitoring Annotations, you help Secoda’s monit
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/90a0dd5c-8350-41e5-b118-e8ce9c66f46d.gif" alt=""><figcaption><p>Monitor Annotations</p></figcaption></figure>
 
-### Errors
+#### Errors
 
 You may receive an error on your Monitors for various reasons. The Error will appear under Status. You are able to click into the error to see exactly what went wrong with the Monitor. In the example below, a Custom SQL monitor was chosen but a query was never provided, causing it to error out.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/268a5907-a2bc-4b80-9d2d-ff8edbbab26b.gif" alt=""><figcaption></figcaption></figure>
 
-## Best Practices
+### Best Practices
 
 To optimize the effectiveness of data monitoring and manage resource utilization, consider these best practices:
 
@@ -159,7 +161,7 @@ To optimize the effectiveness of data monitoring and manage resource utilization
 
 By following these guidelines, you can ensure your monitoring processes are both efficient and effective, providing critical insights while maintaining control over costs and resource use.
 
-## Monitoring Permissions
+### Monitoring Permissions
 
 Monitoring functionality is primarily intended for users with Edit or Admin roles, rather than end business users who typically have Viewer permissions.
 
@@ -173,7 +175,7 @@ Monitoring functionality is primarily intended for users with Edit or Admin role
 4. **Viewing:**
    * Viewing permissions remain unchanged, with any Admin or Editor able to view monitors. We are planning future updates that will allow more granular control over who can view monitor outputs, enhancing privacy and data security.
 
-## Monitoring Notifications
+### Monitoring Notifications
 
 Stay informed about the status of your monitors by adjusting your Notification settings. Specify your preferred channels for receiving alerts—whether through Slack DMs, email, or directly within the app.
 
@@ -181,38 +183,42 @@ Stay informed about the status of your monitors by adjusting your Notification s
 
 Notifications for monitor incidents are issued only after the **first occurrence** following a successful run. The same incident will not trigger new alerts unless the issue has been resolved and another incident occurs. This policy minimizes repetitive alerts and ensures that notifications remain meaningful and actionable.
 
-#### **Configuring Slack Channel Notifications**
+**Configuring Slack Channel Notifications**
 
-Admins can direct monitoring notifications to specific Slack channels, distinct from other notification settings. This ensures that the right team members are alerted promptly. For detailed steps on setting this up, visit [here](../integrations/productivity-tools/slack-connection/#steps-for-setting-up-slack).
+Admins can direct monitoring notifications to specific Slack channels, distinct from other notification settings. This ensures that the right team members are alerted promptly. For detailed steps on setting this up, visit [here](../extensions/slack-connection/#steps-for-setting-up-slack).
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/138d2dd7-a4f6-4adf-a404-ff041566eabe.png" alt=""><figcaption><p>Example Slack notification</p></figcaption></figure>
 
-#### Email Monitoring Notifications
+**Email Monitoring Notifications**
 
 Email notifications provide direct links to the relevant sections in Secoda. As shown in the image below, clicking the "Open Secoda" link takes you to the Inbox notification, while other links direct you to specific incidents or tables.
 
-# Monitors as Code
+## Monitors as Code
 
 You can declare Secoda monitors directly in your dbt model YAML files. These monitors are managed entirely through code and cannot be modified through the Secoda UI. Changes are applied when the dbt integration syncs with Secoda.
 
-### Monitor Configuration Formats
+#### Monitor Configuration Formats
 
 Monitors can be specified using two formats:
 
-#### List Format (Default Configuration)
+**List Format (Default Configuration)**
+
 ```yaml
 monitors:
   - mean
   - max
   - null_percentage
 ```
-When using list format, each monitor uses these default settings:
-- Automatic thresholds (sensitivity: 5)
-- Daily schedule (runs once per day at UTC midnight)
-- Both upper and lower bounds
-- Auto-generated monitor name
 
-#### Dictionary Format (Custom Configuration)
+When using list format, each monitor uses these default settings:
+
+* Automatic thresholds (sensitivity: 5)
+* Daily schedule (runs once per day at UTC midnight)
+* Both upper and lower bounds
+* Auto-generated monitor name
+
+**Dictionary Format (Custom Configuration)**
+
 ```yaml
 monitors:
   mean: {}  # Empty dict for default configuration (same defaults as list format)
@@ -225,22 +231,24 @@ monitors:
 
 You can mix both formats across different models and columns, but each individual `monitors` section must use either list or dictionary format, not both. Use list format for simplicity when default settings are sufficient, and dictionary format when you need to customize any monitor settings.
 
-### Available Monitor Types
+#### Available Monitor Types
 
-#### Table-Level Monitors
-- `row_count`: Tracks number of rows
-- `freshness`: Monitors last update time (Snowflake/Redshift only)
-- `custom_sql`: Execute custom SQL queries
+**Table-Level Monitors**
 
-#### Column-Level Monitors
-- `mean`: Average value
-- `max`: Maximum value
-- `min`: Minimum value
-- `cardinality`: Number of unique values
-- `null_percentage`: Percentage of null values
-- `unique_percentage`: Percentage of unique values
+* `row_count`: Tracks number of rows
+* `freshness`: Monitors last update time (Snowflake/Redshift only)
+* `custom_sql`: Execute custom SQL queries
 
-### Configuration Options
+**Column-Level Monitors**
+
+* `mean`: Average value
+* `max`: Maximum value
+* `min`: Minimum value
+* `cardinality`: Number of unique values
+* `null_percentage`: Percentage of null values
+* `unique_percentage`: Percentage of unique values
+
+#### Configuration Options
 
 Here are all available configuration properties with their default values:
 
@@ -267,7 +275,7 @@ monitors:
     query: null          # required for custom_sql monitors
 ```
 
-### Complete Example
+#### Complete Example
 
 ```yaml
 version: 2

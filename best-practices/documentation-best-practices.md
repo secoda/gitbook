@@ -46,7 +46,7 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 * The PII Identifier automatically flags potential PII data assets across your workspace by searching for keywords.
 * You can even customize the list of keywords depending on how your organization defines personal information.
 
-[Slack AI Assistant](../integrations/productivity-tools/slack-connection/slack-user-guide.md#secoda-ai-slackbot)
+[Slack AI Assistant](../extensions/slack-connection/slack-user-guide.md#secoda-ai-slackbot)
 
 * With the Slack integration, you have the ability to ask the AI Assistant questions in Slack, get a response, and then automatically push those answers into your workspace.
 * This means less redundancy with answering questions and additional documentation in the product.
@@ -61,7 +61,7 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 
 If you'd like to identify which resources have not been documented yet, you can do so by following these steps to [#search-within-the-catalog](../features/search.md#search-within-the-catalog "mention").
 
-If you'd like to be notified of changes that may result in a need for updated documentation, you can subscribe to schema change notifications for those particular resources. Set those up here[#h\_3a4bfd6458](../features/notifications.md#h\_3a4bfd6458 "mention").
+If you'd like to be notified of changes that may result in a need for updated documentation, you can subscribe to schema change notifications for those particular resources. Set those up here[#h\_3a4bfd6458](../features/notifications.md#h_3a4bfd6458 "mention").
 
 
 
