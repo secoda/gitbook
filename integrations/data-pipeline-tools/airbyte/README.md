@@ -24,7 +24,7 @@ To generate a set of Application credentials follow the [steps here](https://ref
 The next step is to connect Secoda:
 
 1. In the Secoda App, select ‘Add Integration’ on the Integrations tab
-2. Search for and select ‘Airbyte’
+2. Search for and select "Airbyte"
 3. Under Server URL, input [https://api.airbyte.com](https://api.airbyte.com)
    1. If you're self-managed, change this to your _airbyte-server_ instance (i.e. [https://airbyte.secoda.com/api/](https://airbyte.secoda.com/api/))
 4. Under Dashboard URL, input [https://cloud.airbyte.com](https://cloud.airbyte.com)

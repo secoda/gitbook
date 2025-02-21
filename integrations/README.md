@@ -36,8 +36,8 @@ Secoda currently integrates with many different tools, see below for the types o
 [data-quality-tools](data-quality-tools/)
 {% endcontent-ref %}
 
-{% content-ref url="productivity-tools/" %}
-[productivity-tools](productivity-tools/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}

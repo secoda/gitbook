@@ -38,7 +38,7 @@ As an Admin in Secoda, your role is crucial in shaping the workspace landscape a
 
 **Communication and Collaboration:**
 
-* [ ] **Slack Integration**: Consider [connecting Secoda to Slack](../../integrations/productivity-tools/slack-connection/slack-user-guide.md) for seamless communication and data inquiries.
+* [ ] **Slack Integration**: Consider [connecting Secoda to Slack](../../extensions/slack-connection/slack-user-guide.md) for seamless communication and data inquiries.
 * [ ] **FAQs**: Populate the [Questions](../../features/ask-questions-in-secoda.md) section with FAQs to help users understand common data queries.
 
 **Monitoring and Maintenance:**

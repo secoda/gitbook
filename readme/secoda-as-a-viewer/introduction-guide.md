@@ -52,7 +52,7 @@ Search is super important to Secoda users and we are constantly improving the fu
 
 #### Secoda AI Assistant
 
-The [**Secoda AI**](../../features/ai-assistant/) greatly improves user experience when searching for resources. Once your workspace Admins have enabled it, you can find the AI Assistant on the lefthand panel under Search. You can also Ask AI right from the main Search and[ **within Slack**](../../integrations/productivity-tools/slack-connection/slack-user-guide.md#secoda-ai-slackbot). This feature will be helpful for business users who might not know where to begin when looking at data.
+The [**Secoda AI**](../../features/ai-assistant/) greatly improves user experience when searching for resources. Once your workspace Admins have enabled it, you can find the AI Assistant on the lefthand panel under Search. You can also Ask AI right from the main Search and[ **within Slack**](../../extensions/slack-connection/slack-user-guide.md#secoda-ai-slackbot). This feature will be helpful for business users who might not know where to begin when looking at data.
 
 Check out some examples of prompts to ask the AI below!
 

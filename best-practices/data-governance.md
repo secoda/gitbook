@@ -67,5 +67,5 @@ In summary, the team uses the following strategies to work towards their data go
 * They map every table to a Collection , and ensured that every table has a defined [**owner**](../resource-and-metadata-management/assigning-owners.md)
   * Tip: Try out [**Automations**](../features/automations.md) to push new tables into the right Collection, and set the owners automatically
 * They rely heavily on [**Lineage**](../features/data-lineage.md) for understanding downstream impacts of their schema changes
-* They use [**Announcements**](../features/announcements.md) as well as [**Slack**](../integrations/productivity-tools/slack-connection/slack-user-guide.md) to notify relevant stakeholders about changes
+* They use [**Announcements**](../features/announcements.md) as well as [**Slack**](../extensions/slack-connection/slack-user-guide.md) to notify relevant stakeholders about changes
 * They have a very defined workflow using our [**APIs**](../secoda-api.md) where documentation criteria is required by the developer in order to create new tables and push them to Secoda

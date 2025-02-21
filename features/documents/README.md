@@ -23,7 +23,7 @@ Below are some examples of Documents use cases we see often:
 
 ### Tag Resources as Related
 
-Use the '@' command to tag and reference other resources from across the workspace like tables or dictionary terms.&#x20;
+Use the '@' command to tag and reference other resources from across the workspace like tables or dictionary terms.
 
 This automatically adds those tagged resources as [relating-resources.md](../../resource-and-metadata-management/relating-resources.md "mention") in the workspace.
 
@@ -31,7 +31,7 @@ You can hover over a resources that's tagged using the @ command to see a **prev
 
 ### Embeddings
 
-Use the '/' command to add custom elements to a document.&#x20;
+Use the '/' command to add custom elements to a document.
 
 Add embeds, files, links, tables, and many more interesting documentation formats to make data documentation more interesting. See a whole list of [embeds.md](embeds.md "mention").
 
@@ -39,7 +39,7 @@ Add embeds, files, links, tables, and many more interesting documentation format
 
 For easier navigation within longer documents, you can create **anchor links** to specific sections.
 
-Simply use `/h1` or `/h2` to designate headings, then click the "#" next to the heading to generate a link directly to that section.&#x20;
+Simply use `/h1` or `/h2` to designate headings, then click the "#" next to the heading to generate a link directly to that section.
 
 ### Find and Replace
 
@@ -49,7 +49,7 @@ Use command+f to find words and replace them with something else.
 
 ## Other Notable Features
 
-* Build a Table of Contents in Documents by using the / command and either scrolling or typing "Table of Contents" to insert it.&#x20;
+* Build a Table of Contents in Documents by using the / command and either scrolling or typing "Table of Contents" to insert it.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e963446f-1b43-4594-9de8-471c8fa753d6.png" alt=""><figcaption><p>Table of Contents</p></figcaption></figure>
 
@@ -60,7 +60,5 @@ Use command+f to find words and replace them with something else.
 *   Duplicate a Document
 
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/50b4e90a-40af-40d2-96ec-2053bcde896c.png" alt="" width="563"><figcaption></figcaption></figure>
-
-
 * You can write live [queries](../queries/ "mention") in Documents for adhoc analysis.
-* Pull existing Documents from [confluence](../../integrations/productivity-tools/confluence/ "mention") into Secoda's Documents.
+* Pull existing Documents from [confluence](../../extensions/confluence/ "mention") into Secoda's Documents.

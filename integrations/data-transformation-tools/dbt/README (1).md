@@ -12,7 +12,7 @@ You can learn more about the integration setup by clicking into the linked docum
 dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
 {% endhint %}
 
-## **How dbt metadata appears in Secoda**&#x20;
+## **How dbt metadata appears in Secoda**
 
 Once the integration is established:
 
@@ -29,16 +29,16 @@ This integration empowers teams to track and verify data transformations directl
 
 ## Syncing metadata back to dbt
 
-You can seamlessly sync metadata updates from Secoda directly back to your dbt models. This streamlines workflows and enhances data governance by ensuring that your dbt models stay synced with the latest metadata in Secoda.&#x20;
+You can seamlessly sync metadata updates from Secoda directly back to your dbt models. This streamlines workflows and enhances data governance by ensuring that your dbt models stay synced with the latest metadata in Secoda.
 
-Here's how you can set it up:&#x20;
+Here's how you can set it up:
 
-1. **Set up a GitHub Integration:** Connect your [github.md](../../productivity-tools/github.md "mention") account to enable syncing between Secoda and your code repository.&#x20;
-2. **Initiate a Metadata Push:** Trigger a metadata push via the GitHub sync history tab within Secoda. This process is straightforward and integrates directly with your workflow.&#x20;
-3. **Automatic Pull Request Generation:** Once a metadata push is initiated, a Pull Request is automatically created in GitHub. This PR includes updates for column and table descriptions, owner details, and tags, ensuring that your dbt models are always up-to-date.&#x20;
+1. **Set up a GitHub Integration:** Connect your [github.md](../../../extensions/github.md "mention") account to enable syncing between Secoda and your code repository.
+2. **Initiate a Metadata Push:** Trigger a metadata push via the GitHub sync history tab within Secoda. This process is straightforward and integrates directly with your workflow.
+3. **Automatic Pull Request Generation:** Once a metadata push is initiated, a Pull Request is automatically created in GitHub. This PR includes updates for column and table descriptions, owner details, and tags, ensuring that your dbt models are always up-to-date.
 
-**Benefits:**&#x20;
+**Benefits:**
 
-* Keeps your dbt models consistently updated with the latest metadata from Secoda.&#x20;
-* Enhances collaboration by ensuring all team members work with the most current data definitions.&#x20;
+* Keeps your dbt models consistently updated with the latest metadata from Secoda.
+* Enhances collaboration by ensuring all team members work with the most current data definitions.
 * Reduces manual errors by automating the sync process.

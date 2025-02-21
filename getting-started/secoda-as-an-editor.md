@@ -21,7 +21,7 @@ As an Editor in Secoda, you are pivotal in enriching data resources and fosterin
 
 **Engage and Enhance:**
 
-* [ ] **Secoda AI Assistant:** Interact with the [Secoda AI Assistant directly in Slack](../integrations/productivity-tools/slack-connection/slack-user-guide.md) for data inquiries—ensure your Admins have enabled this integration.
+* [ ] **Secoda AI Assistant:** Interact with the [Secoda AI Assistant directly in Slack](../extensions/slack-connection/slack-user-guide.md) for data inquiries—ensure your Admins have enabled this integration.
 * [ ] **Documentation and Terms:** Populate the tool with essential [Documents](../features/documents/) and [Dictionary terms ](../features/glossary.md)related to your resources.
 
 **Customize and Configure:**
