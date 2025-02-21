@@ -40,7 +40,10 @@ Secoda pulls the following metadata from ClickHouse:
   * Percent Filled
   * Unique
 * Creation Query
-* Common Queries
+* Query History
+  * SQL
+  * User
+  * Frequency
 * Lineage
   * ClickHouse Column <-> ClickHouse Column
   * ClickHouse View <-> ClickHouse View
