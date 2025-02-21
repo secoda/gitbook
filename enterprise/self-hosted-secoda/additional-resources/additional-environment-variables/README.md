@@ -55,6 +55,7 @@ SAML
 
 ```
 METADATA_AUTO_CONF_BASE64=<base64-encoded-metadata-xml>
+ENTITY_ID=<your-entity-id>
 ```
 
 You can provide your SAML metadata XML as a base64 encoded string. This is useful when you cannot expose a public metadata URL.
