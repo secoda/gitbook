@@ -25,7 +25,7 @@ The Secoda AI Assistant enhances your ability to quickly find information and do
 **2. Incorporating AI in Your Workflows:**
 
 * **Slack Integration:** Connect the AI Assistant to your Slack workspace to streamline your data-related queries[#secoda-ai-slackbot](../../extensions/slack-connection/slack-user-guide.md#secoda-ai-slackbot "mention").
-* **Chrome Browser Extensions:** Use the Chrome extension to [#chat-with-secoda-ai](../chrome-extension.md#chat-with-secoda-ai "mention") directly from other data tools like Tableau and Snowflake.
+* **Chrome Browser Extensions:** Use the Chrome extension to [#chat-with-secoda-ai](../../extensions/chrome-extension.md#chat-with-secoda-ai "mention") directly from other data tools like Tableau and Snowflake.
 
 ## **Best Practices for Interacting with the AI Assistant**
 

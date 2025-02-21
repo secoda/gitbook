@@ -18,7 +18,7 @@ With Secoda, users shouldn't have to change current behaviors to engage with the
   * Reduced time spent on repetitive replies to users
   * More time for analysts to focus on their most important tasks
 
-### [chrome-extension.md](../features/chrome-extension.md "mention")
+### [chrome-extension.md](../extensions/chrome-extension.md "mention")
 
 * Download the Chrome extension to enable your users to access Secoda metadata directly in the other tools they're currently working in, like BigQuery and Tableau
 * If the extension is enabled, a user can see and edit important information like ownership and descriptions coming from Secoda without having to move across multiple tabs

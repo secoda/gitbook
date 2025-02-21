@@ -17,7 +17,7 @@ As an Editor in Secoda, you are pivotal in enriching data resources and fosterin
 
 * [ ] **Best Practices:** Read up on[ ](https://chat.openai.com/c/eab2984d-7157-4080-873f-f2cc92e2f22b)[best practices within Secoda](../best-practices/).
 * [ ] **Identify Ownership:** Determine which data resources you own and begin [adding valuable context and enrichment](../best-practices/documentation-best-practices.md).
-* [ ] **Chrome Extension:** Download and use the [Chrome extension](../features/chrome-extension.md) to manage Secoda metadata directly in tools like Tableau and Snowflake.&#x20;
+* [ ] **Chrome Extension:** Download and use the [Chrome extension](../extensions/chrome-extension.md) to manage Secoda metadata directly in tools like Tableau and Snowflake.&#x20;
 
 **Engage and Enhance:**
 

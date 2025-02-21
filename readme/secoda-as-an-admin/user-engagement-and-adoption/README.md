@@ -18,7 +18,7 @@ Let's say that most of the questions you hear about data are coming through Slac
 Make sure to update your documentation with new content that arises from these questions so that Secoda remains the source of truth, and content doesn't get lost in Slack! Check out our feature to [#push-slack-thread-into-secoda-questions](../../../extensions/slack-connection/#push-slack-thread-into-secoda-questions "mention").
 {% endhint %}
 
-Or let's say that your analytics team would prefer to stay in their BI tool, but still get value out of Secoda. Add a to-do item to their Secoda onboarding checklist to download the [chrome-extension.md](../../../features/chrome-extension.md "mention") so that they can view and edit Secoda metadata directly in their workflows.
+Or let's say that your analytics team would prefer to stay in their BI tool, but still get value out of Secoda. Add a to-do item to their Secoda onboarding checklist to download the [chrome-extension.md](../../../extensions/chrome-extension.md "mention") so that they can view and edit Secoda metadata directly in their workflows.
 
 Check out other ways for [integrating-secoda-into-existing-workflows.md](../../../best-practices/integrating-secoda-into-existing-workflows.md "mention").
 
