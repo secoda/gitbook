@@ -78,24 +78,7 @@ There's a good chance we're already working on it! In order to support as many p
 
 ## Can I give feedback about Secoda?
 
-We'd love to hear from you. You can join our Slack community [**thedataleap.slack.com**](https://www.thedataleap.slack.com) and provide feedback in #secoda-feature-requests or #secoda-support. We always love building with our customers!
-
-As an existing customer, you have access to our feedback tool [Canny](https://feedback.secoda.co/). About Canny:
-
-* **Submit Feedback**: Share suggestions and report bugs effortlessly.
-* **Track Requests**: Stay informed as we review, prioritize, and implement changes.
-* **Engage with the Community**: Vote and comment on features that other customers have already requested.
-
-We're looking at relevance to not just one workspace but to all of our customers, which is why the vote feature will be important for making decisions on what to prioritize.
-
-Access our Canny instance at [**feedback.secoda.co**](http://feedback.secoda.co/)**.** Check out our [**Video tutorial**](https://www.loom.com/share/86eb9317d7924835957e13c716b99c48?sid=1bf38c4a-e15b-4b1f-ab5e-3016b3c544af).
-
-**Troubleshooting Access if you get an error**
-
-* Create a Canny account using the same email address that you use for Secoda, and create a password (even if you normally use SSO to log into Secoda)
-* Log into Secoda in another tab, then try again
-
-Note: we're still available on Slack for urgent requests, questions, and general chit chat!
+We'd love to hear from you. You can email support@secoda.co with any feedback that you have.
 
 ## What are the IP addresses for Secoda?
 
