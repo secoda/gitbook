@@ -19,6 +19,5 @@
 | Salesforce, Inc.                                   | Sales CRM                         | United States                                                                             |
 | OpenAI, LLC                                        | Artificial Intelligence           | United States                                                                             |
 | Anthropic PBC                                      | Artificial Intelligence           | United States                                                                             |
-| Canny, Inc.                                        | Customer Feedback Intelligence    | United States                                                                             |
 | FullStory, Inc.                                    | Customer Intelligence             | United States                                                                             |
 | Raintank Inc. (Also known as Grafana Labs)         | Observability                     | United States                                                                             |
