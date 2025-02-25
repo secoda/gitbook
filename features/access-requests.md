@@ -1,7 +1,3 @@
----
-noIndex: true
----
-
 # Access Requests
 
 The Access Requests feature in Secoda simplifies and centralizes the process of requesting, approving, and auditing access to data resources across multiple platforms. This feature helps organizations eliminate fragmented workflows, enhance security, and streamline compliance.
