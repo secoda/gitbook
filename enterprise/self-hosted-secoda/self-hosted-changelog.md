@@ -6,6 +6,10 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.1.15 (Feb 25, 2025)
+
+* Added fix for Tableau dashboard URLs
+
 ### v2025.1.14 (Feb 25, 2025)
 
 * Disabled SSL verification for Airbyte integration
