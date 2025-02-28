@@ -9,7 +9,7 @@ DEFINITIONS
 5. “Claim” means any claim, suit, cause of action, demand, or proceeding brought by a third party.
 6. “Customer” means the entity entering into an Order Form and/or SOW with Secoda, pursuant to this Agreement, for the purposes of purchasing the Secoda Services.
 7. “Customer Data” means the data, content, or information that is transmitted through the Platform, whether by an Authorized User. Customer Data does not include any Secoda Data.
-8. “Data Processing Addendum” or “DPA” means the data processing addendum or similar agreement between Secoda and Customer that details the processing of Personal Data pursuant to this Agreement. In the absence of a separately executed document, the terms found at [docs.secoda.co/policies/data-processing-addendum](http://docs.secoda.co/policies/data-processing-addendum) shall be deemed the DPA.
+8. “Data Processing Addendum” or “DPA” means the data processing addendum or similar agreement between Secoda and Customer that details the processing of Personal Data pursuant to this Agreement. In the absence of a separately executed document, the terms found at [docs.secoda.co/policies/data-processing-agreement](https://docs.secoda.co/policies/data-processing-agreement) shall be deemed the DPA.
 9. “Documentation” means the user manuals and other documentation provided or made available to Customer by Secoda, which describe the functionality and proper use of the Platform.
 10. “Effective Date” means the earlier of the date identified as the ‘Effective Date” in the Order Form, or the date Customer first accesses the Secoda Services.
 11. “Feedback” means all suggestions, comments, and feedback relating to the Secoda Services that may be provided to Secoda by Customer or an Authorized User.&#x20;
