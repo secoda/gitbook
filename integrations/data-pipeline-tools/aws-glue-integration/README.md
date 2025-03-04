@@ -48,6 +48,7 @@ Select the "JSON" option and paste in the following policy. Make sure to replace
                 "glue:GetJobRuns",
                 "glue:GetTable",
                 "glue:GetDatabases",
+                "glue:GetTables",
                 "glue:SearchTables",
                 "s3:GetBucketLocation",
                 "s3:GetObject",
