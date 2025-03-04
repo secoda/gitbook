@@ -6,6 +6,10 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.1.16 (March 4, 2025)
+
+* Enforced authentication protocols, such as SAML, that are configured in security settings now limit the options shown on the login page
+
 ### v2025.1.15 (Feb 25, 2025)
 
 * Added fix for Tableau dashboard URLs
