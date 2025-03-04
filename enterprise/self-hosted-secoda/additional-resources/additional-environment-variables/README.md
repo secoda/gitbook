@@ -51,7 +51,7 @@ AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
 ### Authentication
 
-SAML
+**SAML**
 
 ```
 METADATA_AUTO_CONF_BASE64=<base64-encoded-metadata-xml>
