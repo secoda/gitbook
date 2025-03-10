@@ -1,4 +1,8 @@
-# Connecting via AWS PrivateLink
+# Snowflake via AWS PrivateLink
+
+{% hint style="info" %}
+This documentation applies to Secoda single-tenant and multi-tenant customers. For self-hosted customers refer to the Snowflake documentation [https://docs.snowflake.com/en/user-guide/admin-security-privatelink](https://docs.snowflake.com/en/user-guide/admin-security-privatelink).
+{% endhint %}
 
 **Steps to enable Secoda’s access to your Snowflake instance via AWS PrivateLink**
 
