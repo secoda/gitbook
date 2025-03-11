@@ -51,6 +51,22 @@ Secoda pulls the following metadata from Snowflake:
   * Snowflake Table <-> Jobs from other sources
   * Snowflake Column <-> Snowflake View
   * Snowflake Table <-> Snowflake View
+* Pipes
+  * Name
+  * Copy statement
+  * Comment
+  * Integration
+  * Created on
+  * Pattern
+* Pipe usage history
+  * Start time
+  * End time
+  * Bytes inserted
+  * Files inserted
+* Streamlit
+  * Name
+  * Comment
+  * Url
 * Preview of first 50 rows (Optional)
 
 ### Metadata pushed

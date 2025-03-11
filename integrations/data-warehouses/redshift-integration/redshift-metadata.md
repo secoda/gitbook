@@ -1,5 +1,5 @@
 ---
-description: List of all the metadata that Secoda pulls and pushes to Redshift
+description: List of all the metadata that Secoda pulls from/pushes to Snowflake
 ---
 
 # Redshift Metadata Extracted
