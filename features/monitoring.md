@@ -329,3 +329,4 @@ The following integrations support monitoring
 9. Trino
 10. Oracle
 11. MotherDuck
+12. ClickHouse
