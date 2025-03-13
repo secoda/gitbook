@@ -94,9 +94,10 @@ Manage is all permissions (Create, Update, Delete, and View)
 
 | Name   | Admin  | Editor | Viewer |
 | ------ | ------ | ------ | ------ |
-| Users  | Manage | View   | View   |
 | Groups | Manage | View   | View   |
 | Roles  | Manage | View   | View   |
+| Teams  | Manage | View   | View   |
+| Users  | Manage | View   | View   |
 
 **Resource Management**
 
@@ -108,27 +109,29 @@ Manage is all permissions (Create, Update, Delete, and View)
 
 | Name              | Admin  | Editor         | Viewer |
 | ----------------- | ------ | -------------- | ------ |
-| Workspace         | Manage | View           | View   |
-| Security          | Manage | None           | None   |
 | API keys          | Manage | Create, Update | View   |
-| Properties        | Manage | Create, Update | View   |
 | Billing           | Manage | None           | None   |
 | Import and export | Manage | None           | None   |
-| Appearance        | Manage | None           | None   |
+| Workspace         | Manage | View           | View   |
 
 **Features**
 
-| Name          | Admin  | Editor         | Viewer       |
-| ------------- | ------ | -------------- | ------------ |
-| Secoda AI     | Manage | View           | View         |
-| Quality score | Manage | Create, Update | View         |
-| Questions     | Manage | Create, Update | Create, View |
-| Automations   | Manage | View           | None         |
-| Monitors      | Manage | Create, Update | View         |
-| Views         | Manage | Create, Update | View         |
-| Analytics     | Manage | View           | None         |
-| Queries       | Manage | Create, Update | View         |
-| Lineage       | Manage | Create, Update | View         |
-| Tags          | Manage | Create, Update | View         |
-| Collections   | Manage | Create, Update | View         |
+| Name               | Admin  | Editor         | Viewer       |
+| ------------------ | ------ | -------------- | ------------ |
+| Analytics          | Manage | View           | None         |
+| Announcements      | Manage | Manage         | View         |
+| Automations        | Manage | View           | None         |
+| Column profile     | Manage | Manage         | View         |
+| Data quality score | Manage | Create, Update | View         |
+| Integrations       | Manage | View           | View         |
+| Lineage            | Manage | Create, Update | View         |
+| Monitors           | Manage | Create, Update | View         |
+| Policies           | Manage | Manage         | View         |
+| Preview            | View   | View           | View         |
+| Properties         | Manage | Manage         | View         |
+| Secoda AI          | Manage | View           | View         |
+| Questions          | Manage | Create, Update | Create, View |
+| Queries            | Manage | Create, Update | View         |
+| Tags               | Manage | Create, Update | View         |
+| Views              | Manage | Create, Update | View         |
 
