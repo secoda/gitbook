@@ -313,3 +313,19 @@ models:
                   min: 3
                   max: 10
 ```
+
+### Monitoring Integrations
+
+The following integrations support monitoring
+
+1. BigQuery
+2. Snowflake
+3. Redshift
+4. PostgreSQL
+5. Databricks
+6. SingleStore
+7. Synapse
+8. Microsoft SQL Server (MSSQL)
+9. Trino
+10. Oracle
+11. MotherDuck
