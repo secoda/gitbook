@@ -6,6 +6,11 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.1.17 (March 14, 2025)
+
+* Fixed validation error on Airbyte integration
+* Fixed maximum recursion depth error on Metabase integration
+
 ### v2025.1.16 (March 4, 2025)
 
 * Enforced authentication protocols, such as SAML, that are configured in security settings now limit the options shown on the login page
