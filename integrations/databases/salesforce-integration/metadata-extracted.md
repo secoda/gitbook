@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from Salesforce
 ---
 
-# Salesforce Metadata Extracted
+# Salesforce metadata extracted
 
 Secoda pulls the following metadata from Salesforce:
 

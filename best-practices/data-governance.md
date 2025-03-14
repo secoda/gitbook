@@ -2,7 +2,7 @@
 description: This page will outline some best practices around data governance
 ---
 
-# Data Governance
+# Data governance
 
 Data governance is a hot topic in the data space as it covers the ways to ensure that your company's data is **secure, accurate, reliable, and accessible**. There are many features and capabilities within Secoda that can help you achieve your data governance goals.&#x20;
 
@@ -42,7 +42,7 @@ Your users should feel confident using and **accessing** the right data, but we 
 
 * What does this data mean?
 * Where can I find data on _this subject_?&#x20;
-* Who’s responsible or the subject matter expert?
+* Who's responsible or the subject matter expert?
 * Is this the right data?
 * Is it up to date?
 * Is this sensitive data?

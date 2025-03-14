@@ -4,7 +4,7 @@ description: >-
   using Teams.
 ---
 
-# Streamline data access: Private and Public Teams workflow
+# Streamline data access: Private and public teams workflow
 
 Hoping to set up your workspace so that only the right users have access to work-in-progress resources? So that business users are only viewing the most up-to-date, Verified, resources?&#x20;
 
