@@ -6,7 +6,7 @@ description: >-
 
 # Documents
 
-Documents in Secoda are robust, and allow you to combine text, queries, and live Metrics in a notebook interface. Use Documents to find information about your organization’s data or internal processes that are not directly tied to one specific table, term, or resource. Just like the dictionary, all documents can be found using search, and can be directly linked in other resources in the workspace.
+Documents in Secoda are robust, and allow you to combine text, queries, and live Metrics in a notebook interface. Use Documents to find information about your organization's data or internal processes that are not directly tied to one specific table, term, or resource. Just like the dictionary, all documents can be found using search, and can be directly linked in other resources in the workspace.
 
 Below are some examples of Documents use cases we see often:
 

@@ -53,7 +53,7 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 
 [secoda-api.md](../secoda-api.md "mention")
 
-* Use Secoda’s APIs to bulk edit the name, descriptions, and tags on your resources.
+* Use Secoda's APIs to bulk edit the name, descriptions, and tags on your resources.
 * Automatic PII detection through the API can identify resources that need to be more governed for auditing purposes
   * PII can be tagged, and automatic reporting for audits can be generated
 

@@ -2,7 +2,7 @@
 description: Edit the properties or bring in new dictionary terms through this feature.
 ---
 
-# Import and Export Resources
+# Import and export resources
 
 ## Overview
 

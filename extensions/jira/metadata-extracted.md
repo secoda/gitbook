@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from Jira
 ---
 
-# Jira Metadata Extracted
+# Jira metadata extracted
 
 ### **What does Secoda sync from Jira?** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 

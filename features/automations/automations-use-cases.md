@@ -2,11 +2,11 @@
 description: Explore common use cases for Secoda's Automations features.
 ---
 
-# Automations Use Cases
+# Automations use cases
 
 ## Introduction
 
-Secoda’s Automations feature allows you to streamline and automate repetitive data management tasks, enhancing efficiency and consistency across your workspace. This document outlines several practical use cases where Automations can significantly improve data governance and operational workflows.
+Secoda's Automations feature allows you to streamline and automate repetitive data management tasks, enhancing efficiency and consistency across your workspace. This document outlines several practical use cases where Automations can significantly improve data governance and operational workflows.
 
 ## Verify documented resources
 
