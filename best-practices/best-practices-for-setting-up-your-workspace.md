@@ -39,7 +39,7 @@ Secoda offers several features to help automate the enrichment and documentation
 
 #### **Initial Documentation Setup**&#x20;
 
-Creating robust documentation from the start is crucial. Ensure that Documents, Dictionary terms, and Catalog resource descriptions are well-documented to showcase Secoda's value immediately to new users. This initial content not only helps in accurate searches but also enhances the AI Assistant’s functionality.
+Creating robust documentation from the start is crucial. Ensure that Documents, Dictionary terms, and Catalog resource descriptions are well-documented to showcase Secoda's value immediately to new users. This initial content not only helps in accurate searches but also enhances the AI Assistant's functionality.
 
 #### **Prioritizing Certain Documentation**&#x20;
 

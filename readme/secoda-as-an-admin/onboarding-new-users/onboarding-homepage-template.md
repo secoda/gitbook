@@ -4,7 +4,7 @@ description: >-
   it
 ---
 
-# Onboarding Homepage template
+# Onboarding homepage template
 
 Use this guide to create an introduction Document within Secoda for new users of the tool. Depending on how you have set up your workspace with Teams, this might look different.
 
@@ -32,7 +32,7 @@ Secoda is an innovative data discovery and cataloging tool designed to help us m
 
 Secoda integrates with all of our data sources and tools, including <mark style="color:red;">**\*insert your integrations here\*.**</mark>
 
-Secoda will be the one-stop-shop for all data needs including searching, cataloging, viewing lineage, data quality monitoring, and managing data governance. With this platform, you’ll be able to:
+Secoda will be the one-stop-shop for all data needs including searching, cataloging, viewing lineage, data quality monitoring, and managing data governance. With this platform, you'll be able to:
 
 * Find verified resources to do your own discovery and analysis
 * Search in plain language to find information about the data in our organization

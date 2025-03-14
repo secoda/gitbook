@@ -2,7 +2,7 @@
 description: List of all the metadata that Secoda pulls from Confluence
 ---
 
-# Confluence Metadata Extracted
+# Confluence metadata extracted
 
 ### What does Secoda extract from Confluence?
 
