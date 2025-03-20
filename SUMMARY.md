@@ -255,6 +255,7 @@
   * [Notifications](features/notifications.md)
   * [Popularity](features/popularity.md)
   * [Publishing](getting-started/secoda-as-an-admin/add-documentation/publishing.md)
+  * [Policies](features/policies.md)
   * [Queries](features/queries/README.md)
     * [Query Blocks](features/queries/running-queries-in-secoda/README.md)
       * [Chart Blocks](features/queries/running-queries-in-secoda/adding-live-charts-to-documentation.md)
