@@ -33,7 +33,7 @@ To get started with the Secoda Native Snowflake App, follow these four steps:
 
 You can install the app directly from the Snowflake Marketplace. Once installed, you will see the application interface:
 
-<figure><img src=".gitbook/assets/native-snowflake/app-screen.png" alt=""><figcaption>Secoda Native App Interface</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/app-screen.png" alt=""><figcaption>Secoda Native App Interface</figcaption></figure>
 
 ### 2. Configure Connection Credentials
 
@@ -41,15 +41,15 @@ Next, you'll need to configure the connection and provide account-level privileg
 
 1. Open the app and navigate to the Connections tab
 
-<figure><img src=".gitbook/assets/native-snowflake/connections-page.png" alt=""><figcaption>Connections Tab</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/connections-page.png" alt=""><figcaption>Connections Tab</figcaption></figure>
 
 2. Enter your Secoda API key
 
-<figure><img src=".gitbook/assets/native-snowflake/api-key-entry.png" alt=""><figcaption>API Key Entry</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/api-key-entry.png" alt=""><figcaption>API Key Entry</figcaption></figure>
 
 3. Grant the necessary privileges to the application
 
-<figure><img src=".gitbook/assets/native-snowflake/privileges.png" alt=""><figcaption>Required Privileges</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/privileges.png" alt=""><figcaption>Required Privileges</figcaption></figure>
 
 {% hint style="warning" %}
 Ensure that you grant the application only the necessary privileges to maintain your security posture.
@@ -70,13 +70,13 @@ To create a network rule:
    - If you installed the app as `SECODA_APP`, the rule will be named `SECODA_APP_SECODA_API_NETWORK_RULE`
 3. Add your custom Secoda endpoint to the network rule
 
-<figure><img src=".gitbook/assets/native-snowflake/network-rule.png" alt=""><figcaption>Network Rule Configuration</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/network-rule.png" alt=""><figcaption>Network Rule Configuration</figcaption></figure>
 
 ### 4. Create Integration in Secoda
 
 Before proceeding with the application configuration, you need to create a Native Snowflake integration in Secoda:
 
-<figure><img src=".gitbook/assets/native-snowflake/create-integration.png" alt=""><figcaption>Creating a Native Snowflake Integration in Secoda</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/create-integration.png" alt=""><figcaption>Creating a Native Snowflake Integration in Secoda</figcaption></figure>
 
 After creating the integration in Secoda, return to Snowflake and launch the "INSTALL_SECODA" Streamlit program from the application header.
 
