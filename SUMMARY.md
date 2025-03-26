@@ -66,6 +66,7 @@
     * [Snowflake](integrations/data-warehouses/snowflake-integration/README.md)
       * [Snowflake Metadata Extracted](integrations/data-warehouses/snowflake-integration/snowflake-metadata/README.md)
       * [Snowflake Costs](integrations/data-warehouses/snowflake-integration/snowflake-costs.md)
+      * [Snowflake Native App](integrations/data-warehouses/native-snowflake/native-snowflake.md)
     * [Apache Hive](integrations/data-warehouses/apache-hive/README.md)
       * [Apache Hive Metadata Extracted](integrations/data-warehouses/apache-hive/metadata-extracted.md)
     * [Azure Synapse](integrations/data-warehouses/azure-synapse/README.md)
