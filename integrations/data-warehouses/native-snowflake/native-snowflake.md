@@ -1,5 +1,11 @@
 # Secoda Native Snowflake App
 
+{% hint style="warning" %}
+**CLOSED BETA - EXPERIMENTAL**
+
+The Secoda Snowflake Native App is currently in an experimental state and available only through our closed beta program. Features, functionality, and commands may change significantly between releases without prior notice. This documentation is provided for beta testers only and should not be shared outside your organization. Please report any issues or feedback to your Secoda representative.
+{% endhint %}
+
 The Secoda Native Snowflake App enables you to integrate your Snowflake warehouse with Secoda while leveraging Snowflake's robust security and governance rules. This integration provides significant advantages for organizations with strict data security requirements.
 
 {% hint style="info" %}
