@@ -1,24 +1,16 @@
 # Secoda Native Snowflake App
 
 {% hint style="warning" %}
-**CLOSED BETA - EXPERIMENTAL**
+**EXPERIMENTAL**
 
-The Secoda Snowflake Native App is currently in an experimental state and available only through our closed beta program. Features, functionality, and commands may change significantly between releases without prior notice. This documentation is provided for beta testers only and should not be shared outside your organization. Please report any issues or feedback to your Secoda representative.
+The Secoda Snowflake Native App is currently in an experimental state. Features and functionality may change before release.
 {% endhint %}
 
-The Secoda Native Snowflake App enables you to integrate your Snowflake warehouse with Secoda while leveraging Snowflake's robust security and governance rules. This integration provides significant advantages for organizations with strict data security requirements.
+The Secoda Native Snowflake App enables you to integrate your Snowflake warehouse with Secoda without providing direct access to your Snowflake account. The native application runs securely within your Snowflake environment.
 
 {% hint style="info" %}
-The Secoda Native App processes your data within your Snowflake environment and only sends metadata and limited processed information to Secoda's servers, allowing you to retain Secoda's powerful features without providing direct access to your raw data.
+The Secoda Native App processes your data within your Snowflake environment and only sends metadata and limited processed information to Secoda's servers, allowing you to use Secoda's features without providing direct access to your raw data.
 {% endhint %}
-
-## Benefits
-
-- **Enhanced Security**: Your data remains within your Snowflake environment
-- **Governance Compliance**: Adhere to strict data governance protocols
-- **Reduced Data Exposure**: Only processed results and metadata are sent to Secoda
-- **Simplified Integration**: No need for network and firewall configuration
-- **Streamlined Monitoring**: Create and manage monitors directly within Snowflake
 
 ## Installation Process
 
@@ -43,17 +35,13 @@ Next, you'll need to configure the connection and provide account-level privileg
 
 <figure><img src="../../../.gitbook/assets/native-snowflake/connections-page.png" alt=""><figcaption>Connections Tab</figcaption></figure>
 
-2. Enter your Secoda API key
+2. Enter your Secoda API key (You can generate an API key by )
 
 <figure><img src="../../../.gitbook/assets/native-snowflake/api-key-entry.png" alt=""><figcaption>API Key Entry</figcaption></figure>
 
 3. Grant the necessary privileges to the application
 
 <figure><img src="../../../.gitbook/assets/native-snowflake/privileges.png" alt=""><figcaption>Required Privileges</figcaption></figure>
-
-{% hint style="warning" %}
-Ensure that you grant the application only the necessary privileges to maintain your security posture.
-{% endhint %}
 
 ### 3. Network Rule Setup
 
@@ -78,7 +66,7 @@ Before proceeding with the application configuration, you need to create a Nativ
 
 <figure><img src="../../../.gitbook/assets/native-snowflake/create-integration.png" alt=""><figcaption>Creating a Native Snowflake Integration in Secoda</figcaption></figure>
 
-After creating the integration in Secoda, return to Snowflake and launch the "INSTALL_SECODA" Streamlit program from the application header.
+You will not need to configure any authentication for this integration. After creating the integration in Secoda, return to Snowflake and launch the "INSTALL_SECODA" Streamlit program from the application header.
 
 ## Setup Wizard
 
@@ -163,14 +151,10 @@ CALL SECODA_APP.MONITORING.RUN_MONITOR('monitor_key');
 SELECT * FROM SECODA_APP.MONITORING.LIST_MONITORS();
 ```
 
-{% hint style="info" %}
-Monitor results are synchronized with Secoda and processed by a scheduled job that runs every 5 minutes. There may be a short delay before new measurements appear or updated values are reflected.
-{% endhint %}
-
 ## Catalog
 
 {% hint style="warning" %}
-The Catalog functionality is currently in development and will be available soon.
+The Catalog functionality will be available soon.
 {% endhint %}
 
 When available, the Catalog feature will allow you to automatically discover, explore, and document your Snowflake data assets directly through the Native App.
