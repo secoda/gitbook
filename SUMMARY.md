@@ -251,7 +251,7 @@
   * [Lineage](features/data-lineage.md)
     * [Manual Lineage](features/data-lineage/manual-lineage.md)
   * [Metrics](features/metrics.md)
-  * [Monitoring](features/monitoring.md)
+  * [Monitors](features/monitoring.md)
     * [Monitoring Use Cases](features/monitoring/monitoring-use-cases.md)
   * [Notifications](features/notifications.md)
   * [Policies](features/policies.md)
