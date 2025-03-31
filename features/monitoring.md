@@ -2,9 +2,7 @@
 description: Create data monitors for visibility into the health of your data stack
 ---
 
-# Monitoring
-
-## Monitoring
+# Monitors
 
 ### Introduction
 
