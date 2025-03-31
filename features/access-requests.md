@@ -56,10 +56,6 @@ Access Requests will be support the following platforms during the Beta period:
 * Redshift
 * Postgres
 
-### Beta Availability
-
-The Access Requests feature will be available in public beta starting February 12 until April 2025. Feedback during this period will help shape the final release. Sign up for Early Access [here](https://tally.so/r/3N8ENQ).
-
 ### Use Cases
 
 * Data Access Governance: Ensure that only authorized users can access sensitive data and that access is tracked and time-bound.
