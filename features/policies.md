@@ -1,6 +1,14 @@
 # Policies
 
+{% hint style="info" %}
+Policies are currently in Early Access. To get access you can fill out the early access form [here](https://tally.so/forms/3NdaVQ).
+{% endhint %}
+
+
+
 Policies in Secoda help organizations enforce data governance rules and maintain compliance across their data stack. With policies, teams can monitor, validate, and enforce data standards systematically.
+
+<figure><img src="../.gitbook/assets/policies.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Overview
 
@@ -21,8 +29,14 @@ To create a new policy:
    * Name: Give your policy a descriptive name
    * Icon: Choose an icon to represent your policy (optional)
    * Description: Explain the purpose and requirements of your policy
+4. Add filteres for resources that are governed by the policy, e.g., Snowflake production table
+5. Add conditions that must be met by the resources, e.g., Has owner
+
+<figure><img src="../.gitbook/assets/image (97).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Policy Components
+
+<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 #### Overview Tab
 
@@ -33,7 +47,7 @@ The overview tab contains the primary policy configuration and details:
 * Associated resources
 * Policy rules and conditions
 
-#### Remediation and Issues Tab
+#### Issues Tab
 
 Monitor and manage policy violations:
 
@@ -41,14 +55,6 @@ Monitor and manage policy violations:
 * Track remediation progress
 * Manage issue resolution
 * Access historical compliance data
-
-### Access Control
-
-Policies feature access is controlled by permissions:
-
-* Viewers can view published policies
-* Editors can create and modify policies
-* Admins have full control over policy management
 
 ### Best Practices
 
