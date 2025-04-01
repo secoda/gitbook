@@ -10,11 +10,11 @@ March 31, 2025
 
 Your central source for everything new this month is now live. Catch the full breakdown on our [March landing page](https://secoda.intercom-clicks.com/via/e?ob=9loGShLm5tlJIgsra2oDtpVgnBMPyiAoI0YnDI9Kjl0E7oPakvuEHxrOyYiEmHfP\&h=8ede21d3fa1a7f855335403883162b44dd5b5b28-dssmg53d_215468801230409\&l=9dcaff947a28d57d681bbdf770be68818904972b-145849735), including:
 
-🔐 Policies – Define and automate governance rules for GDPR, HIPAA, and more
+🔐 [Policies](https://docs.secoda.co/features/policies) – Define and automate governance rules for GDPR, HIPAA, and more
 
-📥 Access requests – One place to approve and manage access across your tools
+📥 [Access requests](https://docs.secoda.co/features/access-requests) – One place to approve and manage access across your tools
 
-🏥 Governance in action – Complete guides to how finance, healthcare, and energy organizations are tackling governance at scale
+🏥 [Activity log & version history](https://docs.secoda.co/features/access-requests) – A full list of each action that is performed in Secoda
 
 <details>
 
