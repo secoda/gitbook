@@ -4,6 +4,36 @@
 The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
 
+## Governance on autopilot: Ready-made policies you can trust (v8.7.0)
+
+March 31, 2025
+
+Your central source for everything new this month is now live. Catch the full breakdown on our [March landing page](https://secoda.intercom-clicks.com/via/e?ob=9loGShLm5tlJIgsra2oDtpVgnBMPyiAoI0YnDI9Kjl0E7oPakvuEHxrOyYiEmHfP\&h=8ede21d3fa1a7f855335403883162b44dd5b5b28-dssmg53d_215468801230409\&l=9dcaff947a28d57d681bbdf770be68818904972b-145849735), including:
+
+🔐 Policies – Define and automate governance rules for GDPR, HIPAA, and more
+
+📥 Access requests – One place to approve and manage access across your tools
+
+🏥 Governance in action – Complete guides to how finance, healthcare, and energy organizations are tackling governance at scale
+
+<details>
+
+<summary>Improvements</summary>
+
+* Dark Mode
+* Settings UI update
+* GitHub Impact analysis report on PRs
+* Search filter for if upstream or downstream lineage exists
+* Search filteres for custom properties
+* Send notifications to downstream subscribers for Monitor Incident
+* Analytics widgets for Secoda AI chats and history
+* ClickHouse Integration
+* Snowpipe and Streamlit support in Snowflake Integration
+
+</details>
+
+
+
 ## Custom roles, Access Requests, and Secoda AI Enhancements (v8.4.0)
 
 Feb 14, 2025
