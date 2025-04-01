@@ -8,7 +8,19 @@ description: >-
 
 ### v2025.2.0 (April 1, 2025)
 
+**New Features**
 
+* **Custom Roles (Early Access)**: Introduced the ability to design roles with fine-grained access controls to resources and features within Secoda, allowing organizations to tailor permissions to their specific needs.&#x20;
+* **Access Requests (Early Access)**: Implemented a centralized hub for requesting, approving, and managing data access across all integrated tools, streamlining the access control process.&#x20;
+* **Secoda AI Model Selection**: Provided users with the option to choose between Anthropic's Claude 3.5 Sonnet and OpenAI's GPT-4o to power their Secoda AI experience, enhancing flexibility and control over AI interactions.
+
+**Improvements**
+
+* **ClickHouse Integration**: Integrate with ClickHouse to catalog and discover data resources, supporting metadata extraction and documentation.​
+* **Dark Mode**: Introduce a dark mode theme for the Secoda interface, offering users an alternative visual experience to reduce eye strain.​
+* **GitHub Impact Analysis Report on PRs**: Implement impact analysis reports for GitHub pull requests, providing insights into potential effects on data resources and documentation.​
+* **Search Filters for Lineage and Custom Properties**: Enhance search functionality with filters for data lineage and custom properties, improving the ability to locate and analyze specific data assets.​
+* **Snowpipe and Streamlit Support in Snowflake Integration**: Extend Snowflake integration to support Snowpipe and Streamlit, facilitating automated data loading and interactive data applications.
 
 ### v2025.1.17 (March 14, 2025)
 
