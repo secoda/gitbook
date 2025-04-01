@@ -6,6 +6,10 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.0 (April 1, 2025)
+
+
+
 ### v2025.1.17 (March 14, 2025)
 
 * Fixed validation error on Airbyte integration
