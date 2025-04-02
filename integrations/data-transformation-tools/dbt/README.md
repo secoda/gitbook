@@ -30,9 +30,9 @@ You can determine your account ID by going to the Account Settings page of dbt C
 
 Secoda uses the dbt Cloud REST API, which is only available paying dbt Cloud customers. For Secoda to retrieve metadata from dbt, you need to generate a Service Token with. To do this, go to **Account Settings > Service Tokens** and click "New Token".
 
-The minimum permissions are **Member** of the selected projects for the Service Account. Once the projects have been selected Save the token and copy the generated token.
+The minimum permissions are **Analyst** of the selected projects for the Service Account. Once the projects have been selected Save the token and copy the generated token.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/80e5fed3-f230-49e6-9ad4-3d078ddec0ca.png)
+![](<../../../.gitbook/assets/Screenshot 2025-04-01 at 3.24.16 PM.png>)
 
 #### **Connect dbt to Secoda** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
