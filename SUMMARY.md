@@ -277,6 +277,7 @@
     * [Microsoft Azure AD SAML](saml/microsoft-azure-ad-saml.md)
     * [Google SAML](saml/google-saml.md)
     * [SCIM](saml/scim.md)
+    * [SAML Attributes](saml/attributes.md)
   * [Self-Hosted](self-hosted-secoda/README.md)
     * [Additional Resources](self-hosted-secoda/additional-resources/README.md)
       * [Additional Environment Variables](enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/README.md)
