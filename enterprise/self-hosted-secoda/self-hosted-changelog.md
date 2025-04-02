@@ -6,6 +6,15 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.2 (April 2, 2025)
+
+* Fix for dbt lineage accuracy
+* Fix for Hightouch lineage accuracy
+
+### v2025.2.1 (April 2, 2025)
+
+* Fix for lineage graph not loading
+
 ### v2025.2.0 (April 1, 2025)
 
 **New Features**
