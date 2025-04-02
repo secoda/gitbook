@@ -62,7 +62,7 @@ The following SAML attributes are supported for automatic user management:
 1. `secodaRole` (string)
    * Maps to the `User` model role
    * Stored in the `_role` property on `User`
-   * Example: `"admin"`, `"user"`, `"viewer"`
+   * Example: `"admin"`, `"editor"`, `"viewer"`
 
 2. `secodaGroupMembership` (comma-separated list)
    * Maps to `Group` model membership
