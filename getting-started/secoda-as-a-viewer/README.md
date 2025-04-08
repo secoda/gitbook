@@ -11,7 +11,6 @@ Here are some helpful first steps with documentation links for new Viewers withi
 **Get Started:**
 
 * [ ] **High-level** [introduction to Secoda](../../readme/secoda-as-a-viewer/introduction-guide.md)&#x20;
-* [ ] **Video Tutorial:** Watch an [Introduction to Secoda](../../#video-resource-introduction-to-secoda)
 
 **Explore and Learn:**
 
