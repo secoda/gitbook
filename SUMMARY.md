@@ -298,6 +298,7 @@
   * [Authentication](secoda-api/authentication.md)
   * [Example Workflows](secoda-api/example-workflows.md)
   * [API Reference](https://api.secoda.co/api/schema/redoc/)
+  * [Secoda AI API](secoda-api/secoda-ai-api.md)
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
   * [Terms of Use](policies/terms-of-use.md)
