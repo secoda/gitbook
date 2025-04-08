@@ -19,7 +19,7 @@
     * [User engagement and adoption](readme/secoda-as-an-admin/user-engagement-and-adoption/README.md)
       * [Tips & Tricks to share with new users](readme/secoda-as-an-admin/user-engagement-and-adoption/tips-and-tricks-to-share-with-new-users.md)
   * [Secoda as an Editor](getting-started/secoda-as-an-editor.md)
-  * [Secoda as a viewer](getting-started/secoda-as-a-viewer/README.md)
+  * [Secoda as a Viewer](getting-started/secoda-as-a-viewer/README.md)
     * [Introduction guide](readme/secoda-as-a-viewer/introduction-guide.md)
     * [Requesting changes in Secoda](getting-started/secoda-as-a-viewer/requesting-changes-in-secoda.md)
 * [Best practices](best-practices/README.md)
