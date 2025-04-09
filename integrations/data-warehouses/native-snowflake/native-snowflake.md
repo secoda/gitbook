@@ -1,9 +1,7 @@
-# Secoda Native Snowflake App
+# Snowflake Native App
 
-{% hint style="warning" %}
-**EXPERIMENTAL**
-
-The Secoda Snowflake Native App is currently in an experimental state. Features and functionality may change before release.
+{% hint style="info" %}
+The Secoda Snowflake Native App is currently in early access. Features and functionality may change before the full release.
 {% endhint %}
 
 The Secoda Native Snowflake App enables you to integrate your Snowflake warehouse with Secoda without providing direct access to your Snowflake account. The native application runs securely within your Snowflake environment.
@@ -25,7 +23,7 @@ To get started with the Secoda Native Snowflake App, follow these four steps:
 
 You can install the app directly from the Snowflake Marketplace. Once installed, you will see the application interface:
 
-<figure><img src="../../../.gitbook/assets/native-snowflake/app-screen.png" alt=""><figcaption>Secoda Native App Interface</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/app-screen.png" alt=""><figcaption><p>Secoda Native App Interface</p></figcaption></figure>
 
 ### 2. Configure Connection Credentials
 
@@ -33,15 +31,15 @@ Next, you'll need to configure the connection and provide account-level privileg
 
 1. Open the app and navigate to the Connections tab
 
-<figure><img src="../../../.gitbook/assets/native-snowflake/connections-page.png" alt=""><figcaption>Connections Tab</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/connections-page.png" alt=""><figcaption><p>Connections Tab</p></figcaption></figure>
 
 2. Enter your Secoda API key (You can generate an API key by )
 
-<figure><img src="../../../.gitbook/assets/native-snowflake/api-key-entry.png" alt=""><figcaption>API Key Entry</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/api-key-entry.png" alt=""><figcaption><p>API Key Entry</p></figcaption></figure>
 
 3. Grant the necessary privileges to the application
 
-<figure><img src="../../../.gitbook/assets/native-snowflake/privileges.png" alt=""><figcaption>Required Privileges</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/privileges.png" alt=""><figcaption><p>Required Privileges</p></figcaption></figure>
 
 ### 3. Network Rule Setup
 
@@ -55,35 +53,38 @@ To create a network rule:
 
 1. In Snowflake, navigate to Admin → Security → Network Rules
 2. The network rule name depends on your app installation name
-   - If you installed the app as `SECODA_APP`, the rule will be named `SECODA_APP_SECODA_API_NETWORK_RULE`
+   * If you installed the app as `SECODA_APP`, the rule will be named `SECODA_APP_SECODA_API_NETWORK_RULE`
 3. Add your custom Secoda endpoint to the network rule
 
-<figure><img src="../../../.gitbook/assets/native-snowflake/network-rule.png" alt=""><figcaption>Network Rule Configuration</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/network-rule.png" alt=""><figcaption><p>Network Rule Configuration</p></figcaption></figure>
 
 ### 4. Create Integration in Secoda
 
 Before proceeding with the application configuration, you need to create a Native Snowflake integration in Secoda:
 
-<figure><img src="../../../.gitbook/assets/native-snowflake/create-integration.png" alt=""><figcaption>Creating a Native Snowflake Integration in Secoda</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/native-snowflake/create-integration.png" alt=""><figcaption><p>Creating a Native Snowflake Integration in Secoda</p></figcaption></figure>
 
-You will not need to configure any authentication for this integration. After creating the integration in Secoda, return to Snowflake and launch the "INSTALL_SECODA" Streamlit program from the application header.
+You will not need to configure any authentication for this integration. After creating the integration in Secoda, return to Snowflake and launch the "INSTALL\_SECODA" Streamlit program from the application header.
 
 ## Setup Wizard
 
 The setup process guides you through three essential steps:
 
 ### 1. Connect to Secoda
-- By default, the installation connects to Secoda's US cloud (app.secoda.co)
-- Custom endpoint options are available for EU cloud, single-tenant, or on-premise deployments
+
+* By default, the installation connects to Secoda's US cloud (app.secoda.co)
+* Custom endpoint options are available for EU cloud, single-tenant, or on-premise deployments
 
 ### 2. Select Integration
-- Choose which Secoda integration to use with your Snowflake data
-- The app will list compatible Snowflake integrations from your Secoda account
-- If no integrations exist, you'll need to create one in Secoda first
+
+* Choose which Secoda integration to use with your Snowflake data
+* The app will list compatible Snowflake integrations from your Secoda account
+* If no integrations exist, you'll need to create one in Secoda first
 
 ### 3. Configure Features
-- **Catalog**: Enable to discover, explore, and document your Snowflake data assets
-- **Monitor**: Enable to track data quality and freshness metrics
+
+* **Catalog**: Enable to discover, explore, and document your Snowflake data assets
+* **Monitor**: Enable to track data quality and freshness metrics
 
 {% hint style="success" %}
 Once the setup is complete, your Secoda Native Snowflake App is ready to use!
@@ -158,5 +159,3 @@ The Catalog functionality will be available soon.
 {% endhint %}
 
 When available, the Catalog feature will allow you to automatically discover, explore, and document your Snowflake data assets directly through the Native App.
-
-
