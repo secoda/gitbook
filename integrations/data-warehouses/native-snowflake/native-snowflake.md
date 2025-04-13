@@ -33,7 +33,7 @@ Next, you'll need to configure the connection and provide account-level privileg
 
 <figure><img src="../../../.gitbook/assets/native-snowflake/connections-page.png" alt=""><figcaption><p>Connections Tab</p></figcaption></figure>
 
-2. Enter your Secoda API key (You can generate an API key by visiting the "API" page under your workspace settings)
+2. Enter your Secoda API key (You can generate an API key by )
 
 <figure><img src="../../../.gitbook/assets/native-snowflake/api-key-entry.png" alt=""><figcaption><p>API Key Entry</p></figcaption></figure>
 
