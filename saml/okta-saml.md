@@ -8,7 +8,7 @@
    * If you're self-hosted, replace https://app.secoda.co with your domain.
 4.  Add the following attribute statements. While Okta says Optional, **this step is Required**.
 
-    ![](https://imagedelivery.net/28-eDrK8lEif6\_ED0iMQeg/f1c1ee1d-d138-4962-0c4c-b669b0e33100/public)
+    ![](https://imagedelivery.net/28-eDrK8lEif6_ED0iMQeg/f1c1ee1d-d138-4962-0c4c-b669b0e33100/public)
 5. Click Next.
 6. Click Finish. Assign users to this application if you want them to be able to sign in.
 7. Go to the Sign On tab and expand the SAML 2.0 box to see the Metadata details. Copy the Metadata URL.
@@ -18,3 +18,7 @@
 11. Click Request which will alert the Secoda team of your request.
 
 Once Secoda has completed their steps, you will be able to go to navigate to Secoda, click “Sign in with SAML”, and enter your domain to complete sign-in.
+
+{% hint style="info" %}
+If you want to add multiple domains to Okta reach out to Secoda at support@secoda.co for assistance.&#x20;
+{% endhint %}
