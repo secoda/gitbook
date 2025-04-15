@@ -36,3 +36,15 @@ Run a metadata sync to update your dbt resources with the info your have changed
 
 <figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
+## DBT model update preferences
+
+This setting determines whether Secoda should automatically sync column-level metadata — such as column names, descriptions, and tags — from your tables in Secoda back to your dbt model `.yml` files in GitHub.&#x20;
+
+When the `Sync columns to DBT models` setting is turned on:
+
+* Secoda will **update and add** column definitions in your dbt `.yml` files to reflect what’s defined in Secoda.
+* If a column does **not** already exist in the dbt model file, it will be **added** (with name and any available metadata).
+* If a column **does** exist, its metadata will be updated to match what’s stored in Secoda.
+* This is useful if you want Secoda to be your source of truth for column-level metadata.
+
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
