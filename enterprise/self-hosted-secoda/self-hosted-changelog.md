@@ -6,6 +6,16 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.4 (April 16, 2025)
+
+* Fix list view additional scroll
+* Fix for Hightouch lineage
+* Fix for dbt job lineage
+
+### v2025.2.3 (April 6, 2025)
+
+* Add additional SAML attribute for access control
+
 ### v2025.2.2 (April 2, 2025)
 
 * Fix for dbt lineage accuracy
