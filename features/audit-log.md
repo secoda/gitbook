@@ -6,13 +6,14 @@ The Audit Log provides a comprehensive timeline of all activities and changes ma
 
 The Audit Log captures various types of activities including: resource updates, permission changes, documentation updates, role assignments, among other activities.
 
-<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Accessing the Audit Log
 
 1. Navigate to Settings in your Secoda workspace
 2. Select "Audit log" from the left sidebar
 3. View the chronological timeline of all workspace activities
+4. Filter entries by user, date, log type, and resource
 
 ### Understanding Log Entries
 

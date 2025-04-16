@@ -297,7 +297,17 @@
   * [Get Started](secoda-api/get-started.md)
   * [Authentication](secoda-api/authentication.md)
   * [Example Workflows](secoda-api/example-workflows.md)
-  * [API Reference](https://api.secoda.co/api/schema/redoc/)
+  * [API Reference](secoda-api/api-reference/README.md)
+    * ```yaml
+      type: builtin:openapi
+      props:
+        models: false
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
   * [Secoda AI API](secoda-api/secoda-ai-api.md)
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
