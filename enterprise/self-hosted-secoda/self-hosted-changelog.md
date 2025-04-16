@@ -11,6 +11,7 @@ description: >-
 * Fix list view additional scroll
 * Fix for Hightouch lineage
 * Fix for dbt job lineage
+* Fix for incident email notifications
 * Updated  Claude 3.5 Sonnet to 3.7
 
 ### v2025.2.3 (April 6, 2025)
