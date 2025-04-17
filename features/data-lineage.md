@@ -53,6 +53,10 @@ When you connect a data source to Secoda, Lineage is automatically generated fro
 * `MERGE`
 * `JOIN`
 
+{% hint style="info" %}
+For lineage that exists between integrations or depends on another integration (e.g., dbt), make sure that the resources have been extracted during the sync so that the lineage is generated properly.
+{% endhint %}
+
 ## Export lineage
 
 Interested in exporting the lineage graph that Secoda created for you? Simply click the Export lineage button which will download a .png file of the lineage graph you are clicked into.
