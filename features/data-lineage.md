@@ -51,7 +51,11 @@ When you connect a data source to Secoda, Lineage is automatically generated fro
 * `CREATE_TABLE_AS_SELECT`
 * `CREATE_VIEW`
 * `MERGE`
-* `JOIN`
+* `JOIN`&#x20;
+
+{% hint style="info" %}
+For DBT, we use the manifest.json to increase lineage coverage.&#x20;
+{% endhint %}
 
 {% hint style="info" %}
 For lineage that exists between integrations or depends on another integration (e.g., dbt), make sure that the resources have been extracted during the sync so that the lineage is generated properly.
