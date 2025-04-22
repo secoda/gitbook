@@ -281,6 +281,6 @@ response = requests.request("POST", url, headers=headers)
 print(response)
 </code></pre>
 
-#### 4. Now that a sync has been triggered, you can now monitor your sync in the UI!
+#### 4. After a sync has been triggered you can monitor your sync status in the UI
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a5b823c3-bf19-48b0-9a30-e577e4fc3ae5.png" alt=""><figcaption></figcaption></figure>
