@@ -6,6 +6,12 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.5 (April 22, 2025)
+
+* Airbyte lineage improvements
+* Various Snowflake and dbt lineage improvements
+* Fixed Confluent Cloud syncs failing
+
 ### v2025.2.4 (April 16, 2025)
 
 * Fix list view additional scroll
