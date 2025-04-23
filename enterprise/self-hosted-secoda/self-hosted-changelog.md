@@ -6,6 +6,10 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.6 (April 23, 2025)
+
+* Fixed Elasticsearch environment variable
+
 ### v2025.2.5 (April 22, 2025)
 
 * Airbyte lineage improvements
