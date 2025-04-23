@@ -4,7 +4,7 @@
 
 1.  Go to the Secoda app > Settings > Security > SAML. Copy the **ACS UR**L and **Entity ID** for use in the following steps.
 
-    <figure><img src="../.gitbook/assets/Screenshot 2025-04-23 at 10.43.53 AM (5).png" alt=""><figcaption><p>Secoda app > Settings > Security > SAML</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2025-04-23 at 10.43.53 AM (7).png" alt=""><figcaption><p>Secoda app > Settings > Security > SAML</p></figcaption></figure>
 2. In the Okta console: click the button “Create App Integration” (SAML2.0)
 3. Name the app `Secoda`
 4. Set the **SSO URL** and **Audience** to your personalized **ACS URL** copied from above.
@@ -16,12 +16,8 @@
 8. Go to the Sign On tab and expand the SAML 2.0 box to see the Metadata details. Copy the **Metadata URL**
 9. Navigate to the Secoda app > Settings > Security > SAML
 10. Choose Okta as the **SAML Provider (IdP)**
-11. Paste the link from Step 7 under **Metadata URL**
+11. Paste the link from Step 8 under **Metadata URL**. Save this configuration.
 
 
 
 Now you can logout, click “Sign in with SAML”, and enter your domain to complete sign-in.
-
-{% hint style="info" %}
-If you want to add multiple domains to Okta reach out to Secoda at support@secoda.co for assistance.&#x20;
-{% endhint %}
