@@ -138,6 +138,8 @@
       * [SQL Server Reporting Services Metadata Extracted](integrations/data-visualization-tools/sql-server-reporting-services/sql-server-reporting-services-metadata-extracted.md)
     * [Hex](integrations/data-visualization-tools/hex/README.md)
       * [Hex Metadata Extracted](integrations/data-visualization-tools/hex/hex-metadata-extracted.md)
+    * [Omni](integrations/data-visualization-tools/omni/README.md)
+      * [Omni Metadata Extracted](integrations/data-visualization-tools/omni/omni-metadata-extracted.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
     * [Census](integrations/data-pipeline-tools/census/README.md)
       * [Census Metadata Extracted](integrations/data-pipeline-tools/census/census-metadata-extracted.md)
