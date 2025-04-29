@@ -118,44 +118,97 @@ Secoda tracks these metrics and can alert stakeholders when values exceed config
 
 ### Creating Monitors
 
-You can create monitors using SQL commands:
+You can create monitors using SQL commands. Here are some common examples:
 
 ```sql
--- Create a new monitor
+-- Basic row count monitor
 CALL SECODA_APP.MONITORING.CREATE_MONITOR(
-    'monitor_key',               -- Monitor key
-    'Table Row Count',           -- Name
-    'Monitor table row count',   -- Description
-    'row_count',                 -- Metric type
-    'your_database',             -- Database name
-    'your_schema',               -- Schema name
-    'your_table',                -- Table name
-    'daily',                     -- Schedule cadence
-    6,                           -- Schedule hour (UTC)
-    1,                           -- Schedule frequency
-    'manual',                    -- Thresholds method
-    1000,                        -- Max threshold
-    0,                           -- Min threshold
-    1                            -- Sensitivity
+    MONITOR_KEY => 'users_row_count',
+    NAME => 'Users Table Row Count',
+    METRIC_TYPE => 'row_count',
+    TABLE_CATALOG => 'your_database',
+    TABLE_SCHEMA => 'your_schema',
+    TABLE_NAME => 'your_table'
+);
+
+-- Column-based monitor with manual thresholds
+CALL SECODA_APP.MONITORING.CREATE_MONITOR(
+    MONITOR_KEY => 'users_max_age',
+    NAME => 'Users Maximum Age',
+    METRIC_TYPE => 'max',
+    TABLE_CATALOG => 'your_database',
+    TABLE_SCHEMA => 'your_schema',
+    TABLE_NAME => 'your_table',
+    COLUMN_NAME => 'age',
+    THRESHOLDS_METHOD => 'manual',
+    THRESHOLDS_MAX => 100,
+    THRESHOLDS_MIN => 20
+);
+
+-- Custom SQL monitor
+CALL SECODA_APP.MONITORING.CREATE_MONITOR(
+    MONITOR_KEY => 'active_users',
+    NAME => 'Count of Active Users',
+    METRIC_TYPE => 'custom_sql',
+    TABLE_CATALOG => 'your_database',
+    TABLE_SCHEMA => 'your_schema',
+    TABLE_NAME => 'your_table',
+    QUERY => 'SELECT COUNT(*) FROM your_database.your_schema.your_table WHERE is_active = TRUE'
+);
+
+-- Freshness monitor
+CALL SECODA_APP.MONITORING.CREATE_MONITOR(
+    MONITOR_KEY => 'data_freshness',
+    NAME => 'Data Freshness',
+    METRIC_TYPE => 'freshness',
+    TABLE_CATALOG => 'your_database',
+    TABLE_SCHEMA => 'your_schema',
+    TABLE_NAME => 'your_table',
+    COLUMN_NAME => 'last_updated'
 );
 ```
 
-### Running Monitors
+### Running and Managing Monitors
 
-To manually run a monitor:
+To run a specific monitor:
 
 ```sql
--- Run a specific monitor
 CALL SECODA_APP.MONITORING.RUN_MONITOR('monitor_key');
+```
 
--- View all monitors
-SELECT * FROM SECODA_APP.MONITORING.LIST_MONITORS();
+You can also manage your monitors:
+
+```sql
+-- Pause a monitor
+CALL SECODA_APP.MONITORING.PAUSE_MONITOR('monitor_key');
+
+-- Resume a monitor
+CALL SECODA_APP.MONITORING.RESUME_MONITOR('monitor_key');
+
+-- Update a monitor's thresholds
+CALL SECODA_APP.MONITORING.UPDATE_MONITOR(
+    MONITOR_KEY => 'monitor_key',
+    THRESHOLDS_METHOD => 'manual',
+    THRESHOLDS_MAX => 100
+);
+
+-- Clear all monitors
+CALL SECODA_APP.MONITORING.CLEAR_MONITORS();
 ```
 
 ## Catalog
 
-{% hint style="warning" %}
-The Catalog functionality will be available soon.
-{% endhint %}
+The Catalog feature automatically discovers and syncs metadata about all schemas, tables, and columns that the app has been granted access to. The catalog syncs automatically at 12 AM UTC daily. After the sync completes, it may take a few hours for the metadata to be available in Secoda.
 
-When available, the Catalog feature will allow you to automatically discover, explore, and document your Snowflake data assets directly through the Native App.
+### Manual Catalog Sync
+
+You can also manually trigger a catalog sync:
+
+1. Open the "MANAGE_CATALOG" Streamlit application
+2. Click "Push Catalog" to start the sync process
+3. Once complete, go to Secoda and open the integration page
+4. Click "Pull Metadata" to import the metadata into Secoda
+
+{% hint style="info" %}
+The catalog sync process takes approximately 1 hour for 200 tables and runs in a managed XSMALL warehouse.
+{% endhint %}
