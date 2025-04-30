@@ -95,10 +95,4 @@ description: See below for prompt examples to use in your workspace.
 19. What data-driven initiatives can be implemented to improve customer experience?
 20. Search for the metadata catalog that contains details about {insert specific topic, e.g., data quality rules}.
 
-### Here are some examples of Andrew using our AI!
-
-{% embed url="https://www.loom.com/share/6982dc8ec9df4c04bddba8bf52c1e666?sid=969f7b0b-60c5-4ee1-bcc0-e20a9d9d224e" %}
-Andrew from Secoda demonstrating how to use Secoda AI to write queries relevant to your workspace.
-{% endembed %}
-
 ### The prompts are endless! Let us know which ones you've found useful.

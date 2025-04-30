@@ -16,7 +16,7 @@ Secoda AI is powered by OpenAI and Anthropic's API. Workspace admins currently h
 
 Secoda's AI can help you with documentation, query building, institutional knowledge discovery.
 
-## **Enabling the Secoda AI**
+## **Enabling Secoda AI**
 
 By default, Secoda AI is disabled. To activate it:
 
@@ -26,7 +26,15 @@ By default, Secoda AI is disabled. To activate it:
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8efa4541-d0fa-4a06-bc40-9c7afb51683a.png" alt=""><figcaption><p>Toggle on AI</p></figcaption></figure>
 
-## **AI Settings for Admins**
+## **Charting**
+
+Secoda AI Charting enables users to create data visualizations through natural language prompts, making data insights accessible without requiring SQL or charting expertise.
+
+Secoda AI Charting allows users to describe the charts they want in plain English (e.g., "Show monthly revenue trends"). The system analyzes your data to suggest appropriate visualization types and provides contextual explanations of insights.Users can refine visualizations through conversational follow-ups to adjust chart types, add trendlines, or change grouping parameters.
+
+Simply navigate to the Secoda AI interface, ask a question involving data visualization, and request a chart based on SQL results. The feature integrates seamlessly with the SQL query functionality, allowing you to save both queries and their visualizations.For best results, be specific about metrics, dimensions, and time periods in your requests. The AI will guide you through creating the most effective visualization for your data story.
+
+## **AI Settings**
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
