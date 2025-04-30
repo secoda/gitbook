@@ -24,7 +24,7 @@ By default, Secoda AI is disabled. To activate it:
 2. Toggle on the Secoda AI.
 3. Once enabled, the Secoda AI will appear in the left-hand menu of your workspace.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8efa4541-d0fa-4a06-bc40-9c7afb51683a.png" alt=""><figcaption><p>Toggle on AI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **Charting**
 
@@ -38,18 +38,7 @@ Simply navigate to the Secoda AI interface, ask a question involving data visual
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ab0017ec-1f2a-4786-b58f-157e5a5b9a59.png" alt=""><figcaption><p>AI Settings</p></figcaption></figure>
-
-### **LLM**
-
-Secoda provides the option to choose between two LLMs in your [Secoda AI settings](https://app.secoda.co/settings/ai):
-
-1. **Anthropic Claude Sonnet 3.5**
-2. **OpenAI GPT 4o**
-
-Both models excel at different things so we encourage teams to experiment with the models to see which performs better for your use cases.
-
-<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Governance**
 
@@ -155,7 +144,7 @@ AI Memory can be enabled by workspace administrators through the AI settings pag
 * Look for the Personalization section
 * Click "Manage Memories" to view and manage stored memories
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Managing Memories**
 
