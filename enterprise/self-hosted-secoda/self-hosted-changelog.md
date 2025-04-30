@@ -6,6 +6,12 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.7 (April 30, 2025)
+
+* Secoda AI charts
+* Omni integration
+* New home page
+
 ### v2025.2.6 (April 23, 2025)
 
 * Fixed Elasticsearch environment variable
