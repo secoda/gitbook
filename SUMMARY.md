@@ -301,9 +301,9 @@
   * [Example Workflows](secoda-api/example-workflows.md)
   * [API Reference](secoda-api/api-reference/README.md)
     * ```yaml
-      type: builtin:openapi
       props:
         models: false
+      type: builtin:openapi
       dependencies:
         spec:
           ref:

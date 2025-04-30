@@ -1,18 +1,18 @@
 ---
 description: >-
-  This page will review the best ways to use the AI Assistant to get the most
-  effective results.
+  This page will review the best ways to use Secoda AI to get the most effective
+  results.
 ---
 
 # Secoda AI User Guide
 
-The Secoda AI Assistant enhances your ability to quickly find information and document resources within your workspace using a simple, chat-like interface. This guide will help you understand how to effectively use the AI Assistant both within the Secoda platform and in your everyday workflows.
+Secoda AI enhances your ability to quickly find information and document resources within your workspace using a simple, chat-like interface. This guide will help you understand how to effectively use the AI Assistant both within the Secoda platform and in your everyday workflows.
 
-## **How to Use the AI Assistant**
+## **How to Use Secoda AI**
 
-**1. Engaging with the AI Assistant:**
+**1. Engaging with Secoda AI:**
 
-* **Accessing:** Click into the AI Assistant window within the Secoda UI to start an interaction. You can also find the AI Assistant on all resource pages (see video below).
+* **Accessing:** Click into the Secoda AI window within the Secoda UI to start an interaction. You can also find the AI Assistant on all resource pages (see video below).
 * **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [prompts.md](prompts.md "mention") and [secoda-ai-use-cases.md](secoda-ai-use-cases.md "mention") to help you get started in understanding the power of this feature.
 * **Automating Documentation:** Use the AI to automatically generate descriptions for your metadata with just one click [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
 
@@ -27,7 +27,7 @@ The Secoda AI Assistant enhances your ability to quickly find information and do
 * **Slack Integration:** Connect the AI Assistant to your Slack workspace to streamline your data-related queries[#secoda-ai-slackbot](../../extensions/slack-connection/slack-user-guide.md#secoda-ai-slackbot "mention").
 * **Chrome Browser Extensions:** Use the Chrome extension to [#chat-with-secoda-ai](../../extensions/chrome-extension.md#chat-with-secoda-ai "mention") directly from other data tools like Tableau and Snowflake.
 
-## **Best Practices for Interacting with the AI Assistant**
+## **Best Practices for Interacting with Secoda AI**
 
 **1. Understand Data Query Capabilities**
 
