@@ -11,6 +11,7 @@ description: >-
 * Secoda AI charts
 * Omni integration
 * New home page
+* Fix for Power BI preview
 
 ### v2025.2.6 (April 23, 2025)
 
