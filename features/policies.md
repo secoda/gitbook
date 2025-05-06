@@ -67,7 +67,7 @@ Policy issues are flagged resources that do not meet the conditions defined in y
 ### Automations with Policies
 
 \
-[automations.md](automations.md "mention")in Secoda allow you to automatically remediate policy issues by updating metadata directly when certain conditions are met. When a policy is tied to metadata—such as classification, owner, or retention period—you can use automations to bring non-compliant resources back into alignment without manual intervention.
+[automations.md](automations.md "mention") in Secoda allow you to automatically remediate policy issues by updating metadata directly when certain conditions are met. When a policy is tied to metadata—such as classification, owner, or retention period—you can use automations to bring non-compliant resources back into alignment without manual intervention.
 
 When a policy is associated with structured metadata—such as classifications, owners, or descriptions—Secoda allows you to create an automation directly from the policy screen. This helps streamline setup by pre-filling relevant conditions and actions based on the policy definition.
 
