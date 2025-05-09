@@ -61,11 +61,7 @@ This section allows you to deselect any accounts that you do not want to contrib
 For any integration that syncs Tags, Owners, or Descriptions, this section allows you to choose where these properties are maintained. If they are maintained in Secoda, the fields will never be overwritten by a sync. If they are maintained in the integration, the fields will not be editable in Secoda.
 
 * **Import Descriptions from Integration**
-  * Even if the **Import Descriptions from Integration** setting  is toggled off, if there are no descriptions in Secoda, the descriptions will be imported from the source.&#x20;
-
-{% hint style="info" %}
-Regardless of the settings chosen, when a resource is synced with Secoda for the first time, all available metadata will be imported.
-{% endhint %}
+  * **Import Descriptions from Integration** setting must be explicitly toggled on to import descriptions into Secoda.
 
 #### Resource Management
 
@@ -77,5 +73,3 @@ This section offers several options. If a toggle is specific to a particular int
 #### Filtering
 
 In this section, you can use the filters to exclude resources (schemas, tables, columns) from extraction based on their title. Excluding resources based on other properties is not currently supported.
-
-{% embed url="https://www.loom.com/share/4d7f24d958464f95ae493d165da7bb0a?sid=5708cbf8-0635-46a7-9fc9-8da59f80e857" %}
