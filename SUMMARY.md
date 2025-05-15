@@ -185,6 +185,8 @@
       * [Great Expectations Metadata Extracted](integrations/data-quality-tools/great-expectations-integration/metadata-extracted.md)
     * [Monte Carlo](integrations/data-quality-tools/monte-carlo/README.md)
       * [Monte Carlo Metadata Extracted](integrations/data-quality-tools/monte-carlo/monte-carlo-metadata-extracted.md)
+    * [Soda](integrations/data-quality-tools/soda/README.md)
+      * [Soda Metadata Extracted](integrations/data-quality-tools/soda/soda-metadata-extracted.md)
   * [Data Lakes](integrations/data-lakes/README.md)
     * [Google Cloud Storage](integrations/data-lakes/google-cloud-storage/README.md)
       * [GCS Metadata Extracted](integrations/data-lakes/google-cloud-storage/gcs-metadata-extracted.md)
@@ -300,6 +302,16 @@
   * [Authentication](secoda-api/authentication.md)
   * [Example Workflows](secoda-api/example-workflows.md)
   * [API Reference](secoda-api/api-reference/README.md)
+    * ```yaml
+      props:
+        models: false
+      type: builtin:openapi
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
     * ```yaml
       props:
         models: false

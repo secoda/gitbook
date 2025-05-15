@@ -4,8 +4,24 @@ A data quality or data governance tool is software or a platform designed to ass
 
 Secoda currently integrates with the following Data Quality tools:
 
+{% content-ref url="cyera.md" %}
+[cyera.md](cyera.md)
+{% endcontent-ref %}
+
+{% content-ref url="dataplex/" %}
+[dataplex](dataplex/)
+{% endcontent-ref %}
+
 {% content-ref url="great-expectations-integration/" %}
 [great-expectations-integration](great-expectations-integration/)
+{% endcontent-ref %}
+
+{% content-ref url="monte-carlo/" %}
+[monte-carlo](monte-carlo/)
+{% endcontent-ref %}
+
+{% content-ref url="soda/" %}
+[soda](soda/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
