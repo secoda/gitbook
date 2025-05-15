@@ -14,7 +14,7 @@ Ensuring our customers feel safe and comfortable using this tool is a **top prio
 
 ### What data is sent to the LLM provider?
 
-The only data sent to the LLM provider is the metadata in your workspace. Metadata is defined as properties and documentation describing your resources, including Owners, Tags, Descriptions, Definitions, Popularity, Resource Names, and more. The data within the resource does not leave the workspace.
+The only data sent to the LLM provider by default is the metadata in your workspace. Metadata is defined as properties and documentation describing your resources, including Owners, Tags, Descriptions, Definitions, Popularity, Resource Names, and more. If the Secoda AI run SQL tool is turned on then a sample of the data is sent to the LLM provider to ensure correctness and resolve queries with errors.
 
 ### Is data shared between workspaces?
 
