@@ -4,6 +4,28 @@
 The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
 
+## 📊Secoda’s new AI charts and Snowflake Native App (v8.10.0)
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/dssmg53d/1502184127/cd19c67750f04ba73d24738fee6c/April.png?expires=1747346400&#x26;signature=b6b3118a1cfdfe39d7ff450140e7f86ed3c93c9d1e758979bd518db16acbc954&#x26;req=dSUnFMh2mYBdXvMW1HO4zauoaxCyUBkPZz%2F6ag5WsIf%2BJch%2FO3a1%2F2mW4RMR%0AQgVc%0A" alt=""><figcaption></figcaption></figure>
+
+Your central source for everything new this month is now live. Check out the full breakdown on our [April landing page](https://www.secoda.co/product-news/april-2025), including three major updates we’re excited to share:
+
+🚀 AI-generated charts: Ask a question, get a chart. Use Secoda’s AI chatbot to instantly create live, shareable visualizations — no SQL or extra tools needed.
+
+❄️ Snowflake Native App: Monitor data health and explore synced metadata directly inside Snowflake. A faster, easier way to govern your Snowflake environment.
+
+📊 Omni integration: Bring Omni dashboards, charts, and lineage into Secoda to make trusted BI more discoverable and connected across your stack.
+
+[Read more](https://www.secoda.co/product-news/april-2025)
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/dssmg53d/1498446211/4303ccc22fbcf70f2eb2c8a0dd9d/new-homepage.png?expires=1747346400&#x26;signature=7d8cc7b4ee46bd7d7ff5501fd991fdc34d67f1d5c19bf2083bf700aae5571c45&#x26;req=dSQuHs16m4NeWPMW1HO4zZh2OCU1dH7O0MOnCFNcVDRLzwdUNPqWKOn6wQfu%0Al2JZ%0A" alt=""><figcaption></figcaption></figure>
+
+### 🏠 Secoda homepage update: AI front and center <a href="#h_219c272670" id="h_219c272670"></a>
+
+We’ve updated the Secoda homepage to highlight AI as the gateway to better data experiences. Organizations that enable Secoda AI are seeing 3x higher retention rates, helping teams drive adoption and unlock deeper engagement.
+
+Read on to learn how customizing AI instructions, enabling memory, and setting filters can help you tailor Secoda AI to your team’s needs.
+
 ## Governance on autopilot: Ready-made policies you can trust (v8.7.0)
 
 March 31, 2025
