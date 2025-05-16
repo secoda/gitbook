@@ -59,7 +59,21 @@ Follow the directions below for your identity provider to setup the SCIM integra
 {% endtab %}
 {% endtabs %}
 
-### Group syncing
+### Okta Push Users and Groups
+
+When users are assigned to your Okta application they will receive an invitation email to join Secoda. These users will be populated in Secoda in an "Invited" state. You must filter by "Invited" to see these users.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-16 at 8.16.52 AM.png" alt=""><figcaption></figcaption></figure>
+
+When Groups are pushed, they will appear under the "Groups" tab on "Members and permissions". "Invited" users will not appear as a group member until the user activates their account by signing in for the first time.
+
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+
+## Advanced
+
+### SCIM Groups endpoint
 
 Secoda's SCIM integration also supports group syncing. From your side all you have to do is start pushing groups from your Identity provider to Secoda. These will then map one to one with [groups.md](../user-management/groups.md "mention") in Secoda.&#x20;
 
@@ -92,7 +106,7 @@ Authorization: Bearer {your_access_token}
 
 ```
 
-### Adding users
+### SCIM Users endpoint
 
 To add an active or disabled user using SCIM you can make a PUT request. Here is an example of how to use SCIM to add a user.
 
