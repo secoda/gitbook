@@ -53,8 +53,6 @@ Allow Secoda to read into your Microsoft SQL Server database using the [Secoda I
 
 ## Troubleshooting
 
-If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](../../security/connecting-via-ssh-tunnel.md).
+If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](https://docs.secoda.co/integrations/security/connecting-via-ssh-tunnel).
 
 Once a tunnel has been created, make sure to choose the SSH Tunnel in the drop down list when inputting your credentials for the integration.
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-04%20at%203.37.09%20PM.png)
