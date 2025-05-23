@@ -84,6 +84,10 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 For example, if you have 3 numeric columns selected, you can add a "MIN" or "MAX" monitor, but you cannot do it if even one string column is selected in the modal.
 {% endhint %}
 
+{% hint style="info" %}
+**Note:** The monitor status is `Pending` during the time it is queued to run for the first time.&#x20;
+{% endhint %}
+
 #### Custom SQL Monitors
 
 A user is be able to create a monitor that runs custom SQL to create an output. The only requirement is that the final output of the custom SQL must be a single value.
