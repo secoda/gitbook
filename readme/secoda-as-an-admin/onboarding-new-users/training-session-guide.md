@@ -56,7 +56,7 @@ Share your screen showing your Secoda workspace.
 #### AI Assistant
 
 * If users don't know exactly what they want to search for, show them that they can use the AI Assistant to search in plain language
-* Show a few examples of asking the AI some questions about your data: examples [prompts.md](../../../features/ai-assistant/prompts.md "mention")
+* Show a few examples of asking the AI some questions about your data: examples [Broken link](broken-reference "mention")
   * If your team is interested in documenting PII, you could ask it to find you all of the tables with potential PII data
 
 {% embed url="https://www.loom.com/share/6a802f20155d4a83bc2fa758f613d33a?sid=17bd2f81-83c4-49d5-b9e6-262d7f1a65d1" %}

@@ -181,8 +181,8 @@ For example, if you frequently work with specific databases or dashboards, the A
 [security.md](security.md)
 {% endcontent-ref %}
 
-{% content-ref url="prompts.md" %}
-[prompts.md](prompts.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 This guide ensures that Admins are equipped to optimize the AI Assistant within their Secoda environment, driving efficient and secure data operations across the organization.

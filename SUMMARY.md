@@ -271,7 +271,7 @@
     * [Secoda AI User Guide](features/ai-assistant/best-practices.md)
     * [Secoda AI Use Cases](features/ai-assistant/secoda-ai-use-cases.md)
     * [Secoda AI Security FAQs](features/ai-assistant/security.md)
-    * [Prompts](features/ai-assistant/prompts.md)
+    * [Secoda MCP Server](features/ai-assistant/secoda-mcp-server.md)
   * [Sharing](features/sharing-resources.md)
   * [Views](features/views.md)
 * [Enterprise](enterprise/README.md)

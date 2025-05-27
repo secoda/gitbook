@@ -16,7 +16,7 @@ Here are some helpful first steps with documentation links for new Viewers withi
 
 * [ ] **Explore Search Capabilities:** Dive into the product and [Search](../../features/search.md) for data you frequently use.
 * [ ] **Navigate the Catalog:** Watch a video on [Navigating the Catalog](../../features/catalog.md#navigating-the-catalog-video)
-* [ ] **Engage with AI Assistant:** Experiment with the AI Assistant. Check out these [prompts for suggestions](../../features/ai-assistant/prompts.md) and [tips to enhance your interactions](../../features/ai-assistant/best-practices.md).
+* [ ] **Engage with AI Assistant:** Experiment with the AI Assistant. Check out these [prompts for suggestions](broken-reference) and [tips to enhance your interactions](../../features/ai-assistant/best-practices.md).
 
 **Deepen Your Understanding:**
 
