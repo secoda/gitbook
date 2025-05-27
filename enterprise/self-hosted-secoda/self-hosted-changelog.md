@@ -6,6 +6,12 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.8 (May 26, 2025)
+
+* Secoda MCP Server
+* Sode Cloud Integration
+* SCIM v2 endpoint
+
 ### v2025.2.7 (April 30, 2025)
 
 * Secoda AI charts
