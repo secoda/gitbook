@@ -58,7 +58,7 @@ Here's how you can configure popular AI tools to work with Secoda's MCP server:
 
 1. Go to your settings at https://claude.ai/settings/profile
 2. Under the **Integrations** section click on **Add more**
-3. Use your Secoda MCP server URL: `https://[your-workspace].secoda.co/ai/mcp`
+3. Use your Secoda MCP server URL: `https://app.secoda.co/ai/mcp`
 4. Authenticate with your Secoda credentials when prompted
 
 **Free, Pro**
@@ -71,7 +71,7 @@ Here's how you can configure popular AI tools to work with Secoda's MCP server:
   "mcpServers": {
     "secoda": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://[your-workspace].secoda.co/ai/mcp"]
+      "args": ["-y", "mcp-remote", "https://app.secoda.co/ai/mcp"]
     }
   }
 }
@@ -89,7 +89,7 @@ Here's how you can configure popular AI tools to work with Secoda's MCP server:
   "mcpServers": {
     "secoda": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://[your-workspace].secoda.co/ai/mcp"]
+      "args": ["-y", "mcp-remote", "https://app.secoda.co/ai/mcp"]
     }
   }
 }
@@ -107,7 +107,7 @@ Here's how you can configure popular AI tools to work with Secoda's MCP server:
   "mcpServers": {
     "secoda": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://[your-workspace].secoda.co/ai/mcp"]
+      "args": ["-y", "mcp-remote", "https://app.secoda.co/ai/mcp"]
     }
   }
 }
@@ -117,7 +117,7 @@ Here's how you can configure popular AI tools to work with Secoda's MCP server:
 
 1. Hit `CMD/CTRL + Shift + P` and search for **> MCP: Add Server...**
 2. Select **Command (stdio)**
-3. Enter `npx mcp-remote https://[your-workspace].secoda.co/ai/mcp` as the command
+3. Enter `npx mcp-remote https://app.secoda.co/ai/mcp` as the command
 4. Enter `Secoda` as the Server ID
 5. Hit `CMD/CTRL + Shift + P` and search for **> MCP: List Servers**
 6. Start Secoda's MCP server
@@ -127,7 +127,7 @@ Here's how you can configure popular AI tools to work with Secoda's MCP server:
 Many other tools now support MCP servers. You can configure them to use Secoda's MCP server with the following settings:
 
 * **Command**: `npx`
-* **Arguments**: `-y mcp-remote https://[your-workspace].secoda.co/ai/mcp`
+* **Arguments**: `-y mcp-remote https://app.secoda.co/ai/mcp`
 * **Environment**: None
 
 ### Example Usage
