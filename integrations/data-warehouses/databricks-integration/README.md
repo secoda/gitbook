@@ -43,6 +43,10 @@ Enter in the following credentials:
 To ingest table and column level lineage using Databricks Unity Catalog, a Warehouse ID must be specified.
 {% endhint %}
 
+{% hint style="info" %}
+When setting up Databricks with Azure Service Principal and its access token for integration, the minimum permissions required must include everything under **Prerequisite** and **Read.**
+{% endhint %}
+
 After entering in the information into Secoda, click "Test Connection". After the connection is successful your can Submit and run the initial extraction.
 
 ### Whitelist Secoda IP Address
