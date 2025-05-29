@@ -4,7 +4,23 @@
 The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
 
+## 🔌Secoda MCP Server (v8.12.0)
+
+May 29, 2025
+
+⚡ Secoda AI runs on Claude Sonnet and Opus 4: Anthropic’s latest models deliver 30% faster response times, clearer formatting, and more consistent answers across use cases.
+
+🧠 Model Context Protocol (MCP): The new MCP Server lets agents like Claude and Cursor securely access real-time context — including lineage and documentation — directly from your catalog.
+
+📊 In-app feature analytics: Track adoption and impact across Secoda AI, Monitoring, Automations, and more with built-in dashboards available inside every feature.
+
+🚀 Customer spotlights: Learn how teams at Deezer, Miinto, and LichtBlick automated data quality, scaled governance, and embedded AI into their workflows with Secoda.
+
+[Read more](https://www.secoda.co/product-news/may-2025)
+
 ## 📊Secoda’s new AI charts and Snowflake Native App (v8.10.0)
+
+April 30, 2025
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/dssmg53d/1502184127/cd19c67750f04ba73d24738fee6c/April.png?expires=1747346400&#x26;signature=b6b3118a1cfdfe39d7ff450140e7f86ed3c93c9d1e758979bd518db16acbc954&#x26;req=dSUnFMh2mYBdXvMW1HO4zauoaxCyUBkPZz%2F6ag5WsIf%2BJch%2FO3a1%2F2mW4RMR%0AQgVc%0A" alt=""><figcaption></figcaption></figure>
 
