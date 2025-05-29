@@ -6,7 +6,7 @@ description: This page walks through connecting your data sources via a Reverse 
 
 ## **Getting Started**
 
-The Reverse SSH Tunnel is used securely connect local data sources without opening ports, while encrypting data in-transit.
+The Reverse SSH Tunnel is used securely connect local data sources without opening ports, while encrypting data in-transit. By default, this option supports multiple concurrent integration syncs.&#x20;
 
 ### **Setup**
 
@@ -91,10 +91,6 @@ On an integration credentials page, fill in the integration connection details. 
 Select the reverse tunnel you would like to use then click "Test connection".
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d634e6ca-a785-4ca4-87f9-211cf4958137.png" alt="" width="375"><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-By default reverse SSH tunnels support many concurrent integration syncs.
-{% endhint %}
 
 ### Troubleshooting
 

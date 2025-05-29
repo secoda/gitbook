@@ -16,10 +16,6 @@ There are three main steps to set up a tunnel:
 2. [Create a Tunnel in Secoda](https://app.secoda.co/tunnels/new) and add in the configuration details from the host (`SSH Username`, `SSH Hostname`, `Port`). Once you submit these details, a Public Key will be shown.
 3. Add the Public Key to the `authorized_keys` file in your host.
 
-{% hint style="info" %}
-To improve the number of concurrent connections using a single SSH tunnel please refer to [recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md](recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md "mention")
-{% endhint %}
-
 #### AWS
 
 * Create an EC2 instance from the AWS Management Console in a public subnet in the same VPC as the resource that you'd like to integrate with Secoda.
@@ -94,7 +90,10 @@ If you're having trouble establishing a connection with a standard tunnel, check
     * `~/.ssh/authorized_keys` file: `0600`
 
     **Note:** The permissions for `authorized_keys` should be `0600` (not `0644`) to maintain strict security compliance.
-4.  **Test Network Connectivity**\
+4.  **Concurrency**
+
+    To improve the number of concurrent connections using a single SSH tunnel please refer to [recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md](recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md "mention")
+5.  **Test Network Connectivity**\
     Verify that the Bastion host can connect to your data source. Replace `$data_source_host` and `$data_source_port` with the actual hostname and port of your data source.
 
     ```
