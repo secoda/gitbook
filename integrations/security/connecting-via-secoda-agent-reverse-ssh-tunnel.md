@@ -92,6 +92,10 @@ Select the reverse tunnel you would like to use then click "Test connection".
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d634e6ca-a785-4ca4-87f9-211cf4958137.png" alt="" width="375"><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+By default reverse SSH tunnels support many concurrent integration syncs.
+{% endhint %}
+
 ### Troubleshooting
 
 Upon running the agent, if the agent becomes stuck on the version number during the startup process, similar to:
