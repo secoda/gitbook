@@ -4,34 +4,90 @@ description: Take a look into the usage of your workspace
 
 # Analytics
 
-Admins and Editors have access to the Analytics dashboard which showcases how their Secoda workspace is being used. They also receive a weekly email that highlights the metrics in this analytics dashboard.
+Admins and Editors have access to the Analytics dashboard and overview pages which showcases how their Secoda workspace is being used. They also receive a weekly email that highlights the metrics in this analytics dashboard.
 
-Some metrics that are tracked include:
+## Feature Overview
 
-* Monthly, Weekly and Daily active users
-* Popular resources and searches
-* Top editors and viewers
-* Integration-specific: [Snowflake costs](../integrations/data-warehouses/snowflake-integration/snowflake-costs.md), dbt tests, dbt runs
+Secoda provides comprehensive overview pages for key features that give you insights into usage, performance, and health metrics. Each overview page includes interactive metric cards and time-series charts to help you monitor and understand your data operations.
 
-This feature is located above Settings in the left side panel.
+### Monitors Overview
+
+The Monitors Overview page provides a comprehensive view of your data monitoring health and incident management.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* **Normal**: Number of monitors currently passing their checks
+* **Failed**: Number of monitors that have failed their latest checks
+* **Open Incidents**: Count of active incidents requiring attention
+* **Acknowledged Incidents**: Count of incidents that have been acknowledged but not yet resolved
+
+***
+
+### Policies Overview
+
+The Policies Overview page helps you track data governance compliance and policy enforcement across your organization.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+* **OK**: Number of policies currently in compliance
+* **Needs Remediation**: Number of policies requiring attention or action
+
+***
+
+### Automations Overview
+
+The Automations Overview page provides insights into your automated data management processes and their effectiveness.
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+* **Automation Runs**: Total number of automation executions
+* **Tasks Automated**: Count of individual tasks completed through automation
+
+
+
+***
+
+### Access Requests Overview
+
+The Access Requests Overview page helps you manage and monitor data access workflows across your organization.
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+* **Open**: Number of pending access requests awaiting review
+* **Active**: Count of currently granted and active access permissions
+* **Denied**: Number of requests that have been rejected
+* **Closed**: Total of expired and cancelled requests
+
+***
+
+### Integrations Overview
+
+The Integrations Overview page provides visibility into your data source connections and synchronization health.
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+* **Completed Sync**: Number of integrations with successful recent synchronizations
+* **Failed Sync**: Count of integrations experiencing sync failures
+
+***
 
 ## Reports
 
 Create Reports to organize your Analytics widgets into separate themes. For example, you can have one Report that shows stats on your users, another on documentation, and another on Snowflake costs.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/897aaaf0-057b-472d-b73f-ba6545aa3129.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-## Filtering
+### Filtering
 
-You are able to filter on the widgets in the dashboard. In the gif below, you can see how to filter on "Popular resources" to show the most popular _charts_ for example!
+You are able to filter on the widgets in the dashboard. In the gif below, you can see how to filter on "Documented resources".
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/24b65dee-8b43-448c-89c7-a3b9602651ef.gif" alt=""><figcaption><p>Popular charts</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-## Identifying undocumented resources
+### Identifying undocumented resources
 
 Another important metric you can filter for here is **undocumented popular resources**. This would be an important metric to know about so that you can make sure to build out the documentation since your users are often visiting these resources.
 
-{% embed url="https://www.loom.com/share/96a0cdf5b99c4f0dba83f43c1dceb19d?sid=067c899c-c2fd-40ab-b0d8-35afbf1e36e6" %}
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Widgets
 
