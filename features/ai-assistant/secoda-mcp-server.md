@@ -48,120 +48,135 @@ The Secoda MCP server provides the following tools:
 
 ### Setting things up
 
-> **Connection issues**: MCP is still evolving. If you experience connection issues, try restarting your AI client or contact your Secoda administrator to verify MCP is enabled for your workspace.
+## Secoda MCP
 
-Here's how you can configure popular AI tools to work with Secoda's MCP server:
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 
-#### Claude.ai
+Secoda MCP is a custom server built with FastMCP that provides access to Secoda's data tools and functionalities.
 
-**Team, Enterprise**
+### Features
 
-1. Go to your settings at https://claude.ai/settings/profile
-2. Under the **Integrations** section click on **Add more**
-3. Use your Secoda MCP server URL: `https://app.secoda.co/ai/mcp`
-4. Authenticate with your Secoda credentials when prompted
+* Access to Secoda's data assets search
+* Access to documentation search
+* Ability to run SQL queries directly
+* Integration with Secoda's data catalog
+* Entity lineage visualization
+* Glossary term retrieval
 
-**Free, Pro**
+### Getting Started
 
-1. Open the file `~/Library/Application Support/Claude/claude_desktop_config.json`
-2. Add the following and restart the Claude desktop app:
+#### Prerequisites
+
+* Python 3.8 or higher
+* Access to Secoda's API
+* API token for authentication with the Secoda API (can be generated at https://app.secoda.co/settings/api if you're an admin)
+
+#### Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/secoda/secoda-mcp.git
+    cd secoda-mcp
+    ```
+2.  Install dependencies:
+
+    ```bash
+    # Install runtime dependencies
+    python -m pip install -r requirements.txt
+    ```
+
+#### Environment Variables
+
+| Variable    | Description                           | Default                       |
+| ----------- | ------------------------------------- | ----------------------------- |
+| `API_TOKEN` | Required token for API authentication | None (Required)               |
+| `API_URL`   | URL of the Secoda API endpoint        | https://app.secoda.co/api/v1/ |
+
+#### Instance URL Note
+
+If you're using a regional instance or self-hosted deployment of Secoda, replace `app.secoda.co` with your specific instance URL:
+
+* EU region: `eu.secoda.co`
+* APAC region: `apac.secoda.co`
+* Self-hosted: Your custom domain (e.g., `secoda.yourcompany.com`)
+
+### Integration with Tools
+
+#### Using with Cursor
+
+To integrate Secoda MCP with Cursor, add the following configuration to your `~/.cursor/mcp.json` file:
 
 ```json
 {
-  "mcpServers": {
-    "secoda": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://app.secoda.co/ai/mcp"]
+    "mcpServers": {
+        "secoda-mcp": {
+            "command": "python",
+            "args": [
+                "/path/to/secoda-mcp/server.py"
+            ],
+            "env": {
+                "API_TOKEN": "your-api-token",
+                "API_URL": "https://app.secoda.co/api/v1/"
+            }
+        }
     }
-  }
 }
 ```
 
-#### Cursor
+Replace `/path/to/secoda-mcp/server.py` with the actual path to your server.py file, set your API token, and update the API\_URL with your Secoda instance URL if not using app.secoda.co.
 
-1. Open Cursor Settings (`CMD/CTRL + Shift + J`)
-2. Go to the **MCP** section
-3. Click on **Add new global MCP server**
-4. Add the following configuration:
+#### Using with Claude
+
+To integrate Secoda MCP with Claude Desktop, add the following to your Claude Desktop configuration file:
+
+**macOS: \~/Library/Application Support/Claude/claude\_desktop\_config.json**
+
+**Windows: %APPDATA%\Claude\claude\_desktop\_config.json**
 
 ```json
 {
-  "mcpServers": {
-    "secoda": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://app.secoda.co/ai/mcp"]
+    "mcpServers": {
+        "secoda-mcp": {
+            "command": "python",
+            "args": [
+                "/path/to/secoda-mcp/server.py"
+            ],
+            "env": {
+                "API_TOKEN": "your-api-token",
+                "API_URL": "https://app.secoda.co/api/v1/"
+            }
+        }
     }
-  }
 }
 ```
 
-#### Windsurf
+Replace `/path/to/secoda-mcp/server.py` with the actual path to your server.py file, set your API token, and update the API\_URL with your specific Secoda instance URL if not using app.secoda.co. To access the Claude Desktop configuration file, open the Claude menu, go to "Settings", click on "Developer" in the left-hand bar, and then click on "Edit Config".
 
-1. Open Windsurf settings (`CMD/CTRL + ,`)
-2. Go to the **Cascade** section
-3. Press the **Add Server** button then **Add custom server**
-4. Add the following configuration:
+After updating the configuration, restart Claude Desktop to apply the changes.
 
-```json
-{
-  "mcpServers": {
-    "secoda": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://app.secoda.co/ai/mcp"]
-    }
-  }
-}
-```
+#### Using with Other Tools
 
-#### VS Code
+Secoda MCP can be integrated with various other tools:
 
-1. Hit `CMD/CTRL + Shift + P` and search for **> MCP: Add Server...**
-2. Select **Command (stdio)**
-3. Enter `npx mcp-remote https://app.secoda.co/ai/mcp` as the command
-4. Enter `Secoda` as the Server ID
-5. Hit `CMD/CTRL + Shift + P` and search for **> MCP: List Servers**
-6. Start Secoda's MCP server
+* **VS Code**: Use the VS Code extension for MCP servers
+* **JetBrains IDEs**: Install the MCP plugin from the marketplace
+* **Command Line**: Access MCP functionalities directly via the CLI
+* **Web Applications**: Embed MCP capabilities in web apps through the REST API
 
-#### Others
+### Troubleshooting
 
-Many other tools now support MCP servers. You can configure them to use Secoda's MCP server with the following settings:
+* If you encounter connection issues, ensure Secoda's API is running at the configured URL
+* If you get authorization errors, verify your API token is correct and properly set as an environment variable
+* For permission errors, check your authentication settings in your Secoda account
 
-* **Command**: `npx`
-* **Arguments**: `-y mcp-remote https://app.secoda.co/ai/mcp`
-* **Environment**: None
+### License
 
-### Example Usage
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Once connected, you can interact with your Secoda data through natural language:
+### Security
 
-**Data Discovery**
-
-* "Find all tables related to customer data"
-* "Show me the schema for the sales\_summary table"
-* "What dashboards use revenue metrics?"
-
-**SQL Queries**
-
-* "Show me total sales for the last quarter"
-* "What's the average order value by region?"
-* "Count active users in the past 30 days"
-
-**Data Lineage**
-
-* "What feeds into the customer\_metrics table?"
-* "What would be affected if I change the orders table?"
-* "Show me the lineage for the revenue calculation"
-
-**Business Context**
-
-* "What does 'Monthly Recurring Revenue' mean in our glossary?"
-* "Find documentation about our data quality processes"
-* "What's the definition of an active user?"
-
-### Prerequisites
-
-* A Secoda workspace with AI features enabled
-* An MCP-compatible AI assistant, e.g., Claude
+If you discover any security related issues, please email security@secoda.co instead of using the issue tracker.
 
 ### FAQ
 
