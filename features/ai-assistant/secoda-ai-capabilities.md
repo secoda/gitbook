@@ -1,5 +1,5 @@
 ---
-description: What Secoda AI has access to answer questions about.
+description: What Secoda AI has access to answer questions about
 ---
 
 # Secoda AI Capabilities
