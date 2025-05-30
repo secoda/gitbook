@@ -9,7 +9,7 @@ description: >-
 By leveraging Secoda, data teams can automate manual and repetitive tasks which would improve these processes in terms of efficiency. This page provides some common solutions for leveraging Secoda's features to save time.
 
 {% hint style="info" %}
-Note: When making edits to descriptions in Secoda, ensure that you have the [integration's permissions set ](../integrations/integration-settings.md#permissions)so that descriptions made in Secoda persist.&#x20;
+Note: When making edits to descriptions in Secoda, ensure that you have the [integration's permissions set ](../integrations/integration-settings.md#permissions)so that descriptions made in Secoda persist.
 {% endhint %}
 
 ## Automate enrichment within Secoda
@@ -20,7 +20,7 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 * The AI Assistant is available in the sidebar on each resource in your workspace. Simply ask it to write up documentation on a resource that you're clicked into to generate rich documentation in just seconds. Check out the video resource here: [#how-to-use-the-ai-assistant](../features/ai-assistant/best-practices.md#how-to-use-the-ai-assistant "mention").
 * The [ai-description-editor.md](../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention") can similarly be used to generate descriptions of your resources with just one click. This can be done on the Catalog resources, Dictionary metrics and Collections.
 
-&#x20;[automations.md](../features/automations.md "mention")
+[automations.md](../features/automations.md "mention")
 
 * Define rules once for updating documentation, and have these automatically updated on a set cadence
 * Automations can make updates to tags, descriptions, owners as well as help organize your workspace by moving resources to specific Teams or Collections, for example
@@ -51,7 +51,7 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 * With the Slack integration, you have the ability to ask the AI Assistant questions in Slack, get a response, and then automatically push those answers into your workspace.
 * This means less redundancy with answering questions and additional documentation in the product.
 
-[secoda-api.md](../secoda-api.md "mention")
+[Broken link](broken-reference "mention")
 
 * Use Secoda's APIs to bulk edit the name, descriptions, and tags on your resources.
 * Automatic PII detection through the API can identify resources that need to be more governed for auditing purposes
@@ -62,7 +62,5 @@ Note: When making edits to descriptions in Secoda, ensure that you have the [int
 If you'd like to identify which resources have not been documented yet, you can do so by following these steps to [#search-within-the-catalog](../features/search.md#search-within-the-catalog "mention").
 
 If you'd like to be notified of changes that may result in a need for updated documentation, you can subscribe to schema change notifications for those particular resources. Set those up here[#h\_3a4bfd6458](../features/notifications.md#h_3a4bfd6458 "mention").
-
-
 
 **Try out our** [**ROI Calculator**](https://www.secoda.co/data-discovery-roi-calculator) **to estimate how much money your team could save by automating tasks with Secoda.**

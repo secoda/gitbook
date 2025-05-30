@@ -12,7 +12,7 @@ Enterprise plan subscribers with SAML SSO enabled can opt to enable SCIM for the
 
 To configure SCIM, you'll need to add a Token and URL to your SCIM provider.
 
-The SCIM token is the [API access token](../secoda-api/authentication.md#step-1-create-an-api-key). As an Admin, you can generate one by navigating to Settings > API.
+The SCIM token is the [API access token](broken-reference). As an Admin, you can generate one by navigating to Settings > API.
 
 {% hint style="info" %}
 Your SCIM URL may be under a custom domain at https://\<CUSTOM>/api/v2/scim/

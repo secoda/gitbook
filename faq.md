@@ -30,7 +30,7 @@ After your data is connected to Secoda, you'll be able to add users, owners, des
 
 As an editor in Secoda, we provide you with an [analytics](features/analytics-dashboard.md) dashboard to see how people are using Secoda in your company. Beyond that, you can also look at queries, joins, lineage and popularity of datasets in Secoda.
 
-You can also use our [API](secoda-api.md) to visualize any information from Secoda in a BI tool.
+You can also use our [API](broken-reference) to visualize any information from Secoda in a BI tool.
 
 ## How is the popularity calculated?
 
