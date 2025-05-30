@@ -297,32 +297,6 @@
     * [Self-Hosted Changelog](enterprise/self-hosted-secoda/self-hosted-changelog.md)
   * [SIEM](enterprise/siem/README.md)
     * [Google Chronicle](enterprise/siem/google-chronicle.md)
-* [API](secoda-api.md)
-  * [Get Started](secoda-api/get-started.md)
-  * [Authentication](secoda-api/authentication.md)
-  * [Example Workflows](secoda-api/example-workflows.md)
-  * [API Reference](secoda-api/api-reference/README.md)
-    * ```yaml
-      props:
-        models: false
-      type: builtin:openapi
-      dependencies:
-        spec:
-          ref:
-            kind: openapi
-            spec: secoda-api
-      ```
-    * ```yaml
-      props:
-        models: false
-      type: builtin:openapi
-      dependencies:
-        spec:
-          ref:
-            kind: openapi
-            spec: secoda-api
-      ```
-  * [Secoda AI API](secoda-api/secoda-ai-api.md)
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
   * [Terms of Use](policies/terms-of-use.md)

@@ -22,7 +22,7 @@ To access Settings, click on the workspace name in the top left of the UI, and s
 The following settings are configurable only by Admins:
 
 * **General**: Add a workspace logo, edit the workspace name, view the current version of your workspace, and delete the workspace if needed.
-* **Catalog:** Set a default view for the catalogs across your workspace. Choose which properties to show, and in what order.&#x20;
+* **Catalog:** Set a default view for the catalogs across your workspace. Choose which properties to show, and in what order.
 * **Security**: Add additional email domains allowed to sign up for the workspace and set up SSO. Read more: [sign-in-options.md](sign-in-options.md "mention").
 * **Appearance**: Configure resource pages to be full-width and hide the '?' help and feedback button from viewers and guests.
 * **Members**: Manage workspace members and groups. Read more: [invite-teammates](../../getting-started/secoda-as-an-admin/invite-teammates/ "mention").
@@ -31,6 +31,6 @@ The following settings are configurable only by Admins:
 * **Import & Export**: Bulk import and export metadata. Read more: [import-and-export-data.md](../../resource-and-metadata-management/import-and-export-data.md "mention").
 * **Publishing**: Configure your publishing settings. Read more [publishing.md](../../getting-started/secoda-as-an-admin/add-documentation/publishing.md "mention").
 * **Billing**: View billing settings and plan details.
-* **API**: Access API documentation and view the history of API keys used. Read more:  [secoda-api.md](../../secoda-api.md "mention").
+* **API**: Access API documentation and view the history of API keys used. Read more: [Broken link](broken-reference "mention").
 * **Tags**: Create and manage tags to categorize your data resources. Read more: [tags](../../resource-and-metadata-management/tags/ "mention").
 * **Audit Log**: View all historical activity in the workspace. Read more: [#audit-log](../../getting-started/secoda-as-an-admin/add-documentation/publishing.md#audit-log "mention").

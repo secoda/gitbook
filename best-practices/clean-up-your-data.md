@@ -21,12 +21,12 @@ Make sure you check the [lineage graph](../features/data-lineage.md) in Secoda b
 
 ### Access [popularity.md](../features/popularity.md "mention") metadata
 
-* Utilize the Popularity metadata to determine which data resources are least accessed.&#x20;
+* Utilize the Popularity metadata to determine which data resources are least accessed.
 * Sorting the Catalog by Popularity helps identify candidates for deprecation based on minimal views or queries.
 
 ### [automations.md](../features/automations.md "mention") to identify stale assets
 
-* Set up Automations to tag resources that haven’t been accessed or updated within a specific timeframe as "Stale" or "Candidates for Deprecation."&#x20;
+* Set up Automations to tag resources that haven’t been accessed or updated within a specific timeframe as "Stale" or "Candidates for Deprecation."
 * Consider adding a property to the Automation to push these to a private Team or specific Collection, if that's helpful for review purposes.
 * Then, filter the Catalog by these tags to manage these resources efficiently!
 
@@ -34,19 +34,18 @@ Make sure you check the [lineage graph](../features/data-lineage.md) in Secoda b
 
 ### [monitoring-use-cases.md](../features/monitoring/monitoring-use-cases.md "mention")
 
-* Implement Cardinality or Unique Percentage Monitors on essential data resources.&#x20;
+* Implement Cardinality or Unique Percentage Monitors on essential data resources.
 * Alerts from these monitors can indicate duplicates or other data quality issues, prompting cleanup actions.
 
 {% hint style="info" %}
-[Secoda’s API](../secoda-api.md) extends the functionality of the above features, enabling programmatic management of data cleanup tasks. If you require assistance with the API, the [Secoda Community Slack](https://via.intercom.io/c?url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fsecodacommunity%2Fshared\_invite%2Fzt-mhnu278g-FktKZmZ51SDQtlu3NRAxqg\&h=13f5aaa171821956434fc25f4c759a803f98a84f-dssmg53d\_11:24933\&l=d215b12164c764d92e3bca464c2434cae72f7a22-8270396) is available for support.
+[Secoda’s API](broken-reference) extends the functionality of the above features, enabling programmatic management of data cleanup tasks. If you require assistance with the API, the [Secoda Community Slack](https://via.intercom.io/c?url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fsecodacommunity%2Fshared_invite%2Fzt-mhnu278g-FktKZmZ51SDQtlu3NRAxqg\&h=13f5aaa171821956434fc25f4c759a803f98a84f-dssmg53d_11:24933\&l=d215b12164c764d92e3bca464c2434cae72f7a22-8270396) is available for support.
 {% endhint %}
 
 ## Cost containment resources
 
-* Articles:&#x20;
+* Articles:
   * [Data Stack Cost Management Best Practices | Secoda](https://www.secoda.co/blog/managing-costs-of-the-modern-data-stack-at-scale)
   * [How To Increase the ROI of Your Data Team | Secoda](https://www.secoda.co/blog/from-cost-center-to-revenue-generator-unleashing-the-potential-of-data-teams)
   * [4 ways to improve data quality | Secoda](https://www.secoda.co/blog/4-ways-to-improve-data-quality)
 * Webinar: [Mastering cost containment for modern data teams](https://www.youtube.com/watch?v=1R8y8LZRJCU)
 * [snowflake-costs.md](../integrations/data-warehouses/snowflake-integration/snowflake-costs.md "mention")
-

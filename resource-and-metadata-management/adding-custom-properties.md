@@ -10,14 +10,14 @@ Custom properties allow you to enrich the metadata of your resources within Seco
 
 ## (New) Adding Custom Properties to the catalog
 
-To add a custom property to all resources by resource type, you can follow these steps.&#x20;
+To add a custom property to all resources by resource type, you can follow these steps.
 
 1. Go to Settings > Properties.
-2. Click the "Create property" button.&#x20;
+2. Click the "Create property" button.
 3. Select the label, type, and resource types that you'd like the property to be applied to.
 4. Review your property and click "Confirm".
 
-After this is completed, the custom property will appear up in the Catalog table and the pages for the visibility type(s) selected.&#x20;
+After this is completed, the custom property will appear up in the Catalog table and the pages for the visibility type(s) selected.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2ed01729-ee98-45cf-91af-ff535b112638.gif" alt=""><figcaption></figcaption></figure>
 
@@ -33,8 +33,8 @@ To efficiently update custom properties to multiple resources you can use the **
 
 2. **Use the API:** Create a custom script to update the custom properties.
 
-{% content-ref url="../secoda-api.md" %}
-[secoda-api.md](../secoda-api.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ***
@@ -55,11 +55,7 @@ This feature is considered **legacy**, and we recommend adding custom properties
 
 ***
 
-
-
 By following these instructions, you can tailor the metadata within your Secoda environment to meet your specific organizational needs, enhancing both the utility and accessibility of your data resources.
-
-
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈
