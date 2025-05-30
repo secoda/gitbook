@@ -8,10 +8,8 @@ Secoda currently integrates with the following Data Transformation tools:
 [README (1).md](<dbt/README (1).md>)
 {% endcontent-ref %}
 
-* Cloud & Core
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="dbt-core/" %}
+[dbt-core](dbt-core/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
