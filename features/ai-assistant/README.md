@@ -5,14 +5,14 @@ description: This page will go over the Secoda AI functionality.
 # Secoda AI
 
 {% hint style="info" %}
-"LLM provider" refers to OpenAI or Anthropic. Workspace admins can choose which provider they use in their AI settings.
+"LLM provider" refers to OpenAI or Anthropic.
 {% endhint %}
 
 ## Overview
 
 The Secoda Secoda AI enhances your data stack by providing a powerful chat interface that allows anyone in your organization to retrieve data insights.
 
-Secoda AI is powered by OpenAI and Anthropic's API. Workspace admins currently have the choice of using OpenAI's GPT-4o model or Anthropic's Claude Sonnet 3.5 model. Read more about Secoda AI's security posture in our [security.md](security.md "mention").
+Secoda AI is powered by Anthropic's Claude Sonnet 4 and Opus 4 models. Read more about Secoda AI's security posture in our [security.md](security.md "mention").
 
 Secoda's AI can help you with documentation, query building, institutional knowledge discovery.
 

@@ -13,7 +13,7 @@ Secoda AI enhances your ability to quickly find information and document resourc
 **1. Engaging with Secoda AI:**
 
 * **Accessing:** Click into the Secoda AI window within the Secoda UI to start an interaction. You can also find the AI Assistant on all resource pages (see video below).
-* **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [Broken link](broken-reference "mention") and [secoda-ai-use-cases.md](secoda-ai-use-cases.md "mention") to help you get started in understanding the power of this feature.
+* **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [secoda-ai-use-cases.md](secoda-ai-use-cases.md "mention") to help you get started in understanding the power of this feature.
 * **Automating Documentation:** Use the AI to automatically generate descriptions for your metadata with just one click [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
 
 {% embed url="https://www.loom.com/share/473aad77e80c41caa8e252f7ac2d568b?sid=b0657b9d-6f0f-419c-9719-259bda14ebaa" %}
@@ -53,7 +53,7 @@ When you know the exact resource you're inquiring about, use the `@` symbol foll
 
 Use the <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44d@2x.png" alt=":+1:" data-size="line"> and <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f44e@2x.png" alt=":-1:" data-size="line"> buttons to provide feedback on the AI Assistant's responses. This helps it learn and improve its accuracy. For instance, if it references the incorrect table, you can correct it, guiding its future responses.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98a13872-27b5-4f05-9762-2d3e3afa752e.png" alt=""><figcaption><p>Provide feedback to improve the AI</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98a13872-27b5-4f05-9762-2d3e3afa752e.png" alt="" width="375"><figcaption><p>Provide feedback to improve the AI</p></figcaption></figure>
 
 **4. Keep It Fresh**
 
