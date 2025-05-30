@@ -6,7 +6,7 @@ The Audit Log provides a comprehensive timeline of all activities and changes ma
 
 The Audit Log captures various types of activities including: resource updates, permission changes, documentation updates, role assignments, among other activities.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Accessing the Audit Log
 
