@@ -1,0 +1,183 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Secoda Documentation",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#9563FF",
+    "light": "#AE87FF",
+    "dark": "#7839EE"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@secoda.co"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Sign Up",
+    "url": "https://app.secoda.co/"
+  },
+  "tabs": [
+    {
+      "name": "Getting Started",
+      "url": "getting-started"
+    },
+    {
+      "name": "Best Practices",
+      "url": "best-practices"
+    },
+    {
+      "name": "Integrations",
+      "url": "integrations"
+    },
+    {
+      "name": "Features",
+      "url": "features"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "getting-started/secoda-as-an-admin",
+        "getting-started/secoda-as-an-editor",
+        "getting-started/secoda-as-a-viewer"
+      ]
+    },
+    {
+      "group": "Admin Setup",
+      "pages": [
+        "getting-started/secoda-as-an-admin/connect-your-data",
+        "getting-started/secoda-as-an-admin/invite-teammates",
+        "getting-started/secoda-as-an-admin/populate-questions-with-faqs"
+      ]
+    },
+    {
+      "group": "Best Practices",
+      "pages": [
+        "best-practices/best-practices-for-setting-up-your-workspace",
+        "best-practices/integrating-secoda-into-existing-workflows",
+        "best-practices/documentation-best-practices",
+        "best-practices/dictionary-best-practices",
+        "best-practices/data-governance",
+        "best-practices/data-quality",
+        "best-practices/clean-up-your-data"
+      ]
+    },
+    {
+      "group": "Resource Management",
+      "pages": [
+        "resource-and-metadata-management/add-documentation",
+        "resource-and-metadata-management/resource-sidebar",
+        "resource-and-metadata-management/assigning-owners",
+        "resource-and-metadata-management/adding-custom-properties",
+        "resource-and-metadata-management/tags",
+        "resource-and-metadata-management/import-and-export-data",
+        "resource-and-metadata-management/relating-resources"
+      ]
+    },
+    {
+      "group": "User Management",
+      "pages": [
+        "user-management/roles",
+        "user-management/teams",
+        "user-management/groups"
+      ]
+    },
+    {
+      "group": "Data Warehouses",
+      "pages": [
+        "integrations/data-warehouses/bigquery-integration",
+        "integrations/data-warehouses/databricks-integration",
+        "integrations/data-warehouses/redshift-integration",
+        "integrations/data-warehouses/snowflake-integration",
+        "integrations/data-warehouses/apache-hive",
+        "integrations/data-warehouses/azure-synapse",
+        "integrations/data-warehouses/motherduck",
+        "integrations/data-warehouses/clickhouse"
+      ]
+    },
+    {
+      "group": "Databases",
+      "pages": [
+        "integrations/databases/druid",
+        "integrations/databases/mysql-integration",
+        "integrations/databases/microsoft-sql-server",
+        "integrations/databases/oracle-integration",
+        "integrations/databases/salesforce-integration",
+        "integrations/databases/postgres-integration",
+        "integrations/databases/mongodb",
+        "integrations/databases/azure-cosmos-db"
+      ]
+    },
+    {
+      "group": "Data Visualization Tools",
+      "pages": [
+        "integrations/data-visualization-tools/amplitude-integration",
+        "integrations/data-visualization-tools/looker-integration",
+        "integrations/data-visualization-tools/google-data-studio",
+        "integrations/data-visualization-tools/metabase",
+        "integrations/data-visualization-tools/mixpanel",
+        "integrations/data-visualization-tools/mode",
+        "integrations/data-visualization-tools/power-bi",
+        "integrations/data-visualization-tools/quicksight-integration",
+        "integrations/data-visualization-tools/tableau-integration"
+      ]
+    },
+    {
+      "group": "Data Pipeline Tools",
+      "pages": [
+        "integrations/data-pipeline-tools/airflow",
+        "integrations/data-pipeline-tools/dagster",
+        "integrations/data-pipeline-tools/fivetran-integration",
+        "integrations/data-pipeline-tools/aws-glue-integration",
+        "integrations/data-pipeline-tools/apache-kafka",
+        "integrations/data-pipeline-tools/confluent-cloud"
+      ]
+    },
+    {
+      "group": "Data Transformation Tools",
+      "pages": [
+        "integrations/data-transformation-tools/dbt",
+        "integrations/data-transformation-tools/dbt-core",
+        "integrations/data-transformation-tools/coalesce"
+      ]
+    },
+    {
+      "group": "Data Quality Tools",
+      "pages": [
+        "integrations/data-quality-tools/cyera",
+        "integrations/data-quality-tools/dataplex",
+        "integrations/data-quality-tools/great-expectations-integration",
+        "integrations/data-quality-tools/monte-carlo",
+        "integrations/data-quality-tools/soda"
+      ]
+    },
+    {
+      "group": "Enterprise & Security",
+      "pages": ["saml", "policies", "self-hosted-secoda", "enterprise"]
+    },
+    {
+      "group": "Additional Resources",
+      "pages": ["faq", "changelog"]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://secoda.co",
+    "twitter": "https://twitter.com/secoda_co",
+    "linkedin": "https://www.linkedin.com/company/secoda/"
+  },
+  "search": {
+    "prompt": "Search Secoda documentation..."
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  }
+}
