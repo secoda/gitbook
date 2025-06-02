@@ -28,6 +28,29 @@ To have query history and popularity you must provide admin privileges to the to
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(12\)%20\(1\).png)
 
+### Grant Secoda Access
+
+For each warehouse you plan to connect to Secoda, the credentials must have `Can monitor` permissions (set via `SQL Warehouses > [My Warehouse] > Permissions`).&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption><p>More information on what this grants <a href="https://docs.databricks.com/aws/en/security/auth/access-control#sql-warehouses">can be found here</a></p></figcaption></figure>
+
+{% hint style="info" %}
+`Can use` can be selected but will not allow for any warehouse-level query history to be accessed.
+{% endhint %}
+
+{% hint style="warning" %}
+`Can view` does not provide sufficent permssions
+{% endhint %}
+
+For each catalog you want to connect to Secoda, the credentials must have the following permissions:
+
+* `USE_CATALOG`
+* `USE_SCHEMA`
+* `BROWSE`
+* `SELECT`
+
+<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+
 ### Connect Databricks to Secoda
 
 Go to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and select the Databricks integration.
@@ -41,10 +64,6 @@ Enter in the following credentials:
 
 {% hint style="info" %}
 To ingest table and column level lineage using Databricks Unity Catalog, a Warehouse ID must be specified.
-{% endhint %}
-
-{% hint style="info" %}
-When setting up Databricks with Azure Service Principal and its access token for integration, the minimum permissions required must include everything under **Prerequisite** and **Read.**
 {% endhint %}
 
 After entering in the information into Secoda, click "Test Connection". After the connection is successful your can Submit and run the initial extraction.
