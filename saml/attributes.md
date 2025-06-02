@@ -63,15 +63,15 @@ The following SAML attributes are supported for automatic user management:
    * Maps to the `User` model role
    * Stored in the `_role` property on `User`
    * Example: `"admin"`, `"editor"`, `"viewer"`
-
 2. `secodaGroupMembership` (comma-separated list)
    * Maps to `Group` model membership
    * Users will be automatically added to groups with matching names
+   * **Users will be removed from groups that are not contained in the attribute**
    * Example: `"Data Engineers,Analysts"`
-
 3. `secodaTeamMembership` (comma-separated list)
    * Maps to `Team` model membership
    * Users will be automatically added to teams with matching names
+   * **Users will be removed from teams that are not contained in the attribute**
    * Example: `"Engineering,Product"`
 
 {% hint style="info" %}
