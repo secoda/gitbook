@@ -298,6 +298,17 @@
     * [Self-Hosted Changelog](enterprise/self-hosted-secoda/self-hosted-changelog.md)
   * [SIEM](enterprise/siem/README.md)
     * [Google Chronicle](enterprise/siem/google-chronicle.md)
+* [API](api/README.md)
+  * ```yaml
+    type: builtin:openapi
+    props:
+      models: true
+    dependencies:
+      spec:
+        ref:
+          kind: openapi
+          spec: secoda-api
+    ```
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
   * [Terms of Use](policies/terms-of-use.md)
