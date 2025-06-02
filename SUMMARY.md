@@ -177,6 +177,8 @@
         * [dbt Core Metadata Extracted](integrations/data-transformation-tools/dbt-core/metadata-extracted.md)
     * [Coalesce](integrations/data-transformation-tools/coalesce/README.md)
       * [Coalesce Metadata Extracted](integrations/data-transformation-tools/coalesce/coalesce-metadata-extracted.md)
+    * [Dataform](integrations/data-transformation-tools/dataform/README.md)
+      * [Dataform Metadata Extracted](integrations/data-transformation-tools/dataform/dataform-metadata-extracted.md)
   * [Data Quality Tools](integrations/data-quality-tools/README.md)
     * [Cyera](integrations/data-quality-tools/cyera.md)
     * [Dataplex](integrations/data-quality-tools/dataplex/README.md)
