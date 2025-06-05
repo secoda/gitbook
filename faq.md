@@ -74,7 +74,7 @@ Secoda backs up all metadata every 5 minutes. This data is retained for 24 month
 
 ## When will you support \_\_\_\_ integration?
 
-There's a good chance we're already working on it! In order to support as many popular tools as possible, we are working on it diligently. If you need something that we do not support yet, create a request at [https://feedback.secoda.co/](https://feedback.secoda.co/).&#x20;
+There's a good chance we're already working on it! In order to support as many popular tools as possible, we are working on it diligently. If you need something that we do not support yet, create a request by reaching out to us over support@secoda.co.&#x20;
 
 ## Can I give feedback about Secoda?
 
