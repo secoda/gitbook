@@ -61,3 +61,8 @@ Access Requests will be support the following platforms during the Beta period:
 * Data Access Governance: Ensure that only authorized users can access sensitive data and that access is tracked and time-bound.
 * Streamlined Collaboration: Simplify the process of granting access to analysts, data scientists, or other team members needing data for their workflows.
 * Enhanced Compliance: Maintain detailed audit trails for all access requests, meeting regulatory and organizational compliance needs.
+
+### Troubleshooting
+
+* `No actions Available` for certain requests
+  * There are no actions available for `Closed` or `Denied` requests. `Active` requests can be revoked and `Open` requests can be approved, denied or deleted.&#x20;
