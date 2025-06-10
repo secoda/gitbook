@@ -10,7 +10,7 @@ Secoda provides the ability to declare fine-grained access controls through Cust
 * The Data Platform team should be allowed to manage users and groups, view platform analytics, and manage roles.
 
 {% hint style="info" %}
-Custom Roles are current in Early Access. To get early access please fill out the form [here](https://tally.so/r/3N8ENQ).
+Custom Roles are currently in Early Access. To get early access please fill out the form [here](https://tally.so/r/3N8ENQ).
 {% endhint %}
 
 ### What is a Custom Role?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-policy" id="what-is-a-policy"></a>
