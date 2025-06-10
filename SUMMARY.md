@@ -314,6 +314,7 @@
             spec: secoda-api
       ```
   * [Examples](api/examples.md)
+  * [Secoda AI API](api/secoda-ai-api.md)
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
   * [Terms of Use](policies/terms-of-use.md)
