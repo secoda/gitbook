@@ -56,13 +56,6 @@ This section lets you choose which Editors in your workspace have permission to 
 
 This section allows you to deselect any accounts that you do not want to contribute to resource Popularity. The Popularity of a data resource in Secoda is determined by the number of times it has been queried or viewed in the last 24 hours, with data pulled directly from the integration. Learn more about Popularity [here](../features/popularity.md).
 
-#### Property Management
-
-For any integration that syncs Tags, Owners, or Descriptions, this section allows you to choose where these properties are maintained. If they are maintained in Secoda, the fields will never be overwritten by a sync. If they are maintained in the integration, the fields will not be editable in Secoda.
-
-* **Import Descriptions from Integration**
-  * **Import Descriptions from Integration** setting must be explicitly toggled on to import descriptions into Secoda.
-
 #### Resource Management
 
 This section offers several options. If a toggle is specific to a particular integration, please refer to the integration page in the Secoda documentation for more details about that toggle. The options listed below are shared across all integrations:
@@ -73,3 +66,31 @@ This section offers several options. If a toggle is specific to a particular int
 #### Filtering
 
 In this section, you can use the filters to exclude resources (schemas, tables, columns) from extraction based on their title. Excluding resources based on other properties is not currently supported.
+
+### FAQs
+
+<details>
+
+<summary>How does property management for descriptions, tags, and owners work?</summary>
+
+Secoda uses change tracking to determine the source of truth for properties like descriptions, owners, and tags.
+
+The source property is used when:
+
+* Property is empty in Secoda
+* Property hasn't been modified by users in Secoda
+* Source provides new data
+
+User modifications are preserved in Secoda when:
+
+* Users have manually edited the property in Secoda
+
+Additional cases:
+
+* First sync: Source data populates all empty properties
+* Empty source values: Don't overwrite existing Secoda data
+* Compliance integrations (e.g., Cyera, and Dataplex): Tags are appended rather than replaced
+
+The system prioritizes preserving user curation while allowing source systems to populate and update unmodified properties.
+
+</details>
