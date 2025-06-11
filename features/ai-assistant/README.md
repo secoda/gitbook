@@ -167,6 +167,42 @@ For example, if you frequently work with specific databases or dashboards, the A
 
 <figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
+### Advanced Memory
+
+Advanced Memory enables Secoda AI to learn from past interactions across the entire workspace, improving response quality and efficiency over time. Secoda AI analyzes past successful AI interactions to identify patterns and strategies that work well. This knowledge is then applied to future conversations to provide better assistance.
+
+#### Key Features
+
+**Interaction Analysis:** The system automatically analyzes completed AI interactions to identify:
+
+* **Successful strategies:** Tool sequences and reasoning approaches that led to correct solutions
+* **Common pitfalls:** Where the AI initially failed but later succeeded, noting breakthrough moments
+* **Efficient workflows:** Optimal tool usage patterns and data retrieval paths
+* **Effective approaches:** Information synthesis methods that produced good results
+
+**Knowledge Accumulation:** The system builds a workspace-level knowledge base that includes:
+
+* Which tools work best for different query types
+* Effective error recovery strategies
+* Successful information synthesis approaches
+* Common dead ends to avoid
+
+**Automatic Learning:** After each user-generated AI interaction, the system:
+
+1. Analyzes the conversation for patterns and insights
+2. Updates the workspace knowledge base with new learnings
+3. Applies these insights to improve future interactions
+
+#### Benefits
+
+**Enhanced Accuracy:** By learning from past successes and failures, the AI becomes more accurate in similar future scenarios.
+
+**Improved Efficiency:** The AI learns optimal tool sequences and approaches, reducing the number of steps needed to reach correct answers.
+
+**Workspace-Specific Intelligence:** The knowledge base is tailored to your organization's specific data patterns, terminology, and common use cases.
+
+**Continuous Improvement:** The system continuously learns and adapts, becoming more effective over time as it processes more interactions.
+
 ## Additional documentation
 
 {% content-ref url="best-practices.md" %}
