@@ -38,7 +38,7 @@ Simply navigate to the Secoda AI interface, ask a question involving data visual
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Governance**
 
@@ -144,7 +144,7 @@ AI Memory can be enabled by workspace administrators through the AI settings pag
 * Look for the Personalization section
 * Click "Manage Memories" to view and manage stored memories
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Managing Memories**
 

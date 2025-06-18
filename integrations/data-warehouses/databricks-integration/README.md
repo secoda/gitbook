@@ -49,7 +49,7 @@ For each catalog you want to connect to Secoda, the credentials must have the fo
 * `BROWSE`
 * `SELECT`
 
-<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (113) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Connect Databricks to Secoda
 

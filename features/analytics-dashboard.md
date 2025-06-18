@@ -14,7 +14,7 @@ Secoda provides comprehensive overview pages for key features that give you insi
 
 The Monitors Overview page provides a comprehensive view of your data monitoring health and incident management.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Normal**: Number of monitors currently passing their checks
 * **Failed**: Number of monitors that have failed their latest checks
@@ -75,7 +75,7 @@ The Integrations Overview page provides visibility into your data source connect
 
 Create Reports to organize your Analytics widgets into separate themes. For example, you can have one Report that shows stats on your users, another on documentation, and another on Snowflake costs.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Filtering
 
