@@ -44,13 +44,11 @@ In addition the Teams that a Database, Schema, or Group are associated with can 
 
 ### Preferences
 
-#### Preview Permissions
-
-This section allows you to select which Roles or User Groups should have permission to [Preview](../features/data-previews.md) the resource, if the integration supports Preview. By default, all Roles are given permission to preview.
-
 #### Query Permissions
 
-This section lets you choose which Editors in your workspace have permission to query the resource, if the integration supports querying. By default, only Admins can query the resource. However, querying permissions for Viewers are not currently supported.
+This section lets you choose which users in your workspace have permission to query the resource through the preview, query block, monitoring, and Secoda AI feature, if the integration supports querying. By default, only Admins and Editors can query the resource.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Popularity
 
