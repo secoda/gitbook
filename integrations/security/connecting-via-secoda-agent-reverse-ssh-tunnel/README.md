@@ -94,7 +94,7 @@ Select the reverse tunnel you would like to use then click "Test connection".
 
 ### Troubleshooting
 
-**Issue: Agent Stuck on Version Number During Startup**
+#### **Issue: Agent Stuck on Version Number During Startup**
 
 **Symptom:** The agent displays its version (e.g., `agent | OpenSSH_9.3p2, OpenSSL 3.1.3 19 Sep 2023`) and does not proceed with the startup process.
 
