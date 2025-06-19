@@ -35,7 +35,7 @@ Copy the details to your clipboard, and replace the contents of your docker comp
 
 ## Running
 
-### **(1) docker-compose (recommended)**
+### **docker-compose (recommended)**
 
 Once you have inputted the values in **Setup**, you can restart the Reverse SSH agent with:
 
@@ -44,7 +44,7 @@ docker-compose down
 docker-compose up -d
 ```
 
-### **(2) autossh**
+### Custom
 
 ```bash
 #!/bin/sh
@@ -94,10 +94,61 @@ Select the reverse tunnel you would like to use then click "Test connection".
 
 ### Troubleshooting
 
-Upon running the agent, if the agent becomes stuck on the version number during the startup process, similar to:
+**Issue: Agent Stuck on Version Number During Startup**
 
-```bash
-agent  | OpenSSH_9.3p2, OpenSSL 3.1.3 19 Sep 2023
-```
+**Symptom:** The agent displays its version (e.g., `agent | OpenSSH_9.3p2, OpenSSL 3.1.3 19 Sep 2023`) and does not proceed with the startup process.
 
-This typically means that the outbound connection is blocked. Please check your firewall settings. Secoda can adjust the outbound port to a whitelisted one if necessary.
+**Likely Cause:** Outbound network connection is blocked.
+
+**Troubleshooting Steps:**
+
+1. **Check Firewall Settings:** Verify your firewall rules to ensure outbound connections are not being blocked for the agent.
+2. **Contact Support (if necessary):** If firewall adjustments are not feasible or don't resolve the issue, contact Secoda support. We can assist in configuring the agent to use a whitelisted outbound port.
+
+
+
+#### **Issue: DNS Resolution Error During Integration**
+
+**Symptom: Integration fails with the error: `"Error: Unable to find the DNS query names for <DNS_NAME>. Please check the spelling and try again."`**
+
+**Likely Cause:** The reverse tunnel instance cannot resolve the hostname of the target database server.
+
+**Troubleshooting Steps (on the reverse tunnel instance):**
+
+1. **Verify DNS Resolution:**
+   *   Execute the following command to check DNS resolution for the database server's hostname:
+
+       ```
+       dig <DATABASE_HOSTNAME>.<DOMAIN_SUFFIX>.<TLD>
+       ```
+
+       _(Replace `<DATABASE_HOSTNAME>.<DOMAIN_SUFFIX>.<TLD>` with the fully qualified domain name of your database server, e.g., `yourdb.yourcompany.com` or `yourdb.local`)._
+   * **Expected Output:** A successful `dig` command should return the IP address of the database server.
+2. **Check Port Connectivity:**
+   *   Use `telnet` to verify connectivity to the database server on its standard SQL port (default 1433):
+
+       ```
+       telnet <DATABASE_HOSTNAME>.<DOMAIN_SUFFIX>.<TLD> 1433
+       ```
+   * **Expected Output:** A successful connection will display a blank screen or a "Connected to..." message. Press `Ctrl + ]` then type `quit` to exit.
+3. **Inspect Docker Container (if applicable):**
+   * If the reverse tunnel agent is in a Docker container, check DNS resolution _from within_ the container:
+     *   **a. Find Container ID:**
+
+         ```
+         docker ps
+         ```
+
+         (Note the `CONTAINER_ID` of the reverse tunnel agent.)
+     *   **b. Access Container Shell:**
+
+         ```
+         docker exec -it <CONTAINER_ID> /bin/bash
+         ```
+     *   **c. Perform In-Container DNS Check:**
+
+         ```
+         apt-get update && apt-get install dnsutils -y # Install if not present
+         dig <DATABASE_HOSTNAME>.<DOMAIN_SUFFIX>.<TLD>
+         ```
+     * **Expected Output (in-container):** A successful `dig` command from within the container should return the IP address of the database server.
