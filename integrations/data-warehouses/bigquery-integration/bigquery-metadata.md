@@ -53,3 +53,7 @@ If enabled, Secoda pushes the following metadata to BigQuery:
   * Description
 * Columns
   * Description
+
+### BigQuery Labels in Secoda
+
+Since BigQuery labels are key-value pairs, these are imported into Secoda as custom properties. If the values are not set, these will not show up in Secoda.&#x20;
