@@ -231,6 +231,34 @@ monitors:
       bounds: lower
 ```
 
+**Array Format (Multiple Monitors per Metric Type)**
+
+You can also create multiple monitors for the same metric type using array syntax:
+
+```yaml
+monitors:
+  custom_sql:
+    - name: "Daily Record Count"
+      query: "SELECT COUNT(*) FROM orders WHERE date = CURRENT_DATE"
+      thresholds:
+        method: manual
+        min: 1000
+        max: 10000
+    - name: "Average Order Value"
+      query: "SELECT AVG(total_amount) FROM orders WHERE date = CURRENT_DATE"
+      thresholds:
+        method: automatic
+        sensitivity: 7
+    - name: "Cancelled Orders Ratio"
+      query: "SELECT COUNT(CASE WHEN status = 'cancelled' THEN 1 END) * 100.0 / COUNT(*) FROM orders"
+      thresholds:
+        method: manual
+        min: 0
+        max: 5
+  row_count:
+    name: "Single Row Count Monitor"  # Single config still works
+```
+
 You can mix both formats across different models and columns, but each individual `monitors` section must use either list or dictionary format, not both. Use list format for simplicity when default settings are sufficient, and dictionary format when you need to customize any monitor settings.
 
 #### Available Monitor Types
