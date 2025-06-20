@@ -1,16 +1,16 @@
 # Access Requests
 
-The Access Requests feature in Secoda simplifies and centralizes the process of requesting, approving, and auditing access to data resources across multiple platforms. This feature helps organizations eliminate fragmented workflows, enhance security, and streamline compliance.
+The Access requests feature in Secoda simplifies and centralizes the process of requesting, approving, and auditing access to data resources across multiple platforms. This feature helps organizations eliminate fragmented workflows, enhance security, and streamline compliance.
 
 {% hint style="info" %}
-Access Requests are currently in Early Access. Sign up [here](https://tally.so/r/n0DBQ6) if you are interested in using Access Requests.
+Access requests are currently in Early Access. Sign up [here](https://tally.so/r/n0DBQ6) if you are interested in using Access requests.
 {% endhint %}
 
 
 
 ### Key Features
 
-* **Centralized Requests**: Users can create Data Access Requests (DARs) directly within Secoda, specifying the resources, access duration, and roles.
+* **Centralized Requests**: Users can create Access requests directly within Secoda, specifying the resources, access duration, and roles.
 * **Automated Provisioning & Revocation**: Upon approval, access is provisioned automatically and revoked after the expiration period, reducing manual effort and improving security.
 * **Detailed Audit Logs**: Track every access request, including resources, requester, roles, reviewers, and expiration timelines, ensuring transparency and compliance.
 * **Identity Management**: Admins can browse and manage all ingested identities (users and roles) from integrated platforms.
@@ -19,7 +19,7 @@ Access Requests are currently in Early Access. Sign up [here](https://tally.so/r
 
 ### How It Works
 
-1.  **Creating a Request**: Users can create a Data Access Request from Secoda specifying:
+1.  **Creating a Request**: Users can create an Access request from Secoda specifying:
 
     1. Resources they want access to.
     2. An optional reason for access.
@@ -28,7 +28,7 @@ Access Requests are currently in Early Access. Sign up [here](https://tally.so/r
     <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3332b1f0-e670-4cef-b287-e55729de78ab.png" alt="" width="375"><figcaption></figcaption></figure>
 2. Review & Approval:
    1. Reviewers evaluate the request and choose the role or identity to update.
-   2. Requests can be approved via the Secoda interface or Slack.
+   2. Access requests can be approved via the Secoda interface or Slack.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/55960578-b82b-4ee7-a483-fe165ac3864e.png" alt=""><figcaption></figcaption></figure>
 
