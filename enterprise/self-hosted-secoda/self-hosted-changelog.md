@@ -6,6 +6,15 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.2.10 (June 23, 2025)
+
+* BigQuery column sort order fix
+* Missing preview button fix
+* Dataform integration
+* SAML attribute mapping to custom roles
+* SAML Role Removal fix
+* PII keyword cannot be removed from wordlist fix
+
 ### v2025.2.8 (May 26, 2025)
 
 * Secoda MCP Server
