@@ -203,6 +203,12 @@ Advanced Memory enables Secoda AI to learn from past interactions across the ent
 
 **Continuous Improvement:** The system continuously learns and adapts, becoming more effective over time as it processes more interactions.
 
+### Sharing Chats
+
+You can share your AI chats with other members of the workspace. Click on the `Share Chat` button and extend access to the Secoda workspace to share your AI conversations with the team.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-23 at 2.55.53 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## Additional documentation
 
 {% content-ref url="best-practices.md" %}
