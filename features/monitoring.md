@@ -85,7 +85,7 @@ For example, if you have 3 numeric columns selected, you can add a "MIN" or "MAX
 {% endhint %}
 
 {% hint style="info" %}
-**Note:** The monitor status is `Pending` during the time it is queued to run for the first time.&#x20;
+**Note:** The monitor status is `Pending` during the time it is queued to run for the first time.
 {% endhint %}
 
 #### Custom SQL Monitors
@@ -344,7 +344,13 @@ models:
                   max: 10
 ```
 
-### Monitoring Integrations
+## Migration
+
+### Metaplane
+
+
+
+## Monitoring Integrations
 
 The following integrations support monitoring
 
