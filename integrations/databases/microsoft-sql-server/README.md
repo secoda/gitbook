@@ -60,8 +60,10 @@ See the full list here: [What are the IP addresses for Secoda?](https://your-sec
 
 ### Troubleshooting
 
-| Issue                         | Possible Cause                         | Resolution                                                                                                    |
-| ----------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Timeout or “host unreachable” | The server is on a private network.    | Whitelist the Secoda IPs or use a reverse SSH tunnel                                                          |
-| Authentication failures       | Wrong auth type selected.              | Verify you picked the correct method (SQL Login, Azure AD, or Windows AD) and that the credentials are valid. |
-| Permission errors             | The `secoda` user lacks SELECT rights. | Re-run the `GRANT SELECT` statement for each required database.                                               |
+| Issue                             | Possible Cause                                              | Resolution                                                                                                    |
+| --------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Timeout or “host unreachable”     | The server is on a private network.                         | Whitelist the Secoda IPs or use a reverse SSH tunnel                                                          |
+| Authentication failures           | Wrong auth type selected.                                   | Verify you picked the correct method (SQL Login, Azure AD, or Windows AD) and that the credentials are valid. |
+| Permission errors                 | The `secoda` user lacks SELECT rights.                      | Re-run the `GRANT SELECT` statement for each required database.                                               |
+| Login is from an untrusted domain | Wrong auth type selected or incorrect username and password | Check that NTLMv2 is enabled on the SQL server and ensure username and password are correct                   |
+
