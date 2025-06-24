@@ -7,7 +7,7 @@ description: >-
 # Data Quality Score
 
 {% hint style="info" %}
-**The Data Quality Score feature is available to customers on** [**Premium and Enterprise**](https://www.secoda.co/pricing) **plans.**  Request access by clicking "Upgrade" under Data Quality Score in your workspace or by contacting Customer Support (support@secoda.co).
+**The Data Quality Score feature is available to customers on** [**Premium and Enterprise**](https://www.secoda.co/pricing) **plans.** Request access by clicking "Upgrade" under Data Quality Score in your workspace or by contacting Customer Support (support@secoda.co).
 {% endhint %}
 
 The Data Quality Score (DQS) in Secoda offers a comprehensive scoring system that evaluates your data's quality. Focused initially on tables, DQS not only helps teams understand their data quality but also provides actionable steps to improve their scores over time. It aggregates scores across several categories to deliver a comprehensive total out of 100%.
@@ -99,14 +99,14 @@ DQS consists of four main dimensions, each reflecting essential aspects of data 
 
 The Accuracy score integrates results from Secoda Monitors or 3rd party tests like dbt, Monte Carlo and Great Expectations.
 
-* **Nullness (10 Points)**:&#x20;
+* **Nullness (10 Points)**:
   * 5 points awarded if a nullness test is configured for the table; otherwise, it scores 0.
   * Points awarded based on the percentage of passing nullness tests.
-* **Uniqueness (10 Points)**:&#x20;
+* **Uniqueness (10 Points)**:
   * 5 points awarded if a uniqueness test is configured for the table; otherwise, it scores 0.
   * Points awarded based on the percentage of passing uniqueness tests.
 * **Other Tests (10 Points)**: Additional points based on the percentage of other tests passing.
 
 ## Feedback
 
-We welcome your suggestions for enhancing DQS. Please contribute your ideas on our [feedback board](https://www.feedback.secoda.co) to help us evolve this tool to better meet your needs.
+We welcome your suggestions for enhancing DQS. If you have any feedback to help us evolve this tool to better meet your needs, please let us know at support@secoda.co.
