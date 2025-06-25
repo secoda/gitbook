@@ -205,7 +205,9 @@ Advanced Memory enables Secoda AI to learn from past interactions across the ent
 
 ### Sharing Chats
 
-You can share your AI chats with other members of the workspace. Click on the `Share Chat` button and extend access to the Secoda workspace to share your AI conversations with the team.
+Workspace admins can view chats from Editors/Viewers without any permissions.&#x20;
+
+However, for Editors/Viewers to have access to the chats of other users, proper access needs to be granted. To grant access, click on the `Share Chat` button and extend access to the Secoda workspace to share your AI conversations with the team.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-23 at 2.55.53 PM.png" alt=""><figcaption></figcaption></figure>
 
