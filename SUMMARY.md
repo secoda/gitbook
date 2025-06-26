@@ -194,6 +194,8 @@
       * [GCS Metadata Extracted](integrations/data-lakes/google-cloud-storage/gcs-metadata-extracted.md)
     * [AWS S3](integrations/data-lakes/aws-s3/README.md)
       * [S3 Metadata Extracted](integrations/data-lakes/aws-s3/s3-metadata-extracted.md)
+    * [Azure Data Lake](integrations/data-lakes/azure-data-lake/README.md)
+      * [ADL Metadata Extracted](integrations/data-lakes/azure-data-lake/adl-metadata-extracted.md)
   * [Query Engines](integrations/query-engines/README.md)
     * [Trino](integrations/query-engines/trino/README.md)
       * [Trino Metadata Extracted](integrations/query-engines/trino/trino-metadata-extracted.md)
