@@ -1,4 +1,4 @@
-# Entity Relationship Diagram (ERDs)
+# Entity Relationship Diagram
 
 {% hint style="info" %}
 Entity Relationship Diagrams are currently in Early Access. Sign up [here](https://tally.so/r/mK4x1D) to get access.&#x20;

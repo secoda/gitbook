@@ -1,5 +1,5 @@
 ---
-description: Welcome to Secoda! Your data organization's single source of truth.
+description: Welcome to Secoda! Your data organization's single source of truth for data.
 ---
 
 # Getting Started with Secoda
