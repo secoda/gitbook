@@ -238,18 +238,21 @@ You can also create multiple monitors for the same metric type using array synta
 ```yaml
 monitors:
   custom_sql:
-    - name: "Daily Record Count"
+    - key: daily_record_count
+      name: "Daily Record Count"
       query: "SELECT COUNT(*) FROM orders WHERE date = CURRENT_DATE"
       thresholds:
         method: manual
         min: 1000
         max: 10000
-    - name: "Average Order Value"
+    - key: average_order_value
+      name: "Average Order Value"
       query: "SELECT AVG(total_amount) FROM orders WHERE date = CURRENT_DATE"
       thresholds:
         method: automatic
         sensitivity: 7
-    - name: "Cancelled Orders Ratio"
+    - key: cancelled_orders_ratio
+      name: "Cancelled Orders Ratio"
       query: "SELECT COUNT(CASE WHEN status = 'cancelled' THEN 1 END) * 100.0 / COUNT(*) FROM orders"
       thresholds:
         method: manual
@@ -258,6 +261,10 @@ monitors:
   row_count:
     name: "Single Row Count Monitor"  # Single config still works
 ```
+
+{% hint style="info" %}
+**Recommendation**: When using array format, it's recommended to add a `key` field with a unique string identifier for each monitor (e.g., `daily_record_count`, `average_order_value`). This key should remain constant and helps maintain monitor identity across configuration changes.
+{% endhint %}
 
 You can mix both formats across different models and columns, but each individual `monitors` section must use either list or dictionary format, not both. Use list format for simplicity when default settings are sufficient, and dictionary format when you need to customize any monitor settings.
 
