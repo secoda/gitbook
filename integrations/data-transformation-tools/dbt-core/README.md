@@ -92,6 +92,10 @@ You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.
 }
 ```
 
+{% hint style="info" %}
+To create an IAM permission policy, you would have to leave the role creation request in AWS to continue.&#x20;
+{% endhint %}
+
 4. Once the role is created, you'll receive an Amazon Resource Name (ARN) for the role.
 5. Connect your S3 bucket to Secoda
    * Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
