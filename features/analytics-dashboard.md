@@ -139,6 +139,7 @@ Another important metric you can filter for here is **undocumented popular resou
 * **Total Resources**: Line chart for the total number of resources
 * **Resource Views**: Line chart for the number of resource views
 * **Documented Resources Percentage**: Line chart for the percentage of documented resources
+* **Verified Resources:** Line chart for the percentage of resources that are verified.&#x20;
 
 #### Tests
 
