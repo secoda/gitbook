@@ -251,6 +251,7 @@
   * [Documents](features/documents/README.md)
     * [Comments](features/documents/comments.md)
     * [Embeddings](features/documents/embeds.md)
+  * [Entity Relationship Diagram (ERDs)](features/entity-relationship-diagram-erds.md)
   * [Filters](features/filters.md)
   * [Glossary](features/glossary.md)
   * [Homepage](features/homepage.md)
@@ -305,9 +306,9 @@
   * [Authentication](api/authentication.md)
   * [Reference](api/reference/README.md)
     * ```yaml
-      type: builtin:openapi
       props:
         models: true
+      type: builtin:openapi
       dependencies:
         spec:
           ref:

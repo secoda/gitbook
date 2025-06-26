@@ -48,7 +48,7 @@ In addition the Teams that a Database, Schema, or Group are associated with can 
 
 This section lets you choose which users in your workspace have permission to query the resource through the preview, query block, monitoring, and Secoda AI feature, if the integration supports querying. By default, only Admins and Editors can query the resource.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Popularity
 
