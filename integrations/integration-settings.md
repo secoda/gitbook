@@ -52,7 +52,15 @@ This section lets you choose which users in your workspace have permission to qu
 
 #### Popularity
 
-This section allows you to deselect any accounts that you do not want to contribute to resource Popularity. The Popularity of a data resource in Secoda is determined by the number of times it has been queried or viewed in the last 24 hours, with data pulled directly from the integration. Learn more about Popularity [here](../features/popularity.md).
+This preference allows you to deselect any accounts that you do not want to contribute to resource Popularity. The Popularity of a data resource in Secoda is determined by the number of times it has been queried or viewed in the last 24 hours, with data pulled directly from the integration. Learn more about Popularity [here](../features/popularity.md).
+
+#### Property Import
+
+This preference allows your to determine the import behaviour of properties, such as descriptions and tags, from your data source as properties in Secoda. The following options are available for importing properties:
+
+* **Never**: No properties are imported from your data source
+* **Smart**: Properties are imported from your data source until modified in Secoda. Once you edit a property in Secoda, it won't be overwritten by future imports
+* **Always**: Properties are always imported from your data source. Overwrites any existing values in Secoda with each sync
 
 #### Resource Management
 
