@@ -6,7 +6,7 @@ description: An overview of the Druid integration with Secoda
 
 ## Getting Started with Druid
 
-There are 3 steps to get started using Salesforce with Secoda:
+There are 3 steps to get started using Druid with Secoda:
 
 1. Retrieve Druid Host and Port.&#x20;
 2. Retrieve Username and Password
