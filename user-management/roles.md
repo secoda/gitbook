@@ -109,10 +109,10 @@ Manage is all permissions (Create, Update, Delete, and View)
 
 | Name              | Admin  | Editor         | Viewer |
 | ----------------- | ------ | -------------- | ------ |
-| API keys          | Manage | Create, Update | View   |
+| API keys          | Manage | Create, Update | None   |
 | Billing           | Manage | None           | None   |
 | Import and export | Manage | None           | None   |
-| Workspace         | Manage | View           | View   |
+| Workspace         | Manage | View           | None   |
 
 **Features**
 
@@ -123,9 +123,9 @@ Manage is all permissions (Create, Update, Delete, and View)
 | Automations        | Manage | View           | None         |
 | Column profile     | Manage | Manage         | View         |
 | Data quality score | Manage | Create, Update | View         |
-| Integrations       | Manage | View           | View         |
+| Integrations       | Manage | View           | None         |
 | Lineage            | Manage | Create, Update | View         |
-| Monitors           | Manage | Create, Update | View         |
+| Monitors           | Manage | Create, Update | None         |
 | Policies           | Manage | Manage         | View         |
 | Preview            | View   | View           | View         |
 | Properties         | Manage | Manage         | View         |
