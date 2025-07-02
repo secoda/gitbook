@@ -228,6 +228,7 @@
     * [Confluence best practices](extensions/confluence/confluence-best-practices.md)
   * [Git](extensions/git-integration.md)
   * [GitHub](extensions/github.md)
+  * [Glean](extensions/glean.md)
   * [Jira](extensions/jira/README.md)
     * [Jira Metadata Extracted](extensions/jira/metadata-extracted.md)
   * [Linear](extensions/linear-integration.md)
