@@ -3,7 +3,7 @@
 The Access requests feature in Secoda simplifies and centralizes the process of requesting, approving, and auditing access to data resources across multiple platforms. This feature helps organizations eliminate fragmented workflows, enhance security, and streamline compliance.
 
 {% hint style="info" %}
-Access requests are currently in Early Access. Sign up [here](https://tally.so/r/n0DBQ6) if you are interested in using Access requests.
+**Access Requests** are available to customers on [**Enterprise** **plan**](https://www.secoda.co/pricing)**.** Interested in upgrade options? Click on the "Upgrade" button on the Access Request page or reach out to the Customer team (support@secoda.co).
 {% endhint %}
 
 

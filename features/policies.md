@@ -7,7 +7,7 @@ description: >-
 # Policies
 
 {% hint style="info" %}
-Policies are currently in Early Access. To get access you can fill out the early access form [here](https://tally.so/forms/3NdaVQ).
+**Policies** are available to customers on [**Premium**](https://www.secoda.co/pricing) **plan.** Interested in upgrad options? Click on the "Upgrade" on the Policies page or reach out to the Customer team (support@secoda.co).
 {% endhint %}
 
 Policies in Secoda help organizations enforce data governance rules and maintain compliance across their data stack. With policies, teams can monitor, validate, and enforce data standards systematically.
