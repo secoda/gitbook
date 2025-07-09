@@ -236,6 +236,7 @@
   * [PagerDuty](extensions/pager-duty.md)
   * [Slack](extensions/slack-connection/README.md)
     * [Slack user guide](extensions/slack-connection/slack-user-guide.md)
+  * [ServiceNow](extensions/servicenow.md)
 * [Features](features/README.md)
   * [Access Requests](features/access-requests.md)
   * [Activity Log](features/activity-log.md)
