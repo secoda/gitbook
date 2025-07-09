@@ -19,6 +19,17 @@ There are two steps to connect Azure Data Lake Storage Gen2 with Secoda:
 
 #### **Option 1: OAuth Authentication (Recommended)**
 
+This method sets the user up for OAuth authentication into Secoda's managed AD application. To do this, the authenticating user must have the necessary permissions.
+
+1. Configure IAM Permissions
+   1. In your storage container, click on "Access control (IAM)"
+   2. Click on "Add" > "Add role assignment"
+   3. Select "Storage Blob Data Reader" from the "Role" dropdown
+   4. On the “Assign access to” dropdown, choose the user that will be authenticating through the OAuth workflow.
+   5. Click "Save" to apply changes
+
+#### **Option 2: Configure a New AD Application**
+
 1. Register a new application in Azure
    1. Navigate to the Azure Portal and go to "Azure Active Directory" > "App registrations", then click "New registration"
    2. Enter a name for your application (e.g., "Secoda Data Lake Integration")
@@ -38,9 +49,9 @@ There are two steps to connect Azure Data Lake Storage Gen2 with Secoda:
 4. Note Your Application Details
    1. Copy the "Application (client) ID" from the Overview page
    2. Copy the "Directory (tenant) ID" from the Overview page
-   3. Keep the client secret you just created
+   3. Keep the client secret you just created. Client secrets are only displayed to the user once, upon successful creation.&#x20;
 
-#### **Option 2: Service Principal Authentication**
+#### **Option 3: Service Principal Authentication**
 
 This method uses a service principal for programmatic access.
 
@@ -78,6 +89,6 @@ After setting up Microsoft Entra ID authentication, the next step is to connect 
       4. Client ID (app or service principal created for this integration)
       5. Client Secret
       6. (Optional) Username and Password for user-based authentication
-5. Test the Connection - if successful, you'll be prompted to run your initial sync.
+5. Test the connection - if successful, you'll be prompted to run your initial sync.
 
 \
