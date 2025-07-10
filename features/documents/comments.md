@@ -25,3 +25,7 @@ Comments will allow users to align on definitions, internal projects, task manag
 * Resolve comments by clicking the check mark :heavy\_check\_mark: on the comment
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ca88443c-1f3c-4b61-8a8f-bc70bdabfa82.gif" alt=""><figcaption><p>Comments Video Resource</p></figcaption></figure>
+
+{% hint style="info" %}
+Comments are only available on Documents and Glossary Terms. Comments are not currently available on table, dashboard, and other resource's documentation.
+{% endhint %}
