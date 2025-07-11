@@ -99,16 +99,10 @@ If you would like to enable the [Push to Snowflake](../../push-metadata-to-sourc
 
 If you would like you use key-pair authentication instead of a password you will need to:
 
-1. [Configure the key-pair in Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). Once the key is created, you can run the following command to connect the key to the `SECODA_USER`.
+[Configure the key-pair in Snowflake](https://docs.snowflake.com/en/user-guide/key-pair-auth). Once the key is created, you can run the following command to connect the key to the `SECODA_USER`.
 
 <pre><code><strong>ALTER USER SECODA_USER SET RSA_PUBLIC_KEY='my_public_key';
 </strong></code></pre>
-
-2. Take the final key and convert it to base64 encoding. You can run the following command to convert the key.
-
-```
-base64 -i rsa_key.p
-```
 
 ### **Step 3: Whitelist Secoda IP Addresses** <a href="#h_7ee8142011" id="h_7ee8142011"></a>
 
