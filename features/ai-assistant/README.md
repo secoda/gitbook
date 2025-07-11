@@ -225,10 +225,6 @@ However, for Editors/Viewers to have access to the chats of other users, proper 
 [security.md](security.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 This guide ensures that Admins are equipped to optimize the AI Assistant within their Secoda environment, driving efficient and secure data operations across the organization.
 
 {% hint style="info" %}

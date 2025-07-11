@@ -67,8 +67,6 @@ Clear and succinct questions yield the best responses. Avoid overly complex or v
 
 ## Unsure where to start?
 
-Check out our list of [Broken link](broken-reference "mention") that you can ask the tool.
-
 By following these guidelines, you can significantly enhance your productivity and data understanding using the Secoda AI Assistant.
 
 **Don't just take our word for it! Ask the tool itself** :wink:
