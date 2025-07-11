@@ -219,7 +219,7 @@
     * [Connecting via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/README.md)
       * [Snowflake via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/snowflake-via-aws-privatelink.md)
       * [AWS Service via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/aws-service-via-aws-privatelink.md)
-    * [Recommendations to Improve SSH Tunnel Concurrency on SSH Bastion](integrations/security/recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md)
+    * [Improve Concurrency on your SSH Bastion](integrations/security/recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md)
   * [Push Metadata to Source](integrations/push-metadata-to-source.md)
 * [Extensions](extensions/README.md)
   * [Chrome](extensions/chrome-extension.md)
