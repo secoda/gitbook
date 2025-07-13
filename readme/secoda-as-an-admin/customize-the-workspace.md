@@ -37,14 +37,6 @@ You can also pin resources to the homepage to point users in the right direction
 [homepage.md](../../features/homepage.md)
 {% endcontent-ref %}
 
-### Documents and Dictionary appearance
-
-In the **Appearance** Settings, you are able to toggle on/off full width which allows your documents to take up the full width of the page.
-
-In this view, you also have the ability to hide query blocks from automatically being added to your dictionary terms.
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1849eb3e-3c06-41d4-98ae-7bb00a4b57cf.png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
 {% endhint %}
