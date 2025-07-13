@@ -1,5 +1,5 @@
 ---
-description: Edit the properties or bring in new dictionary terms through this feature.
+description: Edit the properties or bring in new resources through this feature.
 ---
 
 # Import and Export Resources
@@ -9,7 +9,7 @@ description: Edit the properties or bring in new dictionary terms through this f
 This guide provides a step-by-step process for exporting and importing metadata using CSV files in Secoda. This allows for bulk editing and updating of metadata to ensure consistency and prevent duplication across your data resources.
 
 {% hint style="info" %}
-If your goal is to introduce net new resources from an integration without connecting the integration in the app, you should utilize the [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, such as dictionary terms, documents, etc., the following instructions will guide you through the process.
+If your goal is to introduce net new resources from an integration without connecting the integration in the app, you should utilize the [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, such as glossary terms, documents, etc., the following instructions will guide you through the process.
 {% endhint %}
 
 ## Video resource
@@ -41,7 +41,7 @@ Before importing new or updated metadata into Secoda:
 
 * **id:** Leave this blank for new resources.
 * **title:** The name of the resource.
-* **entity\_type:** Possible values include table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event.
+* **entity\_type:** Possible values include table, column, dashboard, chart, job, glossary, document, collection, question, or event.
 
 **Optional Columns:**
 

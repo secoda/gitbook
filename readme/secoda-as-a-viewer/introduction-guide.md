@@ -2,7 +2,7 @@
 description: This Viewer guide provides new users with an overview of the tool
 ---
 
-# Introduction Guide
+# Introduction guide
 
 Secoda stands for **Se**archable **Co**mpany **Da**ta. Your Secoda workspace is the single source of truth for your organization’s data.
 
@@ -30,7 +30,7 @@ We’ve added some resources below that show you how you can use the different f
 
 #### Teams
 
-When you're added to Secoda, your workspace Admins should add you to your relevant Team, and you will be able to see all of the resources (Catalog, Dictionary, Documents and Questions) tied to that Team. You can check out all of your workspace's Teams and join Public ones by following [**these steps**](../../user-management/teams.md#joining-teams).
+When you're added to Secoda, your workspace Admins should add you to your relevant Team, and you will be able to see all of the resources (Catalog, Glossary, Documents and Questions) tied to that Team. You can check out all of your workspace's Teams and join Public ones by following [**these steps**](../../user-management/teams.md#joining-teams).
 
 This diagram shows the structure of Teams:
 
@@ -68,25 +68,21 @@ Every user across the organization should feel confident searching for and utili
 
 The [**Catalog**](../../features/catalog.md) is the home to all metadata for any Tables, Columns, Dashboards, Charts, Jobs and Events in Secoda. All catalog resources are accessible via Secoda’s Search, and can be referenced in other resources in your workspace.
 
-#### **Dictionary**
+#### **Glossary**
 
-The [Dictionary](../../features/glossary.md) is where you can define terms that are relevant to your organization. All documented terms are accessible via Secoda’s Search, and can be referenced in other resources in your workspace. It’s an especially helpful space for newer employees getting acquainted with the company or their role.
+The [Glossary](../../features/glossary.md) is where you can define terms and metrics that are relevant to your organization. All documented terms are accessible via Secoda’s Search, and can be referenced in other resources in your workspace. It’s an especially helpful space for newer employees getting acquainted with the company or their role.
 
-Some common use cases for dictionary terms are defined metrics and company specific jargon. The overall goal of a dictionary is to get everyone in your organization speaking the same language.
+Some common use cases for glossary terms are defined metrics and company specific jargon. The overall goal of a glossary is to get everyone in your organization speaking the same language.
 
 #### Documents
 
-[Documents](../../features/documents/) in Secoda are robust, and allow you to combine text, queries, photos, and live charts in a notebook interface. Use this tab to find information about your organization’s data that is not directly tied to one specific table, term, or resource. Just like the Dictionary, all Documents can be found using Search, and can be directly linked in other resources in the workspace.
+[Documents](../../features/documents/) in Secoda are robust, and allow you to combine text, queries, photos, and live charts in a notebook interface. Use this tab to find information about your organization’s data that is not directly tied to one specific table, term, or resource. Just like the Glossary, all Documents can be found using Search, and can be directly linked in other resources in the workspace.
 
 We see customers using Documents in a similar way you might use other collaborative documentation tools, like Confluence and Notion.
 
-#### Metrics
-
-[Metrics](../../features/metrics.md) in Secoda can be used to define and visualize your organization's KPIs (key performance indicators). For example, you might have a Metric in Secoda for _Average Order Value_ which updates regularly so that you can see how that value changes over time.
-
 #### Collections
 
-Using [Collections](../../features/collections-1.md) is a great way to organize your Team's resources. You can think of a Collection as a folder that hosts a group of resources (tables, dashboards, dictionary terms, documents, questions) pertaining to one particular subject.
+Using [Collections](../../features/collections-1.md) is a great way to organize your Team's resources. You can think of a Collection as a folder that hosts a group of resources (tables, dashboards, glossary terms, documents, questions) pertaining to one particular subject.
 
 These folders can be organized however makes sense to your organization, but some use cases we see are by project or the big nouns in your company.
 

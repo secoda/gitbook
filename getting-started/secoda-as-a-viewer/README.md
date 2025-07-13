@@ -22,7 +22,7 @@ Here are some helpful first steps with documentation links for new Viewers withi
 
 * [ ] **Best Practices:** Read up on [best practices within Secoda](../../best-practices/).
 * [ ] **Collections:** Learn about Collections curated by your Admins. [Learn](../../features/collections-1.md) [more](../../features/collections-1.md).
-* [ ] **Glossary and Documentation:** Explore your organization's business terms in the [Dictionary](../../features/glossary.md) and access [Documents](../../features/documents/) you have permissions to view.
+* [ ] **Glossary and Documentation:** Explore your organization's business terms in the [Glossary](../../features/glossary.md) and access [Documents](../../features/documents/) you have permissions to view.
 
 **Interact and Collaborate:**
 

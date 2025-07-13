@@ -23,7 +23,7 @@ description: >-
 ## Publishing settings
 
 * **Toggle Auto-Publish:** This option, found under "Publishing" in the [Settings](../../../readme/secoda-as-an-admin/settings.md) menu, allows admins to decide whether new resources should automatically be "Published" or remain as "Draft" until manually changed.
-* **Publish All Resources:** A single click on the 'Publish all resources' button will change the status of all draft resources in the workspace to "Published", including dictionary terms and documents.
+* **Publish All Resources:** A single click on the 'Publish all resources' button will change the status of all draft resources in the workspace to "Published", including glossary terms and documents.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/deb074f5-0a14-4066-b6d8-7b817f10c396.png" alt=""><figcaption><p>Publishing Settings</p></figcaption></figure>
 
