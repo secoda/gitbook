@@ -6,6 +6,11 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.3.0 (July 10, 2025)
+
+* Glean extension
+* ServiceNow extension
+
 ### v2025.2.10 (June 23, 2025)
 
 * BigQuery column sort order fix
