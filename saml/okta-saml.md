@@ -2,7 +2,7 @@
 
 ## Steps:
 
-1.  Go to the Secoda app > Settings > Security > SAML. Copy the **ACS UR**L and **Entity ID** for use in the following steps.
+1.  Go to the Secoda app > Settings > Security > SAML. Copy the **ACS URL** and **Entity ID** for use in the following steps.
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-04-23 at 10.43.53 AM (7).png" alt=""><figcaption><p>Secoda app > Settings > Security > SAML</p></figcaption></figure>
 2. In the Okta console: click the button “Create App Integration” (SAML2.0)
