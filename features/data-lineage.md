@@ -34,6 +34,11 @@ Overall, lineage is an important aspect of data management and can help organiza
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/898abb15-b9bb-4ed9-97a7-e46f5e572f57.gif" alt=""><figcaption><p>Fullscreen</p></figcaption></figure>
 
+{% hint style="info" %}
+**Admins** can view all nodes in the lineage, including resources outside their teams.\
+**Editors and Viewers** only see lineage for resources they have access to.
+{% endhint %}
+
 ### **One-Click Impact Analysis**
 
 From any node, click the three dots and **Analyze Impact** to see a list-view of all upstream and downstream dependencies of that resource. This view makes impact analysis quick and easy with just one click.
