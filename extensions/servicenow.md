@@ -27,9 +27,86 @@ To connect your ServiceNow instance to Secoda:
    * Use the Name of the form table you wish to use.
    * We recommend using a table that extends Request Task (check the Extends Table column).
 6. Optionally fill in the **Field Map** to customize field mappings between Secoda and ServiceNow (see next section).
-7. Click Submit to save the integration.
+7. Optionally, you can use REST API for communication. Follow the steps below to set this up - fill out the **Api Path** with the Resource Path you get from ServiceNow (`/api/#####/api_id`).&#x20;
+8. Click Submit to save the integration.
 
-### Creating your Field Map
+### Optional: Using REST Communication
+
+If you prefer to implement custom behaviour, you can do so via REST with JSON as data exchange format. The steps are as follows:&#x20;
+
+1. In ServiceNow, navigate to **System Web Services > Scripted Web Services > Scripted REST APIs**
+2. Create New, give your API a name, which will automatically create an API ID for you, then click submit.&#x20;
+3. Now, using the search bar filtering on Name, look for the API you just created and click on it.&#x20;
+4. Scroll down until you see Resources. We will create two new resources: a POST method and a PATCH method.&#x20;
+
+#### POST Method
+
+* Name: Any descriptive name
+* HTTP Method: POST
+* Relative Path: `/`
+* Take note of the Resource Path: this is what you will enter when creating the Secoda extension, under Api Path.&#x20;
+* Use Case: Triggered when a new Data Access Request is submitted in Secoda.
+* Script: the most important part of using REST APIs. You will get the data from Secoda through `request.body.data`.  Your script must have the following return signature:
+
+```
+(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    // your code
+
+    response.setStatus(201);
+    response.setBody({
+        sys_id: '---fill here---',  // Unique ID of the created record in ServiceNow
+        record_url: '---fill here---',  // URL to open the ServiceNow record in Secoda
+    });
+})(request, response);
+```
+
+#### PATCH Method
+
+* Name: Any descriptive name
+* HTTP Method: PATCH
+* Relative Path: `/`
+* Use Case: Secoda calls this to update the status of an existing request
+* Script: Does not need to return `sys_id` or `record_url` in the response
+
+#### Payload
+
+This is the payload that will be given to you as a JSON dict from Secoda.&#x20;
+
+```
+payload = {
+    "method": "create" or "update",
+    "secoda_request_id": store this, it's what you will send back in the webhook,
+    "state": one of "Open", "Closed Complete", "Closed Skipped",
+    "status": one of "requested", "approved", "rejected",
+
+    "requested_text": request reason,
+    "expires_at": request expiry date,
+    "created_by": email of user who created the request
+    "created_at": ,
+    "requested_expires_at": request expiry date,
+    "requested_resources": json dump of all requested_resources,
+    "assigned_to_group": first group that is an owner of requested resources,
+    "assigned_to_user": first user that is an owner of requested resources,
+
+    "approved_at": ,
+    "approved_by": email of aprover
+    "approved_text": ,
+    "cancelled_at": ,
+    "cancelled_by": email of the user that cancelled the request
+    "cancelled_text": ,
+    "rejected_at": ,
+    "rejected_by": email of the user that rejected the request,
+    "rejected_text": ,
+
+    "sys_id": this is the sys id that you send through POST, that you will need in PATCH
+}
+```
+
+### Optional: Creating your Field Map
+
+{% hint style="info" %}
+Note: This is not needed if you are using REST API for communication
+{% endhint %}
 
 The default Field Map is the following:&#x20;
 
