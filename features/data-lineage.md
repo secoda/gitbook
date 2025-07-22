@@ -68,9 +68,9 @@ For lineage that exists between integrations or depends on another integration (
 
 ## Export lineage
 
-Interested in exporting the lineage graph that Secoda created for you? Simply click the Export lineage button which will download a .png file of the lineage graph you are clicked into.
+Interested in exporting the lineage graph that Secoda created for you? Simply click the Export PNG or Export to CSV button which will download a file of the lineage graph you are clicked into.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1f3cca89-74c6-4b44-bc9c-84c610439d83.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-07-22 at 11.43.08 AM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
