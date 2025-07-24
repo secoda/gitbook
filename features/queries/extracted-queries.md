@@ -49,9 +49,9 @@ To view detailed information about queries run on a specific resource, follow th
 Queries can easily be copied, and run directly in Secoda through the [Query editor within a document](running-queries-in-secoda/).
 {% endhint %}
 
-### How to Access All Queries
+### How to Access All Queries within the last 30 days
 
-To view a comprehensive list of all extracted queries across all resources in Secoda, follow these steps:
+To view a comprehensive list of all extracted queries within the last 30 days across all resources in Secoda, follow these steps:
 
 1. **Open the Command Palette**:
    * Press `CMD + K` on your keyboard.
