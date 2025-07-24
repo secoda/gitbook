@@ -50,10 +50,8 @@ If you haven't already, create a new Salesforce Connected App:
 4. If you're using Salesforce OAuth flow (tab **OAuth**):
    * For Callback URL, enter `https://app.secoda.co/api/v1/oauth/from_oauth/` (or `https://<your-app>.secoda.co/api/v1/oauth/from_oauth/`)
    * For `Oauth Scopes`, we need at least `Manage user data via APIs (api)`and `Perform requests at any time (refresh_token, offline_access)`
-   * Tick `Enable OAuth Settings` and `Enable Authorization and Credentials Flow`
-
-![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(3\)%20\(2\).png)
-
+   * Tick `Enable OAuth Settings` and `Enable Authorization and Credentials Flow`&#x20;
+   * Disable `Require Proof Key for Code Exchange (PKCE)`
 5. In the next step, Go to API (Enable OAuth Settings) > Manage Consumer Details to **retrieve your Consumer Key and Consumer Secret**.
    1. Add Secoda's IP to Trusted IP Range for OAuth Web Server Flow. If not, see step 6.2 below to relax IP restriction.
       * You can find the start and end IP addresses for your region [here](https://docs.secoda.co/faq#what-are-the-ip-addresses-for-secoda)

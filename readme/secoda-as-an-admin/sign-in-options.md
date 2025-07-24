@@ -20,17 +20,20 @@ Continuing with email and password, Microsoft and Google are included in every c
 
 ## SAML options
 
-If you'd like to fine tune permissions and security, you can implement your own SSO using SAML technology. SAML requires some additional setup, which is outlined in the documents linked below. For SAML, we offer the following providers:
+If you'd like to fine tune permissions and security, your organization can implement SAML SSO. For SAML, we have created guides for the following identity providers (IdPs):
 
-* [Microsoft Azure Active Directory SAML](../../saml/microsoft-azure-ad-saml.md)
-* [Okta SAML](../../saml/okta-saml.md)
-* [OneLogin SAML](../../saml/onelogin-saml.md)
-* [Google SAML](../../saml/google-saml.md)
+* [Okta SAML SSO](../../saml/okta-saml.md)
+* [Azure Active Directory SAML SSO](../../saml/microsoft-azure-ad-saml.md)
+* [Google Workspace SAML SSO](../../saml/google-saml.md)
+* [OneLogin SAML SSO](../../saml/onelogin-saml.md)
 
-Enterprise plan subscribers with SAML SSO enabled can opt to enable [SCIM](../../saml/scim.md).
+Enterprise plan subscribers can opt-in on the settings page to use:
+
+* [SCIM](../../saml/scim.md)
+* [SAML Attributes](../../saml/attributes.md)
 
 ## Enforce SSO type
 
-Admins can require users to sign in with a specific type of SSO. Go to Settings > Workspace Settings > Enforce SSO. You then can choose between Google, Microsoft or SAML. Once you choose, users won't be able to login through email or any other means. If they attempt to, it will redirect them to the type that you've specified.
+Workspace admins have the option to enforce SSO with a specific identity provider (IdP). In Settings > Workspace Settings > Enforce SSO, a workspace admin can enforce Google OAuth, Microsoft OAuth, or SAML. Once chosen, users will not be able to login through email or another IdP. If they attempt to, they will be redirected to the type that you've specified.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/97ddc084-6ead-43c7-b4a1-7d07f494cc84.png" alt=""><figcaption></figcaption></figure>

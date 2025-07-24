@@ -12,10 +12,6 @@ Tunnels require you to run an SSH server process ([SSHD](https://www.ssh.com/aca
 
 There are three main steps to set up a tunnel:
 
-{% hint style="info" %}
-Set up can vary depending on the Cloud provider used. We provide some general tips and tricks for AWS and Azure below.
-{% endhint %}
-
 1. Configure a host in your environment that is accessible from the public internet. Make sure the [Secoda IP address](../../faq.md#what-are-the-ip-addresses-for-secoda) is whitelisted.
 2. [Create a Tunnel in Secoda](https://app.secoda.co/tunnels/new) and add in the configuration details from the host (`SSH Username`, `SSH Hostname`, `Port`). Once you submit these details, a Public Key will be shown.
 3. Add the Public Key to the `authorized_keys` file in your host.
@@ -94,7 +90,10 @@ If you're having trouble establishing a connection with a standard tunnel, check
     * `~/.ssh/authorized_keys` file: `0600`
 
     **Note:** The permissions for `authorized_keys` should be `0600` (not `0644`) to maintain strict security compliance.
-4.  **Test Network Connectivity**\
+4.  **Concurrency**
+
+    To improve the number of concurrent connections using a single SSH tunnel please refer to [recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md](recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md "mention")
+5.  **Test Network Connectivity**\
     Verify that the Bastion host can connect to your data source. Replace `$data_source_host` and `$data_source_port` with the actual hostname and port of your data source.
 
     ```

@@ -20,12 +20,12 @@ You can interact with Secoda's AI Assistant directly in Slack, similar to how yo
    * Your teammates are also able to hop in this thread and provide their insights
 4. The answer will show two options, :white\_check\_mark:**Answered** or :x:**Incorrect**, to which any user can decide if the response was accurate
 5. If marked :white\_check\_mark:**Answered**, the question and the response will then be pushed into Secoda's Question section for all users to see and reference
-6. If marked :x:**Incorrect**, the question will be pushed to Secoda without a response and the Admins of the workspace will be notified to provide an answer
-7. Check out our best practices documentation on how to best implement this workflow in your organization: [slack-less-than-greater-than-questions-workflow.md](../../../best-practices/slack-less-than-greater-than-questions-workflow.md "mention")
+6. If marked :x:**Incorrect**, the question will be pushed to Secoda with the response and the Admins of the workspace will be notified.&#x20;
+7. Check out our best practices documentation on how to best implement this workflow in your organization: [slack-less-than-greater-than-questions-workflow.md](../../best-practices/slack-less-than-greater-than-questions-workflow.md "mention")
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Slack%20AI\_2%20\(2\).gif)
+![](https://secoda-public-media-assets.s3.amazonaws.com/Slack%20AI_2%20\(2\).gif)
 
-**Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda.md](../../../features/ask-questions-in-secoda.md "mention") section.
+**Note**: Further ability to edit and add context to Questions pushed to Secoda can be found in the [ask-questions-in-secoda.md](../../features/ask-questions-in-secoda.md "mention") section.
 
 ### Asking questions to Secoda AI for personal use
 
@@ -38,6 +38,12 @@ The AI Assistant will reply in the channel, but this response will be _Only visi
 ## Push Slack thread into Secoda Questions
 
 If a Slack conversation happens in another channel that is not listed in the Settings, you can still push this information into Secoda. Simply click the three dots, Push to Secoda, set a title of the question/conversation, and Submit.
+
+<figure><img src="../../.gitbook/assets/image (115).png" alt="" width="375"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The `Push to Secoda` option is now called `Ask data team…`&#x20;
+{% endhint %}
 
 This will be helpful for when questions are asked in Slack and a user chimes in with an answer. You won't have to copy this context into Secoda, but instead Push it into Questions with a few clicks.
 
@@ -73,7 +79,7 @@ You can ask Questions using the Slack command: `/ask` followed by a question.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.08.29%20PM%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\)%20\(1\).png)
 
-From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../../../resource-and-metadata-management/add-documentation/templates.md)s.
+From here, you'll be prompted to ask your question and submit information to follow up. Admins are able to customize default [question template](../../resource-and-metadata-management/add-documentation/templates.md)s.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-04-09%20at%202.09.20%20PM.png)
 

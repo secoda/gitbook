@@ -1,15 +1,15 @@
 ---
-description: Edit the properties or bring in new dictionary terms through this feature.
+description: Edit the properties or bring in new resources through this feature.
 ---
 
-# Import and export resources
+# Import and Export Resources
 
 ## Overview
 
 This guide provides a step-by-step process for exporting and importing metadata using CSV files in Secoda. This allows for bulk editing and updating of metadata to ensure consistency and prevent duplication across your data resources.
 
 {% hint style="info" %}
-If your goal is to introduce net new resources from an integration without connecting the integration in the app, you should utilize the  [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, such as dictionary terms, documents, etc., the following instructions will guide you through the process.&#x20;
+If your goal is to introduce net new resources from an integration without connecting the integration in the app, you should utilize the [Custom Integrations](../integrations/custom-integrations-and-marketplace/custom-integration/) feature. If you are looking to edit existing resources, such as glossary terms, documents, etc., the following instructions will guide you through the process.
 {% endhint %}
 
 ## Video resource
@@ -21,7 +21,7 @@ If your goal is to introduce net new resources from an integration without conne
 To export resources from Secoda:
 
 1. **Navigate to Settings:** Go to [Settings](https://app.secoda.co/settings/import) → Import & Export data.
-2. **Select Resource Type:** Choose the type of resource you wish to export.&#x20;
+2. **Select Resource Type:** Choose the type of resource you wish to export.
 3. **Download the Export:** Once the Artifact is prepared as a Bulk export of your resources, click the "Download Artifact" button.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e38e12e7-e3c1-42d7-a369-f18dedbe3376.png" alt=""><figcaption></figcaption></figure>
@@ -41,7 +41,7 @@ Before importing new or updated metadata into Secoda:
 
 * **id:** Leave this blank for new resources.
 * **title:** The name of the resource.
-* **entity\_type:** Possible values include table, column, dashboard, chart, job, dictionary\_term, document, collection, question, or event.
+* **entity\_type:** Possible values include table, column, dashboard, chart, job, glossary, document, collection, question, or event.
 
 **Optional Columns:**
 
@@ -53,6 +53,7 @@ Before importing new or updated metadata into Secoda:
 * **collections:** List of associated collection names, e.g., \['Marketing', 'Engineering'].
 * **owners:** List of associated owner emails that should correspond to existing users in Secoda, e.g., \['brittany@secoda.co'].
 * **tags:** List of associated tag names, e.g., \['production'].
+* **tables:** List of tables that need to be updated, e.g., \[Team 1; Team2;]
 
 ## Importing Updated Metadata into Secoda
 

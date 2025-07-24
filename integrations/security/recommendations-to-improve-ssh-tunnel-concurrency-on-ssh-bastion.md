@@ -1,8 +1,4 @@
-# Recommendations to Improve SSH Tunnel Concurrency on SSH Bastion
-
-## Recommendations to Improve SSH Tunnel Concurrency on SSH Bastion
-
-To improve concurrency and manage multiple SSH tunnels more efficiently, consider the following recommendations:
+# Improve Concurrency on your SSH Bastion
 
 ### 1. **Increase `MaxSessions` on SSH Bastion**
 

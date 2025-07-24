@@ -21,18 +21,20 @@ Column profiling runs a `SELECT` query directly on the database/data warehouse, 
 
 The processed data will **not** be saved. As soon as the calculations are complete, we save the metadata results, but the data itself that the calculation is done on is not persisted anywhere in our database.
 
+Profilers exclude PII data.&#x20;
+
 The overall goal is to gain a feel for the quality of the dataset, and from here you can determine if you'd like to set monitors on certain tables/columns to further track data quality issues. Read more about our Monitoring capabilities here: [monitoring.md](monitoring.md "mention")
 
 ## **How to run column profiling** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
 
-1. Click Run profiler from any table (double check that we support column profiling for the integration in the nested[ metadata extracted docs](../integrations/))
+1.  Click Run profiler from any table (double check that we support column profiling for the integration in the nested[ metadata extracted docs](../integrations/)) \
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Group%20824%20\(1\).png)
 
-2. See the distribution visualization and hover over for frequency info
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+2.  See the distribution visualization and hover over for frequency info\
 
-![Results of the column profiler](https://secoda-public-media-assets.s3.amazonaws.com/Screen%20Shot%202022-08-10%20at%2010.38.38%20AM.png)
 
+    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 3. Double click into the visualization too see additional details like min, max, mode, unique values etc.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/68ee1db9-dec8-4c1d-920a-32c857906923.gif" alt=""><figcaption></figcaption></figure>

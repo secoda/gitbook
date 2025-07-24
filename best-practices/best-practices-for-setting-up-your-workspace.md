@@ -17,7 +17,7 @@ By default, all metadata from connected integrations is accessible via the Gener
 **Use cases for the Public 'General' Team:**
 
 * Serve as a common space for all workspace users to access.
-* House a dictionary of commonly used terms, metrics, and acronyms.
+* House a glossary of commonly used terms.
 * Store internal processes and best practices documentation.
 * Include onboarding documents for new users to navigate the workspace.
 
@@ -30,33 +30,33 @@ By default, all metadata from connected integrations is accessible via the Gener
 
 #### **Customizing Teams**
 
-* **Sidebar Customization**: [Adjust the sidebar](../user-management/teams.md#customizing-your-teams-sidebar) to match the access needs of each Team. For example, less technical users might only need access to specific Collections, so you can choose to hide unnecessary sections like the Catalog, Dictionary, Documents, or Questions.
-* **Assign Integrations or Resources to Teams**: To limit which metadata is added to each Team, at the highest level you can [add whole integrations to Teams in the settings](../getting-started/secoda-as-an-admin/connect-your-data/#how-to-add-integrations). Utilize [these tricks](../features/catalog.md#limiting-resource-access-in-a-catalog) to add only necessary schemas, tables, and columns to each Team.&#x20;
+* **Sidebar Customization**: [Adjust the sidebar](../user-management/teams.md#customizing-your-teams-sidebar) to match the access needs of each Team. For example, less technical users might only need access to specific Collections, so you can choose to hide unnecessary sections like the Catalog, Glossary, Documents, or Questions.
+* **Assign Integrations or Resources to Teams**: To limit which metadata is added to each Team, at the highest level you can [add whole integrations to Teams in the settings](../getting-started/secoda-as-an-admin/connect-your-data/#how-to-add-integrations). Utilize [these tricks](../features/catalog.md#limiting-resource-access-in-a-catalog) to add only necessary schemas, tables, and columns to each Team.
 
 ## Automating documentation
 
 Secoda offers several features to help automate the enrichment and documentation of your data. For more details, check out [documentation-best-practices.md](documentation-best-practices.md "mention").
 
-#### **Initial Documentation Setup**&#x20;
+#### **Initial Documentation Setup**
 
-Creating robust documentation from the start is crucial. Ensure that Documents, Dictionary terms, and Catalog resource descriptions are well-documented to showcase Secoda's value immediately to new users. This initial content not only helps in accurate searches but also enhances the AI Assistant's functionality.
+Creating robust documentation from the start is crucial. Ensure that Documents, Glossary terms, and Catalog resource descriptions are well-documented to showcase Secoda's value immediately to new users. This initial content not only helps in accurate searches but also enhances the AI Assistant's functionality.
 
-#### **Prioritizing Certain Documentation**&#x20;
+#### **Prioritizing Certain Documentation**
 
 Begin by documenting the most frequently used resources, especially those relevant to the initial users you're bringing into Secoda. Use the [verified-tag.md](../resource-and-metadata-management/tags/verified-tag.md "mention") tag to signify that these resources are business-approved and provide the most reliable data.
 
-## **Building Out FAQs**&#x20;
+## **Building Out FAQs**
 
 Leverage Secoda's Questions feature to support new users effectively. Admins should pre-populate the Questions section with FAQs, providing answers and marking correct responses. This helps guide new users and facilitates their engagement with the data team.
 
-## **Integrating with Slack**&#x20;
+## **Integrating with Slack**
 
 Integrate Secoda with Slack to enhance internal communications. This integration allows users to query data through Slack and receive workspace notifications without leaving the platform. Learn more about [setting up](slack-less-than-greater-than-questions-workflow.md) and [using the Slack integration](../extensions/slack-connection/slack-user-guide.md) here.
 
-## **Creating Search Views**&#x20;
+## **Creating Search Views**
 
 Develop [Search views](../features/views.md) to aid Search navigation for new users. These views, once saved, are accessible to all users, helping them locate needed information efficiently.
 
-## **Enhancing the Homepage**&#x20;
+## **Enhancing the Homepage**
 
 The [#team-homepage](../features/homepage.md#team-homepage "mention") is the first interface users interact with in Secoda. Enhance user experience by pinning critical resources and writing notes in the Notepad feature. Explore how-to videos on optimizing Homepage functionality [here](../features/homepage.md).

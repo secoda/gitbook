@@ -37,6 +37,13 @@ dbt is a secondary integration that adds additional metadata on to your data war
 * Groups (Groups are referred to as `USER_GROUPS` in Secoda)
 * Contracts (dbt Contracts are referred to as `TEST` in Secoda)
 * Exposures
-  * The exposures can be a dashboard, notebook, analysis, ml, or application
+  * name&#x20;
+  * description
+  * tags
+  * owners (from meta.owner)
+  * url
+  * type
+    * The exposure type can be a dashboard, notebook, analysis, ml, or application
+  * depends\_on&#x20;
 * Monitors
   * See [#monitors-as-code](../../../features/monitoring.md#monitors-as-code "mention")on how to implement monitors in your model yml

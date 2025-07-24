@@ -92,6 +92,10 @@ You can connect to the AWS S3 bucket using an AWS IAM user, or AWS Roles.
 }
 ```
 
+{% hint style="info" %}
+To create an IAM permission policy, you would have to leave the role creation request in AWS to continue.&#x20;
+{% endhint %}
+
 4. Once the role is created, you'll receive an Amazon Resource Name (ARN) for the role.
 5. Connect your S3 bucket to Secoda
    * Navigate to [https://app.secoda.co/integrations/new](https://app.secoda.co/integrations/new) and click dbt Core
@@ -170,9 +174,9 @@ Endpoints ->
 
 ### 3a. Two separate calls (One for Manifest, One for Run Results)
 
-Manifest.json: `https://api.secoda.co/integration/dbt/manifest/`
+Manifest.json: `https://api.secoda.co/api/v1/integration/dbt/manifest/`
 
-Run\_results.json: `https://api.secoda.co/integration/dbt/run_result/`
+Run\_results.json: `https://api.secoda.co/api/v1/integration/dbt/run_result/`
 
 Method -> `POST`
 
@@ -187,7 +191,7 @@ headers = {
     "Authorization": "Bearer <Your Key>"
 }
 response = requests.post(
-	"<https://api.secoda.co/integration/dbt/manifest/>",
+	"<https://api.secoda.co/api/v1/integration/dbt/manifest/>",
 	files={"manifest_file": open("manifest.json", "rb")},
 	data={"integration": "Your Integration ID"},
 	headers=headers
@@ -204,7 +208,7 @@ headers = {
     "Authorization": "Bearer <Your Key>"
 }
 response = requests.post(
-	"<https://api.secoda.co/integration/dbt/run_result/>",
+	"<https://api.secoda.co/api/v1/integration/dbt/run_result/>",
 	files={"run_result_file": open("run_results.json", "rb")},
 	data={"integration": "Your Integration ID"},
 	headers=headers
@@ -281,6 +285,6 @@ response = requests.request("POST", url, headers=headers)
 print(response)
 </code></pre>
 
-#### 4. Now that a sync has been triggered, you can now monitor your sync in the UI!
+#### 4. After a sync has been triggered you can monitor your sync status in the UI
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a5b823c3-bf19-48b0-9a30-e577e4fc3ae5.png" alt=""><figcaption></figcaption></figure>

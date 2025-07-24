@@ -30,7 +30,7 @@ After your data is connected to Secoda, you'll be able to add users, owners, des
 
 As an editor in Secoda, we provide you with an [analytics](features/analytics-dashboard.md) dashboard to see how people are using Secoda in your company. Beyond that, you can also look at queries, joins, lineage and popularity of datasets in Secoda.
 
-You can also use our [API](secoda-api.md) to visualize any information from Secoda in a BI tool.
+You can also use our [API](broken-reference) to visualize any information from Secoda in a BI tool.
 
 ## How is the popularity calculated?
 
@@ -74,7 +74,7 @@ Secoda backs up all metadata every 5 minutes. This data is retained for 24 month
 
 ## When will you support \_\_\_\_ integration?
 
-There's a good chance we're already working on it! In order to support as many popular tools as possible, we are working on it diligently. If you need something that we do not support yet, create a request at [https://feedback.secoda.co/](https://feedback.secoda.co/).&#x20;
+There's a good chance we're already working on it! In order to support as many popular tools as possible, we are working on it diligently. If you need something that we do not support yet, create a request by reaching out to us over support@secoda.co.&#x20;
 
 ## Can I give feedback about Secoda?
 

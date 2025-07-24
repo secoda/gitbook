@@ -21,3 +21,4 @@
 | Anthropic PBC                                      | Artificial Intelligence           | United States                                                                             |
 | FullStory, Inc.                                    | Customer Intelligence             | United States                                                                             |
 | Raintank Inc. (Also known as Grafana Labs)         | Observability                     | United States                                                                             |
+| Braintrust Data, Inc.                              | Artificial Intelligence           | United States                                                                             |

@@ -19,7 +19,7 @@
     * [User engagement and adoption](readme/secoda-as-an-admin/user-engagement-and-adoption/README.md)
       * [Tips & Tricks to share with new users](readme/secoda-as-an-admin/user-engagement-and-adoption/tips-and-tricks-to-share-with-new-users.md)
   * [Secoda as an Editor](getting-started/secoda-as-an-editor.md)
-  * [Secoda as a viewer](getting-started/secoda-as-a-viewer/README.md)
+  * [Secoda as a Viewer](getting-started/secoda-as-a-viewer/README.md)
     * [Introduction guide](readme/secoda-as-a-viewer/introduction-guide.md)
     * [Requesting changes in Secoda](getting-started/secoda-as-a-viewer/requesting-changes-in-secoda.md)
 * [Best practices](best-practices/README.md)
@@ -138,6 +138,8 @@
       * [SQL Server Reporting Services Metadata Extracted](integrations/data-visualization-tools/sql-server-reporting-services/sql-server-reporting-services-metadata-extracted.md)
     * [Hex](integrations/data-visualization-tools/hex/README.md)
       * [Hex Metadata Extracted](integrations/data-visualization-tools/hex/hex-metadata-extracted.md)
+    * [Omni](integrations/data-visualization-tools/omni/README.md)
+      * [Omni Metadata Extracted](integrations/data-visualization-tools/omni/omni-metadata-extracted.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
     * [Census](integrations/data-pipeline-tools/census/README.md)
       * [Census Metadata Extracted](integrations/data-pipeline-tools/census/census-metadata-extracted.md)
@@ -175,6 +177,8 @@
         * [dbt Core Metadata Extracted](integrations/data-transformation-tools/dbt-core/metadata-extracted.md)
     * [Coalesce](integrations/data-transformation-tools/coalesce/README.md)
       * [Coalesce Metadata Extracted](integrations/data-transformation-tools/coalesce/coalesce-metadata-extracted.md)
+    * [Dataform](integrations/data-transformation-tools/dataform/README.md)
+      * [Dataform Metadata Extracted](integrations/data-transformation-tools/dataform/dataform-metadata-extracted.md)
   * [Data Quality Tools](integrations/data-quality-tools/README.md)
     * [Cyera](integrations/data-quality-tools/cyera.md)
     * [Dataplex](integrations/data-quality-tools/dataplex/README.md)
@@ -183,11 +187,15 @@
       * [Great Expectations Metadata Extracted](integrations/data-quality-tools/great-expectations-integration/metadata-extracted.md)
     * [Monte Carlo](integrations/data-quality-tools/monte-carlo/README.md)
       * [Monte Carlo Metadata Extracted](integrations/data-quality-tools/monte-carlo/monte-carlo-metadata-extracted.md)
+    * [Soda](integrations/data-quality-tools/soda/README.md)
+      * [Soda Metadata Extracted](integrations/data-quality-tools/soda/soda-metadata-extracted.md)
   * [Data Lakes](integrations/data-lakes/README.md)
     * [Google Cloud Storage](integrations/data-lakes/google-cloud-storage/README.md)
       * [GCS Metadata Extracted](integrations/data-lakes/google-cloud-storage/gcs-metadata-extracted.md)
     * [AWS S3](integrations/data-lakes/aws-s3/README.md)
       * [S3 Metadata Extracted](integrations/data-lakes/aws-s3/s3-metadata-extracted.md)
+    * [Azure Data Lake](integrations/data-lakes/azure-data-lake/README.md)
+      * [ADL Metadata Extracted](integrations/data-lakes/azure-data-lake/adl-metadata-extracted.md)
   * [Query Engines](integrations/query-engines/README.md)
     * [Trino](integrations/query-engines/trino/README.md)
       * [Trino Metadata Extracted](integrations/query-engines/trino/trino-metadata-extracted.md)
@@ -203,14 +211,15 @@
       * [Example Integrations](integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration/example-integrations.md)
     * [Secoda Fields Explained](integrations/custom-integrations-and-marketplace/secoda-fields-explained.md)
   * [Security](integrations/security/README.md)
-    * [Connecting via Reverse SSH Tunnel](integrations/security/connecting-via-secoda-agent-reverse-ssh-tunnel.md)
+    * [Connecting via Reverse SSH Tunnel](integrations/security/connecting-via-secoda-agent-reverse-ssh-tunnel/README.md)
+      * [Reverse SSH Tunnel FAQs](integrations/security/connecting-via-secoda-agent-reverse-ssh-tunnel/reverse-ssh-tunnel-faqs.md)
     * [Connecting via SSH Tunnel](integrations/security/connecting-via-ssh-tunnel.md)
     * [Connecting via VPC Peering](integrations/security/connecting-via-vpc-peering.md)
     * [Connecting via AWS Cross Account Role](integrations/security/connecting-via-aws-cross-account-role.md)
     * [Connecting via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/README.md)
       * [Snowflake via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/snowflake-via-aws-privatelink.md)
       * [AWS Service via AWS PrivateLink](integrations/security/connecting-via-aws-privatelink/aws-service-via-aws-privatelink.md)
-    * [Recommendations to Improve SSH Tunnel Concurrency on SSH Bastion](integrations/security/recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md)
+    * [Improve Concurrency on your SSH Bastion](integrations/security/recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md)
   * [Push Metadata to Source](integrations/push-metadata-to-source.md)
 * [Extensions](extensions/README.md)
   * [Chrome](extensions/chrome-extension.md)
@@ -219,6 +228,7 @@
     * [Confluence best practices](extensions/confluence/confluence-best-practices.md)
   * [Git](extensions/git-integration.md)
   * [GitHub](extensions/github.md)
+  * [Glean](extensions/glean.md)
   * [Jira](extensions/jira/README.md)
     * [Jira Metadata Extracted](extensions/jira/metadata-extracted.md)
   * [Linear](extensions/linear-integration.md)
@@ -226,6 +236,7 @@
   * [PagerDuty](extensions/pager-duty.md)
   * [Slack](extensions/slack-connection/README.md)
     * [Slack user guide](extensions/slack-connection/slack-user-guide.md)
+  * [ServiceNow](extensions/servicenow.md)
 * [Features](features/README.md)
   * [Access Requests](features/access-requests.md)
   * [Activity Log](features/activity-log.md)
@@ -244,6 +255,7 @@
   * [Documents](features/documents/README.md)
     * [Comments](features/documents/comments.md)
     * [Embeddings](features/documents/embeds.md)
+  * [Entity Relationship Diagram](features/entity-relationship-diagram.md)
   * [Filters](features/filters.md)
   * [Glossary](features/glossary.md)
   * [Homepage](features/homepage.md)
@@ -251,7 +263,7 @@
   * [Lineage](features/data-lineage.md)
     * [Manual Lineage](features/data-lineage/manual-lineage.md)
   * [Metrics](features/metrics.md)
-  * [Monitoring](features/monitoring.md)
+  * [Monitors](features/monitoring.md)
     * [Monitoring Use Cases](features/monitoring/monitoring-use-cases.md)
   * [Notifications](features/notifications.md)
   * [Policies](features/policies.md)
@@ -266,8 +278,9 @@
   * [Secoda AI](features/ai-assistant/README.md)
     * [Secoda AI User Guide](features/ai-assistant/best-practices.md)
     * [Secoda AI Use Cases](features/ai-assistant/secoda-ai-use-cases.md)
+    * [Secoda MCP Server](features/ai-assistant/secoda-mcp-server.md)
+    * [Secoda AI Capabilities](features/ai-assistant/secoda-ai-capabilities.md)
     * [Secoda AI Security FAQs](features/ai-assistant/security.md)
-    * [Prompts](features/ai-assistant/prompts.md)
   * [Sharing](features/sharing-resources.md)
   * [Views](features/views.md)
 * [Enterprise](enterprise/README.md)
@@ -277,6 +290,7 @@
     * [Microsoft Azure AD SAML](saml/microsoft-azure-ad-saml.md)
     * [Google SAML](saml/google-saml.md)
     * [SCIM](saml/scim.md)
+    * [SAML Attributes](saml/attributes.md)
   * [Self-Hosted](self-hosted-secoda/README.md)
     * [Additional Resources](self-hosted-secoda/additional-resources/README.md)
       * [Additional Environment Variables](enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/README.md)
@@ -292,11 +306,31 @@
     * [Self-Hosted Changelog](enterprise/self-hosted-secoda/self-hosted-changelog.md)
   * [SIEM](enterprise/siem/README.md)
     * [Google Chronicle](enterprise/siem/google-chronicle.md)
-* [API](secoda-api.md)
-  * [Get Started](secoda-api/get-started.md)
-  * [Authentication](secoda-api/authentication.md)
-  * [Example Workflows](secoda-api/example-workflows.md)
-  * [API Reference](https://api.secoda.co/api/schema/redoc/)
+* [API](api/README.md)
+  * [Authentication](api/authentication.md)
+  * [Reference](api/reference/README.md)
+    * ```yaml
+      props:
+        models: true
+      type: builtin:openapi
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
+    * ```yaml
+      props:
+        models: true
+      type: builtin:openapi
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
+  * [Examples](api/examples.md)
+  * [Secoda AI API](api/secoda-ai-api.md)
 * [FAQ](faq.md)
 * [Policies](policies/README.md)
   * [Terms of Use](policies/terms-of-use.md)

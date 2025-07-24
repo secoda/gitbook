@@ -22,13 +22,13 @@ You can read all about automated Lineage in Secoda [here](../data-lineage.md). M
 #### Creating New Lineage
 
 1. Click into a resource that you would like to add a lineage node to in Secoda. You can do this via the Catalog, or via Search.
-2. Click into the Lineage tab and click the `Add Node` button to manually add a new node to the Lineage diagram. A new Lineage Node modal will open up.
+2. Click into the Lineage tab and hover over the resource you'd like to link a node to. Click on the blue plus button to manually add a new node to the Lineage diagram. A new Lineage Node modal will open up.
 3. From the new Lineage Node, use the search bar to search for the Resource you want to add to the Lineage diagram.
 4. Connect the new Lineage Node to any desired Lineage Node on the diagram, and click `Save` to save your changes.
 
 The new connection you have created is bi-directional on Catalog resources. That means, if you connect a dashboard to a column (for example), you can go to that dashboard and see the connection there as well.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/65c06bbd-2aa8-4668-8d19-6c740768eb20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-17 at 5.15.52 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Deleting Manual Lineage
 

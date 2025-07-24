@@ -36,10 +36,6 @@ Secoda currently integrates with many different tools, see below for the types o
 [data-quality-tools](data-quality-tools/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](https://app.secoda.co/) 👈
 {% endhint %}

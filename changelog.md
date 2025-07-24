@@ -4,6 +4,74 @@
 The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
 
+## 🔌Secoda MCP Server (v8.12.0)
+
+May 29, 2025
+
+⚡ Secoda AI runs on Claude Sonnet and Opus 4: Anthropic’s latest models deliver 30% faster response times, clearer formatting, and more consistent answers across use cases.
+
+🧠 Model Context Protocol (MCP): The new MCP Server lets agents like Claude and Cursor securely access real-time context — including lineage and documentation — directly from your catalog.
+
+📊 In-app feature analytics: Track adoption and impact across Secoda AI, Monitoring, Automations, and more with built-in dashboards available inside every feature.
+
+🚀 Customer spotlights: Learn how teams at Deezer, Miinto, and LichtBlick automated data quality, scaled governance, and embedded AI into their workflows with Secoda.
+
+[Read more](https://www.secoda.co/product-news/may-2025)
+
+## 📊Secoda’s new AI charts and Snowflake Native App (v8.10.0)
+
+April 30, 2025
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/dssmg53d/1502184127/cd19c67750f04ba73d24738fee6c/April.png?expires=1747346400&#x26;signature=b6b3118a1cfdfe39d7ff450140e7f86ed3c93c9d1e758979bd518db16acbc954&#x26;req=dSUnFMh2mYBdXvMW1HO4zauoaxCyUBkPZz%2F6ag5WsIf%2BJch%2FO3a1%2F2mW4RMR%0AQgVc%0A" alt=""><figcaption></figcaption></figure>
+
+Your central source for everything new this month is now live. Check out the full breakdown on our [April landing page](https://www.secoda.co/product-news/april-2025), including three major updates we’re excited to share:
+
+🚀 AI-generated charts: Ask a question, get a chart. Use Secoda’s AI chatbot to instantly create live, shareable visualizations — no SQL or extra tools needed.
+
+❄️ Snowflake Native App: Monitor data health and explore synced metadata directly inside Snowflake. A faster, easier way to govern your Snowflake environment.
+
+📊 Omni integration: Bring Omni dashboards, charts, and lineage into Secoda to make trusted BI more discoverable and connected across your stack.
+
+[Read more](https://www.secoda.co/product-news/april-2025)
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/dssmg53d/1498446211/4303ccc22fbcf70f2eb2c8a0dd9d/new-homepage.png?expires=1747346400&#x26;signature=7d8cc7b4ee46bd7d7ff5501fd991fdc34d67f1d5c19bf2083bf700aae5571c45&#x26;req=dSQuHs16m4NeWPMW1HO4zZh2OCU1dH7O0MOnCFNcVDRLzwdUNPqWKOn6wQfu%0Al2JZ%0A" alt=""><figcaption></figcaption></figure>
+
+### 🏠 Secoda homepage update: AI front and center <a href="#h_219c272670" id="h_219c272670"></a>
+
+We’ve updated the Secoda homepage to highlight AI as the gateway to better data experiences. Organizations that enable Secoda AI are seeing 3x higher retention rates, helping teams drive adoption and unlock deeper engagement.
+
+Read on to learn how customizing AI instructions, enabling memory, and setting filters can help you tailor Secoda AI to your team’s needs.
+
+## Governance on autopilot: Ready-made policies you can trust (v8.7.0)
+
+March 31, 2025
+
+Your central source for everything new this month is now live. Catch the full breakdown on our [March landing page](https://secoda.intercom-clicks.com/via/e?ob=9loGShLm5tlJIgsra2oDtpVgnBMPyiAoI0YnDI9Kjl0E7oPakvuEHxrOyYiEmHfP\&h=8ede21d3fa1a7f855335403883162b44dd5b5b28-dssmg53d_215468801230409\&l=9dcaff947a28d57d681bbdf770be68818904972b-145849735), including:
+
+🔐 [Policies](https://docs.secoda.co/features/policies) – Define and automate governance rules for GDPR, HIPAA, and more
+
+📥 [Access requests](https://docs.secoda.co/features/access-requests) – One place to approve and manage access across your tools
+
+🏥 [Activity log & version history](https://docs.secoda.co/features/access-requests) – A full list of each action that is performed in Secoda
+
+<details>
+
+<summary>Improvements</summary>
+
+* Dark Mode
+* Settings UI update
+* GitHub Impact analysis report on PRs
+* Search filter for if upstream or downstream lineage exists
+* Search filteres for custom properties
+* Send notifications to downstream subscribers for Monitor Incident
+* Analytics widgets for Secoda AI chats and history
+* ClickHouse Integration
+* Snowpipe and Streamlit support in Snowflake Integration
+
+</details>
+
+
+
 ## Custom roles, Access Requests, and Secoda AI Enhancements (v8.4.0)
 
 Feb 14, 2025
@@ -60,7 +128,7 @@ This update gives you more flexibility and control over your Secoda AI experienc
 
 We’re excited to offer [custom roles](https://secoda.intercom-clicks.com/via/e?ob=BDTKtEPMtfMxfBwMvVupbcjSn%2BR6c0pU5ll2LxhFHxI1r2twHbF7UliJKQsNFUKR\&h=07983fe4d2943021055cf67c7736e6f480e8d5e3-dssmg53d_615450\&l=0c63de3ed5e84eaa8a62c68782a795de7f558cf0-131246877) in early access, giving your teams more flexibility and control over access permissions. Static roles can be limiting—Secoda’s fine-grained permissions ensure everyone gets access to exactly what they need, and nothing more.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Key features:
 

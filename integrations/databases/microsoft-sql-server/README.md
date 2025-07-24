@@ -1,5 +1,5 @@
 ---
-description: An overview of the Microsoft SQL Server integration with Secoda
+description: Microsoft SQL Server Integration with Secoda
 ---
 
 # Microsoft SQL Server
@@ -8,53 +8,62 @@ description: An overview of the Microsoft SQL Server integration with Secoda
 [metadata-extracted.md](metadata-extracted.md)
 {% endcontent-ref %}
 
-## **Getting Started with Microsoft SQL Server** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+### Getting Started with Microsoft SQL Server
 
-There are three steps to get started using Microsoft SQL Server with Secoda:
+There are three high-level steps to start using Microsoft SQL Server with Secoda:
 
 1. Create a database user
-2. Connect Microsoft SQL Server to Secoda
-3. Whitelist Secoda IP Address
+2. Whitelist the Secoda IP address
+3. Integrate Microsoft SQL Server in Secoda
 
-### **Create a Database User** <a href="#h_4dd83bd377" id="h_4dd83bd377"></a>
+#### Create a Database User
 
-The username and password you’ve already created for your cluster is your admin password, which you should keep for your own usage. For Secoda, and any other 3rd-parties, it is best to create distinct users.
+The username and password you originally set up for your cluster is your admin account. Keep this account for your own use. For Secoda (or any other third-party tool), create a separate, limited-scope user.
 
-To create a new user, you’ll need to log into the Microsoft SQL Server database directly and run the following SQL commands:
+```sql
+-- Create a user named "secoda" that Secoda will use when connecting to your Microsoft SQL Server database.
+CREATE USER secoda PASSWORD = '<enter-strong-password-here>';
 
-```
--- Create a user named "secoda" that Secoda will use when connecting to your Microsoft SQL Server database. 
-CREATE USER secoda PASSWORD  = '<enter password here>'; 
-
--- Complete this query for any databases you would like Secoda to extract from 
+-- Grant read-only access on each database you would like Secoda to extract from.
 GRANT SELECT ON DATABASE <yourdbname> TO secoda;
 ```
 
-When connecting to Microsoft SQL Server in Secoda, use the username/password you’ve created here instead of your admin account.
+Use these credentials (not your admin account) when configuring the integration in Secoda.
 
-### **Connect Microsoft SQL Server to Secoda** <a href="#h_dc83b40ac9" id="h_dc83b40ac9"></a>
+#### Connect Microsoft SQL Server to Secoda
 
-After creating a Microsoft SQL Server user, the next step is to connect Secoda:
-
-1. In the Secoda App, select ‘Add Integration’ on the Integrations tab
-2. Search for and select ‘Microsoft SQL Server’
-3. Enter your Microsoft SQL Server credentials
-4. Click 'Connect'
+1. In the **Integrations** tab of the Secoda app, click **Add Integration**.
+2. Select **Microsoft SQL Server**.
+3. Enter your connection details.
+4. Choose an authentication method (explained below).
+5. Click **Connect**.
 
 {% hint style="info" %}
-You can now connect to the entire server and integrate all databases within it through a single integration. This enhancement simplifies management by allowing a single point of integration for multiple databases, which previously required separate integrations for each database.
+You can connect to an entire server and integrate its databases through a single integration. This enhancement simplifies integration, which previously required separate integrations for each database.
 {% endhint %}
 
-### **Security** <a href="#h_c60cf20ba6" id="h_c60cf20ba6"></a>
+**Connection Methods**
 
-VPCs keep servers inaccessible to traffic from the internet. With VPC, you’re able to designate specific web servers access to your servers. In this case, you will be whitelisting the Secoda IPs to read from your data warehouse.
+| Method                      | How it Authenticates           | Typical Use Case                                                                                                                         |
+| --------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Direct (SQL Authentication) | SQL Server username & password | Quick setup for any environment.                                                                                                         |
+| Azure AD                    | Azure Active Directory account | Cloud or hybrid environments using centralized identity management.                                                                      |
+| Windows AD (NTLMv2)         | Domain credentials via NTLMv2  | On-premise or hybrid domains. Strongly recommended to pair with reverse/forward SSH tunnels to provide a layer of end-to-end encryption. |
 
-Allow Secoda to read into your Microsoft SQL Server database using the [Secoda IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda)
+#### Security
 
-## Troubleshooting
+If your SQL Server is inside a VPC or behind a firewall, whitelist Secoda’s outbound IP addresses so our workers can reach the host. Alternatively, use a reverse **SSH Tunnel**.
 
-If you are having errors connecting your Microsoft SQL, it might be because your Host IP Address is private. In this case, you'll need to set up an SSH Tunnel so that Secoda can access the Host. Instructions for setting up an SSH Tunnel can be found [here](../../security/connecting-via-ssh-tunnel.md).
+Once an SSH tunnel is configured (if you are using one), choose **SSH Tunnel** in the connection form and provide the tunnel details.\
+\
+See the full list here: [What are the IP addresses for Secoda?](https://your-secoda-docs-link-here/)
 
-Once a tunnel has been created, make sure to choose the SSH Tunnel in the drop down list when inputting your credentials for the integration.
+### Troubleshooting
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-05-04%20at%203.37.09%20PM.png)
+| Issue                             | Possible Cause                                              | Resolution                                                                                                    |
+| --------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Timeout or “host unreachable”     | The server is on a private network.                         | Whitelist the Secoda IPs or use a reverse SSH tunnel                                                          |
+| Authentication failures           | Wrong auth type selected.                                   | Verify you picked the correct method (SQL Login, Azure AD, or Windows AD) and that the credentials are valid. |
+| Permission errors                 | The `secoda` user lacks SELECT rights.                      | Re-run the `GRANT SELECT` statement for each required database.                                               |
+| Login is from an untrusted domain | Wrong auth type selected or incorrect username and password | Check that NTLMv2 is enabled on the SQL server and ensure username and password are correct                   |
+

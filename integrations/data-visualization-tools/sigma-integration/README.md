@@ -31,11 +31,11 @@ To create a Sigma access token for Secoda visit Sigma and log into your account.
 
 #### **Retrieve your Sigma host** <a href="#h_2e32c48e7f" id="h_2e32c48e7f"></a>
 
-In the **Administrator** settings go to **Account.** In the top under the **Site** you can see which cloud your hosted on, either AWS or GCP.
+In the **Administrator** settings go to **Account.** In the top under the **Site** you can see which cloud you are hosted on.
 
 ![](https://secoda-public-media-assets.s3.amazonaws.com/image%20\(7\).png)
 
-The host parameter is https://api.sigmacomputing.com for GCP organizations and https://aws-api.sigmacomputing.com for AWS organizations.
+You can find your respective host parameter in [this table](https://help.sigmacomputing.com/reference/get-started-sigma-api#identify-your-api-request-url). For example, if you are hosted on AWS US (West), your host parameter is [https://aws-api.sigmacomputing.com](https://aws-api.sigmacomputing.com).
 
 #### **Connect Sigma to Secoda** <a href="#h_b1c101d905" id="h_b1c101d905"></a>
 

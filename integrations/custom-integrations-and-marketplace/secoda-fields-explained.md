@@ -6,7 +6,7 @@ description: >-
 
 # Secoda Fields Explained
 
-The fields below are referenced in the [JSONL file](custom-integration/create-your-jsonl-file.md), the [SDK Documentation](secoda-sdk-custom-integration/sdk-documentation.md), and in the [API docs](../../secoda-api.md).
+The fields below are referenced in the [JSONL file](custom-integration/create-your-jsonl-file.md), the [SDK Documentation](secoda-sdk-custom-integration/sdk-documentation.md), and in the [API docs](broken-reference).
 
 ## Base Resource Fields
 

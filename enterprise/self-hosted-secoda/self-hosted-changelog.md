@@ -6,6 +6,81 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.3.0 (July 10, 2025)
+
+* Glean extension
+* ServiceNow extension
+
+### v2025.2.10 (June 23, 2025)
+
+* BigQuery column sort order fix
+* Missing preview button fix
+* Dataform integration
+* SAML attribute mapping to custom roles
+* SAML Role Removal fix
+* PII keyword cannot be removed from wordlist fix
+
+### v2025.2.8 (May 26, 2025)
+
+* Secoda MCP Server
+* Sode Cloud Integration
+* SCIM v2 endpoint
+
+### v2025.2.7 (April 30, 2025)
+
+* Secoda AI charts
+* Omni integration
+* New home page
+* Fix for Power BI preview
+
+### v2025.2.6 (April 23, 2025)
+
+* Fixed Elasticsearch environment variable
+
+### v2025.2.5 (April 22, 2025)
+
+* Airbyte lineage improvements
+* Various Snowflake and dbt lineage improvements
+* Fixed Confluent Cloud syncs failing
+
+### v2025.2.4 (April 16, 2025)
+
+* Fix list view additional scroll
+* Fix for Hightouch lineage
+* Fix for dbt job lineage
+* Fix for incident email notifications
+* Updated  Claude 3.5 Sonnet to 3.7
+* Fix for Home Page widgets
+
+### v2025.2.3 (April 6, 2025)
+
+* Add additional SAML attribute for access control
+
+### v2025.2.2 (April 2, 2025)
+
+* Fix for dbt lineage accuracy
+* Fix for Hightouch lineage accuracy
+
+### v2025.2.1 (April 2, 2025)
+
+* Fix for lineage graph not loading
+
+### v2025.2.0 (April 1, 2025)
+
+**New Features**
+
+* **Custom Roles (Early Access)**: Introduced the ability to design roles with fine-grained access controls to resources and features within Secoda, allowing organizations to tailor permissions to their specific needs.&#x20;
+* **Access Requests (Early Access)**: Implemented a centralized hub for requesting, approving, and managing data access across all integrated tools, streamlining the access control process.&#x20;
+* **Secoda AI Model Selection**: Provided users with the option to choose between Anthropic's Claude 3.5 Sonnet and OpenAI's GPT-4o to power their Secoda AI experience, enhancing flexibility and control over AI interactions.
+
+**Improvements**
+
+* **ClickHouse Integration**: Integrate with ClickHouse to catalog and discover data resources, supporting metadata extraction and documentation.​
+* **Dark Mode**: Introduce a dark mode theme for the Secoda interface, offering users an alternative visual experience to reduce eye strain.​
+* **GitHub Impact Analysis Report on PRs**: Implement impact analysis reports for GitHub pull requests, providing insights into potential effects on data resources and documentation.​
+* **Search Filters for Lineage and Custom Properties**: Enhance search functionality with filters for data lineage and custom properties, improving the ability to locate and analyze specific data assets.​
+* **Snowpipe and Streamlit Support in Snowflake Integration**: Extend Snowflake integration to support Snowpipe and Streamlit, facilitating automated data loading and interactive data applications.
+
 ### v2025.1.17 (March 14, 2025)
 
 * Fixed validation error on Airbyte integration

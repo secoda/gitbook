@@ -1,12 +1,12 @@
 ---
 description: >-
-  Editors can embed live queries into table documentation, dictionary terms,
-  docs, questions and collections.
+  Editors can embed live queries into table documentation, glossary terms, docs,
+  questions and collections.
 ---
 
 # Query Blocks
 
-By using the `/query` command, editors can embed live queries into table documentation, dictionary terms, docs, questions and collections. This allows users to preview the data directly in Secoda.
+By using the `/query` command, editors can embed live queries into table documentation, glossary terms, docs, questions and collections. This allows users to preview the data directly in Secoda.
 
 ## Running a query
 

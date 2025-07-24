@@ -1,5 +1,5 @@
 ---
-description: Welcome to Secoda! Your data organization's single source of truth.
+description: Welcome to Secoda! Your data organization's single source of truth for data.
 ---
 
 # Getting Started with Secoda
@@ -12,7 +12,7 @@ Secoda stands for **Se**archable **Co**mpany **Da**ta. Your Secoda workspace is 
 
 Secoda is a data enablement tool that automates the process of tracking and documenting data lineage, enhances data documentation, and improves data discovery. By connecting your data sources to Secoda and setting up data lineage and documentation, you can improve transparency and understandability of your data and make it easier for others to use and trust.
 
-The data discovery features offered by Secoda, such as the Search function, data dictionaries, and data lineage visualization, can help you and your team find and access the data you need more easily. Inviting your team to join Secoda allows you to collaborate and share data assets more efficiently, improving collaboration and data management within your organization. Overall, using Secoda can help streamline data management, enhance data governance, and improve productivity within your organization.
+The data discovery features offered by Secoda, such as the search, data glossary, and data lineage, can help you and your team find and access the data you need more easily. Inviting your team to join Secoda allows you to collaborate and share data assets more efficiently, improving collaboration and data management within your organization. Overall, using Secoda can help streamline data management, enhance data governance, and improve productivity within your organization.
 
 ## Learn about Secoda as...
 

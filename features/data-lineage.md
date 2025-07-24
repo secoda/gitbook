@@ -34,6 +34,11 @@ Overall, lineage is an important aspect of data management and can help organiza
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/898abb15-b9bb-4ed9-97a7-e46f5e572f57.gif" alt=""><figcaption><p>Fullscreen</p></figcaption></figure>
 
+{% hint style="info" %}
+**Admins** can view all nodes in the lineage, including resources outside their teams.\
+**Editors and Viewers** only see lineage for resources they have access to.
+{% endhint %}
+
 ### **One-Click Impact Analysis**
 
 From any node, click the three dots and **Analyze Impact** to see a list-view of all upstream and downstream dependencies of that resource. This view makes impact analysis quick and easy with just one click.
@@ -51,13 +56,21 @@ When you connect a data source to Secoda, Lineage is automatically generated fro
 * `CREATE_TABLE_AS_SELECT`
 * `CREATE_VIEW`
 * `MERGE`
-* `JOIN`
+* `JOIN`&#x20;
+
+{% hint style="info" %}
+For DBT, we use the manifest.json to increase lineage coverage.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+For lineage that exists between integrations or depends on another integration (e.g., dbt), make sure that the resources have been extracted during the sync so that the lineage is generated properly.
+{% endhint %}
 
 ## Export lineage
 
-Interested in exporting the lineage graph that Secoda created for you? Simply click the Export lineage button which will download a .png file of the lineage graph you are clicked into.
+Interested in exporting the lineage graph that Secoda created for you? Simply click the Export PNG or Export to CSV button which will download a file of the lineage graph you are clicked into.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1f3cca89-74c6-4b44-bc9c-84c610439d83.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-07-22 at 11.43.08 AM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

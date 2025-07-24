@@ -7,10 +7,10 @@ description: Customize and manage your integration after setup.
 On the **Integrations** page, you can easily view and search through all your integrations. You can see details about your integrations including the last and upcoming runs, as well as the status of the most recent run. Additionally, you can use the command palette to run or delete multiple integrations at once.
 
 {% hint style="warning" %}
-Deleting an integration from the workspace will remove all associated resources. Adding the integration back will not preserve the changes (e.g. metadata updates) that were made when originally connected and rather will act as a new integration.&#x20;
+Deleting an integration from the workspace will remove all associated resources. Adding the integration back will not preserve the changes (e.g. metadata updates) that were made when originally connected and rather will act as a new integration.
 {% endhint %}
 
-If you click into an integration, the following options become available.&#x20;
+If you click into an integration, the following options become available.
 
 ### Enable Integration
 
@@ -18,10 +18,10 @@ After selecting an integration, you'll find the **Enabled** toggle in the top ri
 
 ### Run Sync
 
-In the top right corner, you'll also see the **Run Sync** button. This action triggers a manual sync. Clicking this button allows you to choose whether the sync should **Pull** or **Push** metadata.&#x20;
+In the top right corner, you'll also see the **Run Sync** button. This action triggers a manual sync. Clicking this button allows you to choose whether the sync should **Pull** or **Push** metadata.
 
 {% hint style="info" %}
-Not all integrations will support both Pull and Push. Learn more about what integrations are supported for Push Metadata [here](push-metadata-to-source.md).&#x20;
+Not all integrations will support both Pull and Push. Learn more about what integrations are supported for Push Metadata [here](push-metadata-to-source.md).
 {% endhint %}
 
 ### Syncs
@@ -36,7 +36,7 @@ To automate your syncs, use this page to set the run frequency with a Cron Expre
 
 If applicable to the integration, use this page to select which Groups or Schemas you want to sync. Click the **Refresh** button to check for any new Groups or Schemas available for import. By default, all Groups and Schemas will be selected and included in the sync.
 
-If you'd like to change this default behaviour, navigate to the [Resource Management](integration-settings.md#resource-management) section in the [Preferences.](integration-settings.md#preferences)&#x20;
+If you'd like to change this default behaviour, navigate to the [Resource Management](integration-settings.md#resource-management) section in the [Preferences.](integration-settings.md#preferences)
 
 In addition the Teams that a Database, Schema, or Group are associated with can be configured on this tab under the "Team visibility" column. By default, the Teams will be inherited from the Integration settings but you can override the Teams on any Database, Schema, or Group.
 
@@ -44,25 +44,23 @@ In addition the Teams that a Database, Schema, or Group are associated with can 
 
 ### Preferences
 
-#### Preview Permissions
-
-This section allows you to select which Roles or User Groups should have permission to [Preview](../features/data-previews.md) the resource, if the integration supports Preview. By default, all Roles are given permission to preview.&#x20;
-
 #### Query Permissions
 
-This section lets you choose which Editors in your workspace have permission to query the resource, if the integration supports querying. By default, only Admins can query the resource. However, querying permissions for Viewers are not currently supported.
+This section lets you choose which users in your workspace have permission to query the resource through the preview, query block, monitoring, and Secoda AI feature, if the integration supports querying. By default, only Admins and Editors can query the resource.
+
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Popularity
 
-This section allows you to deselect any accounts that you do not want to contribute to resource Popularity. The Popularity of a data resource in Secoda is determined by the number of times it has been queried or viewed in the last 24 hours, with data pulled directly from the integration. Learn more about Popularity [here](../features/popularity.md).
+This preference allows you to deselect any accounts that you do not want to contribute to resource Popularity. The Popularity of a data resource in Secoda is determined by the number of times it has been queried or viewed in the last 24 hours, with data pulled directly from the integration. Learn more about Popularity [here](../features/popularity.md).
 
-#### Property Management
+#### Property Import
 
-For any integration that syncs Tags, Owners, or Descriptions, this section allows you to choose where these properties are maintained. If they are maintained in Secoda, the fields will never be overwritten by a sync. If they are maintained in the integration, the fields will not be editable in Secoda.
+This preference allows your to determine the import behaviour of properties, such as descriptions and tags, from your data source as properties in Secoda. The following options are available for importing properties:
 
-{% hint style="info" %}
-Regardless of the settings chosen, when a resource is synced with Secoda for the first time, all available metadata will be imported.
-{% endhint %}
+* **Never**: No properties are imported from your data source
+* **Smart**: Properties are imported from your data source until modified in Secoda. Once you edit a property in Secoda, it won't be overwritten by future imports
+* **Always**: Properties are always imported from your data source. Overwrites any existing values in Secoda with each sync
 
 #### Resource Management
 
@@ -73,6 +71,32 @@ This section offers several options. If a toggle is specific to a particular int
 
 #### Filtering
 
-In this section, you can use the filters to exclude resources (schemas, tables, columns) from extraction based on their title.  Excluding resources based on other properties is not currently supported.
+In this section, you can use the filters to exclude resources (schemas, tables, columns) from extraction based on their title. Excluding resources based on other properties is not currently supported.
 
-{% embed url="https://www.loom.com/share/4d7f24d958464f95ae493d165da7bb0a?sid=5708cbf8-0635-46a7-9fc9-8da59f80e857" %}
+### FAQs
+
+<details>
+
+<summary>How does property management for descriptions, tags, and owners work?</summary>
+
+Secoda uses change tracking to determine the source of truth for properties like descriptions, owners, and tags.
+
+The source property is used when:
+
+* Property is empty in Secoda
+* Property hasn't been modified by users in Secoda
+* Source provides new data
+
+User modifications are preserved in Secoda when:
+
+* Users have manually edited the property in Secoda
+
+Additional cases:
+
+* First sync: Source data populates all empty properties
+* Empty source values: Don't overwrite existing Secoda data
+* Compliance integrations (e.g., Cyera, and Dataplex): Tags are appended rather than replaced
+
+The system prioritizes preserving user curation while allowing source systems to populate and update unmodified properties.
+
+</details>

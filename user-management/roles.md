@@ -10,7 +10,7 @@ Secoda provides the ability to declare fine-grained access controls through Cust
 * The Data Platform team should be allowed to manage users and groups, view platform analytics, and manage roles.
 
 {% hint style="info" %}
-Custom Roles are only enabled for Premium and Enterprise tiers.
+Custom Roles are currently in Early Access. To get early access please fill out the form [here](https://tally.so/r/3N8ENQ).
 {% endhint %}
 
 ### What is a Custom Role?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-policy" id="what-is-a-policy"></a>
@@ -109,10 +109,10 @@ Manage is all permissions (Create, Update, Delete, and View)
 
 | Name              | Admin  | Editor         | Viewer |
 | ----------------- | ------ | -------------- | ------ |
-| API keys          | Manage | Create, Update | View   |
+| API keys          | Manage | Create, Update | None   |
 | Billing           | Manage | None           | None   |
 | Import and export | Manage | None           | None   |
-| Workspace         | Manage | View           | View   |
+| Workspace         | Manage | View           | None   |
 
 **Features**
 
@@ -123,9 +123,9 @@ Manage is all permissions (Create, Update, Delete, and View)
 | Automations        | Manage | View           | None         |
 | Column profile     | Manage | Manage         | View         |
 | Data quality score | Manage | Create, Update | View         |
-| Integrations       | Manage | View           | View         |
+| Integrations       | Manage | View           | None         |
 | Lineage            | Manage | Create, Update | View         |
-| Monitors           | Manage | Create, Update | View         |
+| Monitors           | Manage | Create, Update | None         |
 | Policies           | Manage | Manage         | View         |
 | Preview            | View   | View           | View         |
 | Properties         | Manage | Manage         | View         |

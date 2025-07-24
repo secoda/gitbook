@@ -2,9 +2,7 @@
 description: Create data monitors for visibility into the health of your data stack
 ---
 
-# Monitoring
-
-## Monitoring
+# Monitors
 
 ### Introduction
 
@@ -84,6 +82,10 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 **Note:** You can only add a monitor type which each of the columns support.
 
 For example, if you have 3 numeric columns selected, you can add a "MIN" or "MAX" monitor, but you cannot do it if even one string column is selected in the modal.
+{% endhint %}
+
+{% hint style="info" %}
+**Note:** The monitor status is `Pending` during the time it is queued to run for the first time.
 {% endhint %}
 
 #### Custom SQL Monitors
@@ -229,6 +231,41 @@ monitors:
       bounds: lower
 ```
 
+**Array Format (Multiple Monitors per Metric Type)**
+
+You can also create multiple monitors for the same metric type using array syntax:
+
+```yaml
+monitors:
+  custom_sql:
+    - key: daily_record_count
+      name: "Daily Record Count"
+      query: "SELECT COUNT(*) FROM orders WHERE date = CURRENT_DATE"
+      thresholds:
+        method: manual
+        min: 1000
+        max: 10000
+    - key: average_order_value
+      name: "Average Order Value"
+      query: "SELECT AVG(total_amount) FROM orders WHERE date = CURRENT_DATE"
+      thresholds:
+        method: automatic
+        sensitivity: 7
+    - key: cancelled_orders_ratio
+      name: "Cancelled Orders Ratio"
+      query: "SELECT COUNT(CASE WHEN status = 'cancelled' THEN 1 END) * 100.0 / COUNT(*) FROM orders"
+      thresholds:
+        method: manual
+        min: 0
+        max: 5
+  row_count:
+    name: "Single Row Count Monitor"  # Single config still works
+```
+
+{% hint style="info" %}
+**Recommendation**: When using array format, it's recommended to add a `key` field with a unique string identifier for each monitor (e.g., `daily_record_count`, `average_order_value`). This key should remain constant and helps maintain monitor identity across configuration changes.
+{% endhint %}
+
 You can mix both formats across different models and columns, but each individual `monitors` section must use either list or dictionary format, not both. Use list format for simplicity when default settings are sufficient, and dictionary format when you need to customize any monitor settings.
 
 #### Available Monitor Types
@@ -314,7 +351,13 @@ models:
                   max: 10
 ```
 
-### Monitoring Integrations
+## Migration
+
+### Metaplane
+
+
+
+## Monitoring Integrations
 
 The following integrations support monitoring
 
