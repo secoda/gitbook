@@ -9,7 +9,7 @@ Wondering if the Secoda AI is the right tool for your workspace considering your
 Ensuring our customers feel safe and comfortable using this tool is a **top priority for us**. Read on to learn how we are ensuring your data is safe and secure.
 
 {% hint style="info" %}
-"LLM provider" refers to Open AI or Anthropic depending on the model an admin selects in the AI permission settings.
+"LLM provider" refers to Open AI, Google, or Anthropic depending on the model an admin selects in the AI permission settings.
 {% endhint %}
 
 ### What data is sent to the LLM provider?
@@ -22,7 +22,7 @@ No, all metadata is specific to your workspace and is not shared or accessible b
 
 ### Is the LLM provider saving this data?
 
-According to OpenAI and Anthropic, any data sent over through the API is not used to train their Large Language Model. You can read more about OpenAI and Anthropic's policies [here](https://openai.com/policies/api-data-usage-policies) and [here](https://www.anthropic.com/legal/commercial-terms).
+OpenAI, Google, and Anthropic state that any data sent through their APIs is not used to train their language models. You can learn more by reviewing their respective data usage policies: [OpenAI](https://openai.com/enterprise-privacy/), [Google](https://ai.google.dev/gemini-api/terms?_gl=1*q0ne42*_up*MQ..*_ga*MTkwODA2NDgzMy4xNzUyNzg0MTM0*_ga_P1DBVKWT6V*czE3NTI3ODQxMzQkbzEkZzAkdDE3NTI3ODQxMzQkajYwJGwwJGgxMzcyNDI0MzY0), and [Anthropic](https://www.anthropic.com/legal/commercial-terms).
 
 ### Do my interactions with Secoda AI get saved by Secoda?
 
@@ -30,13 +30,13 @@ To improve your user experience with Secoda AI, your prompts are saved. You can 
 
 ### Is this tool GDPR Compliant?
 
-OpenAI and Anthropic are both GDPR compliant and take data privacy very seriously. They have implemented measures to ensure compliance with GDPR and other data privacy laws, such as providing users with the ability to delete their data and implementing data protection impact assessments.
+Google, OpenAI, and Anthropic are GDPR compliant and take data privacy very seriously. They have implemented measures to ensure compliance with GDPR and other data privacy laws, such as providing users with the ability to delete their data and implementing data protection impact assessments.
 
 ### Does the metadata leave my geographical region?
 
-Both OpenAI and Anthropic have their servers hosted strictly in the US, so all metadata that is sent to the LLM provider is sent to the US.
+Google, OpenAI and Anthropic have their servers hosted strictly in the US, so all metadata that is sent to the LLM provider is sent to the US.
 
-OpenAI and Anthropic offer a GDPR-compliant Data Processing Addendum (DPA) that outlines the company's obligations and responsibilities as a data processor under GDPR.
+Google, OpenAI and Anthropic offer a GDPR-compliant Data Processing Addendum (DPA) that outlines the company's obligations and responsibilities as a data processor under GDPR.
 
 ### Who can run queries on data?
 
