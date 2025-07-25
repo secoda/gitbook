@@ -5,14 +5,14 @@ description: This page will go over the Secoda AI functionality.
 # Secoda AI
 
 {% hint style="info" %}
-"LLM provider" refers to OpenAI or Anthropic.
+"LLM provider" refers to OpenAI, Google, or Anthropic.
 {% endhint %}
 
 ## Overview
 
 The Secoda Secoda AI enhances your data stack by providing a powerful chat interface that allows anyone in your organization to retrieve data insights.
 
-Secoda AI is powered by Anthropic's Claude Sonnet 4 and Opus 4 models. Read more about Secoda AI's security posture in our [security.md](security.md "mention").
+Secoda AI is powered by a combination of models, including OpenAI’s GPT-4o, Google’s Gemini 2.5 Flash and Lite, and Anthropic’s Claude Sonnet 4 and Opus 4. Read more about Secoda AI's security posture in our [security.md](security.md "mention").
 
 Secoda's AI can help you with documentation, query building, institutional knowledge discovery.
 
