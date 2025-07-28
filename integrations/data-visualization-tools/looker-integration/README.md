@@ -48,7 +48,7 @@ Navigate to the `Project` tab on the Looker Integration Page and you will see yo
 
 Once the key is generate, you can select your LookML project and click **Copy public key** and head to your LookML repo in GitHub.
 
-<figure><img src="../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (117) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### GitHub
 
