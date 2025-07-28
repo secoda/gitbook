@@ -4,7 +4,7 @@
 Entity Relationship Diagrams are currently in Early Access. Sign up [here](https://tally.so/r/mK4x1D) to get access.&#x20;
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 ### Overview
 
