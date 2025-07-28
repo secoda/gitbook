@@ -9,7 +9,7 @@ Wondering if the Secoda AI is the right tool for your workspace considering your
 Ensuring our customers feel safe and comfortable using this tool is a **top priority for us**. Read on to learn how we are ensuring your data is safe and secure.
 
 {% hint style="info" %}
-"LLM provider" refers to Open AI, Google, or Anthropic depending on the model an admin selects in the AI permission settings.
+The term "LLM provider" could refer to OpenAI, Google, or Anthropic, depending on the region and the model selected by an admin in the AI permission settings.
 {% endhint %}
 
 ### What data is sent to the LLM provider?
@@ -30,13 +30,13 @@ To improve your user experience with Secoda AI, your prompts are saved. You can 
 
 ### Is this tool GDPR Compliant?
 
-Google, OpenAI, and Anthropic are GDPR compliant and take data privacy very seriously. They have implemented measures to ensure compliance with GDPR and other data privacy laws, such as providing users with the ability to delete their data and implementing data protection impact assessments.
+OpenAI and Anthropic are GDPR compliant and take data privacy very seriously. They have implemented measures to ensure compliance with GDPR and other data privacy laws, such as providing users with the ability to delete their data and implementing data protection impact assessments.
 
 ### Does the metadata leave my geographical region?
 
-Google, OpenAI and Anthropic have their servers hosted strictly in the US, so all metadata that is sent to the LLM provider is sent to the US.
+OpenAI and Anthropic have their servers hosted strictly in the US, so all metadata that is sent to the LLM provider is sent to the US.
 
-Google, OpenAI and Anthropic offer a GDPR-compliant Data Processing Addendum (DPA) that outlines the company's obligations and responsibilities as a data processor under GDPR.
+OpenAI and Anthropic offer a GDPR-compliant Data Processing Addendum (DPA) that outlines the company's obligations and responsibilities as a data processor under GDPR.
 
 ### Who can run queries on data?
 
