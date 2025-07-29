@@ -268,8 +268,9 @@ Expected Response -> `200`
 
 Sample Request for triggering a sync (Python, note the TODOs) ->
 
-<pre class="language-python"><code class="lang-python"><strong>import requests
-</strong>
+```python
+import requests
+
 # TODO: replace YOUR_INTEGRATION_ID with your integration_id
 integration_id = "YOUR_INTEGRATION_ID"
 
@@ -283,7 +284,7 @@ headers = {
 response = requests.request("POST", url, headers=headers)
 
 print(response)
-</code></pre>
+```
 
 #### 4. After a sync has been triggered you can monitor your sync status in the UI
 
