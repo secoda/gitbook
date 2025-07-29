@@ -1,44 +1,75 @@
 ---
-description: Admins can create templates for data questions, documents and glossary terms.
+description: >-
+  Admins can create templates for data questions, documents and glossary terms,
+  and more.
 ---
 
 # Templates
+
+### Overview
 
 As an Admin, you can create templates to standardize and streamline various tasks. Here's what you can create templates for:
 
 * **Questions**: Ensure all relevant information is provided in team requests.
 * **Documents**: Make sure users capture all required documentation.
 * **Glossary Terms**: Enforce inclusion of all necessary context in term descriptions.
-* **Documentation Tab**: Streamline adding additional context to any resource in Secoda.
+* **Table, Column, and Dashboard Documentation**: Streamline adding additional context to any resource in Secoda.
 
-## How to Create Templates in Secoda
+### Creating a template
 
-**For Documents, Questions, Glossary terms:**
+1. Navigate to Settings > Templates
+2. Click "Create template"
+3. Select the type of resource that the template will be associated with
 
-1. Click the arrow next to "Create document," "Create question," or "Create term."
-2. Select "+ New template."
+<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
-From this view, you can create new templates or edit existing ones.
+### Editing a template
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b83b18ed-f3cd-406e-a156-b4f3ad882ce0.png" alt=""><figcaption><p>Glossary template</p></figcaption></figure>
+Depending on the resource type, there are different properties and content you can customize on a template.
 
-**For the Documentation Tab:**
+<figure><img src="../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 
-1. Go to the Documentation tab on an asset.
-2. Select "Templates" to create or use an existing template.
+**Standard template content**\
+This conent can be configured for all templates
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5ed3f8fa-7a6f-4558-b2ab-68bb23529ff9.png" alt=""><figcaption><p>Documentation tab template</p></figcaption></figure>
+* Title: The name of the template
+* Description: Short form content using a limited version of the rich text editor
+* Documentation: Long form content that can contain rich information
 
-### Setting a Template as default
+**Template properties**\
+These properties can be configured on document, glossary, collection, and question templates
+
+* Owners
+* Teams
+* Collections
+* Tags
+* Related Resources
+
+**Special Fields**
+
+* Synonyms: For glossary and dictionary terms
+* Priority and Assignee: For questions
+
+### Using a template
+
+To apply a template for collections, glossary, documents, or questions, navigate to the list page and click the dropdown menu to select a template.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+
+To apply a template for tables, columns, and dashboards navigate to the resource page then to the Documentation tab and click the "Templates" button.
+
+<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+
+### Default template
 
 You can set a template as the default format for editors and viewers:
 
 1. Click on the three dots beside the template you'd like to set as default.
 2. From the menu, select "Set as default."
 
-In this menu, you can also delete and edit templates.
+In this menu, you can also deletel templates.
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/5aa5c9fc-8e09-47d2-8fa7-c1a51fae7f65.png)
+<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈
