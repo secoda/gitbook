@@ -6,6 +6,13 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.3.1 (July 29, 2025)
+
+* Template settings
+* Azure Data Lake Integration
+* Edit and delete Announcements
+* Monitoring alert rules
+
 ### v2025.3.0 (July 10, 2025)
 
 * Glean extension
