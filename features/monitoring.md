@@ -10,7 +10,7 @@ Monitoring plays a crucial role in maintaining data quality by allowing you to c
 
 Admins and Editors can access existing Monitors from the Monitors page accessible via the side panel. Here, you can view all monitors and incidents across the platform and create new ones.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98a9d2a6-c1ce-4827-b2cb-e923f4ab00be.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 To learn about how our current customers are using Monitors in Secoda to improve their data quality, check out this list of [monitoring-use-cases.md](monitoring/monitoring-use-cases.md "mention").
 
@@ -18,7 +18,7 @@ To learn about how our current customers are using Monitors in Secoda to improve
 **Note:** Read permissions for the source data (in addition to the metadata) are required for the monitoring feature.
 {% endhint %}
 
-### Types of Monitors
+### Types of monitors
 
 Select from a variety of Monitors to suit your needs:
 
@@ -52,7 +52,7 @@ Select from a variety of Monitors to suit your needs:
 
 The monitor will alert if any of these values are higher or lower than expected.
 
-### Creating Monitors
+### Creating monitors
 
 Monitors can be created via the **Monitors** section in the sidebar or through the **Monitors tab** on the resource page:
 
@@ -62,7 +62,7 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 
 2. Choose the monitor type and select the integration. If adding a new Monitor from the resource itself, the integration will be pre-selected.
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d2a75a0e-0dce-432a-9073-12767e01e133.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 3. Select one or multiple resources that you'd like to add the monitor to.
 
@@ -102,7 +102,7 @@ Standard monitors such as nullness, row count, etc can be modified with custom S
 
 <div align="center"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0e0b3170-52c0-43f1-882b-b3747af5f804.png" alt="" width="277"><figcaption><p>Adding WHERE clause</p></figcaption></figure></div>
 
-### Managing Monitors
+### Managing monitors
 
 View **Status**, **Last** and **Next Run** details, and a **Chart Visualization** of the monitor's historical performance.
 
@@ -150,20 +150,7 @@ You may receive an error on your Monitors for various reasons. The Error will ap
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/268a5907-a2bc-4b80-9d2d-ff8edbbab26b.gif" alt=""><figcaption></figcaption></figure>
 
-### Best Practices
-
-To optimize the effectiveness of data monitoring and manage resource utilization, consider these best practices:
-
-1. **Selective Monitoring:** Focus on the most critical data elements. Prioritize columns and tables that are essential for your business operations to avoid unnecessary strain on resources.
-2. **Optimize Frequency:** Set monitoring frequencies that balance timeliness and resource consumption. For many applications, configuring monitors to run **daily** is sufficient to catch issues without incurring excessive costs.
-3. **Regular Reviews:** Periodically review data quality monitoring configurations. This ensures that your monitoring strategies stay aligned with evolving business needs and data landscapes.
-4. **Workflow Integration:** Embed monitoring alerts into your team’s daily workflows using tools like Slack or email (see [#monitoring-notifications](monitoring.md#monitoring-notifications "mention")). This ensures that the right personnel are promptly notified, enabling swift action.
-5. **Documentation and Training:** Keep detailed documentation of your monitor setups and procedures. Train your team on the importance of monitoring and the actions required when specific alerts are triggered.
-6. **Trend Analysis:** Leverage historical data from your monitoring activities to identify trends and patterns. This analysis can help refine your data management practices and predictive monitoring over time.
-
-By following these guidelines, you can ensure your monitoring processes are both efficient and effective, providing critical insights while maintaining control over costs and resource use.
-
-### Monitoring Permissions
+### Monitoring permissions
 
 Monitoring functionality is primarily intended for users with Edit or Admin roles, rather than end business users who typically have Viewer permissions.
 
@@ -177,13 +164,54 @@ Monitoring functionality is primarily intended for users with Edit or Admin role
 4. **Viewing:**
    * Viewing permissions remain unchanged, with any Admin or Editor able to view monitors. We are planning future updates that will allow more granular control over who can view monitor outputs, enhancing privacy and data security.
 
-### Monitoring Notifications
+### Monitoring notification rules
 
-Stay informed about the status of your monitors by adjusting your Notification settings. Specify your preferred channels for receiving alerts—whether through Slack DMs, email, or directly within the app.
+Configure intelligent notification rules to ensure the right people receive alerts at the right time. Notification rules provide granular control over when, how, and to whom monitoring alerts are sent, helping teams respond efficiently to data quality issues.
 
-<div align="left"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4be1ef82-00c9-46ba-a9de-b6639784c8e7.png" alt=""><figcaption><p>Monitor notifications in Settings</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Notifications for monitor incidents are issued only after the **first occurrence** following a successful run. The same incident will not trigger new alerts unless the issue has been resolved and another incident occurs. This policy minimizes repetitive alerts and ensures that notifications remain meaningful and actionable.
+#### Creating Notification Rules
+
+Navigate to **Settings > Notifications > Monitoring Rules** to create and manage your notification rules. Each rule defines:
+
+1. **Trigger Conditions:** When the rule activates
+2. **Recipients:** Who receives notifications
+3. **Delivery Channels:** How notifications are sent
+
+#### Trigger Conditions
+
+**Monitor Status Triggers:**
+
+* **Incident Created:** New monitoring incidents
+* **Incident Resolved:** When incidents are resolved
+* **Monitor Error:** Monitor execution failures
+* **Threshold Breached:** Specific threshold violations
+
+**Filtering Options:**
+
+* **Severity Levels:** Critical, Warning, Info
+* **Resource Filters:** Specific tables, columns, or tags
+* **Integration Type:** Filter by data source
+* **Teams:** Scope to team-owned resources
+
+#### Recipients and Delivery
+
+**Recipient Types:**
+
+* **Individual Users:** Direct email or username targeting
+* **Teams:** All members of designated teams
+* **Resource Owners:** Automatic owner notifications
+* **Role-Based:** Users with specific workspace roles
+
+**Delivery Channels:**
+
+* **Slack:** DMs, channel posts, or threaded replies
+* **Email:** HTML templates with incident summaries
+* **In-App:** Real-time notifications in Secoda interface
+
+By implementing focused notification rules, teams ensure critical data quality issues receive appropriate attention while avoiding alert fatigue.
+
+Notifications for monitor incidents are issued only after the first occurrence following a successful run. The same incident will not trigger new alerts unless the issue has been resolved and another incident occurs. This policy minimizes repetitive alerts and ensures that notifications remain meaningful and actionable.
 
 **Configuring Slack Channel Notifications**
 
@@ -195,7 +223,7 @@ Admins can direct monitoring notifications to specific Slack channels, distinct 
 
 Email notifications provide direct links to the relevant sections in Secoda. As shown in the image below, clicking the "Open Secoda" link takes you to the Inbox notification, while other links direct you to specific incidents or tables.
 
-## Monitors as Code
+### Monitors as code
 
 You can declare Secoda monitors directly in your dbt model YAML files. These monitors are managed entirely through code and cannot be modified through the Secoda UI. Changes are applied when the dbt integration syncs with Secoda.
 
@@ -351,13 +379,7 @@ models:
                   max: 10
 ```
 
-## Migration
-
-### Metaplane
-
-
-
-## Monitoring Integrations
+### Monitoring integrations
 
 The following integrations support monitoring
 
@@ -373,3 +395,16 @@ The following integrations support monitoring
 10. Oracle
 11. MotherDuck
 12. ClickHouse
+
+### Best practices
+
+To optimize the effectiveness of data monitoring and manage resource utilization, consider these best practices:
+
+1. **Selective Monitoring:** Focus on the most critical data elements. Prioritize columns and tables that are essential for your business operations to avoid unnecessary strain on resources.
+2. **Optimize Frequency:** Set monitoring frequencies that balance timeliness and resource consumption. For many applications, configuring monitors to run **daily** is sufficient to catch issues without incurring excessive costs.
+3. **Regular Reviews:** Periodically review data quality monitoring configurations. This ensures that your monitoring strategies stay aligned with evolving business needs and data landscapes.
+4. **Workflow Integration:** Embed monitoring alerts into your team’s daily workflows using tools like Slack or email (see [#monitoring-notifications](monitoring.md#monitoring-notifications "mention")). This ensures that the right personnel are promptly notified, enabling swift action.
+5. **Documentation and Training:** Keep detailed documentation of your monitor setups and procedures. Train your team on the importance of monitoring and the actions required when specific alerts are triggered.
+6. **Trend Analysis:** Leverage historical data from your monitoring activities to identify trends and patterns. This analysis can help refine your data management practices and predictive monitoring over time.
+
+By following these guidelines, you can ensure your monitoring processes are both efficient and effective, providing critical insights while maintaining control over costs and resource use.

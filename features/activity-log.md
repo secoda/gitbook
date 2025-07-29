@@ -14,7 +14,7 @@ To access the Activity Log click on the three dot menu in the Properties sidebar
 
 In Secoda, versions are snapshots of an resource's state at a specific point in time. They capture all the edits and changes made, grouped by time, allowing users to track the evolution of documents, tables, or other resources. This versioning system enables users to review past changes, understand the history of modifications, and restore any previous version if needed, ensuring data integrity and flexibility in managing information.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Reviewing Versions
 
