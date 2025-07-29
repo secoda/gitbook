@@ -24,10 +24,16 @@ This section provides an overview of the capabilities of Secoda AI in the areas 
 * **Run SQL queries** - Execute SQL queries on connected data sources (can be disabled by admins)
 * **File operations** - Read file contents, view first/last lines, search within files
 * **Chart generation** - Create visualizations and charts from data
+* **Query usage insights** – Analyze patterns like most-run queries, user activity, and table access.
+* **Slow/expensive query detection** – Identify and describe costly queries when performance metadata is accessible.
 
 #### **Metadata & Governance**
 
+* **Glossary & documentation suggestions** – Recommend new terms, definitions, and resource documentation based on metadata patterns.
+* **Monitor suggestions** – Proposes monitors based on common incident patterns and gaps in current coverage.
 * **Tags and owners** - Access information about data tags and resource owners
+* **Incident patterns** – Surface historical data quality issues and aggregate incident trends, when sufficient monitor data exists.
+* **Test visibility** – Summarize test coverage levels for key assets&#x20;
 * **Integrations** - Information about connected data sources
 * **Teams and users** - Access to workspace member information
 
@@ -60,10 +66,16 @@ This section outlines the limitations and capabilities across various features w
 * **Integration configurations** - Data source connection setup and configuration changes
 * **Permission management** - Role assignments and user permission modifications
 
-#### Automation & Operations
+**Monitoring & Testing (Partial Support)**
 
-* Automations - Automated workflows, scheduled jobs, and automation configurations
-* Analytics dashboards - Workspace usage metrics and administrative analytics
+* **Monitor editing** – AI can suggest monitors, but not create, activate, or modify live monitors directly.
+* **Test execution data** – Limited ability to analyze test pass/fail rates or show test run history unless metadata is present.
+
+**Automation & System Controls**
+
+* **Automation configurations** – AI can describe automations conceptually, but cannot currently access or modify scheduled jobs or execution configs.
+* **Automation health insights** – AI cannot yet identify failed automation jobs or suggest workflow improvements.
+* **Integration setup** – Cannot configure data source connections or modify integration credentials.
 
 ## **Access Controls & Restrictions**
 

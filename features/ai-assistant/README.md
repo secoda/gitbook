@@ -34,6 +34,26 @@ Secoda AI Charting allows users to describe the charts they want in plain Englis
 
 Simply navigate to the Secoda AI interface, ask a question involving data visualization, and request a chart based on SQL results. The feature integrates seamlessly with the SQL query functionality, allowing you to save both queries and their visualizations.For best results, be specific about metrics, dimensions, and time periods in your requests. The AI will guide you through creating the most effective visualization for your data story.
 
+## AI Suggestions
+
+Secoda AI Suggestions enable users to generate glossary terms, documentation, and SQL monitors through natural language prompts—helping teams scale data governance and monitoring with minimal manual effort.
+
+By describing what you need in plain English (ex., “Suggest glossary terms for this dataset” or “Create a monitor for null spikes in this column”), Secoda AI analyzes your workspace metadata, table context, and naming conventions to provide intelligent, contextual recommendations. These suggestions are tailored to your environment and designed to align with existing documentation and monitoring patterns.
+
+To get started, open the Secoda AI and ask for suggestions based on a specific dataset, table, or column. Whether you're building out a glossary or improving observability, the AI helps reduce the lift while ensuring your documentation and alerts stay consistent and complete.
+
+For best results, be specific about which resource you want help with, and what kind of suggestion you’re looking for. Secoda AI will do the heavy lifting to get you there faster.
+
+## Secoda AI Context
+
+Secoda AI can answer complex operational and governance questions by leveraging deep metadata awareness across your workspace. In addition to understanding data assets and documentation, Secoda AI draws from monitors, query history, dashboards, policies, automations, and tests to provide more complete, actionable insights.
+
+Users can ask questions like “Which critical tables lack monitors?”, “What are our most expensive queries?”, or “Who’s accessed sensitive data recently?” - and receive tailored answers that reflect real usage patterns, lineage relationships, and configuration details within their environment.
+
+AI Context dynamically interprets and retrieves relevant metadata - including incidents, query logs, calculated fields, policy coverage, and test results - based on the focus of your question. This allows users to quickly uncover blind spots, track compliance, assess performance, or optimize workflows through natural language interaction.
+
+To ask questions given the context of your workspace, simply engage with the Secoda AI Assistant and ask about operational risks, governance gaps, or system behaviour. Secoda AI will synthesize metadata across your stack and return precise, context-aware answers that help your team act faster and with greater confidence.
+
 ## **AI Settings**
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
