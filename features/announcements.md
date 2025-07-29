@@ -4,26 +4,94 @@ description: Send announcements to Secoda users in your workspaces
 
 # Announcements
 
-Using Announcements, data teams can send messages to their users within Secoda.
+Keep your team informed and aligned with workspace-wide communications through structured announcements that reach everyone who needs to know.
 
-Users have the ability to send Announcements directly from the [Inbox](data-inbox.md) in Secoda, by clicking "New announcement".
+<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/db278a77-7b19-493f-941f-8c35c4b05113.png" alt=""><figcaption></figcaption></figure>
+### Overview⁠
 
-Users can choose where they receive these announcements (in-app, Slack, or email) by going to their personal [Notifications settings](notifications.md).
+Announcements are structured communications that help leaders and team members share important updates, changes, and information across the workspace. They consist of a clear subject line and rich text content that can include links to related resources and be distributed through both Secoda notifications and Slack channels.
 
-Users can also share an announcement _from any resource_. For example, if your announcement pertains to a table, you can click into that table and find the megaphone button in the side panel to create an Announcement.
+Announcements ensure critical information reaches the right people at the right time, whether it's about new data sources, policy changes, feature releases, or team updates. They can be sent to specific users or broadcast to the entire workspace, with optional Slack integration for maximum visibility.
 
-One main use case for this feature is sharing with your organization when new dashboards or tables have been introduced.
+<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://www.loom.com/share/4c22f11c14d849ba8ea7d061a2b9d3a3" %}
-An example of how to send an Announcement.
-{% endembed %}
+### Create announcements⁠
 
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/Screenshot%202023-06-09%20at%2011.18.55%20AM.png" alt="" width="363"><figcaption><p>What an announcement looks like in the inbox.</p></figcaption></figure>
+Announcements can be created from any entity page or through the main navigation. Click "Create announcement" to open the announcement composer where you can craft your message.
 
-Announcements are sent to User's inbox. You can learn more about the Secoda Inbox by clicking the page below!
+When creating an announcement, you'll need to provide:
 
-{% content-ref url="data-inbox.md" %}
-[data-inbox.md](data-inbox.md)
-{% endcontent-ref %}
+* **Subject** - A clear, descriptive title for your announcement (required)
+* **Body** - The main content of your announcement using the rich text editor (required)
+* **Recipients** - Choose specific users or leave empty to send to all workspace members
+* **Slack channels** - Select which Slack channels should receive the announcement
+* **Related resources** - Link to relevant datasets, documents, or other Secoda resources
+
+Once you send an announcement, notifications are immediately dispatched to recipients through their Secoda inbox and any configured Slack channels.
+
+### View and manage announcements⁠
+
+Announcements appear in recipients' notification inboxes and can be marked as read. Users can see the announcement content, related resources, and sender information. In addition announcements appear on the home page widget if the user was the recipient of an announcement.
+
+<figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+
+Announcement creators and users with appropriate permissions can edit announcements after they've been sent. Click the edit icon on any announcement you created to modify the content, recipients, or settings.
+
+To delete an announcement, click the menu icon beside the announcement and select delete. This will remove the announcement from all recipients' inboxes.
+
+<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+
+#### Slack integration details⁠
+
+When Slack integration is enabled, announcements appear as formatted messages in the selected channels. The message includes:
+
+* The sender's name and announcement subject
+* A preview of the announcement content
+* A link to view the full announcement in Secoda
+* Any related resources mentioned in the announcement
+
+Recipients can discuss announcements in Slack threads while the full announcement remains accessible in Secoda for future reference.
+
+### FAQ⁠
+
+<details>
+
+<summary>Can I edit an announcement after sending it?</summary>
+
+Yes. If you created the announcement or have appropriate permissions, you'll see an edit icon when viewing the announcement. Click to modify the content, recipients, or settings.
+
+</details>
+
+<details>
+
+<summary>Can I send announcements to specific teams only?</summary>
+
+Currently, announcements can be sent to specific individual users or the entire workspace. Team-based targeting is not available, but you can manually select team members as recipients.
+
+</details>
+
+<details>
+
+<summary>Why didn't my announcement appear in Slack?</summary>
+
+Check that the Slack integration is properly configured and you selected specific Slack channels when creating the announcement. If no channels are selected, the announcement will only appear in Secoda notifications.
+
+</details>
+
+<details>
+
+<summary>What happens if I delete an announcement?</summary>
+
+Deleting an announcement removes it from all recipients' inboxes and Slack channels. This action cannot be undone, so use caution when deleting announcements.
+
+</details>
+
+<details>
+
+<summary>Can I schedule announcements for later?</summary>
+
+Currently, announcements are sent immediately upon creation. Scheduling functionality is not available
+
+</details>
+
