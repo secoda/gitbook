@@ -22,7 +22,7 @@ To see Lineage to your PowerBI resources from external sources, make sure you en
 
 * Allow service principals to use read-only admin APIs
 * Enhance admin APIs responses with detailed metadata
-* Enhance admin APIs responses with DAX and mashup expressions and click apply to the entire organization&#x20;
+* Enhance admin APIs responses with DAX and mashup expressions and click apply to the entire organization
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/90778d2c-d201-41e2-a551-4456f67ef8c2.png" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ Whether you set up Admin or non-admin access APIs is up to you. Admin access ena
 
 1. Navigate to the tenant settings page. You must be a Power BI admin to see this page.
 2. In the Tenant settings tab, navigate to the Developer Settings section, and enable the following setting:
-   * Allow service principals to use Power BI APIs (Make sure to add the PowerBI API Access Group you created in the previous step)
+   * Service principals can call Fabric public APIs (Make sure to add the PowerBI API Access Group you created in the previous step)
 3. Admin API Settings section under the Tenant settings tab, enable the following settings:
    * Allow service principals to use read-only admin APIs
    * Enhance admin APIs responses with detailed metadata
