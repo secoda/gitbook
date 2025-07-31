@@ -319,36 +319,6 @@
             kind: openapi
             spec: secoda-api
       ```
-    * ```yaml
-      props:
-        models: true
-      type: builtin:openapi
-      dependencies:
-        spec:
-          ref:
-            kind: openapi
-            spec: secoda-api
-      ```
-    * ```yaml
-      props:
-        models: true
-      type: builtin:openapi
-      dependencies:
-        spec:
-          ref:
-            kind: openapi
-            spec: secoda-api
-      ```
-    * ```yaml
-      props:
-        models: true
-      type: builtin:openapi
-      dependencies:
-        spec:
-          ref:
-            kind: openapi
-            spec: secoda-api
-      ```
   * [Examples](api/examples.md)
   * [Secoda AI API](api/secoda-ai-api.md)
 * [FAQ](faq.md)
