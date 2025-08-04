@@ -13,7 +13,7 @@ Secoda provides the ability to declare fine-grained access controls through Cust
 Custom Roles are currently in Early Access. To get early access please fill out the form [here](https://tally.so/r/3N8ENQ).
 {% endhint %}
 
-### What is a Custom Role?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-policy" id="what-is-a-policy"></a>
+### What is a Custom Role?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-custom-role" id="what-is-a-custom-role"></a>
 
 Custom roles allow workspace administrators to create tailored permission sets that go beyond Secoda's default roles (Admin, Editor, Viewer, and Guest). With custom roles, you can define precise access levels for different teams and use cases within your organization.
 
