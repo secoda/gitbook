@@ -52,4 +52,4 @@ dbt is a secondary integration that adds additional metadata on to your data war
   * Owner
   * URL
 * Monitors
-  * See [#monitors-as-code](../../../features/monitoring.md#monitors-as-code "mention")on how to implement monitors in your model yml
+  * See [#monitors-as-code](../../../../features/monitoring.md#monitors-as-code "mention")on how to implement monitors in your model yml

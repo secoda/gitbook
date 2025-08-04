@@ -1,53 +1,44 @@
 ---
-description: An overview of the dbt Cloud integration with Secoda
+description: An overview of the dbt integrations with Secoda
 ---
 
-# dbt Cloud
+# dbt
 
-{% content-ref url="metadata-extracted.md" %}
-[metadata-extracted.md](metadata-extracted.md)
-{% endcontent-ref %}
+Secoda integrates seamlessly with both [dbt-cloud](dbt-cloud/ "mention") and [dbt-core](dbt-core/ "mention"), enhancing your ability to manage and visualize data transformations and dependencies within your workspace. This guide details the integration process, the display of dbt metadata in Secoda, and how to utilize dbt features effectively.
 
-## **Getting Started with dbt** <a href="#h_3a4bfd6458" id="h_3a4bfd6458"></a>
+You can learn more about the integration setup by clicking into the linked documents.
 
 {% hint style="info" %}
 dbt is a secondary integration that adds additional metadata on to your data warehouse or relational database tables. Before connecting dbt make sure to connect a data warehouse or relational database first. These include Snowflake, BigQuery, Postgres, Redshift, etc.
 {% endhint %}
 
-There are three steps to get started using dbt with Secoda:
+## **How dbt metadata appears in Secoda**
 
-1. Retrieve your Account ID
-2. Retrieve a Service Token
-3. Connect dbt to Secoda
+Once the integration is established:
 
-#### **Retrieve your Account ID** <a href="#h_89d08409d1" id="h_89d08409d1"></a>
+* If connected, Jobs will appear in the Catalog which you can click into to see Test results and additional metadata for those Tests.
+* Data warehouse or relational database tables associated with dbt will display a dbt icon next to their titles.
+* A 'Tests' tab will appear for resources where dbt Tests have been run.
+* You can view dbt metadata overlaid on the lineage graphs to understand dependencies and transformations better.
+* Within the lineage tab, lineage nodes will feature a checkmark icon. Clicking on these icons reveals which dbt Tests have been run and their statuses.
+* See the video below of what a correctly functioning integration should look like:
 
-You can determine your account ID by going to the Account Settings page of dbt Cloud console. In the URL, for example in the URL below, the account ID is `12345 https://cloud.getdbt.com/settings/accounts/12345/pages/projects`
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/39ce3633-8550-47f7-a1e0-8861c29c21ce.gif" alt=""><figcaption></figcaption></figure>
 
-![](https://secoda-public-media-assets.s3.amazonaws.com/befe8acc-e0ba-4e42-a1b7-217c3e3a62ee.png)
+This integration empowers teams to track and verify data transformations directly within the Secoda environment, ensuring transparency and accuracy in data operations. Whether you use dbt Core or dbt Cloud, Secoda facilitates a comprehensive view of your data landscape.
 
-#### **Retrieve a Service Token** <a href="#h_a2cb9baed8" id="h_a2cb9baed8"></a>
+## Syncing metadata back to dbt
 
-Secoda uses the dbt Cloud REST API, which is only available paying dbt Cloud customers. For Secoda to retrieve metadata from dbt, you need to generate a Service Token with. To do this, go to **Account Settings > Service Tokens** and click "New Token".
+You can seamlessly sync metadata updates from Secoda directly back to your dbt models. This streamlines workflows and enhances data governance by ensuring that your dbt models stay synced with the latest metadata in Secoda.
 
-The minimum permissions are **Analyst** of the selected projects for the Service Account. Once the projects have been selected Save the token and copy the generated token.
+Here's how you can set it up:
 
-![](<../../../.gitbook/assets/Screenshot 2025-04-01 at 3.24.16 PM.png>)
+1. **Set up a GitHub Integration:** Connect your [github.md](../../../extensions/github.md "mention") account to enable syncing between Secoda and your code repository.
+2. **Initiate a Metadata Push:** Trigger a metadata push via the GitHub sync history tab within Secoda. This process is straightforward and integrates directly with your workflow.
+3. **Automatic Pull Request Generation:** Once a metadata push is initiated, a Pull Request is automatically created in GitHub. This PR includes updates for column and table descriptions, owner details, and tags, ensuring that your dbt models are always up-to-date.
 
-#### **Connect dbt to Secoda** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
+**Benefits:**
 
-After enabling the dbt REST API, the next step is to connect Secoda:
-
-1. In the Secoda App, select **Add Integration** on the Integrations tab
-2. Search for and select the **dbt Cloud** integration
-3. Enter your dbt account ID and Service Token. This information is kept encrypted.
-4. Click **Connect**
-
-## Chrome extension with dbt Cloud
-
-The Chrome extensions pulls in the dbt metadata in the following scenarios:
-
-* From the Develop tab, when opening a particular Model in the Editor
-* When looking at Jobs or Runs (if it's been extracted)
-* From the Explore tab, when looking at Models
-* From the Explore tab, when clicking on Models within Lineage graphs&#x20;
+* Keeps your dbt models consistently updated with the latest metadata from Secoda.
+* Enhances collaboration by ensuring all team members work with the most current data definitions.
+* Reduces manual errors by automating the sync process.
