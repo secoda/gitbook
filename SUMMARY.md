@@ -231,7 +231,6 @@
   * [Glean](extensions/glean.md)
   * [Jira](extensions/jira/README.md)
     * [Jira Metadata Extracted](extensions/jira/metadata-extracted.md)
-  * [Linear](extensions/linear-integration.md)
   * [Microsoft Teams](extensions/microsoft-teams.md)
   * [PagerDuty](extensions/pager-duty.md)
   * [Slack](extensions/slack-connection/README.md)
