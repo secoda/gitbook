@@ -9,7 +9,7 @@ Wondering if the Secoda AI is the right tool for your workspace considering your
 Ensuring our customers feel safe and comfortable using this tool is a **top priority for us**. Read on to learn how we are ensuring your data is safe and secure.
 
 {% hint style="info" %}
-The term "LLM provider" could refer to OpenAI, Google, or Anthropic, depending on the region and the model selected by an admin in the AI permission settings.
+The term "LLM provider" could refer to OpenAI, Google, or Anthropic, depending on the region.
 {% endhint %}
 
 ### What data is sent to the LLM provider?
