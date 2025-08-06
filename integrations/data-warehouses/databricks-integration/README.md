@@ -16,8 +16,6 @@ There are three steps to get started using Databricks with Secoda:
 2. Connect Databricks to Secoda
 3. Whitelist Secoda IP Address
 
-**Note:** You can run Databricks on Secoda using AWS or GCP.
-
 ### Create an access token
 
 In your Databricks console go to the **User Settings** and generate a new access token. Save the value to be used to connect Databricks to Secoda in the second step.
@@ -32,14 +30,10 @@ To have query history and popularity you must provide admin privileges to the to
 
 For each warehouse you plan to connect to Secoda, the credentials must have `Can monitor` permissions (set via `SQL Warehouses > [My Warehouse] > Permissions`).&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption><p>More information on what this grants <a href="https://docs.databricks.com/aws/en/security/auth/access-control#sql-warehouses">can be found here</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-`Can use` can be selected but will not allow for any warehouse-level query history to be accessed.
-{% endhint %}
-
-{% hint style="warning" %}
-`Can view` does not provide sufficent permssions
+`Can use` can be selected but will not allow for any warehouse-level query history to be accessed. `Can view` does not provide sufficient permissions
 {% endhint %}
 
 For each catalog you want to connect to Secoda, the credentials must have the following permissions:
@@ -71,3 +65,13 @@ After entering in the information into Secoda, click "Test Connection". After th
 ### Whitelist Secoda IP Address
 
 If your Databricks instance is behind a firewall, you'll have to whitelist [Secoda's IP address](../../../faq.md#what-are-the-ip-addresses-for-secoda) to allow for metadata extractions.&#x20;
+
+### FAQs
+
+<details>
+
+<summary>What cloud providers are supported?</summary>
+
+Databricks on the major cloud providers including AWS, GCP, and Azure are supported.
+
+</details>
