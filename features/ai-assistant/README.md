@@ -151,42 +151,6 @@ Once your Persona has been created, you can switch between Personas on the Secod
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d01b9fdc-c295-44fd-b8d6-3aade6cbc0e0.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Memory
-
-Secoda AI Memory allows Secoda AI to remember important details about your preferences and working style across conversations. This personalization feature helps make interactions more efficient and contextual over time.
-
-**Enabling AI Memory**
-
-AI Memory can be enabled by workspace administrators through the AI settings page:
-
-* Navigate to Settings > AI
-* Ensure "Use Secoda AI" is enabled
-* Look for the Personalization section
-* Click "Manage Memories" to view and manage stored memories
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Managing Memories**
-
-You can view and manage all memories that Secoda AI has stored:
-
-* Click "Manage Memories" in the AI settings
-* View a list of all stored memories
-* Delete any memories you no longer want the AI to remember
-
-**How It Works**
-
-When you interact with Secoda AI, it automatically identifies and stores important details about your preferences and working patterns. These memories are then used to:
-
-* Provide more personalized responses
-* Reduce repetitive questions
-* Maintain context across different conversations
-* Tailor recommendations to your specific needs
-
-For example, if you frequently work with specific databases or dashboards, the AI will remember these preferences and prioritize them in future interactions.
-
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
-
 ### Advanced Memory
 
 Advanced Memory enables Secoda AI to learn from past interactions across the entire workspace, improving response quality and efficiency over time. Secoda AI analyzes past successful AI interactions to identify patterns and strategies that work well. This knowledge is then applied to future conversations to provide better assistance.
