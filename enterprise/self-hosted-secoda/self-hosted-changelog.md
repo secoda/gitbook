@@ -6,6 +6,12 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.3.3 (August 15, 2025)
+
+* Fixed Confluent Cloud sync failures
+* Fixed Dataform sync failures
+* Fixed PowerBI preview issues
+
 ### v2025.3.1 (July 29, 2025)
 
 * Template settings
