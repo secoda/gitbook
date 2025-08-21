@@ -30,11 +30,11 @@ The overall goal is to gain a feel for the quality of the dataset, and from here
 1.  Click Run profiler from any table (double check that we support column profiling for the integration in the nested[ metadata extracted docs](../integrations/)) \
 
 
-    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2.  See the distribution visualization and hover over for frequency info\
 
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 3. Double click into the visualization too see additional details like min, max, mode, unique values etc.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/68ee1db9-dec8-4c1d-920a-32c857906923.gif" alt=""><figcaption></figcaption></figure>

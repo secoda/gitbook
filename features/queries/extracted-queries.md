@@ -17,11 +17,13 @@ By clicking on the Queries tab from a resource in Secoda, you can access the res
 
 ### How Secoda Extracts Queries
 
-During the extraction process, Secoda retrieves the **last 24 hours of queries** run on the resource directly from the integration. Any new, previously unseen queries are added to the list of queries associated with that resource in Secoda. This comprehensive list can be found under the Queries tab on the resource page, as shown below.
+During the extraction process, Secoda retrieves the queries since the last integration sync run, or a maximum of 30 days, directly from the integration. Any new, previously unseen queries are added to the list of queries associated with that resource in Secoda. This comprehensive list can be found under the Queries tab on the resource page, as shown below.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6ba6695e-8db9-46f6-94e4-8e6a3afc0f98.gif" alt=""><figcaption></figcaption></figure>
 
 ### How to Access Queries Run on a Resource
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 To view detailed information about queries run on a specific resource, follow these steps:
 
@@ -62,12 +64,10 @@ To view a comprehensive list of all extracted queries within the last 30 days ac
      * **Search**: Use the search bar to find specific queries.
      * **Analyze Runtime**: Look at the Average Runtime column to identify the slowest running queries. This can help you pinpoint areas for optimization.
 
-### Video Resource
-
-{% embed url="https://www.loom.com/share/5dc88735081446fa980a951ddcbfa2b0?sid=e82af52e-47e8-4faf-97cb-453d2f46a403" %}
-
 ## Creation queries
 
 For resources created from a query (e.g., Views), the Creation Query can be found by clicking the `</>` icon in the top right-hand corner. This query can also be copied for easy reuse.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/be747437-f61a-4942-afb1-d2043c6c5a36.gif" alt=""><figcaption></figcaption></figure>
