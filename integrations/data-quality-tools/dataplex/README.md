@@ -13,14 +13,18 @@ description: An overview of Dataplex integration with Secoda
 There are two steps to get started using Dataplex with Secoda
 
 1. Create a GCP Service Account JSON key
-2. Connect  Dataplex to Secoda
+2. Connect Dataplex to Secoda
 
 #### Create a GCP Service Account JSON key
 
-* Login to [GCP console](https://console.cloud.google.com/) and go to the [Service Accounts page](https://console.cloud.google.com/iam-admin/serviceaccounts).&#x20;
+* Login to [GCP console](https://console.cloud.google.com/) and go to the [Service Accounts page](https://console.cloud.google.com/iam-admin/serviceaccounts).
 * Click + **Create Service Account**
 * Enter a name click **Create and Continue**
-* In the **Grant this service account access to project** section add the `Data Catalog Viewer` role and `Dataplex Metadata Reader` role
+* In the **Grant this service account access to project** section add the following roles:
+  * `Data Catalog Viewer`&#x20;
+  * `Dataplex Metadata Reader`&#x20;
+  * `Dataplex Viewer`&#x20;
+  * &#x20;      `Dataplex DataScan Data Viewer`           &#x20;
 * Click **Done**
 * Search for the Service Account that was just created, click the three dots action menu and select **Manage keys**
 * Click **Add key > Create new key**
@@ -38,7 +42,6 @@ After retrieving the Service Account JSON key, the next step is to connect it to
 
 **Verify the Connection**
 
-After the sync has completed successfully, resources that are decorated with additional metadata (e.g. tag templates) and fields will have the Dataplex icon. The fields will show up as custom properties in the resource sidebar.&#x20;
+After the sync has completed successfully, resources that are decorated with additional metadata (e.g. tag templates) and fields will have the Dataplex icon. The fields will show up as custom properties in the resource sidebar.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/42f79eb2-4bcc-4d77-a01e-9aaa631ebe05.png" alt=""><figcaption><p>Resource with Dataplex metadata</p></figcaption></figure>
-
