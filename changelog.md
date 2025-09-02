@@ -4,7 +4,44 @@
 The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
 
-## 🔌Secoda MCP Server (v8.12.0)
+## Secoda AI Suggestions and Enterprise Integrations (v8.16.0)
+
+July 29, 2025
+
+This month’s updates make Secoda more intelligent, more customizable, and more embedded in your ecosystem. Each improvement is designed to support the way your team works.
+
+Check out the full rundown on our [July landing page](https://www.secoda.co/product-news/july-2025):
+
+**🔎 Smart suggestions powered by your data**\
+Secoda AI now recommends glossary terms and monitors based on your metadata and historical usage. [Learn more](https://docs.secoda.co/features/ai-assistant#ai-suggestions)
+
+**🔔 Cut through the noise with smarter alerts**\
+Say goodbye to observability alert fatigue. With new customizable notification rules, you decide who gets notified, when, and for what. [Learn more ](https://docs.secoda.co/features/monitoring#monitoring-notification-rules)
+
+**🏢 New enterprise integrations**\
+We’re expanding our footprint with three powerful new integrations: a [Glean extension](https://docs.secoda.co/extensions/glean) for internal discovery, support for [Azure Data Lake](https://docs.secoda.co/integrations/data-lakes/azure-data-lake) assets, and bi-directional syncing with [ServiceNow](https://docs.secoda.co/extensions/servicenow).
+
+## Secoda AI Context and Memory Enhancements (v8.14.0)
+
+June 23, 2025
+
+We’ve shipped a series of powerful updates to help your team scale faster, work smarter, and gain even more trust in the answers you get from Secoda AI.
+
+Check out the full rundown on our [June landing page](https://www.secoda.co/product-news/june-2025):
+
+**🔍 Smarter AI responses with deeper context**\
+Secoda AI now considers your monitors, tests, queries, and governance policies, so every answer is more accurate and relevant to your workspace. [Learn more](https://docs.secoda.co/features/ai-assistant#secoda-ai-context)
+
+**🧠 Advanced memory for more personalized support**\
+Your AI assistant just got smarter. Secoda AI now remembers your preferences, past conversations, and usage patterns to tailor responses to how your team works. [Learn more](https://docs.secoda.co/features/ai-assistant#advanced-memory)&#x20;
+
+**🗺️ Visualize your data with ERDs**\
+Auto-generate interactive Entity Relationship Diagrams to explore how your tables connect and better understand your data model. [Learn more](https://docs.secoda.co/features/entity-relationship-diagram)
+
+**📞 How Dialpad powers its AI-first strategy with Secoda**\
+Learn how Dialpad uses Secoda to scale self-serve analytics, unlock AI-driven insights, and cut down on time spent answering manual requests. [Learn more](https://www.secoda.co/customers/dialpad-uses-secoda-core-layer-ai-infrastructure)
+
+## Secoda MCP Server (v8.12.0)
 
 May 29, 2025
 
@@ -18,7 +55,7 @@ May 29, 2025
 
 [Read more](https://www.secoda.co/product-news/may-2025)
 
-## 📊Secoda’s new AI charts and Snowflake Native App (v8.10.0)
+## Secoda’s new AI charts and Snowflake Native App (v8.10.0)
 
 April 30, 2025
 
@@ -36,7 +73,7 @@ Your central source for everything new this month is now live. Check out the ful
 
 <figure><img src="https://downloads.intercomcdn.com/i/o/dssmg53d/1498446211/4303ccc22fbcf70f2eb2c8a0dd9d/new-homepage.png?expires=1747346400&#x26;signature=7d8cc7b4ee46bd7d7ff5501fd991fdc34d67f1d5c19bf2083bf700aae5571c45&#x26;req=dSQuHs16m4NeWPMW1HO4zZh2OCU1dH7O0MOnCFNcVDRLzwdUNPqWKOn6wQfu%0Al2JZ%0A" alt=""><figcaption></figcaption></figure>
 
-### 🏠 Secoda homepage update: AI front and center <a href="#h_219c272670" id="h_219c272670"></a>
+### Secoda homepage update: AI front and center <a href="#h_219c272670" id="h_219c272670"></a>
 
 We’ve updated the Secoda homepage to highlight AI as the gateway to better data experiences. Organizations that enable Secoda AI are seeing 3x higher retention rates, helping teams drive adoption and unlock deeper engagement.
 

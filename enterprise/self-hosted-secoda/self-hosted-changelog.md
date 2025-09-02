@@ -6,6 +6,12 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.3.4 (August 29, 2025)
+
+* Secoda AI suggestions
+* Secoda AI context for monitors, automations, and policies
+* Monitor notification rules&#x20;
+
 ### v2025.3.3 (August 15, 2025)
 
 * Fixed Confluent Cloud sync failures
