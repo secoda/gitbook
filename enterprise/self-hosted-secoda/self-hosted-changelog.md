@@ -11,6 +11,9 @@ description: >-
 * Secoda AI suggestions
 * Secoda AI context for monitors, automations, and policies
 * Monitor notification rules&#x20;
+* Fix for Confluence integration failures
+* Fixed Propagation errors&#x20;
+* Support for custom roles with SCIM
 
 ### v2025.3.3 (August 15, 2025)
 
