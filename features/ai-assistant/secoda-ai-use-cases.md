@@ -59,6 +59,27 @@ AI technology continues to transform data management, making complex tasks simpl
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9f797a7e-1ffe-4cde-9e27-61a4e3166837.png" alt=""><figcaption><p>Inputting the query into a Custom SQL monitor to track overtime</p></figcaption></figure>
 
+## Intelligent AI Suggestions
+
+Secoda AI surfaces intelligent suggestions across your data stack, including glossary terms, monitors, and more to add to Secoda. These recommendations proactively guide users toward better metadata coverage and data quality practices, without requiring manual configuration.
+
+**How does Secoda AI do this?**
+
+* **Context-Rich Processing**: Secoda AI analyzes metadata, lineage, table and column names, descriptions, past monitor logic, and usage patterns to detect where documentation or monitoring may be missing or inconsistent.
+* **Human-in-the-Loop Workflow**: Suggestions are presented directly in chat. Users can inspect, accept, or refine these with full transparency before publishing changes.
+
+**Benefits**:
+
+* **Metadata Completeness**: Automatically detects and fills gaps in your glossary by suggesting definitions based on the context of your existing workspace and glossary terms - ensuring that key data concepts are consistently and accurately documented.
+* **Monitoring Coverage**:  Recommends monitors for key tables and metrics using your workspace context and existing monitors, reducing the risk of silent data issues going undetected.
+* **Scalable Efficiency**: Teams save significant time by reducing manual documentation and query writing, while retaining full control over final outcomes.
+
+**Example Workflow:**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-29 at 9.29.29 AM.png" alt=""><figcaption><p>Ask Secoda AI for suggestions on glossary terms to enhance your workspace based on the context.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-29 at 9.41.59 AM.png" alt=""><figcaption><p>Review, edit, and create glossary terms directly from AI suggestions in Secoda.</p></figcaption></figure>
+
 ## Conclusion
 
 The use cases outlined demonstrate the AI Assistant's profound capability to simplify and democratize complex data tasks. By automating critical data operations, the AI Assistant allows organizations to maintain high standards of data governance with remarkable efficiency and ease, making sophisticated data analysis accessible to a broader spectrum of users.
