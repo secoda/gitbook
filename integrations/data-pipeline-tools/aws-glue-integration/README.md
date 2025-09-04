@@ -47,6 +47,9 @@ The following steps are taken to connect AWS Glue to Secoda
                 "glue:GetDatabases",
                 "glue:GetTables",
                 "glue:SearchTables",
+                "glue:GetPartitions",
+                "glue:GetPartition",
+                "glue:BatchGetPartition",
                 "s3:GetBucketLocation",
                 "s3:GetObject",
                 "s3:ListBucket",
@@ -99,3 +102,4 @@ Go to AWS Lake Formation > Permissions > Data Lake Permissions and ensure that t
 ### Connect the AWS Glue integration to Secoda
 
 Return to https://app.secoda.co/integrations and select the AWS Glue integration. If using a AWS IAM User, copy the Access Key ID and Secret Access Key that is generated for the user. If using the Role, input the role ARN. Next input your region, access key ID and secret access key and click "Test Connection". After the connection is established click "Run initial extraction" to begin the process of syncing your Glue Data Catalog.&#x20;
+
