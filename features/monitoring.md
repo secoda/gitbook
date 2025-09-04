@@ -294,6 +294,10 @@ monitors:
 **Recommendation**: When using array format, it's recommended to add a `key` field with a unique string identifier for each monitor (e.g., `daily_record_count`, `average_order_value`). This key should remain constant and helps maintain monitor identity across configuration changes.
 {% endhint %}
 
+{% hint style="info" %}
+It is required to declare either `owners` or `owners_groups` in the payload when creating monitors as code.
+{% endhint %}
+
 You can mix both formats across different models and columns, but each individual `monitors` section must use either list or dictionary format, not both. Use list format for simplicity when default settings are sufficient, and dictionary format when you need to customize any monitor settings.
 
 #### Available Monitor Types
