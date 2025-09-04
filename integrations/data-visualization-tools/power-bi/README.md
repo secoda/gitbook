@@ -107,3 +107,18 @@ Whether you set up Admin or non-admin access APIs is up to you. Admin access ena
 {% hint style="info" %}
 If you have any trouble connecting PowerBI, get in touch at [support@secoda.co](mailto:support@secoda.co).
 {% endhint %}
+
+## FAQ
+
+<details>
+
+<summary>What is displayed when previewing a PowerBI workbook?</summary>
+
+When previewing PowerBi workbooks, Secoda will show the dashboard related to the workbook. If no dashboard is found, Secoda will show the first sheet or view related to the workbook.
+
+</details>
+
+{% hint style="info" %}
+Preview of PowerBI resources is available in Secoda to Power BI Pro or Premium Per User (PPU) licensed users who have access to the requested resource.
+{% endhint %}
+

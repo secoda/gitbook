@@ -4,11 +4,7 @@ description: List of all the metadata that Secoda pulls from Power BI
 
 # Power BI Metadata Extracted
 
-### What does Secoda extract from PowerBI?
-
-{% hint style="info" %}
-NOTE: Preview of PowerBI resources is available in Secoda to Power BI Pro or Premium Per User (PPU) licensed users who have access to the requested resource.&#x20;
-{% endhint %}
+### What does Secoda extract from PowerBI?&#x20;
 
 * Groups
   * Name
