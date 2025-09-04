@@ -150,6 +150,12 @@ gsutil cors set cors.json gs://bucket-name
 4. Copy the **Connection string** and add to your integration form.
 5. Test the connection.
 
+{% hint style="info" %}
+If a path is specified, Secoda will follow that path and look for any files with the keyword `manifest` in it and the file extension `.json` or `.json.gz`.
+
+If a path is not specific Secoda will look for any files at the root level that start with `manifest`
+{% endhint %}
+
 ## **Option 2 – Upload a single manifest.json** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 
 {% hint style="info" %}
