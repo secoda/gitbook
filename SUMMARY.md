@@ -81,7 +81,6 @@
     * [MySQL](integrations/databases/mysql-integration/README.md)
       * [MySQL Metadata Extracted](integrations/databases/mysql-integration/metadata-extracted.md)
     * [Microsoft SQL Server](integrations/databases/microsoft-sql-server/README.md)
-      * [Page](integrations/databases/microsoft-sql-server/page.md)
       * [Microsoft SQL Server Metadata Extracted](integrations/databases/microsoft-sql-server/metadata-extracted.md)
     * [Oracle](integrations/databases/oracle-integration/README.md)
       * [Oracle Metadata Extracted](integrations/databases/oracle-integration/metadata-extracted.md)
