@@ -61,3 +61,4 @@ After Secoda resources are indexed in Glean, the metadata and resource itself wi
 
 * Although the pushes from Secoda usually take no more than a few minutes, Glean also takes time to index the entities which can take up to a few hours for large workspaces.
 * You won't be able to see Secoda entities in Glean's search without having the `secoda` datasource [enabled](https://glean.redoc.ly/docs/indexing_api/indexing_api_getting_started/#enable-search-results-for-the-datasource)
+* Make sure that the users are indexed into the database to enable searching within Glean. More details to do so can be found [here](https://developers.glean.com/api-info/indexing/documents/permissions#scenario-2).&#x20;
