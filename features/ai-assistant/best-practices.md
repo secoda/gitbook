@@ -57,7 +57,7 @@ Use the <img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0
 
 **4. Keep It Fresh**
 
-Start new chats every 3-4 questions to ensure clarity and reset the context for the AI, enhancing response accuracy.
+Start new chats every 10 messages to ensure clarity and reset the context for the AI, enhancing response accuracy.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8f0a011b-7424-45cb-8704-3f7108d66536.gif" alt=""><figcaption><p>Starting a new conversation</p></figcaption></figure>
 
