@@ -201,4 +201,14 @@ To accept the consumer connection request, from within AWS:
    * Select this row, and click the Actions button and then Accept endpoint connection request.
 5. Wait for this to complete, it could take about 30 seconds.
 
-The connection is now established. You can now use the DNS name of the Secoda VPC endpoint as the hostname to crawl MySQL in Secoda! 🎉
+The connection is now established. You can now use the DNS name of the Secoda VPC endpoint as the hostname to crawl MySQL in Secoda.
+
+### FAQs
+
+<details>
+
+<summary>Why might I need to disable the default AWS Security Group restriction on PrivateLink connections?</summary>
+
+By default, AWS applies a security restriction to PrivateLink connections through Security Groups. Disabling this restriction can prevent issues when there are overlapping IP address ranges between your VPC and Secoda’s, ensuring the connection works as expected.
+
+</details>
