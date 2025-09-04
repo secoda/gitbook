@@ -1,5 +1,7 @@
 # Roles
 
+
+
 ### Introduction[​](https://datahubproject.io/docs/authorization/policies#introduction) <a href="#introduction" id="introduction"></a>
 
 Secoda provides the ability to declare fine-grained access controls through Custom Roles. Some examples of roles that can be created are:
@@ -10,7 +12,7 @@ Secoda provides the ability to declare fine-grained access controls through Cust
 * The Data Platform team should be allowed to manage users and groups, view platform analytics, and manage roles.
 
 {% hint style="info" %}
-Custom Roles are currently in Early Access. To get early access please fill out the form [here](https://tally.so/r/3N8ENQ).
+**Custom Roles** is available to customers on [**Enterprise** **plan**](https://www.secoda.co/pricing)**.** Interested in upgrade options? Click on the "Upgrade" button on the Members and Permissions page under Settings, or reach out to the Customer team (support@secoda.co).
 {% endhint %}
 
 ### What is a Custom Role?[​](https://datahubproject.io/docs/authorization/policies#what-is-a-policy) <a href="#what-is-a-custom-role" id="what-is-a-custom-role"></a>

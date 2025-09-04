@@ -4,6 +4,10 @@ description: The full history of a resource in just a few clicks
 
 # Activity Log
 
+{% hint style="info" %}
+**Activity Logs** are available to customers on [**Core** **plan**](https://www.secoda.co/pricing)**.** Interested in upgrade options? Click on the "Upgrade" button on the Activity Logs page or reach out to the Customer team (support@secoda.co).
+{% endhint %}
+
 The Activity Log shows the history of activity on each resource. This includes when it was created, when it's metadata has been edited, and many other updates. This can show you what different users have worked on in Secoda and helps to track down changes over time.
 
 To access the Activity Log click on the three dot menu in the Properties sidebar on the top right-hand corner of the resource, and select **Activity Log**.
