@@ -18,6 +18,7 @@ Of course, we want to compensate your effort, so for any valid vulnerabilities w
 ### Focus areas
 
 * Authentication bypass and privilege escalation
+* RBAC privilege escalation
 * Exposure of personally identifiable information (PII)
 * Access to data outside of the authenticated workspace
 * SQL injection and remote command execution
@@ -31,6 +32,8 @@ Of course, we want to compensate your effort, so for any valid vulnerabilities w
 ### Out-of-scope
 
 * Automated scanning of any kind
+* Uploading or downloading malicious files within the same workspace
+* Viewers editing certain entity properties within the same workspace
 * Social engineering of any kind, in particular Secoda employees
 * Denial of Service attacks of any kind
 * Attacks requiring physical access to the victim's computer
