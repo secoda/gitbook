@@ -79,6 +79,10 @@ When Groups are pushed, they will appear under the "Groups" tab on "Members and 
 
 To resolve, unassign the user from the Okta application. Then reassign. This will ensure your Okta application has the correct user ID.&#x20;
 
+#### Provisioning Roles
+
+To automatically provision roles via SCIM, create a custom attribute with external `secodaRole` under the `urn:ietf:params:scim:schemas:core:2.0:User` external namespace. You should then be able to assign roles (including custom roles) to users in Secoda via SCIM.
+
 #### SCIM Groups endpoint
 
 Secoda's SCIM integration also supports group syncing. From your side all you have to do is start pushing groups from your Identity provider to Secoda. These will then map one to one with [groups.md](../user-management/groups.md "mention") in Secoda.&#x20;
