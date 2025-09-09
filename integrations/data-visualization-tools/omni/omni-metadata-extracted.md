@@ -23,14 +23,34 @@ The Omni integration extracts the following metadata:
 * Labels as tags
 * Parent folder
 * Created and updated timestamps
+* External usage (view count)&#x20;
+
+#### Models&#x20;
+
+* Name
+* Description&#x20;
+* Owner
+* Labels&#x20;
+* Created and updated timestamps&#x20;
+
+#### Views&#x20;
+
+* Name&#x20;
+* Description&#x20;
+* Parent model&#x20;
+* Dimensions
+  * Name&#x20;
+  * Description
+* Measures&#x20;
+  * Name
+  * Description
 
 #### Lineage
 
 The integration automatically creates lineage connections between:
 
-* Data sources and Omni dashboards
-* Queries and dashboards
-* Tables referenced in queries and dashboards
+* External table ->  View -> Chart -> Dashboard
+* External column -> Dimension/Measure -> Chart&#x20;
 
 ### Dashboard Previews
 
