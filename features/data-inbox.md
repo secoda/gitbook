@@ -36,5 +36,3 @@ These notifications are all configurable within the [notifications.md](notificat
 You can filter your Inbox to show only a certain type of notification, like notifications regarding Questions. You can specify for "Notification is" or "is not". You can toggle on to include the read/opened notifications as well, or toggle it off to see only net new notifications. You can also use the search icon :mag: to search for keywords.
 
 <figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8e7fdef9-0939-4beb-9cf7-50b72bdcd5c6.gif" alt=""><figcaption></figcaption></figure>
