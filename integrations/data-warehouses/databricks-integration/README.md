@@ -30,7 +30,7 @@ To have query history and popularity you must provide admin privileges to the to
 
 For each warehouse you plan to connect to Secoda, the credentials must have `Can monitor` permissions (set via `SQL Warehouses > [My Warehouse] > Permissions`).&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (147) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 `Can use` can be selected but will not allow for any warehouse-level query history to be accessed. `Can view` does not provide sufficient permissions
