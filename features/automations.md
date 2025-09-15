@@ -8,9 +8,9 @@ description: >-
 
 ## Introduction
 
-Automations in Secoda enable Admins to set up rule-based operations that automate routine data management tasks, much like Zapier. This feature significantly saves time by automating updates to metadata and documentation, allowing teams to concentrate on more strategic activities and enhance productivity and accuracy in data management.
+Automations in Secoda enable Admins to set up rule-based operations that automate routine data management tasks, much like Zapier. This feature significantly saves time by automating updates to metadata and documentation with the option to incorporate AI for tasks such as generating descriptions, tagging, and classification. By reducing manual effort, teams can focus on more strategic initiatives while improving both productivity and accuracy in data management.
 
-To see these in action, check out our document on example use cases [here](automations/automations-use-cases.md).
+To see these in action, check out our [rule-based](automations/automations-use-cases.md) and [AI-powered](automations/ai-powered-automations.md) use case sections of the documentation.
 
 ## Capabilities of Automations
 
@@ -80,6 +80,10 @@ The trigger for Schema Change complements, but does not replace, existing notifi
    * **Edit resources:**
      * Use the 'Resources' button to specify the scope of resources affected (resources, parent, children).
      * Click '+Add Property' to choose which metadata properties to update.
+   * **Generate AI output:**
+     * Configure AI-powered metadata generation using custom prompts to automatically populate descriptions, definitions, tags, owners, and PII status.
+     * Select which metadata fields to bind the AI output to and preview generated content before applying changes.
+     * Enable "AI Output Review" to require manual approval before bulk-applying AI-generated changes, allowing you to review and approve updates in a pending state before they take effect.
    * **Send announcement:**
      * Select recipients and craft the messaging for an [Inbox](data-inbox.md) announcement.
    * **Send email:**

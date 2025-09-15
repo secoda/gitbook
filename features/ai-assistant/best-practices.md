@@ -15,6 +15,7 @@ Secoda AI enhances your ability to quickly find information and document resourc
 * **Accessing:** Click into the Secoda AI window within the Secoda UI to start an interaction. You can also find the AI Assistant on all resource pages (see video below).
 * **Chatting:** Simply type your question in plain language and receive answers directly in the chat. Check out some [secoda-ai-use-cases.md](secoda-ai-use-cases.md "mention") to help you get started in understanding the power of this feature.
 * **Automating Documentation:** Use the AI to automatically generate descriptions for your metadata with just one click [ai-description-editor.md](../../resource-and-metadata-management/add-documentation/ai-description-editor.md "mention").
+* **Scheduled Insights**: Use to Agents to set up recurring analysis that delivers insights to your inbox - like weekly data quality reports or monthly usage summaries. [secoda-ai-agents.md](secoda-ai-agents.md "mention")
 
 {% embed url="https://www.loom.com/share/473aad77e80c41caa8e252f7ac2d568b?sid=b0657b9d-6f0f-419c-9719-259bda14ebaa" %}
 
