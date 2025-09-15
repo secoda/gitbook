@@ -1,8 +1,8 @@
 ---
-description: Explore common use cases for Secoda's Automations features.
+description: Explore common use cases for Secoda's rule-based Automations features.
 ---
 
-# Automations use cases
+# Ruled-based Automations
 
 ## Introduction
 
@@ -36,8 +36,8 @@ Secoda's Automations feature allows you to streamline and automate repetitive da
 
 ## Propagate descriptions to same named resources
 
-* **Objective:** Standardize descriptions across all columns sharing the same name, ensuring consistency in metadata.&#x20;
-* **Setup:** The automation scans for columns named identically across different tables, using a populated description from one column to update others. It targets columns, identifies matching titles, and applies the selected metadata—descriptions in this case.&#x20;
+* **Objective:** Standardize descriptions across all columns sharing the same name, ensuring consistency in metadata.
+* **Setup:** The automation scans for columns named identically across different tables, using a populated description from one column to update others. It targets columns, identifies matching titles, and applies the selected metadata—descriptions in this case.
 * **Benefits:** Streamlines the updating process, ensuring all similar resources have accurate and consistent descriptions without manual editing.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a0efee25-5032-4021-9841-4cd4c2fa1547.png" alt=""><figcaption><p>Propagate descriptions to same-name resources</p></figcaption></figure>
@@ -54,14 +54,14 @@ Secoda's Automations feature allows you to streamline and automate repetitive da
 
 * **Objective:** Notify stakeholders when changes occur in core schemas to keep them updated in real-time.
 * **Setup:** Set the trigger to detect schema changes, then send an announcement/Slack notification/email to designated users detailing the changes.
-* **Benefits:** Ensures timely updates to all relevant parties, automating these change notifications.&#x20;
+* **Benefits:** Ensures timely updates to all relevant parties, automating these change notifications.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5b369750-d1aa-4783-9f04-4bedc00068d0.png" alt=""><figcaption><p>Alert about schema changes</p></figcaption></figure>
 
 ## Tag resources for deprecation
 
-* **Objective:** Automate the identification of outdated or irrelevant resources.&#x20;
-* **Setup:** Flag resources that haven't been accessed or updated within a predefined period, tagging them as "Candidates for deprecation".&#x20;
+* **Objective:** Automate the identification of outdated or irrelevant resources.
+* **Setup:** Flag resources that haven't been accessed or updated within a predefined period, tagging them as "Candidates for deprecation".
 * **Benefits:** Keeps the data ecosystem clean and focused, reducing clutter and focusing efforts on relevant, up-to-date resources.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c25727da-8a16-4097-858c-ab6fbb38d498.png" alt=""><figcaption><p>Identify resources for deprecation</p></figcaption></figure>
@@ -78,7 +78,7 @@ Secoda's Automations feature allows you to streamline and automate repetitive da
 
 * **Objective:** Standardize descriptions across resources that share similar names or characteristics to maintain consistency in metadata.
 * **Setup:** The automation scans for resources with similar naming conventions (e.g., columns named "order" across different databases) and automatically applies a predefined description to these resources.
-* **Benefits:** This automation ensures that all similar resources carry the same descriptive information, reducing confusion and enhancing the usability of the data.&#x20;
+* **Benefits:** This automation ensures that all similar resources carry the same descriptive information, reducing confusion and enhancing the usability of the data.
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/19299a02-fa42-48f4-9bea-d693c00fe257.png" alt=""><figcaption><p>Apply descriptions to similarly named resources</p></figcaption></figure>
 
@@ -104,9 +104,4 @@ Secoda's Automations feature allows you to streamline and automate repetitive da
 * **Setup:** Set filters to identify Snowflake tables with external usage over a certain amount of queries.
 * **Benefits:** Facilitates easier access and management of popular tables, enhancing data visibility and user productivity.
 
-<div data-full-width="true">
-
-<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8acd214c-8f50-4fd0-bf47-4c17846275f9.png" alt=""><figcaption><p>Create Popular Snowflake tables Collection</p></figcaption></figure>
-
-</div>
-
+<div data-full-width="true"><figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8acd214c-8f50-4fd0-bf47-4c17846275f9.png" alt=""><figcaption><p>Create Popular Snowflake tables Collection</p></figcaption></figure></div>
