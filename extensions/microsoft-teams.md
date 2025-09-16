@@ -45,7 +45,7 @@ To install the Secoda AI for Microsoft Teams App, follow these steps.
 5. Enter your **Secoda API key** when prompted
 6. Complete the configuration process
 
-### Using the App <a href="#id-74ab90f6-7464-4f9c-94c0-c4c4e9fd8134" id="id-74ab90f6-7464-4f9c-94c0-c4c4e9fd8134"></a>
+**Using the App**
 
 Once installed and configured, you can interact with the Secoda app by mentioning `@Secoda` in any message within channels where it's available. The app will help you ask questions and get answers from your company data through Secoda AI.
 
@@ -59,11 +59,11 @@ There are three steps to get started with Microsoft Teams
 2. Create incoming webhook for channel
 3. Connect with Secoda and update notification settings
 
-## Create a channel for Secoda notifications
+**Create a channel for Secoda notifications**
 
 Create a channel for Secoda notifications. This can be done by going to your Team -> Manage Team -> Channels -> Add Channel. Name your channel, e.g, secoda-notifications.
 
-## Create incoming webhook for the channel
+**Create incoming webhook for the channel**
 
 1. Go to your channel -> Manage Channel -> Connectors -> Edit
 
@@ -81,7 +81,7 @@ Create a channel for Secoda notifications. This can be done by going to your Tea
 
 You can also follow the [guide by Microsoft on how to create an Incoming Webhook](https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook).
 
-## Connect with Secoda and update notification settings
+**Connect with Secoda and update notification settings**
 
 1. Use the Incoming Webhook URL in the previous step in the Microsoft Teams connection form.
 2. Test connection. Secoda will send a test message to see if the connection was made.
