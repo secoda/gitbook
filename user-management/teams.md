@@ -4,7 +4,7 @@ description: Teams is user friendly way to view and access your team's data with
 
 # Teams
 
-The Teams feature allows users to organize all of their team-specific resources into one space. When a user in Secoda is placed into a Team, they will see all the resources tied to that Team. "General" is the Default Team that all members will be added to (but you can edit this in [settings](teams.md#team-settings)).
+The Teams feature allows users to organize all of their team-specific resources into one space. When a user in Secoda is placed into a Team, they will see all the resources tied to that Team. "General" is the Default Team that all members will be added to.
 
 In the example below, the user has access to the "General" Team and the "Finance" Team, as well as the Catalog resources, Collections, Dictionary terms, Documents and Questions that those Teams have access to.
 
