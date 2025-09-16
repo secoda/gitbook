@@ -4,6 +4,24 @@
 The changelog for self-hosted customers is maintained separately and can be found here [self-hosted-changelog.md](enterprise/self-hosted-secoda/self-hosted-changelog.md "mention")
 {% endhint %}
 
+### Secoda AI Agents (v8.19.0)
+
+September 16, 2025
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/dssmg53d/1728797042/9444c14e1199a28bd0ea6b654cfe/Agent+weekly+usage+analysis.png?expires=1758050100&#x26;signature=ac85c0fa97bc7ebe5d74b4d713cf1f9f40a1d379d3d84a091a8c0a458b76ec8a&#x26;req=dSclHs53moFbW%2FMW1HO4zS8jPCsResnvJrXUOYi2%2FQmeqGjjCyDkdBizs0rl%0AuMH6%0A" alt=""><figcaption></figcaption></figure>
+
+
+
+This month’s updates make Secoda more powerful, more automated, and easier to use across your organization. Each improvement helps your team move faster and stay focused on what matters most.
+
+🤖 **Secoda AI Agents** turn plain language prompts into automated governance workflows, saving data teams hours on repetitive tasks. [Learn more](features/ai-assistant/secoda-ai-agents.md)
+
+⚡ **AI Automation block** automates metadata tasks like generating descriptions or tagging resources. Preview, approve, and publish updates in minutes instead of hours. [Learn more](features/automations/ai-powered-automations.md)
+
+💬 **Microsoft Teams extension brings Secoda AI** into Teams so business users can ask data questions and get trusted, metadata-backed answers instantly. [Learn more](https://docs.secoda.co/extensions/microsoft-teams)
+
+[Read the full monthly update](https://www.secoda.co/product-news/september-2025)
+
 ## Secoda AI Suggestions and Enterprise Integrations (v8.16.0)
 
 July 29, 2025
