@@ -139,6 +139,8 @@
       * [Hex Metadata Extracted](integrations/data-visualization-tools/hex/hex-metadata-extracted.md)
     * [Omni](integrations/data-visualization-tools/omni/README.md)
       * [Omni Metadata Extracted](integrations/data-visualization-tools/omni/omni-metadata-extracted.md)
+    * [MicroStrategy One](integrations/data-visualization-tools/microstrategy-one/README.md)
+      * [MicroStrategy One Metadata Extracted](integrations/data-visualization-tools/microstrategy-one/microstrategy-one-metadata-extracted.md)
   * [Data Pipeline Tools](integrations/data-pipeline-tools/README.md)
     * [Census](integrations/data-pipeline-tools/census/README.md)
       * [Census Metadata Extracted](integrations/data-pipeline-tools/census/census-metadata-extracted.md)
@@ -309,6 +311,46 @@
 * [API](api/README.md)
   * [Authentication](api/authentication.md)
   * [Reference](api/reference/README.md)
+    * ```yaml
+      props:
+        models: true
+      type: builtin:openapi
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
+    * ```yaml
+      props:
+        models: true
+      type: builtin:openapi
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
+    * ```yaml
+      props:
+        models: true
+      type: builtin:openapi
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
+    * ```yaml
+      props:
+        models: true
+      type: builtin:openapi
+      dependencies:
+        spec:
+          ref:
+            kind: openapi
+            spec: secoda-api
+      ```
     * ```yaml
       props:
         models: true
