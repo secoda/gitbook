@@ -18,7 +18,7 @@ bucket = s3.Bucket(bucket_name)
 # Define the regex patterns and replacement strings
 regex_patterns = [
     r"(https://raw.*/.gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|mov|mp4|mpg|mpeg|m4v|pdf|csv)))",  # '.\g<1>'),
-    r"(\..*gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|pdf|csv)))"  # , '.\g<1>'),
+    r"(\..*gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|mov|mp4|mpg|mpeg|m4v|pdf|csv)))"  # , '.\g<1>'),
     # Add more regex patterns and replacements as needed
 ]
 
