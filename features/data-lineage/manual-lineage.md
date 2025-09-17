@@ -28,7 +28,7 @@ You can read all about automated Lineage in Secoda [here](../data-lineage.md). M
 
 The new connection you have created is bi-directional on Catalog resources. That means, if you connect a dashboard to a column (for example), you can go to that dashboard and see the connection there as well.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-17 at 5.15.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/547c92a6-5162-4cf0-a1ad-b47c4b1b2207.png" alt=""><figcaption></figcaption></figure>
 
 #### Deleting Manual Lineage
 

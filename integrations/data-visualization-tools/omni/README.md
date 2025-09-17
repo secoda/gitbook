@@ -6,7 +6,7 @@ description: An overview of the Omni integration with Secoda
 
 Connect Omni Analytics to Secoda to catalog your folders, models, queries, dashboards, and documents. The Omni integration will pull all your analytics assets into Secoda, making them searchable and adding context.
 
-<figure><img src="../../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c13a9f6d-b653-467a-93af-343108a7aee3.png" alt=""><figcaption></figcaption></figure>
 
 ### How does the integration work?
 

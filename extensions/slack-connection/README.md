@@ -16,7 +16,7 @@ You can learn more about all of the capabilities of this extension here: [slack-
 4. Choose which **Teams** you'd like to include. We recommend choosing all so that everyone across your organization has access to the Secoda extension for Slack.
 5. Click **Connect.** Note: This connection will need to be approved by your Slack admin manager.
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e56ac03c-2a05-4510-bcc6-f502a1e0ae16.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Notifications Channel** = Where users receive notifications on everything that is checked off in the Notifications tab of the extension settings

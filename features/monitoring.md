@@ -10,7 +10,7 @@ Monitoring plays a crucial role in maintaining data quality by allowing you to c
 
 Admins and Editors can access existing Monitors from the Monitors page accessible via the side panel. Here, you can view all monitors and incidents across the platform and create new ones.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6a657926-67e0-48e1-b010-db1ed91ba6bd.png" alt=""><figcaption></figcaption></figure>
 
 To learn about how our current customers are using Monitors in Secoda to improve their data quality, check out this list of [monitoring-use-cases.md](monitoring/monitoring-use-cases.md "mention").
 
@@ -62,7 +62,7 @@ Monitors can be created via the **Monitors** section in the sidebar or through t
 
 2. Choose the monitor type and select the integration. If adding a new Monitor from the resource itself, the integration will be pre-selected.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1d25b508-9da8-4805-a68a-3c5d4607823e.png" alt=""><figcaption></figcaption></figure>
 
 3. Select one or multiple resources that you'd like to add the monitor to.
 
@@ -168,7 +168,7 @@ Monitoring functionality is primarily intended for users with Edit or Admin role
 
 Configure intelligent notification rules to ensure the right people receive alerts at the right time. Notification rules provide granular control over when, how, and to whom monitoring alerts are sent, helping teams respond efficiently to data quality issues.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/147156f2-a19f-494c-907d-f418c6469025.png" alt=""><figcaption></figcaption></figure>
 
 #### Creating Notification Rules
 

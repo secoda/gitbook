@@ -30,7 +30,7 @@ To have query history and popularity you must provide admin privileges to the to
 
 For each warehouse you plan to connect to Secoda, the credentials must have `Can monitor` permissions (set via `SQL Warehouses > [My Warehouse] > Permissions`).&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (147) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1b303a3d-5f64-4af3-a045-67a53cf6915f.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 `Can use` can be selected but will not allow for any warehouse-level query history to be accessed. `Can view` does not provide sufficient permissions
@@ -43,7 +43,7 @@ For each catalog you want to connect to Secoda, the credentials must have the fo
 * `BROWSE`
 * `SELECT`
 
-<figure><img src="../../../.gitbook/assets/image (113) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/fdb1df77-14fc-4603-9c57-180145c4a7a3.png" alt=""><figcaption></figcaption></figure>
 
 ### Connect Databricks to Secoda
 

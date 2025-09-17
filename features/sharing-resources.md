@@ -16,7 +16,7 @@ Sharing individual resources effectively in Secoda allows for precise control ov
 1. **Direct Resource Sharing:**
    * To share a specific resource, navigate to the resource within Secoda and click on the 'Share' button located at the top right corner. This opens the permissions panel for that resource.
 
-<figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f054428b-bc4b-4d1b-b7f0-1d356d519963.png" alt=""><figcaption></figcaption></figure>
 
 * **Existing Permissions:** You will initially see the current access settings, which reflect any inherited permissions from the resource's parent entity (like a Team or Collection). See Image 1 below for reference, where the Collection is shared with all users in the General Team.
 
@@ -26,7 +26,7 @@ Sharing individual resources effectively in Secoda allows for precise control ov
    * **Removing Access:** If access needs to be removed from an individual, select their permission next to their name and choose "No access."&#x20;
 2. **Copy Link:** For easy sharing, click 'Copy link' to copy the resource's unique URL to your clipboard. Note that only users with the necessary permissions can view the resource, even if they have the link.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-08-18 at 2.53.59 PM.png" alt=""><figcaption><p>Image 3</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bc76249d-67b3-4d66-b3bb-f2f4f079e3e4.png" alt=""><figcaption><p>Image 3</p></figcaption></figure>
 
 {% hint style="warning" %}
 If a parent document or a Collection has custom resource-level permissions set, users who are not in that permissions set will not be able to access anything nested within it.

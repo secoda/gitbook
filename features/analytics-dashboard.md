@@ -14,7 +14,7 @@ Secoda provides comprehensive overview pages for key features that give you insi
 
 The Monitors Overview page provides a comprehensive view of your data monitoring health and incident management.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d4b92872-de7b-44d7-914a-4efb94911fba.png" alt=""><figcaption></figcaption></figure>
 
 * **Normal**: Number of monitors currently passing their checks
 * **Failed**: Number of monitors that have failed their latest checks
@@ -27,7 +27,7 @@ The Monitors Overview page provides a comprehensive view of your data monitoring
 
 The Policies Overview page helps you track data governance compliance and policy enforcement across your organization.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5f84fa53-a643-412e-8e42-59f65b810687.png" alt=""><figcaption></figcaption></figure>
 
 * **OK**: Number of policies currently in compliance
 * **Needs Remediation**: Number of policies requiring attention or action
@@ -38,7 +38,7 @@ The Policies Overview page helps you track data governance compliance and policy
 
 The Automations Overview page provides insights into your automated data management processes and their effectiveness.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/2c17f85b-6d7d-4fb0-8497-9d905dbb1b42.png" alt=""><figcaption></figcaption></figure>
 
 * **Automation Runs**: Total number of automation executions
 * **Tasks Automated**: Count of individual tasks completed through automation
@@ -51,7 +51,7 @@ The Automations Overview page provides insights into your automated data managem
 
 The Access Requests Overview page helps you manage and monitor data access workflows across your organization.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/3f2ee0be-9f6c-4fd9-a016-c8f8c9ec50e5.png" alt=""><figcaption></figcaption></figure>
 
 * **Open**: Number of pending access requests awaiting review
 * **Active**: Count of currently granted and active access permissions
@@ -64,7 +64,7 @@ The Access Requests Overview page helps you manage and monitor data access workf
 
 The Integrations Overview page provides visibility into your data source connections and synchronization health.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a485e44e-658c-43ec-a27d-35d3014096be.png" alt=""><figcaption></figcaption></figure>
 
 * **Completed Sync**: Number of integrations with successful recent synchronizations
 * **Failed Sync**: Count of integrations experiencing sync failures
@@ -75,19 +75,19 @@ The Integrations Overview page provides visibility into your data source connect
 
 Create Reports to organize your Analytics widgets into separate themes. For example, you can have one Report that shows stats on your users, another on documentation, and another on Snowflake costs.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9faa7247-5186-4050-813c-d38b39785413.png" alt=""><figcaption></figcaption></figure>
 
 ### Filtering
 
 You are able to filter on the widgets in the dashboard. In the gif below, you can see how to filter on "Documented resources".
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e82ff41a-0f9e-417e-aab9-2695d2dbecca.png" alt=""><figcaption></figcaption></figure>
 
 ### Identifying undocumented resources
 
 Another important metric you can filter for here is **undocumented popular resources**. This would be an important metric to know about so that you can make sure to build out the documentation since your users are often visiting these resources.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/02963fdc-8fea-4050-9fd1-ece650bece2f.png" alt=""><figcaption></figcaption></figure>
 
 ### Widgets
 

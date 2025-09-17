@@ -4,7 +4,7 @@
 
 1. Go to the Secoda app > Settings > Security > SAML. Copy the **ACS UR**L and **Entity ID** for use in the following steps.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-04-23 at 10.43.53 AM (1).png" alt=""><figcaption><p>Secoda app > Settings > Security > SAML</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bdcfa9f7-e1ad-424b-bd6c-14c0f0a5f863.png" alt=""><figcaption><p>Secoda app > Settings > Security > SAML</p></figcaption></figure>
 
 2. In your Google **Admin console** (at admin.google.com)...
 3. Go to Menu ![""](https://storage.googleapis.com/support-kms-prod/JxKYG9DqcsormHflJJ8Z8bHuyVI5YheC0lAp)![and then](https://storage.googleapis.com/support-kms-prod/Th2Tx0uwPMOhsMPn7nRXMUo3vs6J0pto2DTn)![""](https://storage.googleapis.com/support-kms-prod/ocGtUSENh4QebLpvZcmLcNRZyaTBcolMRSyl) [Apps > Web and mobile apps](https://admin.google.com/ac/apps/unified).

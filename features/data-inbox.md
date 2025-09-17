@@ -6,7 +6,7 @@ description: >-
 
 # Inbox
 
-<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8ab8ee5d-a4bc-4f56-8961-fc171451dd0c.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 
@@ -29,10 +29,10 @@ These notifications are all configurable within the [notifications.md](notificat
 
 **Mark as read:** You are able to mark singular notifications are read by clicking into the notification, or by clicking the Mark as read button. You are also able to mark all notifications as read to easily clean up your notifications in one click.
 
-<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/63ef1a06-e451-4e63-9daa-5072eb86e4a7.png" alt=""><figcaption></figcaption></figure>
 
 ## Filter and search within notifications
 
 You can filter your Inbox to show only a certain type of notification, like notifications regarding Questions. You can specify for "Notification is" or "is not". You can toggle on to include the read/opened notifications as well, or toggle it off to see only net new notifications. You can also use the search icon :mag: to search for keywords.
 
-<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5d8aeb83-66fa-45ea-b62c-0095b93c3af3.png" alt=""><figcaption></figcaption></figure>

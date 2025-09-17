@@ -6,7 +6,7 @@ description: Send announcements to Secoda users in your workspaces
 
 Keep your team informed and aligned with workspace-wide communications through structured announcements that reach everyone who needs to know.
 
-<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/998b0828-2a5c-4916-997d-79c1f450154a.png" alt=""><figcaption></figcaption></figure>
 
 ### Overview⁠
 
@@ -14,7 +14,7 @@ Announcements are structured communications that help leaders and team members s
 
 Announcements ensure critical information reaches the right people at the right time, whether it's about new data sources, policy changes, feature releases, or team updates. They can be sent to specific users or broadcast to the entire workspace, with optional Slack integration for maximum visibility.
 
-<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/98766a4e-4153-4e28-bda0-854bd2c5331a.png" alt=""><figcaption></figcaption></figure>
 
 ### Create announcements⁠
 
@@ -34,13 +34,13 @@ Once you send an announcement, notifications are immediately dispatched to recip
 
 Announcements appear in recipients' notification inboxes and can be marked as read. Users can see the announcement content, related resources, and sender information. In addition announcements appear on the home page widget if the user was the recipient of an announcement.
 
-<figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8033f9e2-1a48-46fe-8c71-8902cd0ad99d.png" alt=""><figcaption></figcaption></figure>
 
 Announcement creators and users with appropriate permissions can edit announcements after they've been sent. Click the edit icon on any announcement you created to modify the content, recipients, or settings.
 
 To delete an announcement, click the menu icon beside the announcement and select delete. This will remove the announcement from all recipients' inboxes.
 
-<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1b5fdaea-a3fd-4331-9118-aa3dcf9ceab1.png" alt=""><figcaption></figcaption></figure>
 
 #### Slack integration details⁠
 

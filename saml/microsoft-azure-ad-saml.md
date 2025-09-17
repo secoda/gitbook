@@ -8,7 +8,7 @@ description: Set up Microsoft Azure SAML in three easy steps.
 
 1.  Go to the Secoda app > Settings > Security > SAML. Copy the **ACS URL** and **Entity ID** for use in the following steps
 
-    <figure><img src="../.gitbook/assets/Screenshot 2025-04-23 at 10.43.53 AM.png" alt=""><figcaption><p>Secoda app > Settings > Security > SAML</p></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/23a3e1c8-904b-4fed-a2fa-d5d1483d9fff.png" alt=""><figcaption><p>Secoda app > Settings > Security > SAML</p></figcaption></figure>
 2. Go to [portal.azure.com](http://portal.azure.com) and create a new **Enterprise application**. Click **Integrate any other application you don't find in the gallery (Non-gallery)**
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9dcadac8-e209-4326-a14e-291dff8c646e.png" alt=""><figcaption></figcaption></figure>

@@ -48,7 +48,7 @@ In addition the Teams that a Database, Schema, or Group are associated with can 
 
 This section lets you choose which users in your workspace have permission to query the resource through the preview, query block, and Secoda AI features, if the integration supports querying.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/a68af466-8891-472d-b57b-d3e3fb0cc559.png" alt=""><figcaption></figcaption></figure>
 
 #### Popularity
 

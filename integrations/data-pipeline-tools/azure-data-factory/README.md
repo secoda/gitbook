@@ -39,9 +39,9 @@ The Azure Data Factory integration uses OAuth 2.0 to connect Secoda to your Azur
 
 In the Manage -> API Permissions section of your App Registration, add the permissions `Azure Service Management.user_impersonation` and `Microsoft Graph.user_read`&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-12 at 11.51.41 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d38657d4-47d5-468d-88a8-de1e5188bcac.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-12-12 at 11.54.44 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/8415dc40-e70f-46d5-8273-e968f74ff8d0.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 5 ->Add the Azure Data Factory Integration To Secoda
 

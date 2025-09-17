@@ -39,7 +39,7 @@ The AI Assistant will reply in the channel, but this response will be _Only visi
 
 If a Slack conversation happens in another channel that is not listed in the Settings, you can still push this information into Secoda. Simply click the three dots, Push to Secoda, set a title of the question/conversation, and Submit.
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/737f8cfc-3e97-42e3-b138-e007978a1c81.png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The `Push to Secoda` option is now called `Ask data team…`&#x20;
