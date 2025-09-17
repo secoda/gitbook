@@ -49,4 +49,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git commit -m "chore: process assets and clean up local files [skip ci]"
-        git push origin main
+        git push origin master
