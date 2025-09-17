@@ -1,7 +1,6 @@
 name: Process Assets and Clean Repository
 
 on:
-  pull_request:
   workflow_dispatch:
   schedule:
     - cron: '0 2 * * *'  # Run daily at 2 AM UTC
