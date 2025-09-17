@@ -12,13 +12,13 @@ The Activity Log shows the history of activity on each resource. This includes w
 
 To access the Activity Log click on the three dot menu in the Properties sidebar on the top right-hand corner of the resource, and select **Activity Log**.
 
-<figure><img src="../.gitbook/assets/Kapture 2025-04-22 at 11.37.41.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/03344273-7084-4027-8a57-446b73b5bc04.gif" alt=""><figcaption></figcaption></figure>
 
 ### Version History
 
 In Secoda, versions are snapshots of an resource's state at a specific point in time. They capture all the edits and changes made, grouped by time, allowing users to track the evolution of documents, tables, or other resources. This versioning system enables users to review past changes, understand the history of modifications, and restore any previous version if needed, ensuring data integrity and flexibility in managing information.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ab1d5172-42ae-40f8-9fe3-0ef3db10fbc0.png" alt=""><figcaption></figcaption></figure>
 
 #### Reviewing Versions
 

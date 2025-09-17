@@ -32,7 +32,7 @@ Secoda uses the dbt Cloud REST API, which is only available paying dbt Cloud cus
 
 The minimum permissions are **Analyst** of the selected projects for the Service Account. Once the projects have been selected Save the token and copy the generated token.
 
-![](<../../../.gitbook/assets/Screenshot 2025-04-01 at 3.24.16 PM.png>)
+![](<https://secoda-public-media-assets.s3.amazonaws.com/251ade50-37a1-4b76-bfc0-208f405b8703.png>)
 
 #### **Connect dbt to Secoda** <a href="#h_d49e98be3a" id="h_d49e98be3a"></a>
 

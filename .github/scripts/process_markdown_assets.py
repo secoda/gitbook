@@ -17,8 +17,8 @@ bucket = s3.Bucket(bucket_name)
 
 # Define the regex patterns and replacement strings
 regex_patterns = [
-    r"(https://raw.*/.gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|mov|mp4|mpg|mpeg|m4v|pdf|csv)))",  # '.\g<1>'),
-    r"(\..*gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|pdf|csv)))"  # , '.\g<1>'),
+    r"(https://raw.*/.gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|mov|mp4|mpg|mpeg|m4v|pdf|csv|zip)))",  # '.\g<1>'),
+    r"(\..*gitbook/assets/(.*\.(gif|png|jpg|jpeg|webp|mov|mp4|mpg|mpeg|m4v|pdf|csv|zip)))"  # , '.\g<1>'),
     # Add more regex patterns and replacements as needed
 ]
 
@@ -35,20 +35,21 @@ def replace_with_uuids(file_path):
         original_content = content
         for match in re.findall(pattern, content):
             uuid_value = str(uuid.uuid4())
-
-            key = f"{uuid_value}.{match[2]}"
-            url = f"https://secoda-public-media-assets.s3.amazonaws.com/{key}"
-            print(f"Replacing {match[0]} with {url} in {file_path}")
-
             local_file_path = f".gitbook/assets/{match[1]}"
-            if "%" in local_file_path:
-                local_file_path = local_file_path.replace("%20", " ")
-                local_file_path = local_file_path.replace("\\", "")
 
             # Check if local file exists before uploading
             if os.path.exists(local_file_path):
+                key = f"{uuid_value}.{match[2]}"
+
                 # Only add to processed files if upload is successful
                 if upload_to_s3(local_file_path, key):
+                    url = f"https://secoda-public-media-assets.s3.amazonaws.com/{key}"
+                    print(f"Replacing {match[0]} with {url} in {file_path}")
+
+                    if "%" in local_file_path:
+                        local_file_path = local_file_path.replace("%20", " ")
+                        local_file_path = local_file_path.replace("\\", "")
+
                     successfully_uploaded_files.add(local_file_path)
                     content = content.replace(match[0], url)
                     file_modified = True

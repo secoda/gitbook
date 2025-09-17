@@ -76,9 +76,9 @@ Secoda AI surfaces intelligent suggestions across your data stack, including glo
 
 **Example Workflow:**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-29 at 9.29.29 AM.png" alt=""><figcaption><p>Ask Secoda AI for suggestions on glossary terms to enhance your workspace based on the context.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ad8388d5-ec13-4228-8e82-f4724515f59a.png" alt=""><figcaption><p>Ask Secoda AI for suggestions on glossary terms to enhance your workspace based on the context.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-29 at 9.41.59 AM.png" alt=""><figcaption><p>Review, edit, and create glossary terms directly from AI suggestions in Secoda.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/bc373647-e08b-4a8a-8d53-cfb51a48667e.png" alt=""><figcaption><p>Review, edit, and create glossary terms directly from AI suggestions in Secoda.</p></figcaption></figure>
 
 ## Conclusion
 

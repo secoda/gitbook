@@ -23,7 +23,7 @@ GitHub is a supplementary integration that track impact of potential changes and
 
 Once the connection is setup, Secoda will check any new pull requests opened in that repository for entities that exist within your workspace. If any deletions are present on the entities, a comment will be written on the pull request of the affected entities, and all immediate downstream entities. An email with the same information will be sent out to all owners of affected entities as well.
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/67b3fad4-de53-4795-8932-c7195f3ff8ea.png" alt=""><figcaption></figcaption></figure>
 
 ## Sync metadata back to dbt
 
@@ -34,7 +34,7 @@ Run a metadata sync to update your dbt resources with the info your have changed
 * owners
 * column descriptions
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d9fed4fc-6d6d-4ce8-ad7b-0a97645b6137.png" alt=""><figcaption></figcaption></figure>
 
 ## DBT model update preferences
 
@@ -47,4 +47,4 @@ When the `Sync columns to DBT models` setting is turned on:
 * If a column **does** exist, its metadata will be updated to match what’s stored in Secoda.
 * This is useful if you want Secoda to be your source of truth for column-level metadata.
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/b1ab0601-dfbc-4c36-b855-ad830bb1535a.png" alt=""><figcaption></figcaption></figure>

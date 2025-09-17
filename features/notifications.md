@@ -12,11 +12,11 @@ Viewers, editors, and admins can change their personal notification settings by 
 
 You can change how often you receive these notifications, where you'll receive the notifications and which kinds of notifications you'll receive.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/60d26f78-f53c-4596-a36b-3f2d81816d2a.png" alt=""><figcaption></figcaption></figure>
 
 ## Notification Channels
 
-<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/6b84f744-2355-422e-90c9-5d650ef0bead.png" alt=""><figcaption></figcaption></figure>
 
 ### In-App Notifications
 
@@ -38,13 +38,13 @@ One of the more important notification types that you might consider configuring
 Set these up in Settings by going to Notifications > Extractions > Table schema changed.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/80f7cffa-d044-4d31-b474-4d8d943cbd94.png" alt=""><figcaption></figcaption></figure>
 
 ## Subscribe to resource changes
 
 Each resource has a list of subscribers which can be found on the bottom right side of a resource. As an admin, you can subscribe team members to get notifications for updates on a resource. An update can include changes to any of the metadata such as the description, documentation, ownership, collections, and tags. A viewer can subscribe themselves to a resource but cannot modify the subscription list of any other users.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c4d2a128-57dc-4aa4-bef7-ba0c9c497a28.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data documentation yet? Sign up for free [here](http://app.secoda.co/) 👈

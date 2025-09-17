@@ -12,7 +12,7 @@ description: >-
 
 Policies in Secoda help organizations enforce data governance rules and maintain compliance across their data stack. With policies, teams can monitor, validate, and enforce data standards systematically.
 
-<figure><img src="../.gitbook/assets/policies.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/742b6056-24f3-42fc-b9ae-b52753f9c4e9.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Overview
 
@@ -45,7 +45,7 @@ To create a new policy:
 4. Add filters for resources that are governed by the policy, e.g., Snowflake production table
 5. Add conditions that must be met by the resources, e.g., Has owner
 
-<figure><img src="../.gitbook/assets/image (97).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/234b8ca6-b78f-420f-b1b9-c95566843302.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Managing Issues
 
@@ -71,13 +71,13 @@ Policy issues are flagged resources that do not meet the conditions defined in y
 
 When a policy is associated with structured metadata—such as classifications, owners, or descriptions—Secoda allows you to create an automation directly from the policy screen. This helps streamline setup by pre-filling relevant conditions and actions based on the policy definition.
 
-<figure><img src="../.gitbook/assets/Automation created.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/f6473a57-3353-4ca0-9b22-d9909ff0aad9.png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### Policy Page
 
-<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/9bf579be-d152-48f9-bd6a-4b0553ee188a.png" alt=""><figcaption></figcaption></figure>
 
 #### Overview Tab
 

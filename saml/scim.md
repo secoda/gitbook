@@ -29,12 +29,12 @@ Follow the directions below for your identity provider to setup the SCIM integra
 * For _Authentication mode_ field, choose HTTP Header and enter your Bearer token generated from your API settings in Secoda
 * For _Supported provisioning actions_ only enable "Push New Users", "Push Profile Updates", "Push Groups"
 
-<figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/db613534-681d-4ce6-8ba7-23827b561cec.png" alt=""><figcaption></figcaption></figure>
 
 *   Then you may check the following _Provisioning to App_\
 
 
-    <figure><img src="../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/65e43c69-96e7-49de-99d6-07c1905b95b9.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="OneLogin" %}
@@ -63,13 +63,13 @@ Follow the directions below for your identity provider to setup the SCIM integra
 
 When users are assigned to your Okta application they will receive an invitation email to join Secoda. These users will be populated in Secoda in an "Invited" state. You must filter by "Invited" to see these users.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-16 at 8.16.52 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/cbbf7159-46b8-4c84-9223-602458c6ce6c.png" alt=""><figcaption></figcaption></figure>
 
 When Groups are pushed, they will appear under the "Groups" tab on "Members and permissions". "Invited" users will not appear as a group member until the user activates their account by signing in for the first time.
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/4fa784ab-2c21-4e75-ae14-efeb6e4b1c8d.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/76ef453b-4174-4f78-8c72-d7e03303d0ae.png" alt=""><figcaption></figcaption></figure>
 
 ### Advanced
 

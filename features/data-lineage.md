@@ -70,7 +70,7 @@ For lineage that exists between integrations or depends on another integration (
 
 Interested in exporting the lineage graph that Secoda created for you? Simply click the Export PNG or Export to CSV button which will download a file of the lineage graph you are clicked into.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-07-22 at 11.43.08 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/d03418ee-f767-42a4-a6f2-a2b2536feb63.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Not using Secoda to manage your data knowledge yet? Sign up for free [here](https://app.secoda.co) 👈

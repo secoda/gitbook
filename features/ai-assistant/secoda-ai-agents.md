@@ -13,7 +13,7 @@ Agents let you schedule recurring runs of your most useful Secoda AI conversatio
 
 You can access agents in the Secoda AI chat interface by selecting the Agents tab.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 2.03.48 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/adb1f36b-2ecf-445a-9f86-db6cec6a9e26.png" alt=""><figcaption></figcaption></figure>
 
 ### How It Works
 
@@ -24,7 +24,7 @@ Start by creating an agent in one of two ways:
 * **Custom Agent**: Build from scratch with complete flexibility
 * **Template**: Choose from pre-built templates for common use cases
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 2.04.33 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/897d93bb-f0ef-4cd1-8cff-9a0b6b9a76f9.png" alt=""><figcaption></figcaption></figure>
 
 #### 2. **Configure Your Agent**
 
@@ -36,13 +36,13 @@ Set up your agent with:
 * **Schedule**: Set cron-based scheduling (minimum 1-hour intervals)
 * **Web search**: Enable external documentation research when relevant
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 2.10.50 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/190fbf09-ea46-459c-b2a5-a009182ecde3.png" alt=""><figcaption></figcaption></figure>
 
 #### 3. **Schedule & Monitor**
 
 Your agent runs automatically according to your schedule. View execution history, run status, and manually trigger runs when needed.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 2.18.56 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5af816f4-d889-4120-92be-ecb20da54298.png" alt=""><figcaption></figcaption></figure>
 
 #### 4. **Get Results**
 

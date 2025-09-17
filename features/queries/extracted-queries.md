@@ -23,7 +23,7 @@ During the extraction process, Secoda retrieves the queries since the last integ
 
 ### How to Access Queries Run on a Resource
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/c701169e-8ef5-443d-9551-1e3e21a611ad.png" alt=""><figcaption></figcaption></figure>
 
 To view detailed information about queries run on a specific resource, follow these steps:
 
@@ -68,6 +68,6 @@ To view a comprehensive list of all extracted queries within the last 30 days ac
 
 For resources created from a query (e.g., Views), the Creation Query can be found by clicking the `</>` icon in the top right-hand corner. This query can also be copied for easy reuse.
 
-<figure><img src="../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ad7c8be5-d290-4bdb-b46c-e8d757f33a26.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/be747437-f61a-4942-afb1-d2043c6c5a36.gif" alt=""><figcaption></figcaption></figure>

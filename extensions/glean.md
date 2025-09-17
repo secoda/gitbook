@@ -21,7 +21,7 @@ From Glean, you'll need two pieces of information:
 
 Glean provides step by step [instructions](https://developers.glean.com/indexing/authentication/managing-tokens) on how to create a token; however, please ensure that `secoda` is input into the `Scopes` field as a datasource. The rest of the config is discretional.
 
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/1a67e582-f13d-49cf-a23c-26a9165138fa.png" alt=""><figcaption></figcaption></figure>
 
 ### Connecting Glean to Secoda
 
@@ -43,19 +43,19 @@ By default, **all** **entities** with these entity types have their metadata pus
 
 However, it's possible to **include** or **exclude** which entities get pushed using filter rules. For example, here's a simple include rule that ensures only documents get pushed to Glean:
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/5b122d88-d5b2-4e77-a01a-1cfa60ce7b06.png" alt=""><figcaption></figcaption></figure>
 
 Pushes to Glean can also be run on a schedule automatically by providing a [cron expression](https://crontab.guru/) in the **Schedule** tab:
 
-<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/ec263987-092c-44a4-8c2b-f73f4a7e4b66.png" alt=""><figcaption></figcaption></figure>
 
 For a manual refresh of Glean's index, click on **Run sync** and then **Push metadata** at the top right:
 
-<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/10a7216d-8c00-4966-99b2-199e61dade50.png" alt=""><figcaption></figcaption></figure>
 
 After Secoda resources are indexed in Glean, the metadata and resource itself will begin appearing in search results. The results are hyperlinked to the resource in Secoda.
 
-<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e3868158-0189-47be-9968-9ec01cd2a498.png" alt=""><figcaption></figcaption></figure>
 
 ### Important Notes
 

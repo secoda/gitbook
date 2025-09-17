@@ -24,7 +24,7 @@ By default, Secoda AI is disabled. To activate it:
 2. Toggle on the Secoda AI.
 3. Once enabled, the Secoda AI will appear in the left-hand menu of your workspace.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/0ca3acba-58d7-4534-812f-04fe215dc41d.png" alt=""><figcaption></figcaption></figure>
 
 ## **Charting**
 
@@ -58,7 +58,7 @@ To ask questions given the context of your workspace, simply engage with the Sec
 
 Admins can customize AI settings to align with workspace preferences and security protocols:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/efd7da2f-1f6b-4bfa-a19b-e8632eb91b6f.png" alt=""><figcaption></figcaption></figure>
 
 ### **Governance**
 
@@ -193,7 +193,7 @@ Workspace admins can view chats from Editors/Viewers without any permissions.&#x
 
 However, for Editors/Viewers to have access to the chats of other users, proper access needs to be granted. To grant access, click on the `Share Chat` button and extend access to the Secoda workspace to share your AI conversations with the team.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-23 at 2.55.53 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/33e4d7a7-a31f-42be-9af7-9d28778ad826.png" alt=""><figcaption></figcaption></figure>
 
 ## Additional documentation
 

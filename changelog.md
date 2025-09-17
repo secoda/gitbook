@@ -183,7 +183,7 @@ This update gives you more flexibility and control over your Secoda AI experienc
 
 We’re excited to offer [custom roles](https://secoda.intercom-clicks.com/via/e?ob=BDTKtEPMtfMxfBwMvVupbcjSn%2BR6c0pU5ll2LxhFHxI1r2twHbF7UliJKQsNFUKR\&h=07983fe4d2943021055cf67c7736e6f480e8d5e3-dssmg53d_615450\&l=0c63de3ed5e84eaa8a62c68782a795de7f558cf0-131246877) in early access, giving your teams more flexibility and control over access permissions. Static roles can be limiting—Secoda’s fine-grained permissions ensure everyone gets access to exactly what they need, and nothing more.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/accbad26-a693-40d2-b632-d573b9d7a800.png" alt=""><figcaption></figcaption></figure>
 
 Key features:
 

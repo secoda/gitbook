@@ -72,4 +72,4 @@ By following these guidelines, you can significantly enhance your productivity a
 
 **Don't just take our word for it! Ask the tool itself** :wink:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-05 at 3.57.35 PM.png" alt=""><figcaption><p>Secoda AI's response to the best way to use it.</p></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/e030d886-8f89-4c95-93fb-9486305ffe93.png" alt=""><figcaption><p>Secoda AI's response to the best way to use it.</p></figcaption></figure>

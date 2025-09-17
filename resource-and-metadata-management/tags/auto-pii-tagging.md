@@ -16,7 +16,7 @@ You can automate this process by creating an [automations.md](../../features/aut
 
 You can easily find and tag PII data in Secoda. To do so, go to [**Settings**](../../readme/secoda-as-an-admin/settings.md) **-> Features -> PII scanning**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-24 at 12.35.08 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/95036f6d-eeb8-4664-84cf-8896e23cd24f.png" alt=""><figcaption></figcaption></figure>
 
 Once you're in the PII scanning tab, you can see all the tables and columns that Secoda has identified that may contain PII data. You can select or deselect any of these columns or tables before applying the PII tag.
 
@@ -26,7 +26,7 @@ Secoda identifies PII columns based on a set of keywords that match column names
 
 After tagging your data with the PII tag, these will populate in the **Governance** metadata column in your Catalog.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-24 at 12.37.59 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://secoda-public-media-assets.s3.amazonaws.com/73c11b85-f61e-4c51-829f-0899de8a4f96.png" alt=""><figcaption></figcaption></figure>
 
 ## PII and Previews
 
