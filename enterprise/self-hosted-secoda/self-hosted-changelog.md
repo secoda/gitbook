@@ -6,6 +6,16 @@ description: >-
 
 # Self-Hosted Changelog
 
+### v2025.3.6 (September 16, 2025)
+
+* Ingest Apps from Power BI
+
+### v2025.3.5 (September 12, 2025)
+
+* Secoda AI Agents
+* AI Automation Block
+* Secoda AI in Teams
+
 ### v2025.3.4 (August 29, 2025)
 
 * Secoda AI suggestions
