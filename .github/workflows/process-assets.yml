@@ -1,6 +1,10 @@
 name: Process Assets and Clean Repository
 
 on:
+<<<<<<< HEAD
+=======
+  pull_request:
+>>>>>>> 7b72053 (ci: Add schedule trigger for daily workflow run)
   workflow_dispatch:
   schedule:
     - cron: '0 2 * * *'  # Run daily at 2 AM UTC
