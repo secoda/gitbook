@@ -25,7 +25,7 @@ To install the Secoda AI for Microsoft Teams App, follow these steps.
 3. Choose the Secoda app package file:
 4. Click **Upload** to proceed
 
-{% file src="../.gitbook/assets/secoda_ai_microsoft_teams_app.zip" %}
+{% file src="https://secoda-public-media-assets.s3.amazonaws.com/14ac29f3-06d4-45ca-a415-64fcda3128f2.zip" %}
 
 #### Step 3: Review and Install <a href="#id-8a36b728-a5df-4732-9396-96a7e54bb9d0" id="id-8a36b728-a5df-4732-9396-96a7e54bb9d0"></a>
 

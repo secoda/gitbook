@@ -33,4 +33,4 @@ Automatically add property documentation by leveraging some best practices withi
 * **Relate Resources**: Create [links](../relating-resources.md) between different datasets to establish and visualize relationships.
 * **Assign Ownership**: Define [ownership](../assigning-owners.md) for datasets to clarify responsibilities and direct queries.
 
-{% file src="../../.gitbook/assets/Kapture 2024-07-02 at 15.46.11 (3).mp4" %}
+{% file src="https://secoda-public-media-assets.s3.amazonaws.com/26a01390-a32d-4ecd-b9e8-fe1612c434d5.mp4" %}
