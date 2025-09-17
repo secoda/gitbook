@@ -1,10 +1,7 @@
 name: Process Assets and Clean Repository
 
 on:
-  schedule:
-    # Run daily at 2 AM UTC
-    - cron: '0 2 * * *'
-  workflow_dispatch: # Allow manual triggering
+  pull_request:
 
 jobs:
   process-assets:
