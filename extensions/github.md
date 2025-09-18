@@ -1,5 +1,5 @@
 ---
-description: An overview of the GitHub integration with Secoda
+description: An overview of the GitHub extension with Secoda
 ---
 
 # GitHub
@@ -12,7 +12,7 @@ GitHub is a supplementary integration that track impact of potential changes and
 
 ### Connect Github to Secoda
 
-1. In the Secoda App, select ‘Add Integration’ on the Integrations tab.
+1. In the Secoda App, select ‘Add Extensions’ in Workspace Settings > Extensions.
 2. Search for and select GitHub.
 3. Click 'Connect with OAuth' and follow the login steps, if needed.
 4. Select the location you want to install, either personal or organization.
@@ -38,7 +38,7 @@ Run a metadata sync to update your dbt resources with the info your have changed
 
 ## DBT model update preferences
 
-This setting determines whether Secoda should automatically sync column-level metadata — such as column names, descriptions, and tags — from your tables in Secoda back to your dbt model `.yml` files in GitHub.&#x20;
+This setting determines whether Secoda should automatically sync column-level metadata — such as column names, descriptions, and tags — from your tables in Secoda back to your dbt model `.yml` files in GitHub.
 
 When the `Sync columns to DBT models` setting is turned on:
 
