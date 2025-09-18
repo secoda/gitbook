@@ -13,7 +13,7 @@ Tunnels require you to run an SSH server process ([SSHD](https://www.ssh.com/aca
 There are three main steps to set up a tunnel:
 
 1. Configure a host in your environment that is accessible from the public internet. Make sure the [Secoda IP address](../../faq.md#what-are-the-ip-addresses-for-secoda) is whitelisted.
-2. [Create a Tunnel in Secoda](https://app.secoda.co/tunnels/new) and add in the configuration details from the host (`SSH Username`, `SSH Hostname`, `Port`). Once you submit these details, a Public Key will be shown.
+2. [Create a Tunnel in Secoda](https://app.secoda.co/tunnels/) and add in the configuration details from the host (`SSH Username`, `SSH Hostname`, `Port`). Once you submit these details, a Public Key will be shown.
 3. Add the Public Key to the `authorized_keys` file in your host.
 
 #### AWS
