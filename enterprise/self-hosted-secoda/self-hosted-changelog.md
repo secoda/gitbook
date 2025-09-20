@@ -6,6 +6,21 @@ description: >-
 
 # Self-Hosted Changelog
 
+## v2025.3.7
+
+### Release Notes
+## What's Changed
+* feat: carter/fix-ci-3 by @LikeCarter in https://github.com/secoda/secoda/pull/11318
+
+
+**Full Changelog**: https://github.com/secoda/secoda/compare/v2025.3.6...v2025.3.7
+
+### Related Linear Tickets
+- No Linear tickets found in this release
+
+---
+
+
 ### v2025.3.6 (September 16, 2025)
 
 * Ingest Apps from Power BI
