@@ -1,3 +1,14 @@
+## v1.0.0
+
+### Release Notes
+Release content
+
+### Related Linear Tickets
+- No Linear tickets found in this release
+
+---
+
+
 ---
 description: >-
   Self-hosted images are updated less frequently than the Secoda SaaS platform.
